@@ -44,6 +44,7 @@ body#gs{
    font-size: 14px;
 }
 .gs_title {
+   font-family: var(--font);
    position: relative;
    padding: 10px 0 15px 60px;
    border-radius: 28px;
@@ -66,6 +67,7 @@ body#gs{
    border-radius: 28px;
 }
 .gs_quest a{
+   font-family: var(--font);
    font-size: 16px;
    font-weight: bold;
    color: #2c21a6;
@@ -106,6 +108,7 @@ body#gs{
    border-radius: 8px;
 }
 .gs_quest__info li {
+   font-family: var(--font);
    position: relative;
    padding-left: 24px;
    margin-bottom: 7px;
@@ -346,9 +349,11 @@ p + p {margin: 10px;}
 }
 .gs_p--40{margin-bottom: 40px !important;}
 .gs_p--32{margin-bottom: 32px !important;}
+.gs_h2--40{margin: 0 0 8px -40px;}
 .gs_wrapper_h3 {
    position: relative;
    padding-left: 20px;
+   margin-bottom: 14px;
    font-size: 18px;
    color: #585858;
    font-weight: bold;
@@ -363,3 +368,12 @@ p + p {margin: 10px;}
    border-radius: 14px;
    background-color: #d99857;
 }
+.gs_wrapper_h4 {
+   position: relative;
+   margin-bottom: 16px;
+   font-size: 14px;
+   font-weight: bold;
+   color: #585858;
+   font-family: var(--font);
+}
+.gs_base_img {margin-bottom: 10px;}
