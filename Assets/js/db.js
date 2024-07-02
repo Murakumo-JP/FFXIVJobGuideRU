@@ -294,6 +294,7 @@ function FILL_DB_ROLE_ACTIONS(DB){
 		let jobclass_01 = skill['job_class_01'] ? '<img src="../Assets/img/main/'+skill['job_class_01']+'.png">' : '';
 		let jobclass_02 = skill['job_class_02'] ? '<img src="../Assets/img/main/'+skill['job_class_02']+'.png">' : '';
 		let jobclass_03 = skill['job_class_03'] ? '<img src="../Assets/img/main/'+skill['job_class_03']+'.png">' : '';
+		let cost = skill['cost'] ? '<td class="cost">'+skill['cost']+'</td>' : '';
 		this.innerHTML = `
 		<td class="skill">
             <div class="skill_wrapper">
@@ -318,6 +319,7 @@ function FILL_DB_ROLE_ACTIONS(DB){
          <td class="classification">`+skill['classification']+`</td>
          <td class="cast">`+skill['cast']+`</td>
          <td class="recast">`+skill['recast']+`</td>
+			`+cost+`
          <td class="distant_range">
 				<div class="range">
 					<img src="../Assets/img/main/Range.png">
@@ -340,6 +342,9 @@ function FILL_DB_ROLE_TRAITS(DB){
 			console.error('Skill "' + key + '" not found')
 			return
 		}
+		let jobclass_01 = skill['job_class_01'] ? '<img src="../Assets/img/main/'+skill['job_class_01']+'.png">' : '';
+		let jobclass_02 = skill['job_class_02'] ? '<img src="../Assets/img/main/'+skill['job_class_02']+'.png">' : '';
+		let jobclass_03 = skill['job_class_03'] ? '<img src="../Assets/img/main/'+skill['job_class_03']+'.png">' : '';
 		this.innerHTML = `
 		<td class="skill">
 			<div class="skill_wrapper">
@@ -352,7 +357,9 @@ function FILL_DB_ROLE_TRAITS(DB){
 		<td class="jobclass">
 			<div class="jobclass_wrapper">
 				<div class="jobclass_wrapper_icon">
-					<img src="../Assets/img/main/`+skill['job_icon']+`.png">
+					`+jobclass_01+`
+					`+jobclass_02+`
+					`+jobclass_03+`
 				</div>
 				<p>Ур. `+skill['level']+`</p>
 			</div>
