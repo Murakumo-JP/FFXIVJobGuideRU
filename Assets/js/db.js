@@ -74,6 +74,10 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 	$('*[db-skill-passive]').each(function () {
 		let key = this.getAttribute('db-skill-passive');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание на получение</a>' : '';
 		this.innerHTML = `
 		<td class="skill">
@@ -105,6 +109,10 @@ function FILL_DB_SKILLS_PVP(DB){
 	$('*[db-skill-pvp]').each(function () {
 		let key = this.getAttribute('db-skill-pvp');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		let classification = skill['classification'] ? '<td class="classification">'+skill['classification']+'</td>' : '';
 		this.innerHTML = `
 		<td class="skill">
@@ -138,6 +146,10 @@ function FILL_DB_PVP_ACTIONS(DB){
 	$('*[db-pvp-actions]').each(function () {
 		let key = this.getAttribute('db-pvp-actions');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		this.innerHTML = `
 		<td class="skill">
 			<div class="skill_wrapper">
@@ -171,6 +183,10 @@ function FILL_DB_SKILLS_LIMITED(DB){
 	$('*[db-skill-limited]').each(function () {
 		let key = this.getAttribute('db-skill-limited');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		this.innerHTML = `
 		<td class="skill">
 			<div class="skill_wrapper">
@@ -204,6 +220,10 @@ function FILL_DB_SKILLS_MENU(DB){
 	$('*[db-skill-menu]').each(function () {
 		let key = this.getAttribute('db-skill-menu');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		this.innerHTML = `<p title="`+ skill['name'] +`"></p><img src="`+skill['skill_icon']+`">`
 	});
 }
@@ -213,6 +233,10 @@ function FILL_DB_SKILLS_CRAFT(DB){
 	$('*[db-skill-craft]').each(function () {
 		let key = this.getAttribute('db-skill-craft');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		let skill_icon = skill['skill_icon'];
 		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Классовое задание</a>' : '';
 		if(typeof skill_icon !== 'string'){
@@ -250,6 +274,10 @@ function FILL_DB_CRAFT_PASSIVE(DB){
 	$('*[db-craft-passive]').each(function () {
 		let key = this.getAttribute('db-craft-passive');
 		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
 		let skill_icon = skill['skill_icon'];
 		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Классовое задание</a>' : '';
 		let cost = skill['cost'] ? '<td class="cost">'+skill['cost']+' CP</td>' : '';

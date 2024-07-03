@@ -224,6 +224,113 @@
          "level": '94',
          "content": 'Сокращает время восстановления Swiftcast до 40 секунд.',
       },
+      //==============================//
+      // Melee DPS Action and Traits //
+      //============================//
+      // Role Action Melee DPS 01
+      "RA MeleeDPS 01": {
+         "name": 'Second Wind',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2b79d78f1ed471ace5708898e3388062fbd555fb.png',
+         "job_class_01": 'MeleeDPS',
+         "job_class_02": 'PhysicalRangedDPS',
+         "level": '8',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '120 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Мгновенно восстанавливает HP персонажа.<br/>Сила лечения: 800',
+      },
+      // Role Action Melee DPS 02
+      "RA MeleeDPS 02": {
+         "name": 'Leg Sweep',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c9674aba5fe48e73cc80ceb4a49782c1539b942.png',
+         "job_class_01": 'MeleeDPS',
+         "level": '10',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '40 сек.',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Оглушает (stun) цель.<br/>Продолжительность: 3 сек.',
+      },
+      // Role Action Melee DPS 03
+      "RA MeleeDPS 03": {
+         "name": 'Bloodbath',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f76d6999b80178e51cfedf68f3af69ce6ed5016f.png',
+         "job_class_01": 'MeleeDPS',
+         "level": '12',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '90 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Преобразует часть нанесенного физического урона в HP.<br/>Продолжительность: 20 сек.',
+      },
+      // Role Action Melee DPS 04
+      "RA MeleeDPS 04": {
+         "name": 'Feint',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/84c26a86cbbb8a599e5a2441cebcd33b0064bf07.png',
+         "job_class_01": 'MeleeDPS',
+         "level": '22',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '90 сек.',
+         "range": '10y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Снижает наносимый целью физический урон на 10% и магический урон на 5%.<br/>Продолжительность: 15 сек.',
+      },
+      // Role Action Melee DPS 05
+      "RA MeleeDPS 05": {
+         "name": "Arm's Length",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/00ff21ad3e1fb26d7b292a9d912931e7ea64daa4.png',
+         "job_class_01": 'Tank',
+         "job_class_02": 'MeleeDPS',
+         "job_class_03": 'PhysicalRangedDPS',
+         "level": '32',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '120 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Создаёт барьер, защищающий от большинства эффектов отбрасывания и притягивания.<br/>Продолжительность: 6 сек.<br/>Дополнительный эффект: замедление (slow) +20% при ударе о барьер<br/>Продолжительность: 15 сек.',
+      },
+      // Role Action Melee DPS 06
+      "RA MeleeDPS 06": {
+         "name": 'True North',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2d62e72f5da6d52e189c1ed10dfbd602625fc536.png',
+         "job_class_01": 'MeleeDPS',
+         "level": '50',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '45 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Отменяет все позиционные требования умений.<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2',
+      },
+      // Role Traits MeleeDPS 01
+      "RT MeleeDPS 01": {
+         "name": 'Enhanced Second Wind',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dccd320d548ebfe264816b020f67211d2a310bb9.png',
+         "job_class_01": 'MeleeDPS',
+         "job_class_02": 'PhysicalRangedDPS',
+         "level": '94',
+         "content": 'Увеличивает силу лечения от умения Second Wind до 800.',
+      },
+      // Role Traits MeleeDPS 02
+      "RT MeleeDPS 02": {
+         "name": 'Enhanced Feint',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dda2a9e930cb141e91f00c4f2eda5fd5e1678e07.png',
+         "job_class_01": 'MeleeDPS',
+         "level": '98',
+         "content": 'Увеличивает продолжительность действия Feint до 15 секунд.',
+      },
 
       // PVP Actions 01
       "PVP Actions 01": {
@@ -291,6 +398,7 @@
          "content": 'величивает скорость передвижения на 50%.<br/>Эффект заканчивается при повторном использовании или активации другого умения.',
       },
    };
+   
    FILL_DB_ROLE_ACTIONS(db);
    FILL_DB_ROLE_TRAITS(db);
    FILL_DB_PVP_ACTIONS(db);
