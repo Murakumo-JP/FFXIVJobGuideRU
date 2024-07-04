@@ -331,7 +331,107 @@
          "level": '98',
          "content": 'Увеличивает продолжительность действия Feint до 15 секунд.',
       },
-
+      //================================//
+      // Magical DPS Action and Traits //
+      //==============================//
+      // Role Action Magical DPS 01
+      "RA MagicalDPS 01": {
+         "name": 'Addle',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b45e688d81b5607246600f904aac008364db0d1e.png',
+         "job_class_01": 'MagicalRangedDPS',
+         "level": '8',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '90 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Снижает наносимый целью физический урон на 5% и магический урон на 10%.<br/>Продолжительность: 15 сек.',
+      },
+      // Role Action Magical DPS 02
+      "RA MagicalDPS 02": {
+         "name": 'Sleep',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/10e9fb5302668c923b8237ffbd4841ccc6c2edb4.png',
+         "job_class_01": 'MagicalRangedDPS',
+         "level": '10',
+         "classification": 'Заклинание',
+         "cast": '2.5 сек.',
+         "recast": '2.5 сек.',
+         "cost": '800 MP',
+         "range": '30y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Усыпляет цель и всех ближайших противников (sleep).<br/>Продолжительность: 30 сек<br/>Прерывает авто атаки при использовании умения',
+      },
+      // Role Action Magical DPS 03
+      "RA MagicalDPS 03": {
+         "name": 'Swiftcast',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/27d401b3cfbf90c846ffeaa9f661afb4bd77ce98.png',
+         "job_class_01": 'Healer',
+         "job_class_02": 'MagicalRangedDPS',
+         "level": '18',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '40 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Следующее заклинание будет использовано мгновенно.<br/>Продолжительность: 10 сек.',
+      },
+      // Role Action Magical DPS 04
+      "RA MagicalDPS 04": {
+         "name": 'Lucid Dreaming',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3629c6854aa559656623925e2489b60c2fa91e18.png',
+         "job_class_01": 'Healer',
+         "job_class_02": 'MagicalRangedDPS',
+         "level": '14',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '60 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Постепенно восстанавливает MP персонажа.<br/>Сила: 55<br/>Продолжительность: 21 сек.',
+      },
+      // Role Action Magical DPS 05
+      "RA MagicalDPS 05": {
+         "name": 'Surecast',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/477d1e7f7115db19c344c0f5cadfcfa2ac0cdcc0.png',
+         "job_class_01": 'Healer',
+         "job_class_02": 'MagicalRangedDPS',
+         "level": '44',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '120 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Пока действует эффект Surecast, использование заклинаний не сможет быть прервано входящим уроном.<br/>Дополнительный эффект: дает иммунитет к большинству эффектов отталкивания и притягивания<br/>Продолжительность: 6 сек.',
+      },
+      // Role Traits MagicalDPS 01
+      "RT MagicalDPS 01": {
+         "name": 'Enhanced Swiftcast',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0948538a89b748ec2d1f2c6c8ad2afe383a740d3.png',
+         "job_class_01": 'Healer',
+         "job_class_02": 'MagicalRangedDPS',
+         "level": '94',
+         "content": 'Сокращает время восстановления Swiftcast до 40 секунд.',
+      },
+      // Role Traits MagicalDPS 02
+      "RT MagicalDPS 02": {
+         "name": 'Enhanced Addle',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/590a381c0421f33d428c1dd51293c715a1a53ee7.png',
+         "job_class_01": 'MagicalRangedDPS',
+         "level": '98',
+         "content": 'Увеличивает продолжительность действия Addle до 15 секунд.',
+      },
+      //=============//
+      // PVP Action //
+      //===========//
       // PVP Actions 01
       "PVP Actions 01": {
          "name": 'Standard-issue Elixir',
