@@ -219,14 +219,8 @@
 .guide-thead th {
 	padding: 0 1px;
 }
-.guide-thead th:nth-child(1) p {
-	width: 191px;
-}
 .guide-thead th:nth-child(2) {
 	padding-left: 0;
-}
-.guide-thead th:nth-child(2) p {
-	width: 84px;
 }
 .guide-thead p {
 	display: flex;

@@ -229,7 +229,45 @@
                   </table>
                </div>
                <!-- Content Wrapper -->
-               <div class="job_content_wrapper" id="jq_tank"></div>
+               <div class="job_content_wrapper">
+                  <h3 class="job_sub_title" id="anchor_rollcommonaction">Ролевые умения</h3>
+                  <p class="job_text">Ролевые умения - это способности, общие для классов и специализаций с одинаковой ролью.</p>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="180">
+                        <col width="90">
+                        <col width="81">
+                        <col width="99">
+                        <col width="113">
+                        <col width="83">
+                        <col width="268">
+                     </colgroup>
+                     <thead class="job_tank_table">
+                        <tr class="job_thead">
+                           <th><p><span>Название умения</span></p></th>
+                           <th><p><span>Уровень получения</span></p></th>
+                           <th><p><span>Тип</span></p></th>
+                           <th><p><span>Длительность применения</span></p></th>
+                           <th><p><span>Время восстановления</span></p></th>
+                           <th>
+                              <div><p><span>Дальность действия</span></p></div>
+                              <hr>
+                              <div><p><span>Радиус</span></p></div>
+                           </th>
+                           <th><p><span>Эффект</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody ra_tank">
+                        <tr id="tank_action_01" db-role-action="Role Action 01"></tr>
+                        <tr id="tank_action_02" db-role-action="Role Action 02"></tr>
+                        <tr id="tank_action_03" db-role-action="Role Action 03"></tr>
+                        <tr id="tank_action_04" db-role-action="Role Action 04"></tr>
+                        <tr id="tank_action_05" db-role-action="Role Action 05"></tr>
+                        <tr id="tank_action_06" db-role-action="Role Action 06"></tr>
+                        <tr id="tank_action_07" db-role-action="Role Action 07"></tr>
+                     </tbody>
+                  </table>
+               </div>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
                   <h3 class="job_sub_title" id="anchor_onlytrait">Пассивные умения</h3>
@@ -264,7 +302,27 @@
                   </table>
                </div>
                <!-- Content Wrapper -->
-               <div class="job_content_wrapper" id="jq_tank_traits"></div>
+               <div class="job_content_wrapper">
+                  <h3 class="job_sub_title" id="anchor_rollcommontrait">Ролевые пассивные умения</h3>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191">
+                        <col width="90">
+                        <col width="645">
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Название умения</span></p></th>
+                           <th><p><span>Уровень получения</span></p></th>
+                           <th><p><span>Эффект</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <tr id="tank_action_01" db-role-traits="RT Tank 01"></tr>
+                        <tr id="tank_action_02" db-role-traits="RT Tank 02"></tr>
+                     </tbody>
+                  </table>
+               </div>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
                   <h2 class="job_title" id="anchor_pve_combo">Комбо</h2>
@@ -509,7 +567,43 @@
                   </table>
                </div>
                <!-- Content Wrapper -->
-               <div class="job_content_wrapper" id="jq_actions"></div>
+               <div class="job_content_wrapper">
+                  <h3 class="job_sub_title" id="anchor_pvp_commononlyaction">Общие умения</h3>
+                  <p class="job_text">Эти умения являются общими для всех классов.</p>
+                  <table class="job_table">
+                     <colgroup>
+                        <col width="191" />
+                        <col width="84" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="74" />
+                        <col width="349" />
+                     </colgroup>
+                     <thead>
+                        <tr class="job_thead">
+                           <th><p><span>Наименование умения</span></p></th>
+                           <th><p><span>Тип</span></p></th>
+                           <th><p><span>Длительность применения</span></p></th>
+                           <th><p><span>Время восстановления</span></p></th>
+                           <th><p><span>Стоимость MP</span></p></th>
+                           <th>
+                              <div><p><span>Дальность действия</span></p></div>
+                              <hr/>
+                              <div><p><span>Радиус</span></p></div>
+                           </th>
+                           <th><p><span>Эффект</span></p></th>
+                        </tr>
+                     </thead>
+                     <tbody class="job_tbody">
+                        <tr id="pvpcommmononlyaction_01" db-pvp-actions="PVP Actions 01"></tr>
+                        <tr id="pvpcommmononlyaction_02" db-pvp-actions="PVP Actions 02"></tr>
+                        <tr id="pvpcommmononlyaction_03" db-pvp-actions="PVP Actions 03"></tr>
+                        <tr id="pvpcommmononlyaction_04" db-pvp-actions="PVP Actions 04"></tr>
+                        <tr id="pvpcommmononlyaction_05" db-pvp-actions="PVP Actions 05"></tr>
+                     </tbody>
+                  </table>
+               </div>
             </div>
          </div>
       </div>
@@ -532,6 +626,7 @@
       <!--- Script --->
       <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
       <script type="text/javascript" src="../DB/DarkKnight.js?29062024"></script>
+      <script type="text/javascript" src="../DB/RoleActions.js?01072024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
