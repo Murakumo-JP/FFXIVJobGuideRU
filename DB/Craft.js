@@ -49,7 +49,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Hasty Touch.png",
          "level": '9',
          "cost": '0',
-         "content": "Пополняет шкалу quality, без затрат CP.<br/>Эффективность: 100%<br/>Шанс успеха: 60%",
+         "content": "Пополняет шкалу quality, без затрат CP.<br/>Эффективность: 100%<br/>Шанс успеха: 60%<br/>Дополнительный эффект: накладывает эффект Expedience на 1 шаг",
       },
       // Action 05
       "Action 05": {
@@ -222,7 +222,7 @@
          },
          "level": '68',
          "cost": '46',
-         "content": "Пополняет шкалу quality.<br/>Эффективность: 150%<br/>Шанс успеха: 100%<br/>Комбо умение: Standard Touch<br/>Комбо бонус: стоимость CP снижена до 18",
+         "content": "Пополняет шкалу quality.<br/>Эффективность: 150%<br/>Шанс успеха: 100%<br/>Комбо умение: Standard Touch или Observe<br/>Комбо бонус: стоимость CP снижена до 18",
       },
       // Action 22
       "Action 22": {
@@ -230,7 +230,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Reflect.png",
          "level": '69',
          "cost": '6',
-         "content": "Пополняет шкалу quality.<br/>Эффективность: 100%<br/>Шанс успеха: 100%<br/>Дополнительный эффект: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10).<br/><br/>Может использоваться только на первом шаге.",
+         "content": "Пополняет шкалу quality.<br/>Эффективность: 300%<br/>Шанс успеха: 100%<br/>Дополнительный эффект: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10).<br/>Может использоваться только на первом шаге.",
       },
       // Action 23
       "Action 23": {
@@ -281,7 +281,7 @@
          },
          "level": '76',
          "cost": '32',
-         "content": "Заполняет шкалы progress и quality одновременно<br/>Эффективность: 100%<br/>Шанс успеха: 100%",
+         "content": "Заполняет обе шкалы progress и quality одновременно.<br/>Эффективность умения Synthesis Action: 150%<br/>Эффективность умения Touch: 100%<br/>Шанс успеха: 100%",
       },
       // Action 26
       "Action 26": {
@@ -348,7 +348,7 @@
          },
          "level": '92',
          "cost": '24',
-         "content": "",
+         "content": "Пополняет шкалу quality.<br/>Эффективность: 100%<br/>Шанс успеха: 100%<br/>Комбо умение: Basic Touch<br/>Комбо бонус: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10)",
       },
       // Action 31 NEW
       "Action 31": {
@@ -356,7 +356,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Daring Touch.png",
          "level": '96',
          "cost": '0',
-         "content": "",
+         "content": "Пополняет шкалу quality без затрат CP.<br/>Эффективность: 150%<br/>Шанс успеха: 60%<br/>Может быть использовано только под действием эффекта Expedience.<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
       // Action 32 NEW
       "Action 32": {
@@ -364,7 +364,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Immaculate Mend.png",
          "level": '98',
          "cost": '112',
-         "content": "",
+         "content": "Полностью восстанавливает шкалу durability предмета.",
       },
       // Action 33 NEW
       "Action 33": {
@@ -372,7 +372,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Trained Perfection.png",
          "level": '100',
          "cost": '0',
-         "content": "",
+         "content": "Уменьшает потерю durability при применении следующего умения до 0.<br/>Можно использовать только один раз за синтез.",
       },
       // Specialist Actions 01
       "Specialist Actions 01": {
@@ -390,7 +390,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Heart and Soul.png",
          "level": '86',
          "cost": '0',
-         "content": "Умение специалиста.<br/><br/>Позволяет использовать Precise Touch, Intensive Synthesis или Tricks of the Trade независимо от состояния материала. <br/>Эффект прекращается, если вышеупомянутые умения используются, когда состояние материала не является Good или Excellent.<br/><br/>При выполнении используется crafter's delineation.<br/>Можно использовать только один раз за синтез.<br/>Это умение не увеличивает количество шагов.",
+         "content": "Умение специалиста.<br/><br/>Позволяет использовать Precise Touch, Intensive Synthesis или Tricks of the Trade независимо от состояния материала.<br/>Эффект прекращается, если вышеупомянутые умения используются, когда состояние материала не является Good или Excellent.<br/><br/>При выполнении используется crafter's delineation.<br/>Можно использовать только один раз за синтез.<br/>Это умение не увеличивает количество шагов.",
       },
       // Specialist Actions 03 NEW
       "Specialist Actions 03": {
@@ -399,7 +399,7 @@
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Quick Innovation.png",
          "level": '96',
          "cost": '0',
-         "content": "",
+         "content": "Умение специалиста.<br/><br/>Дает Innovation на 1 ход.<br/>Не может быть использовано под действием эффекта Innovation.<br/><br/>При применении используется crafter's delineation.<br/>Можно использовать только один раз за синтез.<br/>Это умение не увеличивает количество шагов.",
       },
       // Traits 01
       "Traits 01": {
@@ -483,14 +483,14 @@
             "CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Delicate Synthesis Mastery.png",
          },
          "level": '94',
-         "content": "",
+         "content": "Эффективность повышается до 150%.",
       },
       // Traits 09 NEW
       "Traits 09": {
          "name": 'Expedience',
          "skill_icon": "../Assets/img/DoHDoL/SkillJob/Expedience.png",
          "level": '96',
-         "content": "",
+         "content": "При использовании Hasty Touch накладывает эффект Expedience на 1 шаг.<br/>Эффект Expedience: Улучшает Hasty Touch до Daring Touch.",
       },
    };
    FILL_DB_VALUES(db);
