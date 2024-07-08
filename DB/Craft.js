@@ -495,5 +495,5 @@
    };
    FILL_DB_VALUES(db);
    FILL_DB_SKILLS_CRAFT(db);
-   FILL_DB_CRAFT_PASSIVE(db)
+   FILL_DB_DOHDOL_PASSIVE(db);
 })();

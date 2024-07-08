@@ -311,6 +311,119 @@ function FILL_DB_CRAFT_PASSIVE(DB){
 	});
 }
 
+function FILL_DB_SKILLS_GATHERING(DB){
+	const job_name = document.querySelector('body').getAttribute('job-name');
+	$('*[db-skill-gathering]').each(function () {
+		let key = this.getAttribute('db-skill-gathering');
+		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
+		let eorzeadb = skill['eorzeadb'];
+		if(eorzeadb){
+			if(typeof eorzeadb !== 'string'){
+				eorzeadb = eorzeadb[job_name];
+			}
+			eorzeadb = '<br/><a class="eorzeadb_link class_quest" href="'+eorzeadb+'">Задание на получение</a>';
+		}
+		else{
+			eorzeadb = '';
+		}
+		let skill_icon = skill['skill_icon'];
+		if(typeof skill_icon !== 'string'){
+			skill_icon = skill_icon[job_name];
+		}
+		let skill_name = skill['name'];
+		if(typeof skill_name !== 'string'){
+			skill_name = skill_name[job_name];
+		}
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="guide-skill_icon">
+						<img src="`+skill_icon+`"/>
+					</div>
+				</div>
+				<p>
+					<strong>`+skill_name+`</strong>
+					`+eorzeadb+`
+				</p>
+			</div>
+		</td>
+		<td class="jobclass">
+			<div class="jobclass_wrapper">
+				<div class="jobclass_wrapper_icon">
+					<img src="../Assets/img/DoWDoM/Job/`+job_name+`.png"/>
+				</div>
+				<p>Ур. `+skill['level']+`</p>
+			</div>
+		</td>
+		<td class="classification">`+skill['classification']+`</td>
+		<td class="recast">`+skill['recast']+`</td>
+		<td class="cost">`+skill['cost']+` GP</td>
+		<td class="content">`+skill['content']+`</td>`
+	});
+}
+
+function FILL_DB_GATHERING_PASSIVE(DB){
+	const job_name = document.querySelector('body').getAttribute('job-name');
+	$('*[db-gathering-passive]').each(function () {
+		let key = this.getAttribute('db-gathering-passive');
+		let skill = DB[key];
+		if(skill === undefined){
+			console.error('Skill "' + key + '" not found')
+			return
+		}
+		let eorzeadb = skill['eorzeadb'];
+		if(eorzeadb){
+			if(typeof eorzeadb !== 'string'){
+				eorzeadb = eorzeadb[job_name];
+			}
+			eorzeadb = '<br/><a class="eorzeadb_link class_quest" href="'+eorzeadb+'">Задание на получение</a>';
+		}
+		else{
+			eorzeadb = '';
+		}
+		let skill_icon = skill['skill_icon'];
+		if(typeof skill_icon !== 'string'){
+			skill_icon = skill_icon[job_name];
+		}
+		let skill_name = skill['name'];
+		if(typeof skill_name !== 'string'){
+			skill_name = skill_name[job_name];
+		}
+		let classification = skill['classification'] ? '<td class="classification">'+skill['classification']+'</td>' : '';
+		let recast = skill['recast'] ? '<td class="recast">'+skill['recast']+'</td>' : '';
+		this.innerHTML = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="guide-skill_icon">
+						<img src="`+skill_icon+`"/>
+					</div>
+				</div>
+				<p>
+					<strong>`+skill_name+`</strong>
+					`+eorzeadb+`
+				</p>
+			</div>
+		</td>
+		<td class="jobclass">
+			<div class="jobclass_wrapper">
+				<div class="jobclass_wrapper_icon">
+					<img src="../Assets/img/DoWDoM/Job/`+job_name+`.png"/>
+				</div>
+				<p>Ур. `+skill['level']+`</p>
+			</div>
+		</td>
+		`+classification+`
+		`+recast+`
+		<td class="content">`+skill['content']+`</td>`
+	});
+}
+
 function FILL_DB_ROLE_ACTIONS(DB){
 	$('*[db-role-action]').each(function () {
 		let key = this.getAttribute('db-role-action');
