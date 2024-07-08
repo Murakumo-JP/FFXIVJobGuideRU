@@ -516,6 +516,7 @@
          "content": 'величивает скорость передвижения на 50%.<br/>Эффект заканчивается при повторном использовании или активации другого умения.',
       },
    };
+   FILL_DB_SKILLS_MENU(db);
    FILL_DB_ROLE_ACTIONS(db);
    FILL_DB_ROLE_TRAITS(db);
    FILL_DB_PVP_ACTIONS(db);

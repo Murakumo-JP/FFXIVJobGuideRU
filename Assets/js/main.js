@@ -39,7 +39,7 @@ $('a[href*="#"]').click(function () {
 		{
 			scrollTop: $($(this).attr('href')).offset().top - 48,
 		},
-		1500
+		500
 	);
 	return false;
 });
