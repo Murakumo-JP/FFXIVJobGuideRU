@@ -22,6 +22,7 @@
 
 > [!WARNING]
 > FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.
+>
 > We are not affiliated with SQUARE ENIX CO., LTD. in any way.
 
 ## Materials Usage License SE
