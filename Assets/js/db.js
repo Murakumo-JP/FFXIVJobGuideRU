@@ -394,6 +394,10 @@ function FILL_DB_GATHERING_PASSIVE(DB){
 		if(typeof skill_name !== 'string'){
 			skill_name = skill_name[job_name];
 		}
+		let skill_content = skill['content'];
+		if(typeof skill_content !== 'string'){
+			skill_content = skill_content[job_name];
+		}
 		let classification = skill['classification'] ? '<td class="classification">'+skill['classification']+'</td>' : '';
 		let recast = skill['recast'] ? '<td class="recast">'+skill['recast']+'</td>' : '';
 		this.innerHTML = `
@@ -420,7 +424,7 @@ function FILL_DB_GATHERING_PASSIVE(DB){
 		</td>
 		`+classification+`
 		`+recast+`
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill_content+`</td>`
 	});
 }
 

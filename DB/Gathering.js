@@ -329,7 +329,7 @@
          "cost": '0',
          "content": "Дает дополнительную попытку сбора или восстанавливает 1 integrity при сборе collectables предметов.<br/>Можно использовать только под действием эффекта Eureka Moment.",
       },
-      // Action 24
+      // Action 24 NEW
       "Action 24": {
          "name": "Priming Touch",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1c0b33077e7d53177839a3e2571ca1f66892a0db.png',
@@ -339,6 +339,323 @@
          "recast": '-',
          "cost": '100',
          "content": " ",
+      },
+      // Gatherer Role 01
+      "Gatherer Role 01": {
+         "name": {
+            "MIN": "Prospect",
+            "BTN": "Triangulate",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/99f88ea5d023e55c25eb9505c72060f24094a8d3.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/2934bfbab2e8cdb9d6539a22c867b3b9ccb57c5c.png",
+         },
+         "level": '1',
+         "classification": 'Способность',
+         "recast": '-',
+         "content": {
+            "MIN": "Показывает на миникарте ближайшие точки сбора mineral deposits и rocky outcrops. Умение активируется автоматически, как только персонаж сменит класс на шахтера (Miner).",
+            "BTN": "Показывает на миникарте ближайшие точки сбора mature trees и lush vegetation. Умение активируется автоматически, как только персонаж сменит класс на ботаника (Botanist).",
+         },
+      },
+      // Gatherer Role 02
+      "Gatherer Role 02": {
+         "name": {
+            "MIN": "Lay of the Land",
+            "BTN": "Arbor Call",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/80f7ca5ee8fe5169804a5eaddce7066288848754.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/f535ce3b68e6952b486d979bb0f6602cc8838b47.png",
+         },
+         "level": '3',
+         "classification": 'Способность',
+         "recast": '20 сек.',
+         "content": {
+            "MIN": "Позволяет персонажу обнаружить mineral deposit или rocky outcrop, а также отображает на миникарте направление до ближайшей точки сбора в пределах зоны действия умения. Можно использовать только при активном умении Prospect.<br/>Продолжительность: 15 сек.",
+            "BTN": "Позволяет персонажу обнаружить mature tree или lush vegetation, а также отображает на миникарте направление до ближайшей точки сбора в пределах зоны действия умения. Можно использовать только при активном умении Triangulate.<br/>Продолжительность: 15 сек.",
+         },
+      },
+      // Gatherer Role 03
+      "Gatherer Role 03": {
+         "name": {
+            "MIN": "Lay of the Land II",
+            "BTN": "Arbor Call II",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/b2888c088441cb7d159650bdde285283787ce0ed.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/d7d127c4546e2ec471fc3ae73fe74771d886c962.png",
+         },
+         "level": '5',
+         "classification": 'Способность',
+         "recast": '20 сек.',
+         "content": {
+            "MIN": "Позволяет персонажу обнаружить высокоуровневые mineral deposit или rocky outcrop. А также отображает на миникарте направление до ближайшей точки сбора в пределах зоны действия умения. Можно использовать только при активном умении Prospect.<br/>Продолжительность: 15 сек.",
+            "BTN": "Позволяет персонажу обнаружить высокоуровневое mature tree или lush vegetation, а также отображает на миникарте направление до ближайшей точки сбора в пределах зоны действия умения. Можно использовать только при активном умении Triangulate.<br/>Продолжительность: 15 сек.",
+         },
+      },
+      // Gatherer Role 04
+      "Gatherer Role 04": {
+         "name": {
+            "MIN": "Truth of Mountains",
+            "BTN": "Truth of Forests",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/91c11ae6c308a90e29cca02b71a7df86ba227202.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/0c0f6fb9e3d7890de8ca9c7f1a9de1b285ff8266.png",
+         },
+         "level": '45',
+         "classification": 'Способность',
+         "recast": '-',
+         "content": {
+            "MIN": "Отображает на миникарте местоположение неизвестных, легендарных и скрытых mineral deposits или rocky outcrops.",
+            "BTN": "Отображает на миникарте местоположение неизвестных, легендарных и скрытых mature trees или lush vegetation.",
+         },
+      },
+      // Gatherer Traits 01
+      "Gatherer Traits 01": {
+         "name": {
+            "MIN": "Auto Prospect",
+            "BTN": "Auto Triangulate",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/1563a7b70873d8e0df8c5da1a2c93dfdc11633b0.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/67e11300048b8ec756d1787b1954bc579a08aa26.png",
+         },
+         "level": '2',
+         "content": {
+            "MIN": "Автоматически активирует эффект Prospect при смене класса на шахтера (Miner).",
+            "BTN": "Автоматически активирует эффект Triangulate при смене класса на ботаника (Botanist).",
+         },
+      },
+      // Gatherer Traits 02
+      "Gatherer Traits 02": {
+         "name": {
+            "MIN": "Stone Whisperer",
+            "BTN": "Tree Whisperer",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/ef344d4af74d52d1acaac14e701e8f93274090d8.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/63a50a41b5e1e8f7756154438923c3f2f6136857.png",
+         },
+         "level": '11',
+         "content": {
+            "MIN": "Позволяет лучше определить характеристики mineral deposit или rocky outcrop, благодаря чему персонаж повышает шанс сбора предметов при соблюдении условий.",
+            "BTN": "Позволяет лучше определить свойства mature tree или patch of lush vegetation, благодаря чему персонаж повышает шанс сбора предметов при соблюдении условий.",
+         },
+      },
+      // Gatherer Traits 03
+      "Gatherer Traits 03": {
+         "name": {
+            "MIN": "Stone Whisperer II",
+            "BTN": "Tree Whisperer II",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/e2f453b3f30ae111fdee07e82bfbf52558f5ceea.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/b1aa60dee775b98b63cb90a5abe786b8d6c07287.png",
+         },
+         "level": '16',
+         "content": {
+            "MIN": "Позволяет лучше определить характеристики mineral deposit или rocky outcrop, что увеличивает количество попыток сбора при соблюдении условий.",
+            "BTN": "Позволяет лучше определить свойства mature tree или patch of lush vegetation, что увеличивает количество попыток сбора при соблюдении условий.",
+         },
+      },
+      // Gatherer Traits 04
+      "Gatherer Traits 04": {
+         "name": {
+            "MIN": "Stone Whisperer III",
+            "BTN": "Tree Whisperer III",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/843df14fcebfdad27b59677769b65070400370c3.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/9704bb137f07f8acd19c20dc66002378b006326e.png",
+         },
+         "level": '21',
+         "content": {
+            "MIN": "Позволяет лучше определить характеристики mineral deposit или rocky outcrop, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.",
+            "BTN": "Позволяет лучше определить свойства mature tree or patch или lush vegetation, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.",
+         },
+      },
+      // Gatherer Traits 05
+      "Gatherer Traits 05": {
+         "name": {
+            "MIN": "Stone Whisperer IV",
+            "BTN": "Tree Whisperer IV",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/fe226b4734bed3934007217697ae2ed73ca05bc3.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/edea1feee35b95906517594b5663c25fa6a62162.png",
+         },
+         "level": '26',
+         "content": {
+            "MIN": "Позволяет лучше определить характеристики mineral deposit или rocky outcrop, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.",
+            "BTN": "Позволяет лучше определить свойства mature tree or patch или lush vegetation, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.",
+         },
+      },
+      // Gatherer Traits 06
+      "Gatherer Traits 06": {
+         "name": 'Auto Sneak',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d22d20b1f68cd608fba4c7eacd960b11f1371b0.png',
+         "level": '27',
+         "content": "Автоматически активирует эффект Sneak при выборе класса. Эффект также автоматически активируется при смене области.<br/>Sneak не будет автоматически активирован в зонах, где это умение не может быть использовано.",
+      },
+      // Gatherer Traits 07
+      "Gatherer Traits 07": {
+         "name": "Enhanced Twelve's Bounty",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ae6e96cee267d095fcc7f653bff10ab4dfe79034.png',
+         "level": '41',
+         "content": "Умение Twelve's Bounty распространяется на crystals.",
+      },
+      // Gatherer Traits 08
+      "Gatherer Traits 08": {
+         "name": "Nymeia's Ward",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/be1b467f4b07e4642f7e463639e320ba23af2b34.png',
+         "level": '42',
+         "content": "С некоторой вероятностью увеличивает количество получаемых предметов во время сбора, включая crystals.",
+      },
+      // Gatherer Traits 09
+      "Gatherer Traits 09": {
+         "name": "Enhanced Twelve's Bounty II",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/911e8f8f7e98f94e9fd7e266cf0cebe8df7a36f1.png',
+         "level": '50',
+         "content": "Умение Twelve's Bounty распространяется на clusters.",
+      },
+      // Gatherer Traits 10
+      "Gatherer Traits 10": {
+         "name": {
+            "MIN": "Stone Whisperer V",
+            "BTN": "Tree Whisperer V",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/37d48024782d5839f2d59e7e3913c0c237b8a655.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/481e884cf2c4e249e3636ab07514d6a34555cb2f.png",
+         },
+         "eorzeadb": {
+            "MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0a9f7c076e6/",
+            "BTN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8d620eecdda/",
+         },
+         "level": '53',
+         "content": {
+            "MIN": "Позволяет лучше оценить характеристики mineral deposit или rocky outcrop, что еще больше повышает шансы сбора при соблюдении условий.",
+            "BTN": "Позволяет лучше определить свойства mature tree или patch of lush vegetation, что еще больше повышает шансы сбора при соблюдении условий.",
+         },
+      },
+      // Gatherer Traits 11
+      "Gatherer Traits 11": {
+         "name": {
+            "MIN": "One with the Mountain",
+            "BTN": "One with the Forest",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/bdf8284f66ed9fb16e69a92ed83092627ca99305.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/bf08d69a7b9a2fe9e23943b478a6f1211bd6b592.png",
+         },
+         "level": '60',
+         "content": {
+            "MIN": "Автоматически активирует эффект Truth of Mountains при смене класса на шахтера.",
+            "BTN": "Автоматически активирует эффект Truth of Forests при смене класса на ботаника.",
+         },
+      },
+      // Gatherer Traits 12
+      "Gatherer Traits 12": {
+         "name": {
+            "MIN": "Bountiful Yield Mastery",
+            "BTN": "Bountiful Harvest Mastery",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/c045f323cf179b46f4a46754c2f547d52249970e.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/e7506b15fb74081ab4b6c610cd0f67d9fb99520c.png",
+         },
+         "eorzeadb": {
+            "MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9e9f9b79ae4/",
+            "BTN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b82804dfe4c/",
+         },
+         "level": '68',
+         "content": {
+            "MIN": "Улучшает умение Bountiful Yield до Bountiful Yield II.",
+            "BTN": "Улучшает умение Bountiful Harvest до Bountiful Harvest II.",
+         },
+      },
+      // Gatherer Traits 13
+      "Gatherer Traits 13": {
+         "name": 'Enhanced GP Regeneration',
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/30e7baabae4846e25a686b52adfdbb53a1a2f492.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/4aeeba59b6d9a36514a28c9ef7243b6a64f91a66.png",
+         },
+         "eorzeadb": {
+            "MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/03c4eb77b3a/",
+            "BTN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/66987f9e4f2/",
+         },
+         "level": '70',
+         "content": "Повышает базовую скорость регенерации GP на единицу.",
+      },
+      // Gatherer Traits 14
+      "Gatherer Traits 14": {
+         "name": "Enhanced Twelve's Bounty III",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6dfca7c56c9f211af4ea8fd6c2cf55aa0447aef6.png',
+         "level": '71',
+         "content": "Увеличивает базовое количество получаемых во время сбора предметов от Twelve's Bounty на один.",
+      },
+      // Gatherer Traits 15
+      "Gatherer Traits 15": {
+         "name": 'Enhanced GP Regeneration II',
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/705fba4f808fe8935f2855e7b53850f9e26d77c1.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/7847dbc45282148f89e53d07cb1d3400c344e8d3.png",
+         },
+         "level": '80',
+         "content": "Повышает базовую скорость регенерации GP на два. При сборе повышает базовый уровень регенерации на один.",
+      },
+      // Gatherer Traits 16
+      "Gatherer Traits 16": {
+         "name": 'Enhanced GP Regeneration III',
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/82bb7f7edd92a4d6973d03fbff021fab414dd68d.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/f134c409fcf23011c8ad835c2adc3c9aac8ab4af.png",
+         },
+         "level": '83',
+         "content": "Повышает базовую скорость регенерации GP на три. При сборе повышает базовый уровень регенерации на один.",
+      },
+      // Gatherer Traits 17
+      "Gatherer Traits 17": {
+         "name": {
+            "MIN": "Enhanced Solid Reason",
+            "BTN": "Enhanced Ageless Words",
+         },
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/aeb928223c51a892ae43390e06c2b17b8fb05406.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/ebe8d217bd3132aa7fa055720afbcdebf40e16c2.png",
+         },
+         "level": '90',
+         "content": {
+            "MIN": "Дает умению Solid Reason 50% шанс на получение игроком эффекта Eureka Moment.",
+            "BTN": "Дает умению Ageless Words 50% шанс на получение игроком эффекта Eureka Moment.",
+         },
+      },
+      // Gatherer Traits 18 NEW
+      "Gatherer Traits 18": {
+         "name": "Revisit",
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/663d79ba01de16b8c6050604ac1b2ff2c60d8bbf.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/65d6a139e00d6e2743cf716d2f672d5d2e2da5bb.png",
+         },
+         "level": '91',
+         "content": " ",
+      },
+      // Gatherer Traits 19 NEW
+      "Gatherer Traits 19": {
+         "name": "Collector's High Standard",
+         "skill_icon": {
+            "MIN": "https://lds-img.finalfantasyxiv.com/d/57f0c5155877e1323e79c4e3a7388e1b4f014b39.png",
+            "BTN": "https://lds-img.finalfantasyxiv.com/d/3b3a32464ee2b7ebb1d9d46bdf3c75b5512cb2a5.png",
+         },
+         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/',
+         "level": '100',
+         "content": {
+            "MIN": " ",
+            "BTN": " ",
+         },
       },
    };
    FILL_DB_VALUES(db);
