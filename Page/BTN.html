@@ -22,7 +22,7 @@
          gtag('config', 'G-Y6M41KEYQX');
       </script>
    </head>
-   <body>
+   <body job-name="BTN">
       <!--Preloader-->
       <div id="page-preloader" class="preloader">
          <div id="page-loader" class="loader"></div>
@@ -57,29 +57,29 @@
                </div>
             </div>
          </header>
-         <!-- DB Skil List -->
+         <!-- DB Skill List -->
          <div class="job_skil_list">
             <div class="job_skil_db-pve">
-               <p class="job_update">Последнее обновление: 02/10/2023</p>
+               <p class="job_update" db-value="Gathering Update"></p>
                <ul class="job_tab tab_gatherer clearfix">
                   <li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
                   <li class="js-tab-trigger" data-tab="guide">Общая информация</li>
                </ul>
                <!-- Skil -->
                <div class="guide-inner js-tab-content active" data-tab="skill">
-                  <p class="job_notes_lvl">Все описания основаны на активных умениях и бонусах, полученных на 90 уровне.</p>
+                  <p class="job_notes_lvl" id="jq_patch"></p>
                   <h2 class="guide-title">Активные и пассивные умения</h2>
                   <!-- Content Wrapper -->
                   <div class="guide-table_wrapper">
                      <h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
                      <table class="guide-table">
                         <colgroup>
-                           <col width="191" />
-                           <col width="74" />
-                           <col width="74" />
-                           <col width="74" />
-                           <col width="74" />
-                           <col width="433" />
+                           <col width="190">
+                           <col width="90">
+                           <col width="89">
+                           <col width="115">
+                           <col width="77">
+                           <col width="345">
                         </colgroup>
                         <thead>
                            <tr class="guide-thead">
@@ -92,652 +92,43 @@
                            </tr>
                         </thead>
                         <tbody class="guide-tbody">
-                           <!-- Action 01 -->
-                           <tr id="action_01">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/0265d8e360e249da9c0c803380211a54eff755df.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Field Mastery</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 4</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">50</td>
-                              <td class="content">Увеличивает шанс получения предметов при сборе на 5%. Увеличение не применяется к предметам с шансом получения 0%.</td>
-                           </tr>
-                           <!-- Action 02 -->
-                           <tr id="action_02">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/a4d564eec48761cf0bdb306809dcffa2c9defba4.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Field Mastery II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 5</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">100</td>
-                              <td class="content">Увеличивает шанс получения предметов при сборе на 15%. Увеличение не применяется к предметам с шансом получения 0%.</td>
-                           </tr>
-                           <!-- Action 03 -->
-                           <tr id="action_03">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/3214e41ea878c3a323f44365dd82d7fabf054ee4.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Sneak</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 8</p>
-                                 </div>
-                              </td>
-                              <td class="classification">Способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">-</td>
-                              <td class="content">Бесшумная походка, позволяет избегать противников на четыре уровня выше персонажа.</td>
-                           </tr>
-                           <!-- Action 04 -->
-                           <tr id="action_04">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/d5eee45cdfee5fe5ca6dbce39b5e5599cc533803.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Field Mastery III</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 10</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">250</td>
-                              <td class="content">Увеличивает шанс получения предмета при сборе на 50%. Не сработает при сборе, если шанс добычи 0%.</td>
-                           </tr>
-                           <!-- Action 05 -->
-                           <tr id="action_05">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/e7de52995784d0ed4e970d9be795faf5c3eee03a.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Pioneer's Gift I</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 15</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">50</td>
-                              <td class="content">Увеличивает шанс срабатывания Gatherer's Boon на 10%. Не сработает при сборе, если шанс добычи 0%.</td>
-                           </tr>
-                           <!-- Action 06 -->
-                           <tr id="action_06">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/adcd601ab122ddbda4cd52930a3ebf7c8d6cd3db.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>The Twelve's Bounty</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 20</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">150</td>
-                              <td class="content">
-                                 Увеличивает количество собираемых shard, crystal и cluster yields на 3.
-                                 <br/>Не сработает, если место сбора не содержит shard, crystal, and cluster yields.
-                              </td>
-                           </tr>
-                           <!-- Action 07 -->
-                           <tr id="action_07">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/4e1e0d924f3d9e00c977704d0beba0b41048fa4e.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Flora Mastery</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 23</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">50</td>
-                              <td class="content">Увеличивает шанс получения предмета для следующей попытки сбора на 15%. Не сработает при сборе, если шанс добычи 0%.</td>
-                           </tr>
-                           <!-- Action 08 -->
-                           <tr id="action_08">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/3f321357853ff740411e2f412254bf17b3cd17a2.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Bountiful Harvest</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 24</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">100</td>
-                              <td class="content">Увеличивает количество получаемых предметов при следующей попытке сбора на один.</td>
-                           </tr>
-                           <!-- Action 09 -->
-                           <tr id="action_09">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/0d3e3f07c1db9344e96da54fefc6d66eb54f26fd.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Ageless Words</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 25</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">300</td>
-                              <td class="content">
-                                 Дает дополнительную попытку сбора. При сборе collectables восстанавливает 1 integrity.
-                                 <br/>Дополнительный эффект: 50% шанс получить эффект Eureka Moment
-                              </td>
-                           </tr>
-                           <!-- Action 10 -->
-                           <tr id="action_10">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/816cd5383d58f2d2a6b8209e50c9d7e5bfc67484.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Blessed Harvest</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 30</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">400</td>
-                              <td class="content">Увеличивает количество получаемого при сборе предмета на один.</td>
-                           </tr>
-                           <!-- Action 11 -->
-                           <tr id="action_11">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/31ba3194b41a2575399c9882e6d28757353f66b9.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Blessed Harvest II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 40</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">500</td>
-                              <td class="content">Увеличивает количество получаемых предметов при следующей попытке сбора на два.</td>
-                           </tr>
-                           <!-- Action 12 -->
-                           <tr id="action_12">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/ea33c3737679e3186707e1d05d3a801f8ddbfaa9.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Collect</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">-</td>
-                              <td class="content">Собирает collectable предмет с его текущим collectability рейтингом.
-                                 <br/>Уменьшает integrity на 1.</td>
-                           </tr>
-                           <!-- Action 13 -->
-                           <tr id="action_13">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/18ff13b278138c7690b35e333b1cb24f60d43710.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Scour</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">-</td>
-                              <td class="content">
-                                 Повышает collectability предмета. Увеличение определяется рейтингом сбора (gathering rating).
-                                 <br/>Уменьшает integrity на 1.
-                              </td>
-                           </tr>
-                           <!-- Action 14 -->
-                           <tr id="action_14">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/8d4871671a3cae1003e78d29ca68f91154298811.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Brazen Woodsman</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">-</td>
-                              <td class="content">
-                                 Увеличивает collectability предмета. Увеличение происходит случайным образом в диапазоне от 50 до 150% от эффективности Scour.
-                                 <br/>Уменьшает integrity на 1.
-                              </td>
-                           </tr>
-                           <!-- Action 15 -->
-                           <tr id="action_15">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/f5dd83f5f2fa5b10a3cfe821f6e626b8922c6505.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Meticulous Woodsman</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">-</td>
-                              <td class="content">
-                                 Повышает collectability предмета. Увеличение составляет 75% от эффективности Scour.
-                                 <br/>Уменьшает integrity на 1. При использовании есть шанс, что integrity не изменится, который зависит от вашего рейтинга сбора (gathering rating).
-                              </td>
-                           </tr>
-                           <!-- Action 16 -->
-                           <tr id="action_16">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/2173762adfe1521ca6aa0fbaf0735e578a1664b5.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Scrutiny</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/" class="eorzeadb_link class_quest">Побочное задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">200</td>
-                              <td class="content">Улучшает увеличение collectability следующего предмета. Эффект зависит от вашего рейтинга восприятия (perception rating).</td>
-                           </tr>
-                           <!-- Action 17 -->
-                           <tr id="action_17">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/16ba049dbedae727a1b23092305e31b522b39011.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Pioneer's Gift II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">100</td>
-                              <td class="content">
-                                 Увеличивает шанс срабатывания Gatherer's Boon на 30%. Не сработает при сборе, если шанс добычи 0%.
-                                 <br/>Эффект может использоваться одновременно с Pioneer's Gift I.
-                              </td>
-                           </tr>
-                           <!-- Action 18 -->
-                           <tr id="action_18">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/486674c8800105f65bb2f5952b297d4270ab39ad.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Luck of the Pioneer</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/54baece3283/" class="eorzeadb_link class_quest">Побочное задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 55</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">200</td>
-                              <td class="content">Позволяет увидеть скрытые предметы во время сбора.</td>
-                           </tr>
-                           <!-- Action 19 -->
-                           <tr id="action_19">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/4c6a426da3a9efd03c300805a7caed3c669ccdbb.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Bountiful Harvest II</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b82804dfe4c/" class="eorzeadb_link class_quest">Побочное задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 68</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">100</td>
-                              <td class="content">Увеличивает количество предметов, получаемых при следующей попытке сбора, на один, два или три. Количество зависит от рейтинга сбора (gathering rating).</td>
-                           </tr>
-                           <!-- Action 19 -->
-                           <tr id="action_20">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/df152c10ca865203a7cc2cf92bb4ee370759a00c.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>The Giving Land</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 74</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">180s</td>
-                              <td class="cost">200</td>
-                              <td class="content">
-                                 Увеличивает количество собираемых shard, crystal и cluster yields на случайное количество.
-                                 <br/>Эффект может использоваться одновременно с The Twelve's Bounty.
-                                 <br/>Не сработает, если место сбора не дает shard, crystal and cluster yields.
-                              </td>
-                           </tr>
-                           <!-- Action 21 -->
-                           <tr id="action_21">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/3f95f73a80dd817a1292f631a1f49af5f2ba4011.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Nophica's Tidings</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 81</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">200</td>
-                              <td class="content">Увеличивает количество предметов, получаемых с помощью эффекта Gatherer's Boon, на 1.</td>
-                           </tr>
-                           <!-- Action 22 -->
-                           <tr id="action_22">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/ef19938212dd2651c4ccffff2c920dfe565aec27.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Collector's Focus</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 85</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">100</td>
-                              <td class="content">Увеличивает шанс срабатывания Collector's Intuition на 75% при следующем использовании collectable умения.</td>
-                           </tr>
-                           <!-- Action 23 -->
-                           <tr id="action_23">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/e125df92eba06fc3a0e5b0d14e8f6c7f41033546.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Wise to the World</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 90</p>
-                                 </div>
-                              </td>
-                              <td class="classification">DoL способность</td>
-                              <td class="recast">-</td>
-                              <td class="cost">-</td>
-                              <td class="content">
-                                 Дает дополнительную попытку сбора или восстанавливает 1 integrity при сборе collectables предметов.
-                                 <br/>Можно использовать только под действием эффекта Eureka Moment.
-                              </td>
-                           </tr>
+                           <tr id="action_01" db-skill-gathering="Action 01"></tr>
+                           <tr id="action_02" db-skill-gathering="Action 02"></tr>
+                           <tr id="action_03" db-skill-gathering="Action 03"></tr>
+                           <tr id="action_04" db-skill-gathering="Action 04"></tr>
+                           <tr id="action_05" db-skill-gathering="Action 05"></tr>
+                           <tr id="action_06" db-skill-gathering="Action 06"></tr>
+                           <tr id="action_07" db-skill-gathering="Action 07"></tr>
+                           <tr id="action_08" db-skill-gathering="Action 08"></tr>
+                           <tr id="action_09" db-skill-gathering="Action 09"></tr>
+                           <tr id="action_10" db-skill-gathering="Action 10"></tr>
+                           <tr id="action_11" db-skill-gathering="Action 11"></tr>
+                           <tr id="action_12" db-skill-gathering="Action 12"></tr>
+                           <tr id="action_13" db-skill-gathering="Action 13"></tr>
+                           <tr id="action_14" db-skill-gathering="Action 14"></tr>
+                           <tr id="action_15" db-skill-gathering="Action 15"></tr>
+                           <tr id="action_16" db-skill-gathering="Action 16"></tr>
+                           <tr id="action_17" db-skill-gathering="Action 17"></tr>
+                           <tr id="action_18" db-skill-gathering="Action 18"></tr>
+                           <tr id="action_19" db-skill-gathering="Action 19"></tr>
+                           <tr id="action_20" db-skill-gathering="Action 20"></tr>
+                           <tr id="action_21" db-skill-gathering="Action 21"></tr>
+                           <tr id="action_22" db-skill-gathering="Action 22"></tr>
+                           <tr id="action_23" db-skill-gathering="Action 23"></tr>
+                           <tr id="action_24" class="skill_new" db-skill-gathering="Action 24"></tr>
                         </tbody>
                      </table>
                   </div>
                   <!-- Content Wrapper -->
                   <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_addaction">Ролевые умения собирателей (gatherer)</h3>
+                     <h3 class="guide-sub_title" id="anchor_addaction">Ролевые умения собирателей (Gatherer)</h3>
                      <table class="guide-table">
                         <colgroup>
-                           <col width="191" />
-                           <col width="74" />
-                           <col width="74" />
-                           <col width="74" />
-                           <col width="433" />
+                           <col width="191">
+                           <col width="90">
+                           <col width="82">
+                           <col width="115">
+                           <col width="429">
                         </colgroup>
                         <thead>
                            <tr class="guide-thead">
@@ -749,108 +140,10 @@
                            </tr>
                         </thead>
                         <tbody class="guide-tbody">
-                           <!-- Gatherer Role 01 -->
-                           <tr id="addaction_01">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/2934bfbab2e8cdb9d6539a22c867b3b9ccb57c5c.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Triangulate</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/MIN.png"/>
-                                    </div>
-                                    <p>Ур. 1</p>
-                                 </div>
-                              </td>
-                              <td class="classification">Способность</td>
-                              <td class="recast">-</td>
-                              <td class="content">Показывает на миникарте ближайшие точки сбора mature trees и lush vegetation. Умение активируется автоматически, как только персонаж сменит класс на ботаника.</td>
-                           </tr>
-                           <!-- Gatherer Role 02 -->
-                           <tr id="addaction_02">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/f535ce3b68e6952b486d979bb0f6602cc8838b47.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Arbor Call</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/MIN.png"/>
-                                    </div>
-                                    <p>Ур. 3</p>
-                                 </div>
-                              </td>
-                              <td class="classification">Способность</td>
-                              <td class="recast">20 сек.</td>
-                              <td class="content">
-                                 Позволяет персонажу обнаружить mature tree или lush vegetation, а также отображает на миникарте направление до ближайшей точки сбора в пределах зоны действия умения. Можно использовать только при активном умении Triangulate.
-                                 <br/>Продолжительность: 15 сек.
-                              </td>
-                           </tr>
-                           <!-- Gatherer Role 04 -->
-                           <tr id="addaction_03">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/d7d127c4546e2ec471fc3ae73fe74771d886c962.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Arbor Call II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/MIN.png"/>
-                                    </div>
-                                    <p>Ур. 5</p>
-                                 </div>
-                              </td>
-                              <td class="classification">Способность</td>
-                              <td class="recast">20 сек.</td>
-                              <td class="content">
-                                 Позволяет персонажу обнаружить высокоуровневое mature tree или lush vegetation, а также отображает на миникарте направление до ближайшей точки сбора в пределах зоны действия умения. Можно использовать только при активном умении Triangulate.
-                                 <br/>Продолжительность: 15 сек.
-                              </td>
-                           </tr>
-                           <!-- Gatherer Role 04 -->
-                           <tr id="addaction_04">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/0c0f6fb9e3d7890de8ca9c7f1a9de1b285ff8266.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Truth of Forests</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/MIN.png"/>
-                                    </div>
-                                    <p>Ур. 46</p>
-                                 </div>
-                              </td>
-                              <td class="classification">Способность</td>
-                              <td class="recast">-</td>
-                              <td class="content">Отображает на миникарте местоположение неизвестных, легендарных и скрытых mature trees and lush vegetation.</td>
-                           </tr>
+                           <tr id="addaction_01" db-gathering-passive="Gatherer Role 01"></tr>
+                           <tr id="addaction_02" db-gathering-passive="Gatherer Role 02"></tr>
+                           <tr id="addaction_03" db-gathering-passive="Gatherer Role 03"></tr>
+                           <tr id="addaction_04" db-gathering-passive="Gatherer Role 04"></tr>
                         </tbody>
                      </table>
                      <p class="guide-notes">* Ролевые умения (role actions) собирателей после изучения можно использовать на любом классе собирателей (gathering).</p>
@@ -860,9 +153,9 @@
                      <h3 class="guide-sub_title" id="anchor_trait">Пассивные умения</h3>
                      <table class="guide-table">
                         <colgroup>
-                           <col width="191" />
-                           <col width="74" />
-                           <col width="654" />
+                           <col width="191">
+                           <col width="90">
+                           <col width="*">
                         </colgroup>
                         <thead>
                            <tr class="guide-thead">
@@ -872,395 +165,25 @@
                            </tr>
                         </thead>
                         <tbody class="guide-tbody">
-                           <!-- Traits 01 -->
-                           <tr id="traitaction_01">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/67e11300048b8ec756d1787b1954bc579a08aa26.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Auto Triangulate</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 2</p>
-                                 </div>
-                              </td>
-                              <td class="content">Автоматически активирует эффект Triangulate при смене класса на ботаника (botanist).</td>
-                           </tr>
-                           <!-- Traits 02 -->
-                           <tr id="traitaction_02">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/63a50a41b5e1e8f7756154438923c3f2f6136857.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Tree Whisperer</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 11</p>
-                                 </div>
-                              </td>
-                              <td class="content">Позволяет лучше определить свойства mature tree или patch of lush vegetation, благодаря чему персонаж повышает шанс сбора предметов при соблюдении условий.</td>
-                           </tr>
-                           <!-- Traits 03 -->
-                           <tr id="traitaction_03">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/b1aa60dee775b98b63cb90a5abe786b8d6c07287.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Tree Whisperer II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 16</p>
-                                 </div>
-                              </td>
-                              <td class="content">Позволяет лучше определить свойства mature tree или patch of lush vegetation, что увеличивает количество попыток сбора при соблюдении условий.</td>
-                           </tr>
-                           <!-- Traits 04 -->
-                           <tr id="traitaction_04">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/9704bb137f07f8acd19c20dc66002378b006326e.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Tree Whisperer III</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 21</p>
-                                 </div>
-                              </td>
-                              <td class="content">Позволяет лучше определить свойства mature tree or patch или lush vegetation, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.</td>
-                           </tr>
-                           <!-- Traits 05 -->
-                           <tr id="traitaction_05">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/edea1feee35b95906517594b5663c25fa6a62162.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Tree Whisperer IV</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 26</p>
-                                 </div>
-                              </td>
-                              <td class="content">Позволяет лучше определить свойства mature tree or patch или lush vegetation, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.</td>
-                           </tr>
-                           <!-- Traits 06 -->
-                           <tr id="traitaction_06">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/3d22d20b1f68cd608fba4c7eacd960b11f1371b0.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Auto Sneak</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 27</p>
-                                 </div>
-                              </td>
-                              <td class="content">
-                                 Автоматически активирует эффект Sneak при смене класса на ботаника. Эффект также автоматически активируется при смене области.
-                                 <br />Sneak не будет автоматически активирован в зонах, где это умение не может быть использовано.
-                              </td>
-                           </tr>
-                           <!-- Traits 07 -->
-                           <tr id="traitaction_07">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/5b5f733e114332477785ded07c5cde595b12e437.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Enhanced Twelve's Bounty</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 41</p>
-                                 </div>
-                              </td>
-                              <td class="content">Умение Twelve's Bounty распространяется на crystals.</td>
-                           </tr>
-                           <!-- Traits 08 -->
-                           <tr id="traitaction_08">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/be1b467f4b07e4642f7e463639e320ba23af2b34.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Nymeia's Ward</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 42</p>
-                                 </div>
-                              </td>
-                              <td class="content">С некоторой вероятностью увеличивает количество получаемых предметов во время сбора, включая crystals.</td>
-                           </tr>
-                           <!-- Traits 09 -->
-                           <tr id="traitaction_09">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/f0bbcfdf93a186a882f5edffb3068772a02999ea.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Enhanced Twelve's Bounty II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 50</p>
-                                 </div>
-                              </td>
-                              <td class="content">Умение Twelve's Bounty распространяется на clusters.</td>
-                           </tr>
-                           <!-- Traits 10 -->
-                           <tr id="traitaction_10">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/481e884cf2c4e249e3636ab07514d6a34555cb2f.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Tree Whisperer V</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8d620eecdda/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 53</p>
-                                 </div>
-                              </td>
-                              <td class="content">Позволяет лучше определить свойства mature tree или patch of lush vegetation, что еще больше повышает шансы сбора при соблюдении условий.</td>
-                           </tr>
-                           <!-- Traits 11 -->
-                           <tr id="traitaction_11">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/bf08d69a7b9a2fe9e23943b478a6f1211bd6b592.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>One with the Forest</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 60</p>
-                                 </div>
-                              </td>
-                              <td class="content">Автоматически активирует эффект Truth of Forests при смене класса на ботаника.</td>
-                           </tr>
-                           <!-- Traits 12 -->
-                           <tr id="traitaction_12">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/e7506b15fb74081ab4b6c610cd0f67d9fb99520c.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Bountiful Harvest Mastery</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b82804dfe4c/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 68</p>
-                                 </div>
-                              </td>
-                              <td class="content">Улучшает умение Bountiful Harvest до Bountiful Harvest II.</td>
-                           </tr>
-                           <!-- Traits 13 -->
-                           <tr id="traitaction_13">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/4aeeba59b6d9a36514a28c9ef7243b6a64f91a66.png"/>
-                                       </div>
-                                    </div>
-                                    <p>
-                                       <strong>Enhanced GP Regeneration</strong>
-                                       <br/>
-                                       <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/66987f9e4f2/" class="eorzeadb_link class_quest">Классовое задание</a>
-                                    </p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 70</p>
-                                 </div>
-                              </td>
-                              <td class="content">Повышает базовую скорость регенерации GP на единицу.</td>
-                           </tr>
-                           <!-- Traits 14 -->
-                           <tr id="traitaction_14">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/6dfca7c56c9f211af4ea8fd6c2cf55aa0447aef6.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Enhanced Twelve's Bounty III</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 71</p>
-                                 </div>
-                              </td>
-                              <td class="content">Увеличивает базовое количество получаемых во время сбора предметов от Twelve's Bounty на один.</td>
-                           </tr>
-                           <!-- Traits 15 -->
-                           <tr id="traitaction_15">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/7847dbc45282148f89e53d07cb1d3400c344e8d3.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Enhanced GP Regeneration II</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 80</p>
-                                 </div>
-                              </td>
-                              <td class="content">Повышает базовую скорость регенерации GP на два. При сборе повышает базовый уровень регенерации на один.</td>
-                           </tr>
-                           <!-- Traits 16 -->
-                           <tr id="traitaction_16">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/f134c409fcf23011c8ad835c2adc3c9aac8ab4af.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Enhanced GP Regeneration III</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 83</p>
-                                 </div>
-                              </td>
-                              <td class="content">Повышает базовую скорость регенерации GP на три. При сборе повышает базовый уровень регенерации на один.</td>
-                           </tr>
-                           <!-- Traits 17 -->
-                           <tr id="traitaction_17">
-                              <td class="skill">
-                                 <div class="skill_wrapper">
-                                    <div class="skill_wrapper_icon">
-                                       <div class="guide-skill_icon">
-                                          <img src="https://lds-img.finalfantasyxiv.com/d/ebe8d217bd3132aa7fa055720afbcdebf40e16c2.png"/>
-                                       </div>
-                                    </div>
-                                    <p><strong>Enhanced Ageless Words</strong></p>
-                                 </div>
-                              </td>
-                              <td class="jobclass">
-                                 <div class="jobclass_wrapper">
-                                    <div class="jobclass_wrapper_icon">
-                                       <img src="../Assets/img/DoWDoM/Job/BTN.png"/>
-                                    </div>
-                                    <p>Ур. 90</p>
-                                 </div>
-                              </td>
-                              <td class="content">Дает умению Ageless Words 50% шанс на получение игроком эффекта Eureka Moment.</td>
-                           </tr>
+                           <tr id="traitaction_01" db-gathering-passive="Gatherer Traits 01"></tr>
+                           <tr id="traitaction_02" db-gathering-passive="Gatherer Traits 02"></tr>
+                           <tr id="traitaction_03" db-gathering-passive="Gatherer Traits 03"></tr>
+                           <tr id="traitaction_04" db-gathering-passive="Gatherer Traits 04"></tr>
+                           <tr id="traitaction_05" db-gathering-passive="Gatherer Traits 05"></tr>
+                           <tr id="traitaction_06" db-gathering-passive="Gatherer Traits 06"></tr>
+                           <tr id="traitaction_07" db-gathering-passive="Gatherer Traits 07"></tr>
+                           <tr id="traitaction_08" db-gathering-passive="Gatherer Traits 08"></tr>
+                           <tr id="traitaction_09" db-gathering-passive="Gatherer Traits 09"></tr>
+                           <tr id="traitaction_10" db-gathering-passive="Gatherer Traits 10"></tr>
+                           <tr id="traitaction_11" db-gathering-passive="Gatherer Traits 11"></tr>
+                           <tr id="traitaction_12" db-gathering-passive="Gatherer Traits 12"></tr>
+                           <tr id="traitaction_13" db-gathering-passive="Gatherer Traits 13"></tr>
+                           <tr id="traitaction_14" db-gathering-passive="Gatherer Traits 14"></tr>
+                           <tr id="traitaction_15" db-gathering-passive="Gatherer Traits 15"></tr>
+                           <tr id="traitaction_16" db-gathering-passive="Gatherer Traits 16"></tr>
+                           <tr id="traitaction_17" db-gathering-passive="Gatherer Traits 17"></tr>
+                           <tr id="traitaction_18" class="skill_new" db-gathering-passive="Gatherer Traits 18"></tr>
+                           <tr id="traitaction_19" class="skill_new" db-gathering-passive="Gatherer Traits 19"></tr>
                         </tbody>
                      </table>
                   </div>
@@ -1430,6 +353,8 @@
          <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
+      <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
+      <script type="text/javascript" src="../DB/Gathering.js?09072024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
