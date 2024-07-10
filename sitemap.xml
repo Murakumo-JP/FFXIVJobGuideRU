@@ -65,6 +65,10 @@
 	  <priority>0.64</priority>
 	</url>
 	<url>
+	  <loc>https://ff14jobguide.ru/Page/VPR</loc>
+	  <priority>0.64</priority>
+	</url>
+	<url>
 	  <loc>https://ff14jobguide.ru/Page/BRD</loc>
 	  <priority>0.64</priority>
 	</url>
@@ -86,6 +90,10 @@
 	</url>
 	<url>
 	  <loc>https://ff14jobguide.ru/Page/RDM</loc>
+	  <priority>0.64</priority>
+	</url>
+	<url>
+	  <loc>https://ff14jobguide.ru/Page/PCT</loc>
 	  <priority>0.64</priority>
 	</url>
 	<url>

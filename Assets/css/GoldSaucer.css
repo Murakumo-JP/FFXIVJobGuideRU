@@ -141,7 +141,7 @@ body#gs{
    background-size: 20px 20px;
 }
 .gs_text_red {color: #a62137;}
-p + p {margin: 10px;}
+/* p + p {margin: 10px;} */
 .gs_supplement {
    padding: 16px;
    background-color: #f2f2f2;

@@ -1,22 +1,21 @@
 // Doom Load
 $(document).ready(function () {
-	$('#jq_tank').load('RoleActions/Tank.html');
-	$('#jq_healer').load('RoleActions/Healer.html');
-	$('#jq_meleeDPS').load('RoleActions/MeleeDPS.html');
-	$('#jq_physicalDPS').load('RoleActions/PhysicalDPS.html');
-	$('#jq_magicalDPS').load('RoleActions/MagicalDPS.html');
 	$('#jq_menu').load('Other/MenuJob.html');
 	$('#jq_menu_cg').load('Other/MenuCG.html');
-	$('#jq_actions').load('Other/Actions.html');
 	// Open JobMenu
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').fadeToggle();
 	});
 	// Info Update
-	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: 02.10.2023 | Патч: 6.5</p>');
-	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 90 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/1dcbf39c97285ba9a42012eecf2c031f0ffbceb1/">патч ноутам</a>.');
-	$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновление сайта и перевод будет производиться по мере актуализации информации на официальном сайте игры и может занять какое-то время.</p></div>');
+	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: 28.06.2024 | Патч: 7.0</p>');
+	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/c807875c5f8f7529887c86d2955f709eae0231ef/">патч ноутам</a>.');
+	//$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновлены все старые классы кроме двух новых.</p></div>');
 	$('.SE').append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>')
+	// Skill Update and New
+	$('.skill_update').before('<tr class="jq_skill_update"></tr>');
+	$('.jq_skill_update').append('<td colspan="9"><p>Обновлён</p></td>');
+	$('.skill_new').before('<tr class="jq_skill_new"></tr>');
+	$('.jq_skill_new').append('<td colspan="9"><p>Новый</p></td>');
 });
 // Preloader
 document.body.onload = function () {
@@ -40,7 +39,7 @@ $('a[href*="#"]').click(function () {
 		{
 			scrollTop: $($(this).attr('href')).offset().top - 48,
 		},
-		1500
+		500
 	);
 	return false;
 });

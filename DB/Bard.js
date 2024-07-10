@@ -1,7 +1,7 @@
 (() =>{
     let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 19/03/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Heavy Shot',
@@ -14,7 +14,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'дар, наносящий урон с силой атаки 160.<br/>Дополнительный эффект: 20% шанс получить эффект Straight Shot Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон с силой атаки 160.<br/>Дополнительный эффект: 20% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
       // PVE Skill 02
       "PVE Skill 02": {
@@ -28,7 +28,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 200.<br/>Можно использовать только под действием эффекта Straight Shot Ready.',
+         "content": "Удар, наносящий урон с силой атаки 200.<br/>Можно использовать только под действием эффекта Hawk's Eye.",
       },
       // PVE Skill 03
       "PVE Skill 03": {
@@ -70,7 +70,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 110.<br/>Максимум зарядов: 3<br/>Имеет общее время восстановления с умением Rain of Death.',
+         "content": 'Удар, наносящий урон с силой атаки 130.<br/>Максимум зарядов: 3<br/>Имеет общее время восстановления с умением Rain of Death.',
       },
       // PVE Skill 06
       "PVE Skill 06": {
@@ -99,10 +99,24 @@
          "range": '12y',
          "radius_img": 'R4',
          "radius": '12y',
-         "content": 'Удар, наносящий урон с силой атаки 110 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: 35% шанс получить эффект Shadowbite Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон с силой атаки 110 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: 20% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
-      // PVE Skill 08
+      // PVE Skill 08 NEW
       "PVE Skill 08": {
+         "name": 'Wide Volley',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f935382d44889e5e74a995ed49bb6db78532edd4.png',
+         "job_icon": 'ARC',
+         "level": '25',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": "Удар, наносящий урон с силой атаки 140 по цели и по всем ближайшим противникам.<br/>Сила атаки Barrage: 220<br/>Можно использовать только под действием эффекта Hawk's Eye.",
+      },
+      // PVE Skill 09
+      "PVE Skill 09": {
          "name": 'Windbite',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a2e751e5315/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/798e2b8207ce793087365990d0996232238b9225.png',
@@ -116,8 +130,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон ветром с силой атаки 60.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 20<br/>Продолжительность: 45 сек.',
       },
-      // PVE Skill 09
-      "PVE Skill 09": {
+      // PVE Skill 10
+      "PVE Skill 10": {
          "name": "Mage's Ballad",
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e8c7133b92a/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eda9a8394ad037b3dec2b0013883bfddb34f54c4.png',
@@ -129,10 +143,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": "Удар, наносящий нестихийный урон с силой атаки 100.<br/>Дополнительный эффект: накладывает эффект Mage's Ballad на персонажа и всех сопартийцев в пределах 50 ялмов, увеличивая наносимый урон на 1%<br/>Продолжительность: 45 сек.<br/>Дополнительный эффект: 80% шанс наложить Repertoire<br/>Эффект Repertoire: уменьшает время восстановления умений Bloodletter и Rain of Death до 7.5 сек.<br/>Дополнительный эффект: активирует Mage's Coda",
+         "content": "Накладывает эффект Mage's Ballad на персонажа и всех сопартийцев в пределах 50 ялмов, увеличивая наносимый урон на 1%.<br/>Продолжительность: 45 сек.<br/>Дополнительный эффект: 80% шанс наложить Repertoire<br/>Этот эффект может срабатывать многократно во время исполнения Mage's Ballad.<br/>Эффект Repertoire: уменьшает время восстановления умений Heartbreak Shot и Rain of Death до 7.5 сек.<br/>Дополнительный эффект: активирует Mage's Coda<br/>Может быть использовано только во время боя.",
       },
-      // PVE Skill 10
-      "PVE Skill 10": {
+      // PVE Skill 11
+      "PVE Skill 11": {
          "name": "The Warden's Paean",
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c765d0b251b/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4df97f99863b3eade0fc5bba2937eff52a70fa6f.png',
@@ -146,8 +160,8 @@
          "radius": '0y',
          "content": 'Снимает один негативный эффект с персонажа или выбранного сопартийца. Если на цель не наложен негативный эффект, то накладывает щит, который блокирует следующий наложенный негативный эффект.<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 11
-      "PVE Skill 11": {
+      // PVE Skill 12
+      "PVE Skill 12": {
          "name": 'Barrage',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/28e7d01b94a703869a9bfae6f06864154f1bd2f3.png',
          "job_icon": 'ARC',
@@ -158,10 +172,10 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Увеличивает количество ударов в три раза для следующего умения, направленного в одну цель. Дополнительные эффекты накладываются только один раз. <br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: увеличивает силу атаки Shadowbite до 270<br/>Дополнительный эффект: накладывает эффект Straight Shot Ready<br/>Продолжительность: 30 сек.',
+         "content": 'Накладывает эффект Barrage, позволяющий использовать Refulgent Arrow и Shadowbite. При использовании Refulgent Arrow поразит выбранную цель три раза, а сила атаки Shadowbite будет увеличена до 270.<br/>Длительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Resonant Arrow Ready<br/>Длительность: 30 сек.',
       },
-      // PVE Skill 12
-      "PVE Skill 12": {
+      // PVE Skill 13
+      "PVE Skill 13": {
          "name": "Army's Paeon",
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b85cd2f336f/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/008c12ecfaee3427ff9c25c7f8d2307aee93df31.png',
@@ -173,10 +187,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": "Удар, наносящий нестихийный урон с силой атаки 100.<br/>Дополнительный эффект: накладывает эффект Army's Paeon на персонажа и всех сопартийцев в пределах 50 ялмов, увеличивая их шанс нанести прямой (direct) урон на 3%<br/>Продолжительность: 45 сек.<br/>Дополнительный эффект: 80% шанс наложить Repertoire<br/>Эффект Repertoire: сокращает время применения и восстановления боевых навыков, заклинаний и авто атак на 4%<br/>Эффект может суммироваться до 4 раз.<br/>Дополнительный эффект: активирует Army's Coda",
+         "content": "Накладывает эффект Army's Paeon персонажа и всех сопартийцев в пределах 50 ялмов, увеличивая их шанс нанести прямой (direct) урон на 3%.<br/>Продолжительность: 45 сек.<br/>Дополнительный эффект: 80% шанс наложить Repertoire<br/>Этот эффект может срабатывать многократно во время исполнения Army's Paeon.<br/>Эффект Repertoire: сокращает время применения и восстановления боевых навыков, заклинаний и авто атак на 4%<br/>Эффект может суммироваться до 4 раз.<br/>Дополнительный эффект: активирует Army's Coda<br/>Может быть использовано только во время боя.",
       },
-      // PVE Skill 13
-      "PVE Skill 13": {
+      // PVE Skill 14
+      "PVE Skill 14": {
          "name": 'Rain of Death',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6284626cb5b/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f6aff04bfff3c98ae2e81e955c3c453f70a24e59.png',
@@ -190,8 +204,8 @@
          "radius": '8y',
          "content": 'Удар, наносящий урон с силой атаки 100 по цели и всем ближайшим противникам.<br/>Максимум зарядов: 3 <br/>Имеет общее время восстановления с умением Bloodletter.',
       },
-      // PVE Skill 14
-      "PVE Skill 14": {
+      // PVE Skill 15
+      "PVE Skill 15": {
          "name": 'Battle Voice',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d8ad06c43fe/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c4e15bf310cd0ac2d57e067057e4ef50d150705.png',
@@ -203,10 +217,10 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '30y',
-         "content": 'Повышает прямой (direct) урон персонажа и всех ближайших сопартийцев на 20%.<br/>Продолжительность: 15 сек.',
+         "content": 'Повышает прямой (direct) урон персонажа и всех ближайших сопартийцев на 20%.<br/>Продолжительность: 20 сек.',
       },
-      // PVE Skill 15
-      "PVE Skill 15": {
+      // PVE Skill 16
+      "PVE Skill 16": {
          "name": "The Wanderer's Minuet",
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/26142c1f509/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/53e0411604846053cbec196bed125f38a71b73c1.png',
@@ -218,10 +232,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": "Удар, наносящий нестихийный урон с силой атаки 100.<br/>Дополнительный эффект: накладывает эффект Wanderer's Minuet на персонажа и всех сопартийцев в пределах 50 ялмов, увеличивая их шанс нанести критический (critical) урон на 2%<br/>Продолжительность: 45 сек.<br/>Дополнительный эффект: 80% шанс наложить Repertoire<br/>Эффект Repertoire: позволяет применить Pitch Perfect<br/>Эффект может суммироваться до 3 раз.<br/>Дополнительный эффект: активирует Wanderer's Coda<br/><br/>※Умение меняется на Pitch Perfect после использования.",
+         "content": "Накладывает эффект Wanderer's Minuet на персонажа и всех сопартийцев в пределах 50 ялмов, увеличивая их шанс нанести критический (critical) урон на 2%.<br/>Продолжительность: 45 сек.Дополнительный эффект: 80% шанс наложить Repertoire<br/>Этот эффект может срабатывать многократно во время исполнения Wanderer's Minuet.<br/>Эффект Repertoire: позволяет применить Pitch Perfect<br/>Эффект может суммироваться до 3 раз.<br/>Дополнительный эффект: активирует Mage's Coda<br/>Может быть использовано только во время боя.",
       },
-      // PVE Skill 16
-      "PVE Skill 16": {
+      // PVE Skill 17
+      "PVE Skill 17": {
          "name": 'Pitch Perfect',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa05309833a74ae0a743b41574347b02408148c5.png',
          "job_icon": 'BRD',
@@ -232,10 +246,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": "Удар, наносящий урон по цели. Сила атаки зависит от количества стаков Repertoire.<br/>1 стак Repertoire: 100<br/>2 стака Repertoire: 220<br/>3 стака Repertoire: 360<br/>Может использовать только, когда Wanderer's Minuet активен.<br/><br/>※Это умение нельзя поместить на хотбар.",
+         "content": "Удар, наносящий урон по цели. Сила атаки зависит от количества стаков Repertoire, нанося полный урон первому противнику и на 50% меньше всем остальным.<br/>1 стак Repertoire: 100<br/>2 стака Repertoire: 220<br/>3 стака Repertoire: 360<br/>Может использовать только когда Wanderer's Minuet активен и есть хотя бы 1 стак Repertoire.",
       },
-      // PVE Skill 17
-      "PVE Skill 17": {
+      // PVE Skill 18
+      "PVE Skill 18": {
          "name": 'Empyreal Arrow',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8c1cbe598fe/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/06f5720224fc5d70aaf47a8850f683e0d4e89b02.png',
@@ -247,10 +261,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 240.',
+         "content": 'Удар, наносящий урон с силой атаки 260.',
       },
-      // PVE Skill 18
-      "PVE Skill 18": {
+      // PVE Skill 19
+      "PVE Skill 19": {
          "name": 'Iron Jaws',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3affd7ac077/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/60a919b5c963e842d9c69066761319737f00253f.png',
@@ -262,10 +276,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 100.<br/>Дополнительный эффект: если цель находится под действием эффекта Caustic Bite или Stormbite, их эффект накладывается заново<br/>Дополнительный эффект: 35% шанс получить эффект Straight Shot Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон с силой атаки 100.<br/>Дополнительный эффект: если цель находится под действием эффекта Caustic Bite или Stormbite, их эффект накладывается заново<br/>Дополнительный эффект: 35% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
-      // PVE Skill 19
-      "PVE Skill 19": {
+      // PVE Skill 20
+      "PVE Skill 20": {
          "name": 'Sidewinder',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a6aacc93c8d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ac6fcd72c5f1c20fe9106dbf9d1936b01a643ff4.png',
@@ -277,10 +291,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 320.',
+         "content": 'Удар, наносящий урон с силой атаки 400.',
       },
-      // PVE Skill 20
-      "PVE Skill 20": {
+      // PVE Skill 21
+      "PVE Skill 21": {
          "name": 'Troubadour',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8afc3a84c2ec0f215d378e8ed011fd260d3cdc6b.png',
          "job_icon": 'BRD',
@@ -291,10 +305,10 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '30y',
-         "content": 'Снижает урон, получаемый персонажем и сопартийцами, на 10%.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с умение Tactician машиниста или Shield Samba дансера.',
+         "content": 'Снижает урон, получаемый персонажем и сопартийцами, на 15%.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с умение Tactician машиниста или Shield Samba дансера.',
       },
-      // PVE Skill 21
-      "PVE Skill 21": {
+      // PVE Skill 22
+      "PVE Skill 22": {
          "name": 'Caustic Bite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/534f0bede51a66ae9c6b36f0d2727280c4fc72b1.png',
          "job_icon": 'BRD',
@@ -305,10 +319,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 150.<br/>Дополнительный эффект: отрава (poison)<br/>Сила атаки: 20<br/>Продолжительность: 40 сек.<br/>Дополнительный эффект: 35% шанс получить эффект Straight Shot Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон с силой атаки 150.<br/>Дополнительный эффект: отрава (poison)<br/>Сила атаки: 20<br/>Продолжительность: 45 сек.<br/>Дополнительный эффект: 35% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
-      // PVE Skill 22
-      "PVE Skill 22": {
+      // PVE Skill 23
+      "PVE Skill 23": {
          "name": 'Stormbite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/90e699e1bfbc23abf1ba96217b631ed04109be28.png',
          "job_icon": 'BRD',
@@ -319,10 +333,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон ветром с силой атаки 100.<br/>Дополнительный эффект: периодический урон воздухом<br/>Сила атаки: 25<br/>Длительность: 45 сек.<br/>Дополнительный эффект: 35% шанс получить эффект Straight Shot Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон ветром с силой атаки 100.<br/>Дополнительный эффект: периодический урон воздухом<br/>Сила атаки: 25<br/>Длительность: 45 сек.<br/>Дополнительный эффект: 35% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
-      // PVE Skill 23
-      "PVE Skill 23": {
+      // PVE Skill 24
+      "PVE Skill 24": {
          "name": "Nature's Minne",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/18695708d8d7ea8d7f9a7ffe0857dafcaea57694.png',
          "job_icon": 'BRD',
@@ -335,8 +349,8 @@
          "radius": '30y',
          "content": 'Увеличивает восстановление HP при использовании исцеляющих умений на 15% для персонажа и ближайших сопартийцев.<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 24
-      "PVE Skill 24": {
+      // PVE Skill 25
+      "PVE Skill 25": {
          "name": 'Refulgent Arrow',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4c5e96e09d0/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/82ad905241d7a83faf26dd9d31227a6d79a6ae86.png',
@@ -348,10 +362,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 280.<br/>Можно использовать только под действием эффекта Straight Shot Ready.',
+         "content": "Удар, наносящий урон с силой атаки 280.<br/>Можно использовать только под действием эффекта Hawk's Eye.",
       },
-      // PVE Skill 25
-      "PVE Skill 25": {
+      // PVE Skill 26
+      "PVE Skill 26": {
          "name": 'Shadowbite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4606071e2563a6b58da4e53f374c1a3e2aad73b7.png',
          "job_icon": 'BRD',
@@ -362,10 +376,10 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 170 по цели и всем ближайшим противникам.<br/>Сила атаки Barrage: 270<br/>Можно использовать только под действием эффекта Shadowbite Ready.',
+         "content": "Удар, наносящий урон с силой атаки 170 по цели и всем ближайшим противникам.<br/>Сила атаки Barrage: 270<br/>Можно использовать только под действием эффекта Hawk's Eye.",
       },
-      // PVE Skill 26
-      "PVE Skill 26": {
+      // PVE Skill 27
+      "PVE Skill 27": {
          "name": 'Burst Shot',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d97a50687d4bb81c0d01155d889a89252e9365f3.png',
          "job_icon": 'BRD',
@@ -376,10 +390,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 220.<br/>Дополнительный эффект: 35% шанс получить эффект Straight Shot Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон с силой атаки 220.<br/>Дополнительный эффект: 35% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
-      // PVE Skill 27
-      "PVE Skill 27": {
+      // PVE Skill 28
+      "PVE Skill 28": {
          "name": 'Apex Arrow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb3db0cfb0a935f62b178ae16ce11e03d4cd16b5.png',
          "job_icon": 'BRD',
@@ -390,10 +404,10 @@
          "range": '25y',
          "radius_img": 'R6',
          "radius": '25y',
-         "content": 'Удар, наносящий урон с силой атаки 100 по всем противникам по прямой линии перед персонажем.<br/>Стоимость: 20 Soul Voice Gauge<br/>Сила атаки увеличивается пропорционально значению Soul Voice Gauge и достигает 500 при максимальном значении.<br/>Дополнительный эффект: накладывает Blast Arrow Ready после использования, когда шкала Soul Voice Gauge равна 80 или выше<br/>Продолжительность: 10 сек.<br/>При использовании расходует всю шкалу Soul Voice.<br/><br/>※Умение меняется на Blast Arrow под действием эффекта Blast Arrow Ready.',
+         "content": 'Удар, наносящий урон с силой атаки 120 по всем противникам по прямой линии перед персонажем.<br/>Стоимость: 20 Soul Voice Gauge<br/>Сила атаки увеличивается пропорционально значению Soul Voice Gauge и достигает 600 при максимальном значении.<br/>Дополнительный эффект: накладывает Blast Arrow Ready после выполнения, когда шкала Soul Voice Gauge равна 80 или выше<br/>Продолжительность: 10 сек.<br/>При выполнении расходует всю шкалу Soul Voice',
       },
-      // PVE Skill 28
-      "PVE Skill 28": {
+      // PVE Skill 29
+      "PVE Skill 29": {
          "name": 'Ladonsbite',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f98902415153b56b16c933530c8a836ffd3f38a2.png',
          "job_icon": 'BRD',
@@ -404,10 +418,10 @@
          "range": '12y',
          "radius_img": 'R4',
          "radius": '12y',
-         "content": 'Удар, наносящий урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: 35% шанс получить эффект Shadowbite Ready<br/>Продолжительность: 30 сек.',
+         "content": "Удар, наносящий урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: 35% шанс получить эффект Hawk's Eye<br/>Продолжительность: 30 сек.",
       },
-      // PVE Skill 29
-      "PVE Skill 29": {
+      // PVE Skill 30
+      "PVE Skill 30": {
          "name": 'Blast Arrow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5822409165097e5bdc147d6dddd40e9296d5d6c1.png',
          "job_icon": 'BRD',
@@ -418,10 +432,10 @@
          "range": '25y',
          "radius_img": 'R6',
          "radius": '25y',
-         "content": 'Удар, наносящий урон по всем противникам по прямой линии с силой атаки 600 для первого противника и на 60% меньше для всех остальных.<br/>Можно использовать только под действием эффекта Blast Arrow Ready.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон по всем противникам по прямой линии с силой атаки 600 для первого противника и на 60% меньше для всех остальных.<br/>Можно использовать только под действием эффекта Blast Arrow Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Apex Arrow меняется на Blast Arrow при соблюдении требований к выполнению.',
       },
-      // PVE Skill 30
-      "PVE Skill 30": {
+      // PVE Skill 31
+      "PVE Skill 31": {
          "name": 'Radiant Finale',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c22031ccb99f6446f2921d6250d646005535c684.png',
          "job_icon": 'BRD',
@@ -432,15 +446,57 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '30y',
-         "content": 'Увеличивает урон, наносимый персонажем и ближайшими сопартийцами.<br/>Продолжительность: 15 сек.<br/>Эффективность зависит от количества Coda, активных в шкале Song Gauge.<br/>1 Coda: 2%<br/>2 Coda: 4%<br/>3 Coda: 6%<br/>Может быть использовано, только если активна хотя бы 1 Coda.',
+         "content": 'Увеличивает урон, наносимый персонажем и ближайшими сопартийцами.<br/>Продолжительность: 20 сек.<br/>Эффективность зависит от количества Coda, активных в шкале Song Gauge.<br/>1 Coda: 2%<br/>2 Coda: 4%<br/>3 Coda: 6%<br/>Дополнительный эффект: накладывает эффект Radiant Encore Ready<br/>Продолжительность: 30 сек.<br/>Может быть использовано, только если активна хотя бы 1 Coda.',
+      },
+      // PVE Skill 32 NEW
+      "PVE Skill 32": {
+         "name": 'Heartbreak Shot',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c0a5370256054855bc11136374ddbd388c3f8c98.png',
+         "job_icon": 'BRD',
+         "level": '92',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '15 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон с силой атаки 180.<br/>Максимум зарядов: 3 <br/>Имеет общее время восстановления с умением Rain of Death.',
+      },
+      // PVE Skill 33 NEW
+      "PVE Skill 33": {
+         "name": 'Resonant Arrow',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ecc6e2f2f492310758f85277b00eb134eec6c68.png',
+         "job_icon": 'BRD',
+         "level": '96',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 600 для первого противника и на 50% меньше для всех остальных.<br/>Можно использовать только под действием эффекта Resonant Arrow Ready.',
+      },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Radiant Encore',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2f516fd00c23f16a32c6278b6d9ebd7481d41a3.png',
+         "job_icon": 'BRD',
+         "level": '100',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам. Сила атаки определяется количеством различных Coda, использованных во время предыдущего Radiant Finale, наносит полный урон первому противнику и на 50% меньше всем остальным.<br/>1 Coda: 500<br/>2 Coda: 600<br/>3 Coda: 900<br/>Можно использовать только под действием эффекта Radiant Encore Ready.',
       },
       // Trait 01
       "Trait 01": {
          "name": 'Heavier Shot',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f9f4191174c6aa3cb901ba5abe7fbd2e4a53a3b1.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/108765871bee04e1c77e2da519cb3fd2852c2fc4.png',
          "job_icon": 'ARC',
          "level": '2',
-         "content": 'Добавляет к умению Heavy Shot 20% шанс наложить на персонажа эффект Straight Shot Ready.<br/>Продолжительность: 30 сек.',
+         "content": "Добавляет к умению Heavy Shot 20% шанс наложить на персонажа эффект Hawk's Eye.<br/>Продолжительность: 30 сек.",
       },
       // Trait 02
       "Trait 02": {
@@ -450,118 +506,166 @@
          "level": '20',
          "content": 'Увеличивает базовый урон умений на 10%.',
       },
-      // Trait 03
+      // Trait 03 NEW
       "Trait 03": {
+         "name": 'Enhanced Quick Nock',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/03721e9a337502bdf9a5b6b5e526e641662fbda3.png',
+         "job_icon": 'BRD',
+         "level": '25',
+         "content": "Добавляет умению Quick Nock 35% шанс наложить на персонажа эффект Hawk's Eye.<br/>Продолжительность: 30 сек.",
+      },
+      // Trait 04
+      "Trait 04": {
          "name": 'Increased Action Damage II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1363164bd814e4703e9ea5a4fad50b8d6b6b72ff.png',
          "job_icon": 'ARC',
          "level": '40',
          "content": 'Увеличивает базовый урон умений на 20%.',
       },
-      // Trait 04
-      "Trait 04": {
+      // Trait 05
+      "Trait 05": {
          "name": 'Bite Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ac2acee101baf87dbddf94b525cb461da4e06873.png',
          "job_icon": 'BRD',
          "level": '64',
          "content": 'Улучшает умения Venomous Bite и Windbite до Caustic Bite и Stormbite.',
       },
-      // Trait 05
-      "Trait 05": {
+      // Trait 06
+      "Trait 06": {
          "name": 'Enhanced Empyreal Arrow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/909165dd890040f704ec9f9cf8d053273099fd5e.png',
          "job_icon": 'BRD',
          "level": '68',
          "content": "Гарантирует срабатывание дополнительных эффектов для Mage's Ballad, Army's Paeon и Wanderer's Minuet при попадании умения Empyreal Arrow в цель.",
       },
-      // Trait 06
-      "Trait 06": {
+      // Trait 07
+      "Trait 07": {
          "name": 'Straight Shot Mastery',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4c5e96e09d0/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c21841cc0bd0a458947bfdd3aba7ef995bf5e4fa.png',
          "job_icon": 'BRD',
          "level": '70',
-         "content": 'Улучшает Straight Shot до Refulgent Arrow.',
+         "content": 'Улучшает умение Straight Shot до Refulgent Arrow.',
       },
-      // Trait 07
-      "Trait 07": {
-         "name": 'Enhanced Quick Nock',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/77cd0ffa004ca6b11e845f8774c51b8d5659445a.png',
+      // Trait 08 NEW
+      "Trait 08": {
+         "name": 'Wide Volley Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/18779c63b4e4e61466a651e89b34c081f2267ac1.png',
          "job_icon": 'BRD',
          "level": '72',
-         "content": 'Добавляет умению Quick Nock 35% шанс наложить на персонажа эффект Shadowbite Ready.<br/>Продолжительность: 30 сек.',
+         "content": 'Улучшает умение Wide Volley до Shadowbite.',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 09
+      "Trait 09": {
          "name": 'Bite Mastery II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/198c545ac1e2135cbca16ac29ef9cd3cc7674b66.png',
          "job_icon": 'BRD',
          "level": '76',
-         "content": 'Добавляет умениям Stormbite, Caustic Bite и Iron Jaws 35% шанс наложить на персонажа эффект Straight Shot Ready.<br/>Продолжительность: 30 сек.',
+         "content": "Добавляет умениям Stormbite, Caustic Bite и Iron Jaws 35% шанс наложить на персонажа эффект Hawk's Eye.<br/>Продолжительность: 30 сек.",
       },
-      // Trait 09
-      "Trait 09": {
+      // Trait 10
+      "Trait 10": {
          "name": 'Heavy Shot Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f229f1f3ae074b3858dd1e92c17b948c383eda86.png',
          "job_icon": 'BRD',
          "level": '76',
-         "content": 'Улучшает Heavy Shot до Burst Shot.',
+         "content": 'Улучшает умение Heavy Shot до Burst Shot.',
       },
-      // Trait 10
-      "Trait 10": {
+      // Trait 11
+      "Trait 11": {
          "name": "Enhanced Army's Paeon",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6b041a4691092484e66f8bb3b1feeaebd5ee8f2a.png',
          "job_icon": 'BRD',
          "level": '78',
          "content": "Находясь под эффектом Army's Paeon и имея хотя бы один стак Repertoire, исполнение Mage's Ballad или the Wanderer's Minuet накладывая эффект Army's Muse, снижая время использования боевых навыков, заклинаний и снижая промежуток между авто атаками.<br/>Продолжительность: 10 сек.<br/>Если Army's Paeon, при наличии стаков Repertoire, завершается без использования Mage's Ballad или the Wanderer's Minuet, то будет наложен эффект Army's Ethos.<br/>Продолжительность: 30 сек.<br/>Находясь под эффектом Army's Ethos, исполнение Mage's Ballad или the Wanderer's Minuet накладывает эффект Army's Muse. И Army's Ethos и Army's Muse требуют стаки Repertoire от количества которых зависит сила данных умений:<br/>1 Repertoire: 1%<br/>2 Repertoire: 2%<br/>3 Repertoire: 4%<br/>4 Repertoire: 12%",
       },
-      // Trait 11
-      "Trait 11": {
+      // Trait 12
+      "Trait 12": {
          "name": 'Soul Voice',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb8b641bca15e97f11d09360832baf9109b1dc0a.png',
          "job_icon": 'BRD',
          "level": '80',
          "content": 'Восполняет шкалу Soul Voice на 5 за каждое срабатывание эффекта Repertoire.',
       },
-      // Trait 12
-      "Trait 12": {
+      // Trait 13
+      "Trait 13": {
          "name": 'Quick Nock Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c05ffbbd143b8e9acc7236f62623d15eca24343.png',
          "job_icon": 'BRD',
          "level": '82',
-         "content": 'Улучшает Quick Nock до Ladonsbite.',
+         "content": 'Улучшает умение Quick Nock до Ladonsbite.',
       },
-      // Trait 13
-      "Trait 13": {
+      // Trait 14
+      "Trait 14": {
          "name": 'Enhanced Bloodletter',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/39eb05f0b91055fb91b63ff3ad7ac70df1fa97cc.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b884f8ddaee8b302526bae34a30b0376ebfc224a.png',
          "job_icon": 'BRD',
          "level": '84',
          "content": 'Позволяет накапливать 3 заряда Bloodletter и Rain of Death.',
       },
-      // Trait 14
-      "Trait 14": {
+      // Trait 15
+      "Trait 15": {
          "name": 'Enhanced Apex Arrow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bdb8a75286b408bc863d633af66ea97c9e15cf1c.png',
          "job_icon": 'BRD',
          "level": '86',
          "content": 'Накладывает эффект Blast Arrow Ready при использовании Apex Arrow после того, как шкала Soul Voice Gauge достигает 80 или выше.<br/>Продолжительность: 10 сек.<br/>Apex Arrow становится Blast Arrow под действием этого эффекта.',
       },
-      // Trait 15
-      "Trait 15": {
+      // Trait 16
+      "Trait 16": {
          "name": 'Enhanced Troubadour',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/960bc4dbfb5bdee7e55119f6a35175563eac6969.png',
          "job_icon": 'BRD',
          "level": '88',
          "content": 'Сокращает время восстановления Troubadour до 90 сек.',
       },
-      // Trait 16
-      "Trait 16": {
+      // Trait 17
+      "Trait 17": {
          "name": "Minstrel's Coda",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/626868bfd5b13a4e00372e4ac5106c655b12eb64.png',
          "job_icon": 'BRD',
          "level": '90',
          "content": "Накладывает эффект Mage's Coda, Army's Coda или Wanderer's Coda после исполнения Mage's Ballad, Army's Paeon или the Wanderer's Minuet.<",
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'Bloodletter Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fbd9bd3aa726059da139262c130e97f2207b0518.png',
+         "job_icon": 'BRD',
+         "level": '92',
+         "content": 'Улучшает умение Bloodletter до Heartbreak Shot.',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Ranged Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png',
+         "job_icon": 'BRD',
+         "level": '94',
+         "content": 'Увеличивает силу атаки Empyreal Arrow до 260, Sidewinder до 400, Refulgent Arrow до 280, Burst Shot до 220 и Apex Arrow до 120, при максимальном значении 600.',
+      },
+      // Trait 20 NEW
+      "Trait 20": {
+         "name": 'Enhanced Barrage',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d139ce87bcae2a797053062936c54f77e2f5d320.png',
+         "job_icon": 'BRD',
+         "level": '96',
+         "content": 'Накладывает эффект Resonant Arrow Ready после использования Barrage.<br/>Продолжительность: 30 сек.',
+      },
+      // Trait 21 NEW
+      "Trait 21": {
+         "name": 'Enhanced Troubadour II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2d7ccdc150d408b54d8635981fd098379485e3ec.png',
+         "job_icon": 'BRD',
+         "level": '98',
+         "content": 'Увеличивает эффективность снижения урона Troubadour до 15%.',
+      },
+      // Trait 22 NEW
+      "Trait 22": {
+         "name": 'Enhanced Radiant Finale',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3168efe251b2ebe7635e0b5da38e6e58858546e4.png',
+         "job_icon": 'BRD',
+         "level": '100',
+         "content": 'Накладывает эффект Radiant Encore Ready после использования Radiant Finale.<br/>Продолжительность: 30 сек.',
       },
       // PVP Skill 01
       "PVP Skill 01": {

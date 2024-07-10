@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Hard Slash',
@@ -15,7 +15,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 170.',
+         "content": 'Удар, наносящий урон с силой атаки 260.',
       },
       // PVE Skill 02
       "PVE Skill 02": {
@@ -30,7 +30,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Hard Slash<br/>Сила в комбо: 260<br/>Комбо бонус: восстанавливает MP',
+         "content": 'Удар, наносящий урон с силой атаки 220.<br/>Комбо умение: Hard Slash<br/>Сила в комбо: 360<br/>Комбо бонус: восстанавливает MP',
       },
       // PVE Skill 03
       "PVE Skill 03": {
@@ -90,7 +90,7 @@
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Дальний удар, наносящий нестихийный урон с силой атаки 150.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Дополнительный эффект: уменьшает время восстановления Plunge на 5 сек.',
+         "content": 'Дальний удар, наносящий нестихийный урон с силой атаки 150.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Дополнительный эффект: уменьшает время восстановления Shadowstride на 5 сек.',
       },
       // PVE Skill 07
       "PVE Skill 07": {
@@ -105,7 +105,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 120.<br/>Комбо умение: Syphon Strike<br/>Сила в комбо: 340<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 300<br/>Комбо бонус: восполняет ресурс шкалы Blood Gauge на 20',
+         "content": 'Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Syphon Strike<br/>Сила в комбо: 460<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 300<br/>Комбо бонус: восполняет ресурс шкалы Blood Gauge на 20',
       },
       // PVE Skill 08
       "PVE Skill 08": {
@@ -137,7 +137,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Накладывает 5 стаков Blood Weapon. Каждый стак увеличивает ресурс шкалы Blood Gauge на 10 и восстанавливает MP при каждом успешном использовании боевого навыка или заклинания.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется при нанесении урона нескольким целям одной атакой.',
+         "content": 'Накладывает 3 стака Blood Weapon. Каждый стак увеличивает ресурс шкалы Blood Gauge на 10 и восстанавливает MP при каждом успешном использовании боевого навыка или заклинания.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется при нанесении урона нескольким целям одной атакой.',
       },
       // PVE Skill 10
       "PVE Skill 10": {
@@ -167,7 +167,7 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 100 по всем окружающим противникам.<br/>Комбо умение: Unleash<br/>Сила в комбо: 140<br/>Комбо бонус: восстанавливает MP<br/>Комбо бонус: восполняет Blood Gauge на 20',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 120 по всем окружающим противникам.<br/>Комбо умение: Unleash<br/>Сила в комбо: 160<br/>Комбо бонус: восстанавливает MP<br/>Комбо бонус: восполняет Blood Gauge на 20',
       },
       // PVE Skill 12
       "PVE Skill 12": {
@@ -230,13 +230,13 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Создает у ног персонажа область, наносящую нестихийный урон с силой атаки 50 по всем противникам, которые оказываются в её пределах.<br/>Продолжительность: 15 сек.<br/><br/>※Умение меняется на Salt and Darkness после использования.',
+         "content": 'Создает у ног персонажа область, наносящую нестихийный урон с силой атаки 50 по всем противникам, которые оказываются в её пределах.<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 16
+      // PVE Skill 16 NEW
       "PVE Skill 16": {
-         "name": 'Plunge',
+         "name": 'Shadowstride',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/faf66e65690/',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d95cc50b9a8950878a034c0d6f58c8bd8c58929d.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/52870f24b14efd37172003e974b8c45ca3d38010.png',
          "job_icon": 'DRK',
          "level": '54',
          "classification": 'Способность',
@@ -246,7 +246,7 @@
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Прыжок, наносящий урон с силой атаки 150.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
+         "content": 'Рывок к выбранному противнику.<br/>Количество зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.',
       },
       // PVE Skill 17
       "PVE Skill 17": {
@@ -293,7 +293,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 500.<br/>Стоимость: 50 Blood Gauge',
+         "content": 'Удар, наносящий урон с силой атаки 580.<br/>Стоимость: 50 Blood Gauge',
       },
       // PVE Skill 20
       "PVE Skill 20": {
@@ -308,7 +308,7 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 200 по всем окружающим противникам.<br/>Стоимость: 50 Blood Gauge',
+         "content": 'Удар, наносящий урон с силой атаки 240 по всем окружающим противникам.<br/>Стоимость: 50 Blood Gauge',
       },
       // PVE Skill 21
       "PVE Skill 21": {
@@ -323,7 +323,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Накладывает 3 стака Delirium, каждый стак позволяет использовать Quietus или Bloodspiller без затрат Blood Gauge, восстанавливая MP после каждого успешного использования боевого навыка.<br/>Продолжительность: 15 сек.',
+         "content": 'Накладывает 3 стака Blood Weapon и Delirium.<br/>Эффект Delirium: каждый стак позволяет использовать Scarlet Delirium или Impalement, восстанавливая MP при использовании любого боевого навыка.<br/>Продолжительность: 15 сек.<br/>Эффект Blood Weapon: каждый стак восполняет ресурс шкалы Blood Gauge на 10 и восстанавливает MP при каждом успешном использовании боевого навыка или заклинания.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется при нанесении урона нескольким целям одной атакой.',
       },
       // PVE Skill 22
       "PVE Skill 22": {
@@ -399,7 +399,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Создает живую тень, воплощающую темную сторону, которая сражается вместе с персонажем на поле боя.<br/>Сила атаки тени: 350<br/>Продолжительность: 20 сек.<br/>Стоимость: 50 Blood Gauge<br/>Дополнительный эффект: тень может использовать Shadowbringer, наносящий урон по всем противникам по прямой линии перед ней с силой атаки 500 для первого и на 25% меньше для всех остальных',
+         "content": 'Создает живую тень, воплощающую темную сторону, которая сражается вместе с персонажем на поле боя.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Scorn<br/>Продолжительность: 30 сек.<br/>Сила атаки тени: 420<br/>Дополнительный эффект: тень может использовать Shadowbringer и Disesteem<br/>Сила атаки Shadowbringer: 570 для первого противника и на 25% меньше для всех остальных<br/>Сила атаки Disesteem: 620 для первого противника и на 25% меньше для всех остальных',
       },
       // PVE Skill 27
       "PVE Skill 27": {
@@ -419,6 +419,7 @@
       // PVE Skill 28
       "PVE Skill 28": {
          "name": 'Salt and Darkness',
+         "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/"',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb0216fb548f749ceb5bf25f071af462129be59b.png',
          "job_icon": 'DRK',
          "level": '86',
@@ -429,7 +430,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Все противники, находящиеся в оскверненной области Salted Earth, получают дополнительный нестихийный урон с силой атаки 500 для первого и на 50% меньше для остальных.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Все противники, находящиеся в оскверненной области Salted Earth, получают дополнительный нестихийный урон с силой атаки 500 для первого и на 50% меньше для остальных.',
       },
       // PVE Skill 29
       "PVE Skill 29": {
@@ -445,6 +446,96 @@
          "radius_img": 'R6',
          "radius": '10y',
          "content": 'Удар, наносящий нестихийный урон по прямой линиии по всем противникам перед персонажем с силой атаки 600 для первого и на 50% меньше для остальных.<br/>Максимум зарядов: 2<br/>Можно использовать только под эффектом Darkside.',
+      },
+      // PVE Skill 30 NEW
+      "PVE Skill 30": {
+         "name": 'Shadowed Vigil',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/093f2ddb0a06f04a76fe41fd5c31f7fceb46d2ea.png',
+         "job_icon": 'DRK',
+         "level": '92',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '120 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Уменьшает получаемый урон на 40%.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Vigilant<br/>Продолжительность: 20 сек.<br/>Эффект Vigilant: восстанавливает HP персонажа, когда HP падает ниже 50% или по истечении срока действия эффекта<br/>Сила лечения: 1,200',
+      },
+      // PVE Skill 31 NEW
+      "PVE Skill 31": {
+         "name": 'Scarlet Delirium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/457d3fa4f25afb9c4494105c0afc15644bbaad7a.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон с силой атаки 600.<br/>Может быть использовано только под действием эффекта Delirium.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Bloodspiller меняется на Scarlet Delirium при соблюдении требований к выполнению.',
+      },
+      // PVE Skill 32 NEW
+      "PVE Skill 32": {
+         "name": 'Comeuppance',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cc157e7338d9b4c32f880aed1838519933bc6797.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон с силой атаки 700.<br/>Комбо умение: Scarlet Delirium<br/>Может быть использовано только под действием эффекта Delirium.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Scarlet Delirium меняется на Comeuppance при соблюдении требований к выполнению.',
+      },
+      // PVE Skill 33 NEW
+      "PVE Skill 33": {
+         "name": 'Torcleaver',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2510476b643976c09c1b42f6eb9f011b7de6902c.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '3y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон с силой атаки 800.<br/>Комбо умение: Comeuppance<br/>Может быть использовано только под действием эффекта Delirium.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Comeuppance меняется на Torcleaver при соблюдении требований к выполнению.',
+      },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Impalement',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/77ef69ee0efdb439996373d7e47f2744a7604b10.png',
+         "job_icon": 'DRK',
+         "level": 'DRK',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон с силой атаки 320 по всем окружающим противникам.<br/>Может быть использовано только под действием эффекта Delirium.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Quietus меняется на Impalement при соблюдении требований к выполнению.',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": 'Disesteem',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acf9474555312bfc65c8d4e8e93cf368f819f503.png',
+         "job_icon": 'DRK',
+         "level": '100',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '10y',
+         "radius_img": 'R6',
+         "radius": '10y',
+         "content": 'Удар, наносящий физический урон по прямой линиии по всем противникам перед персонажем с силой атаки 800 для первого и на 50% меньше для остальных.<br/>Можно использовать только при активном эффекте Scorn.',
       },
       // Trait 01
       "Trait 01": {
@@ -470,21 +561,21 @@
          "level": '66',
          "content": 'Позволяет восполнять Blood Gauge после атак с использованием оружия или заклинания, находясь под эффектом Blood Weapon.',
       },
-      // Trait 04
+      // Trait 04 NEW
       "Trait 04": {
+         "name": 'Blood Weapon Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2b189239725408e4ee7807ec361db47974443936.png',
+         "job_icon": 'DRK',
+         "level": '68',
+         "content": 'Улучшает умение Blood Weapon до Delirium.',
+      },
+      // Trait 05
+      "Trait 05": {
          "name": 'Darkside Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/68800dbdca2c85218b44e9add376f59aa5d41559.png',
          "job_icon": 'DRK',
          "level": '74',
          "content": 'Улучшает умение Flood of Darkness и Edge of Darkness до Flood of Shadow и Edge of Shadow.',
-      },
-      // Trait 05
-      "Trait 05": {
-         "name": 'Enhanced Plunge',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3b7963886295db47cd07244b399c4dd8c83dc937.png',
-         "job_icon": 'DRK',
-         "level": '78',
-         "content": 'Позволяет накапливать заряды для последовательного использования Plunge.<br/>Максимум зарядов: 2',
       },
       // Trait 06
       "Trait 06": {
@@ -492,15 +583,15 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1254f70083b234ef84a6ad64c9e237231628896f.png',
          "job_icon": 'DRK',
          "level": '84',
-         "content": 'Уменьшает время восстановления умения Plunge на 5 секунд при использовании Unmend на большинстве целей.',
+         "content": 'Уменьшает время восстановления умения Shadowstride на 5 секунд при использовании Unmend на большинстве целей.',
       },
       // Trait 07
       "Trait 07": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'DRK',
          "level": '84',
-         "content": 'Увеличивает силу атаки умений Hard Slash до 170, Syphon Strike до 120 и Souleater до 120.',
+         "content": 'Увеличивает силу атаки умений Hard Slash до 180, Syphon Strike до 120 и Souleater до 140.',
       },
       // Trait 08
       "Trait 08": {
@@ -508,7 +599,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14eb5e09a27cad9aca0badada5555013ee2336d0.png',
          "job_icon": 'DRK',
          "level": '88',
-         "content": 'Увеличивает силу атак, наносимых тенью, до 350.',
+         "content": 'Увеличивает силу атак, наносимой тенью, до 420.',
       },
       // Trait 09
       "Trait 09": {
@@ -516,7 +607,39 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ae34095410649e88aa247fedf9f6478a0e15409.png',
          "job_icon": 'DRK',
          "level": '90',
-         "content": 'Улучшает умение Flood of Shadow, использующееся тенью, до Shadowbringer, наносящего урон по всем противникам по прямой линии перед тенью с силой атаки 500 для первого и на 25% меньше для всех остальных.',
+         "content": 'Улучшает умение Flood of Shadow, использующееся тенью, до Shadowbringer, наносящего урон по всем противникам по прямой линии перед тенью с силой атаки 570 для первого и на 25% меньше для всех остальных.',
+      },
+      // Trait 10
+      "Trait 10": {
+         "name": 'Shadow Wall Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1fb4da21e08c5ee9a06dead1aa6954f0b6a82126.png',
+         "job_icon": 'DRK',
+         "level": '92',
+         "content": 'Улучшает умение Shadow Wall до Shadowed Vigil.',
+      },
+      // Trait 11
+      "Trait 11": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'DRK',
+         "level": '94',
+         "content": 'Увеличивает силу атаки умениям Hard Slash до 260, Syphon Strike до 220, Souleater до 240, Stalwart Soul до 120, Bloodspiller до 580 и Quietus до 240.',
+      },
+      // Trait 12
+      "Trait 12": {
+         "name": 'Enhanced Delirium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ebbf5df2554905cdaf3a26d5fe2f02b0ad53b6bb.png',
+         "job_icon": 'DRK',
+         "level": '96',
+         "content": 'Улучшает Bloodspiller и Quietus до Scarlet Delirium и Impalement соответственно.',
+      },
+      // Trait 13
+      "Trait 13": {
+         "name": 'Enhanced Living Shadow III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1cff25d23e5fb4e97a96aee32c8b2e4082c2c516.png',
+         "job_icon": 'DRK',
+         "level": '100',
+         "content": 'Накладывает эффект Scorn после применения Living Shadow.<br/>Продолжительность: 30 сек.<br/>Дополнительно улучшает умения Carve и Spit, используемые тенью персонажа, до Disesteem, которая наносит удар, по прямой линии по всем противникам перед тенью с силой атаки 620 для первого и на 25% меньше для остальных.',
       },
       // PVP Skill 01
       "PVP Skill 01": {

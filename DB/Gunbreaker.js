@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Keen Edge',
@@ -14,7 +14,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 200.',
+         "content": 'Удар, наносящий урон с силой атаки 300.',
       },
       // PVE Skill 02
       "PVE Skill 02": {
@@ -28,7 +28,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Увеличивает наносимый урон на 20%.<br/>Продолжительность: 20 сек.',
+         "content": 'Увеличивает наносимый урон на 20%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Ready to Break<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 03
       "PVE Skill 03": {
@@ -42,7 +42,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Keen Edge<br/>Сила в комбо: 300<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 200<br/>Комбо бонус: создает барьер, обнуляющий входящий урон, равный количеству восстановленного HP<br/>Продолжительность: 30 сек.',
+         "content": 'Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Keen Edge<br/>Сила в комбо: 380<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 200<br/>Комбо бонус: создает барьер, обнуляющий входящий урон, равный количеству восстановленного HP<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 04
       "PVE Skill 04": {
@@ -140,7 +140,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: Brutal Shell<br/>Сила в комбо: 360<br/>Комбо бонус: добавляет Cartridge на шкалу Powder Gauge',
+         "content": 'Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Brutal Shell<br/>Сила в комбо: 460<br/>Комбо бонус: добавляет Cartridge на шкалу Powder Gauge',
       },
       // PVE Skill 11
       "PVE Skill 11": {
@@ -154,7 +154,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 380.<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Blast заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge',
+         "content": 'Удар, наносящий урон с силой атаки 460.<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Blast заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge',
       },
       // PVE Skill 12
       "PVE Skill 12": {
@@ -224,21 +224,21 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 300.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.',
+         "content": 'Удар, наносящий урон с силой атаки 300.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.<br/>Может быть использовано только при активном эффекте Ready to Break.',
       },
-      // PVE Skill 17
+      // PVE Skill 17 NEW
       "PVE Skill 17": {
-         "name": 'Rough Divide',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc361feaf6715fac0c476639ef2a5ce0f207f00d.png',
+         "name": 'Trajectory',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/905366f09c4875cbe0ba664aa043c8bd22aefc1c.png',
          "job_icon": 'GNB',
-         "level": '56',
-         "classification": 'Способность',
+         "level": '54',
+         "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '30 сек.',
-         "range": '20y',
+         "recast": '2.5 сек.',
+         "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Прыжок, наносящий урон с силой атаки 150.<br/>Максимальный заряд: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
+         "content": 'Рывок к выбранному противнику.<br/>Количество зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.',
       },
       // PVE Skill 18
       "PVE Skill 18": {
@@ -252,7 +252,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 380.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Rip заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.',
+         "content": 'Удар, наносящий урон с силой атаки 500.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Rip заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.',
       },
       // PVE Skill 19
       "PVE Skill 19": {
@@ -266,7 +266,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 460.<br/>Комбо умение: Gnashing Fang<br/>Комбо бонус: накладывает эффект Ready to Tear<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Tear заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 560.<br/>Комбо умение: Gnashing Fang<br/>Комбо бонус: накладывает эффект Ready to Tear<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Tear заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Gnashing Fang меняется на Savage Claw при соблюдении требований к выполнению.',
       },
       // PVE Skill 20
       "PVE Skill 20": {
@@ -280,7 +280,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 540.<br/>Комбо умение: Savage Claw<br/>Комбо бонус: накладывает эффект Ready to Gouge<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Gouge заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 620.<br/>Комбо умение: Savage Claw<br/>Комбо бонус: накладывает эффект Ready to Gouge<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Gouge заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Savage Claw меняется на Wicked Talon при соблюдении требований к выполнению.',
       },
       // PVE Skill 21
       "PVE Skill 21": {
@@ -337,7 +337,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.',
+         "content": 'Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.<br/>После Fated Circle может быть использован Fated Brand.',
       },
       // PVE Skill 25
       "PVE Skill 25": {
@@ -351,7 +351,7 @@
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 200.<br/>Возможно использовать только под действием эффекта Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 240.<br/>Возможно использовать только под действием эффекта Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Jugular Rip при соблюдении требований к выполнению.',
       },
       // PVE Skill 26
       "PVE Skill 26": {
@@ -365,7 +365,7 @@
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 240.<br/>Возможно использовать только под действием эффекта Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 280.<br/>Возможно использовать только под действием эффекта Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Abdomen Tear при соблюдении требований к выполнению.',
       },
       // PVE Skill 27
       "PVE Skill 27": {
@@ -379,7 +379,7 @@
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 280.<br/>Возможно использовать только под действием эффекта Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 320.<br/>Возможно использовать только под действием эффекта Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Eye Gouge при соблюдении требований к выполнению.',
       },
       // PVE Skill 28
       "PVE Skill 28": {
@@ -393,7 +393,7 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Стоимость: 1 Cartridge',
+         "content": 'Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Стоимость: 1 Cartridge<br/>Дополнительный эффект: накладывает эффект Ready to Raze<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Raze заканчивается при использовании любого боевого навыка.<br/>Стоимость: 1 Cartridge',
       },
       // PVE Skill 29
       "PVE Skill 29": {
@@ -407,7 +407,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Вытягивает энергию эфира из цели, добавляя 3 Cartridges на шкалу Powder Gauge.',
+         "content": 'Вытягивает энергию эфира из цели, добавляя 3 Cartridges на шкалу Powder Gauge.<br/>Дополнительный эффект: накладывает эффект Ready to Reign<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 30
       "PVE Skill 30": {
@@ -421,7 +421,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 720.',
+         "content": 'Удар, наносящий урон с силой атаки 800.',
       },
       // PVE Skill 31
       "PVE Skill 31": {
@@ -449,7 +449,7 @@
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 180.<br/>Возможно использовать только под эффектом Ready to Blast.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 220.<br/>Возможно использовать только под эффектом Ready to Blast.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Hypervelocity при соблюдении требований к выполнению.',
       },
       // PVE Skill 33
       "PVE Skill 33": {
@@ -464,6 +464,76 @@
          "radius_img": 'R2',
          "radius": '5y',
          "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1200 для первого и на 15% меньше для всех остальных.<br/>Стоимость: 2 Cartridge<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
+      },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Great Nebula',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c6aa9ac9d9d3b144c6c5d955616edbecbb40d19a.png',
+         "job_icon": 'GNB',
+         "level": '92',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '120 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Снижает получаемый урон на 40%.<br/>Дополнительный эффект: увеличивает максимальное количество HP на 20% и восстанавливает увеличенное количество.<br/>Продолжительность: 15 сек.',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": 'Fated Brand',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/212d089b8f857465c135f0aed8a6a201e8cfdc90.png',
+         "job_icon": 'GNB',
+         "level": '96',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон с силой атаки 120 по всем окружающим противникам.<br/>Возможно использовать только находясь под действием эффекта Ready to Raze.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Fated Brand при соблюдении требований к выполнению.',
+      },
+      // PVE Skill 36 NEW
+      "PVE Skill 36": {
+         "name": 'Reign of Beasts',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/df78916692df98ce5e4990edbb531dba1d535e8e.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 800 для первого и на 60% меньше для всех остальных.<br/>Возможно использовать только находясь под действием эффекта Ready to Raze.',
+      },
+      // PVE Skill 37 NEW
+      "PVE Skill 37": {
+         "name": 'Noble Blood',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/10aad4140dd5bacfad70315a6a6da6bd3c4e59a0.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,000 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Reign of Beasts<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Reign of Beasts меняется на Noble Blood при соблюдении требований к выполнению.',
+      },
+      // PVE Skill 38 NEW
+      "PVE Skill 38": {
+         "name": 'Lion Heart',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/105394eb5da461f87c00f49826e7ba06e4c93577.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "range": '3y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,200 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Noble Blood<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Noble Blood меняется на Lion Heart при соблюдении требований к выполнению',
       },
       // Trait 01
       "Trait 01": {
@@ -481,61 +551,101 @@
          "level": '30',
          "content": 'Добавляет Cartridge в шкалу Powder Gauge после успешного использования комбо с Solid Barrel.<br/>Максимум: 2 Cartridge',
       },
-      // Trait 03
+      // Trait 03 NEW
       "Trait 03": {
+         "name": 'Enhanced No Mercy',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/720c9e99130d321869f43956ed85abd1b11f512b.png',
+         "job_icon": 'GNB',
+         "level": '54',
+         "content": 'Позволяет наложить эффект Ready to Break после использования No Mercy.',
+      },
+      // Trait 04
+      "Trait 04": {
          "name": 'Enhanced Brutal Shell',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f222fb36167954d21f86b99d1e24a5c11eebd0d4.png',
          "job_icon": 'GNB',
          "level": '52',
          "content": 'Позволяет наложить эффект Brutal Shell после успешного использования комбо с Brutal Shell.<br/>Продолжительность: 30 сек.',
       },
-      // Trait 04
-      "Trait 04": {
+      // Trait 05
+      "Trait 05": {
          "name": 'Danger Zone Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/14b8867b1e317ddf820ff1ce4ef6a5590643a108.png',
          "job_icon": 'GNB',
          "level": '80',
          "content": 'Улучшает умение Danger Zone до Blasting Zone.',
       },
-      // Trait 05
-      "Trait 05": {
+      // Trait 06
+      "Trait 06": {
          "name": 'Heart of Stone Mastery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ef3d170a508f2962c68fd2c95bdb606244b7f7b5.png',
          "job_icon": 'GNB',
          "level": '82',
          "content": 'Улучшает Heart of Stone до Heart of Corundum.',
       },
-      // Trait 06
-      "Trait 06": {
+      // Trait 07
+      "Trait 07": {
          "name": 'Enhanced Aurora',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cdab08fb238d0ea0fb5fdafb684504d9f9b39d41.png',
          "job_icon": 'GNB',
          "level": '84',
          "content": 'Позволяет накапливать заряды для последовательного использования Aurora.<br/>Максимум зарядов: 2',
       },
-      // Trait 07
-      "Trait 07": {
+      // Trait 08
+      "Trait 08": {
          "name": 'Melee Mastery',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6acea5ac3fd49cd172fac240c194a5847b080ccf.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png',
          "job_icon": 'GNB',
          "level": '84',
          "content": 'Увеличивает силу атаки умениям Keen Edge до 200, Brutal Shell до 160 и Solid Barrel до 140.',
       },
-      // Trait 08
-      "Trait 08": {
+      // Trait 09
+      "Trait 09": {
          "name": 'Enhanced Continuation',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/60bd025c4db0fdea6006fa8312ca75b961d30664.png',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9d916d7b45b51d289bef5373704ca2e4751ded29.png',
          "job_icon": 'GNB',
          "level": '86',
          "content": 'Позволяет наложить эффект Ready to Blast после использования Burst Strike.<br/>Продолжительность: 10 сек.',
       },
-      // Trait 09
-      "Trait 09": {
+      // Trait 10
+      "Trait 10": {
          "name": 'Cartridge Charge II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d4133f5308e1fc0c138ce0659e65ba3797dc31bd.png',
          "job_icon": 'GNB',
          "level": '88',
          "content": 'Увеличивает вместимость шкалы Powder Gauge до 3 Cartridges.<br/>Позволяет заряжать 3 Cartridges при использовании умения Bloodfest.',
+      },
+      // Trait 11 NEW
+      "Trait 11": {
+         "name": 'Nebula Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b15792e2c2ccc44dd445fe90e3ee303635b6c3be.png',
+         "job_icon": 'GNB',
+         "level": '92',
+         "content": 'Улучшает умение Nebula до Great Nebula.',
+      },
+      // Trait 12 NEW
+      "Trait 12": {
+         "name": 'Melee Mastery II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png',
+         "job_icon": 'GNB',
+         "level": '94',
+         "content": 'Увеличитвает силу атаки умениям Keen Edge до 300, Brutal Shell до 240, Solid Barrel до 240, Burst Strike до 460, Gnashing Fang до 500, Savage Claw до 560, Wicked Talon до 620, Jugular Rip до 240, Abdomen Tear до 280, Eye Gough до 320, Blasting Zone до 800 и Hypervelocity до 220.',
+      },
+      // Trait 13 NEW
+      "Trait 13": {
+         "name": 'Enhanced Continuation II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0388c677531ad523e8c897686069e587b5eaca68.png',
+         "job_icon": 'GNB',
+         "level": '96',
+         "content": 'Позволяет наложить эффект Ready to Raze после использования Fated Circle.<br/>Продолжительность: 10 сек.<br/>Continuation меняется на Fated Brand под действием эффекта Ready to Raze.',
+      },
+      // Trait 14 NEW
+      "Trait 14": {
+         "name": 'Enhanced Bloodfest',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a4fa44bc77a8bc9d1a942936b533ed4cbecb896.png',
+         "job_icon": 'GNB',
+         "level": '100',
+         "content": 'Накладывает эффект Ready Reign после использования Bloodfest.<br/>Продолжительность: 30 сек.',
       },
       // PVP Skill 01
       "PVP Skill 01": {

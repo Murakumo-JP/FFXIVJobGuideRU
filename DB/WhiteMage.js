@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 16/01/2024`,
+      "PVE Update": `Последнее обновление: 27/06/2024`,
+      "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Stone',
@@ -122,7 +122,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Снижает время применения и восстановления заклинаний, а также задержку между авто атаками на 20%.<br/>Продолжительность: 15 сек.',
+         "content": 'Снижает время выполнения и время восстановления заклинаний, а также задержку между авто атаками на 20%.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает 3 стака эффекта Sacred Sight<br/>Продолжительность: 30 сек',
       },
       // PVE Skill 09
       "PVE Skill 09": {
@@ -156,8 +156,23 @@
          "radius": '10y',
          "content": 'Восстанавливает HP цели и всех ближайших сопартийцев вокруг.<br/>Сила лечения: 600',
       },
-      // PVE Skill 11
+      // PVE Skill 11 NEW
       "PVE Skill 11": {
+         "name": 'Aetherial Shift',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d69b1e0884f3f4edac543210cd9b42d74c2b3f25.png',
+         "job_icon": 'WHM',
+         "level": '40',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '60 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Быстрый рывок на 15 ялмов вперед.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
+      },
+      // PVE Skill 12
+      "PVE Skill 12": {
          "name": 'Holy',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/20e64bc5c59/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png',
@@ -172,8 +187,8 @@
          "radius": '8y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 140 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.',
       },
-      // PVE Skill 12
-      "PVE Skill 12": {
+      // PVE Skill 13
+      "PVE Skill 13": {
          "name": 'Aero II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png',
          "job_icon": 'CNJ',
@@ -187,8 +202,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 50<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 13
-      "PVE Skill 13": {
+      // PVE Skill 14
+      "PVE Skill 14": {
          "name": 'Medica II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png',
          "job_icon": 'CNJ',
@@ -202,8 +217,8 @@
          "radius": '20y',
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen).<br/>Сила лечения: 150<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 14
-      "PVE Skill 14": {
+      // PVE Skill 15
+      "PVE Skill 15": {
          "name": 'Benediction',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6ea2ad6309a/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png',
@@ -218,8 +233,8 @@
          "radius": '0y',
          "content": 'Полностью восстанавливает HP цели.',
       },
-      // PVE Skill 15
-      "PVE Skill 15": {
+      // PVE Skill 16
+      "PVE Skill 16": {
          "name": 'Afflatus Solace',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png',
          "job_icon": 'WHM',
@@ -233,8 +248,8 @@
          "radius": '0y',
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 800<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge',
       },
-      // PVE Skill 16
-      "PVE Skill 16": {
+      // PVE Skill 17
+      "PVE Skill 17": {
          "name": 'Asylum',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png',
@@ -249,8 +264,8 @@
          "radius": '15y',
          "content": 'Создает в указанной области купол целителя, восстанавливащий HP персонажу и сопартийцам, находящимся внутри.<br/>Сила лечения: 100<br/>Продолжительность: 24 сек.<br/>Дополнительный эффект: увеличивает силу лечебных умений, применнёных на всех сопартийцев в области действия, на 10%',
       },
-      // PVE Skill 17
-      "PVE Skill 17": {
+      // PVE Skill 18
+      "PVE Skill 18": {
          "name": 'Stone III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png',
@@ -265,8 +280,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон землей с силой атаки 220.',
       },
-      // PVE Skill 18
-      "PVE Skill 18": {
+      // PVE Skill 19
+      "PVE Skill 19": {
          "name": 'Assize',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cbcd1cda8ca/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png',
@@ -281,8 +296,8 @@
          "radius": '15y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 400<br/>Дополнительный эффект: восстанавливает 5% от максимума MP персонажа',
       },
-      // PVE Skill 19
-      "PVE Skill 19": {
+      // PVE Skill 20
+      "PVE Skill 20": {
          "name": 'Thin Air',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/96be5e383ec/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png',
@@ -297,8 +312,8 @@
          "radius": '0y',
          "content": 'Следующее умение не потребует затрат MP.<br/>Продолжительность: 12 сек.<br/>Максимум зарядов: 2',
       },
-      // PVE Skill 20
-      "PVE Skill 20": {
+      // PVE Skill 21
+      "PVE Skill 21": {
          "name": 'Tetragrammaton',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3aeddb8e685/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png',
@@ -311,10 +326,10 @@
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Восстанавливает HP цели.<br/>Сила лечения: 700',
+         "content": 'Восстанавливает HP цели.<br/>Сила лечения: 700<br/>Максимум зарядов: 2',
       },
-      // PVE Skill 21
-      "PVE Skill 21": {
+      // PVE Skill 22
+      "PVE Skill 22": {
          "name": 'Stone IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png',
          "job_icon": 'WHM',
@@ -328,8 +343,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон землей с силой атаки 260.',
       },
-      // PVE Skill 22
-      "PVE Skill 22": {
+      // PVE Skill 23
+      "PVE Skill 23": {
          "name": 'Divine Benison',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png',
          "job_icon": 'WHM',
@@ -343,8 +358,8 @@
          "radius": '0y',
          "content": 'Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный силе лечения 500.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2',
       },
-      // PVE Skill 23
-      "PVE Skill 23": {
+      // PVE Skill 24
+      "PVE Skill 24": {
          "name": 'Plenary Indulgence',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/83f6c053e16/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png',
@@ -357,10 +372,10 @@
          "range": '0y',
          "radius_img": 'R2',
          "radius": '20y',
-         "content": 'Накладывает Confession на персонажа и всех ближайших сопартийцев.<br/>После восстановления HP с помощью Medica, Medica II, Cure III или Afflatus Rapture персонажем, Confession дополнительно восстанавливает HP.<br/>Сила лечения: 200<br/>Продолжительность: 10 сек.',
+         "content": 'Накладывает эффект Confession на персонажа и всех ближайших сопартийцев.<br/>Сопартийцы, находящиеся под действием эффекта Confession, получают дополнительное восстановлении HP с помощью Medica, Medica III, Cure III или Afflatus Rapture.<br/>Сила лечения: 200',
       },
-      // PVE Skill 24
-      "PVE Skill 24": {
+      // PVE Skill 25
+      "PVE Skill 25": {
          "name": 'Dia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png',
          "job_icon": 'WHM',
@@ -372,10 +387,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 65.<br/>Дополнительный эффект: нестихийный периодический урон<br/>Сила атаки: 65<br/>Продолжительность: 30 сек.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 70.<br/>Дополнительный эффект: нестихийный периодический урон<br/>Сила атаки: 70<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 25
-      "PVE Skill 25": {
+      // PVE Skill 26
+      "PVE Skill 26": {
          "name": 'Glare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png',
          "job_icon": 'WHM',
@@ -389,8 +404,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 290.',
       },
-      // PVE Skill 26
-      "PVE Skill 26": {
+      // PVE Skill 27
+      "PVE Skill 27": {
          "name": 'Afflatus Misery',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png',
          "job_icon": 'WHM',
@@ -402,10 +417,10 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1240 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только когда Blood Lily полностью расцвела.',
+         "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1,320 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только когда Blood Lily полностью расцвела.',
       },
-      // PVE Skill 27
-      "PVE Skill 27": {
+      // PVE Skill 28
+      "PVE Skill 28": {
          "name": 'Afflatus Rapture',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png',
          "job_icon": 'WHM',
@@ -419,8 +434,8 @@
          "radius": '20y',
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge',
       },
-      // PVE Skill 28
-      "PVE Skill 28": {
+      // PVE Skill 29
+      "PVE Skill 29": {
          "name": 'Temperance',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png',
          "job_icon": 'WHM',
@@ -432,10 +447,10 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Увеличивает эффективность магии лечения на 20%, также снижает получаемый урон персонажем и сопартийцами в радиусе 50 ялмов на 10%.<br/>Продолжительность: 20 сек.',
+         "content": 'Увеличивает эффективность магии лечения на 20%, также снижает получаемый урон персонажем и сопартийцами в радиусе 50 ялмов на 10%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Divine Grace<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 29
-      "PVE Skill 29": {
+      // PVE Skill 30
+      "PVE Skill 30": {
          "name": 'Glare III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png',
          "job_icon": 'WHM',
@@ -447,10 +462,10 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 310.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 330.',
       },
-      // PVE Skill 30
-      "PVE Skill 30": {
+      // PVE Skill 31
+      "PVE Skill 31": {
          "name": 'Holy III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png',
          "job_icon": 'WHM',
@@ -464,8 +479,8 @@
          "radius": '8y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 150 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.',
       },
-      // PVE Skill 31
-      "PVE Skill 31": {
+      // PVE Skill 32
+      "PVE Skill 32": {
          "name": 'Aquaveil',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png',
          "job_icon": 'WHM',
@@ -479,8 +494,8 @@
          "radius": '0y',
          "content": 'Снижает получаемый урон персонажем или сопартийцем урон на 15%.<br/>Продолжительность: 8 сек.',
       },
-      // PVE Skill 32
-      "PVE Skill 32": {
+      // PVE Skill 33
+      "PVE Skill 33": {
          "name": 'Liturgy of the Bell',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png',
          "job_icon": 'WHM',
@@ -493,6 +508,51 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Помещает исцеляющий цветок в указанное место и дает персонажу 5 стаков Liturgy of the Bell.<br/>Продолжительность: 20 сек.<br/>Когда персонаж получает урон, 1 стак Liturgy of the Bell расходуется, чтобы исцелить себя и всех сопартийцев в радиусе 20 ялмов.<br/>Сила лечения: 400<br/>Эффект этого умения срабатывает не чаще одного раза в секунду.<br/>По окончанию времени действия умения или при использовании его второй раз все оставшиеся стаки Liturgy of the Bell будет использованы для дополнительного восстановления HP.<br/>Сила лечения: 200 за каждый оставшийся стак Liturgy of the Bell<br/>Этот умение не имеет общего время восстановления с другими умениями.',
+      },
+      // PVE Skill 34 NEW
+      "PVE Skill 34": {
+         "name": 'Glare IV',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8114a12aa7d10fbe87b9edfe0fc6257adec7a06f.png',
+         "job_icon": 'WHM',
+         "level": '92',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 640 для первого и на 40% меньше для всех остальных.<br/Может быть использовано только при активном эффекте Sacred Sight.',
+      },
+      // PVE Skill 35 NEW
+      "PVE Skill 35": {
+         "name": 'Medica III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/afd378388b20cba91d3988c04efeff1256eae7b3.png',
+         "job_icon": 'WHM',
+         "level": '96',
+         "classification": 'Заклинание',
+         "cast": '2 сек.',
+         "recast": '2.5 сек.',
+         "cost": '1000 MP',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '20y',
+         "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen).<br/>Сила лечения: 175<br/>Продолжительность: 15 сек.',
+      },
+      // PVE Skill 36 NEW
+      "PVE Skill 36": {
+         "name": 'Divine Caress',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/94e9cc4b561ab6fca2c4a92cdbb2c86cd7825df9.png',
+         "job_icon": 'WHM',
+         "level": '100',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '1 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": 'Создает вокруг персонажа и всех ближайших сопартийцев барьер, поглощающий урон, эквивалентный исцелению с силой 400.<br/>Продолжительность: 10 сек.<br/>Накладывает эффект периодического лечения (Regen) после того, как эффект барьера исчезает.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Может быть использовано только при активном эффекте Divine Grace.',
       },
       // Trait 01
       "Trait 01": {
@@ -623,6 +683,46 @@
          "job_icon": 'WHM',
          "level": '88',
          "content": 'Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2',
+      },
+      // Trait 17 NEW
+      "Trait 17": {
+         "name": 'Enhanced Presence of Mind',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/522d1367f418f9d9ab9497cb7aac3fd75d75ef16.png',
+         "job_icon": 'WHM',
+         "level": '92',
+         "content": 'Presence of Mind дает 3 стака эффекта Sacred Sight после использования.<br/>Продолжительность: 30 сек.',
+      },
+      // Trait 18 NEW
+      "Trait 18": {
+         "name": 'White Magic Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
+         "job_icon": 'WHM',
+         "level": '94',
+         "content": 'Увеличивает силу атаки умениям Dia и его урон с течением времени до 70, Afflatus Misery до 1,320 и Glare III до 330.',
+      },
+      // Trait 19 NEW
+      "Trait 19": {
+         "name": 'Medica Mastery',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6e19d26c224d8df136427dc9d65b2b8adcda20d7.png',
+         "job_icon": 'WHM',
+         "level": '96',
+         "content": 'Улучшает умение Medica II до Medica III.',
+      },
+      // Trait 20 NEW
+      "Trait 20": {
+         "name": 'Enhanced Tetragrammaton',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2c8d74105960fc4db1162f4bfc05b258cc43adb0.png',
+         "job_icon": 'WHM',
+         "level": '98',
+         "content": 'Позволяет накапливать заряды для последовательного использования Tetragrammaton.<br/>Максимум зарядов: 2',
+      },
+      // Trait 21 NEW
+      "Trait 21": {
+         "name": 'Enhanced Temperance',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1617b594d0846dfcbc4a7c258e89bdc2fb10c168.png',
+         "job_icon": 'WHM',
+         "level": '100',
+         "content": 'Temperance накладывает эффект Divine Grace после использования.<br/>Продолжительность: 30 сек.',
       },
       // PVP Skill 01
       "PVP Skill 01": {

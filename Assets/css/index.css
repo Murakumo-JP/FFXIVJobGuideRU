@@ -24,12 +24,16 @@
 	--color-set-2: #000;
 	--color-set-3: #ecede7;
 	--color-error: #a62137;
+	--block-width: 472px;
 	--main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%);
 }
 body {
 	overflow-y: hidden;
 	overflow-x: hidden;
 	background-color: var(--color-set-3);
+}
+.app_index {
+	background-color: var(--color-set-1);
 }
 * {
 	margin: 0;
@@ -414,6 +418,7 @@ footer {
 .app_page {
 	display: flex;
 	justify-content: center;
+	margin-top: 16px;
 }
 .app_page a {
 	padding: 10px;
@@ -677,9 +682,6 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 		right: 0;
 		justify-content: center;
 	}
-	.btn_link {
-		margin-right: 5px;
-	}
 	.main_header .warn_info {
 		width: 500px;
 		position: absolute;
@@ -697,12 +699,18 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 		z-index: 10;
 	}
 	.main_header_img {
-		top: 5px;
+		top: 10px;
 	}
 	#inner_update {
 		width: 165px;
 		text-align: center;
 	}
+	.btn_link img{
+		left: 0;
+	}
+	.btn_link {
+		margin: 0 10px 0 0;
+  	}
 }
 @media (min-width: 992px) {
 	.warning_info {
@@ -725,10 +733,13 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 		right: 0;
 		justify-content: center;
 	}
-	.btn_link {
-		margin-right: 5px;
-	}
 	.main_header_alignment {
 		margin: 0 auto;
 	}
+	.btn_link img{
+		left: 0;
+	}
+	.btn_link {
+		margin: 0 10px 0 0;
+  	}
 }

@@ -58,7 +58,8 @@
 }
 
 .job_header_nome {
-	margin-bottom: 4px;
+	margin-bottom: 5px;
+	width: var(--block-width);
 }
 .job_header_role {
 	margin-left: 16px;
@@ -67,6 +68,9 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: #ffffff;
+	width: max-content;
+	border-radius: 5px;
+	padding-right: 10px;
 }
 .job_header_role img {
 	display: inline-block;
@@ -84,7 +88,7 @@ img {
 	background: url(../img/main/job_text.png) no-repeat left top;
 	backdrop-filter: blur(5px);
    border-radius: 10px;
-	width: 472px;
+	width: var(--block-width);
 	height: 178px;
 	padding: 14px 0 16px 16px;
 	-moz-box-sizing: border-box;
@@ -257,6 +261,10 @@ img {
 .job_tank .nav_floating_icon:hover {
 	background-color: var(--tank-AltColor);
 }
+.job_tank .job_header_role {
+	background: var(--tank-color);
+	box-shadow: 0px 0px 5px 0 #00000080 ;
+}
 /* Healer */
 .job_healer .job_title {
 	background: var(--healer-color);
@@ -278,6 +286,10 @@ img {
 }
 .job_healer .nav_floating_icon:hover {
 	background-color: var(--healer-AltColor);
+}
+.job_healer .job_header_role {
+	background: var(--healer-color);
+	box-shadow: 0px 0px 5px 0 #00000080;
 }
 /* DPS */
 .job_dps .job_title {
@@ -301,6 +313,15 @@ img {
 .job_dps .nav_floating_icon:hover {
 	background-color: var(--dps-AltColor);
 }
+.job_dps .job_header_role {
+	background: var(--dps-color);
+	box-shadow: 0px 0px 5px 0 #00000080;
+}
+/* Role Action */
+.ra_tank .cost,
+.ra_melee_dps .cost {
+	display: none;
+}
 /* Tabs */
 .js-tab-content {
 	visibility: hidden;
@@ -311,4 +332,29 @@ img {
 	visibility: visible;
 	opacity: 1;
 	display: block;
+}
+/* Update and New */
+tr.skill_new {background-color: #f0dddd;}
+tr.jq_skill_new {background-color: #f0cece;}
+tr.skill_update{background-color: #f0e4c5;}
+tr.jq_skill_update{background-color: #f0dfb6;}
+tr.jq_skill_update td,
+tr.jq_skill_new td {
+	border: 0;
+	height: 16px;
+}
+tr.jq_skill_update td p {
+    font-weight: bold;
+    color: #e7810e;
+	padding-left: 10px;
+}
+tr.jq_skill_new td p {
+    font-weight: bold;
+    color: #d92b2b;
+	padding-left: 10px;
+}
+/*FIX COMBO*/
+.job_combo_dancer_02_percent .job_combo_root_skill {
+	bottom: 40px;
+	position: relative;
 }
