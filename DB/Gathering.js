@@ -338,7 +338,7 @@
          "classification": 'DoL способность',
          "recast": '-',
          "cost": '100',
-         "content": " ",
+         "content": "Удваивает шанс того, что следующее использование Meticulous Prospector не повлияет на integrity.<br/>Не влияет на увеличенный шанс от бонусов к точкам сбора или Collector's High Standard.",
       },
       // Gatherer Role 01
       "Gatherer Role 01": {
@@ -472,8 +472,8 @@
          },
          "level": '21',
          "content": {
-            "MIN": "Позволяет лучше определить характеристики mineral deposit или rocky outcrop, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.",
-            "BTN": "Позволяет лучше определить свойства mature tree or patch или lush vegetation, что увеличивает количество получаемых предметов во время сбора при соблюдении условий.",
+            "MIN": "Позволяет лучше определить характеристики mineral deposit или rocky outcrop, что увеличивает шанс на получение дополнительных предметов во время сбора при соблюдении условий.",
+            "BTN": "Позволяет лучше определить свойства mature tree or patch или lush vegetation, что увеличивает шанс на получение дополнительных предметов во время сбора при соблюдении условий.",
          },
       },
       // Gatherer Traits 05
@@ -641,7 +641,7 @@
             "BTN": "https://lds-img.finalfantasyxiv.com/d/65d6a139e00d6e2743cf716d2f672d5d2e2da5bb.png",
          },
          "level": '91',
-         "content": " ",
+         "content": "После истощения точки сбора с некоторым шансом полностью восстанавливается шкала integrity или gathering attempts.<br/>GP также полностью восстанавливается, но все эффекты собирателя прекращают свое действие.<br/>Эффект не срабатывает в точках сбора определенного типа, например, которые могут встречаться в levequests.",
       },
       // Gatherer Traits 19 NEW
       "Gatherer Traits 19": {
@@ -653,8 +653,8 @@
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/',
          "level": '100',
          "content": {
-            "MIN": " ",
-            "BTN": " ",
+            "MIN": "С некоторым шансом улучшает эффект Collector Standard до Collector High Standard, гарантируя, что Brazen Prospector повысит collectability с максимальной эффективностью.<br/>Увеличивает шанс, что Meticulous Prospector не повлияет на шкалу integrity на 40%.",
+            "BTN": "С некоторым шансом улучшает эффект Collector Standard до Collector High Standard, гарантируя, что Brazen Prospector повысит collectability с максимальной эффективностью.<br/>Увеличивает шанс, что Meticulous Woodsman не повлияет на шкалу integrity на 40%.",
          },
       },
    };
