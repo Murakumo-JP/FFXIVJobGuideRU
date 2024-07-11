@@ -1,9 +1,8 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 02/10/2023`,
-      "PVP Update": `Последнее обновление: 19/03/2024`,
+      "Update": `Последнее обновление: 18/07/2023`,
       // Action 01
-      "Water Cannon": {
+      "Action 01": {
          "name": 'Water Cannon',
          "skill_icon": '../Assets/img/DoWDoM/BLU/water_cannon.png',
          "classification": 'Заклинание',
@@ -16,7 +15,7 @@
          "content": "Удар, наносящий урон водой с силой атаки 200.",
       },
       // Action 02
-      "Flame Thrower": {
+      "Action 02": {
          "name": 'Flame Thrower',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Flame_Thrower.png',
          "classification": 'Заклинание',
@@ -29,7 +28,7 @@
          "content": "Удар, наносящий урон огнем по всем противникам в конусе перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Gobmachine G-VI - Dungeon Brayflox's Longstop (Hard)",
       },
       // Action 03
-      "Aqua Breath": {
+      "Action 03": {
          "name": 'Aqua Breath',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Aqua_Breath.png',
          "classification": 'Заклинание',
@@ -42,7 +41,7 @@
          "content": "Удар, наносящий урон огнем по всем противникам в конусе перед персонажем с силой атаки 140 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает на цель эффект Dropsy, наносящий периодический урон водой<br/>Сила атаки: 20<br/>Продолжительность: 12 сек.<br/><br/>※Где изучается: <br/>Ultros - Dungeon The Dragon's Neck<br/>Leviathan from -  Trial The Whorleater (Hard) или The Whorleater (Extreme)<br/>Ultros - Stage 20 Masked Carnivale (Miss Typhon)",
       },
       // Action 04
-      "Flying Frenzy": {
+      "Action 04": {
          "name": 'Flying Frenzy',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Flying_Frenzy.png',
          "classification": 'Заклинание',
@@ -55,7 +54,7 @@
          "content": "Удар с прыжком, наносящий физический урон по всем ближайшим противникам с силой атаки 150 для первого и на 50% меньше для остальных.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение<br/><br/>※Где изучается:<br/>Zu - Dungeon Pharos Sirius",
       },
       // Action 05
-      "Drill Cannons": {
+      "Action 05": {
          "name": 'Drill Cannons',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Drill_Cannons.png',
          "classification": 'Заклинание',
@@ -68,7 +67,7 @@
          "content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: сила атаки увеличивается до 600, если на цель наложен эффект Petrification.<br/>Эффект Petrification также снимается<br/><br/>※Где изучается:<br/>Magitek Vanguard H-1 - Dungeon Castrum Meridianum<br/>4th Cohort Vanguard - Western Thanalan (8.7, 5.9)<br/>Abandoned Vanguard - Northern Thanalan (19.16)<br/>Magitek Vanguard H-2 - Northern Thanalan (16.15)<br/>Magitek Vanguard - Northern Thanalan (15.8, 14.7)",
       },
       // Action 06
-      "High Voltage": {
+      "Action 06": {
          "name": 'High Voltage',
          "skill_icon": '../Assets/img/DoWDoM/BLU/High_Voltage.png',
          "classification": 'Заклинание',
@@ -81,7 +80,7 @@
          "content": "Удар, наносящий урон молнией по всем ближайшим противникам с силой атаки 180 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: паралич (paralysis)<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: сила атаки увеличивается до 220, если на цель наложен эффект Dropsy<br/>Дополнительный эффект: продолжительность паралича (paralysis) увеличивается до 30 сек., если на цель наложен эффект Dropsy<br/><br/>※Где изучается:<br/>ADS - Raid The Binding Coil of Bahamut - Turn 1<br/>ADS - Raid The Binding Coil of Bahamut - Turn 2<br/>Bestial Node - Stage 15 Masked Carnivale (The Me Nobody Nodes)",
       },
       // Action 07
-      "Loom": {
+      "Action 07": {
          "name": 'Loom',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Loom.png',
          "classification": 'Заклинание',
@@ -94,7 +93,7 @@
          "content": "Быстрое перемещение в указанное место.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Где изучается:<br/>Dantalion и Phantom Knightin - Dungeon The Tam-Tara Deepcroft (Hard)<br/>Baalzephon - Dungeon The Lost City of Amdapor",
       },
       // Action 08
-      "Final Sting": {
+      "Action 08": {
          "name": 'Final Sting',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Final_Sting.png',
          "classification": 'Заклинание',
@@ -107,7 +106,7 @@
          "content": "Удар, наносящий физический урон с силой атаки 2,000, при этом отправляя персонажа в нокаут.<br/>Дополнительный эффект: накладывает на персонажа эффект Brush with Death<br/>Продолжительность: 600 сек.<br/>Эффект не снимается при воскрешении или повторном нокауте персонажа.<br/>Невозможно использовать, находясь под действием эффекта Brush with Death.<br/><br/>※Где изучается:<br/>Temple Bee - Dungeon The Sunken Temple of Qarn<br/>Huge Hornet - Central Thanalan (18.3, 26.5)<br/>Killer Wespe - Middle La Noscea (15.2, 15.4)",
       },
       // Action 09
-      "Song of Torment": {
+      "Action 09": {
          "name": 'Song of Torment',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Song_of_Torment.png',
          "classification": 'Заклинание',
@@ -120,7 +119,7 @@
          "content": "Удар, наносящий нестихийный урон с силой атаки 50.<br/>Дополнительный эффект: нестихийный периодический урон<br/>Сила атаки: 50<br/>Продолжительность: 30 сек.<br/><br/>※Где изучается:<br/>Siren - Dungeon Pharos Sirius",
       },
       // Action 10
-      "Glower": {
+      "Action 10": {
          "name": 'Glower',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Glower.png',
          "classification": 'Заклинание',
@@ -133,7 +132,7 @@
          "content": "Удар, наносящий урон молнией по всем противникам по прямой линии перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: паралич (paralysis)<br/>Продолжительность: 6 сек.<br/><br/>※Где изучается:<br/>Coincounter - Dungeon The Aurum Vale",
       },
       // Action 11
-      "Plaincracker": {
+      "Action 11": {
          "name": 'Plaincracker',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Plaincracker.png',
          "classification": 'Заклинание',
@@ -146,7 +145,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам с силой атаки 220 для первого и на 50% меньше для остальных<br/><br/>※Где изучается:<br/>Gogmagolem - Dungeon Copperbell Mines (Hard)<br/>Azulmagia - Stage 25 Masked Carnivale (Dirty Rotten Azulmagia)<br/>Basalt Golem - Outer La Noscea (15.7, 15.7)<br/>Clay Golem - North Shroud (16.5, 29.4)<br/>Sandstone Golem - Southern Thanalan (22.1, 11.7)",
       },
       // Action 12
-      "Bristle": {
+      "Action 12": {
          "name": 'Bristle',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Bristle.png',
          "classification": 'Заклинание',
@@ -159,7 +158,7 @@
          "content": "Увеличивает силу атаки следующего заклинания на 50%.<br/>Продолжительность: 30 сек.<br/>Эффект не суммируется с Harmonized.<br/><br/>※Где изучается:<br/>Angry Sow - Central Shroud<br/>Wild Boar - East Shroud (17, 23.4)",
       },
       // Action 13
-      "White Wind": {
+      "Action 13": {
          "name": 'White Wind',
          "skill_icon": '../Assets/img/DoWDoM/BLU/White_Wind.png',
          "classification": 'Заклинание',
@@ -172,7 +171,7 @@
          "content": "Восстанавливает HP персонажа и всех ближайших сопартийцев на величину, равную текущему HP персонажа.<br/><br/>※Где изучается:<br/>Требуется выучить 10 Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee White Wind Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 14
-      "Level 5 Petrify": {
+      "Action 14": {
          "name": 'Level 5 Petrify',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Level_5_Petrify.png',
          "classification": 'Заклинание',
@@ -185,7 +184,7 @@
          "content": "Накладывает окаменение (petrification) на всех противников в конусе перед персонажем.<br/>Продолжительность: 20 сек.<br/>Шанс успешной атаки низок.<br/>Уровень противника должен быть кратен 5. Не действует на противников, чей уровень выше персонажа.<br/><br/>※Где изучается:<br/>Manor Sentry - Dungeon Haukke Manor",
       },
       // Action 15
-      "Sharpened Knife": {
+      "Action 15": {
          "name": 'Sharpened Knife',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Sharpened_Knife.png',
          "classification": 'Заклинание',
@@ -198,7 +197,7 @@
          "content": "Удар, наносящий физический урон с силой атаки 220.<br/>Дополнительный эффект: сила атаки увеличивается до 450, когда цель оглушена (stun)<br/><br/>※Где изучается:<br/>Tonberry King - Dungeon The Wanderer's Palace",
       },
       // Action 16
-      "Ice Spikes": {
+      "Action 16": {
          "name": 'Ice Spikes',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Ice_Spikes.png',
          "classification": 'Заклинание',
@@ -211,7 +210,7 @@
          "content": "Наносит противникам урон льдом каждый раз, когда персонаж получаете физический урон.<br/>Сила контрудара: 40<br/>Продолжительность: 15 сек<br/>Эффект не складывается с Veil of the Whorl или Schiltron.<br/>Дополнительный эффект: 50% шанс, что при нанесении урона по персонажу, нападающий получит эффект замедление (slow) +20%<br/>Продолжительность: 15 сек.<br/><br/>※Где изучается:<br/>Azulmagia - Stage 25 Masked Carnivale (Dirty Rotten Azulmagia)<br/>Manor Jester (2 босс) - Dungeon Haukke Manor<br/>Thievish Imp - The Dravanian Forelands (35.6, 23.1)<br/>Trickster Imp - Central Shroud (27, 25)<br/>Vandalous Imp - Eastern Thanalan (14.4, 18.7)",
       },
       // Action 17
-      "Blood Drain": {
+      "Action 17": {
          "name": 'Blood Drain',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Blood_Drain.png',
          "classification": 'Заклинание',
@@ -224,7 +223,7 @@
          "content": "Удар, наносящий нестихийный урон с силой атаки 50.<br/>Дополнительный эффект: восстановливает MP<br/><br/>※Где изучается:<br/>Attic Bat - Dungeon Haukke Manor<br/>Sand Bat - Dungeon Cutter's Cry<br/>Black Bat - East Shroud (14.7, 22.5)<br/>Cave Bat - Lower La Noscea (27, 15.9)<br/>Chigoe - Central Shroud (23.3, 21.5)<br/>Dusk Bat - Western La Noscea (21.5, 22.5)<br/>Sun Bat - Central Thanalan (22.6, 20)",
       },
       // Action 18
-      "Acorn Bomb": {
+      "Action 18": {
          "name": 'Acorn Bomb',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Acorn_Bomb.png',
          "classification": 'Заклинание',
@@ -237,7 +236,7 @@
          "content": "Усыпляет цель и всех ближайших противников.<br/>Продолжительность: 30 сек.<br/>Прерывает авто атаки при использовании умения.<br/><br/>※Где изучается:<br/>Diseased Treant - East Shroud (18.25)<br/>Dryad - North Shroud (22.23)<br/>Old-growth Treant - East Shroud (27.22)<br/>Treant - South Shroud (26.1, 36.8)<br/>Treant Sapling - North Shroud (30.26)",
       },
       // Action 19
-      "Bomb Toss": {
+      "Action 19": {
          "name": 'Bomb Toss',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Bomb_Toss.png',
          "classification": 'Заклинание',
@@ -250,7 +249,7 @@
          "content": "Удар, наносящий урон огнем в указанной области с силой атаки 200 для первого противника и на 50% меньше для остальных.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 3 сек.<br/><br/>※Где изучается:<br/>Goblin Brandisher - The Dravanian Hinterlands (31.22)<br/>Goblin Fisher - Middle La Noscea (23.21)<br/>Goblin Gambler - Middle La Noscea (24.22)<br/>Goblin Glider - The Dravanian Hinterlands (32.24)<br/>Goblin Outlaw - Central Shroud (20.20)",
       },
       // Action 20
-      "Off-Guard": {
+      "Action 20": {
          "name": 'Off-Guard',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Off-guard.png',
          "classification": 'Заклинание',
@@ -263,7 +262,7 @@
          "content": "Увеличивает получаемый целью урон на 5%.<br/>Продолжительность: 15 сек.<br/>Другие заклинания не влияют на время повторного применения. <br/>Общее время восстановления с умением Peculiar Light.<br/><br/>※Где изучается:<br/>Требуется выучить 5 Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Off-guard Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 21
-      "Self-Destruct": {
+      "Action 21": {
          "name": 'Self-Destruct',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Self-destruct.png',
          "classification": 'Заклинание',
@@ -276,7 +275,7 @@
          "content": "Наносит урон огнем с силой атаки 1,500 по всем окружающим противникам, при этом отправляя персонажа в нокаут.<br/>Дополнительный эффект: сила атаки увеличивается до 1,800, если персонаж находится под действием эффекта Toad Oil<br/>Дополнительный эффект: накладывает на перснажа эффект Brush with Death<br/>Продолжительность: 600 сек.<br/>Эффект не снимается при оживлении или повторном нокауте персонажа.<br/>Невозможно использовать, находясь под действием эффекта Brush with Death.<br/><br/>※Где изучается:<br/>Cherry Bomb - Stage 8 Masked Carnivale (Bomb-edy of Errors)<br/>Blasting Cap - Dungeon Copperbell Mines<br/>Shrapnel - Dungeon Cutter's Cry<br/>Lady's Candle - Dungeon Haukke Manor<br/>Gas Bomb - Dungeon Halatali<br/>Bright Balloon - North Shroud (17.5, 27.1)<br/>Glide Bomb - Western Thanalan (27, 17)",
       },
       // Action 22
-      "Transfusion": {
+      "Action 22": {
          "name": 'Transfusion',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Transfusion.png',
          "classification": 'Заклинание',
@@ -289,7 +288,7 @@
          "content": "Полностью восстанавливает HP и MP одного сопартийца, при этом отправляя персонажа в нокаут.<br/>Дополнительный эффект: накладывает на перснажа эффект Brush with Death<br/>Продолжительность: 600 сек.<br/>Эффект не снимается при оживлении или повторном нокауте персонажа.<br/>Невозможно использовать, находясь под действием эффекта Brush with Death.<br/><br/>※Где изучается:<br/>Требуется выучить 20 Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Transfusion Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 23
-      "Faze": {
+      "Action 23": {
          "name": 'Faze',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Faze.png',
          "classification": 'Заклинание',
@@ -302,7 +301,7 @@
          "content": "Оглушает (stun) всех противников в конусе перед персонажем.<br/>Продолжительность: 6 сек.<br/><br/>※Где изучается:<br/>Qiqirn Eggdigger - Lower La Noscea (18.35)<br/>Qiqirn Gullroaster - Eastern La Noscea (26.32)<br/>Qiqirn Meatcutter - The Peaks (27.6, 20.9)<br/>Qiqirn Scrambler - Central Shroud (17.2, 19.8)<br/>Qiqirn Shellsweeper - Central Thanalan (16.19)",
       },
       // Action 24
-      "Flying Sardine": {
+      "Action 24": {
          "name": 'Flying Sardine',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Flying_Sardine.png',
          "classification": 'Заклинание',
@@ -315,7 +314,7 @@
          "content": "Удар, наносящий физический урон с силой атаки 10.<br/>Дополнительный эффект: прерывает умение цели<br/><br/>※Где изучается:<br/>Apkallu - Eastern La Noscea (27.2, 36.4)",
       },
       // Action 25
-      "Snort": {
+      "Action 25": {
          "name": 'Snort',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Snort.png',
          "classification": 'Заклинание',
@@ -328,7 +327,7 @@
          "content": "Удар, наносящий урон с силой атаки 10 и отталикивающий всем противников в конусе перед персонажем.<br/><br/>※Где изучается:<br/>Typhon - Dungeon The Dragon's Neck<br/>Typhon - Stage 20 Masked Carnivale (Miss Typhon)<br/>Typhon - Stage 27 Masked Carnivale (Lock up Your Snorters)",
       },
       // Action 26
-      "4-Tonze Weight": {
+      "Action 26": {
          "name": '4-Tonze Weight',
          "skill_icon": '../Assets/img/DoWDoM/BLU/4-tonze_Weight.png',
          "classification": 'Заклинание',
@@ -341,7 +340,7 @@
          "content": "Сбрасывает 4-тонный груз в указанном месте, наносящий физический урон с силой атаки 200 для первого противника и на 50% меньше для всех.<br/>Дополнительный эффект: тяжесть (heavy) +40%.<br/>Продолжительность: 30 сек.<br/><br/>※Где изучается:<br/>Ultros - Dungeon The Dragon's Neck",
       },
       // Action 27
-      "The Look": {
+      "Action 27": {
          "name": 'The Look',
          "skill_icon": '../Assets/img/DoWDoM/BLU/The_Look.png',
          "classification": 'Заклинание',
@@ -354,7 +353,7 @@
          "content": "Удар, наносящий физический урон с силой атаки 220.<br/>Дополнительный эффект: паралич (paralysis)<br/>Продолжительность: 30 сек.<br/><br/>※Где изучается:<br/>Ash - Dungeon Haukke Manor (Hard)<br/>Arch Demon - Necrologos: His Treasure Forhelen (levequest), Foundation (10.10)<br/>Arch Demon - The Dravanian Hinterlands (26.19)",
       },
       // Action 28
-      "Bad Breath": {
+      "Action 28": {
          "name": 'Bad Breath',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Bad_Breath.png',
          "classification": 'Заклинание',
@@ -367,7 +366,7 @@
          "content": "Создаёт отравляющее дыхание на всех противников в конусе перед персонажем, накладывая на них негативные статусы: замедление (slow) +20%, тяжесть (heavy) +40%, ослепление (blind) и паралич (paralysis).<br/>Дополнительный эффект: отрава (poison)<br/>Сила атаки: 20<br/>Дополнительный эффект: снижает наносимый урон на 10%<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: прерывает умение цели<br/><br/>※Где изучается:<br/>Reflective Rebekkah - Stage 19 Masked Carnivale (On a Clear Day You Can Smell Forever)<br/>Goldvine - Dungeon The Aurum Vale<br/>Toxic Tamlyn - Dungeon More than a Feeler (guildhest)<br/>Halitostroper - Central Shroud (15, 21.3)<br/>Morbol - East Shroud (22.9, 20.5)<br/>Stroper - South Shroud (20.28)",
       },
       // Action 29
-      "Diamondback": {
+      "Action 29": {
          "name": 'Diamondback',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Diamondback.png',
          "classification": 'Заклинание',
@@ -380,7 +379,7 @@
          "content": "Снижает получаемый урон на 90% и дает иммунитет к большинству эффектов отталкивания и притягивания.<br/>На время действия этого эффекта персонаж не можете двигаться или использовать какие-либо умения.<br/>Продолжительность: 10 сек.<br/>Если использовать это умение, когда активен Waxing Nocturne, его эффект немедленно изменится в Waning Nocturne.<br/>Эффект этого умения нельзя завершить вручную.<br/><br/>※Где изучается:<br/>Cuca Fera - Dungeon The Stone Vigil (Hard)",
       },
       // Action 30
-      "Mighty Guard": {
+      "Action 30": {
          "name": 'Mighty Guard',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Mighty_Guard.png',
          "classification": 'Заклинание',
@@ -393,7 +392,7 @@
          "content": "Снижает получаемый персонажем урон на 40%, одновременно уменьшая наносимый урон на 40%, увеличивая уровень угрозы и предотвращая прерывание применения умений из-за получения урона.<br/>Эффект заканчивается при повторном использовании.<br/><br/>※Где изучается:<br/>Требуется выучить 10 Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Mighty Guard Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9)",
       },
       // Action 31
-      "Sticky Tongue": {
+      "Action 31": {
          "name": 'Sticky Tongue',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Sticky_Tongue.png',
          "classification": 'Заклинание',
@@ -406,7 +405,7 @@
          "content": "Притягивает цель к применяющему умение.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: увеличивает уровень угрозы<br/><br/>※Где изучается:<br/>Ledgeleaper - Dungeon Basic Training: Enemy Strongholds (guildhest)<br/>Nether Nix - Dungeon The Aurum Vale<br/>Cane Toad - Lower La Noscea (24.22)<br/>Doomed Gigantoad - Western Thanalan (24.6, 21.2)<br/>Gigantoad - Eastern La Noscea (19.26)<br/>Giggling Gigantoad - Western Thanalan (14.6)<br/>Laughing Toad - Western Thanalan (14.6)<br/>Ledge Leaper - Western Thanalan (11.12)<br/>Toxic Toad - Central Thanalan (26.7, 19.8)",
       },
       // Action 32
-      "Toad Oil": {
+      "Action 32": {
          "name": 'Toad Oil',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Toad_Oil.png',
          "classification": 'Заклинание',
@@ -419,7 +418,7 @@
          "content": "Увеличивает уклонение на 20%.<br/>Продолжительность: 180 сек.<br/><br/>※Где изучается:<br/>Giggling Gigantoad - Western Thanalan (14.6)",
       },
       // Action 33
-      "The Rams Voice": {
+      "Action 33": {
          "name": "The Ram's Voice",
          "skill_icon": '../Assets/img/DoWDoM/BLU/The_Rams_Voice.png',
          "classification": 'Заклинание',
@@ -432,7 +431,7 @@
          "content": "Удар, наносящий урон льдом по всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: глубокая заморозка (deep freeze)<br/>Продолжительность: 12 сек.<br/><br/>※Где изучается:<br/>Gorgimera - FATE: Go, Go, Gorgimera<br/>Chimera - Dungeon Dungeon Cutter's Cry<br/>Chimera - Trial A Relic Reborn: The Chimera<br/>Shadowcourt - Alliance Raid Dun Scaith<br/>Apademak - Stage 21 Masked Carnivale (Chimera on a Hot Tin Roof)<br/>Azulmagia - Stage 25 Masked Carnivale (Dirty Rotten Azulmagia)",
       },
       // Action 34
-      "The Dragons Voice": {
+      "Action 34": {
          "name": "The Dragon's Voice",
          "skill_icon": '../Assets/img/DoWDoM/BLU/The_Dragons_Voice.png',
          "classification": 'Заклинание',
@@ -445,7 +444,7 @@
          "content": "Удар, наносящий урон молнией по всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Противники в радиусе 8 ялмов от персонажа не получат урон.<br/>Дополнительный эффект: паралич (paralysis)<br/>Продолжительность: 9 сек.<br/>Дополнительный эффект: сила атаки увеличена до 400 против большинства противников, пораженных эффектом глубокой заморозкой (deep freeze). Эффект глубокой заморозки (deep freeze) также снимается<br/><br/>※Где изучается:<br/>Gorgimera - FATE: Go, Go, Gorgimera<br/>Chimera - Dungeon Cutter's Cry<br/>Chimera - Trial A Relic Reborn: The Chimera<br/>Shadowcourt - Alliance Raid Dun Scaith<br/>Apademak - Stage 21 Masked Carnivale (Chimera on a Hot Tin Roof)<br/>Azulmagia - Stage 25 Masked Carnivale (Dirty Rotten Azulmagia)",
       },
       // Action 35
-      "Missile": {
+      "Action 35": {
          "name": 'Missile',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Missile.png',
          "classification": 'Заклинание',
@@ -458,7 +457,7 @@
          "content": "Удар, наносящий урон равный 50% текущего HP цели.<br/>Шанс успешной атаки низок.<br/>Не действует на противников, чей уровень выше персонажа.<br/><br/>※Где изучается:<br/>Enkidu - Trial Battle in the Big Keep<br/>Guardian - Raid Sigmascape V3.0",
       },
       // Action 36
-      "1000 Needles": {
+      "Action 36": {
          "name": '1000 Needles',
          "skill_icon": '../Assets/img/DoWDoM/BLU/1000_Needles.png',
          "classification": 'Заклинание',
@@ -471,7 +470,7 @@
          "content": "Наносит фиксированные 1,000 очков физического урона, который распределяется между всеми противниками вокруг персонажа.<br/><br/>※Где изучается:<br/>Sabotender Desertor - Dungeon Cutter's Cry<br/>Sabotender - Southern Thanalan (13.4, 13.8) ",
       },
       // Action 37
-      "Ink Jet": {
+      "Action 37": {
          "name": 'Ink Jet',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Ink_Jet.png',
          "classification": 'Заклинание',
@@ -484,7 +483,7 @@
          "content": "Удар, наносящий нестиихйный урон по всем противникам в конусе перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных<br/>Дополнительный эффект: ослепление (blind)<br/>Продолжительность: 30 сек.<br/><br/>※Где изучается:<br/>Kraken - Dungeon Sastasha (Hard)",
       },
       // Action 38
-      "Fire Angon": {
+      "Action 38": {
          "name": 'Fire Angon',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Fire_Angon.png',
          "classification": 'Заклинание',
@@ -497,7 +496,7 @@
          "content": "Удар, наносящий физический урон огнем по цели и всем ближайшим противникам с силой атаки 200 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Frumious Koheel Ja (1 босс) - Dungeon The Wanderer's Palace (Hard)",
       },
       // Action 39
-      "Moon Flute": {
+      "Action 39": {
          "name": 'Moon Flute',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Moon_Flute.png',
          "classification": 'Заклинание',
@@ -510,7 +509,7 @@
          "content": "Накладывает на персонажа эффект Waxing Nocturne, увеличивая наносимый урон на 50% и скорость передвижения на 30%.<br/>Продолжительность: 15 сек.<br/>Когда эффект заканчивается, он заменяется на Waning Nocturne, не позволяющий использовать авто атаки, умения, боевые навыки, заклинания или способности.<br/>Продолжительность: 15 сек.<br/><br/>※Где изучается:<br/>Требуется закрыть 10 этапов в Masked Carnivale.<br/>Для изучения заклинания требуется забрать Whalaqee Moon Flute Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 40
-      "Tail Screw": {
+      "Action 40": {
          "name": 'Tail Screw',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Tail_Screw.png',
          "classification": 'Заклинание',
@@ -523,7 +522,7 @@
          "content": "Снижает HP цели до единичного значения.<br/>Шанс успешной атаки низок. Не действует на противников, чей уровень выше персонажа.<br/><br/>※Где изучается:<br/>Clay Claw - Raid Alexander - The Arm of the Father<br/>Reflection of Karlabos - Dungeon The Sirensong Sea<br/>Crag Claw - The Peaks (25, 11)",
       },
       // Action 41
-      "Mind Blast": {
+      "Action 41": {
          "name": 'Mind Blast',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Mind_Blast.png',
          "classification": 'Заклинание',
@@ -536,7 +535,7 @@
          "content": "Удар, наносящий нестихийный урон по всем ближайшим противникам с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: паралич (paralysis)<br/>Продолжительность: 30 сек.<br/><br/>※Где изучается:<br/>Galvanth the Dominator - Dungeon The Tam-Tara Deepcroft<br/>Blaster - Raid Alexander - The Burden of the Son",
       },
       // Action 42
-      "Doom": {
+      "Action 42": {
          "name": 'Doom',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Doom.png',
          "classification": 'Заклинание',
@@ -549,7 +548,7 @@
          "content": "Накладывает на цель эффект Doom.<br/>Продолжительность: 15 сек.<br/>Когда эффект закончится, цель будет отправлена в нокаут.<br/>Шанс успешной атаки низок. Не действует на противников, чей уровень выше персонажа.<br/><br/>※Где изучается:<br/>Требуется закрыть 20 этапов в Masked Carnivale.<br/>Для изучения заклинания требуется забрать Whalaqee Doom Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9)",
       },
       // Action 43
-      "Peculiar Light": {
+      "Action 43": {
          "name": 'Peculiar Light',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Peculiar_Light.png',
          "classification": 'Заклинание',
@@ -562,7 +561,7 @@
          "content": "Увеличивает магический урон, наносимый всем ближайшим противникам на 5%.<br/>Продолжительность: 15 сек.<br/>Другие заклинания не влияют на время повторного применения.<br/>Имеет общее время восстановления с умением Off-guard.<br/><br/>※Где изучается:<br/>Surf Eft - Dungeon Brayflox's Longstop<br/>Hellbender (2 босс) - Dungeon Brayflox's Longstop<br/>Lentic Mudpuppy - Mor Dhona (12.10)<br/>Loch Nanka - The Lochs (17.16)",
       },
       // Action 44
-      "Feather Rain": {
+      "Action 44": {
          "name": 'Feather Rain',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Feather_Rain.png',
          "classification": 'Способность',
@@ -575,7 +574,7 @@
          "content": "Удар, наносящий урон ветром с силой атаки 220 по всем противникам в указанном месте.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 40<br/>Продолжительность: 6 сек.<br/>Имеет общее время восстановления с умением Eruption.<br/><br/>※Где изучается:<br/>Garuda - Trial The Howling Eye (Extreme)",
       },
       // Action 45
-      "Eruption": {
+      "Action 45": {
          "name": 'Eruption',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Eruption.png',
          "classification": 'Способность',
@@ -588,7 +587,7 @@
          "content": "Удар, наносящий урон огнем с силой атаки 300 по всем противникам в указанном месте.<br/>Имеет общее время восстановления с умением Feather Rain.<br/><br/>※Где изучается:<br/>Ifrit - Trial The Bowl of Embers<br/>Ifrit - Trial The Bowl of Embers (Hard)<br/>Ifrit - Trial The Bowl of Embers (Extreme)",
       },
       // Action 46
-      "Mountain Buster": {
+      "Action 46": {
          "name": 'Mountain Buster',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Mountain_Buster.png',
          "classification": 'Способность',
@@ -601,7 +600,7 @@
          "content": "Удар, наносящий физический урон землей по всем противникам в конусе перед персонажем с силой атаки 400 для первого и на 50% меньше для остальных.<br/>Имеет общее время восстановления с умением Shock Strike.<br/><br/>※Где изучается:<br/>Titan - Trial The Navel (Hard)<br/>Titan - Trial The Navel (Extreme)",
       },
       // Action 47
-      "Shock Strike": {
+      "Action 47": {
          "name": 'Shock Strike',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Shock_Strike.png',
          "classification": 'Способность',
@@ -614,7 +613,7 @@
          "content": "Удар, наносящий урон молнией по цели и всем ближайшим противникам с силой атаки 400 для первого и на 50% меньше для остальных.<br/>Имеет общее время восстановления с умением Mountain Buster.<br/><br/>※Где изучается:<br/>Ramuh - Trial The Striking Tree (Hard)<br/>Ramuh - Trial The Striking Tree (Extreme)",
       },
       // Action 48
-      "Glass Dance": {
+      "Action 48": {
          "name": 'Glass Dance',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Glass_Dance.png',
          "classification": 'Способность',
@@ -627,7 +626,7 @@
          "content": "Удар, наносящий урон льдом всем противникам по широкой дуге перед персонажем и по бокам с силой атаки 350 для первого и на 50% меньше для остальных.<br/>Имеет общее время восстановления с умением Veil of the Whorl.<br/><br/>※Где изучается:<br/>Shiva - Trial The Akh Afah Amphitheatre (Extreme)",
       },
       // Action 49
-      "Veil of the Whorl": {
+      "Action 49": {
          "name": 'Veil of the Whorl',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Veil_of_the_Whorl.png',
          "classification": 'Способность',
@@ -640,7 +639,7 @@
          "content": "Наносит противникам урон водой каждый раз, когда персонаж получает урон.<br/>Сила контратаки: 50<br/>Продолжительность: 30 сек.<br/>Эффект не суммируется с Ice Spikes или Schiltron.<br/>Имеет общее время восстановления с умением Glass Dance.<br/><br/>※Где изучается:<br/>Leviathan - Trial The Whorleater (Hard)<br/>Leviathan - Trial The Whorleater (Extreme)",
       },
       // Action 50
-      "Alpine Draft": {
+      "Action 50": {
          "name": 'Alpine Draft',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Alpine_Draft.png',
          "classification": 'Заклинание',
@@ -653,7 +652,7 @@
          "content": "Удар, наносящий урон ветром всем противникам по прямой линии перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Opinicus - Dungeon The Dusk Vigil<br/>Griffin - The Sea of Clouds (6.1, 7.4)<br/>Gryps - Elpis (6.31)<br/>True Griffin - The Peaks (22.5, 24.9)",
       },
       // Action 51
-      "Protean Wave": {
+      "Action 51": {
          "name": 'Protean Wave',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Protean_Wave.png',
          "classification": 'Заклинание',
@@ -666,7 +665,7 @@
          "content": "Удар, наносящий урон водой по всем противникам в конусе перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: отталкивает противников на 15 ялмов<br/><br/>※Где изучается:<br/>Living Liquid - Raid Alexander - The Arm of the Father<br/>Living Liquid - Raid Alexander - The Arm of the Father (Savage)<br/>Shikigami of the Undertow - Stage 29 Masked Carnivale (Red, Fraught, and Blue)",
       },
       // Action 52
-      "Northerlies": {
+      "Action 52": {
          "name": 'Northerlies',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Northerlies.png',
          "classification": 'Заклинание',
@@ -679,7 +678,7 @@
          "content": "Удар, наносящий урон льдом по всем противникам в конусе перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: противники, пораженные эффектом Dropsy, будут заморожены. Эффект Dropsy также снимается<br/>Продолжительность: 20 сек.<br/><br/>※Где изучается:<br/>Yeti (2 босс) - Dungeon Snowcloak<br/>Lone Yeti - Coerthas Western Highlands (21.6, 32.9)<br/>Slate Yeti - Coerthas Western Highlands (17.26)",
       },
       // Action 53
-      "Electrogenesis": {
+      "Action 53": {
          "name": 'Electrogenesis',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Electrogenesis.png',
          "classification": 'Заклинание',
@@ -692,7 +691,7 @@
          "content": "Удар, наносящий урон молнией по цели и всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Conodont - The Sea of Clouds (27.30)",
       },
       // Action 54
-      "Kaltstrahl": {
+      "Action 54": {
          "name": 'Kaltstrahl',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Kaltstrahl.png',
          "classification": 'Заклинание',
@@ -705,7 +704,7 @@
          "content": "Удар, наносящий физический урон молнией по всем противникам в конусе перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Faust - Raid Alexander - The Fist of the Father<br/>Faust- Raid Alexander - The Fist of the Father (Savage)<br/>Jagd Doll - Raid Alexander - The Cuff of the Father<br/>Jagd Doll - Raid Alexander - The Cuff of the Father (Savage)",
       },
       // Action 55
-      "Abyssal Transfixion": {
+      "Action 55": {
          "name": 'Abyssal Transfixion',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Abyssal_Transfixion.png',
          "classification": 'Заклинание',
@@ -718,7 +717,7 @@
          "content": "Удар, наносящий физический урон с силой атаки 220.<br/>Дополнительный эффект: паралич (paralysis)<br/>Продолжительность: 30 сек.<br/><br/>※Где изучается:<br/>Ash - Dungeon Haukke Manor (Hard)<br/>Arch Demon - Necrologos: His Treasure Forhelen, Foundation (10.10)<br/>Arch Demon - The Dravanian Hinterlands (26.19)",
       },
       // Action 56
-      "Chirp": {
+      "Action 56": {
          "name": 'Chirp',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Chirp.png',
          "classification": 'Заклинание',
@@ -731,7 +730,7 @@
          "content": "Усыпляет всех ближайших противников.<br/>Продолжительность: 40 сек.<br/>Прерывает авто атаки при использовании умения.<br/><br/>※Где изучается:<br/>Apotamkin - The Sea of Clouds (36.1, 32.3)<br/>Paissa - The Sea of Clouds (21.7, 35.1)",
       },
       // Action 57
-      "Eerie Soundwave": {
+      "Action 57": {
          "name": 'Eerie Soundwave',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Eerie_Soundwave.png',
          "classification": 'Заклинание',
@@ -744,7 +743,7 @@
          "content": "Снимает один положительный эффект со всех ближайших противников.<br/><br/>※Где изучается:<br/>Enkidu - Dungeon Battle in the Big Keep<br/>Empuse - Azys Lla (29.11)",
       },
       // Action 58
-      "Pom Cure": {
+      "Action 58": {
          "name": 'Pom Cure',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Pom_Cure.png',
          "classification": 'Заклинание',
@@ -757,7 +756,7 @@
          "content": "Восстанавливает HP цели.<br/>Сила лечения: 100<br/>Сила лечения увеличивается до 500, когда персонаж находитесь под действием эффекта Aetheric Mimicry: Healer.<br/><br/>※Где изучается:<br/>Furryfoot Kupli Kipp (WHM Moogle) - Trial Thornmarch (Hard)<br/>Furryfoot Kupli Kipp (WHM Moogle) - Trial Thornmarch (Extreme)",
       },
       // Action 59
-      "Gobskin": {
+      "Action 59": {
          "name": 'Gobskin',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Gobskin.png',
          "classification": 'Заклинание',
@@ -770,7 +769,7 @@
          "content": "Создает барьер вокруг персонажа и всех ближайших сопартийцев, поглощающий урон, равный силе лечения 100.<br/>Продолжительность: 30 сек.<br/>Прочность барьера увеличивается до поглощения урона, равного силе лечения 250, когда персонаж находитесь под действием эффекта Aetheric Mimicry: Healer.<br/>Эффект не суммируется с Galvanize школяра или Eukrasian Diagnosis и Eukrasian Prognosis сейджа.<br/><br/>※Где изучается:<br/>Alexandrian Hider и Alexandrian Slider - Raid Alexander - The Breath of the Creator. Это дополнительные противники, появляющиеся во второй и третьей пачке противников.",
       },
       // Action 60
-      "Magic Hammer": {
+      "Action 60": {
          "name": 'Magic Hammer',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Magic_Hammer.png',
          "classification": 'Заклинание',
@@ -783,7 +782,7 @@
          "content": "Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 250 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: снижает у цели характиристики интеллекта (intelligence) и мудрость (mind) на 10%..<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: восстанавливает 10% от максимального количества MP<br/>Имеет общее время восстановления с умением Candy Cane.<br/><br/>※Где изучается:<br/>Apanda - Dungeon The Great Gubal Library (Hard). Apanda находится в комнате перед финальным боссом.<br/>Epilogi - Stage 24 Masked Carnivale (Amazing Technicolor Pit Fiends)",
       },
       // Action 61
-      "Avail": {
+      "Action 61": {
          "name": 'Avail',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Avail.png',
          "classification": 'Заклинание',
@@ -796,7 +795,7 @@
          "content": "Забирает весь урон направленный на сопартийца, до тех пор, пока он находится в радиусе 10 ялмов.<br/>Не срабатывает на некоторые атаки.<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Где изучается:<br/>Queen Hawk (2 босс) - Dungeon Saint Mocianne's Arboretum",
       },
       // Action 62
-      "Frog Legs": {
+      "Action 62": {
          "name": 'Frog Legs',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Frog_Legs.png',
          "classification": 'Заклинание',
@@ -809,7 +808,7 @@
          "content": "Провоцирует ближайших противников, значительно повышает генерацию уровня угрозы, ставя персонажа на первое место в списке угрозы противников.<br/><br/>※Где изучается:<br/>Bero Roggo - The Dravanian Hinterlands (11.34)<br/>Poroggo - The Dravanian Hinterlands (12.34)",
       },
       // Action 63
-      "Sonic Boom": {
+      "Action 63": {
          "name": 'Sonic Boom',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Sonic_Boom.png',
          "classification": 'Заклинание',
@@ -822,7 +821,7 @@
          "content": "Удар, наносящий урон ветром с силой атаки 210.<br/><br/>※Где изучается:<br/>Zu (2 босс) - Dungeon Pharos Sirius<br/>Anzu - The Sea of Clouds (25.6)<br/>Anzu Crone - FATE: Anzu Trois",
       },
       // Action 64
-      "Whistle": {
+      "Action 64": {
          "name": 'Whistle',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Whistle.png',
          "classification": 'Заклинание',
@@ -835,7 +834,7 @@
          "content": "Увеличивает силу атаки следующего заклинания, наносящего физический урон, на 80%.<br/>Продолжительность: 30 сек.<br/>Эффект не суммируется с Boost.<br/><br/>※Где изучается:<br/>Dhalmel - The Sea of Clouds (17.3, 32.2)<br/>Jhammel - The Peaks (24.8, 28.5)",
       },
       // Action 65
-      "White Knights Tour": {
+      "Action 65": {
          "name": "White Knight's Tour",
          "skill_icon": '../Assets/img/DoWDoM/BLU/White_Knights_Tour.png',
          "classification": 'Заклинание',
@@ -848,7 +847,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Сила атаки увеличивается до 400, если противники связаны (bind). Эффект связывания также снимается.<br/>Дополнительные эффекты: замедление (slow) +20%<br/>Продолжительность: 20 сек.<br/><br/>※Где изучается:<br/>White Knight - Dungeon The Vault",
       },
       // Action 66
-      "Black Knights Tour": {
+      "Action 66": {
          "name": "Black Knight's Tour",
          "skill_icon": '../Assets/img/DoWDoM/BLU/Black_Knights_Tour.png',
          "classification": 'Заклинание',
@@ -861,7 +860,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Сила атаки увеличивается до 400, если противники находятся под действием эффекта замедления (slow). Эффект замедление (slow) также снимается.<br/>Дополнительные эффекты: связывание (bind) +20%<br/>Продолжительность: 20 сек.<br/><br/>※Где изучается:<br/>Black Knight - Dungeon The Vault",
       },
       // Action 67
-      "Level 5 Death": {
+      "Action 67": {
          "name": 'Level 5 Death',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Level_5_Death.png',
          "classification": 'Заклинание',
@@ -874,7 +873,7 @@
          "content": "Нокаутирует всех ближайших противников.<br/>Шанс успешной атаки низок.<br/>Уровень противника должен быть кратен 5. Не действует на противников, чей уровень выше персонажа<br/>Имеет общее время восстановления с умением Ultravibration.<br/><br/>※Где изучается:<br/>Page 64 - Dungeon The Great Gubal Library",
       },
       // Action 68
-      "Launcher": {
+      "Action 68": {
          "name": 'Launcher',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Launcher.png',
          "classification": 'Заклинание',
@@ -887,7 +886,7 @@
          "content": "Наносит всем ближайшим противникам атаку, случайно отнимающую 50%, 30%, 20% или 10% HP.<br/>Не действует на противников, чей уровень выше персонажа.<br/><br/>※Где изучается:<br/>Armored Weapon - Dungeon Baelsar's Wall<br/>Doman Armored Weapon - Dungeon Doma Castle<br/>Lethal Weapon - FATE: The Magitek Is Back",
       },
       // Action 69
-      "Perpetual Ray": {
+      "Action 69": {
          "name": 'Perpetual Ray',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Perpetual_Ray.png',
          "classification": 'Заклинание',
@@ -900,7 +899,7 @@
          "content": "Удар, наносящий нестихийный урон с силой атаки 220.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 1 сек.<br/>Игнорирует сопротивление цели к эффекту оглушения.<br/><br/>※Где изучается:<br/>The Manipulator - Raid Alexander - The Burden of the Father<br/>The Manipulator - Raid Alexander - The Burden of the Father (Savage)",
       },
       // Action 70
-      "Cactguard": {
+      "Action 70": {
          "name": 'Cactguard',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Cactguard.png',
          "classification": 'Заклинание',
@@ -913,7 +912,7 @@
          "content": "Снижает получаемый урон выбранного сопартийца на 5%.<br/>Продолжительность: 6 сек.<br/>Увеличивает снижение урона до 15%, когда персонаж находитесь под действием эффекта Aetheric Mimicry: Tank.<br/><br/>※Где изучается:<br/>Sabotender - Dungeon The Sunken Temple of Qarn (Hard)",
       },
       // Action 71
-      "Revenge Blast": {
+      "Action 71": {
          "name": 'Revenge Blast',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Revenge_Blast.png',
          "classification": 'Заклинание',
@@ -926,7 +925,7 @@
          "content": "Удар, наносящий физический урон с силой атаки 50.<br/>Сила атаки увеличивается до 500, когда HP персонажа ниже 20%.<br/><br/>※Где изучается:<br/>Требуется выучить 50 Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Revenge Blast Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 72
-      "Angel Whisper": {
+      "Action 72": {
          "name": 'Angel Whisper',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Angel_Whisper.png',
          "classification": 'Заклинание',
@@ -939,7 +938,7 @@
          "content": "Воскрешает цель, накладывая эффект слабости (weakeness).<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Где изучается:<br/>Требуется закрыть 30 этапов Masked Carnivale.<br/>Для изучения заклинания требуется забрать Whalaqee Angel Whisper Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 73
-      "Exuviation": {
+      "Action 73": {
          "name": 'Exuviation',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Exuviation.png',
          "classification": 'Заклинание',
@@ -952,7 +951,7 @@
          "content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 50<br/>Дополнительный эффект: снимает один негативный эффект со всех ближайших сопартийцев<br/>Сила лечения увеличивается до 300, если персонаж находитесь под действием эффекта Aetheric Mimicry: Healer.<br/><br/>※Где изучается:<br/>Abalathian Wamoura - The Sea of Clouds (9.17)<br/>Wamoura - Dungeon The Lost City of Amdapor",
       },
       // Action 74
-      "Reflux": {
+      "Action 74": {
          "name": 'Reflux',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Reflux.png',
          "classification": 'Заклинание',
@@ -965,7 +964,7 @@
          "content": "Удар, наносящий урон молнией с силой атаки 220.<br/>Дополнительный эффект: тяжесть (heavy) +40%<br/>Продолжительность: 10 сек.<br/>Игнорирует сопротивление цели к эффекту тяжесть.<br/><br/>※Где изучается:<br/>Cloud Wyvern - The Churning Mists (24.28)",
       },
       // Action 75
-      "Devour": {
+      "Action 75": {
          "name": 'Devour',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Devour.png',
          "classification": 'Заклинание',
@@ -978,7 +977,7 @@
          "content": "Удар, наносящий нестихийный урон с силой атаки 250.<br/>Дополнительный эффект: увеличивает максимальное количество HP на 20%<br/>Продолжительность: 15 сек.<br/>Увеличивает продолжительность до 70 сек., когда персонаж находится под действием Aetheric Mimicry: Tank.<br/>Дополнительный эффект: восстанавливает количество HP персонажа, равное нанесенному урону<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Где изучается:<br/>Caduceus - Raid The Binding Coil of Bahamut - Turn 1<br/>Decaying Gourmand - Dungeon The Lost City of Amdapor<br/>Cerberus - Alliance Raid World of Darkness",
       },
       // Action 76
-      "Condensed Libra": {
+      "Action 76": {
          "name": 'Condensed Libra',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Condensed_Libra.png',
          "classification": 'Заклинание',
@@ -991,7 +990,7 @@
          "content": "Накладывает на цель эффект Physical Attenuation, Astral Attenuation или Umbral Attenuation.<br/>Длительность: 30 сек.<br/>Эффект Physical Attenuation: увеличивает урон, получаемый от физических атак, на 5%<br/>Эффект Astral Attenuation: увеличивает урон от атак с использованием огня, ветра и молнии на 5%<br/>Эффект Umbral Attenuation: увеличивает урон от атак с использованием с воды, земли и льда на 5%<br/>Одновременно на цель может быть наложен только один из этих эффектов.<br/><br/>※Где изучается:<br/>Mechanoscribe - Dungeon The Great Gubal Library (Hard)<br/>Arena Scribe - Stage 24 Masked Carnivale (Amazing Technicolor Pit Fiends)",
       },
       // Action 77
-      "Aetheric Mimicry": {
+      "Action 77": {
          "name": 'Aetheric Mimicry',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Aetherial_Mimicry.png',
          "classification": 'Заклинание',
@@ -1004,7 +1003,7 @@
          "content": "Копирует эфирные свойства цели, накладывая на персонажа полезный эффект, соответствующий роли этой цели.<br/><br/>Если цель - танк, персонаж получает Aetheric Mimicry: Tank, увеличивая защиту персонажа и усиливая некоторые заклинания синей магии.<br/><br/>Если цель - DPS, персонаж получает Aetheric Mimicry: DPS, увеличивая шанс критических (critical) и прямых (direct) попаданий на 20%, а также усиливая некоторые заклинания синей магии.<br/><br/>Если цель - целитель, персонаж получает способность Aetheric Mimicry: Healer, увеличивающую силу лечения на 20% и усиливающую некоторые заклинания синей магии.<br/>Эффект не может быть использован на самого персонажа. Эффект заканчивается при повторном использовании.<br/><br/>※Где изучается:<br/>Corruption - Dungeon Pharos Sirius (Hard)",
       },
       // Action 78
-      "Surpanakha": {
+      "Action 78": {
          "name": 'Surpanakha',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Surpanakha.png',
          "classification": 'Способность',
@@ -1017,7 +1016,7 @@
          "content": "Удар, наносящий урон землей по всем противникам в конусе перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает  Surpanakha's Fury, увеличивая силу атаки Surpanakha на 50%<br/>Продолжительность: 3 сек.<br/>Можно складывать до 3 раз.<br/>Максимум зарядов: 4<br/>Эффект отменяется при использовании любого умения, кроме Surpanakha.<br/><br/>※Где изучается:<br/>Ravana - Trial Thok ast Thok (Hard)<br/>Ravana - Trial Thok ast Thok (Extreme)",
       },
       // Action 79
-      "Quasar": {
+      "Action 79": {
          "name": 'Quasar',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Quasar.png',
          "classification": 'Способность',
@@ -1030,7 +1029,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам с силой атаки 300 для первого и на 50% меньше для остальных.<br/>Имеет общее время восстановления с умением J Kick.<br/><br/>※Где изучается:<br/>Sophia - Trial Containment Bay P1T6",
       },
       // Action 80
-      "J Kick": {
+      "Action 80": {
          "name": 'J Kick',
          "skill_icon": '../Assets/img/DoWDoM/BLU/J_Kick.png',
          "classification": 'Способность',
@@ -1043,7 +1042,7 @@
          "content": "Удар с прыжком, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 300 для первого и на 50% меньше для остальных.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/>Имеет общее время восстановления с умением Quasar.<br/><br/>※Где изучается:<br/>Brute Justice - Raid Alexander - The Burden of the Son<br/>Brute Justice - Raid Alexander - The Burden of the Son (Savage)",
       },
       // Action 81
-      "Triple Trident": {
+      "Action 81": {
          "name": 'Triple Trident',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Triple_Trident.png',
          "classification": 'Заклинание',
@@ -1056,7 +1055,7 @@
          "content": "Тройной удар, каждый из которых наносит урон с силой атаки 150.<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Где изучается:<br/>Ebisu Catfish - Yanxia (28.8)<br/>Thieving Namazu - Yanxia",
       },
       // Action 82
-      "Tingle": {
+      "Action 82": {
          "name": 'Tingle',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Tingle.png',
          "classification": 'Заклинание',
@@ -1069,7 +1068,7 @@
          "content": "Удар, наносящий урон молнией по цели и всем ближайшим противникам с силой атаки 100 для первого и на 50% меньше для остальных<br/>Дополнительный эффект: увеличивает силу атаки следующего заклинания, наносящего физический урон, на 100<br/>Продолжительность: 15 сек.<br/><br/>※Где изучается:<br/>Ebisu Catfish - Yanxia (28.8)",
       },
       // Action 83
-      "Tatami-Gaeshi": {
+      "Action 83": {
          "name": 'Tatami-Gaeshi',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Tatami-gaeshi.png',
          "classification": 'Заклинание',
@@ -1082,7 +1081,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 3 сек.<br/><br/>※Где изучается:<br/>Dojun-maru (2 босс) - Dungeon Kugane Castle",
       },
       // Action 84
-      "Cold Fog": {
+      "Action 84": {
          "name": 'Cold Fog',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Cold_Fog.png',
          "classification": 'Заклинание',
@@ -1095,7 +1094,7 @@
          "content": "Накладывает на персонажа эффект Cold Fog<br/>Продолжительность: 5 сек.<br/>Эффект меняется на Touch of Frost при получении урона.<br/>Эффект Touch of Frost: умение меняется с Cold Fog на White Death<br/>Продолжительность: 15 сек.<br/><br/>White Death<br/>Удар, наносящий урон льдом с силой атаки 400.<br/>Дополнительный эффект: глубокая заморозка (deep freeze)<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Touch of Frost.<br/><br/>※Где изучается:<br/>Mist Dragon (последний босс) - Dungeon The Burn",
       },
       // Action 85
-      "Stotram": {
+      "Action 85": {
          "name": 'Stotram',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Stotram.png',
          "classification": 'Заклинание',
@@ -1108,7 +1107,7 @@
          "content": "Удар, наносящий нестихийный урон по всем ближайшим противникам с силой атаки 140.<br/>Эффект умения меняется, восстанавливая HP персонажа и всех ближайших сопартийцев, когда персонаж находитесь под действием эффекта Aetheric Mimicry: Healer.<br/>Сила лечения: 300<br/><br/>※Где изучается:<br/>Lakshmi - Trial Emanation",
       },
       // Action 86
-      "Saintly Beam": {
+      "Action 86": {
          "name": 'Saintly Beam',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Saintly_Beam.png',
          "classification": 'Заклинание',
@@ -1121,7 +1120,7 @@
          "content": "Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 100.<br/>Сила атаки увеличивается до 500 при использовании против противников нежити (undead).<br/><br/>※Где изучается:<br/>Phantom Train - Raid Sigmascape V1.0",
       },
       // Action 87
-      "Feculent Flood": {
+      "Action 87": {
          "name": 'Feculent Flood',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Feculent_Flood.png',
          "classification": 'Заклинание',
@@ -1134,7 +1133,7 @@
          "content": "Удар, наносящий урон землей по всем противникам по прямой линии перед персонажем с силой атаки 220 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Tokkapchi (последний босс) - Dungeon Saint Mocianne's Arboretum (Hard)",
       },
       // Action 88
-      "Angels Snack": {
+      "Action 88": {
          "name": "Angel's Snack",
          "skill_icon": '../Assets/img/DoWDoM/BLU/Angels_Snack.png',
          "classification": 'Заклинание',
@@ -1147,7 +1146,7 @@
          "content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/>Дополнительный эффект: накладывает эффект периодического лечения, когда персонаж находится под действием эффекта Aetheric Mimicry: Healer.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Имеет общее время восстановления с умениями Dragon Force и Matra Magic.<br/><br/>※Где изучается:<br/>Требуется достигнуть 70 уровня Синего мага.<br/>Для изучения заклинания требуется забрать Whalaqee Angel's Snack Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 89
-      "Chelonian Gate": {
+      "Action 89": {
          "name": 'Chelonian Gate',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Chelonian_Gate.png',
          "classification": 'Заклинание',
@@ -1160,7 +1159,7 @@
          "content": "Призывает Chelonian Gate, снижающего получаемый урон на 20%.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Auspicious Trance после получения урона, равного 30% от максимального HP<br/>Эффект Auspicious Trance: умение меняется с Chelonian Gate на Divine Cataract<br/>Эффект Chelonian Gate заканчивается при использовании другого умения или при перемещении (в том числе в другую сторону).<br/>Действие Auspicious Trance заканчивается при потере эффекта Chelonian Gate.<br/>Имеет общее время восстановления с умениями Rose of Destruction и Ruby Dynamics.<br/><br/>Divine Cataract<br/>Удар, наносящий урон водой по всем противникам по прямой линии перед персонажем с силой атаки 500 для первого и на 50% меньше для остальных.<br/>Сила атаки увеличивается до 1,000, если персонаж находитесь под действием эффекта Aetheric Mimicry: Tank.<br/>Можно использовать только под действием эффекта Auspicious Trance.<br/><br/>※Где изучается:<br/>Genbu (последний босс) - Dungeon Hell's Lid",
       },
       // Action 90
-      "The Rose of Destruction": {
+      "Action 90": {
          "name": 'The Rose of Destruction',
          "skill_icon": '../Assets/img/DoWDoM/BLU/The_Rose_of_Destruction.png',
          "classification": 'Заклинание',
@@ -1173,7 +1172,7 @@
          "content": "Удар, наносящий нестихийный урон с силой атаки 400<br/>Дополнительный эффект: отталкивает противников на 10 ялмов<br/>Имеет общее время восстановления с умениями Chelonian Gate and Ruby Dynamics.<br/><br/>※Где изучается:<br/>Ivon Coeurlfist (последний босс) - Dungeon The Temple of the Fist",
       },
       // Action 91
-      "Basic Instinct": {
+      "Action 91": {
          "name": 'Basic Instinct',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Basic_Instinct.png',
          "classification": 'Заклинание',
@@ -1186,7 +1185,7 @@
          "content": "Увеличивает скорость передвижения на 30%, а эффективность лечения и наносимый урон - на 100%.<br/>Также игнорирует штраф к наносимому урону, когда персонаж находится под эффектом Mighty Guard.<br/>Можно использовать в подземельях, рассчитанных на двух или более игроков, только при игре в одиночку, когда в подземелье нет других сопартийцев или когда все сопартийцы выведены в нокауте.<br/>Эффект прекращается, когда к персонажу присоединяется один или несколько сопартийцев.<br/><br/>※Где изучается:<br/>Coeurl Smriti - Dungeon The Temple of the Fist<br/>Master Coeurl - Upper La Noscea (9, 21.5)",
       },
       // Action 92
-      "Ultravibration": {
+      "Action 92": {
          "name": 'Ultravibration',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Ultravibration.png',
          "classification": 'Заклинание',
@@ -1199,7 +1198,7 @@
          "content": "Нокаутирует всех ближайших противников, на которых наложены эффекты глубокая заморозка (deep Freeze) или окаменение (petrification).<br/>Не действует на противников, чей уровень выше персонажа и некоторых других.<br/>Имеет общее время восстановления с умением Level 5 Death.<br/><br/>※Где изучается:<br/>Kongamato - The Peaks (13.3, 26.3)",
       },
       // Action 93
-      "Blaze": {
+      "Action 93": {
          "name": 'Blaze',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Blaze.png',
          "classification": 'Заклинание',
@@ -1212,7 +1211,7 @@
          "content": "Удар, наносящий урон льдом по цели и всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/><br/>※Где изучается:<br/>Alte Roite - Raid Deltascape V1.0",
       },
       // Action 94
-      "Mustard Bomb": {
+      "Action 94": {
          "name": 'Mustard Bomb',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Mustard_Bomb.png',
          "classification": 'Заклинание',
@@ -1225,7 +1224,7 @@
          "content": "Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: противники, на которых наложен эффект Lightheaded, получают периодический урон<br/>Сила атаки: 50<br/>Продолжительность: 15 сек.<br/><br/>※Где изучается:<br/>Omega - Raid Alphascape V3.0",
       },
       // Action 95
-      "Dragon Force": {
+      "Action 95": {
          "name": 'Dragon Force',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Dragon_Force.png',
          "classification": 'Заклинание',
@@ -1238,7 +1237,7 @@
          "content": "Уменьшает получаемый урон на 20%.<br/>Продолжительность: 15 сек.<br/>Увеличивает снижаемый урон до 40%, когда персонаж находится под действием эффекта Aetheric Mimicry: Tank.<br/>Имеет общее время восстановления с умениями Angel's Snack и Matra Magic.<br/><br/>※Где изучается:<br/>Требуется изучить 100 заклинаний Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Dragon Force Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 96
-      "Aetherial Spark": {
+      "Action 96": {
          "name": 'Aetherial Spark',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Aetherial_Spark.png',
          "classification": 'Заклинание',
@@ -1251,7 +1250,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 50.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 50<br/>Продолжительность: 15 сек.<br/><br/>※Где изучается:<br/>Salt Dhruva - The Lochs (22.23)",
       },
       // Action 97
-      "Hydro Pull": {
+      "Action 97": {
          "name": 'Hydro Pull',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Hydro_Pull.png',
          "classification": 'Заклинание',
@@ -1264,7 +1263,7 @@
          "content": "Удар, наносящий урон водой по всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: притягивает противников к персонажу<br/><br/>※Где изучается:<br/>Kelpie (первый босс) - Dungeon The Drowned City of Skalla",
       },
       // Action 98
-      "Malediction of Water": {
+      "Action 98": {
          "name": 'Malediction of Water',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Malediction_of_Water.png',
          "classification": 'Заклинание',
@@ -1277,7 +1276,7 @@
          "content": "Удар, наносящий урон водой по противникам по прямой линии перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: отталкивает всех ближайших противников и сопартийцев на 10 ялмов<br/>Не может быть использовано вне боя или когда цель находится под действием негативных эффектов.<br/><br/>※Где изучается:<br/>Sai Taisui - Dungeon The Swallow's Compass",
       },
       // Action 99
-      "Choco Meteor": {
+      "Action 99": {
          "name": 'Choco Meteor',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Choco_Meteor.png',
          "classification": 'Заклинание',
@@ -1290,7 +1289,7 @@
          "content": "Удар, наносящий нестихийный урон по цели и ближайшим противникам с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Сила атаки увеличивается до 300, если персонаж призвал личного чокобо.<br/><br/>※Где изучается:<br/>Courser Chocobo - The Dravanian Forelands (34.7, 28.8)",
       },
       // Action 100
-      "Matra Magic": {
+      "Action 100": {
          "name": 'Matra Magic',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Matra_Magic.png',
          "classification": 'Заклинание',
@@ -1303,7 +1302,7 @@
          "content": "Восемь ударов, каждый из которых наносит урон с силой атаки 50.<br/>Сила атаки увеличивается до 100, если персонаж находится под действием эффекта Aetheric Mimicry: DPS.<br/>Имеет общее время восстановления с умениями Angel's Snack и Dragon Force.<br/><br/>※Где изучается:<br/>Требуется изучить 100 заклинаний Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Matra Magic Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 101
-      "Peripheral Synthesis": {
+      "Action 101": {
          "name": 'Peripheral Synthesis',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Peripheral_Synthesis.png',
          "classification": 'Заклинание',
@@ -1316,7 +1315,7 @@
          "content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем  с силой атаки 220 для первого и на 50% меньше для остальных<br/>Сила атаки увеличивается до 400, если на цель наложен эффект Lightheaded.<br/>Дополнительный эффект: накладывает на цель эффект Lightheaded<br/>Продолжительность: 5 сек.<br/>Повторное использование этого умения в течение короткого периода времени уменьшит продолжительность дополнительного эффекта, в итоге цель станет невосприимчивой к эффекту Lightheaded.<br/><br/>※Где изучается:<br/>Omega (Hands в Normal) - Raid Alphascape V3.0",
       },
       // Action 102
-      "Both Ends": {
+      "Action 102": {
          "name": 'Both Ends',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Both_Ends.png',
          "classification": 'Способность',
@@ -1329,7 +1328,7 @@
          "content": "Удар, наносящий нестихийный урон по ближайшим противникам с силой атаки 600.<br/>Имеет общее время восстановления с умением Nightbloom.<br/><br/>※Где изучается:<br/>Qitian Dasheng (последний босс) - Dungeon The Swallow's Compass",
       },
       // Action 103
-      "Phantom Flurry": {
+      "Action 103": {
          "name": 'Phantom Flurry',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Phantom_Flurry.png',
          "classification": 'Способность',
@@ -1342,7 +1341,7 @@
          "content": "Удар, наносящий нестихийный периодический урон по всем противникам в конусе перед персонажем с силой атаки 200.<br/>Продолжительность: 5 сек.<br/>Повторное применение Phantom Flurry до истечения срока действия эффекта наносит нестихийный урон по всем противникам в конусе перед персонажем с силой атаки 600 для первого и на 50% меньше для остальных.<br/>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/><br/>※Где изучается:<br/>Suzaku - Trial Hells' Kier",
       },
       // Action 104
-      "Nightbloom": {
+      "Action 104": {
          "name": 'Nightbloom',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Nightbloom.png',
          "classification": 'Способность',
@@ -1355,7 +1354,7 @@
          "content": "Удар, наносящий нестихийный урон по всем ближайшим противникам с силой атаки 400 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 75<br/>Продолжительность: 60 сек.<br/>Имеет общее время восстановления с умением Both Ends.<br/><br/>※Где изучается:<br/>Tsukuyomi - Trial Castrum Fluminis",
       },
       // Action 105
-      "Goblin Punch": {
+      "Action 105": {
          "name": 'Goblin Punch',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Goblin_Punch.png',
          "classification": 'Заклинание',
@@ -1368,7 +1367,7 @@
          "content": "Удар, наносящий урон с силой атаки 120, выполнение удара перед целью 220.<br/>Сила атаки увеличивается до 220, когда персонаж находится под действием эффекта Mighty Guard.<br/>Сила атаки увеличивается до 320, когда выполняется персонажем перед целью, находящимся под действием эффекта Mighty Guard.<br/><br/>※Где изучается:<br/>Hobgoblin Guard - Kholusia (26.10)<br/>Hobgoblin - Kholusia (37.28)",
       },
       // Action 106
-      "Right Round": {
+      "Action 106": {
          "name": 'Right Round',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Right_Round.png',
          "classification": 'Заклинание',
@@ -1381,7 +1380,7 @@
          "content": "Удар, наносящий нестихийный урон по ближайшим противникам с силой атаки 110.<br/>Дополнительный эффект: отталкивает всех ближайших противников и сопартийцев на 10 ялмов<br/>Не может быть использовано вне боя или когда цель находится под действием негативных эффектов.<br/><br/>※Где изучается:<br/>Greater Armadillo - Dungeon Malikah's Well",
       },
       // Action 107
-      "Schiltron": {
+      "Action 107": {
          "name": 'Schiltron',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Schiltron.png',
          "classification": 'Заклинание',
@@ -1394,7 +1393,7 @@
          "content": "Наносит противникам нестихийный урон каждый раз, когда персонаж получаете физический урон.<br/>Сила контрудара: 50<br/>Продолжительность: 15 сек.<br/>Сила атаки увеличивается до 100, когда персонаж находится под действием эффекта Aetheric Mimicry: Tank.<br/>Эффект не складывается с Veil of the Whorl или Ice Spikes.<br/><br/>※Где изучается:<br/>Long-tailed Armadillo - Amh Araeng (15.29)",
       },
       // Action 108
-      "Rehydration": {
+      "Action 108": {
          "name": 'Rehydration',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Rehydration.png',
          "classification": 'Заклинание',
@@ -1407,7 +1406,7 @@
          "content": "Восстанавливает HP персонажа.<br/>Сила лечения: 600<br/><br/>※Где изучается:<br/>Slippery Armadillo - Amh Araeng (33.9, 11.9)",
       },
       // Action 109
-      "Breath of Magic": {
+      "Action 109": {
          "name": 'Breath of Magic',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Breath_of_Magic.png',
          "classification": 'Заклинание',
@@ -1420,7 +1419,7 @@
          "content": "Удар, наносящий нестихийный периодический урон по всем противникам в конусе перед персонажем с силой атаки 120.<br/>Длительность: 60 сек.<br/>Одновременно может быть активен только один эффект, наложенный этим умением.<br/><br/>※Где изучается:<br/>Требуется достигнуть 80 уровня Синего мага.<br/>Для изучения заклинания требуется забрать Whalaqee Breath of Magic Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 110
-      "Wild Rage": {
+      "Action 110": {
          "name": 'Wild Rage',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Wild_Rage.png',
          "classification": 'Заклинание',
@@ -1433,7 +1432,7 @@
          "content": "Удар, наносящий физический урон по всем ближайшим противникам с силой атаки 500 для первого и на 50% меньше для остальных.<br/>Использует 50% максимального HP персонажа при использовании.<br/><br/>※Где изучается:<br/>Spectral Berserker - Dungeon The Heroes' Gauntlet",
       },
       // Action 111
-      "Peat Pelt": {
+      "Action 111": {
          "name": 'Peat Pelt',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Peat_Pelt.png',
          "classification": 'Заклинание',
@@ -1446,7 +1445,7 @@
          "content": "Удар, наносящий урон землей по цели и всем ближайшим противникам с силой атаки 100 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает на цель Begrimed<br/>Эффект Begrimed: периодический урон землей<br/>Сила атаки: 10<br/>Продолжительность: 9 сек.<br/><br/>※Где изучается:<br/>Mudman - Dungeon Matoya's Relict",
       },
       // Action 112
-      "Deep Clean": {
+      "Action 112": {
          "name": 'Deep Clean',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Deep_Clean.png',
          "classification": 'Заклинание',
@@ -1459,7 +1458,7 @@
          "content": "Удар, наносящий физический урон по всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает по одному стаку Spick-and-span за каждого противника, на которого наложен эффект Begrimed. Эффект Begrimed также снимается<br/>Максимум стаков: 6<br/>Эффект Spick-and-span: эффект периодического лечения (regen)<br/>Сила лечения: 50<br/>Сила лечения увеличивается до 300 в зависимости от накопленных стаков Spick-and-span.<br/>Продолжительность: 15 сек.<br/>Дополнительные стаки Spick-and-span, накопленные во время действия эффекта, не влияют на его продолжительность.<br/><br/>※Где изучается:<br/>Seeker Of Solitude - Dungeon The Grand Cosmos",
       },
       // Action 113
-      "Ruby Dynamics": {
+      "Action 113": {
          "name": 'Ruby Dynamics',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Ruby_Dynamics.png',
          "classification": 'Заклинание',
@@ -1472,7 +1471,7 @@
          "content": "Удар, наносящий нестихийный урон противникам перед персонажем с силой атаки 220.<br/>Имеет общее время восстановления с умениями Chelonian Gate и The Rose of Destruction.<br/><br/>※Где изучается:<br/>The Ruby Weapon - Trial Cinder Drift",
       },
       // Action 114
-      "Divination Rune": {
+      "Action 114": {
          "name": 'Divination Rune',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Divination_Rune.png',
          "classification": 'Заклинание',
@@ -1485,7 +1484,7 @@
          "content": "Удар, наносящий нестихийный урон по всем противникам в конусе перед персонажем с силой атаки 100.<br/>Дополнительный эффект: Восстанавливает MP<br/><br/>※Где изучается:<br/>Titania - Trial The Dancing Plague",
       },
       // Action 115
-      "Dimensional Shift": {
+      "Action 115": {
          "name": 'Dimensional Shift',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Dimensional_Shift.png',
          "classification": 'Заклинание',
@@ -1498,7 +1497,7 @@
          "content": "Удар, наносящий урон по всем противникаму, равный 30% их текущего HP.<br/>Не действует на противников, чей уровень выше персонажа.<br/><br/>※Где изучается:<br/>Eden Prime - Raid Eden's Gate: Resurrection",
       },
       // Action 116
-      "Conviction Marcato": {
+      "Action 116": {
          "name": 'Conviction Marcato',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Conviction_Marcato.png',
          "classification": 'Заклинание',
@@ -1511,7 +1510,7 @@
          "content": "Удар, наносящий нестихийный урон по противникам по прямой линии перед персонажем с силой атаки 200 для первого и на 50% меньше для остальных.<br/>Сила атаки увеличивается до 440, когда персонаж находится под действием эффекта Winged Redemption.<br/><br/>※Где изучается:<br/>Forgiven Obscenity - Dungeon Mt. Gulg",
       },
       // Action 117
-      "Force Field": {
+      "Action 117": {
          "name": 'Force Field',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Force_Field.png',
          "classification": 'Заклинание',
@@ -1524,7 +1523,7 @@
          "content": "Накладывает на персонажа эффект Physical Vulnerability Down или Magic Vulnerability Down.<br/>Продолжительность: 10 сек.<br/>Эффект Physical Vulnerability Down: снижает получаемый физический урон на 50%<br/>Эффект Magic Vulnerability Down: снижает получаемый магический урон на 50%<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Где изучается:<br/>Требуется выучить 120 Blue Magic Spells.<br/>Для изучения заклинания требуется забрать Whalaqee Force Field Totem у Wayward Gaheel Ja в Ul'dah - Steps of Thal (12.5, 12.9).",
       },
       // Action 118
-      "Winged Reprobation": {
+      "Action 118": {
          "name": 'Winged Reprobation',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Winged_Reprobation.png',
          "classification": 'Заклинание',
@@ -1537,7 +1536,7 @@
          "content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем  с силой атаки 300 для первого и на 50% меньше для остальных<br/>Дополнительный эффект: накладывает один стак Winged Reprobation и сбрасывает время повторного применения этого умения<br/>Максимум стаков: 4<br/>Использование при 3 стаках увеличивает силу атаки до 400 и дает один стак Winged Reprobation, но время повторного приминения умения не сбрасывается.<br/>При максимальном количестве стаков Winged Reprobation меняется на Winged Redemption.<br/>Эффект Winged Redemption: увеличивает силу атаки Conviction Marcato.<br/>Продолжительность: 10 сек.<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Где изучается:<br/>Innocence - Trial The Crown of the Immaculate",
       },
       // Action 119
-      "Laser Eye": {
+      "Action 119": {
          "name": 'Laser Eye',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Laser_Eye.png',
          "classification": 'Заклинание',
@@ -1550,7 +1549,7 @@
          "content": "Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: отталкивает противников на 5 ялмов<br/><br/>※Где изучается:<br/>Eden's Promise - Raid Eden's Promise: Eternity",
       },
       // Action 120
-      "Candy Cane": {
+      "Action 120": {
          "name": 'Candy Cane',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Candy_Cane.png',
          "classification": 'Заклинание',
@@ -1563,7 +1562,7 @@
          "content": "Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 220 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: снижает характиристики силы (strength) и ловкости (dexterity) цели на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: восстанавливает 10% от максимального количества MP<br/>Имеет общее время восстановления с умением Magic Hammer.<br/><br/>※Где изучается:<br/>Aenc Thon, Lord of the Lingering Gaze - Dungeon Dohn Mheg",
       },
       // Action 121
-      "Mortal Flame": {
+      "Action 121": {
          "name": 'Mortal Flame',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Mortal_Flame.png',
          "classification": 'Заклинание',
@@ -1576,7 +1575,7 @@
          "content": "Удар, наносящий периодический урон огнем с силой атаки 40.<br/>Одновременно может быть активен только один эффект, наложенный этим умением.<br/>Не действует на цели вне боя.<br/>Эффект заканчивается, когда цель выходит из боя.<br/><br/>※Где изучается:<br/>Lugus - Dungeon The Grand Cosmos",
       },
       // Action 122
-      "Sea Shanty": {
+      "Action 122": {
          "name": 'Sea Shanty',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Sea_Shanty.png',
          "classification": 'Способность',
@@ -1589,7 +1588,7 @@
          "content": "Удар, наносящий урон водой по всем ближайшим противникам с силой атаки 500.<br/>Дополнительный эффект: сила атаки увеличивается до 1,000 во время дождя, ливня или грозы<br/><br/>※Где изучается:<br/>Nixie - Dungeon Matoya's Relict",
       },
       // Action 123
-      "Apokalypsis": {
+      "Action 123": {
          "name": 'Apokalypsis',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Apokalypsis.png',
          "classification": 'Способность',
@@ -1602,7 +1601,7 @@
          "content": "Удар, наносящий периодический урон по всем противникам по прямой линии перед персонажем  с силой атаки 140<br/>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/>Имеет общее время восстановления с умением Being Mortal.<br/><br/>※Где изучается:<br/>Therion - Dungeon Amaurot",
       },
       // Action 124
-      "Being Mortal": {
+      "Action 124": {
          "name": 'Being Mortal',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Being_Mortal.png',
          "classification": 'Способность',
@@ -1615,7 +1614,7 @@
          "content": "Удар, наносящий нестихийный урон по всем ближайшим противникам с силой атаки 800 для первого и на 50% меньше для остальных.<br/>Имеет общее время восстановления с умением Apokalypsis.<br/><br/>※Где изучается:<br/>Titania - Trial The Dancing Plague",
       },
       // Trait 01
-      "Learning": {
+      "Trait 01": {
          "name": 'Learning',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Trait/Learning.png',
          "job_icon": 'BLU',
@@ -1623,7 +1622,7 @@
          "content": 'Дает способность иногда узнавать секреты умений противника, применяемых в бою, и превращать их в свои собственные.',
       },
       // Trait 02
-      "Maim and Mend": {
+      "Trait 02": {
          "name": 'Maim and Mend',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend.png',
          "job_icon": 'BLU',
@@ -1631,7 +1630,7 @@
          "content": 'Увеличивает базовый урон от умений и восстановления HP на 10%.',
       },
       // Trait 03
-      "Maim and Mend II": {
+      "Trait 03": {
          "name": 'Maim and Mend II',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_II.png',
          "job_icon": 'BLU',
@@ -1639,7 +1638,7 @@
          "content": 'Увеличивает базовый урон от умений и восстановления HP на 20%.',
       },
       // Trait 04
-      "Maim and Mend III": {
+      "Trait 04": {
          "name": 'Maim and Mend III',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_III.png',
          "job_icon": 'BLU',
@@ -1647,7 +1646,7 @@
          "content": 'Увеличивает базовый урон от умений и восстановления HP на 30%.',
       },
       // Trait 05
-      "Maim and Mend IV": {
+      "Trait 05": {
          "name": 'Maim and Mend IV',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_IV.png',
          "job_icon": 'BLU',
@@ -1655,7 +1654,7 @@
          "content": 'Увеличивает базовый урон от умений и восстановления HP на 40%.',
       },
       // Trait 06
-      "Maim and Mend V": {
+      "Trait 06": {
          "name": 'Maim and Mend V',
          "skill_icon": '../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_V.png',
          "job_icon": 'BLU',
@@ -1664,6 +1663,7 @@
       },
    };
    FILL_DB_VALUES(db);
+   FILL_DB_SKILLS_MENU(db);
    FILL_DB_SKILLS_LIMITED(db);
    FILL_DB_SKILLS_PASSIVE(db);
 })();
