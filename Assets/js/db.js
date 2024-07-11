@@ -25,7 +25,7 @@ function FILL_DB_SKILLS(DB){
 		let key = this.getAttribute('db-skill');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание на получение</a>' : '';
@@ -66,7 +66,7 @@ function FILL_DB_SKILLS(DB){
 				<p>`+skill['radius']+`</p>
 			</div>
 		</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -75,7 +75,7 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 		let key = this.getAttribute('db-skill-passive');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let eorzeadb = skill['eorzeadb'] ? '<br/><a class="eorzeadb_link class_quest" href="'+skill['eorzeadb']+'">Задание на получение</a>' : '';
@@ -101,7 +101,7 @@ function FILL_DB_SKILLS_PASSIVE(DB){
 				<p>Ур. `+skill['level']+`</p>
 			</div>
 		</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -110,7 +110,7 @@ function FILL_DB_SKILLS_PVP(DB){
 		let key = this.getAttribute('db-skill-pvp');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let classification = skill['classification'] ? '<td class="classification">'+skill['classification']+'</td>' : '';
@@ -138,7 +138,7 @@ function FILL_DB_SKILLS_PVP(DB){
 				<p>`+skill['radius']+`</p>
 			</div>
 		</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -147,7 +147,7 @@ function FILL_DB_PVP_ACTIONS(DB){
 		let key = this.getAttribute('db-pvp-actions');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		this.innerHTML = `
@@ -175,7 +175,7 @@ function FILL_DB_PVP_ACTIONS(DB){
 				<p>`+skill['radius']+`</p>
 			</div>
 		</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -184,7 +184,7 @@ function FILL_DB_SKILLS_LIMITED(DB){
 		let key = this.getAttribute('db-skill-limited');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		this.innerHTML = `
@@ -212,7 +212,7 @@ function FILL_DB_SKILLS_LIMITED(DB){
 				<p>`+skill['radius']+`</p>
 			</div>
 		</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -221,7 +221,7 @@ function FILL_DB_SKILLS_MENU(DB){
 		let key = this.getAttribute('db-skill-menu');
 		let skill = DB[key];
 		if(skill === undefined){
-			//console.error('Skill "' + key + '" not found')
+			//console.error('Skill "' + key + '" not found');
 			return
 		}
 		this.innerHTML = `<p title="`+ skill['name'] +`"></p><img src="`+skill['skill_icon']+`">`
@@ -234,7 +234,7 @@ function FILL_DB_SKILLS_CRAFT(DB){
 		let key = this.getAttribute('db-skill-craft');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let skill_icon = skill['skill_icon'];
@@ -265,7 +265,7 @@ function FILL_DB_SKILLS_CRAFT(DB){
 			</div>
 		</td>
 		<td class="cost">`+skill['cost']+` CP</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -275,7 +275,7 @@ function FILL_DB_CRAFT_PASSIVE(DB){
 		let key = this.getAttribute('db-craft-passive');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let skill_icon = skill['skill_icon'];
@@ -307,7 +307,7 @@ function FILL_DB_CRAFT_PASSIVE(DB){
 			</div>
 		</td>
 		`+cost+`
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -317,7 +317,7 @@ function FILL_DB_SKILLS_GATHERING(DB){
 		let key = this.getAttribute('db-skill-gathering');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let eorzeadb = skill['eorzeadb'];
@@ -363,7 +363,7 @@ function FILL_DB_SKILLS_GATHERING(DB){
 		<td class="classification">`+skill['classification']+`</td>
 		<td class="recast">`+skill['recast']+`</td>
 		<td class="cost">`+skill['cost']+` GP</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -373,7 +373,7 @@ function FILL_DB_GATHERING_PASSIVE(DB){
 		let key = this.getAttribute('db-gathering-passive');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let eorzeadb = skill['eorzeadb'];
@@ -424,7 +424,7 @@ function FILL_DB_GATHERING_PASSIVE(DB){
 		</td>
 		`+classification+`
 		`+recast+`
-		<td class="content">`+skill_content+`</td>`
+		<td class="content">`+skill_content+`</td>`;
 	});
 }
 
@@ -433,7 +433,7 @@ function FILL_DB_ROLE_ACTIONS(DB){
 		let key = this.getAttribute('db-role-action');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let jobclass_01 = skill['job_class_01'] ? '<img src="../Assets/img/main/'+skill['job_class_01']+'.png">' : '';
@@ -475,7 +475,7 @@ function FILL_DB_ROLE_ACTIONS(DB){
 					<p>`+skill['radius']+`</p>
 				</div>
 			</td>
-         <td class="content">`+skill['content']+`</td>`
+         <td class="content">`+skill['content']+`</td>`;
 	});
 }
 
@@ -484,7 +484,7 @@ function FILL_DB_ROLE_TRAITS(DB){
 		let key = this.getAttribute('db-role-traits');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			console.error('Skill "' + key + '" not found');
 			return
 		}
 		let jobclass_01 = skill['job_class_01'] ? '<img src="../Assets/img/main/'+skill['job_class_01']+'.png">' : '';
@@ -509,6 +509,6 @@ function FILL_DB_ROLE_TRAITS(DB){
 				<p>Ур. `+skill['level']+`</p>
 			</div>
 		</td>
-		<td class="content">`+skill['content']+`</td>`
+		<td class="content">`+skill['content']+`</td>`;
 	});
 }
