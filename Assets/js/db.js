@@ -221,7 +221,7 @@ function FILL_DB_SKILLS_MENU(DB){
 		let key = this.getAttribute('db-skill-menu');
 		let skill = DB[key];
 		if(skill === undefined){
-			console.error('Skill "' + key + '" not found')
+			//console.error('Skill "' + key + '" not found')
 			return
 		}
 		this.innerHTML = `<p title="`+ skill['name'] +`"></p><img src="`+skill['skill_icon']+`">`
