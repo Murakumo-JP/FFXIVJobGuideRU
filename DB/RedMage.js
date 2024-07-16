@@ -316,7 +316,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Дает 3 стака Magicked Swordplay, каждый стак позволяет использовать Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois без затрат.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает наносимый магический урон на 5%<br/>Продолжительность: 15 сек.<br/>Накладывает эффект Cineration Ready при использовании 6 стаков Manafication.<br/>Продолжительность: 30 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
+         "content": 'Дает 3 стака Magicked Swordplay, каждый стак позволяет использовать Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois без затрат.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает наносимый магический урон на 5%<br/>Продолжительность: 30 сек.<br/>Накладывает эффект Cineration Ready при использовании 6 стаков Manafication.<br/>Продолжительность: 30 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
       },
       // PVE Skill 22
       "PVE Skill 22": {
