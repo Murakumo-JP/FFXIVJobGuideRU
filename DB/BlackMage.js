@@ -188,6 +188,21 @@
       },
       // PVE Skill 13
       "PVE Skill 13": {
+         "name": 'Umbral Soul',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5c3311c8d38df2d4617c0a325772cdd229f3c181.png',
+         "job_icon": 'BLM',
+         "level": '35',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.5 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Накладывает эффект Umbral Ice и дает 1 Umbral Heart.<br/>Эффект Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Astral Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Дополнительный эффект: восстанавливает количество MP, равное количеству стаков Umbral Ice<br/>Umbral Ice I: 2,500 MP<br/>Umbral Ice II: 5,000 MP<br/>Umbral Ice III: 10,000 MP<br/>Возможно использовать только под действием эффекта Umbral Ice.',
+      },
+      // PVE Skill 14
+      "PVE Skill 14": {
          "name": 'Freeze',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/bf524c2622f/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2190c4a6ebb204b010020af62a99b1829185aa21.png',
@@ -202,8 +217,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон льдом с силой атаки 120 по цели и ближайшим противникам.<br/>Дополнительный эффект: накладывает 3 Umbral Hearts<br/>Эффект Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Возможно использовать только под действием эффекта Umbral Ice.',
       },
-      // PVE Skill 14
-      "PVE Skill 14": {
+      // PVE Skill 15
+      "PVE Skill 15": {
          "name": 'Thunder III',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e023bb97879/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2efb022c0715f802a88e1edef4924c075e92a53d.png',
@@ -218,8 +233,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон молнией с силой атаки 160.<br/>Дополнительный эффект: периодический урон молнией<br/>Сила: 45<br/>Продолжительность: 27 сек.<br/>Может быть использовано только под действием эффекта Thunderhead, которое дается при получении Astral Fire или Umbral Ice из нестихийного состояния или при переключении между эффектами.<br/>Продолжительность эффекта Thunderhead: 30 сек.<br/>На одну цель может быть наложено только одно заклинание Thunder, наносящее периодический урон.',
       },
-      // PVE Skill 15
-      "PVE Skill 15": {
+      // PVE Skill 16
+      "PVE Skill 16": {
          "name": 'Aetherial Manipulation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a8c94264a1522d4e1f80e9dcac7864eb6170d722.png',
          "job_icon": 'THM',
@@ -233,8 +248,8 @@
          "radius": '0y',
          "content": 'Мгновенное перемещение к сопартийцу.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
-      // PVE Skill 16
-      "PVE Skill 16": {
+      // PVE Skill 17
+      "PVE Skill 17": {
          "name": 'Flare',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cecfdb58804/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2d60b093374b2c896487aba2e32eb8bd32eee7c.png',
@@ -249,8 +264,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон по цели и всем ближайшим противникам с силой атаки 240 для первого противника и на 40% меньше для всех остальных.<br/>Дополнительный эффект: накладывает эффект Astral Fire III<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: дает 3 стака Astral Soul<br/>Эффект заканчивается, когда истекает действие Astral Fire.<br/>Возможно использовать только под действием эффекта Astral Fire.',
       },
-      // PVE Skill 17
-      "PVE Skill 17": {
+      // PVE Skill 18
+      "PVE Skill 18": {
          "name": 'Ley Lines',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cede0d25c63/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2c84ee7f590f1563a8eda87c8ac5d89081365a92.png',
@@ -265,8 +280,8 @@
          "radius": '3y',
          "content": 'оздает круг силы вокруг персонажа, нахождение в котором снижает время применения и время восстановления заклинаний, а также задержку между авто атаками на 15%.<br/>Продолжительность: 30 сек.',
       },
-      // PVE Skill 18
-      "PVE Skill 18": {
+      // PVE Skill 19
+      "PVE Skill 19": {
          "name": 'Blizzard IV',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c4360e9d473/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/43e1468c5bc711966fdbb2790cd60aa6527461bf.png',
@@ -281,8 +296,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон льдом с силой атаки 310.<br/>Дополнительный эффект: накладывает 3 Umbral Hearts<br/>Бонус Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Astral Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Возможно использовать только под действием эффекта Umbral Ice.',
       },
-      // PVE Skill 19
-      "PVE Skill 19": {
+      // PVE Skill 20
+      "PVE Skill 20": {
          "name": 'Fire IV',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2e548618321/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a353ade6d0e1ff5828cca6b4bbc11c9f52618bb.png',
@@ -297,8 +312,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон огнем с силой атаки 310.<br/>Дополнительный эффект: активирует Astral Soul<br/>Эффект заканчивается, когда истекает действие Astral Fire.<br/>Заклинание может использоваться только под эффектом Astral Fire.',
       },
-      // PVE Skill 20
-      "PVE Skill 20": {
+      // PVE Skill 21
+      "PVE Skill 21": {
          "name": 'Between the Lines',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c05d4b844c5a3f1e85e6f4b19214715f7d609e2.png',
          "job_icon": 'BLM',
@@ -312,8 +327,8 @@
          "radius": '0y',
          "content": 'Мгновенное перемещение в Ley Lines, созданные персонажем.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
-      // PVE Skill 21
-      "PVE Skill 21": {
+      // PVE Skill 22
+      "PVE Skill 22": {
          "name": 'Thunder IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de62d077a3306797d48ee62f183e82c474b2b768.png',
          "job_icon": 'BLM',
@@ -327,8 +342,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон молнией с силой атаки 80 по цели и ближайшим противникам.<br/>Дополнительный эффект: периодический урон молнией<br/>Сила атаки: 35<br/>Продолжительность: 21 сек.<br/>Может быть использовано только под действием эффекта Thunderhead, которое дается при получении Astral Fire или Umbral Ice из нестихийного состояния или при переключении между эффектами.<br/>Продолжительность эффекта Thunderhead: 30 сек.<br/>На одну цель может быть наложено только одно заклинание Thunder, наносящее периодический урон.',
       },
-      // PVE Skill 22
-      "PVE Skill 22": {
+      // PVE Skill 23
+      "PVE Skill 23": {
          "name": 'Triplecast',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d5bb89a25bf7ce54c03b6fb2898927bd06653219.png',
          "job_icon": 'BLM',
@@ -342,8 +357,8 @@
          "radius": '0y',
          "content": 'Следующие три заклинания будут использованы мгновенно.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2',
       },
-      // PVE Skill 23
-      "PVE Skill 23": {
+      // PVE Skill 24
+      "PVE Skill 24": {
          "name": 'Foul',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c1f2ce42b9d/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4a87efd9bcba0589fb9e9a86b1f9dcd38157c1ee.png',
@@ -358,8 +373,8 @@
          "radius": '5y',
          "content": 'дар, наносящий нестихийный урон по цели и всем противникам с силой атаки 600 для первого и на 60% меньше для всех остальных.<br/>Стоимость: 1 Polyglot',
       },
-      // PVE Skill 24
-      "PVE Skill 24": {
+      // PVE Skill 25
+      "PVE Skill 25": {
          "name": 'Despair',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/73a81c740f02599d7ec5d451d659b1fe4409123a.png',
          "job_icon": 'BLM',
@@ -372,21 +387,6 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий урон огнем с силой атаки 340.<br/>Дополнительный эффект: накладывает эффект Astral Fire III<br/>Продолжительность: 15 сек.<br/>Возможно использовать только под действием эффекта Astral Fire.',
-      },
-      // PVE Skill 25
-      "PVE Skill 25": {
-         "name": 'Umbral Soul',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5c3311c8d38df2d4617c0a325772cdd229f3c181.png',
-         "job_icon": 'BLM',
-         "level": '76',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2.5 сек.',
-         "cost": '-',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Накладывает эффект Umbral Ice и дает 1 Umbral Heart.<br/>Эффект Umbral Heart: предотвращает увеличение стоимости MP для заклинаний Astral Fire и снижает стоимость MP у заклинания Flare на одну треть<br/>Дополнительный эффект: восстанавливает количество MP, равное количеству стаков Umbral Ice<br/>Umbral Ice I: 2,500 MP<br/>Umbral Ice II: 5,000 MP<br/>Umbral Ice III: 10,000 MP<br/>Возможно использовать только под действием эффекта Umbral Ice.',
       },
       // PVE Skill 26
       "PVE Skill 26": {
