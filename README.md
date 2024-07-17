@@ -12,7 +12,7 @@
 > * Отдельное спасибо:
 >   - Rei Eltrei
 >   - Budanochka Poly
->   - Gella Zenhat
+>   - [Gella Zenhat](https://www.twitch.tv/gella_zenhat)
 >   - Kaka Demon
 >   - Schmelvin Dotan
 
