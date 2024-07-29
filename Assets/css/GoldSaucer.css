@@ -141,7 +141,11 @@ body#gs{
    background-size: 20px 20px;
 }
 .gs_text_red {color: #a62137;}
-p + p {margin: 10px;}
+.gs_text_red--15 {
+   color: #a62137;
+   font-size: 15px;
+}
+/* p + p {margin: 10px;} */
 .gs_supplement {
    padding: 16px;
    background-color: #f2f2f2;
@@ -377,3 +381,12 @@ p + p {margin: 10px;}
    font-family: var(--font);
 }
 .gs_base_img {margin-bottom: 10px;}
+.gs_img_center {
+   margin: 0 auto;
+   display: block;
+}
+.gs_img_center--16{
+   margin: 0 auto;
+   display: block;
+   margin-bottom: 16px;
+}
