@@ -379,7 +379,7 @@
          "range": '15y',
          "radius_img": 'R4',
          "radius": '15y',
-         "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 300 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только под действием эффекта Fourfold Fan Dance.',
+         "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 420 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только под действием эффекта Fourfold Fan Dance.',
       },
       // PVE Skill 28
       "PVE Skill 28": {
@@ -595,7 +595,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png',
          "job_icon": 'DNC',
          "level": '94',
-         "content": 'Увеличивает силу атаки Cascade до 220, Fountain до 120, Reverse Cascade до 280, Fountainfall до 340, Double Standard Finish до 850, Quadruple Technical Finish до 1,300 и Saber Dance до 520.',
+         "content": 'Увеличивает силу атаки Cascade до 220, Fountain до 120, Reverse Cascade до 280, Fountainfall до 340, Double Standard Finish до 850, Quadruple Technical Finish до 1,300, Saber Dance до 520 и Fan Dance IV до 420.',
       },
       // Trait 14 NEW
       "Trait 14": {
