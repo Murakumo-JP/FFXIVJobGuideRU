@@ -1,6 +1,6 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 28/06/2024`,
+      "PVE Update": `Последнее обновление: 30/07/2024`,
       "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
@@ -196,7 +196,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 460.<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 50<br/>Максимум зарядов: 2 <br/>Имеет общее время восстановления с умением Soul Scythe.<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
+         "content": 'Удар, наносящий урон с силой атаки 520.<br/>Дополнительный эффект: восполняет шкалу Soul Gauge на 50<br/>Максимум зарядов: 2 <br/>Имеет общее время восстановления с умением Soul Scythe.<br/>На время восстановления не влияют статусные эффекты и атрибуты снаряжения.',
       },
       // PVE Skill 15
       "PVE Skill 15": {
@@ -533,7 +533,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,200 для первого противника и на 60% меньше для всех остальных.<br/>Можно использовать только под действием эффекта Perfectio Parata.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Communio меняется на Perfectio при соблюдении требований к выполнению.',
+         "content": 'Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,300 для первого противника и на 60% меньше для всех остальных.<br/>Можно использовать только под действием эффекта Perfectio Parata.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Communio меняется на Perfectio при соблюдении требований к выполнению.',
       },
       // Trait 01
       "Trait 01": {
@@ -630,7 +630,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png',
          "job_icon": 'RPR',
          "level": '94',
-         "content": "Увеличивает силу атаки Slice до 420, Waxing Slice до 260, Spinning Scythe до 160, Infernal Slice до 280, Nightmare Scythe до 140, Gibbet до 500, Gallows до 500, Unveiled Gibbet до 440, Unveiled Gallows до 440, Void Reaping до 500, Cross Reaping до 500, Harvest Moon до 700 и Lemure's Slice до 280.",
+         "content": "Увеличивает силу атаки Slice до 420, Waxing Slice до 260, Spinning Scythe до 160, Infernal Slice до 280, Nightmare Scythe до 140, Soul Slice до 520, Gibbet до 500, Gallows до 500, Unveiled Gibbet до 440, Unveiled Gallows до 440, Void Reaping до 500, Cross Reaping до 500, Harvest Moon до 700 и Lemure's Slice до 280.",
       },
       // Trait 13 NEW
       "Trait 13": {

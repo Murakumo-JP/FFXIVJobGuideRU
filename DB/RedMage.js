@@ -1,6 +1,6 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 16/07/2024`,
+      "PVE Update": `Последнее обновление: 30/07/2024`,
       "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
@@ -285,7 +285,7 @@
          "range": '25y',
          "radius_img": 'R2',
          "radius": '6y',
-         "content": 'Удар, наносящий урон с силой атаки 400 по цели и всем ближайшим противникам.',
+         "content": 'Удар, наносящий урон с силой атаки 420 по цели и всем ближайшим противникам.',
       },
       // PVE Skill 20
       "PVE Skill 20": {
@@ -316,7 +316,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Дает 3 стака Magicked Swordplay, каждый стак позволяет использовать Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois без затрат.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает наносимый магический урон на 5%<br/>Продолжительность: 30 сек.<br/>Накладывает эффект Cineration Ready при использовании 6 стаков Manafication.<br/>Продолжительность: 30 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
+         "content": 'Дает 3 стака Magicked Swordplay, каждый стак позволяет использовать Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois без затрат.<br/>Дополнительный эффект: накладывает 6 стаков эффекта Manafication<br/>Эффект Manafication: увеличивает наносимый магический урон на 5%<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Prefulgence Ready при использовании 6 стаков Manafication.<br/>Продолжительность: 30 сек.<br/>Все комбо будут сброшены после использования Manafication.<br/>Возможно использовать только в бою.',
       },
       // PVE Skill 22
       "PVE Skill 22": {
@@ -437,7 +437,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон молнией с силой атаки 420.<br/>Дополнительный эффект: восполняет запас Black Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.',
+         "content": 'Удар, наносящий урон молнией с силой атаки 440.<br/>Дополнительный эффект: восполняет запас Black Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verfire Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 30
       "PVE Skill 30": {
@@ -452,7 +452,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон ветром с силой атаки 420.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
+         "content": 'Удар, наносящий урон ветром с силой атаки 440.<br/>Дополнительный эффект: восполняет запас White Mana на 6<br/>Дополнительный эффект: 50% шанс получить эффект Verstone Ready<br/>Продолжительность: 30 сек.',
       },
       // PVE Skill 31 NEW
       "PVE Skill 31": {
@@ -647,7 +647,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 340.<br/>Стоимость: 5 Black Mana шкалы Balance Gauge<br/>Стоимость: 5 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 420.<br/>Стоимость: 5 Black Mana шкалы Balance Gauge<br/>Стоимость: 5 White Mana шкалы Balance Gauge<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // Trait 01
       "Trait 01": {
