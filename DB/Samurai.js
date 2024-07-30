@@ -1,6 +1,6 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 16/07/2024`,
+      "PVE Update": `Последнее обновление: 30/07/2024`,
       "PVP Update": `Последнее обновление: 27/06/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
@@ -317,7 +317,7 @@
          "name": 'Tsubame-gaeshi',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2aeabf974ab57ac123bc19cacfcd94c3ad86373a.png',
          "job_icon": 'SAM',
-         "level": '76',
+         "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
@@ -471,7 +471,7 @@
          "name": 'Kaeshi: Goken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4609d44fb480c238ed73e42eed5cd0b722020341.png',
          "job_icon": 'SAM',
-         "level": '76',
+         "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
@@ -485,7 +485,7 @@
          "name": 'Kaeshi: Setsugekka',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a733f5ba1130d94fdef4b1e58f7cab9188ded4b.png',
          "job_icon": 'SAM',
-         "level": '76',
+         "level": '74',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
