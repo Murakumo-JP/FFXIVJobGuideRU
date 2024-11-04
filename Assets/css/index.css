@@ -458,6 +458,7 @@ footer {
 	position: relative;
 }
 .jobguide_menu_wrapper {
+	background: #eaebe6;
 	top: 0;
 	width: 100%;
 	position: fixed;
@@ -489,7 +490,7 @@ footer {
 	z-index: 10;
 	font-size: 13px;
 	font-weight: 700;
-	background: #eaebe6;
+	text-align: center;
 }
 .jobguide_sub_menu {
 	width: 156px;
