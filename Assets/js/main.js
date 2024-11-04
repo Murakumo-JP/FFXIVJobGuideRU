@@ -15,6 +15,22 @@ $(document).ready(function () {
 	$('.jq_skill_update').append('<td colspan="9"><p>Обновлён</p></td>');
 	$('.skill_new').before('<tr class="jq_skill_new"></tr>');
 	$('.jq_skill_new').append('<td colspan="9"><p>Новый</p></td>');
+	
+	// Back to Top
+	let button = $('.nome_app_top');
+
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() >= 200) {
+            button.fadeIn();
+        } else {
+            button.fadeOut();
+        }
+    });
+
+    button.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 1000);
+    });
 });
 // Preloader
 document.body.onload = function () {
@@ -55,25 +71,6 @@ $('.js-tab-trigger').click(function () {
 	activate_tab(id);
 	window.location.hash = '#' + id;
 });
-// Back to Top
-function backToTop() {
-	let button = $('.nome_app_top');
-	
-	$(window).on('scroll', () => {
-		if ($(this).scrollTop() >= 200) {
-			button.fadeIn();
-		} else {
-			button.fadeOut();
-		}
-	});
-
-	button.on('click', (e) => {
-		e.preventDefault();
-		$('html').animate({ scrollTop: 0 }, 1000);
-	});
-}
-
-backToTop();
 
 // Debag href link
 // document.addEventListener("DOMContentLoaded", function() {
