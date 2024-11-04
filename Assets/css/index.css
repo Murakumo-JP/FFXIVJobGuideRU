@@ -481,6 +481,7 @@ footer {
 	z-index: 5;
 }
 .jobguide_menu_list > li > span {
+	background: #eaebe6;
 	display: block;
 	width: 160px;
 	line-height: 48px;

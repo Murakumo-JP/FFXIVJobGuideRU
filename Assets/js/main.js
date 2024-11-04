@@ -1,6 +1,5 @@
 // Doom Load
 $(document).ready(function () {
-	$('#jq_menu_cg').load('Other/MenuCG.html');
 	// Open JobMenu
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').fadeToggle();
@@ -19,18 +18,18 @@ $(document).ready(function () {
 	// Back to Top
 	let button = $('.nome_app_top');
 
-    $(window).on('scroll', function() {
-        if ($(this).scrollTop() >= 200) {
-            button.fadeIn();
-        } else {
-            button.fadeOut();
-        }
-    });
+	$(window).on('scroll', function () {
+		if ($(this).scrollTop() >= 200) {
+			button.fadeIn();
+		} else {
+			button.fadeOut();
+		}
+	});
 
-    button.on('click', function(e) {
-        e.preventDefault();
-        $('html, body').animate({ scrollTop: 0 }, 1000);
-    });
+	button.on('click', function (e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: 0 }, 1000);
+	});
 });
 // Preloader
 document.body.onload = function () {
@@ -85,15 +84,27 @@ $('.js-tab-trigger').click(function () {
 // });
 
 // Menu JobGuide
-
 $(document).ready(function() {
-	$.getJSON('../DB/menuData.json', function(menuData) {
+	const $menuContainer = $('[data-menu-type]');
+	const menuType = $menuContainer.data('menu-type');
+
+	let menuPath;
+	if (menuType === 'MenuDoWDoM') {
+		 menuPath = '../DB/MenuDoWDoM.json';
+	} else if (menuType === 'MenuDoHDoL') {
+		 menuPath = '../DB/MenuDoHDoL.json';
+	} else {
+		 console.error('Failed to load json');
+		 return;
+	}
+
+	$.getJSON(menuPath, function(menuData) {
 		 const $menuList = $('<ul class="jobguide_menu_list"></ul>');
 
 		 menuData.forEach(function(category) {
 			  const $category = $('<li class="jobguide_menu_list"></li>');
 			  $category.append(`<span class="job_name_menu">${category.name}</span>`);
-			  
+
 			  const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
 			  category.jobs.forEach(function(job) {
 					const $job = $('<li></li>');
@@ -106,8 +117,8 @@ $(document).ready(function() {
 			  $category.append($subMenu);
 			  $menuList.append($category);
 		 });
-		 $('#jq_menu').append($menuList);
+		 $menuContainer.append($menuList);
 	}).fail(function() {
-		 console.error('Ошибка при загрузке данных меню');
+		 console.error('Данные пропили Муглы, все вопросы к ним.');
 	});
 });
