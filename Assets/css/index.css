@@ -529,7 +529,7 @@ li.jobguide_menu_list > ul.jobguide_sub_menu {
 li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	opacity: 1;
 	visibility: visible;
-	top: 48px;
+	top: 40px;
 }
 /* Tank */
 .job_tank .jobguide_menu_list > li > span,
@@ -571,7 +571,8 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_gathering .jobguide_sub_menu li a p {
 	color: var(--gathering-AltColor);
 }
-.job_name_menu:hover {
+.job_name_menu:hover,
+.jobguide_sub_menu li:hover {
 	background: #e5e3d3;
 }
 /* BLU */
