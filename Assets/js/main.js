@@ -6,15 +6,13 @@ $(document).ready(function () {
 	});
 	// Info Update
 	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: ??.??.2024 | Патч: 7.1</p>');
-	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br />Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/da01b0d2d5434cd2ccfcc87f733df7a590f97c00/">патчноутам</a>.');
+	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/da01b0d2d5434cd2ccfcc87f733df7a590f97c00/">патчноутам</a>.');
 	//$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновлены все старые классы кроме двух новых.</p></div>');
 	$('.SE').append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>')
 	// Skill Update and New
-	$('.skill_update').before('<tr class="jq_skill_update"></tr>');
-	$('.jq_skill_update').append('<td colspan="9"><p>Обновлён</p></td>');
-	$('.skill_new').before('<tr class="jq_skill_new"></tr>');
-	$('.jq_skill_new').append('<td colspan="9"><p>Новый</p></td>');
-	
+	$('<tr class="jq_skill_update"><td colspan="9"><p>Обновлён</p></td></tr>').insertBefore('.skill_update');
+	$('<tr class="jq_skill_new"><td colspan="9"><p>Новый</p></td></tr>').insertBefore('.skill_new');
+
 	// Back to Top
 	let button = $('.nome_app_top');
 
