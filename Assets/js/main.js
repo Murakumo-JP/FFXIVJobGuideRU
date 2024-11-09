@@ -120,49 +120,45 @@ $(document).ready(function() {
 // Сортировка тест
 
 $(document).ready(function() {
-	var isSortedByClass = false;
-	var isSortedByDbSkill = false;
+	let isSortedByClass = false;
+	let isSortedByDbSkill = false;
+
+	const $tbody = $('tbody[data-sort="true"]');
+	if ($tbody.length === 0) return;
+
+	const $rows = $tbody.children('tr');
+
+	function sortRowsByClass() {
+		$rows.sort((a, b) => {
+			const aIsSpecial = $(a).hasClass('skill_update');
+			const bIsSpecial = $(b).hasClass('skill_update');
+			return (aIsSpecial === bIsSpecial) ? 0 : aIsSpecial ? -1 : 1;
+		});
+		$tbody.empty().append($rows);
+		isSortedByClass = true;
+		isSortedByDbSkill = false;
+	}
+
+	function sortRowsByDbSkill() {
+		$rows.sort((a, b) => {
+			const aSkill = $(a).attr('db-skill') || '';
+			const bSkill = $(b).attr('db-skill') || '';
+			return aSkill.localeCompare(bSkill);
+		});
+		$tbody.empty().append($rows);
+		isSortedByDbSkill = true;
+		isSortedByClass = false;
+	}
 
 	function toggleSortRows() {
-		 const $tbody = $('tbody[data-sort="true"]');
-		 
-		 if ($tbody.length === 0) return;
-
-		 const $rows = $tbody.children('tr');
-
-		 if (!isSortedByClass) {
-			  const $sortedRowsByClass = $rows.sort(function(a, b) {
-					const aIsSpecial = $(a).hasClass('skill_update');
-					const bIsSpecial = $(b).hasClass('skill_update');
-					if (aIsSpecial && !bIsSpecial) return -1;
-					if (!aIsSpecial && bIsSpecial) return 1;
-					return 0;
-			  });
-
-			  $tbody.empty();
-			  $tbody.append($sortedRowsByClass);
-
-			  isSortedByClass = true;
-			  isSortedByDbSkill = false;
-		 } else if (!isSortedByDbSkill) {
-			  const $sortedRowsByDbSkill = $rows.sort(function(a, b) {
-					const aSkill = $(a).attr('db-skill');
-					const bSkill = $(b).attr('db-skill');
-					if (aSkill === undefined) return 1;
-					if (bSkill === undefined) return -1;
-					return aSkill.localeCompare(bSkill);
-			  });
-
-			  $tbody.empty();
-			  $tbody.append($sortedRowsByDbSkill);
-
-			  isSortedByDbSkill = true;
-			  isSortedByClass = false;
-		 }
+		if (!isSortedByClass) {
+			sortRowsByClass();
+		} else if (!isSortedByDbSkill) {
+			sortRowsByDbSkill();
+		}
 	}
-	$('#sortButton').on('click', function() {
-		 toggleSortRows();
-	});
+
+	$('#sortButton').on('click', toggleSortRows);
 });
 
 // Обводка для обновлёных скилов 
@@ -175,3 +171,4 @@ $(document).ready(function() {
 		 }
 	});
 });
+ 
