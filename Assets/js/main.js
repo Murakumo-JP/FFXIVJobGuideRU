@@ -120,53 +120,72 @@ $(document).ready(function() {
 // Сортировка тест
 
 $(document).ready(function() {
-	let isSortedByClass = false;
-	let isSortedByDbSkill = false;
+	let isSortedUpdate = false;
+	let isSortedDefault = false;
 
 	const $tbody = $('tbody[data-sort="true"]');
 	if ($tbody.length === 0) return;
 
 	const $rows = $tbody.children('tr');
+	const $sortIcon = $('#sortIcon');
+	const $sortText = $('#sortText');
 
-	function sortRowsByClass() {
-		$rows.sort((a, b) => {
-			const aIsSpecial = $(a).hasClass('skill_update');
-			const bIsSpecial = $(b).hasClass('skill_update');
-			return (aIsSpecial === bIsSpecial) ? 0 : aIsSpecial ? -1 : 1;
-		});
-		$tbody.empty().append($rows);
-		isSortedByClass = true;
-		isSortedByDbSkill = false;
+	function updateSortIconAndText() {
+		 if (isSortedUpdate) {
+			  $sortIcon.attr('src', '../Assets/img/svg/sort-descending.svg');
+			  $sortText.text('Обновлёные умения');
+		 } else if (isSortedDefault) {
+			  $sortIcon.attr('src', '../Assets/img/svg/sort-ascending.svg');
+			  $sortText.text('Список по уполчанию');
+		 }
 	}
 
-	function sortRowsByDbSkill() {
-		$rows.sort((a, b) => {
-			const aSkill = $(a).attr('db-skill') || '';
-			const bSkill = $(b).attr('db-skill') || '';
-			return aSkill.localeCompare(bSkill);
-		});
-		$tbody.empty().append($rows);
-		isSortedByDbSkill = true;
-		isSortedByClass = false;
+	function sortRowsUpdate() {
+		 $rows.sort((a, b) => {
+			  const aIsSpecial = $(a).hasClass('skill_update');
+			  const bIsSpecial = $(b).hasClass('skill_update');
+			  return (aIsSpecial === bIsSpecial) ? 0 : aIsSpecial ? -1 : 1;
+		 });
+		 $tbody.empty().append($rows);
+		 isSortedUpdate = true;
+		 isSortedDefault = false;
+		 updateSortIconAndText();
+	}
+
+	function sortRowsDefault() {
+		 $rows.sort((a, b) => {
+			  const aSkill = $(a).attr('db-skill') || '';
+			  const bSkill = $(b).attr('db-skill') || '';
+			  return aSkill.localeCompare(bSkill);
+		 });
+		 $tbody.empty().append($rows);
+		 isSortedDefault = true;
+		 isSortedUpdate = false;
+		 updateSortIconAndText();
 	}
 
 	function toggleSortRows() {
-		if (!isSortedByClass) {
-			sortRowsByClass();
-		} else if (!isSortedByDbSkill) {
-			sortRowsByDbSkill();
-		}
+		 if (!isSortedUpdate) {
+			  sortRowsUpdate();
+		 } else if (!isSortedDefault) {
+			  sortRowsDefault();
+		 } else {
+			  isSortedUpdate = false;
+			  isSortedDefault = false;
+			  updateSortIconAndText();
+		 }
 	}
 
 	$('#sortButton').on('click', toggleSortRows);
 });
+
 
 // Обводка для обновлёных скилов 
 $(document).ready(function() {
 	$('tr.skill_update').each(function() {
 		 if (!$(this).find('.overlay').length) {
 			  $(this).css('position', 'relative');
-			  var overlay = $('<div class="overlay"><div><img src="../Assets/img/main/bluli2.png"><p>Обновлён</p><div></div>');
+			  var overlay = $('<div class="overlay"><div><img src="../Assets/img/main/bluli2.png"><p>Обновлён</p></div></div>');
 			  $(this).append(overlay);
 		 }
 	});

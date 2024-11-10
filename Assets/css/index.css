@@ -752,3 +752,24 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 		margin: 0 10px 0 0;
   	}
 }
+
+/* Sort btn */
+
+#sortButton {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	background: var(--tank-AltColor);
+	width: max-content;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0 0 5px 15px;
+}
+#sortIcon {
+	width: 20px;
+	padding-right: 10px;
+}
+#sortText {
+	padding-right: 5px;
+}
