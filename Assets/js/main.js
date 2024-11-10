@@ -124,11 +124,17 @@ $(document).ready(function() {
 	let isSortedDefault = false;
 
 	const $tbody = $('tbody[data-sort="true"]');
-	if ($tbody.length === 0) return;
-
+	const $sortButton = $('#sortButton');
 	const $rows = $tbody.children('tr');
 	const $sortIcon = $('#sortIcon');
 	const $sortText = $('#sortText');
+
+	if ($tbody.length === 0) {
+		 $sortButton.hide();
+		 return;
+	} else {
+		 $sortButton.show();
+	}
 
 	function updateSortIconAndText() {
 		 if (isSortedUpdate) {
@@ -136,7 +142,7 @@ $(document).ready(function() {
 			  $sortText.text('Обновлёные умения');
 		 } else if (isSortedDefault) {
 			  $sortIcon.attr('src', '../Assets/img/svg/sort-ascending.svg');
-			  $sortText.text('Список по уполчанию');
+			  $sortText.text('Список по умолчанию');
 		 }
 	}
 
@@ -176,8 +182,9 @@ $(document).ready(function() {
 		 }
 	}
 
-	$('#sortButton').on('click', toggleSortRows);
+	$sortButton.on('click', toggleSortRows);
 });
+
 
 
 // Обводка для обновлёных скилов 
