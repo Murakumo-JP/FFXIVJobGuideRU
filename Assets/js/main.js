@@ -1,14 +1,17 @@
 // Doom Load
 $(document).ready(function () {
+	// Info Update
+	function addUpdateInfo(date, patchVersion, patchLink) {
+		$('#inner_update').prepend('<p class="latest_update">Последнее обновление: ' + date + ' | Патч: ' + patchVersion + '</p>');
+		$('#patch_info').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="' + patchLink + '">патчноутам</a>.');
+  	}
+  	addUpdateInfo('12.11.2024', '7.1', 'https://eu.finalfantasyxiv.com/lodestone/topics/detail/da01b0d2d5434cd2ccfcc87f733df7a590f97c00/');
+	//$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновлены все старые классы кроме двух новых.</p></div>');
+	$('.SE').append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>')
 	// Open JobMenu
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').fadeToggle();
 	});
-	// Info Update
-	$('#inner_update').prepend('<p class="latest_update">Последнее обновление: ??.??.2024 | Патч: 7.1</p>');
-	$('#jq_patch').prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="https://eu.finalfantasyxiv.com/lodestone/topics/detail/da01b0d2d5434cd2ccfcc87f733df7a590f97c00/">патчноутам</a>.');
-	//$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновлены все старые классы кроме двух новых.</p></div>');
-	$('.SE').append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>')
 	// Back to Top
 	let button = $('.nome_app_top');
 
@@ -117,8 +120,7 @@ $(document).ready(function() {
 	});
 });
 
-// Сортировка тест
-
+// Sort Skill
 $(document).ready(function() {
 	const $tbody = $('tbody[data-sort="true"]');
 	const $sortButton = $('#sortButton');
@@ -163,9 +165,7 @@ $(document).ready(function() {
 	sortRows();
 });
 
-
-
-// Обводка для обновлёных скилов 
+// Update Skill Overlay
 $(document).ready(function() {
 	$('tr.skill_update').each(function() {
 		 if (!$(this).find('.overlay').length) {
@@ -175,4 +175,3 @@ $(document).ready(function() {
 		 }
 	});
 });
- 
