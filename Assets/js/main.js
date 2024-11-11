@@ -120,69 +120,47 @@ $(document).ready(function() {
 // Сортировка тест
 
 $(document).ready(function() {
-	let isSortedUpdate = false;
-	let isSortedDefault = false;
-
 	const $tbody = $('tbody[data-sort="true"]');
 	const $sortButton = $('#sortButton');
 	const $rows = $tbody.children('tr');
 	const $sortIcon = $('#sortIcon');
 	const $sortText = $('#sortText');
 
-	if ($tbody.length === 0) {
-		 $sortButton.hide();
-		 return;
-	} else {
-		 $sortButton.show();
-	}
+	let sortState = 1;
+
+	if (!$tbody.length) return $sortButton.hide();
+	$sortButton.show();
 
 	function updateSortIconAndText() {
-		 if (isSortedUpdate) {
-			  $sortIcon.attr('src', '../Assets/img/svg/sort-descending.svg');
-			  $sortText.text('Обновлёные умения');
-		 } else if (isSortedDefault) {
-			  $sortIcon.attr('src', '../Assets/img/svg/sort-ascending.svg');
-			  $sortText.text('Список по умолчанию');
-		 }
+		const state = sortState === 0
+			? { icon: 'sort-descending.svg', text: 'Обновлённые умения' }
+			: { icon: 'sort-ascending.svg', text: 'Список по умолчанию' };
+			
+		$sortIcon.attr('src', `../Assets/img/svg/${state.icon}`);
+		$sortText.text(state.text);
 	}
 
-	function sortRowsUpdate() {
-		 $rows.sort((a, b) => {
-			  const aIsSpecial = $(a).hasClass('skill_update');
-			  const bIsSpecial = $(b).hasClass('skill_update');
-			  return (aIsSpecial === bIsSpecial) ? 0 : aIsSpecial ? -1 : 1;
-		 });
-		 $tbody.empty().append($rows);
-		 isSortedUpdate = true;
-		 isSortedDefault = false;
-		 updateSortIconAndText();
+	function getSkillAttribute($element) {
+		return $element.attr('db-skill') || '';
 	}
 
-	function sortRowsDefault() {
-		 $rows.sort((a, b) => {
-			  const aSkill = $(a).attr('db-skill') || '';
-			  const bSkill = $(b).attr('db-skill') || '';
-			  return aSkill.localeCompare(bSkill);
-		 });
-		 $tbody.empty().append($rows);
-		 isSortedDefault = true;
-		 isSortedUpdate = false;
-		 updateSortIconAndText();
+	function sortRows() {
+		$rows.sort((a, b) => {
+			if (sortState === 0) {
+				return $(b).hasClass('skill_update') - $(a).hasClass('skill_update');
+			} else {
+				return getSkillAttribute($(a)).localeCompare(getSkillAttribute($(b)));
+			}
+		});
+		$tbody.empty().append($rows);
+		updateSortIconAndText();
 	}
 
-	function toggleSortRows() {
-		 if (!isSortedUpdate) {
-			  sortRowsUpdate();
-		 } else if (!isSortedDefault) {
-			  sortRowsDefault();
-		 } else {
-			  isSortedUpdate = false;
-			  isSortedDefault = false;
-			  updateSortIconAndText();
-		 }
-	}
-
-	$sortButton.on('click', toggleSortRows);
+	$sortButton.on('click', function() {
+		sortState = 1 - sortState;
+		sortRows();
+	});
+	sortRows();
 });
 
 
