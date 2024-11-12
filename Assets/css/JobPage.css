@@ -358,31 +358,32 @@ img {
 tr.skill_update td {
 	background: #f0e4c5;
 }
-.overlay {
+.overlay_update, .overlay_new {
 	width: 910px;
 	position: absolute;
-	border: 1px solid #e7810e;
-	box-shadow: 0 0 5px 0 #e7810e;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1;
 }
-.overlay p {
+.overlay_update{
+	border: 1px solid #e7810e;
+	box-shadow: 0 0 5px 0 #e7810e;
+}
+.overlay_update p {
 	font-weight: bold;
 	color: #e7810e;
 	padding: 10px;
 }
-.overlay div {
+.overlay_update div {
 	display: flex;
 	align-items: center;
-	padding: 0 0 0 5px;
 }
-.overlay div img {
+.overlay_update div img {
 	width: 25px;
 }
-.overlay p {
+.overlay_update p {
 	font-weight: bold;
 	color: #e7810e;
 	padding: 0 0 0 5px;

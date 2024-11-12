@@ -359,6 +359,21 @@
       },
       // PVE Skill 24
       "PVE Skill 24": {
+         "name": 'Intervene',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c841f5c954aa4e31bd1d82ffd00f863eb944a386.png',
+         "job_icon": 'PLD',
+         "level": '66',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '30 сек.',
+         "cost": '-',
+         "range": '20y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Рывок к цели, наносящий урон с силой атаки 150.<br>Максимум зарядов: 2<br>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
+      },
+      // PVE Skill 25
+      "PVE Skill 25": {
          "name": 'Requiescat',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png',
          "job_icon": 'PLD',
@@ -372,8 +387,8 @@
          "radius": "0y",
          "content": 'Удар, наносящий нестихийный урон с силой атаки 320.<br>Дополнительный эффект: накладывает 4 стака эффекта Requiescat<br>Эффект Requiescat: увеличивает силу Holy Spirit, Holy Circle и всех умений комбо Confiteor, а также делает все заклинания мгновенными<br>Дополнительный эффект: накладывает эффект Confiteor Ready. Эффект пропадает после использования<br>Продолжительность: 30 сек.',
       },
-      // PVE Skill 25
-      "PVE Skill 25": {
+      // PVE Skill 26
+      "PVE Skill 26": {
          "name": 'Passage of Arms',
          "eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9193a6f1c9c/",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b570dfda793945b3bb8fddef02b1a865b8a04b32.png',
@@ -388,8 +403,8 @@
          "radius": "8y",
          "content": 'Увеличивает шанс блока до 100% и создает область в форме конуса позади персонажа, снижающую нанесенный вашим сопартийцам урон до 85%. Эффект активен только если сопартийцы находятся в области действия умения.<br>Продолжительность: 18 сек.<br>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br>Прерывает авто атаки при использовании умения.',
       },
-      // PVE Skill 26
-      "PVE Skill 26": {
+      // PVE Skill 27
+      "PVE Skill 27": {
          "name": 'Holy Circle',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/afd455f208e2720a10a1b26e9a231fefac4d5be7.png',
          "job_icon": 'PLD',
@@ -402,21 +417,6 @@
          "radius_img": 'R2',
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 100 по всем окружающим противникам.<br>Сила атаки под эффектом Divine Might: 200<br>Сила атаки под эффектом Requiescat: 300<br>Эффект Divine Might будет иметь приоритет над эффектом Requiescat, при нахождении под действием обоих<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400',
-      },
-      // PVE Skill 27
-      "PVE Skill 27": {
-         "name": 'Intervene',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c841f5c954aa4e31bd1d82ffd00f863eb944a386.png',
-         "job_icon": 'PLD',
-         "level": '74',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '30 сек.',
-         "cost": '-',
-         "range": '20y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Рывок к цели, наносящий урон с силой атаки 150.<br>Максимум зарядов: 2<br>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
       // PVE Skill 28
       "PVE Skill 28": {
@@ -797,32 +797,44 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Комбо умение: Riot Blade<br/>Дополнительный эффект: дает стак пассивного умения Sword Oath, вплоть до 3<br/>Продолжительность: 10 сек.<br/><br/>※Combo Royal Authority меняется на Atonement под действием эффекта Sword Oath.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 04
+      // PVP Skill 04 NEW
       "PVP Skill 04": {
-         "name": 'Confiteor',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/89abaf2266f70e33e486e6cf5ff338ade9719786.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
+         "name": 'Shield Smite',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e09ab38fcf5dc0de0f799d6b4a2e48ed03c8e06a.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": '',
+      },
+      // PVP Skill 05 NEW
+      "PVP Skill 05": {
+         "name": 'Holy Spirit',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/031d5af9d608c48450c5ddf3cd500b56866f2ab8.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '12 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 06 NEW
+      "PVP Skill 06": {
+         "name": 'Imperator',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/96686a4a337625121fb463b4cf65f93f01955546.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '20 сек.',
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем противника рядом с ней.<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim<br/>Sacred Claim эффект: восстановление HP при успешной атаке по целям, находящимся под этим эффектом<br/>Сила лечения: 3,000<br/>Продолжительность: 10 сек.<br/>Это умение не имеет общего время восстановления с другими умениями.',
+         "content": '',
       },
-      // PVP Skill 05
-      "PVP Skill 05": {
-         "name": 'Shield Bash',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba245ce78b36cd3064eb986634a224aff58cf31b.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: оглушение (stun).<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: дает стак пассивного умения Sword Oath, вплоть до 3<br/>Продолжительность: 10 сек.<br/><br/>※Combo Royal Authority меняется на Atonement, пока находится под действием эффекта Sword Oath.',
-      },
-      // PVP Skill 06
-      "PVP Skill 06": {
+      // PVP Skill 07
+      "PVP Skill 07": {
          "name": 'Intervene',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dc0a7f454aeb6fa8cf680d223f5b97ba6c768955.png',
          "classification": 'Способность',
@@ -832,18 +844,6 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Рывок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: дает стак пассивного умения Sword Oath, вплоть до 3<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Combo Royal Authority меняется на Atonement, пока находится под действием эффекта Sword Oath.',
-      },
-      // PVP Skill 07
-      "PVP Skill 07": {
-         "name": 'Guardian',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '25 сек.',
-         "range": '20y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Рывок в сторону выбранного сопартийца.<br/>Дополнительный эффект: принимает на себя весь урон, предназначенный сопартийцу<br/>Продолжительность: 10 сек.<br/>Может быть использовано только тогда, когда сопартиец находится на расстоянии менее 10 ялмов.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Невозможно использовать на цели, взаимодействующие с объектами.',
       },
       // PVP Skill 08
       "PVP Skill 08": {
@@ -859,6 +859,18 @@
       },
       // PVP Skill 09
       "PVP Skill 09": {
+         "name": 'Guardian',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '25 сек.',
+         "range": '20y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Рывок в сторону выбранного сопартийца.<br/>Дополнительный эффект: принимает на себя весь урон, предназначенный сопартийцу<br/>Продолжительность: 10 сек.<br/>Может быть использовано только тогда, когда сопартиец находится на расстоянии менее 10 ялмов.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Невозможно использовать на цели, взаимодействующие с объектами.',
+      },
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Atonement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/35a45eefc453b71019fda6740cfc01c51f3d3a03.png',
          "classification": 'Боевой навык',
@@ -869,8 +881,44 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: восстановление HP<br/>Сила лечения: 4,000<br/>Может быть использовано только под действием эффекта пассивного умения Sword Oath.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 10
-      "PVP Skill 10": {
+      // PVP Skill 11 NEW
+      "PVP Skill 11": {
+         "name": 'Supplication',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0c9ad99255dfafe8b61add77dd8989fbac4cf228.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 12 NEW
+      "PVP Skill 12": {
+         "name": 'Sepulchre',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3e574dfaed064f63b4dc7eebe9bb90f2449d09e6.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 13 NEW
+      "PVP Skill 13": {
+         "name": 'Confiteor',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/89abaf2266f70e33e486e6cf5ff338ade9719786.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем противника рядом с ней.<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim<br/>Sacred Claim эффект: восстановление HP при успешной атаке по целям, находящимся под этим эффектом<br/>Сила лечения: 3,000<br/>Продолжительность: 10 сек.<br/>Это умение не имеет общего время восстановления с другими умениями.',
+      },
+      // PVP Skill 14
+      "PVP Skill 14": {
          "name": 'Blade of Faith',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f944d27fc3705822d461cd9e46ae2c288c80ee8.png',
          "classification": 'Заклинание',
@@ -881,8 +929,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 7,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: сила атаки увеличивается на 50%, когда цель находится под действием эффекта Sacred Claim<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim<br/>Эффект Sacred Claim: восстанавливает HP при успешной атаке по целям, находящихся под этим эффектом<br/>Сила лечения: 3,000<br/>Продолжительность: 10 сек.<br/>Возможно использовать только под действием умения Blade of Faith Ready.<br/><br/>※Умения меняется на Blade of Truth после использования.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 11
-      "PVP Skill 11": {
+      // PVP Skill 15
+      "PVP Skill 15": {
          "name": 'Blade of Truth',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0f4597a0f6f40a77de83b1ce656d81345a5613ef.png',
          "classification": 'Заклинание',
@@ -893,8 +941,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 8,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: сила атаки увеличивается на 50%, когда цель находится под действием эффекта Sacred Claim<br/>Комбо умение: Blade of Faith<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim<br/>Эффект Sacred Claim: восстанавливает HP при успешной атаке по целям, находящихся под этим эффектом<br/>Сила лечения: 3,000<br/>Продолжительность: 10 сек.<br/><br/>※Умения меняется на Blade of Valor после использования.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 12
-      "PVP Skill 12": {
+      // PVP Skill 16
+      "PVP Skill 16": {
          "name": 'Blade of Valor',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/115a30be11fa866d366d36b07d8542a0efd667bb.png',
          "classification": 'Заклинание',
@@ -905,8 +953,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 9,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: сила атаки увеличивается на 50%, когда цель находится под действием эффекта Sacred Claim<br/>Комбо умение: Blade of Truth<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim<br/>Эффект Sacred Claim: восстанавливает HP при успешной атаке по целям, находящихся под этим эффектом<br/>Сила лечения: 3,000.<br/>Продолжительность: 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 13
-      "PVP Skill 13": {
+      // PVP Skill 17
+      "PVP Skill LB": {
          "name": 'Phalanx',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png',
          "cast": 'Мгновенная',
