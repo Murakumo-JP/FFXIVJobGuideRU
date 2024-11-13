@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 16/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Heavy Swing',
@@ -741,6 +741,30 @@
       },
       // PVP Skill 10
       "PVP Skill 10": {
+         "name": 'Primal Ruination',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4d4abb06f2715fa93c22a98d758d0200855453d.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 11
+      "PVP Skill 11": {
+         "name": 'Inner Chaos',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a772bf3f04c0254fc16bf731c6a4fd8565d5930e.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.5 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 12
+      "PVP Skill 12": {
          "name": 'Chaotic Cyclone',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9eece9bd72707dba5fc6c4deae34d27f47b3312a.png',
          "classification": 'Боевой навык',
@@ -751,8 +775,20 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 8, 000 по всем окружающим противникам.<br/>Сила атаки Inner Release: 16,000<br/>Может быть использовано только под действием эффекта Nascent Chaos.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 11
-      "PVP Skill 11": {
+      // PVP Skill 13
+      "PVP Skill 13": {
+         "name": 'Primal Wrath',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/577d5e3f01d779e07ede598103613549606a64ef.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '10y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Primal Scream',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6bcfcb1fa456db189719af5c6e06d82f24c40191.png',
          "cast": 'Мгновенная',

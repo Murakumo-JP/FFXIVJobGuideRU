@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Hard Slash',
@@ -312,6 +312,21 @@
       },
       // PVE Skill 21
       "PVE Skill 21": {
+         "name": 'Dark Missionary',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png',
+         "job_icon": 'DRK',
+         "level": '66',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '90 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '30y',
+         "content": 'Снижает получаемый персонажем и сопартийцами магический урон в радиусе действия на 10%.<br/>Продолжительность: 15 сек.',
+      },
+      // PVE Skill 22
+      "PVE Skill 22": {
          "name": 'Delirium',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png',
          "job_icon": 'DRK',
@@ -325,8 +340,8 @@
          "radius": '0y',
          "content": 'Накладывает 3 стака Blood Weapon и Delirium.<br/>Эффект Delirium: каждый стак позволяет использовать Scarlet Delirium или Impalement, восстанавливая MP при использовании любого боевого навыка.<br/>Продолжительность: 15 сек.<br/>Эффект Blood Weapon: каждый стак восполняет ресурс шкалы Blood Gauge на 10 и восстанавливает MP при каждом успешном использовании боевого навыка или заклинания.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется при нанесении урона нескольким целям одной атакой.',
       },
-      // PVE Skill 22
-      "PVE Skill 22": {
+      // PVE Skill 23
+      "PVE Skill 23": {
          "name": 'The Blackest Night',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3ff39484d1/"',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f82c8fbcd6549c8cd72108a937aade172f8b98a8.png',
@@ -341,8 +356,8 @@
          "radius": '0y',
          "content": 'Создает барьер вокруг персонажа или выбранного сопартийца, поглощающий входящий урон в размере 25% от максимального запаса HP.<br/>Продолжительность: 7 сек.<br/>Накладывает эффект Dark Arts, когда барьер поглотит максимум урона.<br/>Эффект Dark Arts: расходует эффект Dark Arts вместо MP, чтобы использовать Edge of Shadow or Flood of Shadow',
       },
-      // PVE Skill 23
-      "PVE Skill 23": {
+      // PVE Skill 24
+      "PVE Skill 24": {
          "name": 'Flood of Shadow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/de4960def285cc69e33455acae0f50808a6cd623.png',
          "job_icon": 'DRK',
@@ -356,8 +371,8 @@
          "radius": '10y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 160 по всем противникам по линии перед персонажем.<br/>Дополнительный эффект: активирует умение Darkside повышая наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность умения Darkside на 30 сек, вплоть до 60 сек.<br/>Имеет общее время восстановления с умением Edge of Shadow.',
       },
-      // PVE Skill 24
-      "PVE Skill 24": {
+      // PVE Skill 25
+      "PVE Skill 25": {
          "name": 'Edge of Shadow',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e4536e75673663bf1b91d1a78a565dabc2f041f6.png',
          "job_icon": 'DRK',
@@ -370,21 +385,6 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 460.<br/>Дополнительный эффект: активирует умение Darkside повышая наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность Darkside на 30 сек, вплоть до 60 сек.<br/>Имеет общее время восстановления с умением Flood of Shadow.',
-      },
-      // PVE Skill 25
-      "PVE Skill 25": {
-         "name": 'Dark Missionary',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png',
-         "job_icon": 'DRK',
-         "level": '76',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '90 сек.',
-         "cost": '-',
-         "range": '0y',
-         "radius_img": 'R2',
-         "radius": '30y',
-         "content": 'Снижает получаемый персонажем и сопартийцами магический урон в радиусе действия на 10%.<br/>Продолжительность: 15 сек.',
       },
       // PVE Skill 26
       "PVE Skill 26": {
@@ -679,15 +679,15 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
-         "name": 'Quietus',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d385ab8d3ac75ec39175ded7290d39631d2b1355.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "name": 'Impalement',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/270e904cd1e39b3eba028a60820f033a3804eeb0.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '16 сек.',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 8,000 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP в размере 100% от поглощенного урона<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.',
+         "content": '',
       },
       // PVP Skill 05
       "PVP Skill 05": {
@@ -739,18 +739,42 @@
       },
       // PVP Skill 09
       "PVP Skill 09": {
-         "name": 'Bloodspiller',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fd2ac5dfc2a0ca3fd267a8b64ea360fcbe89a264.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
+         "name": 'Scarlet Delirium',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2f372c47ae3a92ee1d28661065743661c5fa425.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
          "recast": '2.4 сек.',
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 6,000.<br/>Сила атаки увеличивается до 12 000 пропорционально уменьшению HP персонажа и достигает максимального значения, когда HP опускается ниже 25%.<br/>Можно использовать только под действием эффекта Blackblood.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": '',
       },
       // PVP Skill 10
       "PVP Skill 10": {
+         "name": 'Comeuppance',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65a3f91205b57d261d3b34b83e419716a77b09b0.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 11
+      "PVP Skill 11": {
+         "name": 'Torcleaver',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/750267df5336356bee1fb6ed174265e6bc3c2496.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 12
+      "PVP Skill 12": {
          "name": 'Salt and Darkness',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5aa3108720c2431e655adb077eb533b60ce21312.png',
          "classification": 'Способность',
@@ -761,8 +785,20 @@
          "radius": '0y',
          "content": 'Все противники, находящиеся в области Salted Earth, получают дополнительный нестихийный урон с силой атаки 4,000.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 2 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 11
-      "PVP Skill 11": {
+      // PVP Skill 13
+      "PVP Skill 13": {
+         "name": 'Disesteem',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5120d2e81e82757f9f84cd9bca7d3983bc7a63b7.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '10y',
+         "radius_img": 'R6',
+         "radius": '10y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Eventide',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f52efe634939c12aaf8d17525fd4a52a54002f9.png',
          "cast": 'Мгновенная',

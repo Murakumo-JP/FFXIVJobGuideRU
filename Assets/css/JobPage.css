@@ -355,11 +355,17 @@ img {
 	display: block;
 }
 /* Update and New */
-tr.skill_update td {
-	background: #f0e4c5;
+.skill_update td {background: #f0e4c5;}
+.skill_new td {background: #f0dddd;}
+.skill_update{
+	border: 1px solid #e7810e;
+   box-shadow: 0 0 5px 0 #e7810e;
 }
-.overlay_update, .overlay_new {
-	width: 910px;
+.skill_new {
+	border: 1px solid #e75858;
+	box-shadow: 0 0 5px 0 #e75858;
+}
+/* .overlay_update, .overlay_new {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -387,7 +393,7 @@ tr.skill_update td {
 	font-weight: bold;
 	color: #e7810e;
 	padding: 0 0 0 5px;
-}
+} */
 /*FIX COMBO*/
 .job_combo_dancer_02_percent .job_combo_root_skill {
 	bottom: 40px;

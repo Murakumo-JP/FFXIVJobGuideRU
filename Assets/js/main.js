@@ -167,20 +167,20 @@ $(document).ready(function() {
 
 // Update Skill Overlay
 // <div><img src="../Assets/img/main/bluli2.png"><p>Обновлён</p></div>
-$(document).ready(function() {
-	$('.skill_update').each(function() {
-		if (!$(this).find('.overlay_update').length) { // Проверка overlay_update для skill_update
-			$(this).css('position', 'relative');
-			var overlayUpdate = $('<div class="overlay_update"></div>');
-			$(this).append(overlayUpdate);
-		}
-	});
+// $(document).ready(function() {
+// 	$('.skill_update').each(function() {
+// 		if (!$(this).find('.overlay_update').length) { // Проверка overlay_update для skill_update
+// 			$(this).css('position', 'relative');
+// 			var overlayUpdate = $('<div class="overlay_update"></div>');
+// 			$(this).append(overlayUpdate);
+// 		}
+// 	});
 
-	$('.skill_new').each(function() {
-		if (!$(this).find('.overlay_new').length) { // Проверка overlay_new для skill_new
-			$(this).css('position', 'relative');
-			var overlayNew = $('<div class="overlay_new"></div>');
-			$(this).append(overlayNew);
-		}
-	});
-});
+// 	$('.skill_new').each(function() {
+// 		if (!$(this).find('.overlay_new').length) { // Проверка overlay_new для skill_new
+// 			$(this).css('position', 'relative');
+// 			var overlayNew = $('<div class="overlay_new"></div>');
+// 			$(this).append(overlayNew);
+// 		}
+// 	});
+// });

@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Keen Edge',
@@ -685,6 +685,18 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
+         "name": 'Burst Strike',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07b019971a6a2f2c8a2133dff60543aec88c46f1.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий урон с силой атаки 7,000.<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Powder Barrel.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 05
+      "PVP Skill 05": {
          "name": 'Gnashing Fang',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e212245a0fb649855339dfa11b548cddcbf7511e.png',
          "classification": 'Боевой навык',
@@ -695,20 +707,20 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 5 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
       },
-      // PVP Skill 05
-      "PVP Skill 05": {
-         "name": 'Double Down',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/599cbaa79a8202c47cddc7e88a4f8086bd682ede.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
+      // PVP Skill 06
+      "PVP Skill 06": {
+         "name": 'Fated Circle',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b3e2c224457502ae6abb83fc37870cd1ca429087.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
          "recast": '20 сек.',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон с силой атаки 12,000 по всем окружающим противникам.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
+         "content": '',
       },
-      // PVP Skill 06
-      "PVP Skill 06": {
+      // PVP Skill 07
+      "PVP Skill 07": {
          "name": 'Continuation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/40f2a295b25532536720b6986405436c239aa9e8.png',
          "classification": 'Способность',
@@ -719,8 +731,8 @@
          "radius": '0y',
          "content": 'Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.',
       },
-      // PVP Skill 07
-      "PVP Skill 07": {
+      // PVP Skill 08
+      "PVP Skill 08": {
          "name": 'Rough Divide',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d8dcaa43ef97b6ffd9cdacfbef4f3917f24c366e.png',
          "classification": 'Способность',
@@ -731,41 +743,29 @@
          "radius": '0y',
          "content": 'Рывок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: накладывает эффект No Mercy<br/>Эффект No Mercy: увеличивает наносимый урон и силу лечения на 20%, а также увеличивает скорость передвижения на 25%<br/>Продолжительность: 7 сек.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
-      // PVP Skill 08
-      "PVP Skill 08": {
-         "name": 'Draw and Junction',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8421ce0195ee664e29836c43a680a7ff1ae3f40d.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Накладывает на персонажа полезный эффект, основанный на выбранном сопартийце или противнике.<br/>Если цель DPS, накладывается Junction DPS.<br/>Если цель танк или если цель не выбрана, накладывает Junction Tank.<br/>Если цель целитель, накладывает Junction Healer.<br/>Дополнительный эффект: накладывает эффект Powder Barrel, когда выбран противник<br/>Длительность: 10 сек.<br/><br/>※Combo Solid Barrel меняется на Burst Strike под действием эффекта Powder Barrel.',
-      },
       // PVP Skill 09
       "PVP Skill 09": {
-         "name": 'Junctioned Cast',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6b83f1d3889c905827c32f602884daa874da768d.png',
+         "name": 'Blasting Zone',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e55f3900a127f20fca1f99ba799713ced000b9f5.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Использует умение, зависящее от выбранного Junction.<br/>Junction DPS: Blasting Zone<br/>Junction Tank: Nebula<br/>Junction Healer: Aurora',
-      },
-      // PVP Skill 10
-      "PVP Skill 10": {
-         "name": 'Burst Strike',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07b019971a6a2f2c8a2133dff60543aec88c46f1.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2.4 сек.',
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 7,000.<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Powder Barrel.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": 'Удар, наносящий урон с силой атаки 10,000.<br/>Можно использовать только под действием эффекта Junction DPS.<br/>Имеет общее время восстановления с умениями Blasting Zone и Aurora.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 10
+      "PVP Skill 10": {
+         "name": 'Heart of Corundum',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/609a7eca2e615be394641f09621f4470c3551fcf.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '30y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // PVP Skill 11
       "PVP Skill 11": {
@@ -805,6 +805,18 @@
       },
       // PVP Skill 14
       "PVP Skill 14": {
+         "name": 'Fated Brand',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79391d67428c617c80af0f07cb894d5cabd9b197.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 15
+      "PVP Skill 15": {
          "name": 'Jugular Rip',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e1f39d3fecb447aaac966213ab89479591bbc996.png',
          "classification": 'Способность',
@@ -815,8 +827,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 1,000.<br/>Бонус эффекта Junction Tank: создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 4,000<br/>Продолжительность: 7 сек.<br/>Бонус эффекта Junction DPS: увеличивает силу атаки до 3,000<br/>Бонус эффекта Junction Healer: восстанавливает HP персонажа и ближайших сопартийцев в радиусе 15 ялмов<br/>Сила лечения: 2,000<br/>Можно использовать только под действием эффекта Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 15
-      "PVP Skill 15": {
+      // PVP Skill 16
+      "PVP Skill 16": {
          "name": 'Abdomen Tear',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/391803a2a95f908e6ce564a68204ec073facce20.png',
          "classification": 'Способность',
@@ -827,8 +839,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 2,000.<br/>Бонус эффекта Junction Tank: создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 5,000<br/>Продолжительность: 7 сек.<br/>Бонус эффекта Junction DPS: увеличивает силу атаки до 4,000<br/>Бонус эффекта Junction Healer: восстанавливает HP персонажа и ближайших членов партии в радиусе 15 ялмов<br/>Сила лечения: 3,000<br/>Можно использовать только под действием эффекта Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 16
-      "PVP Skill 16": {
+      // PVP Skill 17
+      "PVP Skill 17": {
          "name": 'Eye Gouge',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2a4f9c7ffb67a95f31b89995f865f5ceb8b06e7.png',
          "classification": 'Способность',
@@ -839,44 +851,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 3,000.<br/>Бонус эффекта Junction Tank: создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек.<br/>Бонус эффекта Junction DPS: увеличивает силу атаки до 5,000<br/>Бонус эффекта Junction Healer: восстанавливает HP персонажа и ближайших сопартийцев в радиусе 15 ялмов<br/>Сила лечения: 4,000<br/>Можно использовать только под действием эффекта Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 17
-      "PVP Skill 17": {
-         "name": 'Nebula',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e45508c1f8ad683ed98587d6df29b935b4a1fe68.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Снижает получаемый урон на 20% и наносит удар, наносящий урон с силой атаки 4,000 единиц каждый раз, когда персонаж получаете урон.<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Junction Tank.<br/>Имеет общее время восстановления с умениями Blasting Zone и Aurora.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 18
-      "PVP Skill 18": {
-         "name": 'Blasting Zone',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e55f3900a127f20fca1f99ba799713ced000b9f5.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 10,000.<br/>Можно использовать только под действием эффекта Junction DPS.<br/>Имеет общее время восстановления с умениями Blasting Zone и Aurora.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 19
-      "PVP Skill 19": {
-         "name": 'Aurora',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acaf4d3fc4adf9d9d241bec0be8376d207647c8c.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '30y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Восстанавливает HP персонажу или выбранному сопартийцу.<br/>Сила лечения: 12,000<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 3,000<br/>Продолжительность: 12 сек.<br/>Можно использовать только под действием эффекта Junction Healer.<br/>Имеет общее время восстановления с умением Blasting Zone.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 20
-      "PVP Skill 20": {
+      // PVP Skill LB1
+      "PVP Skill LB1": {
          "name": 'Relentless Rush',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c883909d21cab4cc8054d19c6cbb8156a3e6ac96.png',
          "cast": 'Мгновенная',
@@ -886,8 +862,8 @@
          "radius": '5y',
          "content": 'Проводит серию ударов клинком, нанося периодический урон по всем окружающим противникам с силой атаки 4,000 и снижая получаемый урон на 25% до окончания действия эффекта.<br/>Продолжительность: 4 сек.<br/>Активирует Terminal Trigger после конца действия эффекта.<br/>Дополнительный эффект: накладывает на цель Relentless Shrapnel, снижая наносимый урон на 4% и увеличивая получаемый урон на 4% за стак<br/>Продолжительность: 5 сек.<br/>Максимум стаков: 5<br/>Может быть использовано во время движения.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.<br/><br/>※При использовании умение меняется на Terminal Trigger.',
       },
-      // PVP Skill 21
-      "PVP Skill 21": {
+      // PVP Skill LB2
+      "PVP Skill LB2": {
          "name": 'Terminal Trigger',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/378ade68a55ed6f6c34600bd4ade1db2aea5511a.png',
          "cast": 'Мгновенная',
