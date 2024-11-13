@@ -12,18 +12,18 @@ $(document).ready(function () {
 	$('.nav_floating_icon').click(() => {
 		$('.nav_floating_list').fadeToggle();
 	});
-	// Back to Top
-	let button = $('.nome_app_top');
+// Back to Top
+let button = $('.nome_app_top');
 
-	$(window).on('scroll', function () {
+$(window).on('scroll', function () {
 		if ($(this).scrollTop() >= 200) {
 			button.fadeIn();
 		} else {
 			button.fadeOut();
 		}
-	});
+});
 
-	button.on('click', function (e) {
+button.on('click', function (e) {
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: 0 }, 1000);
 	});
