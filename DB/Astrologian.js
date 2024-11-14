@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 16/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Malefic',
@@ -122,7 +122,7 @@
          "radius": '0y',
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 800',
       },
-      // PVE Skill 09 NEW
+      // PVE Skill 09
       "PVE Skill 09": {
          "name": 'Astral Draw',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ca9495b5dd2708d088f8180b433b812580622dcb.png',
@@ -137,7 +137,7 @@
          "radius": '0y',
          "content": 'Вытягивает из гадальной колоды персонажа карты the Balance, the Arrow, the Spire и the Lord of Crowns.<br/>Дополнительный эффект: восстанавливает 20% MP персонажа<br/>При использовании, Play I меняется на меняется на The Balance, Play II меняется на The Arrow, Play III меняется на The Spire, Minor Arcana меняется на Lord of Crowns и Astral Draw меняется на Umbral Draw.<br/>Имеет общее время восстановления с умением Umbral Draw.',
       },
-      // PVE Skill 10 NEW
+      // PVE Skill 10
       "PVE Skill 10": {
          "name": 'Umbral Draw',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3a5badd54650309c03a120ea6906ad51276e8c6e.png',
@@ -152,7 +152,7 @@
          "radius": '0y',
          "content": 'Вытягивает из гадальной колоды персонажа карты the Spear, the Bole, the Ewer и the Lady of Crowns.<br/>Дополнительный эффект: восстанавливает 20% MP персонажа<br/>При использовании Play I меняется на The Spear, Play II меняется на The Bole, Play III меняется на The Ewer, Minor Arcana меняется на Lady of Crowns и Umbral Draw меняется на Astral Draw.<br/>Имеет общее время восстановления с умением Astral Draw.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Astral Draw меняется на Umbral Draw при соблюдении требований к выполнению.',
       },
-      // PVE Skill 11 NEW
+      // PVE Skill 11
       "PVE Skill 11": {
          "name": 'Play I',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aa32f90984104b56be403963081f119244df50a8.png',
@@ -167,7 +167,7 @@
          "radius": '0y',
          "content": 'Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Balance.<br/>Эффект Umbral Draw: Умение меняется на The Spear.',
       },
-      // PVE Skill 12 NEW
+      // PVE Skill 12
       "PVE Skill 12": {
          "name": 'Play II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1d7b124a1b665b5be6db3759a2f5060eef40b89d.png',
@@ -182,7 +182,7 @@
          "radius": '0y',
          "content": 'Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Arrow.<br/>Эффект Umbral Draw: Умение меняется на The Bole.',
       },
-      // PVE Skill 13 NEW
+      // PVE Skill 13
       "PVE Skill 13": {
          "name": 'Play III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/59c09c6f090fb75d16bb4f906793b951fd58b4cf.png',
@@ -240,7 +240,7 @@
          "cost": '400 MP',
          "range": '25y',
          "radius_img": 'R2',
-         "radius": '5y',
+         "radius": '8y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 120 по цели и всем окружающим противникам.',
       },
       // PVE Skill 17
@@ -514,7 +514,7 @@
          "cost": '400 MP',
          "range": '25y',
          "radius_img": 'R2',
-         "radius": '5y',
+         "radius": '8y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 130 по цели и всем окружающим противникам.',
       },
       // PVE Skill 35
@@ -882,7 +882,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d933fcf783650927195ec4b1814e9609eeddc58.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '12 сек.',
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -894,10 +894,10 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65bf868f9e1117ac27da24bca3b88022fca4eb89.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '20 сек.',
          "range": '25y',
          "radius_img": 'R2',
-         "radius": '5y',
+         "radius": '8y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 8,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект +75% тяжесть (heavy)<br/>Продолжительность: 5 сек.<br/>Это умение не имеет общего времени восстановления с другими умениями.',
       },
       // PVP Skill 04
@@ -906,7 +906,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ba6e1a43826a71c5520b5f322440ca88b85b809.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '12 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -914,15 +914,15 @@
       },
       // PVP Skill 05
       "PVP Skill 05": {
-         "name": 'Draw',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/02611d732461020324f552966a57ec5444dfc387.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+         "name": 'Minor Arcana',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7817118e58d798cb0801a5847e512401ba5db3cd.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '20 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Вытягивает the Balance, the Bole или the Arrow из гадальной колоды.<br/>Продолжительность: 15 сек.',
+         "content": '',
       },
       // PVP Skill 06
       "PVP Skill 06": {
@@ -938,78 +938,54 @@
       },
       // PVP Skill 07
       "PVP Skill 07": {
-         "name": 'Fall Malefic',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7e78194d327e6a89ecb90f3eae608c085346e1f4.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '25y',
+         "name": 'Epicycle',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1562a3a0b694560ec44c95e63db10db4f164b0e5.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 5,000.<br/>Дополнительный эффект: сокращает время восстановления умения Double Cast на 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": '',
       },
       // PVP Skill 08
       "PVP Skill 08": {
-         "name": 'Aspected Benefic',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d933fcf783650927195ec4b1814e9609eeddc58.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '30y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Восстанавливает HP цели.<br/>Сила лечения: 5,000<br/>Сила увеличивается до 10,000 по мере уменьшения HP цели, достигая максимального значения, когда у цели 50% HP или меньше.<br/>Дополнительный эффект: накладывает эффект Nocturnal Benefic на цель<br/>Эффект Nocturnal Benefic: создает магический барьер, который обнуляет урон, эквивалентный силе лечения 5,000<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "name": 'Lady of Crowns',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/55c0d5fd227200d651cee3672b6bda3fb7382681.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '20y',
+         "content": '',
       },
       // PVP Skill 09
       "PVP Skill 09": {
-         "name": 'Gravity II',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/65bf868f9e1117ac27da24bca3b88022fca4eb89.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '25y',
+         "name": 'Lord of Crowns',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/48ee68a54dd44c50b1219e48ce274297345b5810.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '0y',
          "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 8,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект bind (связывание)<br/>DПродолжительность: 3 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "radius": '20y',
+         "content": '',
       },
       // PVP Skill 10
       "PVP Skill 10": {
-         "name": 'The Balance',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/643c4801f72755b50d18395bbb46772b714611ac.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+         "name": 'Retrograde',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0fe6f9752dfe8ff3a411794e31bac9bceec3c618.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '1 сек.',
          "range": '30y',
-         "radius_img": 'R2',
-         "radius": '20y',
-         "content": 'Увеличивает урон, наносимый целью и ближайшими сопартийцами на 10%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // PVP Skill 11
       "PVP Skill 11": {
-         "name": 'The Bole',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9b6044f7563aeb1f0a1563df58e91f2fcab7c7b9.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "range": '30y',
-         "radius_img": 'R2',
-         "radius": '20y',
-         "content": 'Уменьшает получаемый урон целью и ближайшими сопартийцами на 10%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 12
-      "PVP Skill 12": {
-         "name": 'The Arrow',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/85a1d6205ebc89fc139d8fde7966e578fcdc4c2f.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "range": '30y',
-         "radius_img": 'R2',
-         "radius": '20y',
-         "content": 'Уменьшает время применения и время восстановления боевых навыков и заклинаний целью и ближайшими сопартийцами на 10%, а также увеличивает скорость передвижения на 25%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 13
-      "PVP Skill 13": {
          "name": 'Microcosmos',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/727601c35b12c8cf610a619bffea557c4eae6140.png',
          "classification": 'Способность',
@@ -1020,8 +996,20 @@
          "radius": '20y',
          "content": 'Активирует исцеляющий эффект Macrocosmos, восстанавливающий HP, равное силе лечения 4000, прибавляя 25% накопленного урона.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 14
-      "PVP Skill 14": {
+      // PVP Skill 12
+      "PVP Skill 12": {
+         "name": 'Oracle',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/64d75230bf3fc7b9e8c52b4a8e8b9a7458ebdf4e.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Celestial River',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/184ffb6c90cb6ab81b25f68ba19510ee469ce306.png',
          "cast": 'Мгновенная',

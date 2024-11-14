@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 27/06/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Ruin',
@@ -117,7 +117,7 @@
          "classification": 'Заклинание',
          "cast": '2 сек.',
          "recast": '2.5 сек.',
-         "cost": '1000 MP',
+         "cost": '900 MP',
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -133,7 +133,7 @@
          "classification": 'Заклинание',
          "cast": '2 сек.',
          "recast": '2.5 сек.',
-         "cost": '1000 MP',
+         "cost": '900 MP',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '15y',
@@ -248,7 +248,7 @@
       },
       // PVE Skill 17
       "PVE Skill 17": {
-         "name": 'IndomitСпособность',
+         "name": 'Indomitability',
          "eorzeadb": 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/983121f3ab5/',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f80a5bd016eab7200c55dd8d1d6afb07361a0ca.png',
          "job_icon": 'SCH',
@@ -567,7 +567,7 @@
          "radius": '5y',
          "content": 'Наносит по цели и всем окружающим противникам периодический нестихийный урон.<br/>Сила атаки: 140<br/>Продолжительность: 15 сек.<br/>Можно использовать только под действием эффекта Impact Imminent.',
       },
-      // PVE Skill 38 NEW
+      // PVE Skill 38
       "PVE Skill 38": {
          "name": 'Concitation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f124b01882a45f5befe10fa82964fc7fb7895e8c.png',
@@ -576,13 +576,13 @@
          "classification": 'Заклинание',
          "cast": '2 сек.',
          "recast": '2.5 сек.',
-         "cost": '1000 MP',
+         "cost": '900 MP',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '15y',
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 200<br/>Дополнительный эффект: создает магический барьер, который предотвращает получение урона, равного 180% от количества восстановленных HP.<br/>Продолжительность: 30 сек.<br/>Эффект не работает вместе с некоторыми эффектами барьеров сейджа.',
       },
-      // PVE Skill 39 NEW
+      // PVE Skill 39
       "PVE Skill 39": {
          "name": 'Seraphism',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3660e0317ed2aba78b7cfdc526dd174efa94d88d.png',
@@ -597,7 +597,7 @@
          "radius": '0y',
          "content": 'Постепенно восстанавливает HP персонажа и всех ближайших сопартийцев в радиусе 50 ялмов.<br/>Сила лечения: 100<br/>Дополнительный эффект: заменяет Adloquium на Manifestation и Concitation на Accession<br/>Дополнительный эффект: сбрасывает время повторного применения Emergency Tactics и уменьшает его повторное применение до 1 сек.<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Dissipation.<br/>Может использоваться только когда фея призвана и персонаж находится в бою.',
       },
-      // PVE Skill 40 NEW
+      // PVE Skill 40
       "PVE Skill 40": {
          "name": 'Manifestation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7244131eba68b8042f1461bf4100deaebe2a7c0d.png',
@@ -606,13 +606,13 @@
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
-         "cost": '1000 MP',
+         "cost": '900 MP',
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 360<br/>Дополнительный эффект: накладывает на цель эффект Galvanize, который предотвращает получение урона, равного 180% от количества восстановленных HP. При критическом восстановлении HP также накладывает эффект Catalyze, который предотвращает получение урона, равного 180% от количества восстановленных HP. <br/>Продолжительность: 30 сек.<br/>Эффект не работает вместе с некоторыми эффектами барьеров сейджа.<br/>Можно использовать только под действием эффекта Seraphism.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Adloquium меняется на Manifestation при соблюдении требований к выполнению.',
       },
-      // PVE Skill 41 NEW
+      // PVE Skill 41
       "PVE Skill 41": {
          "name": 'Accession',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c859b1042c024b57c646316f1e0e93ff5e5f90fb.png',
@@ -621,7 +621,7 @@
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
-         "cost": '1000 MP',
+         "cost": '900 MP',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '15y',
@@ -907,7 +907,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/22a3932c3e8625b941a6d65c7bb1985e2244abe7.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '12 сек.',
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -919,7 +919,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f1a089378baca67848f466998eaf675ca65b241f.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '16 сек.',
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -931,7 +931,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba157dccbbb4761461ca40b5e03c2a882498cdf3.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '12 сек.',
          "range": '30y',
          "radius_img": 'R2',
          "radius": '15y',
@@ -939,15 +939,15 @@
       },
       // PVP Skill 05
       "PVP Skill 05": {
-         "name": 'Mummification',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/00aa2e44a8489b7640717e48cdf0097f6fb2bca0.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+         "name": 'Chain Stratagem',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/23a8a3db9390a92f29e6df238044537361682fab.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '20 сек.',
-         "range": '8y',
-         "radius_img": 'R4',
-         "radius": '8y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: уменьшает количество HP, восстанавливаемых целью умениями лечения, на 25%<br/>Продолжительность: 10 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // PVP Skill 06
       "PVP Skill 06": {
@@ -963,18 +963,42 @@
       },
       // PVP Skill 07
       "PVP Skill 07": {
-         "name": 'Consolation',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fcb5a5bb525f6e87cb54b03c28dee34f62bc2cbb.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '0y',
+         "name": 'Summon Seraph',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/44de61f43a848bff2f6c8ee8dd37df66746e12d2.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "range": '30y',
          "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Приказывает Seraph использовать Consolation.<br/>Эффект Consolation: восстанавливает HP всех ближайших сопартийцев<br/>Сила лечения: 4,000<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный силе лечения 4,000<br/>Продолжительность: 10 сек.<br/>Можно использовать только во время призыва Seraph.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "radius": '1y',
+         "content": '',
       },
       // PVP Skill 08
       "PVP Skill 08": {
+         "name": 'Seraphic Halo',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7f4ce8d90ce96634d7c028ef2990dfc9f61b8417.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 09
+      "PVP Skill 09": {
+         "name": 'Accession',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d8137bd2178a9071507f4d74e4ce4d1282cacc4c.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": '',
+      },
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Seraphic Veil',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fe17c3c2cb39842c9bfe50d5839d2b6a93075ef9.png',
          "classification": 'Заклинание',
@@ -985,39 +1009,16 @@
          "radius": '0y',
          "content": 'Восстанавливает HP цели.<br/>Сила лечения: 4,000<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 4,000<br/>Продолжительность: 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 09
-      "PVP Skill 09": {
-         "name": 'Consolation',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7a5471b9fcc2f37dee57e8705f450297f8ed876a.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "range": '0y',
-         "radius_img": 'R2',
-         "radius": '20y',
-         "content": 'Восстанавливает HP всех ближайших сопартийцев.<br/>Сила лечения: 4,000<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный силе лечения 4,000.<br/>Продолжительность: 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 10
-      "PVP Skill 10": {
-         "name": 'Summon Seraph',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/614407d07c71d678c0f13c555dfb338d69fbf9e7.png',
-         "cast": 'Мгновенная',
-         "recast": '10 сек.',
-         "range": '30y',
-         "radius_img": 'R2',
-         "radius": '10y',
-         "content": 'Призывает фею Seraph для сражения в указанную область.<br/>Сразу после вызова Seraph использует Seraph Flight.<br/>Автоматически накладывает Seraphic Veil на сопартийцев, получающих урон.<br/>Дополнительный эффект: накладывает эффект Recitation<br/>Эффект Recitation: увеличивает силу умений Galvanize, Biolysis и Biolytic<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Умением меняется на Consolation после использования.',
-      },
-      // PVP Skill 11
-      "PVP Skill 11": {
-         "name": 'Seraph Flight',
+      // PVP Skill LB1
+      "PVP Skill LB1": {
+         "name": 'Seraphism',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4718502b9fd4f9ed2848fb3cbcb42015f7d70440.png',
          "cast": 'Мгновенная',
-         "recast": '1 сек.',
+         "recast": '10 сек.',
          "range": '0y',
          "radius_img": 'R2',
-         "radius": '10y',
-         "content": 'Накладывает Seraph Flight и Excogitation на всех ближайших сопартийцев.<br/>Эффект Seraph Flight: обнуляет следующий статусный эффект, который может быть снят Purify<br/>Продолжительность: 20 сек.<br/>Эффект Excogitation: восстанавливает HP, когда оно падает ниже 50% или по истечении срока действия эффекта<br/>Сила лечения: 8,000<br/>Продолжительность: 20 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "radius": '30y',
+         "content": ' ',
       },
    };
    FILL_DB_VALUES(db);
