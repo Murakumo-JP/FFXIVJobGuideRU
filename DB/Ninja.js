@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Spinning Edge',
@@ -802,17 +802,17 @@
          "radius": '0y',
          "content": 'Дальний удар, наносящий урон с силой атаки 6,000.<br/>Максимум зарядов: 3<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Hyosho Ranryu под действием эффекта Three Mudra.',
       },
-      // PVP Skill 05
+      // PVP Skill 05 NEW
       "PVP Skill 05": {
-         "name": 'Mug',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0b093065502dad176d2b335b15528e1947bf806f.png',
+         "name": 'Dokumori',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/889736b87dc2b4851a9d0e38f9c1f00f40414e73.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: уменьшает время повторного применения Fuma Shuriken на 10 сек.<br/><br/>※Умение меняется на Goka Mekkyaku под действием эффекта Three Mudra.',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": ' ',
       },
       // PVP Skill 06
       "PVP Skill 06": {
@@ -852,102 +852,18 @@
       },
       // PVP Skill 09
       "PVP Skill 09": {
-         "name": 'Forked Raiju',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4808fd0960ff552e382c3bc3242c43c4634b3a16.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
+         "name": 'Zesho Meppo',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f2d3b22f23ff584579dc27d5526176fe0f99cb2a.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
          "recast": '2 сек.',
-         "range": '20y',
+         "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает Fleeting Raiju Ready<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Aeolian Edge Combo меняется на Fleeting Raiju под действием эффекта Fleeting Raiju Ready.<br/>※Это умение нельзя поместить на хотбар.',
+         "content": '',
       },
       // PVP Skill 10
       "PVP Skill 10": {
-         "name": 'Fleeting Raiju',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/834c61d21d0517e99776d435f3125c0d856bff96.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '20y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Можно использовать только под действием эффекта Fleeting Raiju Ready.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 11
-      "PVP Skill 11": {
-         "name": 'Hyosho Ranryu',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7b5b3ecb51c13a72c65bbb7dd48b6d702d546da9.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '20y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 16,000.<br/>Может быть использовано только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 12
-      "PVP Skill 12": {
-         "name": 'Goka Mekkyaku',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8ecdf7edc6dd4e686813cdd58a5edcdf49e0404d.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '20y',
-         "radius_img": 'R2',
-         "radius": '6y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 4,000<br/>DПродолжительность: 12 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 13
-      "PVP Skill 13": {
-         "name": 'Meisui',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/359bc1829d69bdbe859863cd2a782fbacc61de16.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '30y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Восстанавливает HP персонажу или выбранному сопартийцу.<br/>Сила лечения: 8,000<br/>Дополнительный эффект: накладывает на цель постепенное восстановление HP<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 14
-      "PVP Skill 14": {
-         "name": 'Huton',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/839919eb2756e950cdae46be906b564ce77bd4b6.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Накладывает эффект Huton, создавая барьер, поглощающий урон, равный силе лечения 16,000 и увеличивающий скорость передвижения на 25%.<br/>Продолжительность: 10 сек.<br/>Скорость передвижения возвращается к нормальной, когда барьер поглотит весь урон.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 15
-      "PVP Skill 15": {
-         "name": 'Doton',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c6735eac69b6180ad6b23c92fc467a81701cf4a.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '0y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Создает под ногами персонажа область оскверненной земли, наносящей урон с силой атаки 3,000 по всем противникам, вошедшим в него.<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 16
-      "PVP Skill 16": {
-         "name": 'Hollow Nozuchi',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2a67da760022e80b85ba1ccbeeecdf8bddda757.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '-',
-         "range": '100y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Все противники, находящиеся в области оскверненной земли Doton, получают дополнительный урон землей с силой атаки 3,000.<br/>Требуется использование боевого навыка, Hyosho Ranryu или Goka Mekkyaku<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 17
-      "PVP Skill 17": {
          "name": 'Assassinate',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bd62134b59f61995abdfea2f7fee502c5795f9f9.png',
          "classification": 'Боевой навык',
@@ -958,8 +874,104 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 12,000.<br/>Можно использовать только под действием эффекта Hidden.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
+      // PVP Skill 11
+      "PVP Skill 11": {
+         "name": 'Forked Raiju',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4808fd0960ff552e382c3bc3242c43c4634b3a16.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '20y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает Fleeting Raiju Ready<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Aeolian Edge Combo меняется на Fleeting Raiju под действием эффекта Fleeting Raiju Ready.<br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 12
+      "PVP Skill 12": {
+         "name": 'Fleeting Raiju',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/834c61d21d0517e99776d435f3125c0d856bff96.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '20y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Рывок к цели, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Можно использовать только под действием эффекта Fleeting Raiju Ready.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 13
+      "PVP Skill 13": {
+         "name": 'Hyosho Ranryu',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7b5b3ecb51c13a72c65bbb7dd48b6d702d546da9.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '20y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 16,000.<br/>Может быть использовано только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 14
+      "PVP Skill 14": {
+         "name": 'Goka Mekkyaku',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8ecdf7edc6dd4e686813cdd58a5edcdf49e0404d.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '20y',
+         "radius_img": 'R2',
+         "radius": '6y',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 4,000<br/>DПродолжительность: 12 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 15
+      "PVP Skill 15": {
+         "name": 'Meisui',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/359bc1829d69bdbe859863cd2a782fbacc61de16.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '30y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Восстанавливает HP персонажу или выбранному сопартийцу.<br/>Сила лечения: 8,000<br/>Дополнительный эффект: накладывает на цель постепенное восстановление HP<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 16
+      "PVP Skill 16": {
+         "name": 'Huton',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/839919eb2756e950cdae46be906b564ce77bd4b6.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": 'Накладывает эффект Huton, создавая барьер, поглощающий урон, равный силе лечения 16,000 и увеличивающий скорость передвижения на 25%.<br/>Продолжительность: 10 сек.<br/>Скорость передвижения возвращается к нормальной, когда барьер поглотит весь урон.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 17
+      "PVP Skill 17": {
+         "name": 'Doton',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c6735eac69b6180ad6b23c92fc467a81701cf4a.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Создает под ногами персонажа область оскверненной земли, наносящей урон с силой атаки 3,000 по всем противникам, вошедшим в него.<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Three Mudra.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
       // PVP Skill 18
       "PVP Skill 18": {
+         "name": 'Hollow Nozuchi',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d2a67da760022e80b85ba1ccbeeecdf8bddda757.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '-',
+         "range": '100y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Все противники, находящиеся в области оскверненной земли Doton, получают дополнительный урон землей с силой атаки 3,000.<br/>Требуется использование боевого навыка, Hyosho Ranryu или Goka Mekkyaku<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Seiton Tenchu',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png',
          "cast": 'Мгновенная',

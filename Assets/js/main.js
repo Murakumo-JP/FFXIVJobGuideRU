@@ -1,3 +1,26 @@
+// Debag
+  // document.addEventListener("DOMContentLoaded", function() {
+// 	const links = document.querySelectorAll('a');
+// 	links.forEach(link => {
+// 		 link.addEventListener('click', function(event) {
+// 			  event.preventDefault();
+// 			  const url = this.getAttribute('href') + '.html';
+// 			  window.location.href = url;
+// 		 });
+// 	});
+// });
+$('tr').each(function() {
+   var titleText = [];
+   ['db-skill', 'db-role-action', 'db-skill-passive', 'db-role-traits', 'db-skill-pvp'].forEach(attr => {
+      var attrValue = $(this).attr(attr);
+      if (attrValue) {
+         titleText.push(attrValue);
+      }
+   });
+   if (titleText.length > 0) {
+      $(this).attr('title', titleText.join(', '));
+   }
+});
 // Doom Load
 $(document).ready(function () {
 	// Info Update
@@ -69,18 +92,6 @@ $('.js-tab-trigger').click(function () {
 	activate_tab(id);
 	window.location.hash = '#' + id;
 });
-
-// Debag href link
-// document.addEventListener("DOMContentLoaded", function() {
-// 	const links = document.querySelectorAll('a');
-// 	links.forEach(link => {
-// 		 link.addEventListener('click', function(event) {
-// 			  event.preventDefault();
-// 			  const url = this.getAttribute('href') + '.html';
-// 			  window.location.href = url;
-// 		 });
-// 	});
-// });
 
 // Menu JobGuide
 $(document).ready(function() {

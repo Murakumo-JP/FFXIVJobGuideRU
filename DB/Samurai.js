@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Hakaze',
@@ -726,7 +726,7 @@
          "cast": 'Мгновенная',
          "recast": '10 сек.',
          "range": '20y',
-         "radius_img": 'R6',
+         "radius_img": 'R1',
          "radius": '0y',
          "content": 'Стремительно прыгает вперед, нанося урон всем противникам на пути с силой атаки 4,000.<br/>Дополнительный эффект: накладывает Kaiten<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 3<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Yukikaze меняется на Hyosetsu под действием эффекта Kaiten.<br/>※Gekko меняется на Mangetsy под действием эффекта Kaiten.<br/>※Kasha меняется на Oka под действием эффекта Kaiten.',
       },
@@ -804,18 +804,6 @@
       },
       // PVP Skill 12
       "PVP Skill 12": {
-         "name": 'Midare Setsugekka',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e3c037af956f70ba94408aac789a2310bfa5da51.png',
-         "classification": 'Боевой навык',
-         "cast": '1.3 сек.',
-         "recast": '2.2 сек.',
-         "range": '8y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 16,000.<br/>Можно использовать только под действием эффекта Midare.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 13
-      "PVP Skill 13": {
          "name": 'Kaeshi: Namikiri',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/511537fac5a52af6263ec710e0f44f3bacb27d12.png',
          "classification": 'Боевой навык',
@@ -826,8 +814,44 @@
          "radius": '8y',
          "content": 'Удар, наносящий урон по всем противникам в конусе перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается на 50%, если атаковать только одну цель.<br/>Комбо умение: Ogi Namikiri<br/>Дополнительный эффект: при атаке двух или более целей создает вокруг персонажа барьер, поглощающий урон, равный силе лечения 8000<br/>Продолжительность: 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
+      // PVP Skill 13
+      "PVP Skill 13": {
+         "name": 'Zanshin',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ed4f935138c8c57110c9da759c0abc5705ce7897.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '8y',
+         "radius_img": 'R4',
+         "radius": '8y',
+         "content": '',
+      },
       // PVP Skill 14
       "PVP Skill 14": {
+         "name": 'Tendo Setsugekka',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c12ec9df624ff32ab0256e5b4071efceda155c59.png',
+         "classification": 'Weaponskill',
+         "cast": '1.32 сек.',
+         "recast": '2.2 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 15
+      "PVP Skill 15": {
+         "name": 'Tendo Kaeshi Setsugekka',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bea197afe726c45444939606070c194a668cc399.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.2 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Zantetsuken',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png',
          "cast": 'Мгновенная',
