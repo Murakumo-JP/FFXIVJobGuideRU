@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'True Thrust',
@@ -621,6 +621,18 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
+         "name": 'Drakesbane',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8c1c583a49110fe9ee0c120bb8ef84470d72e1fd.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 05
+      "PVP Skill 05": {
          "name": 'Chaotic Spring',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/beed1dd5940d6a1c73a65d2df23e0bba94553e70.png',
          "classification": 'Боевой навык',
@@ -631,8 +643,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: поглощает 150% нанесенного урона в виде HP<br/>Этот боевой навык не имеет общее время восстановления с другими умениями.',
       },
-      // PVP Skill 05
-      "PVP Skill 05": {
+      // PVP Skill 06
+      "PVP Skill 06": {
          "name": 'Geirskogul',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/40d9f18cff0687b38369f777aa53289e7b9fbdec.png',
          "classification": 'Способность',
@@ -643,8 +655,8 @@
          "radius": '15y',
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 4,000.<br/>Дополнительный эффект: накладывает эффект Life of the Dragon<br/>Эффект Life of the Dragon: увеличивает наносимый и получаемый урон на 25%<br/>Продолжительность: 10 сек.<br/><br/>※При использовании умение меняется на Nastrond.',
       },
-      // PVP Skill 06
-      "PVP Skill 06": {
+      // PVP Skill 07
+      "PVP Skill 07": {
          "name": 'High Jump',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/bbb6cc31f11ffe457f6e893d48924739c1ded02a.png',
          "classification": 'Способность',
@@ -655,8 +667,8 @@
          "radius": '0y',
          "content": "Удар с прыжком, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: накладывает эффект Heavensent<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/><br/>※Combo Wheeling Thrust меняется на Heavens' Thrust под действием эффекта Heavensent.",
       },
-      // PVP Skill 07
-      "PVP Skill 07": {
+      // PVP Skill 08
+      "PVP Skill 08": {
          "name": 'Elusive Jump',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c8b07f7484cef5f2ea4a7a3b11fd71d2526a7eb6.png',
          "classification": 'Способность',
@@ -667,8 +679,8 @@
          "radius": '0y',
          "content": 'Совершает прыжок в место, находящееся в 15 ялмах позади персонажа.<br/>Дополнительный эффект: снимает тяжесть (heavy) и связывание (bind)<br/>Дополнительный эффект: увеличивает скорость передвижения на 25%<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: накладывает эффект Firstminds Focus<br/>Продолжительность: 10 сек.<br/><br/>※Умение меняется на Wyrmwind Thrust под действием эффекта Firstminds Focus.',
       },
-      // PVP Skill 08
-      "PVP Skill 08": {
+      // PVP Skill 09
+      "PVP Skill 09": {
          "name": 'Horrid Roar',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b1f27df2db64f7037b01bd9bd45118f4f6a68411.png',
          "classification": 'Способность',
@@ -679,8 +691,8 @@
          "radius": '10y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель эффект Horrid Roar<br/>Эффект Horrid Roar: снижает наносимый персонажу урон на 50%<br/>Продолжительность: 10 сек.',
       },
-      // PVP Skill 09
-      "PVP Skill 09": {
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": "Heavens' Thrust",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fae7c03f0a715ea2494d384a5a4b38fd3a7a558b.png',
          "classification": 'Боевой навык',
@@ -691,8 +703,20 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 12,000.<br/>Может быть использовано только под эффектом Heavensent.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 10
-      "PVP Skill 10": {
+      // PVP Skill 11
+      "PVP Skill 11": {
+         "name": 'Starcross',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3fe6e2871437862b13263261354d1e9b0432a96f.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '20y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 12
+      "PVP Skill 12": {
          "name": 'Nastrond',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/077f033d215fc2852c0a24294344701a413d7fc6.png',
          "classification": 'Способность',
@@ -703,8 +727,8 @@
          "radius": '15y',
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 4,000.<br/>Сила атаки увеличивается до 8,000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Может быть использовано только под действием эффекта Life of the Dragon. Эффект исчезает после использования.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 11
-      "PVP Skill 11": {
+      // PVP Skill 13
+      "PVP Skill 13": {
          "name": 'Wyrmwind Thrust',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/82a09097dac30def5de8b72764c3858736210818.png',
          "classification": 'Боевой навык',
@@ -715,8 +739,8 @@
          "radius": '20y',
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается пропорционально расстоянию до цели, вплоть до 16,000, когда цель находится на расстоянии 15 ялмов.<br/>Может быть использовано только под действием эффекта Firstminds Focus.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 12
-      "PVP Skill 12": {
+      // PVP Skill LB1
+      "PVP Skill LB1": {
          "name": 'Sky High',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png',
          "cast": 'Мгновенная',
@@ -726,8 +750,8 @@
          "radius": '0y',
          "content": 'Персонаж совершает высокий прыжок, становясь недоступным для противников. Перемещение возможно до момента приземления.<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: снимает негативные эффекты - тяжесть (heavy), связывание (bind) и полу сон (Half-asleep)<br/>По истечении эффекта автоматически использует Sky Shatter.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※При использовании умение меняется на Sky Shatter.',
       },
-      // PVP Skill 13
-      "PVP Skill 13": {
+      // PVP Skill LB2
+      "PVP Skill LB2": {
          "name": 'Sky Shatter',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/82f321a762fc70566c427f2e2dfda71ce4e0718b.png',
          "cast": 'Мгновенная',

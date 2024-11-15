@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Slice',
@@ -686,15 +686,15 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
-         "name": 'Soul Slice',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2f9f04bc14107eb92ebc354091b1274464e9c002.png',
-         "classification": 'Боевой навык',
+         "name": 'Harvest Moon',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c70f9fe69e5c51199086c4345095722bf7a9b5a.png',
+         "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: накладывает стак Immortal Sacrifice, вплоть до 8<br/>Максимум зарядов: 2<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
+         "recast": '16 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по цели и всем ближайшим противникам.<br/>Сила атаки увеличивается до 8,000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Дополнительный эффект: поглощает 100% нанесенного урона в виде HP<br/>Можно использовать только под действием эффекта Soulsow.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 05
       "PVP Skill 05": {
@@ -758,15 +758,15 @@
       },
       // PVP Skill 10
       "PVP Skill 10": {
-         "name": 'Guillotine',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c9b769d7ad4c9f51f1f714df3d66cc4884ae1f97.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2.4 сек.',
+         "name": "Executioner's Guillotine",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c79c9c91a5420c2f67a70bfd085727cfa63cfa95.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.2 сек.',
          "range": '8y',
          "radius_img": 'R4',
          "radius": '8y',
-         "content": 'Удар, наносящий урон с силой атаки 8,000 по всем противникам в конусе перед персонажем.<br/>Можно использовать только под действием эффекта Soul Reaver.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": '',
       },
       // PVP Skill 11
       "PVP Skill 11": {
@@ -806,15 +806,15 @@
       },
       // PVP Skill 14
       "PVP Skill 14": {
-         "name": 'Harvest Moon',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c70f9fe69e5c51199086c4345095722bf7a9b5a.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "range": '25y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000 по цели и всем ближайшим противникам.<br/>Сила атаки увеличивается до 8,000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Дополнительный эффект: поглощает 100% нанесенного урона в виде HP<br/>Можно использовать только под действием эффекта Soulsow.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "name": 'Fate Sealed',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/66956c56a1b12c94704d38d36cf65e00440666ad.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '2 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // PVP Skill 15
       "PVP Skill 15": {
@@ -842,6 +842,18 @@
       },
       // PVP Skill 17
       "PVP Skill 17": {
+         "name": 'Perfectio',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/fa7c30344d62ac831c58842a0f24e668eb3b867d.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '2.2 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Tenebrae Lemurum',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a2c6adec36c8eeace712802c88eb896c788a8c94.png',
          "cast": 'Мгновенная',

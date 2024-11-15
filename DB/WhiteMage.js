@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Stone',
@@ -179,7 +179,7 @@
          "job_icon": 'WHM',
          "level": '45',
          "classification": 'Заклинание',
-         "cast": '2.5 сек.',
+         "cast": '1.5 сек.',
          "recast": '2.5 сек.',
          "cost": '400 MP',
          "range": '0y',
@@ -471,7 +471,7 @@
          "job_icon": 'WHM',
          "level": '82',
          "classification": 'Заклинание',
-         "cast": '2.5 сек.',
+         "cast": '1.5 сек.',
          "recast": '2.5 сек.',
          "cost": '400 MP',
          "range": '0y',
@@ -509,7 +509,7 @@
          "radius": '0y',
          "content": 'Помещает исцеляющий цветок в указанное место и дает персонажу 5 стаков Liturgy of the Bell.<br/>Продолжительность: 20 сек.<br/>Когда персонаж получает урон, 1 стак Liturgy of the Bell расходуется, чтобы исцелить себя и всех сопартийцев в радиусе 20 ялмов.<br/>Сила лечения: 400<br/>Эффект этого умения срабатывает не чаще одного раза в секунду.<br/>По окончанию времени действия умения или при использовании его второй раз все оставшиеся стаки Liturgy of the Bell будет использованы для дополнительного восстановления HP.<br/>Сила лечения: 200 за каждый оставшийся стак Liturgy of the Bell<br/>Этот умение не имеет общего время восстановления с другими умениями.',
       },
-      // PVE Skill 34 NEW
+      // PVE Skill 34
       "PVE Skill 34": {
          "name": 'Glare IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8114a12aa7d10fbe87b9edfe0fc6257adec7a06f.png',
@@ -524,7 +524,7 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 640 для первого и на 40% меньше для всех остальных.<br/Может быть использовано только при активном эффекте Sacred Sight.',
       },
-      // PVE Skill 35 NEW
+      // PVE Skill 35
       "PVE Skill 35": {
          "name": 'Medica III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/afd378388b20cba91d3988c04efeff1256eae7b3.png',
@@ -539,7 +539,7 @@
          "radius": '20y',
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen).<br/>Сила лечения: 175<br/>Продолжительность: 15 сек.',
       },
-      // PVE Skill 36 NEW
+      // PVE Skill 36
       "PVE Skill 36": {
          "name": 'Divine Caress',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/94e9cc4b561ab6fca2c4a92cdbb2c86cd7825df9.png',
@@ -551,7 +551,7 @@
          "cost": '-',
          "range": '0y',
          "radius_img": 'R2',
-         "radius": '15y',
+         "radius": '30y',
          "content": 'Создает вокруг персонажа и всех ближайших сопартийцев барьер, поглощающий урон, эквивалентный исцелению с силой 400.<br/>Продолжительность: 10 сек.<br/>Накладывает эффект периодического лечения (Regen) после того, как эффект барьера исчезает.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Может быть использовано только при активном эффекте Divine Grace.',
       },
       // Trait 01
@@ -798,6 +798,18 @@
       },
       // PVP Skill 07
       "PVP Skill 07": {
+         "name": 'Glare IV',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/928a4cb28079785539b6b24b6c890db6a5691703.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 08
+      "PVP Skill 08": {
          "name": 'Cure III',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png',
          "classification": 'Заклинание',
@@ -808,8 +820,8 @@
          "radius": '5y',
          "content": 'Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 16000<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 08
-      "PVP Skill 08": {
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Afflatus Purgation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/885443eeb029d7cbca537be10edca5eb6c920401.png',
          "cast": 'Мгновенная',

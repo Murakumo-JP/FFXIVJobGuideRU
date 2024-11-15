@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 27/06/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Dosis',
@@ -56,7 +56,7 @@
          "classification": 'Заклинание',
          "cast": '2 сек.',
          "recast": '2.5 сек.',
-         "cost": '800 MP',
+         "cost": '700 MP',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '15y',
@@ -131,7 +131,7 @@
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '1.5 сек.',
-         "cost": '900 MP',
+         "cost": '800 MP',
          "range": '30y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -146,7 +146,7 @@
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '1.5 сек.',
-         "cost": '900 MP',
+         "cost": '800 MP',
          "range": '0y',
          "radius_img": 'R2',
          "radius": '15y',
@@ -749,7 +749,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9de1f71a8289f106201a31e0c7263f6cf8c29982.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '16 сек.',
          "range": '5y',
          "radius_img": 'R2',
          "radius": '5y',
@@ -773,7 +773,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b179c19bd11aba27f8619c2ab77a59aa2fa99403.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '16 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -785,7 +785,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/418c952d0a14cb4ecfb8f8bb4a7133594102e907.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '10 сек.',
+         "recast": '12 сек.',
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
@@ -797,7 +797,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/57e8d9af7caf585ee813c10fa0bac46abea90b7c.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '16 сек.',
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
@@ -829,6 +829,18 @@
       },
       // PVP Skill 09
       "PVP Skill 09": {
+         "name": 'Psyche',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d3d0e0f4ded786f0846ea80145721622faef4bee.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Toxikon II',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8cfa4b9e7012759fd371b373d52cca95f8591bf6.png',
          "classification": 'Способность',
@@ -839,8 +851,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 8,000 для первого и 2,000 для остальных.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 6 сек.<br/>Может быть использовано только под эффектом Addersting.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 10
-      "PVP Skill 10": {
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Mesotes',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b7c802ff27b9c70dfeee638a7c41db4e7ffd642a.png',
          "cast": 'Мгновенная',

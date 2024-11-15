@@ -810,15 +810,15 @@
       },
       // PVP Skill 07
       "PVP Skill 07": {
-         "name": "Hunter's Snap",
+         "name": "Bloodcoil",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1a805b094cbbf2d8cba34910f919e4ed395a2786.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
+         "recast": '16 сек.',
          "range": '5y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": "Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: накладывает эффект Hunter's Instinct<br/>Эффект Hunter's Instinct: увеличивает наносимый урон на 10%<br/>Продолжительность: 15 сек.<br/>Увеличивает продолжительность умения Hunter's Instinct на 15 сек., вплоть до 30 сек.<br/>Максимум зарядов: 2<br/>Этот умение не имеет общего время восстановления с другими умениями.<br/><br/>※Умение меняется на Swiftskin's Coil после использования.",
+         "content": " ",
       },
       // PVP Skill 08
       "PVP Skill 08": {
@@ -882,18 +882,6 @@
       },
       // PVP Skill 13
       "PVP Skill 13": {
-         "name": "Swiftskin's Coil",
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1842fa2852ed84e6b56cf7385caabd23312e47de.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2.88 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Hunter's Snap<br/>Дополнительный эффект: накладывает эффект Swiftscaled<br/>Эффект Swiftscaled: уменьшает время восстановления боевых навыков на 20%.<br/>Продолжительность: 15 сек.<br/>Увеличивает продолжительность умения Swiftscaled на 15 сек., вплоть до 30 сек.<br/><br/>※Это умение нельзя поместить на хотбар.",
-      },
-      // PVP Skill 14
-      "PVP Skill 14": {
          "name": 'First Generation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8f5e873cc3e905162527647b1156f0ae740b442e.png',
          "classification": 'Боевой навык',
@@ -904,8 +892,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 5,000 по цели и всем окружающим противникам.<br/>Комбо умение: World-swallower<br/>Может быть использовано только под действием эффекта Reawakened.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 15
-      "PVP Skill 15": {
+      // PVP Skill 14
+      "PVP Skill 14": {
          "name": 'Second Generation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/af774179732ea48f9ce9c21b0e2a7f35d58330df.png',
          "classification": 'Боевой навык',
@@ -916,8 +904,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 5,000 по цели и всем окружающим противникам.<br/>Комбо умение: First Generation<br/>Может быть использовано только под действием эффекта Reawakened.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 16
-      "PVP Skill 16": {
+      // PVP Skill 15
+      "PVP Skill 15": {
          "name": 'Third Generation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6b755b35b9d30313dbae0a1bc153fe714668b790.png',
          "classification": 'Боевой навык',
@@ -928,8 +916,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 5,000 по цели и всем окружающим противникам.<br/>Комбо умение: Second Generation<br/>Может быть использовано только под действием эффекта Reawakened.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 17
-      "PVP Skill 17": {
+      // PVP Skill 16
+      "PVP Skill 16": {
          "name": 'Fourth Generation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e71fea55bada906d1f752bdcb7f1cda184978532.png',
          "classification": 'Боевой навык',
@@ -939,6 +927,18 @@
          "radius_img": 'R2',
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 5,000 по цели и всем окружающим противникам.<br/>Комбо умение: Third Generation<br/>Может быть использовано только под действием эффекта Reawakened.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 17
+      "PVP Skill 17": {
+         "name": "Sanguine Feast",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1842fa2852ed84e6b56cf7385caabd23312e47de.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '2 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": " ",
       },
       // PVP Skill 18
       "PVP Skill 18": {
@@ -1002,6 +1002,18 @@
       },
       // PVP Skill 23
       "PVP Skill 23": {
+         "name": 'Uncoiled Twinblood',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7988ba0a7efd3045918bd5237541ec5ddef6d57a.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '20y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 24
+      "PVP Skill 24": {
          "name": 'First Legacy',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3eded561d986ef0d88cbddc58a1203bd13392e12.png',
          "classification": 'Способность',
@@ -1012,8 +1024,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 3,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge).<br/>Может быть использовано только после успешного применения First Generation.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 24
-      "PVP Skill 24": {
+      // PVP Skill 25
+      "PVP Skill 25": {
          "name": 'Second Legacy',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/754ccf3d14880402121e03e9d6406fb938558a7b.png',
          "classification": 'Способность',
@@ -1024,8 +1036,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 3,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge).<br/>Может быть использовано только после успешного применения Second Generation.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 25
-      "PVP Skill 25": {
+      // PVP Skill 26
+      "PVP Skill 26": {
          "name": 'Third Legacy',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9ab5ad729ec0e3b515a72f1f15dcdc64b159decd.png',
          "classification": 'Способность',
@@ -1036,8 +1048,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 3,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge).<br/>Может быть использовано только после успешного применения Third Generation.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 26
-      "PVP Skill 26": {
+      // PVP Skill 27
+      "PVP Skill 27": {
          "name": 'Fourth Legacy',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/609221c5f7e2ab86304dcc9db03fef237f414985.png',
          "classification": 'Способность',
@@ -1048,8 +1060,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон с силой атаки 3,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge).<br/>Может быть использовано только после успешного применения Fourth Generation.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 27
-      "PVP Skill 27": {
+      // PVP Skill 28
+      "PVP Skill 28": {
          "name": 'Backlash',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6c01119dc0bdb81236252001d0c655ad929feed1.png',
          "classification": 'Способность',
@@ -1060,8 +1072,8 @@
          "radius": '5y',
          "content": "Удар, наносящий урон с силой атаки 6,000 по всем окружающим противникам.<br/>Дополнительный эффект: поглощает 50% нанесенного урона в виде HP<br/>Дальность действия увеличивается на 15 ялмов, а сила атаки удваивается для врагов в радиусе 5 ялмов, находящихся под действием эффекта Snake's Bane.<br/>Эффекты Hardened Scales и Snake's Bane исчезают после использования.<br/>Может быть использовано только под действием эффекта Hardened Scales.<br/><br/>※Это умение нельзя поместить на хотбар.",
       },
-      // PVP Skill 28 LB
-      "PVP Skill 28": {
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'World-swallower',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ed95dc742df4e9795e7c0a72e18eb72d0d00293a.png',
          "cast": 'Мгновенная',
