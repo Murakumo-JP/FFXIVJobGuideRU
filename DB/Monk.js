@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Bootshine',
@@ -742,42 +742,6 @@
       },
       // PVP Skill 01
       "PVP Skill 01": {
-         "name": 'Bootshine',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a308885df8d02be9db7168e1a6499fd874c3693d.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 3,000.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 02
-      "PVP Skill 02": {
-         "name": 'True Strike',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c2b81787340e6f18744ba26619a422f84093499c.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Комбо умение: Bootshine<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 03
-      "PVP Skill 03": {
-         "name": 'Snap Punch',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5216fce6eb0e1f98a22673993403c01005144e3e.png',
-         "classification": 'Боевой навык',
-         "cast": 'Мгновенная',
-         "recast": '2 сек.',
-         "range": '5y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение:True Strike<br/>Дополнительный эффект: увеличивает продолжительность Wind Resonance на 5 сек., вплоть до 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 04
-      "PVP Skill 04": {
          "name": 'Dragon Kick',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5ec9494d0971929187228a39aaff90a2b3d6a634.png',
          "classification": 'Боевой навык',
@@ -788,8 +752,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 3,000.<br/>Комбо умение: Snap Punch<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 05
-      "PVP Skill 05": {
+      // PVP Skill 02
+      "PVP Skill 02": {
          "name": 'Twin Snakes',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/527f4b68d64733c38d667f81c5e1f9d4875127ac.png',
          "classification": 'Боевой навык',
@@ -800,8 +764,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Комбо умение: Dragon Kick<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 06
-      "PVP Skill 06": {
+      // PVP Skill 03
+      "PVP Skill 03": {
          "name": 'Demolish',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/67078f08b4af6bacf409e67e4afca97ade589d1d.png',
          "classification": 'Боевой навык',
@@ -811,6 +775,42 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Twin Snakes<br/>Дополнительный эффект: увеличивает продолжительность Wind Resonance на 5 сек., вплоть до 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 04
+      "PVP Skill 04": {
+         "name": 'Leaping Opo',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/566b6d31e2d4c1ac44da81f083861c60c96728ac.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '1.8 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 05
+      "PVP Skill 05": {
+         "name": 'Rising Raptor',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5c2b28f59b51e7c50f02730a081416d7c5523af2.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '1.8 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 06
+      "PVP Skill 06": {
+         "name": 'Pouncing Coeurl',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b677856385083b5b693f6f6ff5dd1a444fa7f30d.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '1.8 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
       },
       // PVP Skill 07
       "PVP Skill 07": {
@@ -826,27 +826,27 @@
       },
       // PVP Skill 08
       "PVP Skill 08": {
-         "name": 'Six-sided Star',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4092af75879715af0b2b3ed04d26c4ebaee5aa1e.png',
-         "classification": 'Способность',
+         "name": "Flint's Reply",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/eeb120826b31f63f3c66b81fa115e2544ec9093c.png',
+         "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '5y',
+         "recast": '8.64 сек.',
+         "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: увеличивает скорость передвижения на 25%<br/>Продолжительность: 5 сек.',
+         "content": '',
       },
       // PVP Skill 09
       "PVP Skill 09": {
-         "name": 'Enlightenment',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/826cec4e0ac932a29b38e6c8d19c1246615fdfca.png',
+         "name": "Wind's Reply",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d3e8881fa1db7986d1f229f79aec9ceaa9e9205d.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '20 сек.',
          "range": '10y',
          "radius_img": 'R6',
          "radius": '10y',
-         "content": 'Удар, наносящий урон с силой атаки 8,000 по всем противникам по прямой линии перед персонажем.<br/>Дополнительный эффект: отталкивает первую цель на 15 ялмов<br/>Также поражает первую цель эффектом Pressure Point, если она успешно оттолкнута.<br/>Эффект  Pressure Point: следующий боевой навык или Meteodrive, использованный по цели, нанесет дополнительный урон с силой атаки 8,000 <br/>Продолжительность: 3 сек.<br/>Эффект Pressure Point заканчивает свое действие после нанесения дополнительного урона.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.',
+         "content": '',
       },
       // PVP Skill 10
       "PVP Skill 10": {
@@ -886,6 +886,18 @@
       },
       // PVP Skill 13
       "PVP Skill 13": {
+         "name": "Fire's Reply",
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1ae1ba21d1370ccd4b265997c90fe227ed8d0766.png',
+         "classification": 'Боевой навык',
+         "cast": 'Мгновенная',
+         "recast": '1.8 сек.',
+         "range": '20y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 14
+      "PVP Skill 14": {
          "name": "Earth's Reply",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c5310e97e21000736821f990996a09f2d0bba1e6.png',
          "classification": 'Способность',
@@ -896,8 +908,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий физический урон всем ближайшим противникам и восстанавливает HP персонажа.<br/>Сила урона: 2,000 плюс 25% от полученного урона<br/>Сила лечения: 4,000 плюс 50 % от полученного урона<br/>Может быть использовано только под действием эффекта Earth Resonance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 14
-      "PVP Skill 14": {
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Meteodrive',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/db4da14c2bf5aabe9de5c2cc782225c7fb13b9a8.png',
          "cast": 'Мгновенная',
