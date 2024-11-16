@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Blizzard',
@@ -761,18 +761,30 @@
       },
       // PVP Skill 05
       "PVP Skill 05": {
-         "name": 'Night Wing',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/39b84e9b07f19b7d4fd195171668fc71d98d438b.png',
-         "classification": 'Способность',
+         "name": 'Xenoglossy',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/8d1d9703cb27200f8d56f29cdcf335d1dc7f1101.png',
+         "classification": 'Заклинание',
          "cast": 'Мгновенная',
-         "recast": '30 сек.',
+         "recast": '16 сек.',
          "range": '25y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Накладывает на цель и всех ближайших противников эффект полу-сон (half-sleep).<br/>Продолжительность: 3 сек.<br/>Эффект Half-asleep: цель погружается в сон (sleep) по истечении действия эффекта<br/>Продолжительность: 3 сек.<br/>Цели, находящиеся под действием эффекта сон (sleep), получают дополнительный урон с силой атаки 8,000, после чего эффект рассеется.',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": ' ',
       },
       // PVP Skill 06
       "PVP Skill 06": {
+         "name": 'Lethargy',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d892d6cb9e7656c7331d7a7336127ca55292e3c5.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '16 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 07
+      "PVP Skill 07": {
          "name": 'Aetherial Manipulation',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b7bfe048da3d02b5572be0dfa123d46be0ca3784.png',
          "classification": 'Способность',
@@ -783,20 +795,32 @@
          "radius": '0y',
          "content": 'Мгновенное перемещение к сопартийцу или в противнику.<br/>Дополнительный эффект: накладывает эффект Swiftcast<br/>Эффект Swiftcast: следующее заклинание можно использовать мгновенно<br/>Продолжительность: 10 сек.<br/>Максимум зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.',
       },
-      // PVP Skill 07
-      "PVP Skill 07": {
-         "name": 'Superflare',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/6864c3e2bb745d9715492532ad74a4277ea5b2ab.png',
+      // PVP Skill 08
+      "PVP Skill 08": {
+         "name": 'Elemental Weave',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/149acbbde977039fb3ec6373b8b17b9a87e3079e.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
          "range": '0y',
-         "radius_img": 'R2',
-         "radius": '30y',
-         "content": 'Удар, наносящий урон по всем ближайшим противникам с силой атаки от 3,000 до 9,000, в зависимости от количество стаков эффекта Astral Warmth или Umbral Freeze на них.<br/>Дополнительный эффект: противники, находящиеся под действием эффекта Astral Warmth, получают Burns, наносящий периодический урон огнем<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/>Длительность увеличивается на 3 сек. за каждый дополнительный стак Astral Warmth, вплоть до 12 сек.<br/>Дополнительный эффект: противники, находящиеся под действием эффекта Umbral Freeze, получают негативный статус, соответствующее количеству накопленных стаков<br/>1 стак: тяжесть (heavy)<br/>2 стака: связывание (bind)<br/>3 стака: глубокая заморозка (deep freeze)<br/>Продолжительность: 2 сек.<br/>Максимум зарядов: 2',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": ' ',
       },
-      // PVP Skill 08
-      "PVP Skill 08": {
+      // PVP Skill 09
+      "PVP Skill 09": {
+         "name": 'Fire III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4377a1577e112a8ad4bc7edb0d6bdcadda363ba.png',
+         "classification": 'Заклинание',
+         "cast": '1.44 сек.',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Fire IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c19670b228b7a32f1555a892ad6c6f6cf5a299eb.png',
          "classification": 'Заклинание',
@@ -807,8 +831,20 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон огнем с силой атаки 6,000.<br/>Дополнительный эффект: накладывает на цель стак эффекта Astral Warmth, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Umbral Freeze.<br/>Дополнительный эффект: накладывает эффект Astral Fire III<br/>Продолжительность: 30 сек.<br/>Эффект не складывается с эффектом Umbral Ice.<br/>Можно использовать только под действием эффекта Astral Fire II.<br/><br/>※Умение меняется на Flare под действием эффекта Astral Fire III.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 09
-      "PVP Skill 09": {
+      // PVP Skill 11
+      "PVP Skill 11": {
+         "name": 'High Fire II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2ca4ab1694ca1efcaa13a0fa7e56272629ba9d17.png',
+         "classification": 'Заклинание',
+         "cast": '1.44 сек.',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 12
+      "PVP Skill 12": {
          "name": 'Flare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e741977a1edf3dd9346fda665513f44e2f3657f4.png',
          "classification": 'Заклинание',
@@ -819,44 +855,104 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон огнем с силой атаки 12,000 по цели и 8,000 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель стак эффекта Astral Warmth, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Umbral Freeze<br/>Можно использовать только под действием эффекта Astral Fire III.<br/>Эффект Astral Fire III прекращается после использования.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 10
-      "PVP Skill 10": {
+      // PVP Skill 13
+      "PVP Skill 13": {
+         "name": 'Blizzard III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3f8508e9dd5fbda8b464b1184456225d8a3fba63.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 14
+      "PVP Skill 14": {
          "name": 'Blizzard IV',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07ed8d0a26c2565eb1b299106a1cf65e947f1c6f.png',
          "classification": 'Заклинание',
-         "cast": '1.44 сек.',
+         "cast": 'Мгновенная',
          "recast": '2.4 сек.',
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий урон льдом с силой атаки 6,000.<br/>Дополнительный эффект: накладывает на цель стак эффекта Umbral Freeze, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Astral Warmth.<br/>Дополнительный эффект: накладывает эффект Umbral Ice III<br/>Продолжительность: 30 сек.<br/>Эффект не складывается с эффектом Astral Fire.<br/>Можно использовать только под действием эффекта Umbral Ice II.<br/><br/>※Умение меняется на Freeze под действием эффекта Umbral Ice II.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 11
-      "PVP Skill 11": {
-         "name": 'Freeze',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aafe3a863f3f3f97139afda8225384ef31a5dd96.png',
-         "classification": 'Заклинание',
-         "cast": '1.44 сек.',
-         "recast": '2.4 сек.',
-         "range": '25y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий урон льдом с силой атаки 12,000 по цели и 8,000 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель стак эффекта Umbral Freeze, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Astral Warmth.<br/>Можно использовать только под действием эффекта Umbral Ice III.<br/>Эффект Umbral Ice III прекращается после использования.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 12
-      "PVP Skill 12": {
-         "name": 'Foul',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c69c9a5fc01ef8c831af84aff7d3d7c5cba0d1f0.png',
+      // PVP Skill 15
+      "PVP Skill 15": {
+         "name": 'High Blizzard II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/17b71de195886959237e059da290f18a15b7ce82.png',
          "classification": 'Заклинание',
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 16,000 по цели и всем ближайшим противникам.<br/>Можно использовать только под действием эффекта Polyglot.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": '',
       },
-      // PVP Skill 13
-      "PVP Skill 13": {
+      // PVP Skill 16
+      "PVP Skill 16": {
+         "name": 'Freeze',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/aafe3a863f3f3f97139afda8225384ef31a5dd96.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Удар, наносящий урон льдом с силой атаки 12,000 по цели и 8,000 по всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на цель стак эффекта Umbral Freeze, вплоть до 3<br/>Продолжительность: 15 сек.<br/>Эффект не складывается с эффектом Astral Warmth.<br/>Можно использовать только под действием эффекта Umbral Ice III.<br/>Эффект Umbral Ice III прекращается после использования.<br/><br/>※Это умение нельзя поместить на хотбар.',
+      },
+      // PVP Skill 17
+      "PVP Skill 17": {
+         "name": 'Wreath of Fire',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b04bdeff71509c8b458f0f014b2b45d1916f213c.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": ' ',
+      },
+      // PVP Skill 18
+      "PVP Skill 18": {
+         "name": 'Wreath of Ice',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/c569d01f8dc94cc00224bde48a1b361c0f230008.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 19
+      "PVP Skill 19": {
+         "name": 'Flare Star',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/461c3195ccdfe578730607501433fe1f2866b2fc.png',
+         "classification": 'Spell',
+         "cast": '1.44 сек.',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 20
+      "PVP Skill 20": {
+         "name": 'Frost Star',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/070c3efb2ebffae5c55c3c3ba76d03dcb0bc16ef.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Soul Resonance',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b834e18e2f5e1eb8dcdde2e1360761650e6296a3.png',
          "cast": 'Мгновенная',
