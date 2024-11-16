@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Split Shot',
@@ -766,6 +766,18 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
+         "name": 'Full Metal Field',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a280d91d346e69536185448d513b18b2977d985a.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '40 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 05
+      "PVP Skill 05": {
          "name": 'Wildfire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/95728389d41fbd0e5d09f80b2c0d10df41441cd9.png',
          "classification": 'Способность',
@@ -776,8 +788,8 @@
          "radius": '0y',
          "content": 'Окутывает цель медленно горящим огнем, накладывая эффект Wildfire. Наносит урон цели и всем противникам в радиусе 5 ялмов по истечении времени.<br/>Продолжительность: 7 сек.<br/>Сила атаки увеличивается на 4,000 за каждое атакующее умение персонажа, которое он совершаете до окончания действия эффекта.<br/>Если персонаж нанесет 3 атакующих умения по цели, то медленно горящая цель немедленно взорвется.',
       },
-      // PVP Skill 05
-      "PVP Skill 05": {
+      // PVP Skill 06
+      "PVP Skill 06": {
          "name": 'Bishop Autoturret',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/5b81ea0d7793a71e83ebe7472ce3f860a51a842a.png',
          "classification": 'Способность',
@@ -788,8 +800,8 @@
          "radius": '5y',
          "content": 'Развертывает боевую турель, которая будет наносить авто атаки по противникам с силой атаки 6,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек.',
       },
-      // PVP Skill 06
-      "PVP Skill 06": {
+      // PVP Skill 07
+      "PVP Skill 07": {
          "name": 'Analysis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/38dc9d35007c7cdc38d10d63379748401fed9939.png',
          "classification": 'Способность',
@@ -800,20 +812,20 @@
          "radius": '0y',
          "content": 'Накладывает эффект, дающий дополнительные эффекты умениям Drill, Bioblaster, Air Anchor и Chain Saw при использовании этих боевых навыков.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект Drill: сила атаки увеличена до 200%<br/>Дополнительный эффект Bioblaster: удваивает силу атаки и накладывает цель тяжесть (heavy) +75%<br/>Дополнительный эффект Air Anchor: сила атаки увеличена на 50%, а эффект связывания (bind) становится оглушением (stun)<br/>Дополнительный эффект Chain Saw: сила атаки увеличена на 50%<br/>Максимум зарядов: 2',
       },
-      // PVP Skill 07
-      "PVP Skill 07": {
-         "name": 'Heat Blast',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/84a05c1b20f3981ddf99a23880ea9a2063fe87b2.png',
+      // PVP Skill 08
+      "PVP Skill 08": {
+         "name": 'Blazing Shot',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/3d3fd3374284bfe2495f1658b107a7437ff01bad.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '1.5 сек.',
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Дальний удар, наносящий урон с силой атаки 6,000.<br/>Может быть использовано только под действием эффекта Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "content": ' ',
       },
-      // PVP Skill 08
-      "PVP Skill 08": {
+      // PVP Skill 09
+      "PVP Skill 09": {
          "name": 'Bioblaster',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/70783248b63c783d9df10fbe8f420ec6954d9eab.png',
          "classification": 'Боевой навык',
@@ -824,8 +836,8 @@
          "radius": '12y',
          "content": 'Удар, наносящий урон с силой атаки 4,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: удваивает силу атаки и накладывает на цель тяжесть (heavy) +75% при наличии эффекта Analysis<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: периодический урон<br/>Potency: 4,000<br/>Продолжительность: 12 сек.<br/>Удвоение силы атаки не распространяется на эффект периодического урона.<br/>Дополнительный эффект: накладывает эффект Air Anchor Primed<br/>Maximum Charges: 2<br/>Может быть использовано только под действием эффекта Bioblaster Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Air Anchor под действием эффекта Air Anchor Primed.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 09
-      "PVP Skill 09": {
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Air Anchor',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/120150f155ff0887d5b979ef25e82df2232e2afe.png',
          "classification": 'Боевой навык',
@@ -836,8 +848,8 @@
          "radius": '0y',
          "content": 'Дальний удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 3 сек.<br/>Дополнительные эффекты: сила атаки увеличивается на 50%, а эффект связывания (bind) становится оглушением (stun) при наличии эффекта Analysis<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: накладывает эффект Chain Saw Primed<br/>Максимум зарядов: 2<br/>Может быть использовано только под действием эффекта Air Anchor Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Chain Saw под действием эффекта Chain Saw Primed.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 10
-      "PVP Skill 10": {
+      // PVP Skill 11
+      "PVP Skill 11": {
          "name": 'Chain Saw',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/acbc270d0d2e6192541800dcc280c80a7eae3bba.png',
          "classification": 'Боевой навык',
@@ -848,8 +860,20 @@
          "radius": '25y',
          "content": 'Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается на 50%, если HP цели ниже 50%.<br/>Дополнительный эффект: сила атаки увеличивается на 50% при наличии эффекта Analysis<br/>Дополнительный эффект: накладывает эффект Drill Primed<br/>Максимум зарядов: 2<br/>Может быть использовано только под действием эффекта Chain Saw Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Drill под действием эффекта Drill Primed.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 11
-      "PVP Skill 11": {
+      // PVP Skill 12
+      "PVP Skill 12": {
+         "name": 'Detonator',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/54d3f10b024f47996e6cdaeb9f59b47448543872.png',
+         "classification": 'Способность',
+         "cast": 'Мгновенная',
+         "recast": '1 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 13
+      "PVP Skill 13": {
          "name": 'Aether Mortar',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e630bb066bbc76a8e961d011612bbdcdaf9509d2.png',
          "classification": 'Способность',
@@ -860,8 +884,8 @@
          "radius": '5y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000 по всем ближайшим противникам.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 12
-      "PVP Skill 12": {
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": "Marksman's Spite",
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b641fb27f646df1959aa4754f6389d54fd20b9d5.png',
          "cast": 'Мгновенная',

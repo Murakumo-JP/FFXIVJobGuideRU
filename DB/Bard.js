@@ -1,7 +1,7 @@
 (() =>{
     let db = {
-      "PVE Update": `Последнее обновление: 27/06/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Heavy Shot',
@@ -693,6 +693,18 @@
       },
       // PVP Skill 03
       "PVP Skill 03": {
+         "name": 'Harmonic Arrow',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ba6c2c8c66fa2c9a2ea245ee45863385dfc1bb6e.png',
+         "classification": 'Weaponskill',
+         "cast": 'Instant',
+         "recast": '16 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 04
+      "PVP Skill 04": {
          "name": 'Silent Nocturne',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2395550790bebce8b41c868606b68c5860ead521.png',
          "classification": 'Способность',
@@ -702,18 +714,6 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Накладывает на цель эффект безмолвия (silence).<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает Repertoire<br/>Продолжительность: 10 сек.<br/><br/>※Powerful Shot меняется на Pitch Perfect под действием эффекта Repertoire.',
-      },
-      // PVP Skill 04
-      "PVP Skill 04": {
-         "name": 'Empyreal Arrow',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/66bdfeef4a4d6ddb46e7727ee55cb30e994f9bbc.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Дальний удар, наносящий урон с силой атаки 3,000.<br/>При использовании расходует все заряды, каждый из которых добавляет дополнительный удар к атаке.<br/>Максимум зарядов: 3',
       },
       // PVP Skill 05
       "PVP Skill 05": {
@@ -747,8 +747,8 @@
          "cast": 'Мгновенная',
          "recast": '2.4 сек.',
          "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
+         "radius_img": 'R2',
+         "radius": '5y',
          "content": 'Дальний удар, наносящий урон с силой атаки 4,000.<br/>Сила атаки увеличивается увеличивается пропорционально расстоянию до цели, вплоть до 6,000 и достигает максимума, когда цель находится на расстоянии 15 ялмов.<br/>Дополнительный эффект: уменьшает время повторного применения Empyreal Arrow на 5 сек.<br/>Может быть использован только под эффектом Repertoire.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 08
@@ -765,6 +765,18 @@
       },
       // PVP Skill 09
       "PVP Skill 09": {
+         "name": 'Encore of Light',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b4a764dfa850a84439e920b436b7e0ff4f18d01f.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '1 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Final Fantasia',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/671e19fca51076d955a751ca8cf0b8f0c024d13b.png',
          "cast": 'Мгновенная',
