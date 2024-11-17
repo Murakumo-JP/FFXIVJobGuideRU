@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Riposte',
@@ -787,15 +787,15 @@
       },
       // PVP Skill 01
       "PVP Skill 01": {
-         "name": 'Verstone',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9df7186ba12f011456175039cccc827396f24b22.png',
-         "classification": 'Заклинание',
-         "cast": '1.92 сек.',
+         "name": 'Jolt III',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/33860679da3fbc2e8cf8864ce640f369c13163d4.png',
+         "classification": 'Spell',
+         "cast": '1.44 сек.',
          "recast": '2.4 сек.',
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон землей с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Dualcast, позволяющую мгновенно использовать следующее заклинание<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта White Shift.<br/><br/>※Умение меняется на Dualcast под действием эффекта Veraero III.<br/>※Умение меняется на Verfire под действием эффекта Black Shift.<br/>※Умение меняется на Verthunder III под действием эффектов Black Shift и Dualcast.',
+         "content": '',
       },
       // PVP Skill 02
       "PVP Skill 02": {
@@ -823,15 +823,15 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
-         "name": 'Magick Barrier',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a18eb34f3095e008c14b977841ebd45e02ef04d4.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '25 сек.',
+         "name": 'Embolden',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/54a392e5b56bf4a5030af1f6bc369afd37f91b3a.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '24 сек.',
          "range": '0y',
          "radius_img": 'R2',
-         "radius": '15y',
-         "content": 'Снижает урон, получаемый персонажем и ближайшими сопартийцами на 10%, а также увеличивает восстановление HP при использовании лечебных умений на 10%.<br/>Продолжительность: 10 сек.<br/>Может быть выполнено только под действием эффекта White Shift.<br/>Имеет общее время восстановления с умением Frazzle.<br/><br/>※Умение меняется на Frazzle под действием эффекта Black Shift.',
+         "radius": '30y',
+         "content": '',
       },
       // PVP Skill 05
       "PVP Skill 05": {
@@ -859,78 +859,30 @@
       },
       // PVP Skill 07
       "PVP Skill 07": {
-         "name": 'Black Shift',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ae0ecdc73d81aa25cff5dd887ee3381de4d9328c.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
+         "name": 'Forte',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/ea0142f5424d599e39076a6c9bac6ab9aac876ce.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Накладывает эффект Black Shift, изменяющее эффекты нескольких умений.<br/>Можно использовать только под действием эффекта White Shift.<br/><br/>※Умение меняется на White Shift после использования.',
+         "content": '',
       },
       // PVP Skill 08
       "PVP Skill 08": {
-         "name": 'Veraero III',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/24a8dde706c9065539f39a69856dd5590e6e2657.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
+         "name": 'Grand Impact',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/69e3cddfaf05c365aa386853c33eb5864aaf4735.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
          "recast": '2.4 сек.',
          "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон ветром с силой атаки 5 000.<br/>Можно использовать только под действием эффектов White Shift и Dualcast.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
       },
       // PVP Skill 09
       "PVP Skill 09": {
-         "name": 'Verholy',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/07cf43acafca1e04285879b3a5027c5cc7c6d135.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2.4 сек.',
-         "range": '25y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон по цели и всем ближайшим противникам с силой атаки 8,000.<br/>Дополнительный эффект: восстанавливает HP персонажа<br/>Сила лечения: 8,000<br/>Дополнительный эффект: восстанавливает HP сопартийцев, находящихся рядом с целью<br/>Сила лечения: 8,000<br/>Можно использовать только под действием эффектов White Shift и Vermilion Radiance.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 10
-      "PVP Skill 10": {
-         "name": 'Verfire',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/924e11f407179cd1d2bdedaac9eccbf157425635.png',
-         "classification": 'Заклинание',
-         "cast": '1.92 сек.',
-         "recast": '2.4 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон огнем с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Dualcast, позволяющую мгновенно использовать следующее заклинание<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Black Shift.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 11
-      "PVP Skill 11": {
-         "name": 'Verthunder III',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1878973a204eebd0d777a7f32cf11e03c53405ff.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2.4 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий урон молнией с силой атаки 5,000.<br/>Можно использовать только под действием эффектов Black Shift и Dualcast.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 12
-      "PVP Skill 12": {
-         "name": 'Verflare',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/94fb60c36518f1f3988644ffdcc786c49446eb0d.png',
-         "classification": 'Заклинание',
-         "cast": 'Мгновенная',
-         "recast": '2.4 сек.',
-         "range": '25y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 12,000.<br/>Можно использовать только под действием эффектов Black Shift и Vermilion Radiance.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 13
-      "PVP Skill 13": {
          "name": 'Enchanted Zwerchhau',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e908bf25ba9fac88edf30da9b4edf9b8bcbf1758.png',
          "classification": 'Боевой навык',
@@ -941,8 +893,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 7,000.<br/>Комбо умение: Enchanted Riposte<br/>Эффект White Shift : создает барьер вокруг персонажа, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: сила барьера увеличивается на 10%, если на цель наложен эффект Monomachy<br/>Эффект Black Shift: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/><br/>※Умение меняется на Enchanted Redoublement после использования.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 14
-      "PVP Skill 14": {
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Enchanted Redoublement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b2f8944b29325a91ae300010c1fb774e9d53316e.png',
          "classification": 'Боевой навык',
@@ -953,32 +905,44 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 8,000.<br/>Комбо умение: Enchanted Zwerchhau<br/>Дополнительный эффект: накладывает эффект Vermilion Radiance<br/>Продолжительность: 10 сек.<br/>Эффект White Shift: создает барьер вокруг персонажа, поглощающая урон, равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: сила барьера увеличивается на 10%, если на цель наложен эффект Monomachy<br/>Эффект Black Shift: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 6 сек.<br/><br/>※Умение меняется на Verholy под действием эффектов White Shift и Vermilion Radiance.<br/>※Умение меняется на Verflare под действием эффектов Black Shift и Vermilion Radiance.<br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 15
-      "PVP Skill 15": {
-         "name": 'Frazzle',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/1acc1c44ad72be77ee1391495ad6b3a48254d7ba.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '25 сек.',
-         "range": '0y',
+      // PVP Skill 11
+      "PVP Skill 11": {
+         "name": 'Scorch',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/110f1fc97444637fd2fdc4f35f82cc4da3f4b2de.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '25y',
          "radius_img": 'R2',
-         "radius": '15y',
-         "content": 'Увеличивает получаемый урон ближайших противников на 10%, а также уменьшает HP, восстанавливаемое исцеляющими умениями на 10%.<br/>Продолжительность: 10 сек.<br/>Можно использовать только под действием эффекта Black Shift.<br/>Имеет общее время восстановления с умением Magick Barrier.<br/><br/>※Это умение нельзя поместить на хотбар.',
+         "radius": '5y',
+         "content": '',
       },
-      // PVP Skill 16
-      "PVP Skill 16": {
-         "name": 'White Shift',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/15220233b94a04dc32fa1b3aafcd4d996e47e47c.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
+      // PVP Skill 12
+      "PVP Skill 12": {
+         "name": 'Prefulgence',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/9cc3b352b38d3b755927fd84d40a923373cd58b2.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 13
+      "PVP Skill 13": {
+         "name": 'Vice of Thorns',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/e2b4a9ae89b7d2b17ec99c36fae1772ad0377d9b.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
          "recast": '1 сек.',
-         "range": '0y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Накладывает эффект White Shift, изменяющее эффекты нескольких умений.<br/>Можно использовать только под действием эффекта Black Shift.<br/>Автоматически активируется при смене класса на красного мага.<br/><br/>※Умение меняется на Black Shift после использования.<br/>※Это умение нельзя поместить на хотбар.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
       },
-      // PVP Skill 17
-      "PVP Skill 17": {
+      // PVP Skill LB
+      "PVP Skill LB": {
          "name": 'Southern Cross',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png',
          "cast": 'Мгновенная',

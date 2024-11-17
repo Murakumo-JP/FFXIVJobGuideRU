@@ -1,7 +1,7 @@
 (() =>{
    let db = {
-      "PVE Update": `Последнее обновление: 30/07/2024`,
-      "PVP Update": `Последнее обновление: 27/06/2024`,
+      "PVE Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 12/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Ruin',
@@ -1442,16 +1442,17 @@
       },
       // PVP Skill 02
       "PVP Skill 02": {
-         "name": 'Crimson Cyclone',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79fa50e276f79eda778dfce164dc19481e609e30.png',
-         "classification": 'Заклинание',
+         "name": 'Mountain Buster',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4fc71ae248e50adc69b9c80b00442de765b93d4b.png',
+         "classification": 'Способность',
          "cast": 'Мгновенная',
          "recast": '15 сек.',
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Рывок вперед и удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 8,000.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Это умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Crimson Strike после использования.',
+         "content": 'Удар, наносящий урон землей с силой атаки 4,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект связывание (bind), а на все остальные цели - тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: притягивает остальные цели к первой',
       },
+      
       // PVP Skill 03
       "PVP Skill 03": {
          "name": 'Slipstream',
@@ -1466,6 +1467,30 @@
       },
       // PVP Skill 04
       "PVP Skill 04": {
+         "name": 'Crimson Cyclone',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/79fa50e276f79eda778dfce164dc19481e609e30.png',
+         "classification": 'Заклинание',
+         "cast": 'Мгновенная',
+         "recast": '15 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": 'Рывок вперед и удар, наносящий урон огнем по цели и всем ближайшим противникам с силой атаки 8,000.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Это умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Crimson Strike после использования.',
+      },
+      // PVP Skill 05
+      "PVP Skill 05": {
+         "name": 'Necrotize',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4d754f3d97b8dcf60ebfd971b73e5368971e3965.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '12 сек.',
+         "range": '25y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": '',
+      },
+      // PVP Skill 06
+      "PVP Skill 06": {
          "name": 'Radiant Aegis',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/b85eed363cf03ccdd2ddb535f391e2578dc27f61.png',
          "classification": 'Способность',
@@ -1476,32 +1501,20 @@
          "radius": '0y',
          "content": 'оздает барьер вокруг персонажа или выбранного сопартийца, снижающий получаемый урон на 20% и поглощающий урон, равный силе лечения 10,000.<br/>Продолжительность: 10 сек.',
       },
-      // PVP Skill 05
-      "PVP Skill 05": {
-         "name": 'Mountain Buster',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4fc71ae248e50adc69b9c80b00442de765b93d4b.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
+      // PVP Skill 07
+      "PVP Skill 07": {
+         "name": 'Ruin IV',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f8b0bec880b47f638a9fe401def3fed21370580b.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '2.4 сек.',
          "range": '25y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар, наносящий урон землей с силой атаки 4,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект связывание (bind), а на все остальные цели - тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: притягивает остальные цели к первой',
+         "content": '',
       },
-      // PVP Skill 06
-      "PVP Skill 06": {
-         "name": 'Fester',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a3ee44589112e6e3be04096f2b468bf6c6cb44bc.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '15 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 4,000.<br/>Сила атаки увеличивается по мере уменьшения HP цели, вплоть до 8,000, и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Максимум зарядов: 2',
-      },
-      // PVP Skill 07
-      "PVP Skill 07": {
+      // PVP Skill 08
+      "PVP Skill 08": {
          "name": 'Astral Impulse',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/a4f03f56fc241517b2f1d3b66f44968caf83d6f7.png',
          "classification": 'Заклинание',
@@ -1512,8 +1525,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 7,500.<br/>Может быть использовано только под действием эффекта Dreadwyrm Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 08
-      "PVP Skill 08": {
+      // PVP Skill 09
+      "PVP Skill 09": {
          "name": 'Fountain of Fire',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/38e05864b47b78020da96fc263981869c4b6a5c9.png',
          "classification": 'Заклинание',
@@ -1524,8 +1537,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон огнем с силой атаки 5,000.<br/>Может быть использовано только под действием эффекта Firebird Trance.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 09
-      "PVP Skill 09": {
+      // PVP Skill 10
+      "PVP Skill 10": {
          "name": 'Crimson Strike',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/20b52c9ffc91356c6aceaaf9752e942df7bceffb.png',
          "classification": 'Заклинание',
@@ -1536,20 +1549,32 @@
          "radius": '5y',
          "content": 'Удар, наносящий урон огнем с силой атаки 12000 по цели и всем ближайшим противникам.<br/>Комбо умение: Crimson Cyclone<br/>Дополнительный эффект: отталкивает противников на 5 ялмов от первой цели<br/>Это умение не имеет общего времени восстановления с другими умениями. <br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 10
-      "PVP Skill 10": {
-         "name": 'Enkindle Bahamut',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/527ed62ae9f390bfc9ca7280f99d4d44a5d6d623.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Приказывает Demi-Bahamut использовать Akh Morn.<br/>Эффект Akh Morn: удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем ближайшим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
       // PVP Skill 11
       "PVP Skill 11": {
+         "name": 'Deathflare',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2debb2b7003d1f2e47bedc8444867d059fa80371.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 12
+      "PVP Skill 12": {
+         "name": 'Brand of Purgatory',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/263f013078d0d6bedf26eaabc03f7db2574460dc.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '20 сек.',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '5y',
+         "content": '',
+      },
+      // PVP Skill 13
+      "PVP Skill 13": {
          "name": 'Wyrmwave',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/486ac3f0e00283c10de5009a26b0cc90c3c424d4.png',
          "classification": 'Заклинание',
@@ -1559,30 +1584,6 @@
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 12
-      "PVP Skill 12": {
-         "name": 'Akh Morn',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/527ed62ae9f390bfc9ca7280f99d4d44a5d6d623.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "range": '100y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем ближайшим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 13
-      "PVP Skill 13": {
-         "name": 'Enkindle Phoenix',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/f372829c6195b29b0bc550a544a39e1307e859b6.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '20 сек.',
-         "range": '25y',
-         "radius_img": 'R1',
-         "radius": '0y',
-         "content": 'Приказывает Demi-Phoenix использовать Revelation.<br/>Эффект Revelation: удар, наносящий нестихийный урон с силой атаки 6000 по цели и всем ближайшим противникам<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
       // PVP Skill 14
       "PVP Skill 14": {
@@ -1596,20 +1597,8 @@
          "radius": '0y',
          "content": 'Удар, наносящий урон огнем с силой атаки 4,000.<br/>Дополнительный эффект: снижает наносимый целью урон на 50%<br/>Продолжительность: 5 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 15
-      "PVP Skill 15": {
-         "name": 'Revelation',
-         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7b2d75cdeffd1d00b2e2088f9073b3d02f7da5e1.png',
-         "classification": 'Способность',
-         "cast": 'Мгновенная',
-         "recast": '1 сек.',
-         "range": '100y',
-         "radius_img": 'R2',
-         "radius": '5y',
-         "content": 'Удар, наносящий нестихийный урон с силой атаки 6,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 3,000<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.',
-      },
-      // PVP Skill 16
-      "PVP Skill 16": {
+      // PVP Skill LB1
+      "PVP Skill LB1": {
          "name": 'Summon Bahamut',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7ef1dd621306bd909533ec27e89d0c1dc00da182.png',
          "cast": 'Мгновенная',
@@ -1619,8 +1608,8 @@
          "radius": '15y',
          "content": 'Персонаж входит в Dreadwyrm Trance и вызывает Demi-Bahamut на выбранное место.<br/>Продолжительность: 20 сек.<br/>После призыва Demi-Bahamut применит Megaflare, а затем автоматически использует Wyrmwave, отдавая предпочтение целям с наименьшим количеством HP в радиусе 30 ялмов.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Умение меняется на Enkindle Bahamut после использования.<br/>※Ruin III меняется на Astral Impulse после использования под эффектом Dreadwyrm Trance.',
       },
-      // PVP Skill 17
-      "PVP Skill 17": {
+      // PVP Skill LB2
+      "PVP Skill LB2": {
          "name": 'Megaflare',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/2a26548300186f20cfb000ecd2e279e952b0daf7.png',
          "cast": 'Мгновенная',
@@ -1630,8 +1619,8 @@
          "radius": '15y',
          "content": 'Удар, наносящий нестихийный урон с силой атаки 18000 по всем ближайшим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.',
       },
-      // PVP Skill 18
-      "PVP Skill 18": {
+      // PVP Skill LB3
+      "PVP Skill LB3": {
          "name": 'Summon Phoenix',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/43a7121c604b4da78f2a9d4110cc2a85bc6c6425.png',
          "cast": 'Мгновенная',
@@ -1641,8 +1630,8 @@
          "radius": '15y',
          "content": 'Персонаж входит в Firebird Trance и вызывает Demi-Phoenix на выбранное место.<br/>Продолжительность: 20 сек.<br/>После призыва Demi-Phoenix применит Everlasting Flight, а затем автоматически использует Scarlet Flame, выбирая ближайшую цель в радиусе 30 ялмов.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Умение меняется на Enkindle Phoenix после использования.<br/>※Ruin III меняется на Fountain of Fire после использования под эффектом Firebird Trance.',
       },
-      // PVP Skill 19
-      "PVP Skill 19": {
+      // PVP Skill LB4
+      "PVP Skill LB4": {
          "name": 'Everlasting Flight',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/790d6bfaf5e0b6360d2a39c760e66f1b92ba4b46.png',
          "cast": 'Мгновенная',
