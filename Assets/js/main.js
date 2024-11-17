@@ -9,18 +9,18 @@
 // 		 });
 // 	});
 // });
-$('tr').each(function() {
-   var titleText = [];
-   ['db-skill', 'db-role-action', 'db-skill-passive', 'db-role-traits', 'db-skill-pvp'].forEach(attr => {
-      var attrValue = $(this).attr(attr);
-      if (attrValue) {
-         titleText.push(attrValue);
-      }
-   });
-   if (titleText.length > 0) {
-      $(this).attr('title', titleText.join(', '));
-   }
-});
+// $('tr').each(function() {
+//    var titleText = [];
+//    ['db-skill', 'db-role-action', 'db-skill-passive', 'db-role-traits', 'db-skill-pvp'].forEach(attr => {
+//       var attrValue = $(this).attr(attr);
+//       if (attrValue) {
+//          titleText.push(attrValue);
+//       }
+//    });
+//    if (titleText.length > 0) {
+//       $(this).attr('title', titleText.join(', '));
+//    }
+// });
 // Doom Load
 $(document).ready(function () {
 	// Info Update
@@ -29,7 +29,29 @@ $(document).ready(function () {
 		$("#patch_info").prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="' +	patchLink +'">патчноутам</a>.');
 	}
 	addUpdateInfo("12.11.2024", "7.1", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/4ae80e9471306053afa281e8704dd0ed13ce530a");
-	// Warn Info
+	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
+	// Open JobMenu
+	$(".nav_floating_icon").click(() => {
+		$(".nav_floating_list").fadeToggle();
+	});
+	// Back to Top
+	let button = $('.nome_app_top');
+
+	$(window).on('scroll', function () {
+		if ($(this).scrollTop() >= 200) {
+			button.fadeIn();
+		} else {
+			button.fadeOut();
+		}
+	});
+
+	button.on('click', function (e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: 0 }, 1000);
+	});
+});
+// Warn Info
+$(document).ready(function () {
 	function ErrorInfo(info){
 		$('.job_skil_list, .warn_info').prepend('<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>'+info+'</p></div>');
 	}
@@ -67,29 +89,6 @@ $(document).ready(function () {
 		}
 		return null;
 	}
-	// SE
-	$(".SE").append(
-		'<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>'
-	);
-	// Open JobMenu
-	$(".nav_floating_icon").click(() => {
-		$(".nav_floating_list").fadeToggle();
-	});
-	// Back to Top
-	let button = $('.nome_app_top');
-
-	$(window).on('scroll', function () {
-		if ($(this).scrollTop() >= 200) {
-			button.fadeIn();
-		} else {
-			button.fadeOut();
-		}
-	});
-
-	button.on('click', function (e) {
-		e.preventDefault();
-		$('html, body').animate({ scrollTop: 0 }, 1000);
-	});
 });
 // Preloader
 document.body.onload = function () {
