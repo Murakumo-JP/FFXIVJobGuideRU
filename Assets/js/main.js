@@ -29,7 +29,41 @@ $(document).ready(function () {
 		$("#patch_info").prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="' +	patchLink +'">патчноутам</a>.');
 	}
 	addUpdateInfo("12.11.2024", "7.1", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/da01b0d2d5434cd2ccfcc87f733df7a590f97c00/");
-	//$('.job_skil_list, .warn_info').prepend('<div class="error_info"><h5>Важная информация!</h5><p>Обновлены все старые классы кроме двух новых.</p></div>');
+	// Warn Info
+	function ErrorInfo(info){
+		$('.job_skil_list, .warn_info').prepend('<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>'+info+'</p></div>');
+	}
+	ErrorInfo("Обновлены все старые классы кроме двух новых.")
+
+	const warnInfo = document.getElementById("warnInfo");
+	const closeInfo = document.getElementById("closeInfo");
+
+	if (getCookie("warnInfoHidden") === "true") {
+		warnInfo.classList.add("hidden");
+	}
+
+	closeInfo.addEventListener("click", function () {
+		warnInfo.classList.add("hidden");
+		setCookie("warnInfoHidden", "true", 7);
+	});
+
+	function setCookie(name, value, days) {
+		const date = new Date();
+		date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+		document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+	}
+
+	function getCookie(name) {
+		const cookies = document.cookie.split("; ");
+		for (const cookie of cookies) {
+				const [cookieName, cookieValue] = cookie.split("=");
+				if (cookieName === name) {
+					return cookieValue;
+				}
+		}
+		return null;
+	}
+	// SE
 	$(".SE").append(
 		'<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>'
 	);
