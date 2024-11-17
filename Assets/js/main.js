@@ -33,10 +33,14 @@ $(document).ready(function () {
 	function ErrorInfo(info){
 		$('.job_skil_list, .warn_info').prepend('<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>'+info+'</p></div>');
 	}
-	ErrorInfo("Обновлены все старые классы кроме двух новых.")
+	//ErrorInfo("Обновлены все старые классы кроме двух новых.")
 
 	const warnInfo = document.getElementById("warnInfo");
 	const closeInfo = document.getElementById("closeInfo");
+
+	if (!warnInfo || !closeInfo) {
+		return;
+	}
 
 	if (getCookie("warnInfoHidden") === "true") {
 		warnInfo.classList.add("hidden");
@@ -56,10 +60,10 @@ $(document).ready(function () {
 	function getCookie(name) {
 		const cookies = document.cookie.split("; ");
 		for (const cookie of cookies) {
-				const [cookieName, cookieValue] = cookie.split("=");
-				if (cookieName === name) {
+			const [cookieName, cookieValue] = cookie.split("=");
+			if (cookieName === name) {
 					return cookieValue;
-				}
+			}
 		}
 		return null;
 	}
@@ -131,6 +135,10 @@ $('.js-tab-trigger').click(function () {
 $(document).ready(function() {
 	const $menuContainer = $('[data-menu-type]');
 	const menuType = $menuContainer.data('menu-type');
+
+	if (menuType !== 'MenuDoWDoM' && menuType !== 'MenuDoHDoL') {
+		return;
+  	}  
 
 	let menuPath;
 	if (menuType === 'MenuDoWDoM') {
