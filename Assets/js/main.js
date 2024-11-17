@@ -28,7 +28,7 @@ $(document).ready(function () {
 		$("#inner_update").prepend('<p class="latest_update">Последнее обновление: ' + date + " | Патч: " + patchVersion + "</p>");
 		$("#patch_info").prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="' +	patchLink +'">патчноутам</a>.');
 	}
-	addUpdateInfo("12.11.2024", "7.1", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/da01b0d2d5434cd2ccfcc87f733df7a590f97c00/");
+	addUpdateInfo("12.11.2024", "7.1", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/4ae80e9471306053afa281e8704dd0ed13ce530a");
 	// Warn Info
 	function ErrorInfo(info){
 		$('.job_skil_list, .warn_info').prepend('<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>'+info+'</p></div>');
