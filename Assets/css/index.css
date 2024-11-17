@@ -612,14 +612,26 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	color: #ffffff;
 	text-align: center;
 }
-
+.hidden {
+	display: none !important;
+}
 .error_info {
+	display: block;
+	position: relative;
 	background-color: #ecede7;
 	padding: 16px;
 	margin: 10px 0 10px 0;
 	border-radius: 10px;
 	border: 1px solid var(--color-error);
 	box-shadow: 0px 0px 5px 0px var(--color-error);
+}
+#closeInfo {
+	display: block;
+	position: absolute;
+	color: var(--color-error);
+	right: 10px;
+	top: 5px;
+	cursor: pointer;
 }
 .error_info h5 {
 	margin-bottom: 16px;
