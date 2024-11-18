@@ -25,7 +25,8 @@
 	--color-set-3: #ecede7;
 	--color-error: #a62137;
 	--block-width: 472px;
-	--main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%);
+	--main-header-img:  #191919 url('../img/JobIndex/header_7_1.png');
+	/* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%); */
 }
 body {
 	overflow-y: hidden;
@@ -58,6 +59,10 @@ body {
 	padding: 5px 10px 5px 10px;
 	border-radius: 10px;
 	color: white;
+}
+.jobguide_catch_index {
+	background: #e8ce9e;
+	padding: 1px 0;
 }
 /* Webkit */
 .job_header_text p::-webkit-scrollbar {
@@ -114,7 +119,6 @@ footer {
 	z-index: 10;
 	bottom: 0;
 }
-
 .footer_inner {
 	background-color: var(--color-set-1);
 	width: 100%;
@@ -305,6 +309,8 @@ footer {
 }
 .main_header {
 	background: var(--main-header-img);
+	background-repeat: no-repeat;
+	background-position: bottom;
 	height: 500px;
 }
 .main_header_text p {
@@ -452,6 +458,7 @@ footer {
 	position: relative;
 }
 .jobguide_menu_wrapper {
+	background: #eaebe6;
 	top: 0;
 	width: 100%;
 	position: fixed;
@@ -474,6 +481,7 @@ footer {
 	z-index: 5;
 }
 .jobguide_menu_list > li > span {
+	background: #eaebe6;
 	display: block;
 	width: 160px;
 	line-height: 48px;
@@ -483,7 +491,7 @@ footer {
 	z-index: 10;
 	font-size: 13px;
 	font-weight: 700;
-	background: #eaebe6;
+	text-align: center;
 }
 .jobguide_sub_menu {
 	width: 156px;
@@ -521,7 +529,7 @@ li.jobguide_menu_list > ul.jobguide_sub_menu {
 li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	opacity: 1;
 	visibility: visible;
-	top: 48px;
+	top: 40px;
 }
 /* Tank */
 .job_tank .jobguide_menu_list > li > span,
@@ -563,7 +571,8 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 .job_gathering .jobguide_sub_menu li a p {
 	color: var(--gathering-AltColor);
 }
-.job_name_menu:hover {
+.job_name_menu:hover,
+.jobguide_sub_menu li:hover {
 	background: #e5e3d3;
 }
 /* BLU */
@@ -603,14 +612,26 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	color: #ffffff;
 	text-align: center;
 }
-
+.hidden {
+	display: none !important;
+}
 .error_info {
+	display: block;
+	position: relative;
 	background-color: #ecede7;
 	padding: 16px;
 	margin: 10px 0 10px 0;
 	border-radius: 10px;
 	border: 1px solid var(--color-error);
 	box-shadow: 0px 0px 5px 0px var(--color-error);
+}
+#closeInfo {
+	display: block;
+	position: absolute;
+	color: var(--color-error);
+	right: 10px;
+	top: 5px;
+	cursor: pointer;
 }
 .error_info h5 {
 	margin-bottom: 16px;
@@ -742,4 +763,25 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 	.btn_link {
 		margin: 0 10px 0 0;
   	}
+}
+
+/* Sort btn */
+
+#sortButton {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	background: var(--tank-AltColor);
+	width: max-content;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0 0 5px 15px;
+}
+#sortIcon {
+	width: 20px;
+	padding-right: 10px;
+}
+#sortText {
+	padding-right: 5px;
 }
