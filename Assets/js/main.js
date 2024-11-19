@@ -1,34 +1,3 @@
-// Debug
-let DebugEnabled = false; 
-
-function DebugFunctions() {
-    if (!DebugEnabled) return;
-
-    document.addEventListener("DOMContentLoaded", function () {
-        const links = document.querySelectorAll('a');
-        links.forEach(link => {
-            link.addEventListener('click', function (event) {
-                event.preventDefault();
-                const url = this.getAttribute('href') + '.html';
-                window.location.href = url;
-            });
-        });
-    });
-
-    $('tr').each(function () {
-        var titleText = [];
-        ['db-skill', 'db-role-action', 'db-skill-passive', 'db-role-traits', 'db-skill-pvp'].forEach(attr => {
-            var attrValue = $(this).attr(attr);
-            if (attrValue) {
-                titleText.push(attrValue);
-            }
-        });
-        if (titleText.length > 0) {
-            $(this).attr('title', titleText.join(', '));
-        }
-    });
-}
-DebugFunctions();
 // Doom Load
 $(document).ready(function () {
 	// Info Update
@@ -57,46 +26,6 @@ $(document).ready(function () {
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: 0 }, 1000);
 	});
-});
-// Warn Info
-$(document).ready(function () {
-	function ErrorInfo(info){
-		$('.job_skil_list, .warn_info').prepend('<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>'+info+'</p></div>');
-	}
-	//ErrorInfo("Обновлены все старые классы кроме двух новых.")
-
-	const warnInfo = document.getElementById("warnInfo");
-	const closeInfo = document.getElementById("closeInfo");
-
-	if (!warnInfo || !closeInfo) {
-		return;
-	}
-
-	if (getCookie("warnInfoHidden") === "true") {
-		warnInfo.classList.add("hidden");
-	}
-
-	closeInfo.addEventListener("click", function () {
-		warnInfo.classList.add("hidden");
-		setCookie("warnInfoHidden", "true", 7);
-	});
-
-	function setCookie(name, value, days) {
-		const date = new Date();
-		date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-		document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
-	}
-
-	function getCookie(name) {
-		const cookies = document.cookie.split("; ");
-		for (const cookie of cookies) {
-			const [cookieName, cookieValue] = cookie.split("=");
-			if (cookieName === name) {
-					return cookieValue;
-			}
-		}
-		return null;
-	}
 });
 // Preloader
 document.body.onload = function () {
@@ -183,6 +112,7 @@ $(document).ready(function() {
 });
 
 // Sort Skill
+// Длоя релиза пока не готова возможно потом.
 $(document).ready(function() {
 	const $tbody = $('tbody[data-sort="true"]');
 	const $sortButton = $('#sortButton');
@@ -226,23 +156,78 @@ $(document).ready(function() {
 	});
 	sortRows();
 });
+// Warning Info
+let WarningEnabled = false;
 
-// Update Skill Overlay
-// <div><img src="../Assets/img/main/bluli2.png"><p>Обновлён</p></div>
-// $(document).ready(function() {
-// 	$('.skill_update').each(function() {
-// 		if (!$(this).find('.overlay_update').length) { // Проверка overlay_update для skill_update
-// 			$(this).css('position', 'relative');
-// 			var overlayUpdate = $('<div class="overlay_update"></div>');
-// 			$(this).append(overlayUpdate);
-// 		}
-// 	});
+function WarningFunctions() {
+    if (!WarningEnabled) return;
 
-// 	$('.skill_new').each(function() {
-// 		if (!$(this).find('.overlay_new').length) { // Проверка overlay_new для skill_new
-// 			$(this).css('position', 'relative');
-// 			var overlayNew = $('<div class="overlay_new"></div>');
-// 			$(this).append(overlayNew);
-// 		}
-// 	});
-// });
+    function ErrorInfo(info) {
+      $('.job_skil_list, .warn_info').prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
+    }
+
+    ErrorInfo(" ");
+
+    const $warnInfo = $('#warnInfo');
+    const $closeInfo = $('#closeInfo');
+
+    if (!$warnInfo.length || !$closeInfo.length) return;
+
+    if (getCookie("warnInfoHidden") === "true") {
+        $warnInfo.addClass("hidden");
+    }
+
+    $closeInfo.on("click", function () {
+        $warnInfo.addClass("hidden");
+        setCookie("warnInfoHidden", "true", 7);
+    });
+
+    function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+    }
+
+    function getCookie(name) {
+        const cookies = document.cookie.split("; ");
+        for (const cookie of cookies) {
+            const [cookieName, cookieValue] = cookie.split("=");
+            if (cookieName === name) {
+                return cookieValue;
+            }
+        }
+        return null;
+    }
+}
+WarningFunctions();
+// Debug
+let DebugEnabled = false; 
+
+function DebugFunctions() {
+    if (!DebugEnabled) return;
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const links = document.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const url = this.getAttribute('href') + '.html';
+                window.location.href = url;
+            });
+        });
+    });
+
+    $('tr').each(function () {
+        var titleText = [];
+        ['db-skill', 'db-role-action', 'db-skill-passive', 'db-role-traits', 'db-skill-pvp'].forEach(attr => {
+            var attrValue = $(this).attr(attr);
+            if (attrValue) {
+                titleText.push(attrValue);
+            }
+        });
+        if (titleText.length > 0) {
+            $(this).attr('title', titleText.join(', '));
+        }
+    });
+}
+DebugFunctions();
