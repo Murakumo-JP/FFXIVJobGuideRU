@@ -785,3 +785,27 @@ li.jobguide_menu_list:hover > ul.jobguide_sub_menu {
 #sortText {
 	padding-right: 5px;
 }
+
+/* search */
+.search {
+	background: var(--tank-color);
+	margin: 5px;
+	border-radius: 5px;
+	color: white;
+	font-size: 12px;
+}
+.search a {
+	line-height: 32px;
+	padding: 0 10px;
+}
+#searchInput {
+	border: 0;
+	background: var(--tank-AltColor);
+	height: 25px;
+	color: white;
+	border-radius: 10px;
+	padding: 0 15px;
+}
+input::placeholder {
+	color: white;
+}

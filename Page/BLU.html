@@ -429,6 +429,10 @@
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
                   <h2 class="job_title">Активные и пассивные умения</h2>
+                  <div class="search">
+                     <a>Поиск по умениям:</a>
+                     <input type="text" id="searchInput" placeholder="Введите название умения..."/>
+                  </div>
                   <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Активные умения</h3>
                   <table class="job_table">
                      <colgroup>
@@ -455,7 +459,7 @@
                            <th><p><span>Эффект</span></p></th>
                         </tr>
                      </thead>
-                     <tbody class="job_tbody">
+                     <tbody class="job_tbody" data-search="true">
                         <tr id="action_01" db-skill-limited="Action 01"></tr>
                         <tr id="action_02" db-skill-limited="Action 02"></tr>
                         <tr id="action_03" db-skill-limited="Action 03"></tr>

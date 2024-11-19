@@ -201,7 +201,7 @@ function WarningFunctions() {
 }
 WarningFunctions();
 // Debug
-let DebugEnabled = false; 
+let DebugEnabled = true; 
 
 function DebugFunctions() {
     if (!DebugEnabled) return;
@@ -231,3 +231,38 @@ function DebugFunctions() {
     });
 }
 DebugFunctions();
+
+// Search
+function toggleSearch() {
+	const tbody = document.querySelector('tbody[data-search]');
+	const searchContainer = document.querySelector('.search');
+
+	if (tbody?.dataset.search === "true") {
+		 searchContainer.style.display = '';
+	} else {
+		 searchContainer.style.display = 'none';
+	}
+}
+
+function searchTable(event) {
+	const query = event.target.value.toLowerCase();
+	const tbody = document.querySelector('tbody[data-search="true"]');
+
+	if (!tbody) return;
+
+	tbody.querySelectorAll('tr').forEach(row => {
+		 const skillName = row.querySelector('.skill p strong')?.textContent.toLowerCase() || '';
+
+		 row.style.display = skillName.includes(query) ? '' : 'none';
+	});
+}
+
+function initSearch() {
+	toggleSearch();
+
+	const searchInput = document.getElementById('searchInput');
+	if (searchInput) {
+		 searchInput.addEventListener('input', searchTable);
+	}
+}
+initSearch();
