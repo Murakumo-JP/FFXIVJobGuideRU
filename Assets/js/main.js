@@ -201,7 +201,7 @@ function WarningFunctions() {
 }
 WarningFunctions();
 // Debug
-let DebugEnabled = true; 
+let DebugEnabled = false; 
 
 function DebugFunctions() {
     if (!DebugEnabled) return;
