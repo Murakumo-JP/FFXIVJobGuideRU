@@ -842,7 +842,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d3e8881fa1db7986d1f229f79aec9ceaa9e9205d.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '20 сек.',
+         "recast": '16 сек.',
          "range": '10y',
          "radius_img": 'R6',
          "radius": '10y',

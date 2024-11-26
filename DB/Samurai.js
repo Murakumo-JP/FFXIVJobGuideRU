@@ -764,7 +764,7 @@
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Накладывает Meikyo Shisui.<br/>Эффект Meikyo Shisui: снимает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: накладывает эффект Tendo Setsugekka Ready<br/>Продолжительность: 10 сек.<br/><br/>※Умение меняется на Midare Setsugekka под действием эффекта Midare.',
+         "content": 'Накладывает Meikyo Shisui.<br/>Эффект Meikyo Shisui: снимает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: накладывает эффект Tendo Setsugekka Ready<br/>Продолжительность: 10 сек.<br/><br/>※Умение меняется на Midare Setsugekka под действием эффекта Midare.',
       },
       // PVP Skill 09
       "PVP Skill 09": {
@@ -833,7 +833,7 @@
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.2 сек.',
-         "range": '5y',
+         "range": '8y',
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 10,000.<br/>Можно использовать только под действием эффекта Tendo Setsugekka Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Умение меняется на Tendo Kaeshi Setsugekka после использования.',
@@ -845,7 +845,7 @@
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.2 сек.',
-         "range": '5y',
+         "range": '8y',
          "radius_img": 'R1',
          "radius": '0y',
          "content": 'Удар, наносящий урон с силой атаки 10,000.<br/>Комбо умение: Tendo Setsugekka<br/><br/>※Это умение нельзя поместить на хотбар.',
