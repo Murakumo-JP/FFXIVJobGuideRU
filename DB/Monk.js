@@ -1,7 +1,7 @@
 (() =>{
    let db = {
       "PVE Update": `Последнее обновление: 12/11/2024`,
-      "PVP Update": `Последнее обновление: 12/11/2024`,
+      "PVP Update": `Последнее обновление: 26/11/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Bootshine',
@@ -842,7 +842,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d3e8881fa1db7986d1f229f79aec9ceaa9e9205d.png',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
-         "recast": '20 сек.',
+         "recast": '16 сек.',
          "range": '10y',
          "radius_img": 'R6',
          "radius": '10y',
