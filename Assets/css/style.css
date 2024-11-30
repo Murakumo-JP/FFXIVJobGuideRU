@@ -38,6 +38,16 @@ body {
   background-color: var(--color-set-3);
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0.1px;
+  font-size: 0.1em;
+  line-height: 0;
+  clear: both;
+}
+
 img {
   border: 0;
   vertical-align: bottom;
@@ -649,6 +659,708 @@ li {
   list-style: none;
 }
 
+/* Job Page */
+.jobguide_menu_wrapper {
+  background: #eaebe6;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 50;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.jobguide_menu_list {
+  width: -moz-max-content;
+  width: max-content;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.jobguide_menu_list > li {
+  float: left;
+  width: auto;
+  height: 48px;
+  position: relative;
+  z-index: 5;
+}
+.jobguide_menu_list > li > span {
+  background: #eaebe6;
+  display: block;
+  width: 160px;
+  line-height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+.jobguide_menu_list > .jobguide_sub_menu {
+  opacity: 0;
+  visibility: hidden;
+  top: -150px;
+}
+.jobguide_menu_list:hover > .jobguide_sub_menu {
+  opacity: 1;
+  visibility: visible;
+  top: 40px;
+}
+
+.job_name_menu:hover,
+.jobguide_sub_menu li:hover {
+  background: #e5e3d3;
+}
+
+.jobguide_sub_menu {
+  width: 156px;
+  margin: 0 auto;
+  position: absolute;
+  background: #f4f5f2;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+  left: 2px;
+  z-index: 1;
+  padding: 8px 0 5px;
+  transition: all 0.4s;
+}
+.jobguide_sub_menu li {
+  width: 156px;
+}
+.jobguide_sub_menu li a p {
+  display: block;
+  padding: 5px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.job_header {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 380px;
+  padding-top: 48px;
+}
+
+.nav_floating_icon {
+  display: block;
+  background: url(../img/svg/dots-vertical.svg) no-repeat 0 0;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  float: right;
+  cursor: pointer;
+  margin-left: 4px;
+  line-height: 1;
+  transition: all 0.4s;
+  z-index: 15;
+}
+.nav_floating_icon.fixed {
+  position: fixed;
+  top: 70px;
+  right: 25px;
+}
+
+.nav_floating_list {
+  background: #e5e3d3;
+  width: auto;
+  max-width: 560px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  padding: 16px 0 16px 16px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 11;
+  display: none;
+  float: right;
+}
+.nav_floating_list.fixed {
+  position: fixed;
+  top: 70px;
+  right: 65px;
+}
+.nav_floating_list ul {
+  width: 240px;
+  margin-bottom: 16px;
+}
+.nav_floating_list ul li {
+  width: 48px;
+  height: 48px;
+  float: left;
+  position: relative;
+}
+
+.nav_floating_list_wrapper {
+  overflow: overlay;
+  position: relative;
+  height: 100%;
+  max-height: 750px;
+  padding-right: 16px;
+}
+
+.js-tab-content {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+.js-tab-content.active {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.job_nav_title {
+  margin-bottom: 8px;
+}
+.job_nav_title a {
+  font-size: 14px;
+  position: relative;
+}
+
+.job_skill_icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+  background-size: 40px 40px;
+  vertical-align: middle;
+}
+.job_skill_icon p {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 5;
+}
+.job_skill_icon img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 2px !important;
+  left: 50% !important;
+  margin-left: -20px;
+  display: block;
+  z-index: 1;
+}
+.job_skill_icon:after {
+  content: "";
+  background: url(../img/main/skil_icon_on.png) no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.job_header_inner {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.job_header_nome {
+  margin-bottom: 5px;
+  width: var(--block-width);
+}
+
+.job_header_role {
+  margin-left: 16px;
+  display: block;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 5px;
+  padding-right: 10px;
+}
+
+.job_header_text {
+  background: url(../img/main/job_text.png) no-repeat left top;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+  width: var(--block-width);
+  height: 178px;
+  padding: 14px 0 16px 16px;
+  box-sizing: border-box;
+  position: relative;
+}
+.job_header_text p {
+  font-size: 14px;
+  color: #f5f5f5;
+  text-shadow: 0 1px 4px #000;
+  height: 155px;
+  overflow: overlay;
+  margin: 0 !important;
+  padding-right: 16px;
+  position: relative;
+  display: block;
+}
+
+.job_header_quest {
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.job_db {
+  display: inline-block;
+  margin-right: 16px;
+}
+.job_db span {
+  background: #333;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+  border-radius: 12px;
+  display: block;
+  position: relative;
+  padding: 1px 16px 0 36px;
+  height: 24px;
+  box-sizing: border-box;
+  line-height: 22px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+.job_db span img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+}
+
+.eorzeadb_link {
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.job_pld {
+  background: url(../img/JobHaider/HaiderPLD.jpg) no-repeat center top #192455;
+  background-attachment: fixed;
+}
+
+.job_war {
+  background: url(../img/JobHaider/HaiderWAR.jpg) no-repeat center top #192455;
+  background-attachment: fixed;
+}
+
+.job_drk {
+  background: url(../img/JobHaider/HaiderDRK.jpg) no-repeat center top #192455;
+  background-attachment: fixed;
+}
+
+.job_gnb {
+  background: url(../img/JobHaider/HaiderGNB.jpg) no-repeat center top #192455;
+  background-attachment: fixed;
+}
+
+.job_whm {
+  background: url(../img/JobHaider/HaiderWHM.jpg) no-repeat center top #1d4214;
+  background-attachment: fixed;
+}
+
+.job_sch {
+  background: url(../img/JobHaider/HaiderSCH.jpg) no-repeat center top #1d4214;
+  background-attachment: fixed;
+}
+
+.job_ast {
+  background: url(../img/JobHaider/HaiderAST.jpg) no-repeat center top #1d4214;
+  background-attachment: fixed;
+}
+
+.job_sge {
+  background: url(../img/JobHaider/HaiderSGE.jpg) no-repeat center top #1d4214;
+  background-attachment: fixed;
+}
+
+.job_mnk {
+  background: url(../img/JobHaider/HaiderMNK.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_drg {
+  background: url(../img/JobHaider/HaiderDRG.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_nin {
+  background: url(../img/JobHaider/HaiderNIN.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_sam {
+  background: url(../img/JobHaider/HaiderSAM.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_rpr {
+  background: url(../img/JobHaider/HaiderRPR.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_vpr {
+  background: url(../img/JobHaider/HaiderVPR.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_brd {
+  background: url(../img/JobHaider/HaiderBRD.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_mch {
+  background: url(../img/JobHaider/HaiderMCH.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_dnc {
+  background: url(../img/JobHaider/HaiderDNC.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_blm {
+  background: url(../img/JobHaider/HaiderBLM.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_smn {
+  background: url(../img/JobHaider/HaiderSMN.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_rdm {
+  background: url(../img/JobHaider/HaiderRDM.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_pct {
+  background: url(../img/JobHaider/HaiderPCT.jpg) no-repeat center top #4f1717;
+  background-attachment: fixed;
+}
+
+.job_blu {
+  background: url(../img/JobHaider/HaiderBLU.jpg) no-repeat center top #23396a;
+  background-attachment: fixed;
+}
+
+.job_crp {
+  background: url(../img/JobHaider/HaiderCRP.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_bsm {
+  background: url(../img/JobHaider/HaiderBSM.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_arm {
+  background: url(../img/JobHaider/HaiderARM.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_gsm {
+  background: url(../img/JobHaider/HaiderGSM.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_ltw {
+  background: url(../img/JobHaider/HaiderLTW.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_wvr {
+  background: url(../img/JobHaider/HaiderWVR.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_alc {
+  background: url(../img/JobHaider/HaiderALC.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_cul {
+  background: url(../img/JobHaider/HaiderCUL.jpg) no-repeat center top #27174c;
+  background-attachment: fixed;
+}
+
+.job_min {
+  background: url(../img/JobHaider/HaiderMIN.jpg) no-repeat center top #554317;
+  background-attachment: fixed;
+}
+
+.job_btn {
+  background: url(../img/JobHaider/HaiderBTN.jpg) no-repeat center top #554317;
+  background-attachment: fixed;
+}
+
+.job_fsh {
+  background: url(../img/JobHaider/HaiderFSH.jpg) no-repeat center top #554317;
+  background-attachment: fixed;
+}
+
+.job_skil_list {
+  width: 960px;
+  height: 1%;
+  margin: 0 auto;
+  padding: 16px 0 16px;
+  position: static;
+}
+
+.job_tab li {
+  width: 480px;
+  height: 48px;
+  float: left;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.job_tab--pve {
+  background: #e5e3d3;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+.job_tab--pve.active {
+  background: #e5e3d3;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
+}
+.job_tab--pvp {
+  background: #d9d9d9;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+.job_tab--pvp.active {
+  background: #d9d9d9;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
+}
+
+.job_skil_db-pve,
+.job_skil_db-pvp {
+  position: static;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.05) inset, 1px 0 0 0 rgba(0, 0, 0, 0.05) inset, -1px 0 0 0 rgba(0, 0, 0, 0.05) inset;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 16px 10px 10px;
+}
+
+.job_skil_db-pve {
+  background: #e5e3d3;
+}
+.job_skil_db-pvp {
+  background: #d9d9d9;
+}
+
+.job_update {
+  margin-bottom: 6px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 700;
+  color: #585858;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.job_notes_lvl {
+  background: #fffceb;
+  border-radius: 6px;
+  margin: 10px 0;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b36b24;
+  text-align: center;
+}
+
+.job_content_wrapper {
+  margin-bottom: 64px;
+}
+
+.job_title {
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 6px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  margin-bottom: 16px;
+}
+
+.job_sub_title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 10px 16px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.job_table {
+  margin: 0 auto 8px;
+}
+
+.job_thead th {
+  padding: 0 1px;
+}
+.job_thead th:nth-child(1) {
+  margin-left: 0;
+}
+.job_thead p {
+  display: table;
+  width: 100%;
+  height: 53.78px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 400;
+}
+.job_thead p span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 4px;
+  line-height: 1.3;
+}
+.job_thead div p {
+  display: table;
+  width: 100%;
+  height: 20px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 400;
+}
+.job_thead div p span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 4px;
+  line-height: 1.3;
+}
+.job_thead hr {
+  height: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.job_tbody td {
+  padding: 3px;
+  border-bottom: 1px solid #999;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 12px;
+  color: #585858;
+  line-height: 1.4;
+}
+.job_tbody td p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.job_tbody td.skill .skill_wrapper, .job_tbody td.jobclass .jobclass_wrapper {
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+}
+.job_tbody td.skill .skill_wrapper p, .job_tbody td.jobclass .jobclass_wrapper p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2px;
+}
+.job_tbody td.jobclass .jobclass_wrapper_icon {
+  width: 32px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.job_tbody td.jobclass .jobclass_wrapper_icon img {
+  width: 32px;
+  height: 32px;
+}
+.job_tbody td.skill .skill_wrapper_icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 48px;
+}
+.job_tbody td img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.job_tbody td.cast, .job_tbody td.classification, .job_tbody td.cost, .job_tbody td.recast {
+  text-align: center;
+}
+.job_tbody td.distant_range img {
+  width: 16px;
+  height: 16px;
+}
+.job_tbody td.content {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.job_tbody td .class_quest {
+  color: #b36b24;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 10px;
+}
+.job_tbody td .distant_range img {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  margin: 0 2px 0 10px;
+}
+
+.job_skill_icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+  background-size: 40px 40px;
+  vertical-align: middle;
+}
+.job_skill_icon img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 2px !important;
+  left: 50% !important;
+  margin-left: -20px;
+  display: block;
+  z-index: 1;
+}
+.job_skill_icon:after {
+  content: "";
+  background: url(../img/main/skil_icon_on.png) no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.radius, .range {
+  text-align: center;
+}
+
+.ra_melee_dps .cost, .ra_tank .cost {
+  display: none;
+}
+
+.job_text {
+  color: #585858;
+  margin: 0 10px 16px;
+  font-size: 14px;
+}
+
 /* @media */
 @media (max-height: 700px) {
   .nav_floating_list_wrapper {
@@ -735,4 +1447,371 @@ li {
   .btn_link span {
     display: none;
   }
+}
+/*==> Job Color */
+.job_tank .jobguide_menu_list > li > span,
+.job_tank .job_nav_title a,
+.job_tank .job_sub_title, .job_tank .job_hud_title {
+  color: var(--tank-color);
+}
+.job_tank .jobguide_sub_menu li a {
+  color: var(--tank-AltColor);
+}
+.job_tank .job_title {
+  background: var(--tank-color);
+}
+.job_tank .job_thead p, .job_tank .job_combo_title_sequence,
+.job_tank .job_combo_title_effect {
+  background: var(--tank-AltColor);
+}
+.job_tank .nav_floating_icon,
+.job_tank ~ .nome_app_top .app_top {
+  background-color: var(--tank-color);
+  box-shadow: 1px 1px 5px var(--tank-color);
+}
+.job_tank .job_header_role {
+  background: var(--tank-color);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
+}
+.job_tank .job_header_role img {
+  display: inline-block;
+  margin-right: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.job_healer .jobguide_menu_list > li > span,
+.job_healer .job_nav_title a,
+.job_healer .job_sub_title, .job_healer .job_hud_title {
+  color: var(--healer-color);
+}
+.job_healer .jobguide_sub_menu li a {
+  color: var(--healer-AltColor);
+}
+.job_healer .job_title {
+  background: var(--healer-color);
+}
+.job_healer .job_thead p, .job_healer .job_combo_title_sequence,
+.job_healer .job_combo_title_effect {
+  background: var(--healer-AltColor);
+}
+.job_healer .nav_floating_icon,
+.job_healer ~ .nome_app_top .app_top {
+  background-color: var(--healer-color);
+  box-shadow: 1px 1px 5px var(--healer-color);
+}
+.job_healer .job_header_role {
+  background: var(--healer-color);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
+}
+.job_healer .job_header_role img {
+  display: inline-block;
+  margin-right: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.job_dps .jobguide_menu_list > li > span,
+.job_dps .job_nav_title a,
+.job_dps .job_sub_title, .job_dps .job_hud_title {
+  color: var(--dps-color);
+}
+.job_dps .jobguide_sub_menu li a {
+  color: var(--dps-AltColor);
+}
+.job_dps .job_title {
+  background: var(--dps-color);
+}
+.job_dps .job_thead p, .job_dps .job_combo_title_sequence,
+.job_dps .job_combo_title_effect {
+  background: var(--dps-AltColor);
+}
+.job_dps .nav_floating_icon,
+.job_dps ~ .nome_app_top .app_top {
+  background-color: var(--dps-color);
+  box-shadow: 1px 1px 5px var(--dps-color);
+}
+.job_dps .job_header_role {
+  background: var(--dps-color);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
+}
+.job_dps .job_header_role img {
+  display: inline-block;
+  margin-right: 4px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Combo List */
+.job_combo_text {
+  color: #585858;
+  margin: 0 10px 32px;
+  font-size: 14px;
+}
+
+.job_combo_title {
+  margin: 0 10px;
+}
+.job_combo_title h3 {
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.job_combo_title_sequence {
+  width: 640px;
+  margin-right: 4px;
+  float: left;
+}
+
+.job_combo_title_effect {
+  width: 276px;
+  float: left;
+}
+
+.job_combo_detail {
+  margin: 0 10px;
+}
+
+.job_combo_root {
+  display: table;
+  box-sizing: border-box;
+  min-height: 124px;
+}
+
+.job_combo_root_skill,
+.job_combo_root_skill_first,
+.job_combo_root_skill_last {
+  display: table-cell;
+  width: 200px;
+  padding: 16px 20px 16px 0;
+  text-align: center;
+}
+.job_combo_root_skill p,
+.job_combo_root_skill_first p,
+.job_combo_root_skill_last p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #585858;
+  width: 200px;
+}
+
+.job_combo_root_skill_last {
+  padding-right: 0;
+}
+
+.job_combo_skill_icon {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  display: inline-block;
+  background: url(../img/main/skil_icon.png) no-repeat 6px 3px;
+  background-size: 64px 64px;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+.job_combo_skill_icon img {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 3px !important;
+  left: 50% !important;
+  margin-left: -32px;
+  display: block;
+  z-index: 1;
+}
+.job_combo_skill_icon:after {
+  content: "";
+  background: url(../img/main/skil_icon_on2x.png) no-repeat;
+  background-size: 76px 76px;
+  width: 76px;
+  height: 76px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.job_combo_root_effect {
+  width: 280px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.job_combo_root_effect p {
+  display: block;
+  padding: 16px 12px;
+  font-size: 12px;
+  color: #585858;
+}
+
+.job_notes {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #b2122d;
+}
+
+.job_hud_title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 10px 16px;
+}
+
+.job_hud_text {
+  margin: 0 10px 16px 10px;
+  font-size: 14px;
+  color: #585858;
+}
+.job_hud_text .txt_red {
+  font-size: 14px;
+  font-weight: 400;
+  color: #b2122d !important;
+}
+
+.job_hud_layout--pve, .job_hud_layout--pvp {
+  text-align: center;
+  margin: 0 auto 32px;
+}
+.job_hud_layout--pve th, .job_hud_layout--pvp th {
+  padding: 0 20px;
+  font-weight: 400;
+}
+.job_hud_layout--pve_simple, .job_hud_layout--pvp_simple {
+  padding-top: 32px;
+  border-top: 1px solid #999;
+}
+.job_hud_layout--pve_simple_caption, .job_hud_layout--pvp_simple_caption {
+  font-size: 12px;
+  color: #585858;
+  text-align: center;
+  padding-top: 0;
+}
+.job_hud_layout--pve_simple_title, .job_hud_layout--pvp_simple_title {
+  font-size: 14px;
+  color: #585858;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.job_hud_layout--pve_simple_text, .job_hud_layout--pvp_simple_text {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #585858;
+  text-align: left;
+}
+.job_hud_layout--pve_simple img, .job_hud_layout--pvp_simple img {
+  display: block;
+  margin: 0 0 8px 0;
+}
+.job_hud_layout--pve.column03 th, .job_hud_layout--pvp.column03 th {
+  padding: 0 10px;
+}
+.job_hud_layout--pve.column03 td, .job_hud_layout--pvp.column03 td {
+  padding: 6px 10px 16px;
+}
+.job_hud_layout--mb16, .job_hud_layout--mb32 {
+  display: flex;
+  align-items: center;
+  height: 1%;
+}
+.job_hud_layout--mb16 {
+  margin: 0 0 16px 10px;
+}
+.job_hud_layout--mb32 {
+  margin: 0 0 32px 10px;
+}
+
+.job_hud_image {
+  float: left;
+  margin-right: 20px;
+  display: block;
+}
+
+.job_combo_paladin_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_paladin_02 {
+  background: url(../img/main/combo.png) no-repeat 150px 0;
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_paladin_03 {
+  background: url(../img/main/combo2.png) no-repeat 150px 0, url(../img/main/combo2.png) no-repeat 295px 0, url(../img/main/combo2.png) no-repeat 442px 0;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #999;
+}
+.job_combo_paladin_03 .job_combo_root_skill_first {
+  width: 120px;
+  padding-left: 40px;
+  padding-right: 26px;
+}
+.job_combo_paladin_03 .job_combo_root_skill_first p {
+  width: 120px;
+}
+.job_combo_paladin_03 .job_combo_root_skill {
+  width: 120px;
+  padding-right: 26px;
+}
+.job_combo_paladin_03 .job_combo_root_skill p {
+  width: 120px;
+  text-align: center;
+}
+.job_combo_paladin_03 .job_combo_root_skill_last {
+  width: 120px;
+  padding-right: 40px;
+}
+.job_combo_paladin_03 .job_combo_root_skill_last p {
+  width: 120px;
+  text-align: center;
+}
+
+.job_combo_warrior_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo3.png) no-repeat 370px 0;
+}
+
+.job_combo_warrior_02 {
+  background: url(../img/main/combo4.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_darkknight_02,
+.job_combo_gunbreaker_02,
+.job_combo_ninja_04,
+.job_combo_reaper_02,
+.job_combo_warrior_03 {
+  background: url(../img/main/combo.png) no-repeat 150px 0;
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_darkknight_01,
+.job_combo_gunbreaker_01,
+.job_combo_reaper_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_gunbreaker {
+  display: table-cell;
+  width: 600px;
+}
+
+.job_combo_root_dancer, .job_combo_root_gunbreaker {
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_gunbreaker_03 {
+  background: url(../img/main/combo5.png) no-repeat 150px 0, url(../img/main/combo5.png) no-repeat 370px 0;
+}
+
+.job_combo_gunbreaker_04 {
+  background: url(../img/main/combo6.png) no-repeat 40px 0, url(../img/main/combo7.png) repeat-y 150px 0, url(../img/main/combo6.png) no-repeat 260px 0, url(../img/main/combo7.png) repeat-y 370px 0, url(../img/main/combo6.png) no-repeat 480px 0;
+}
+
+.job_combo_gunbreaker_05 {
+  background: url(../img/main/combo8.png) no-repeat 150px 0, url(../img/main/combo8.png) no-repeat 370px 0;
 }
