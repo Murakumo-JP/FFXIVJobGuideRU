@@ -365,35 +365,6 @@ img {
 	border: 1px solid #e75858;
 	box-shadow: 0 0 5px 0 #e75858;
 }
-/* .overlay_update, .overlay_new {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 1;
-}
-.overlay_update{
-	border: 1px solid #e7810e;
-	box-shadow: 0 0 5px 0 #e7810e;
-}
-.overlay_update p {
-	font-weight: bold;
-	color: #e7810e;
-	padding: 10px;
-}
-.overlay_update div {
-	display: flex;
-	align-items: center;
-}
-.overlay_update div img {
-	width: 25px;
-}
-.overlay_update p {
-	font-weight: bold;
-	color: #e7810e;
-	padding: 0 0 0 5px;
-} */
 /*FIX COMBO*/
 .job_combo_dancer_02_percent .job_combo_root_skill {
 	bottom: 40px;

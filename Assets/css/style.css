@@ -53,6 +53,23 @@ img {
   vertical-align: bottom;
 }
 
+.skill_update {
+  border: 1px solid #e7810e;
+  box-shadow: 0 0 5px 0 #e7810e;
+}
+.skill_update td {
+  background: #f0e4c5;
+}
+
+.skill_new {
+  border: 1px solid #e75858;
+  box-shadow: 0 0 5px 0 #e75858;
+}
+.skill_new td {
+  background: #f0dddd;
+}
+
+/* btn back top */
 .nome_app_top {
   display: none;
   bottom: 20px;
@@ -1347,11 +1364,13 @@ table {
   z-index: 2;
 }
 
-.radius, .range {
+.radius,
+.range {
   text-align: center;
 }
 
-.ra_melee_dps .cost, .ra_tank .cost {
+.ra_melee_dps .cost,
+.ra_tank .cost {
   display: none;
 }
 
@@ -1451,7 +1470,8 @@ table {
 /*==> Job Color */
 .job_tank .jobguide_menu_list > li > span,
 .job_tank .job_nav_title a,
-.job_tank .job_sub_title, .job_tank .job_hud_title {
+.job_tank .job_sub_title,
+.job_tank .job_hud_title {
   color: var(--tank-color);
 }
 .job_tank .jobguide_sub_menu li a {
@@ -1460,7 +1480,8 @@ table {
 .job_tank .job_title {
   background: var(--tank-color);
 }
-.job_tank .job_thead p, .job_tank .job_combo_title_sequence,
+.job_tank .job_thead p,
+.job_tank .job_combo_title_sequence,
 .job_tank .job_combo_title_effect {
   background: var(--tank-AltColor);
 }
@@ -1482,7 +1503,8 @@ table {
 
 .job_healer .jobguide_menu_list > li > span,
 .job_healer .job_nav_title a,
-.job_healer .job_sub_title, .job_healer .job_hud_title {
+.job_healer .job_sub_title,
+.job_healer .job_hud_title {
   color: var(--healer-color);
 }
 .job_healer .jobguide_sub_menu li a {
@@ -1491,7 +1513,8 @@ table {
 .job_healer .job_title {
   background: var(--healer-color);
 }
-.job_healer .job_thead p, .job_healer .job_combo_title_sequence,
+.job_healer .job_thead p,
+.job_healer .job_combo_title_sequence,
 .job_healer .job_combo_title_effect {
   background: var(--healer-AltColor);
 }
@@ -1513,7 +1536,8 @@ table {
 
 .job_dps .jobguide_menu_list > li > span,
 .job_dps .job_nav_title a,
-.job_dps .job_sub_title, .job_dps .job_hud_title {
+.job_dps .job_sub_title,
+.job_dps .job_hud_title {
   color: var(--dps-color);
 }
 .job_dps .jobguide_sub_menu li a {
@@ -1522,7 +1546,8 @@ table {
 .job_dps .job_title {
   background: var(--dps-color);
 }
-.job_dps .job_thead p, .job_dps .job_combo_title_sequence,
+.job_dps .job_thead p,
+.job_dps .job_combo_title_sequence,
 .job_dps .job_combo_title_effect {
   background: var(--dps-AltColor);
 }
@@ -1548,7 +1573,6 @@ table {
   margin: 0 10px 32px;
   font-size: 14px;
 }
-
 .job_combo_title {
   margin: 0 10px;
 }
@@ -1560,49 +1584,49 @@ table {
   font-weight: 400;
   line-height: 28px;
 }
-
 .job_combo_title_sequence {
   width: 640px;
   margin-right: 4px;
   float: left;
 }
-
 .job_combo_title_effect {
   width: 276px;
   float: left;
 }
-
 .job_combo_detail {
   margin: 0 10px;
 }
-
 .job_combo_root {
   display: table;
   box-sizing: border-box;
   min-height: 124px;
 }
-
-.job_combo_root_skill,
-.job_combo_root_skill_first,
-.job_combo_root_skill_last {
+.job_combo_root_skill, .job_combo_root_skill_first, .job_combo_root_skill_last {
   display: table-cell;
   width: 200px;
   padding: 16px 20px 16px 0;
   text-align: center;
 }
-.job_combo_root_skill p,
-.job_combo_root_skill_first p,
-.job_combo_root_skill_last p {
+.job_combo_root_skill p, .job_combo_root_skill_first p, .job_combo_root_skill_last p {
   font-size: 12px;
   font-weight: 700;
   color: #585858;
   width: 200px;
 }
-
 .job_combo_root_skill_last {
   padding-right: 0;
 }
-
+.job_combo_root_effect {
+  width: 280px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.job_combo_root_effect p {
+  display: block;
+  padding: 16px 12px;
+  font-size: 12px;
+  color: #585858;
+}
 .job_combo_skill_icon {
   position: relative;
   width: 76px;
@@ -1636,18 +1660,6 @@ table {
   z-index: 2;
 }
 
-.job_combo_root_effect {
-  width: 280px;
-  display: table-cell;
-  vertical-align: middle;
-}
-.job_combo_root_effect p {
-  display: block;
-  padding: 16px 12px;
-  font-size: 12px;
-  color: #585858;
-}
-
 .job_notes {
   margin: 0 10px;
   font-size: 12px;
@@ -1678,6 +1690,12 @@ table {
 .job_hud_layout--pve th, .job_hud_layout--pvp th {
   padding: 0 20px;
   font-weight: 400;
+}
+.job_hud_layout--pve td, .job_hud_layout--pvp td {
+  padding: 6px 20px 16px;
+  font-size: 14px;
+  color: #585858;
+  vertical-align: top;
 }
 .job_hud_layout--pve_simple, .job_hud_layout--pvp_simple {
   padding-top: 32px;
@@ -1730,16 +1748,33 @@ table {
   display: block;
 }
 
+.job_combo_darkknight_02, .job_combo_gunbreaker_02, .job_combo_ninja_04, .job_combo_reaper_02, .job_combo_warrior_03 {
+  background: url(../img/main/combo.png) no-repeat 150px 0;
+  border-bottom: 1px solid #999;
+}
+.job_combo_darkknight_01, .job_combo_gunbreaker_01, .job_combo_reaper_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+}
+.job_combo_root_dancer, .job_combo_root_gunbreaker {
+  border-bottom: 1px solid #999;
+}
+.job_combo_dragoon_04 .job_combo_root_skill, .job_combo_dragoon_04 .job_combo_root_skill_last {
+  width: 120px;
+}
+.job_combo_dragoon_04_start .job_combo_root_skill {
+  position: relative;
+  padding-right: 24px;
+}
+
 .job_combo_paladin_01 {
   background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
 }
-
 .job_combo_paladin_02 {
   background: url(../img/main/combo.png) no-repeat 150px 0;
   border-bottom: 1px solid #999;
 }
-
 .job_combo_paladin_03 {
   background: url(../img/main/combo2.png) no-repeat 150px 0, url(../img/main/combo2.png) no-repeat 295px 0, url(../img/main/combo2.png) no-repeat 442px 0;
   margin-bottom: 8px;
@@ -1773,25 +1808,8 @@ table {
 .job_combo_warrior_01 {
   background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo3.png) no-repeat 370px 0;
 }
-
 .job_combo_warrior_02 {
   background: url(../img/main/combo4.png) no-repeat 370px 0;
-  border-bottom: 1px solid #999;
-}
-
-.job_combo_darkknight_02,
-.job_combo_gunbreaker_02,
-.job_combo_ninja_04,
-.job_combo_reaper_02,
-.job_combo_warrior_03 {
-  background: url(../img/main/combo.png) no-repeat 150px 0;
-  border-bottom: 1px solid #999;
-}
-
-.job_combo_darkknight_01,
-.job_combo_gunbreaker_01,
-.job_combo_reaper_01 {
-  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
 }
 
@@ -1799,19 +1817,174 @@ table {
   display: table-cell;
   width: 600px;
 }
-
-.job_combo_root_dancer, .job_combo_root_gunbreaker {
-  border-bottom: 1px solid #999;
-}
-
 .job_combo_gunbreaker_03 {
   background: url(../img/main/combo5.png) no-repeat 150px 0, url(../img/main/combo5.png) no-repeat 370px 0;
 }
-
 .job_combo_gunbreaker_04 {
   background: url(../img/main/combo6.png) no-repeat 40px 0, url(../img/main/combo7.png) repeat-y 150px 0, url(../img/main/combo6.png) no-repeat 260px 0, url(../img/main/combo7.png) repeat-y 370px 0, url(../img/main/combo6.png) no-repeat 480px 0;
 }
-
 .job_combo_gunbreaker_05 {
   background: url(../img/main/combo8.png) no-repeat 150px 0, url(../img/main/combo8.png) no-repeat 370px 0;
+}
+
+.job_monkcombo {
+  display: table;
+  margin: 0 10px 8px;
+}
+.job_monkcombo_action {
+  display: table-cell;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px #8c4d4d;
+  background: #f2f2f2;
+  width: 280px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 2px;
+}
+.job_monkcombo_action_title {
+  background: #8c4d4d;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 0;
+  line-height: 1;
+}
+.job_monkcombo_action_skill, .job_monkcombo_action_skill_last {
+  padding: 8px 8px 0 8px;
+  display: flex;
+  -ms-box-align: center;
+  box-align: center;
+  align-items: center;
+  width: 276px;
+  box-sizing: border-box;
+}
+.job_monkcombo_action_skill_icon, .job_monkcombo_action_skill_last_icon {
+  vertical-align: middle;
+  padding-right: 4px;
+}
+.job_monkcombo_action_skill_last, .job_monkcombo_action_skill_last_last {
+  padding-bottom: 16px;
+}
+.job_monkcombo_action_skill_name, .job_monkcombo_action_skill_last_name {
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 700;
+}
+.job_monkcombo_action_effect_title {
+  background: #ebdfdf;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #732828;
+  display: block;
+  text-align: left;
+}
+.job_monkcombo_action_effect_text {
+  padding: 8px 6px 16px;
+  text-align: left;
+}
+.job_monkcombo_arrow {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.job_combo_dragoon_03 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+  margin-bottom: 8px;
+}
+.job_combo_dragoon_04 {
+  display: grid;
+  grid-template: "start combo01 end combo01_effect" "start . end combo01_effect" 62px "start . end combo02_effect" 62px "start combo02 end combo02_effect";
+  min-height: 372px;
+  border-bottom: 1px solid #999;
+}
+.job_combo_dragoon_04_start {
+  grid-area: start;
+  display: grid;
+  place-items: center;
+}
+.job_combo_dragoon_04 .job_combo_root_skill p,
+.job_combo_dragoon_04 .job_combo_root_skill_last p {
+  width: 120px;
+}
+.job_combo_dragoon_04_start .job_combo_root_skill::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -4px;
+  width: 48px;
+  height: 100%;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/Y/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04_01::after, .job_combo_dragoon_04_01::before, .job_combo_dragoon_04_02::after, .job_combo_dragoon_04_02::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 48px;
+  height: 100%;
+}
+.job_combo_dragoon_04_01 {
+  grid-area: combo01;
+  position: relative;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
+}
+.job_combo_dragoon_04_01::before {
+  left: -24px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/J/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04_01::after {
+  right: -24px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/i/xGCf8qG2Ku_qL2g8VbYwBXouNY.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04_01 .job_combo_root_skill {
+  padding-right: 0;
+}
+.job_combo_dragoon_04_01_effect {
+  grid-area: combo01_effect;
+  display: flex;
+  align-items: center;
+}
+.job_combo_dragoon_04_02 {
+  grid-area: combo02;
+  position: relative;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
+}
+.job_combo_dragoon_04_02::before {
+  left: -24px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/A/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04_02::after {
+  right: -24px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/K/0ZO58SIVqabfX2BXUt49SQeD80.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04_02 .job_combo_root_skill {
+  padding-right: 0;
+}
+.job_combo_dragoon_04_02_effect {
+  grid-area: combo02_effect;
+  display: flex;
+  align-items: center;
+}
+.job_combo_dragoon_04_end {
+  grid-area: end;
+  display: grid;
+  place-items: center;
+}
+.job_combo_dragoon_04_end .job_combo_root_skill_last {
+  position: relative;
+  padding-left: 24px;
+}
+.job_combo_dragoon_04_end .job_combo_root_skill_last::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 48px;
+  height: 100%;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/L/sJyips9fze37klbPBnrs2I6Z9I.png) no-repeat 0 0;
 }

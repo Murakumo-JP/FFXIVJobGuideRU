@@ -236,7 +236,9 @@ DebugFunctions();
 function toggleSearch() {
 	const tbody = document.querySelector('tbody[data-search]');
 	const searchContainer = document.querySelector('.search');
-
+	if (tbody !== 'data-search') {
+		return;
+  	} 
 	if (tbody?.dataset.search === "true") {
 		 searchContainer.style.display = '';
 	} else {
