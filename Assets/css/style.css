@@ -69,6 +69,34 @@ img {
   background: #f0dddd;
 }
 
+.search {
+  background: var(--tank-color);
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+.search a {
+  line-height: 32px;
+  padding: 0 10px;
+}
+.search #searchInput {
+  border: 0;
+  background: var(--tank-AltColor);
+  height: 25px;
+  color: white;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+input::-moz-placeholder {
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
 /* btn back top */
 .nome_app_top {
   display: none;
@@ -164,11 +192,15 @@ img {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
-/* Index Page */
 .app_index {
   background-color: var(--color-set-1);
 }
 
+.main_content {
+  width: auto;
+  padding: 0 0 16px;
+  margin: 0 auto;
+}
 .main_app {
   background: var(--color-set-3);
   font-family: "Noto Sans", sans-serif;
@@ -271,12 +303,6 @@ img {
   color: var(--text-color);
 }
 
-.main_content {
-  width: auto;
-  padding: 0 0 16px;
-  margin: 0 auto;
-}
-
 .news {
   padding: 0 16px 6px 16px;
   background: var(--color-set-1);
@@ -345,29 +371,10 @@ img {
   padding: 16px 0 16px 0;
   color: #cccccc;
 }
-
-.SE {
-  font-family: "Noto Sans";
-}
-.SE p {
-  font-size: 13px;
-  color: #fff;
-  padding-left: 16px;
-  line-height: 1.6;
-  text-align: center;
-}
-.SE a {
-  color: var(--link);
-}
-.SE a:hover {
-  color: var(--text-color);
-}
-
 .footer_info {
   margin-bottom: 10px;
   text-align: center;
 }
-
 .footer_git {
   background: #333333;
   display: inline-block;
@@ -387,6 +394,23 @@ img {
   height: 30px;
   border: 0;
   vertical-align: bottom;
+}
+
+.SE {
+  font-family: "Noto Sans";
+}
+.SE p {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+.SE a {
+  color: var(--link);
+}
+.SE a:hover {
+  color: var(--text-color);
 }
 
 .jobguide {
@@ -981,6 +1005,8 @@ img {
 .job_tbody td.distant_range img {
   width: 16px;
   height: 16px;
+  vertical-align: top;
+  margin: 0 2px 0 10px;
 }
 .job_tbody td.content {
   padding-left: 8px;
@@ -1002,6 +1028,11 @@ img {
   color: #585858;
   margin: 0 10px 16px;
   font-size: 14px;
+}
+.job_notes {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #b2122d;
 }
 
 .info_pop {
@@ -1368,6 +1399,137 @@ table {
     display: none;
   }
 }
+.bluemage_content {
+  padding: 16px 5px 5px !important;
+}
+.bluemage_content .job_title,
+.bluemage_content .job_notes_lv80,
+.bluemage_content .job_update {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.bluemage_content .job_content_wrapper .job_table {
+  width: 950px;
+}
+.bluemage-content {
+  padding-bottom: 32px;
+}
+.bluemage-text {
+  font-size: 14px;
+  color: #585858;
+  margin: 0 10px;
+  padding-bottom: 32px;
+}
+.bluemage-quest {
+  display: flex;
+  -ms-box-align: center;
+  box-align: center;
+  align-items: center;
+  margin: 0 10px;
+  padding-bottom: 32px;
+}
+.bluemage-quest_title {
+  background: rgba(128, 102, 51, 0.1);
+  height: 28px;
+  margin: 0 10px;
+  padding-left: 44px;
+  border-radius: 14px;
+  position: relative;
+}
+.bluemage-quest_title::before {
+  content: "";
+  background: url(../img/main/quest.png);
+  background-size: 40px 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.bluemage-quest_title a {
+  position: relative;
+  top: 3px;
+  color: #2556b8;
+  font-size: 16px;
+  font-weight: 700;
+}
+.bluemage-quest_map {
+  width: 360px;
+  margin-right: 16px;
+}
+.bluemage-quest_detail {
+  width: 544px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  padding: 8px 16px 0 8px;
+  box-sizing: border-box;
+}
+.bluemage-quest li {
+  font-size: 14px;
+  color: #585858;
+  padding: 0 0 8px 24px;
+}
+.bluemage-quest li.level {
+  background: url(../img/main/lvl.png) no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li.pos {
+  background: url(../img/main/loc.png) no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li.npc {
+  background: url(../img/main/npc.png) no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li.condition {
+  background: url(../img/main/complite.png) no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li a {
+  color: #2556b8;
+  font-weight: 700;
+}
+.bluemage-list {
+  margin: 0 10px;
+}
+.bluemage-list li {
+  background: url(../img/main/bluli.png) no-repeat 0 2px;
+  background-size: 16px 16px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.bluemage-list li li {
+  background: url(../img/main/bluli2.png) no-repeat 0 2px;
+  background-size: 16px 16px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  margin-top: 16px;
+}
+.bluemage-notes {
+  font-size: inherit;
+  color: #b2122d;
+}
+.bluemage-image {
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+}
+.bluemage-image_mb {
+  display: block;
+  margin: 0 auto 32px;
+  border-radius: 8px;
+}
+.bluemage-indent {
+  padding: 0 16px;
+}
+.bluemage-sub_title {
+  font-size: 14px;
+  margin: 0 10px;
+}
+
 /*==> Job Color */
 .job_tank .jobguide_menu_list > li > span,
 .job_tank .job_nav_title a,
@@ -1560,11 +1722,23 @@ table {
   left: 0;
   z-index: 2;
 }
-
-.job_notes {
-  margin: 0 10px;
-  font-size: 12px;
-  color: #b2122d;
+.job_combo_darkknight_02, .job_combo_gunbreaker_02, .job_combo_ninja_04, .job_combo_reaper_02, .job_combo_warrior_03 {
+  background: url(../img/main/combo.png) no-repeat 150px 0;
+  border-bottom: 1px solid #999;
+}
+.job_combo_darkknight_01, .job_combo_gunbreaker_01, .job_combo_reaper_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+}
+.job_combo_root_dancer, .job_combo_root_gunbreaker, .job_combo_viper {
+  border-bottom: 1px solid #999;
+}
+.job_combo_dragoon_04 .job_combo_root_skill, .job_combo_dragoon_04 .job_combo_root_skill_last {
+  width: 120px;
+}
+.job_combo_dragoon_04_start .job_combo_root_skill {
+  position: relative;
+  padding-right: 24px;
 }
 
 .job_hud_title {
@@ -1572,7 +1746,6 @@ table {
   font-weight: 700;
   margin: 0 10px 16px;
 }
-
 .job_hud_text {
   margin: 0 10px 16px 10px;
   font-size: 14px;
@@ -1583,7 +1756,6 @@ table {
   font-weight: 400;
   color: #b2122d !important;
 }
-
 .job_hud_layout--pve, .job_hud_layout--pvp {
   text-align: center;
   margin: 0 auto 32px;
@@ -1642,30 +1814,10 @@ table {
 .job_hud_layout--mb32 {
   margin: 0 0 32px 10px;
 }
-
 .job_hud_image {
   float: left;
   margin-right: 20px;
   display: block;
-}
-
-.job_combo_darkknight_02, .job_combo_gunbreaker_02, .job_combo_ninja_04, .job_combo_reaper_02, .job_combo_warrior_03 {
-  background: url(../img/main/combo.png) no-repeat 150px 0;
-  border-bottom: 1px solid #999;
-}
-.job_combo_darkknight_01, .job_combo_gunbreaker_01, .job_combo_reaper_01 {
-  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
-  border-bottom: 1px solid #999;
-}
-.job_combo_root_dancer, .job_combo_root_gunbreaker {
-  border-bottom: 1px solid #999;
-}
-.job_combo_dragoon_04 .job_combo_root_skill, .job_combo_dragoon_04 .job_combo_root_skill_last {
-  width: 120px;
-}
-.job_combo_dragoon_04_start .job_combo_root_skill {
-  position: relative;
-  padding-right: 24px;
 }
 
 .job_combo_paladin_01 {
@@ -1888,4 +2040,106 @@ table {
   width: 48px;
   height: 100%;
   background: url(https://lds-img.finalfantasyxiv.com/promo/h/L/sJyips9fze37klbPBnrs2I6Z9I.png) no-repeat 0 0;
+}
+
+.job_combo_ninja_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo3.png) no-repeat 370px 0;
+}
+.job_combo_ninja_02 {
+  background: url(../img/main/combo4.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+}
+
+.job_combo_samurai_01 {
+  background: url(../img/main/combo3.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+}
+.job_combo_samurai_02 {
+  background: url(../img/main/combo10.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+}
+.job_combo_samurai_03 {
+  background: url(../img/main/combo4.png) no-repeat 150px 0;
+  border-bottom: 1px solid #999;
+}
+.job_combo_samurai_04 {
+  background: url(../img/main/combo3.png) no-repeat 150px 0;
+}
+.job_combo_samurai_05 {
+  background: url(../img/main/combo4.png) no-repeat 150px 0;
+  border-bottom: 1px solid #999;
+  margin-bottom: 8px;
+}
+
+.job_combo_viper_inner_01 {
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_02 {
+  padding-top: 124px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/s/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_04 {
+  padding-top: 124px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_05 {
+  padding-top: 124px;
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px, url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_06 {
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_07 {
+  background: url(https://lds-img.finalfantasyxiv.com/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+}
+
+.job_combo_machinist_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
+  margin-bottom: 8px;
+}
+
+.job_combo_dancer_01_inner {
+  width: 640px;
+  padding-left: 55px;
+  padding-right: 165px;
+  box-sizing: border-box;
+  background: url(../img/main/combo.png) no-repeat 205px 0;
+}
+.job_combo_dancer_02 {
+  position: relative;
+}
+.job_combo_dancer_02_inner {
+  width: 640px;
+  height: 124px;
+  padding-left: 165px;
+  padding-right: 55px;
+  box-sizing: border-box;
+  background: url(../img/main/combo9.png) no-repeat 95px 0, url(../img/main/combo9.png) no-repeat 315px 0;
+}
+.job_combo_dancer_02_percent {
+  position: absolute;
+  top: 50%;
+  left: 95px;
+  transform: translateY(-50%);
+}
+.job_combo_dancer_02_percent .job_combo_root_skill {
+  bottom: 40px;
+  position: relative;
+  width: 120px;
+  padding: 0 95px 0 5px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.job_combo_dancer_02_percent p {
+  width: 120px;
+}
+.job_combo_dancer_02_percent p span {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #5c95e5;
+}
+
+.job_combo_redmage_01 {
+  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  border-bottom: 1px solid #999;
 }
