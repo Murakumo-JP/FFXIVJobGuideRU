@@ -671,9 +671,28 @@ input::placeholder {
   background: #e5e3d3;
 }
 
-.job_index {
+.job--DoWDoM {
   background: url(../img/DoWDoM/header.jpg) no-repeat top center #222;
   background-attachment: fixed;
+}
+.job--DoHDoL {
+  background: url(../img/DoHDoL/header.jpg) no-repeat center top #4e3928;
+  background-attachment: fixed;
+  height: 600px;
+}
+.job--DoHDoL h1 {
+  width: 960px;
+  height: 144px;
+  position: absolute;
+  left: 0;
+  top: 390px;
+}
+.job--DoHDoL .jobguide_header_inner {
+  width: 960px;
+  height: 100%;
+}
+.job--DoHDoL ~ .jobguide_catch {
+  background: #23401a;
 }
 .job_header {
   display: block;
@@ -702,6 +721,12 @@ input::placeholder {
   width: max-content;
   border-radius: 5px;
   padding-right: 10px;
+}
+.job_header_role img {
+  display: inline-block;
+  margin-right: 4px;
+  width: 32px;
+  height: 32px;
 }
 .job_header_text {
   background: url(../img/main/job_text.png) no-repeat left top;
@@ -1033,6 +1058,279 @@ input::placeholder {
   margin: 0 10px;
   font-size: 12px;
   color: #b2122d;
+}
+.job_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.job_list_wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1282px;
+  margin: 0 auto;
+  padding: 0 6px 32px;
+  box-sizing: border-box;
+}
+.job_list li {
+  width: 300px;
+  height: 450px;
+  margin: 0 8px 32px;
+  position: relative;
+}
+.job_list li a {
+  display: block;
+  position: relative;
+  transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 8px;
+}
+.job_list li a p {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.job_list li a p i {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.job_list li a p i img {
+  width: 100%;
+  height: 100%;
+}
+.job_list li a > img {
+  width: 300px;
+  height: 450px;
+}
+.job_list.crafter li a p {
+  color: var(--craft-color);
+}
+.job_list.crafter li a:hover {
+  background: rgba(78, 50, 143, 0.15);
+  box-shadow: 0 0 2px 0 rgba(78, 50, 143, 0.14) inset, 0 0 8px 0 rgba(78, 50, 143, 0.25), 0 0 32px 0 rgba(78, 50, 143, 0.25);
+}
+.job_list.gatherer li a p {
+  color: #8f7832;
+}
+.job_list.gatherer li a:hover {
+  background: rgba(143, 120, 50, 0.15);
+  box-shadow: 0 0 2px 0 rgba(143, 120, 50, 0.14) inset, 0 0 8px 0 rgba(143, 120, 50, 0.25), 0 0 32px 0 rgba(143, 120, 50, 0.25);
+}
+
+.content {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 10px 0 0 15px;
+}
+.content_text {
+  font-size: 16px;
+  color: #585858;
+  line-height: 1.5;
+  margin-bottom: 64px;
+}
+.content_text--margin {
+  margin-bottom: 0;
+}
+.content_title {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 32px;
+  padding: 4px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+}
+.content_title.crafter {
+  background: linear-gradient(to right, var(--craft-color) 0, rgba(78, 50, 143, 0) 100%);
+}
+.content_title.gatherer {
+  background: linear-gradient(to right, #8f7832 0, rgba(143, 120, 50, 0) 100%);
+}
+.content_title i {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-right: 8px;
+}
+.content_title i img {
+  width: 100%;
+  height: auto;
+}
+
+.tab_craft, .tab_gatherer {
+  display: flex;
+  justify-content: space-between;
+  width: 920px;
+  margin: 20px auto 32px;
+}
+.tab_craft li, .tab_gatherer li {
+  position: relative;
+  width: 450px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+  background: #f0eddd;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
+  transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.tab_craft .js-tab-trigger.active, .tab_gatherer .js-tab-trigger.active {
+  background: #f5a300;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: default;
+}
+.tab_craft li {
+  color: var(--craft-color);
+}
+
+.guide-title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 6px;
+  height: 32px;
+  padding: 0 10px;
+  margin-bottom: 16px;
+}
+.guide-table {
+  width: 920px;
+  margin: 0 auto 8px;
+}
+.guide-table_wrapper {
+  margin-bottom: 64px;
+}
+.guide-sub_title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 10px 16px;
+}
+.guide-thead th {
+  padding: 0 1px;
+}
+.guide-thead th:nth-child(1) {
+  padding-left: 0;
+}
+.guide-thead p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 12px;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+.guide-tbody td {
+  padding: 6px 4px;
+  border-bottom: 1px solid #999;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 12px;
+  color: #585858;
+  line-height: 1.4;
+}
+.guide-tbody td.jobclass .jobclass_wrapper,
+.guide-tbody td.jobclass .skill_wrapper, .guide-tbody td.skill .jobclass_wrapper,
+.guide-tbody td.skill .skill_wrapper {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+.guide-tbody td.jobclass .jobclass_wrapper_icon,
+.guide-tbody td.jobclass .skill_wrapper_icon, .guide-tbody td.skill .jobclass_wrapper_icon,
+.guide-tbody td.skill .skill_wrapper_icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 48px;
+}
+.guide-tbody td.jobclass .jobclass_wrapper_icon:after,
+.guide-tbody td.jobclass .skill_wrapper_icon:after, .guide-tbody td.skill .jobclass_wrapper_icon:after,
+.guide-tbody td.skill .skill_wrapper_icon:after {
+  content: "";
+  background: url(../img/main/skil_icon_on.png) no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.guide-tbody td.jobclass .jobclass_wrapper p,
+.guide-tbody td.jobclass .skill_wrapper p, .guide-tbody td.skill .jobclass_wrapper p,
+.guide-tbody td.skill .skill_wrapper p {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 2px;
+}
+.guide-tbody td img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+.guide-tbody td.jobclass .jobclass_wrapper_icon, .guide-tbody td.skill .jobclass_wrapper_icon {
+  width: 32px;
+}
+.guide-tbody td .class_quest {
+  color: #b36b24;
+  font-weight: 700;
+  font-size: 10px;
+}
+.guide-skill_icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+  background-size: 40px 40px;
+  vertical-align: middle;
+}
+.guide-skill_icon img {
+  display: block;
+  position: absolute;
+  top: 2px !important;
+  left: 50% !important;
+  margin-left: -20px;
+  z-index: 1;
+}
+.guide-skill_icon:after {
+  content: "";
+  background: url(../img/main/skil_icon_on.png) no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.jobclass_wrapper .jobclass_wrapper_icon img {
+  width: 32px;
+  height: 32px;
 }
 
 .info_pop {
@@ -1628,6 +1926,54 @@ table {
   margin-right: 4px;
   width: 32px;
   height: 32px;
+}
+
+.job_craft .guide-title,
+.job_craft .guide-about_title:after {
+  background: var(--craft-color);
+}
+.job_craft .guide-thead p {
+  background: var(--craft-AltColor);
+}
+.job_craft .guide-sub_title,
+.job_craft .guide-about_title,
+.job_craft .guide-about_lead,
+.job_craft .jobguide_menu_list > li > span,
+.job_craft .jobguide_sub_menu li a {
+  color: var(--craft-color);
+}
+.job_craft .nav_floating_icon:hover {
+  background-color: var(--craft-AltColor);
+}
+.job_craft ~ .nome_app_top .app_top {
+  background: var(--craft-color);
+  box-shadow: 1px 1px 5px var(--craft-color);
+}
+.job_craft .guide-about_subtitle {
+  background: linear-gradient(to right, var(--craft-color) 0%, rgba(78, 50, 143, 0) 100%);
+}
+
+.job_gathering .guide-title,
+.job_gathering .guide-about_title:after {
+  background: var(--gathering-color);
+}
+.job_gathering .guide-thead p {
+  background: var(--gathering-AltColor);
+}
+.job_gathering .guide-sub_title,
+.job_gathering .guide-about_title,
+.job_gathering .guide-about_lead {
+  color: var(--gathering-color);
+}
+.job_gathering .nav_floating_icon:hover {
+  background-color: var(--gathering-AltColor);
+}
+.job_gathering ~ .nome_app_top .app_top {
+  background: var(--gathering-color);
+  box-shadow: 1px 1px 5px var(--gathering-color);
+}
+.job_gathering .guide-about_subtitle {
+  background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);
 }
 
 /* Combo List */

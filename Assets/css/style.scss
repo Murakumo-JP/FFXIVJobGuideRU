@@ -185,7 +185,7 @@ input::placeholder {
 		padding: 0 0 16px;
 		margin: 0 auto;
 	}
-	&_app{
+	&_app {
 		background: var(--color-set-3);
 		font-family: "Noto Sans", sans-serif;
 		font-size: 12px;
@@ -609,7 +609,7 @@ input::placeholder {
 		}
 	}
 	&_menu {
-		&_wrapper{
+		&_wrapper {
 			background: #eaebe6;
 			top: 0;
 			width: 100%;
@@ -681,7 +681,6 @@ input::placeholder {
 			}
 		}
 	}
-
 }
 .job_name_menu,
 .jobguide_sub_menu li {
@@ -690,9 +689,28 @@ input::placeholder {
 	}
 }
 .job {
-	&_index {
+	&--DoWDoM {
 		background: url(../img/DoWDoM/header.jpg) no-repeat top center #222;
 		background-attachment: fixed;
+	}
+	&--DoHDoL {
+		background: url(../img/DoHDoL/header.jpg) no-repeat center top #4e3928;
+		background-attachment: fixed;
+		height: 600px;
+		h1 {
+			width: 960px;
+			height: 144px;
+			position: absolute;
+			left: 0;
+			top: 390px;
+		}
+		.jobguide_header_inner {
+			width: 960px;
+			height: 100%;
+		}
+		~ .jobguide_catch {
+			background: #23401a;
+		}
 	}
 	&_header {
 		display: block;
@@ -719,6 +737,12 @@ input::placeholder {
 			width: max-content;
 			border-radius: 5px;
 			padding-right: 10px;
+			img {
+				display: inline-block;
+				margin-right: 4px;
+				width: 32px;
+				height: 32px;
+			}
 		}
 		&_text {
 			background: url(../img/main/job_text.png) no-repeat left top;
@@ -792,7 +816,7 @@ input::placeholder {
 		}
 	}
 	&_skill {
-		&_icon{
+		&_icon {
 			position: relative;
 			width: 48px;
 			height: 48px;
@@ -1079,6 +1103,296 @@ input::placeholder {
 		font-size: 12px;
 		color: #b2122d;
 	}
+	&_list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		&_wrapper {
+			display: flex;
+			justify-content: center;
+			max-width: 1282px;
+			margin: 0 auto;
+			padding: 0 6px 32px;
+			box-sizing: border-box;
+		}
+		li {
+			width: 300px;
+			height: 450px;
+			margin: 0 8px 32px;
+			position: relative;
+			a {
+				display: block;
+				position: relative;
+				-moz-transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+				-o-transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+				-webkit-transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+				transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+				border-radius: 8px;
+				p {
+					display: flex;
+					align-items: center;
+					justify-content: start;
+					position: absolute;
+					top: 0;
+					left: 0;
+					padding: 8px;
+					font-size: 18px;
+					font-weight: 900;
+					i {
+						display: block;
+						width: 48px;
+						height: 48px;
+						margin-right: 8px;
+						img {
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+				> img {
+					width: 300px;
+					height: 450px;
+				}
+			}
+		}
+		&.crafter li a {
+			p {
+				color: var(--craft-color);
+			}
+			&:hover {
+				background: rgb(78 50 143 / 15%);
+				box-shadow: 0 0 2px 0 rgba(78, 50, 143, 0.14) inset, 0 0 8px 0 rgba(78, 50, 143, 0.25), 0 0 32px 0 rgba(78, 50, 143, 0.25);
+			}
+		}
+		&.gatherer li a {
+			p {
+				color: #8f7832;
+			}
+			&:hover {
+				background: rgb(143 120 50 / 15%);
+				box-shadow: 0 0 2px 0 rgba(143, 120, 50, 0.14) inset, 0 0 8px 0 rgba(143, 120, 50, 0.25), 0 0 32px 0 rgba(143, 120, 50, 0.25);
+			}
+		}
+	}
+}
+.content {
+	max-width: 1248px;
+	margin: 0 auto;
+	padding: 10px 0 0 15px;
+	&_text {
+		font-size: 16px;
+		color: #585858;
+		line-height: 1.5;
+		margin-bottom: 64px;
+		&--margin {
+			margin-bottom: 0;
+		}
+	}
+	&_title {
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		margin-bottom: 32px;
+		padding: 4px;
+		font-size: 24px;
+		font-weight: 900;
+		color: #fff;
+		&.crafter {
+			background: linear-gradient(to right, var(--craft-color) 0, rgba(78, 50, 143, 0) 100%);
+		}
+		&.gatherer {
+			background: linear-gradient(to right, #8f7832 0, rgba(143, 120, 50, 0) 100%);
+		}
+		i {
+			width: 40px;
+			height: 40px;
+			display: block;
+			margin-right: 8px;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
+.tab {
+	&_craft,
+	&_gatherer {
+		display: flex;
+		justify-content: space-between;
+		width: 920px;
+		margin: 20px auto 32px;
+		li {
+			position: relative;
+			width: 450px;
+			height: 48px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 8px;
+			text-align: center;
+			cursor: pointer;
+			font-size: 20px;
+			font-weight: 900;
+			background: #f0eddd;
+			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
+			-moz-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+			-o-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+			-webkit-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+				box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+			transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		}
+		.js-tab-trigger {
+			&.active {
+				background: #f5a300;
+				box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+				color: #fff;
+				cursor: default;
+			}
+		}
+	}
+	&_craft li {
+		color: var(--craft-color);
+	}
+}
+.guide {
+	&-title {
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		font-size: 16px;
+		font-weight: 900;
+		color: #fff;
+		border-radius: 6px;
+		height: 32px;
+		padding: 0 10px;
+		margin-bottom: 16px;
+	}
+	&-table {
+		width: 920px;
+		margin: 0 auto 8px;
+		&_wrapper {
+			margin-bottom: 64px;
+		}
+	}
+	&-sub_title {
+		font-size: 16px;
+		font-weight: 700;
+		margin: 0 10px 16px;
+	}
+	&-thead {
+		th {
+			padding: 0 1px;
+			&:nth-child(1) {
+				padding-left: 0;
+			}
+		}
+		p {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 40px;
+			border-radius: 4px;
+			font-weight: 400;
+			color: #fff;
+			font-size: 12px;
+			padding: 0 4px;
+			box-sizing: border-box;
+		}
+	}
+	&-tbody td {
+		padding: 6px 4px;
+		border-bottom: 1px solid #999;
+		vertical-align: middle;
+		text-align: left;
+		font-size: 12px;
+		color: #585858;
+		line-height: 1.4;
+		&.jobclass,
+		&.skill {
+			.jobclass_wrapper,
+			.skill_wrapper {
+				display: table;
+				width: 100%;
+				vertical-align: middle;
+				&_icon {
+					display: table-cell;
+					vertical-align: middle;
+					width: 48px;
+
+					&:after {
+						content: "";
+						background: url(../img/main/skil_icon_on.png) no-repeat;
+						width: 48px;
+						height: 48px;
+						display: block;
+						position: absolute;
+						top: 0;
+						left: 0;
+						z-index: 2;
+					}
+				}
+				p {
+					display: table-cell;
+					vertical-align: middle;
+					padding-left: 2px;
+				}
+			}
+		}
+		img {
+			display: inline-block;
+			vertical-align: middle;
+			width: 40px;
+			height: 40px;
+		}
+		&.jobclass .jobclass_wrapper_icon,
+		&.skill .jobclass_wrapper_icon {
+			width: 32px;
+		}
+		.class_quest {
+			color: #b36b24;
+			font-weight: 700;
+			font-size: 10px;
+		}
+	}
+	&-skill_icon {
+		position: relative;
+		width: 48px;
+		height: 48px;
+		display: inline-block;
+		background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+		-moz-background-size: 40px 40px;
+		-o-background-size: 40px 40px;
+		-webkit-background-size: 40px 40px;
+		background-size: 40px 40px;
+		vertical-align: middle;
+		img {
+			display: block;
+			position: absolute;
+			top: 2px !important;
+			left: 50% !important;
+			margin-left: -20px;
+			z-index: 1;
+		}
+		&:after {
+			content: "";
+			background: url(../img/main/skil_icon_on.png) no-repeat;
+			width: 48px;
+			height: 48px;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+	}
+}
+.jobclass_wrapper .jobclass_wrapper_icon img {
+	width: 32px;
+	height: 32px;
 }
 .info_pop {
 	background: #fffceb;
@@ -1090,11 +1404,12 @@ input::placeholder {
 	color: #b36b24;
 	text-align: center;
 }
-ul,li {
+ul,
+li {
 	list-style: none;
 }
 .nav_floating {
-	&_icon{
+	&_icon {
 		display: block;
 		background: url(../img/svg/dots-vertical.svg) no-repeat 0 0;
 		border-radius: 50%;
@@ -1412,17 +1727,17 @@ table {
 .bluemage {
 	&_content {
 		padding: 16px 5px 5px !important;
-		.job_title, 
-		.job_notes_lv80, 
+		.job_title,
+		.job_notes_lv80,
 		.job_update {
 			margin-left: 5px;
 			margin-right: 5px;
 		}
 		.job_content_wrapper .job_table {
 			width: 950px;
-	  	}
-  	}
-	&-content{
+		}
+	}
+	&-content {
 		padding-bottom: 32px;
 	}
 	&-text {
@@ -1430,7 +1745,7 @@ table {
 		color: #585858;
 		margin: 0 10px;
 		padding-bottom: 32px;
-  	}
+	}
 	&-quest {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -1444,14 +1759,14 @@ table {
 		margin: 0 10px;
 		padding-bottom: 32px;
 		&_title {
-			background: rgba(128, 102, 51, .1);
+			background: rgba(128, 102, 51, 0.1);
 			height: 28px;
 			margin: 0 10px;
 			padding-left: 44px;
 			border-radius: 14px;
 			position: relative;
 			&::before {
-				content: '';
+				content: "";
 				background: url(../img/main/quest.png);
 				background-size: 40px 40px;
 				display: block;
@@ -1464,7 +1779,7 @@ table {
 				-ms-transform: translateY(-50%);
 				-webkit-transform: translateY(-50%);
 				transform: translateY(-50%);
-			  }
+			}
 			a {
 				position: relative;
 				top: 3px;
@@ -1476,14 +1791,14 @@ table {
 		&_map {
 			width: 360px;
 			margin-right: 16px;
-	  	}
+		}
 		&_detail {
 			width: 544px;
-			background: rgba(255, 255, 255, .35);
+			background: rgba(255, 255, 255, 0.35);
 			border-radius: 8px;
 			padding: 8px 16px 0 8px;
 			box-sizing: border-box;
-	  	}
+		}
 		li {
 			font-size: 14px;
 			color: #585858;
@@ -1491,25 +1806,25 @@ table {
 			&.level {
 				background: url(../img/main/lvl.png) no-repeat 0 0;
 				background-size: 20px 20px;
-		  	}
+			}
 			&.pos {
 				background: url(../img/main/loc.png) no-repeat 0 0;
 				background-size: 20px 20px;
-		  	}
+			}
 			&.npc {
 				background: url(../img/main/npc.png) no-repeat 0 0;
 				background-size: 20px 20px;
-		  	}
+			}
 			&.condition {
 				background: url(../img/main/complite.png) no-repeat 0 0;
 				background-size: 20px 20px;
-		  	}
+			}
 			a {
 				color: #2556b8;
 				font-weight: 700;
-		  	}
+			}
 		}
-  	}
+	}
 	&-list {
 		margin: 0 10px;
 		li {
@@ -1524,13 +1839,13 @@ table {
 				padding-bottom: 0;
 				padding-left: 20px;
 				margin-top: 16px;
-		  	}
-	  	}
-  	}
+			}
+		}
+	}
 	&-notes {
 		font-size: inherit;
 		color: #b2122d;
-  	}
+	}
 	&-image {
 		display: block;
 		margin: 0 auto 16px;
@@ -1539,15 +1854,15 @@ table {
 			display: block;
 			margin: 0 auto 32px;
 			border-radius: 8px;
-	  	}
-  	}
-  	&-indent {
+		}
+	}
+	&-indent {
 		padding: 0 16px;
 	}
 	&-sub_title {
 		font-size: 14px;
 		margin: 0 10px;
-  	}
+	}
 }
 /*==> Job Color */
 .job_tank {
@@ -1650,6 +1965,56 @@ table {
 			width: 32px;
 			height: 32px;
 		}
+	}
+}
+.job_craft {
+	.guide-title,
+	.guide-about_title:after {
+		background: var(--craft-color);
+	}
+	.guide-thead p {
+		background: var(--craft-AltColor);
+	}
+	.guide-sub_title,
+	.guide-about_title,
+	.guide-about_lead,
+	.jobguide_menu_list > li > span,
+	.jobguide_sub_menu li a {
+		color: var(--craft-color);
+	}
+	.nav_floating_icon:hover {
+		background-color: var(--craft-AltColor);
+	}
+	~ .nome_app_top .app_top {
+		background: var(--craft-color);
+		box-shadow: 1px 1px 5px var(--craft-color);
+	}
+	.guide-about_subtitle {
+		background: linear-gradient(to right, var(--craft-color) 0%, rgba(78, 50, 143, 0) 100%);
+	}
+}
+.job_gathering {
+	.guide-title,
+	.guide-about_title:after {
+		background: var(--gathering-color);
+	}
+	.guide-thead p {
+		background: var(--gathering-AltColor);
+	}
+	.guide-sub_title,
+	.guide-about_title,
+	.guide-about_lead {
+		color: var(--gathering-color);
+	}
+	.nav_floating_icon:hover {
+		background-color: var(--gathering-AltColor);
+	}
+	~ .nome_app_top .app_top {
+		background: var(--gathering-color);
+		box-shadow: 1px 1px 5px var(--gathering-color);
+	}
+	.guide-about_subtitle {
+		background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);
 	}
 }
 /* Combo List */
@@ -2114,73 +2479,73 @@ table {
 	}
 }
 .job_combo_ninja {
-	&_01{
+	&_01 {
 		background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo3.png) no-repeat 370px 0;
 	}
-	&_02{
+	&_02 {
 		background: url(../img/main/combo4.png) no-repeat 370px 0;
 		border-bottom: 1px solid #999;
 	}
 }
 .job_combo_samurai {
-	&_01{
+	&_01 {
 		background: url(../img/main/combo3.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
 	}
 	&_02 {
 		background: url(../img/main/combo10.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
-  	}
+	}
 	&_03 {
 		background: url(../img/main/combo4.png) no-repeat 150px 0;
 		border-bottom: 1px solid #999;
-  	}
+	}
 	&_04 {
 		background: url(../img/main/combo3.png) no-repeat 150px 0;
-  	}
+	}
 	&_05 {
 		background: url(../img/main/combo4.png) no-repeat 150px 0;
 		border-bottom: 1px solid #999;
 		margin-bottom: 8px;
-  	}
+	}
 }
 .job_combo_viper_inner {
-	&_01{
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+	&_01 {
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 	}
 	&_02 {
 		padding-top: 124px;
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/s/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
-  	}
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/s/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+	}
 	&_04 {
 		padding-top: 124px;
 		background: url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
-  	}
+	}
 	&_05 {
 		padding-top: 124px;
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
-  	}
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
+	}
 	&_06 {
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
-  	}
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+	}
 	&_07 {
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0, 
-		url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
-  	}
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0,
+			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+	}
 }
 .job_combo_machinist {
-	&_01{
+	&_01 {
 		background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
 		border-bottom: 1px solid #999;
 		margin-bottom: 8px;
 	}
 }
 .job_combo_dancer {
-	&_01_inner{
+	&_01_inner {
 		width: 640px;
 		padding-left: 55px;
 		padding-right: 165px;
@@ -2200,7 +2565,7 @@ table {
 			-webkit-box-sizing: border-box;
 			box-sizing: border-box;
 			background: url(../img/main/combo9.png) no-repeat 95px 0, url(../img/main/combo9.png) no-repeat 315px 0;
-	  	}
+		}
 		&_percent {
 			position: absolute;
 			top: 50%;
@@ -2215,7 +2580,7 @@ table {
 				-moz-box-sizing: border-box;
 				-webkit-box-sizing: border-box;
 				box-sizing: border-box;
-		  	}
+			}
 			p {
 				width: 120px;
 				span {
@@ -2223,13 +2588,13 @@ table {
 					font-size: 16px;
 					font-weight: 700;
 					color: #5c95e5;
-			  	}
-		  	}
-	  	}
-  	}
+				}
+			}
+		}
+	}
 }
 .job_combo_redmage {
-	&_01{
+	&_01 {
 		background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
 		border-bottom: 1px solid #999;
 	}
