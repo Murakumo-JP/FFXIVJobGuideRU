@@ -1325,18 +1325,6 @@ input::placeholder {
 					display: table-cell;
 					vertical-align: middle;
 					width: 48px;
-
-					&:after {
-						content: "";
-						background: url(../img/main/skil_icon_on.png) no-repeat;
-						width: 48px;
-						height: 48px;
-						display: block;
-						position: absolute;
-						top: 0;
-						left: 0;
-						z-index: 2;
-					}
 				}
 				p {
 					display: table-cell;
