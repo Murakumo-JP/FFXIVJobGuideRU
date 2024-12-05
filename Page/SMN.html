@@ -10,7 +10,7 @@
       <meta name="theme-color" content="#732828">
       <title>Job Guide: Summoner | FFXIV RU</title>
       <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
-      <link rel="stylesheet" href="../Assets/css/index.css"/>
+      <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
@@ -203,13 +203,13 @@
             </div>
          </header>
          <!-- DB Skill List -->
-         <div class="job_skil_list">
+         <div class="job_skill_list">
             <ul class="job_tab clearfix">
                <li class="job_tab--pve js-tab-trigger action" data-tab="pve"><img src="../Assets/img/main/PVEAction.png"></li>
                <li class="job_tab--pvp js-tab-trigger" data-tab="pvp"><img src="../Assets/img/main/PVPAction.png"></li>
             </ul>
             <!-- PVE -->
-            <div class="job_skil_db-pve js-tab-content active" data-tab="pve">
+            <div class="job_skill_db-pve js-tab-content active" data-tab="pve">
                <p class="job_update" db-value="PVE Update"></p>
                <p class="job_notes_lvl" id="patch_info"></p>
                <!-- Content Wrapper -->
@@ -575,7 +575,7 @@
                   <h3 class="job_hud_title">Aetherflow Gauge</h3>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/g/ehaBoG3n-NogfWkhsbscDC-AZ4.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
+                     <p class="job_hud_text">
                         После изучения умения <span class="txt_red">Energy Drain</span>, на экране появится <span class="txt_red">Aetherflow Gauge</span>, показывающая стаки <span class="txt_red">Aetherflow</span>.<br />Максимальные стаки Aetherflow можно накопить с помощью Energy Drain и Energy Siphon, а затем использовать для выполнения некоторых умений, таких как Fester и Painflare (изучаются на 40 уровне).
                      </p>
                   </div>
@@ -594,7 +594,7 @@
                   </p>
                   <div class="job_hud_layout--mb16 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/W/7tjpQn-CAGS3VUwI8uCoIDWCxE.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
+                     <p class="job_hud_text">
                         После призыва питомца, персонаж получает стаки в соответствии с текущей активной стихией (attunement stacks).<br />Стаки текущей активной стихии и их продолжительность будут отображаться на Trance Gauge. Они изменяют свойства Gemshine и Precious Brilliance (изучаются на 26 уровне).
                      </p>
                   </div>
@@ -613,7 +613,7 @@
                   </p>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/u/fyHMyrcoegyoIPzCTorrhQJ5Eo.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
+                     <p class="job_hud_text">
                         После призыва питомца, персонаж получает связанный с ним эфир (<span class="txt_red">aether</span>).<br />Стаки эфира и их продолжительность будут отображаться на шкале Trance Gauge. Они будут изменять свойства <span class="txt_red">Gemshine</span> и <span class="txt_red">Precious Brilliance</span> (изучается на 26 уровне).
                      </p>
                   </div>
@@ -632,7 +632,7 @@
                   </p>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/Z/hcno8vopMMgLhKLNav9GWC0gc0.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
+                     <p class="job_hud_text">
                         После призыва питомца, персонаж получает связанный с ним эфир (<span class="txt_red">aether</span>). <br />Стаки эфира и их продолжительность будут отображаться на шкале Trance Gauge. Они будут изменять свойства <span class="txt_red">Gemshine</span> и <span class="txt_red">Precious Brilliance</span> (изучается на 26 уровне).
                      </p>
                   </div>
@@ -651,7 +651,7 @@
                   </p>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/F/6k81p57hMtbK964aPLVGJP4k_I.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
+                     <p class="job_hud_text">
                         После призыва питомца, персонаж получает связанный с ним эфир (<span class="txt_red">aether</span>).<br />Стаки эфира и их продолжительность будут отображаться на шкале Trance Gauge. Они будут изменять свойства <span class="txt_red">Gemshine</span> и <span class="txt_red">Precious Brilliance</span> (изучается на 26 уровне). После получения пассивного умения <span class="txt_red">Elemental Mastery</span> (изучается на 86 уровне), Astral Flow будет меняться в соотвествии с выбранной стихией.
                      </p>
                   </div>
@@ -735,7 +735,7 @@
                <!-- END -->
             </div>
             <!-- PVP -->
-            <div class="job_skil_db-pvp js-tab-content" data-tab="pvp">
+            <div class="job_skill_db-pvp js-tab-content" data-tab="pvp">
                <p class="job_update" db-value="PVP Update"></p>
                <p class="job_notes_lvl">У PVP умений отсутствует параметр "стоимость MP". Данная колонка удалена.</p>
                <!-- Content Wrapper -->

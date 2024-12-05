@@ -2,7 +2,7 @@
 $(document).ready(function () {
 	// Info Update
 	function addUpdateInfo(date, patchVersion, patchLink) {
-		$("#inner_update").prepend('<p class="latest_update">Последнее обновление: ' + date + " | Патч: " + patchVersion + "</p>");
+		$("#inner_update").prepend('<p>Последнее обновление: ' + date + " | Патч: " + patchVersion + "</p>");
 		$("#patch_info").prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="' +	patchLink +'">патчноутам</a>.');
 	}
 	addUpdateInfo("26.11.2024", "7.11", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/2ab819310b025e3e7cf373ebdd581107d7064529");
@@ -236,7 +236,9 @@ DebugFunctions();
 function toggleSearch() {
 	const tbody = document.querySelector('tbody[data-search]');
 	const searchContainer = document.querySelector('.search');
-
+	if (tbody !== 'data-search') {
+		return;
+  	} 
 	if (tbody?.dataset.search === "true") {
 		 searchContainer.style.display = '';
 	} else {
