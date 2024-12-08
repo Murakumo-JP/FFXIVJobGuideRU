@@ -1947,6 +1947,10 @@ table {
   background-color: var(--tank-color);
   box-shadow: 1px 1px 5px var(--tank-color);
 }
+.job_tank .nav_floating_icon:hover,
+.job_tank ~ .nome_app_top .app_top:hover {
+  background-color: var(--tank-AltColor);
+}
 .job_tank .job_header_role {
   background: var(--tank-color);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
@@ -1979,6 +1983,10 @@ table {
 .job_healer ~ .nome_app_top .app_top {
   background-color: var(--healer-color);
   box-shadow: 1px 1px 5px var(--healer-color);
+}
+.job_healer .nav_floating_icon:hover,
+.job_healer ~ .nome_app_top .app_top:hover {
+  background-color: var(--healer-AltColor);
 }
 .job_healer .job_header_role {
   background: var(--healer-color);
@@ -2013,6 +2021,10 @@ table {
   background-color: var(--dps-color);
   box-shadow: 1px 1px 5px var(--dps-color);
 }
+.job_dps .nav_floating_icon:hover,
+.job_dps ~ .nome_app_top .app_top:hover {
+  background-color: var(--dps-AltColor);
+}
 .job_dps .job_header_role {
   background: var(--dps-color);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
@@ -2045,6 +2057,9 @@ table {
   background: var(--craft-color);
   box-shadow: 1px 1px 5px var(--craft-color);
 }
+.job_craft ~ .nome_app_top .app_top:hover {
+  background-color: var(--craft-AltColor);
+}
 .job_craft .guide-about_subtitle {
   background: linear-gradient(to right, var(--craft-color) 0%, rgba(78, 50, 143, 0) 100%);
 }
@@ -2069,6 +2084,9 @@ table {
 .job_gathering ~ .nome_app_top .app_top {
   background: var(--gathering-color);
   box-shadow: 1px 1px 5px var(--gathering-color);
+}
+.job_gathering ~ .nome_app_top .app_top:hover {
+  background-color: var(--gathering-AltColor);
 }
 .job_gathering .guide-about_subtitle {
   background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);

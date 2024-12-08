@@ -1984,6 +1984,9 @@ table {
 	~ .nome_app_top .app_top {
 		background-color: var(--tank-color);
 		box-shadow: 1px 1px 5px var(--tank-color);
+		&:hover{
+			background-color: var(--tank-AltColor);
+		}
 	}
 	.job_header_role {
 		background: var(--tank-color);
@@ -2018,6 +2021,9 @@ table {
 	~ .nome_app_top .app_top {
 		background-color: var(--healer-color);
 		box-shadow: 1px 1px 5px var(--healer-color);
+		&:hover{
+			background-color: var(--healer-AltColor);
+		}
 	}
 	.job_header_role {
 		background: var(--healer-color);
@@ -2052,6 +2058,9 @@ table {
 	~ .nome_app_top .app_top {
 		background-color: var(--dps-color);
 		box-shadow: 1px 1px 5px var(--dps-color);
+		&:hover{
+			background-color: var(--dps-AltColor);
+		}
 	}
 	.job_header_role {
 		background: var(--dps-color);
@@ -2085,6 +2094,9 @@ table {
 	~ .nome_app_top .app_top {
 		background: var(--craft-color);
 		box-shadow: 1px 1px 5px var(--craft-color);
+		&:hover{
+			background-color: var(--craft-AltColor);
+		}
 	}
 	.guide-about_subtitle {
 		background: linear-gradient(to right, var(--craft-color) 0%, rgba(78, 50, 143, 0) 100%);
@@ -2111,6 +2123,9 @@ table {
 	~ .nome_app_top .app_top {
 		background: var(--gathering-color);
 		box-shadow: 1px 1px 5px var(--gathering-color);
+		&:hover{
+			background-color: var(--gathering-AltColor);
+		}
 	}
 	.guide-about_subtitle {
 		background: linear-gradient(to right, #8f7832 0%, rgba(143, 120, 50, 0) 100%);
