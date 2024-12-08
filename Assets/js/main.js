@@ -201,7 +201,7 @@ function WarningFunctions() {
 }
 WarningFunctions();
 // Debug
-let DebugEnabled = false; 
+let DebugEnabled = true; 
 
 function DebugFunctions() {
     if (!DebugEnabled) return;
@@ -229,6 +229,7 @@ function DebugFunctions() {
             $(this).attr('title', titleText.join(', '));
         }
     });
+	 $('.main_content').append(`<div class="app_page"><a class="dev_page" href="DEVPage">DEV Page</a></div>`);
 }
 DebugFunctions();
 

@@ -97,6 +97,16 @@ input::placeholder {
   color: white;
 }
 
+.dev_page {
+  width: 600px;
+  background-color: #1b1b1b;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 160px;
+  color: white;
+  font-size: 35px;
+}
+
 /* btn back top */
 .nome_app_top {
   display: none;
@@ -2586,4 +2596,86 @@ table {
 .job_combo_redmage_01 {
   background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
+}
+
+/* TEST */
+.job_skill_block {
+  background: #ecede7;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px var(--tank-color);
+}
+
+.job_skill_block--info,
+.job_skill--edit div {
+  display: flex;
+  align-content: center;
+}
+
+.job_skill_block--info p {
+  display: flex;
+  font-weight: bold;
+  color: #585858;
+  flex-direction: column;
+}
+
+.job_skill--name-lvl {
+  display: flex;
+  border-right: 1px solid #999;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  padding: 0 10px 0 10px;
+}
+
+.job_skill--edit,
+.job_skill--edit p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.job_skill_thead {
+  padding: 0px 10px 0 10px;
+  border-bottom: 1px solid #999;
+  text-align: center;
+}
+
+.skill--edit span {
+  text-align: center;
+}
+
+.job_skill_block--info {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+}
+
+.job_skill_block--content {
+  padding: 10px;
+}
+
+.job_skill--range {
+  align-items: flex-end;
+}
+
+.job_skill--flex {
+  background-color: #e5e3d3;
+  flex-direction: row;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.job_skill--flex img {
+  width: 16px;
+  height: 16px;
+}
+
+.job_skill--class_icon img {
+  width: 20px;
+}
+
+.job_skill--class_icon span {
+  font-weight: bold;
+  color: #585858;
 }
