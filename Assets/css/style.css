@@ -2605,3 +2605,39 @@ table {
   background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
 }
+
+/* Warning info */
+.error_info {
+  display: block;
+  position: relative;
+  background-color: #ecede7;
+  padding: 16px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  border: 1px solid var(--color-error);
+  box-shadow: 0px 0px 5px 0px var(--color-error);
+}
+.error_info h5 {
+  margin-bottom: 16px;
+  color: var(--color-error);
+  font-size: 14px;
+  font-weight: bold;
+}
+.error_info p {
+  color: var(--color-error);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#closeInfo {
+  display: block;
+  position: absolute;
+  color: var(--color-error);
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}

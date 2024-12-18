@@ -1,7 +1,7 @@
 (() =>{
    let db = {
       "PVE Update": `Последнее обновление: 12/11/2024`,
-      "PVP Update": `Последнее обновление: 26/11/2024`,
+      "PVP Update": `Последнее обновление: 17/12/2024`,
       // PVE Skill 01
       "PVE Skill 01": {
          "name": 'Steel Fangs',
@@ -874,11 +874,11 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/147f8d74ae9ae599fa971b0ab6080a4690220c4f.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '60 сек.',
+         "recast": '45 сек.',
          "range": '0y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Сбрасывает время повторного использования умений Uncoiled Fury и Snake Scales.<br/>Время восстановления уменьшается на 10 сек. после убийства или получения ассиста.',
+         "content": 'Сбрасывает время повторного использования умений Uncoiled Fury и Snake Scales.<br/>Время восстановления уменьшается на 15 сек. после убийства или получения ассиста.',
       },
       // PVP Skill 13
       "PVP Skill 13": {
@@ -994,7 +994,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/da71d25a9c4ec075ee870a2ad5434f54d5ec141d.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '1 сек.',
+         "recast": '0,7 сек.',
          "range": '20y',
          "radius_img": 'R2',
          "radius": '5y',
@@ -1006,7 +1006,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/7988ba0a7efd3045918bd5237541ec5ddef6d57a.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '1 сек.',
+         "recast": '0,7 сек.',
          "range": '20y',
          "radius_img": 'R2',
          "radius": '5y',
@@ -1081,7 +1081,7 @@
          "range": '20y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": "Удар, наносящий урон в прыжке по цели и всем противникам поблизости с силой атаки 10,000.<br/>Дополнительный эффект: накладывает эффект Reawakened<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: поражает цель эффектом Noxious Gnash<br/>Эффект Noxious Gnash: увеличивает наносимый цели урон на 20%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 5 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Dual Fang Combo меняется на First Generation под действием эффекта Reawakened.<br/>※Hunter's Snap меняется на Ouroboros под действием эффекта Reawakened.",
+         "content": "Удар, наносящий урон в прыжке по цели и всем противникам поблизости с силой атаки 10,000.<br/>Дополнительный эффект: накладывает эффект Reawakened<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: поражает цель эффектом Noxious Gnash<br/>Эффект Noxious Gnash: увеличивает наносимый цели урон на 25%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 5 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Dual Fang Combo меняется на First Generation под действием эффекта Reawakened.<br/>※Hunter's Snap меняется на Ouroboros под действием эффекта Reawakened.",
       },
    };
    FILL_DB_VALUES(db);
