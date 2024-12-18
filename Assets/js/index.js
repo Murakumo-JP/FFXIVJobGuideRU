@@ -17,11 +17,12 @@ $(document).ready(function () {
             let date = new Date(news[i].created_at).toLocaleDateString();
             html += '<div><span>' + date + ' -</span><a target="_blank" href="' + news[i].html_url + '">' + body + '</a></div>';
          }
+         //console.debug(json);
          document.getElementById('main_news').innerHTML = html;
       });
    })
    .catch(function (reason) {
-      console.log(reason);
+      console.debug(reason);
       document.getElementById('main_news').innerHTML = '';
    });
 });

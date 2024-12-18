@@ -11,7 +11,7 @@
       <meta name="theme-color" content="#8f7832">
       <title>Gathering: Miner | FFXIV RU</title>
       <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
-      <link rel="stylesheet" href="../Assets/css/index.css"/>
+      <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
@@ -29,7 +29,7 @@
       </div>
       <div class="jobguide job_gathering">
          <!-- Top Menu -->
-         <div class="jobguide_menu_wrapper" id="jq_menu_cg"></div>
+         <div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
          <!-- Header -->
          <header class="job_header job_min">
             <div class="job_header_inner">
@@ -57,8 +57,8 @@
             </div>
          </header>
          <!-- DB Skill List -->
-         <div class="job_skil_list">
-            <div class="job_skil_db-pve">
+         <div class="job_skill_list">
+            <div class="job_skill_db-pve">
                <p class="job_update" db-value="Gathering Update"></p>
                <ul class="job_tab tab_gatherer clearfix">
                   <li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
@@ -66,7 +66,7 @@
                </ul>
                <!-- Skill -->
                <div class="guide-inner js-tab-content active" data-tab="skill">
-                  <p class="job_notes_lvl" id="jq_patch"></p>
+                  <p class="job_notes_lvl" id="patch_info"></p>
                   <h2 class="guide-title">Активные и пассивные умения</h2>
                   <!-- Content Wrapper -->
                   <div class="guide-table_wrapper">
@@ -114,7 +114,7 @@
                            <tr id="action_21" db-skill-gathering="Action 21"></tr>
                            <tr id="action_22" db-skill-gathering="Action 22"></tr>
                            <tr id="action_23" db-skill-gathering="Action 23"></tr>
-                           <tr id="action_24" class="skill_new" db-skill-gathering="Action 24"></tr>
+                           <tr id="action_24" db-skill-gathering="Action 24"></tr>
                         </tbody>
                      </table>
                   </div>
@@ -181,8 +181,8 @@
                            <tr id="traitaction_15" db-gathering-passive="Gatherer Traits 15"></tr>
                            <tr id="traitaction_16" db-gathering-passive="Gatherer Traits 16"></tr>
                            <tr id="traitaction_17" db-gathering-passive="Gatherer Traits 17"></tr>
-                           <tr id="traitaction_18" class="skill_new" db-gathering-passive="Gatherer Traits 18"></tr>
-                           <tr id="traitaction_19" class="skill_new" db-gathering-passive="Gatherer Traits 19"></tr>
+                           <tr id="traitaction_18" db-gathering-passive="Gatherer Traits 18"></tr>
+                           <tr id="traitaction_19" db-gathering-passive="Gatherer Traits 19"></tr>
                         </tbody>
                      </table>
                   </div>                  
@@ -274,7 +274,7 @@
                         <h3 class="guide-about_subtitle gatherer">Шахтера и ботаник: collectable предметы</h3>
                         <div class="guide-about_box">
                            <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/I/GPfJRNFpfsBEIKCLNx8QMw-qVc.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/L/rNMr0yKJ_fqBjfIHy8u0nouzvE.jpg" width="400" />
                            </div>
                            <div class="guide-about_box_text"><br><br>
                               <p>Как Disciple of the Land, вам может потребоваться обменивать предметы, называемые collectables.</p>
@@ -295,8 +295,8 @@
                         <h3 class="guide-about_subtitle gatherer">Сбор collectables: шахтер и ботаник</h3>
                         <div class="guide-about_box">
                            <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/U/EU_logZGWhkpZewCg2TFULZay8.jpg" width="400" />
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/j/W0fyZIZKxGv5eygXtkaDsOScXg.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/J/dRnKMYLb9MhGiXTIZ0YfIVArK4.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/8/2FbKYhcwlhO9zyz-8PW4JOJSAY.jpg" width="400" />
                            </div>
                            <div class="guide-about_box_text"><br><br>
                               <p>Находясь на экране сбора, выберите предмет с меткой collectable, чтобы перейти в окно сбора collectable предметов. Отсюда вы можете собирать collectables.</p>

@@ -11,7 +11,7 @@
       <meta name="theme-color" content="#346624">
       <title>Job Guide: Sage | FFXIV RU</title>
       <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
-      <link rel="stylesheet" href="../Assets/css/index.css"/>
+      <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
@@ -29,10 +29,10 @@
       </div>
       <div class="jobguide job_healer">
          <!-- Top Menu -->
-         <div class="jobguide_menu_wrapper" id="jq_menu"></div>
+          <div class="jobguide_menu_wrapper" data-menu-type="MenuDoWDoM"></div>
          <!-- Header -->
          <header class="job_header job_sge">
-            <!-- Job Skil Menu -->
+            <!-- Job Skill Menu -->
             <div class="job_menu">
                <div class="nav_floating_icon fixed"></div>
                <div class="nav_floating_list fixed">
@@ -82,17 +82,17 @@
                            <li><a href="#pve_action_39" class="job_skill_icon" db-skill-menu="PVE Skill 39"></a></li>
                            <li><a href="#pve_action_40" class="job_skill_icon" db-skill-menu="PVE Skill 40"></a></li>
                         </ul>
-                        <h2 class="job_nav_title"><a href="#anchor_rollcommontrait">Ролевые пассивные умения</a></h2>
                         <h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Ролевые умения</a></h2>
                         <ul class="clearfix">
-                           <li><a href="#healer_action_01" class="job_skill_icon" title="Repose"><img src="https://lds-img.finalfantasyxiv.com/d/9bd731d47094c2c11b5cd9fb0d1d277bf9c6c89d.png"></a></li>
-                           <li><a href="#healer_action_02" class="job_skill_icon" title="Esuna"><img src="https://lds-img.finalfantasyxiv.com/d/2a6603bc786d73eb3829141482b3d5be5d484199.png"></a></li>
-                           <li><a href="#healer_action_03" class="job_skill_icon" title="Swiftcast"><img src="https://lds-img.finalfantasyxiv.com/d/27d401b3cfbf90c846ffeaa9f661afb4bd77ce98.png"></a></li>
-                           <li><a href="#healer_action_04" class="job_skill_icon" title="Lucid Dreaming"><img src="https://lds-img.finalfantasyxiv.com/d/3629c6854aa559656623925e2489b60c2fa91e18.png"></a></li>
-                           <li><a href="#healer_action_05" class="job_skill_icon" title="Surecast"><img src="https://lds-img.finalfantasyxiv.com/d/477d1e7f7115db19c344c0f5cadfcfa2ac0cdcc0.png"></a></li>
-                           <li><a href="#healer_action_06" class="job_skill_icon" title="Rescue"><img src="https://lds-img.finalfantasyxiv.com/d/23f8a26b9a0107b6076f5f2e715e14d9be0edc25.png"></a></li>
+                           <li><a href="#healer_action_01" class="job_skill_icon" db-skill-menu="Role Action 08"></a></li>
+                           <li><a href="#healer_action_02" class="job_skill_icon" db-skill-menu="Role Action 09"></a></li>
+                           <li><a href="#healer_action_03" class="job_skill_icon" db-skill-menu="Role Action 10"></a></li>
+                           <li><a href="#healer_action_04" class="job_skill_icon" db-skill-menu="Role Action 11"></a></li>
+                           <li><a href="#healer_action_05" class="job_skill_icon" db-skill-menu="Role Action 12"></a></li>
+                           <li><a href="#healer_action_06" class="job_skill_icon" db-skill-menu="Role Action 13"></a></li>
                         </ul>
                         <h2 class="job_nav_title"><a href="#anchor_onlytrait">Пассивные умения</a></h2>
+                        <h2 class="job_nav_title"><a href="#anchor_rollcommontrait">Ролевые пассивные умения</a></h2>
                         <h2 class="job_nav_title"><a href="#anchor_hud">Шкала профессии</a></h2>
                      </div>
                      <!-- PVP -->
@@ -108,18 +108,19 @@
                            <li><a href="#pvp_action_07" class="job_skill_icon" db-skill-menu="PVP Skill 07"></a></li>
                            <li><a href="#pvp_action_08" class="job_skill_icon" db-skill-menu="PVP Skill 08"></a></li>
                            <li><a href="#pvp_action_09" class="job_skill_icon" db-skill-menu="PVP Skill 09"></a></li>
+                           <li><a href="#pvp_action_10" class="job_skill_icon" db-skill-menu="PVP Skill 10"></a></li>
                         </ul>
                         <h2 class="job_nav_title"><a href="#anchor_pvp_limitbreak">Limit Break</a></h2>
                         <ul class="clearfix">
-                           <li><a href="#pvplimitbreakaction_01" class="job_skill_icon" db-skill-menu="PVP Skill 10"></a></li>
+                           <li><a href="#pvplimitbreakaction_01" class="job_skill_icon" db-skill-menu="PVP Skill LB"></a></li>
                         </ul>
                         <h2 class="job_nav_title"><a href="#anchor_pvp_commononlyaction">Общие умения</a></h2>
                         <ul class="clearfix">
-                           <li><a href="#pvpcommmononlyaction_01" class="job_skill_icon" title="Standard-issue Elixir"><img src="https://lds-img.finalfantasyxiv.com/d/a57f3dd330cf3f55962ccddc7df6858f45718607.png"></a></li>
-                           <li><a href="#pvpcommmononlyaction_02" class="job_skill_icon" title="Recuperate"><img src="https://lds-img.finalfantasyxiv.com/d/2085fa5a3247d8f7648b9eea2874ffb62eaf21c6.png"></a></li>
-                           <li><a href="#pvpcommmononlyaction_03" class="job_skill_icon" title="Purify"><img src="https://lds-img.finalfantasyxiv.com/d/2fdba29de282257b52e21e33abe5f4fef43519cd.png"></a></li>
-                           <li><a href="#pvpcommmononlyaction_04" class="job_skill_icon" title="Guard"><img src="https://lds-img.finalfantasyxiv.com/d/21e24c5bf00677220efb8c1a1e6001537ee26d23.png"></a></li>
-                           <li><a href="#pvpcommmononlyaction_05" class="job_skill_icon" title="Sprint"><img src="https://lds-img.finalfantasyxiv.com/d/1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png"></a></li>
+                           <li><a href="#pvpcommmononlyaction_01" class="job_skill_icon" db-skill-menu="PVP Actions 01"></a></li>
+                           <li><a href="#pvpcommmononlyaction_02" class="job_skill_icon" db-skill-menu="PVP Actions 02"></a></li>
+                           <li><a href="#pvpcommmononlyaction_03" class="job_skill_icon" db-skill-menu="PVP Actions 03"></a></li>
+                           <li><a href="#pvpcommmononlyaction_04" class="job_skill_icon" db-skill-menu="PVP Actions 04"></a></li>
+                           <li><a href="#pvpcommmononlyaction_05" class="job_skill_icon" db-skill-menu="PVP Actions 05"></a></li>
                         </ul>
                      </div>
                   </div>
@@ -152,15 +153,15 @@
             </div>
          </header>
          <!-- DB Skill List -->
-         <div class="job_skil_list">
+         <div class="job_skill_list">
             <ul class="job_tab clearfix">
                <li class="job_tab--pve js-tab-trigger active" data-tab="pve"><img src="../Assets/img/main/PVEAction.png"></li>
                <li class="job_tab--pvp js-tab-trigger" data-tab="pvp"><img src="../Assets/img/main/PVPAction.png"></li>
             </ul>
             <!-- PVE -->
-            <div class="job_skil_db-pve js-tab-content active" data-tab="pve">
+            <div class="job_skill_db-pve js-tab-content active" data-tab="pve">
                <p class="job_update" db-value="PVE Update"></p>
-               <p class="job_notes_lvl" id="jq_patch"></p>
+               <p class="job_notes_lvl" id="patch_info"></p>
                <!-- Content Wrapper -->
                <div class="job_content_wrapper">
                   <h2 class="job_title" id="anchor_onlyaction">Активные и пассивные умения</h2>
@@ -174,7 +175,7 @@
                         <col width="110">
                         <col width="77">
                         <col width="78">
-                        <col width="197">
+                        <col width="*">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -196,14 +197,14 @@
                         <tr id="pve_action_01" db-skill="PVE Skill 01"></tr>
                         <tr id="pve_action_02" db-skill="PVE Skill 02"></tr>
                         <tr id="pve_action_03" db-skill="PVE Skill 03"></tr>
-                        <tr id="pve_action_04" db-skill="PVE Skill 04"></tr>
+                        <tr id="pve_action_04" class="skill_update" db-skill="PVE Skill 04"></tr>
                         <tr id="pve_action_05" db-skill="PVE Skill 05"></tr>
                         <tr id="pve_action_06" db-skill="PVE Skill 06"></tr>
                         <tr id="pve_action_07" db-skill="PVE Skill 07"></tr>
-                        <tr id="pve_action_08" class="skill_update" db-skill="PVE Skill 08"></tr>
-                        <tr id="pve_action_09" db-skill="PVE Skill 09"></tr>
-                        <tr id="pve_action_10" db-skill="PVE Skill 10"></tr>
-                        <tr id="pve_action_11" class="skill_update" db-skill="PVE Skill 11"></tr>
+                        <tr id="pve_action_08" db-skill="PVE Skill 08"></tr>
+                        <tr id="pve_action_09" class="skill_update" db-skill="PVE Skill 09"></tr>
+                        <tr id="pve_action_10" class="skill_update" db-skill="PVE Skill 10"></tr>
+                        <tr id="pve_action_11" db-skill="PVE Skill 11"></tr>
                         <tr id="pve_action_12" db-skill="PVE Skill 12"></tr>
                         <tr id="pve_action_13" db-skill="PVE Skill 13"></tr>
                         <tr id="pve_action_14" db-skill="PVE Skill 14"></tr>
@@ -212,7 +213,7 @@
                         <tr id="pve_action_17" db-skill="PVE Skill 17"></tr>
                         <tr id="pve_action_18" db-skill="PVE Skill 18"></tr>
                         <tr id="pve_action_19" db-skill="PVE Skill 19"></tr>
-                        <tr id="pve_action_20" class="skill_update" db-skill="PVE Skill 20"></tr>
+                        <tr id="pve_action_20" db-skill="PVE Skill 20"></tr>
                         <tr id="pve_action_21" db-skill="PVE Skill 21"></tr>
                         <tr id="pve_action_22" db-skill="PVE Skill 22"></tr>
                         <tr id="pve_action_23" db-skill="PVE Skill 23"></tr>
@@ -224,15 +225,15 @@
                         <tr id="pve_action_29" db-skill="PVE Skill 29"></tr>
                         <tr id="pve_action_30" class="skill_update" db-skill="PVE Skill 30"></tr>
                         <tr id="pve_action_31" db-skill="PVE Skill 31"></tr>
-                        <tr id="pve_action_32" class="skill_update" db-skill="PVE Skill 32"></tr>
+                        <tr id="pve_action_32" db-skill="PVE Skill 32"></tr>
                         <tr id="pve_action_33" db-skill="PVE Skill 33"></tr>
-                        <tr id="pve_action_34" class="skill_new" db-skill="PVE Skill 34"></tr>
+                        <tr id="pve_action_34" db-skill="PVE Skill 34"></tr>
                         <tr id="pve_action_35" class="skill_update" db-skill="PVE Skill 35"></tr>
                         <tr id="pve_action_36" db-skill="PVE Skill 36"></tr>
                         <tr id="pve_action_37" class="skill_update" db-skill="PVE Skill 37"></tr>
-                        <tr id="pve_action_38" class="skill_new" db-skill="PVE Skill 38"></tr>
-                        <tr id="pve_action_39" class="skill_new" db-skill="PVE Skill 39"></tr>
-                        <tr id="pve_action_40" class="skill_new" db-skill="PVE Skill 40"></tr>
+                        <tr id="pve_action_38" db-skill="PVE Skill 38"></tr>
+                        <tr id="pve_action_39" class="skill_update" db-skill="PVE Skill 39"></tr>
+                        <tr id="pve_action_40" class="skill_update" db-skill="PVE Skill 40"></tr>
                      </tbody>
                   </table>
                </div>
@@ -249,7 +250,7 @@
                         <col width="74">
                         <col width="74">
                         <col width="74">
-                        <col width="274">
+                        <col width="*">
                      </colgroup>
                      <thead class="job_tank_table">
                         <tr class="job_thead">
@@ -269,7 +270,7 @@
                      </thead>
                      <tbody class="job_tbody">
                         <tr id="healer_action_01" db-role-action="Role Action 08"></tr>
-                        <tr id="healer_action_02" db-role-action="Role Action 09"></tr>
+                        <tr id="healer_action_02" class="skill_update" db-role-action="Role Action 09"></tr>
                         <tr id="healer_action_03" db-role-action="Role Action 10"></tr>
                         <tr id="healer_action_04" db-role-action="Role Action 11"></tr>
                         <tr id="healer_action_05" db-role-action="Role Action 12"></tr>
@@ -282,9 +283,9 @@
                   <h3 class="job_sub_title" id="anchor_onlytrait">Пассивные умения</h3>
                   <table class="job_table">
                      <colgroup>
-                        <col width="191" />
-                        <col width="84" />
-                        <col width="645" />
+                        <col width="191">
+                        <col width="90">
+                        <col width="659">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -306,10 +307,10 @@
                         <tr id="trait_action_10" db-skill-passive="Trait 10"></tr>
                         <tr id="trait_action_11" db-skill-passive="Trait 11"></tr>
                         <tr id="trait_action_12" db-skill-passive="Trait 12"></tr>
-                        <tr id="trait_action_13" class="skill_new" db-skill-passive="Trait 13"></tr>
-                        <tr id="trait_action_14" class="skill_new" db-skill-passive="Trait 14"></tr>
-                        <tr id="trait_action_15" class="skill_new" db-skill-passive="Trait 15"></tr>
-                        <tr id="trait_action_16" class="skill_new" db-skill-passive="Trait 16"></tr>
+                        <tr id="trait_action_13" db-skill-passive="Trait 13"></tr>
+                        <tr id="trait_action_14" class="skill_update" db-skill-passive="Trait 14"></tr>
+                        <tr id="trait_action_15" db-skill-passive="Trait 15"></tr>
+                        <tr id="trait_action_16" db-skill-passive="Trait 16"></tr>
                      </tbody>
                   </table>
                </div>
@@ -320,7 +321,7 @@
                      <colgroup>
                         <col width="191">
                         <col width="90">
-                        <col width="645">
+                        <col width="659">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -340,20 +341,18 @@
                   <h3 class="job_hud_title">Eukrasia Gauge</h3>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/I/cwDLGuV2OTu9fWFWOsR_peQPrA.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
-                        После изучения умения <span class="txt_red">Eukrasia</span> на экране появится шкала <span class="txt_red">Eukrasia Gauge</span>. Eukrasia усиливает <span class="txt_red">Dosis</span>, <span class="txt_red">Diagnosis</span> и <span class="txt_red">Prognosis</span>, изменяя эффекты умений.
+                     <p class="job_hud_text">После изучения умения <span class="txt_red">Eukrasia</span> на экране появится шкала <span class="txt_red">Eukrasia Gauge</span>. Eukrasia усиливает <span class="txt_red">Dosis</span>, <span class="txt_red">Diagnosis</span> и <span class="txt_red">Prognosis</span>, изменяя эффекты умений.
                      </p>
                   </div>
                   <h3 class="job_hud_title">Addersgall Gauge</h3>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/m/fJs27-b_PnSTdVzTLh7qS0zvfA.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
-                        Изучив пассивное умение Addersgall, можно увидеть Addersgall Gauge, которая отображает количество зарядов Addersgall, которое было накоплено.<br />Addersgall накапливаются со временем. Накопленные заряды можно использовать для выполнения нескольких умений, например <span class="txt_red">Druochole</span> и <span class="txt_red">Kerachole</span> (изучается на 50 уровне).
+                     <p class="job_hud_text">Изучив пассивное умение Addersgall, можно увидеть Addersgall Gauge, которая отображает количество зарядов Addersgall, которое было накоплено.<br />Addersgall накапливаются со временем. Накопленные заряды можно использовать для выполнения нескольких умений, например <span class="txt_red">Druochole</span> и <span class="txt_red">Kerachole</span> (изучается на 50 уровне).
                      </p>
                   </div>
                   <div class="job_hud_layout--mb32 clearfix">
                      <img src="https://lds-img.finalfantasyxiv.com/promo/h/7/Dj5guxNBiGuHgfgp0kX69Oxkng.png" width="290" height="200" alt="" class="job_hud_image" />
-                     <p class="job_hud_text"><br><br>
+                     <p class="job_hud_text">
                         После изучения пассивного умения Addersting, оно станет отображаться на шкале Addersgall Gauge.<br />Addersting накапливается, когда магический барьер, наложенный на любого сопартийца с помощью <span class="txt_red">Eukrasian Diagnosis</span> или магический барьер,
                         наложенный на персонажа с помощью <span class="txt_red">Eukrasian Prognosis</span>, исчезает после нанесения урона.<br />Накопленное количество можно использовать для выполнения нескольких умений, таких как <span class="txt_red">Toxikon</span> и
                         <span class="txt_red">Toxikon II</span> (изучается на 82 уровне).<span class="txt_red"></span>
@@ -388,7 +387,7 @@
                <!-- END -->
             </div>
             <!-- PVP -->
-            <div class="job_skil_db-pvp js-tab-content" data-tab="pvp">
+            <div class="job_skill_db-pvp js-tab-content" data-tab="pvp">
                <p class="job_update" db-value="PVP Update"></p>
                <p class="job_notes_lvl">У PVP умений отсутствует параметр "стоимость MP". Данная колонка удалена.</p>
                <!-- Content Wrapper -->
@@ -402,7 +401,7 @@
                         <col width="117">
                         <col width="120">
                         <col width="91">
-                        <col width="318">
+                        <col width="*">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -419,24 +418,16 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <!-- PVP Skill 01 -->
-                        <tr id="pvp_action_01" db-skill-pvp="PVP Skill 01"></tr>
-                        <!-- PVP Skill 02 -->
-                        <tr id="pvp_action_02" db-skill-pvp="PVP Skill 02"></tr>
-                        <!-- PVP Skill 03 -->
-                        <tr id="pvp_action_03" db-skill-pvp="PVP Skill 03"></tr>
-                        <!-- PVP Skill 04 -->
-                        <tr id="pvp_action_04" db-skill-pvp="PVP Skill 04"></tr>
-                        <!-- PVP Skill 05 -->
-                        <tr id="pvp_action_05" db-skill-pvp="PVP Skill 05"></tr>
-                        <!-- PVP Skill 06 -->
-                        <tr id="pvp_action_06" db-skill-pvp="PVP Skill 06"></tr>
-                        <!-- PVP Skill 07 -->
+                        <tr id="pvp_action_01" class="skill_update" db-skill-pvp="PVP Skill 01"></tr>
+                        <tr id="pvp_action_02" class="skill_update" db-skill-pvp="PVP Skill 02"></tr>
+                        <tr id="pvp_action_03" class="skill_update" db-skill-pvp="PVP Skill 03"></tr>
+                        <tr id="pvp_action_04" class="skill_update" db-skill-pvp="PVP Skill 04"></tr>
+                        <tr id="pvp_action_05" class="skill_update" db-skill-pvp="PVP Skill 05"></tr>
+                        <tr id="pvp_action_06" class="skill_update" db-skill-pvp="PVP Skill 06"></tr>
                         <tr id="pvp_action_07" db-skill-pvp="PVP Skill 07"></tr>
-                        <!-- PVP Skill 08 -->
-                        <tr id="pvp_action_08" db-skill-pvp="PVP Skill 08"></tr>
-                        <!-- PVP Skill 09 -->
-                        <tr id="pvp_action_09" db-skill-pvp="PVP Skill 09"></tr>
+                        <tr id="pvp_action_08" class="skill_update" db-skill-pvp="PVP Skill 08"></tr>
+                        <tr id="pvp_action_09" class="skill_new" db-skill-pvp="PVP Skill 09"></tr>
+                        <tr id="pvp_action_10" class="skill_update" db-skill-pvp="PVP Skill 10"></tr>
                      </tbody>
                   </table>
                </div>
@@ -450,7 +441,7 @@
                         <col width="90">
                         <col width="110">
                         <col width="100">
-                        <col width="432">
+                        <col width="*">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -466,8 +457,7 @@
                         </tr>
                      </thead>
                      <tbody class="job_tbody">
-                        <!-- PVP Skill 10 -->
-                        <tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Skill 10"></tr>
+                        <tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Skill LB"></tr>
                      </tbody>
                   </table>
                </div>
@@ -477,13 +467,13 @@
                   <p class="job_text">Эти умения являются общими для всех классов.</p>
                   <table class="job_table">
                      <colgroup>
-                        <col width="191" />
-                        <col width="84" />
-                        <col width="74" />
-                        <col width="74" />
-                        <col width="74" />
-                        <col width="74" />
-                        <col width="349" />
+                        <col width="191">
+                        <col width="84">
+                        <col width="74">
+                        <col width="74">
+                        <col width="74">
+                        <col width="74">
+                        <col width="*">
                      </colgroup>
                      <thead>
                         <tr class="job_thead">
@@ -530,8 +520,8 @@
       </div>
       <!--- Script --->
       <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
-      <script type="text/javascript" src="../DB/Sage.js?29062024"></script>
-      <script type="text/javascript" src="../DB/RoleActions.js?01072024"></script>
+      <script type="text/javascript" src="../DB/Sage.js?17122024"></script>
+      <script type="text/javascript" src="../DB/RoleActions.js?17122024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>

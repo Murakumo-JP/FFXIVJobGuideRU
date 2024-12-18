@@ -1,4 +1,25 @@
-
+table {
+	border-collapse: collapse;
+}
+.job_table {
+	margin: 0 auto 8px;
+}
+.job_thead p span {
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 0 4px;
+	line-height: 1.3;
+}
+.job_thead div p span {
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 0 4px;
+	line-height: 1.3;
+}
 .job_combo_text {
 	margin: 0 10px 32px;
 	font-size: 14px;
@@ -334,24 +355,15 @@ img {
 	display: block;
 }
 /* Update and New */
-tr.skill_new {background-color: #f0dddd;}
-tr.jq_skill_new {background-color: #f0cece;}
-tr.skill_update{background-color: #f0e4c5;}
-tr.jq_skill_update{background-color: #f0dfb6;}
-tr.jq_skill_update td,
-tr.jq_skill_new td {
-	border: 0;
-	height: 16px;
+.skill_update td {background: #f0e4c5;}
+.skill_new td {background: #f0dddd;}
+.skill_update{
+	border: 1px solid #e7810e;
+   box-shadow: 0 0 5px 0 #e7810e;
 }
-tr.jq_skill_update td p {
-    font-weight: bold;
-    color: #e7810e;
-	padding-left: 10px;
-}
-tr.jq_skill_new td p {
-    font-weight: bold;
-    color: #d92b2b;
-	padding-left: 10px;
+.skill_new {
+	border: 1px solid #e75858;
+	box-shadow: 0 0 5px 0 #e75858;
 }
 /*FIX COMBO*/
 .job_combo_dancer_02_percent .job_combo_root_skill {

@@ -1,5 +1,5 @@
 # Licensing
-All images in this repository contain the property of SQUARE ENIX© which is used with permission.
+All images in this repository contain the property of SQUARE ENIX©.
 
 FINAL FANTASY XIV © 2010 - 2024 SQUARE ENIX CO., LTD. All Rights Reserved.
 

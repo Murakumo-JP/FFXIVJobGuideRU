@@ -11,7 +11,7 @@
       <meta name="theme-color" content="#4e328f">
       <title>Crafting: Armorer | FFXIV RU</title>
       <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
-      <link rel="stylesheet" href="../Assets/css/index.css"/>
+      <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
@@ -29,7 +29,7 @@
       </div>
       <div class="jobguide job_craft">
          <!-- Top Menu -->
-         <div class="jobguide_menu_wrapper" id="jq_menu_cg"></div>
+         <div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
          <!-- Header -->
          <header class="job_header job_arm">
             <div class="job_header_inner">
@@ -55,9 +55,9 @@
                </div>
             </div>
          </header>
-         <!-- DB Skil List -->
-         <div class="job_skil_list">
-            <div class="job_skil_db-pve">
+         <!-- DB Skill List -->
+         <div class="job_skill_list">
+            <div class="job_skill_db-pve">
                <p class="job_update" db-value="Craft Update"></p>
                <ul class="job_tab tab_craft clearfix">
                   <li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
@@ -65,7 +65,7 @@
                </ul>
                <!-- Skil -->
                <div class="guide-inner js-tab-content active" data-tab="skill">
-                  <p class="job_notes_lvl" id="jq_patch"></p>
+                  <p class="job_notes_lvl" id="patch_info"></p>
                   <h2 class="guide-title">Активные и пассивные умения</h2>
                   <!-- Content Wrapper -->
                   <div class="guide-table_wrapper">
@@ -89,7 +89,7 @@
                            <tr id="action_01" db-skill-craft="Action 01"></tr>
                            <tr id="action_02" db-skill-craft="Action 02"></tr>
                            <tr id="action_03" db-skill-craft="Action 03"></tr>
-                           <tr id="action_04" class="skill_update" db-skill-craft="Action 04"></tr>
+                           <tr id="action_04" db-skill-craft="Action 04"></tr>
                            <tr id="action_05" db-skill-craft="Action 05"></tr>
                            <tr id="action_06" db-skill-craft="Action 06"></tr>
                            <tr id="action_07" db-skill-craft="Action 07"></tr>
@@ -106,19 +106,19 @@
                            <tr id="action_18" db-skill-craft="Action 18"></tr>
                            <tr id="action_19" db-skill-craft="Action 19"></tr>
                            <tr id="action_20" db-skill-craft="Action 20"></tr>
-                           <tr id="action_21" class="skill_update" db-skill-craft="Action 21"></tr>
-                           <tr id="action_22" class="skill_update" db-skill-craft="Action 22"></tr>
+                           <tr id="action_21" db-skill-craft="Action 21"></tr>
+                           <tr id="action_22" db-skill-craft="Action 22"></tr>
                            <tr id="action_23" db-skill-craft="Action 23"></tr>
                            <tr id="action_24" db-skill-craft="Action 24"></tr>
-                           <tr id="action_25" class="skill_update" db-skill-craft="Action 25"></tr>
+                           <tr id="action_25" db-skill-craft="Action 25"></tr>
                            <tr id="action_26" db-skill-craft="Action 26"></tr>
                            <tr id="action_27" db-skill-craft="Action 27"></tr>
                            <tr id="action_28" db-skill-craft="Action 28"></tr>
                            <tr id="action_29" db-skill-craft="Action 29"></tr>
-                           <tr id="action_30" class="skill_new" db-skill-craft="Action 30"></tr>
-                           <tr id="action_31" class="skill_new" db-skill-craft="Action 31"></tr>
-                           <tr id="action_32" class="skill_new" db-skill-craft="Action 32"></tr>
-                           <tr id="action_33" class="skill_new" db-skill-craft="Action 33"></tr>
+                           <tr id="action_30" db-skill-craft="Action 30"></tr>
+                           <tr id="action_31" db-skill-craft="Action 31"></tr>
+                           <tr id="action_32" db-skill-craft="Action 32"></tr>
+                           <tr id="action_33" db-skill-craft="Action 33"></tr>
                         </tbody>
                      </table>
                   </div>
@@ -143,7 +143,7 @@
                         <tbody class="guide-tbody">
                            <tr id="meisteraction_01" db-craft-passive="Specialist Actions 01"></tr>
                            <tr id="meisteraction_02" db-craft-passive="Specialist Actions 02"></tr>
-                           <tr id="meisteraction_02" class="skill_new" db-craft-passive="Specialist Actions 03"></tr>
+                           <tr id="meisteraction_02" db-craft-passive="Specialist Actions 03"></tr>
                         </tbody>
                      </table>
                   </div>
@@ -171,8 +171,8 @@
                            <tr id="traitaction_05" db-craft-passive="Traits 05"></tr>
                            <tr id="traitaction_06" db-craft-passive="Traits 06"></tr>
                            <tr id="traitaction_07" db-craft-passive="Traits 07"></tr>
-                           <tr id="traitaction_08" class="skill_new" db-craft-passive="Traits 08"></tr>
-                           <tr id="traitaction_09" class="skill_new" db-craft-passive="Traits 09"></tr>
+                           <tr id="traitaction_08" db-craft-passive="Traits 08"></tr>
+                           <tr id="traitaction_09" db-craft-passive="Traits 09"></tr>
                         </tbody>
                      </table>
                   </div>
@@ -446,7 +446,7 @@
       </div>
       <!--- Script --->
       <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
-      <script type="text/javascript" src="../DB/Craft.js?01072024"></script>
+      <script type="text/javascript" src="../DB/Craft.js?17122024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>

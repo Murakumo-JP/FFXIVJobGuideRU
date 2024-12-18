@@ -1279,10 +1279,6 @@
 	width: 590px;
 	margin: 0 auto;
 }
-.job_table {
-	width: 930px;
-	margin: 0 auto 8px;
-}
 .job_thead th {
 	padding: 0 1px;
 }
@@ -1300,14 +1296,6 @@
 	text-align: center;
 	font-weight: normal;
 }
-.job_thead p span {
-	display: table-cell;
-	vertical-align: middle;
-	color: #ffffff;
-	font-size: 12px;
-	padding: 0 4px;
-	line-height: 1.2;
-}
 .job_thead div p {
 	display: table;
 	width: 100%;
@@ -1315,14 +1303,6 @@
 	border-radius: 4px;
 	text-align: center;
 	font-weight: normal;
-}
-.job_thead div p span {
-	display: table-cell;
-	vertical-align: middle;
-	color: #ffffff;
-	font-size: 12px;
-	padding: 0 4px;
-	line-height: 1.2;
 }
 .job_thead hr {
 	height: 1px;

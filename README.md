@@ -3,7 +3,7 @@
 [![GitHub License](https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=License)](LICENSE)
 
 * Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания скиллов классов.
-* Перевод Seiffear, @Morriganna
+* Перевод Seiffear, Morriganna
 
 Старт проекта: 23.01.2024 
 
@@ -12,7 +12,7 @@
 > * Отдельное спасибо:
 >   - Rei Eltrei
 >   - Budanochka Poly
->   - Gella Zenhat
+>   - [Gella Zenhat](https://www.twitch.tv/gella_zenhat)
 >   - Kaka Demon
 >   - Schmelvin Dotan
 
