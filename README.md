@@ -16,12 +16,13 @@
 >   - Kaka Demon
 >   - Schmelvin Dotan
 
-> ⨀ Original Website Design
+> [!IMPORTANT]
+>  Original Website Design
 > - [FFXIV Job Guide](https://eu.finalfantasyxiv.com/jobguide/battle)
 > - [FFXIV Crafting & Gathering Guide](https://eu.finalfantasyxiv.com/crafting_gathering_guide)
 
 > [!WARNING]
-> FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.
+> FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2025 SQUARE ENIX CO., LTD. All Rights Reserved.
 >
 > We are not affiliated with SQUARE ENIX CO., LTD. in any way.
 
@@ -29,6 +30,6 @@
 
 All images in this repository contain the property of SQUARE ENIX© which is used with permission.
 
-FINAL FANTASY XIV © 2010 - 2024 SQUARE ENIX CO., LTD. All Rights Reserved.
+FINAL FANTASY XIV © 2010 - 2025 SQUARE ENIX CO., LTD. All Rights Reserved.
 
 Please see [FINAL FANTASY® XIV - Materials Usage License](https://support.na.square-enix.com/rule.php?id=5382&tag=authc) for further information.
