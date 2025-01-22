@@ -12,7 +12,12 @@ $(document).ready(function () {
             if (n !== null) {
                body = n[1];
             } else {
-               body = news[i].body.replaceAll('\r\n', '');
+               let nn = /## (.*)\n\n(.*)/g.exec(news[i].body);
+               if (nn !== null) {
+                  body = nn[1];
+               } else {
+                  body = news[i].body.replaceAll('\r\n', '');
+               }
             }
             let date = new Date(news[i].created_at).toLocaleDateString();
             html += '<div><span>' + date + ' -</span><a target="_blank" href="' + news[i].html_url + '">' + body + '</a></div>';
