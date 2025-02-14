@@ -2642,6 +2642,7 @@ table {
   cursor: pointer;
 }
 
+/* News Popup */
 #newsPopup {
   display: none;
   position: fixed;
@@ -2657,6 +2658,10 @@ table {
   border-radius: 8px;
   z-index: 1000;
   font-family: Arial, sans-serif;
+}
+#newsTitle {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 5px;
 }
 
 #overlay {
@@ -2676,7 +2681,23 @@ pre {
   word-wrap: break-word;
 }
 
-#newsTitle {
-  border-bottom: 1px solid #30363d;
-  padding-bottom: 5px;
+.btnNewsGitHub {
+  display: flex;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  border: 1px solid white;
+  box-shadow: 0 0 2px #ffffff;
+  color: white;
+  border-radius: 20px;
+  padding: 3px;
+  margin-top: 15px;
+}
+.btnNewsGitHub img {
+  width: 25px;
+}
+.btnNewsGitHub span {
+  padding: 0 5px 0 5px;
+  font-weight: bold;
+  font-size: 13px;
 }
