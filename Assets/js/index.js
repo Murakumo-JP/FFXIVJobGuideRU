@@ -31,7 +31,7 @@ $(document).ready(function () {
               let content = news[index].body;
               content = content.replace(/!\[.*?\]\(\s*https?:\/\/github\.com\/user-attachments\/assets\/[0-9a-f-]+\s*\)\r?\n?/g, '');
               content = content.replace(/\(\s*(?:https?:\/\/github\.com\/[\w-]+\/[\w-]+\/commit\/)?[0-9a-f]{40}\s*\)/g, '');
-              content = content.replace(/## Обновление до патча \d+\.\d+\r?\n?/g, '');
+              content = content.replace(/## Обновление до патча \d+\.\d+\r?\n?\s/g, '');
               $('#newsTitle').text(title);
               $('#newsContent').html(content);
               $('#newsContent').append(`<a href="${url}" target="_blank" class="btnNewsGitHub"><img src="Assets/img/svg/github.svg"/><span>Открыть новость на GitHub</span></a>`);
