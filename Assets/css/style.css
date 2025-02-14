@@ -2653,7 +2653,7 @@ table {
   max-width: 600px;
   padding: 20px;
   background: rgba(25, 25, 25, 0.9);
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0);
   color: #c9d1d9;
   border-radius: 8px;
   z-index: 1000;
@@ -2673,6 +2673,8 @@ table {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 999;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 pre {

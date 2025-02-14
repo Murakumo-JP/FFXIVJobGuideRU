@@ -20,10 +20,7 @@ $(document).ready(function () {
                 }
              }
              let date = new Date(news[i].created_at).toLocaleDateString();
-             html += `<div>
-                         <span>${date} - </span>
-                         <a href="#" class="news-link" data-title="${body}" data-url="${news[i].html_url}" data-index="${i}">${body}</a>
-                     </div>`;
+             html += `<div><span>${date} - </span><a href="#" class="news-link" data-title="${body}" data-url="${news[i].html_url}" data-index="${i}">${body}</a></div>`;
           }
           document.getElementById('main_news').innerHTML = html;
           $('.news-link').click(function(event) {
