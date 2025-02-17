@@ -512,7 +512,7 @@
          "name": 'Impalement',
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/77ef69ee0efdb439996373d7e47f2744a7604b10.png',
          "job_icon": 'DRK',
-         "level": 'DRK',
+         "level": '96',
          "classification": 'Боевой навык',
          "cast": 'Мгновенная',
          "recast": '2.5 сек.',
