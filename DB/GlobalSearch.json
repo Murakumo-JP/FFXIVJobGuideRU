@@ -1,0 +1,908 @@
+[
+	{
+		"page_job": "Page/PLD.html",
+		"job": "Paladin",
+		"skills": [
+			{
+				"skill": "Fast Blade",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/8325a7bb54f039c5bd3cd2af4430dccfd525e0b9.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Fight or Flight",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/87405b9b9f00d9957df252ea0116e4137bc4dbd1.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Riot Blade",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Total Eclipse",
+				"level": "Ур.6",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/07c42572697cdcf5381955b09ed7c3028be8a0bb.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Shield Bash",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/49cbc217420d69d69bb1bfcf6fba10358dcd2521.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Iron Will",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1e60c8b0c72bbc52497a163755dc855f5cdf7091.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Release Iron Will",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/0b880866e9d45ac7b9b664dcf536acc46ecb4679.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Shield Lob",
+				"level": "Ур.15",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d95d796eae4df45f2419a8c6df1cdf4afc7b0523.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Rage of Halone",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b35b9fa5ce7169d660177032734661f18a79ee5b.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Spirits Within",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d7e7cf097286ae99e6637242596a14832a9edf8f.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Sheltron",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e622516a93fd2298b9fd40e0d2d60c3fc8485c5a.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Sentinel",
+				"level": "Ур.38",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/913eb4344bb6c8710f250115fa22484b026f08bd.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Prominence",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c0f8a1aa0ba0a20c0d8580e63932678c5c4a8b9b.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Cover",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/81b581992c0df5ad867ed18ad229f6d6f7fd3eea.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Circle of Scorn",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/af5ddb89ddd5ade6706afe571f45aa6028e1925b.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Hallowed Ground",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/249bf48c39ec44b9b32f0681ea256850ed6aa8f8.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Bulwark",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b0a3dcb47763055bc61ee9f90ba0ee3b46050197.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Goring Blade",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/eb067afbfb5a4198760b2e28e9c3cf669d9866b8.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Divine Veil",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/495faab61344751872ca0867e2d5e59b04c6940c.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Clemency",
+				"level": "Ур.58",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3c20e8bf8f5f130db398ac4ba5df14e403b7666a.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Royal Authority",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Intervention",
+				"level": "Ур.62",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fdb9b8347b33dae63e25debeab15aa75c270f39a.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "Holy Spirit",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b8ad098c5afaad79a847f3fb79298456c1e9d689.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Intervene",
+				"level": "Ур.66",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c841f5c954aa4e31bd1d82ffd00f863eb944a386.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Requiescat",
+				"level": "Ур.68",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Passage of Arms",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b570dfda793945b3bb8fddef02b1a865b8a04b32.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Holy Circle",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/afd455f208e2720a10a1b26e9a231fefac4d5be7.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Atonement",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f59cb1517f2f26c490a87d58366b5bccff372f19.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Supplication",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a13b67a351de7eaf60e51a8662e722785ec3826f.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Sepulchre",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/445847900654988d4b1a2950d57f69793a425d00.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Confiteor",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Holy Sheltron",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c856abb6dac68e4bfd6cbb98b309360cb6162ced.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Expiacion",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5e4beef5d32f45954a62524cdebb8d535de32921.png",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "Blade of Faith",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "Blade of Truth",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/31fd8e8a1827a2f830335a67cf52abb191d62485.png",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "Blade of Valor",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "Guardian",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4c5945e5decd30562898378c54cc3308aa210ff1.png",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "Imperator",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a888fa731d0d80fd277caa00abbca126be5b0b3c.png",
+				"db-skill": "PVE Skill 38"
+			},
+			{
+				"skill": "Blade of Honor",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/18481cd008426e41c0773107a91b20e2b9d59f7e.png",
+				"db-skill": "PVE Skill 39"
+			}
+		]
+	},
+	{
+		"page_job": "Page/WAR.html",
+		"job": "Warrior",
+		"skills": [
+			{
+				"skill": "Heavy Swing",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7a622f61949998a4bca402f5be90c0417bb02ac1.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Maim",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/39dae45d3a3309357462861dac9bb9b159030ea8.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Berserk",
+				"level": "Ур.6",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c5a2c3896b62318a88ea9e48159ff7efd0962be1.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Overpower",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/335c367406c5d952f11b8fd2dadaabb89e1cecbc.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Defiance",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e6cc16e225417ce3c68cde5eb28df034f349d25d.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Release Defiance",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1965311bb3fb720ba65258cb8f427bb986fa36c4.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Tomahawk",
+				"level": "Ур.15",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/de42e4febcf54cf4af3189f9d2adfa4ca5975c25.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Storm's Path",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/14d9c5aa40a8f86aa13890aa9bedc9f6579ed289.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Thrill of Battle",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9412945d8b5a61fbb118907bd33046110ff83434.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Inner Beast",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c72ea7de2c06ad8a03bc55598297aba5bf00b0b6.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Vengeance",
+				"level": "Ур.38",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/72a939d0010304553c5b88fae576f5a25f453e10.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Mythril Tempest",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b9efeaf988763dc594fc2497b603cfda4253064f.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Holmgang",
+				"level": "Ур.42",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/91b5673b1dfb08c80d7b8fc2bdc936f46906317f.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Steel Cyclone",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/caee561eee94d7ecc27ac396982ebe39df5c6893.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Storm's Eye",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/05faebea82787675c2331bb4ddb7778b70ab53f0.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Infuriate",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ecd32b95358ef9b2756b005daef73afdde9fab80.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Fell Cleave",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5d146522a8fc94788d96043b93034176eab59a10.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Raw Intuition",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1d9a63cc19bbec0e2f99d192040c26e306e2e675.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Equilibrium",
+				"level": "Ур.58",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b549a16dfa8cbde55ec19b81bad325c5480d98e2.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Decimate",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f4fdd09a56a0b83a0cbe11a83f706dc0fb6781f5.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Onslaught",
+				"level": "Ур.62",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d0a1dad0fa6c8294ceb31b6879c765a02498e3fb.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Upheaval",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ba0b3b08d9b2ef02636e06148bc739680390fdd3.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "Shake It Off",
+				"level": "Ур.68",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f71e2c46512c1e937c0ff316be668d853869c637.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Inner Release",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/809168ffb23f67e3d4b720b3caa4a0a1773fea4c.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Chaotic Cyclone",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a5ea711252d08de0f9fd2e65313690c19b9f8773.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Nascent Flash",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/0a4356e3696cea8f2c8cea9be200e773da6c7caa.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Inner Chaos",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/70a629706b7fa0dc566d988dbf32da064d0c3458.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Bloodwhetting",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/439c677f7cd4da8e9be9b92245865d2eb1ebceca.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Orogeny",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a746763655d8eb64a4f2577f4a19d445866aa8e5.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Primal Rend",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e6ccdb7bd1a86153af07f02f06583113ac86c8eb.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Damnation",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a4f5302a169e6ee5667e03976e7455aacc394604.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Primal Wrath",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e9e68562064da9f0787632d983da080105fc2389.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Primal Ruination",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5eb4d961217f31467ecf479d45f89767f5f9c0d7.png",
+				"db-skill": "PVE Skill 33"
+			}
+		]
+	},
+	{
+		"page_job": "Page/DRK.html",
+		"job": "Dark Knight",
+		"skills": [
+			{
+				"skill": "Hard Slash",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5c0fef99ef9100285ede6dbc62a5c35cea188d7c.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Syphon Strike",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e2a305d72e05ef339e0692bd5f7ed9626b6eb9ea.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Unleash",
+				"level": "Ур.6",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/600c6a17bd8c4e08c783d1fb8891f12eea132a9a.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Grit",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b6d1592d4fcbcafe1e3b0958d688c50346fe2bd4.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Release Grit",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/13a97691011df3c616e3181fd21b5f6805ce5799.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Unmend",
+				"level": "Ур.15",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/6203d55695d1cdde37d875f7b4b4253606266ad0.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Souleater",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/8c6a197869a69116f52b41b3fef2ce03c29b5212.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Flood of Darkness",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Blood Weapon",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c0c4dd65cec09b11aa7ecfecf6526aff4c59b83f.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Shadow Wall",
+				"level": "Ур.38",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7ea7904a9e066bb33d542755b5984ad78c711a45.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Stalwart Soul",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Edge of Darkness",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e62374eb5036fcaa1201fec390bc266620501abe.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Dark Mind",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/adb1f756a8cfa746f5ec2f97e487e41c06026a61.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Living Dead",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/968fc4ccd880ca468fff7b34680e793a80ffdab1.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Salted Earth",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/8c3e2f641cea5b3c0693034e6feafeff359341c5.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Shadowstride",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/52870f24b14efd37172003e974b8c45ca3d38010.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Abyssal Drain",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/17543c65847814b073fe6481402a347c7efc9225.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Carve and Spit",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/6bbe53b6e1f87598b98967ae9d29e4337a7afadd.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Bloodspiller",
+				"level": "Ур.62",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Quietus",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ea30bbaacc0da577820f8b027cec26738c1be840.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Dark Missionary",
+				"level": "Ур.66",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Delirium",
+				"level": "Ур.68",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "The Blackest Night",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f82c8fbcd6549c8cd72108a937aade172f8b98a8.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Flood of Shadow",
+				"level": "Ур.74",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/de4960def285cc69e33455acae0f50808a6cd623.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Edge of Shadow",
+				"level": "Ур.74",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e4536e75673663bf1b91d1a78a565dabc2f041f6.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Living Shadow",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5150a7bff7be43d689f896e7be140f4720a23f6e.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Oblation",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Salt and Darkness",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bb0216fb548f749ceb5bf25f071af462129be59b.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Shadowbringer",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Shadowed Vigil",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/093f2ddb0a06f04a76fe41fd5c31f7fceb46d2ea.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Scarlet Delirium",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/457d3fa4f25afb9c4494105c0afc15644bbaad7a.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Comeuppance",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/cc157e7338d9b4c32f880aed1838519933bc6797.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Torcleaver",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/2510476b643976c09c1b42f6eb9f011b7de6902c.png",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "Impalement",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/77ef69ee0efdb439996373d7e47f2744a7604b10.png",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "Disesteem",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/acf9474555312bfc65c8d4e8e93cf368f819f503.png",
+				"db-skill": "PVE Skill 35"
+			}
+		]
+	},
+	{
+		"page_job": "Page/GNB.html",
+		"job": "Gunbreaker",
+		"skills": [
+			{
+				"skill": "Keen Edge",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7cd4d1186b81029de28854eec532029ef245779c.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "No Mercy",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ab1c97d8f6007446d9f7c324adc29299e6be8e10.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Brutal Shell",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/729d76d5161a59cbed8b5f369e8476acf5ea24b2.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Camouflage",
+				"level": "Ур.6",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/62855107ef85d3d74b0eb9d14f030368ddb6ff5a.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Demon Slice",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a38cbdd5b185413becb8c56388d1043259dd25b1.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Royal Guard",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b44946a0b3966b9638d4bc04d4b8c5858bfc3ad0.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Release Royal Guard",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bf2a6455e06637fe409340c4dba7530e55d8bfee.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Lightning Shot",
+				"level": "Ур.15",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/da2f213272cf4d4c2c5df5ccf597dd8e01ddb58b.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Danger Zone",
+				"level": "Ур.18",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fdc5cd0d9017c98bc96d4e0f20122e2f83667128.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Solid Barrel",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/57a492f3dd90592bb2b3255f3e2f342dd6b800f9.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Burst Strike",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/43828414469ebc6fd88ef500ab2e941177b833ec.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Nebula",
+				"level": "Ур.38",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d16438334b399cb5524acb6d77485b6c56a2be4a.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Demon Slaughter",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/46bce3e1c9f5ca00fbc00c7f52fc765c47aba80a.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Aurora",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e220754db76f98256dd7258171a61a9de8dd898c.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Superbolide",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/58257f726f8a2f793622a654e5b0b2df36b372ad.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Sonic Break",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7edeee63ceea914fd74fc091aa99a84b290a57b1.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Trajectory",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/905366f09c4875cbe0ba664aa043c8bd22aefc1c.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Gnashing Fang",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/31a707fb47363e30af254750784a60ff55f60ec9.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Savage Claw",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fe183577affbcd066b131c997ca32283dba5c768.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Wicked Talon",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/137262f0ad98e13fd0ace2dc4f7f786d0bcec9a5.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Bow Shock",
+				"level": "Ур.62",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b3fa2bb1c9e838fc01439b7d39a495b444c73c6a.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Heart of Light",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/04bbce4afc048a15cdccdd0495e679f90b115963.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "Heart of Stone",
+				"level": "Ур.68",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/059baae88deccf4ffdc31f8afd0074ec4589f81f.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Continuation",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/8e38ca32b4021206901a4761dbef4d0c783b8620.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Jugular Rip",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/75e8b1b0530a1eb26a7d87aa7a3a50cfb8d3bff7.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Abdomen Tear",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e8472939441b3136fb9b2bfa52851e500e001279.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Eye Gouge",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/0c7e1462abaa7984e64644f3cb9e4a066ec16c59.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Fated Circle",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/72b126aa8a17d9d94ee177b98af27d512aa6e01f.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Bloodfest",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/90de52fbbbc0de9309a2b2aceb1b0146e3b7283a.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Blasting Zone",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d35fea54a4ec47a5d8227e13b5dba247a5c8a5a6.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Heart of Corundum",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/493de7202ca9b1e4bed75fdd4e5b1e7a8c61d58a.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Hypervelocity",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7d7143520a9ec0306e977c10b4594ad0b5eee50f.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Double Down",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9431f382886a5bac654058624ed21082deaae9d9.png",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "Great Nebula",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c6aa9ac9d9d3b144c6c5d955616edbecbb40d19a.png",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "Fated Brand",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/212d089b8f857465c135f0aed8a6a201e8cfdc90.png",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "Reign of Beasts",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/df78916692df98ce5e4990edbb531dba1d535e8e.png",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "Noble Blood",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/10aad4140dd5bacfad70315a6a6da6bd3c4e59a0.png",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "Lion Heart",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/105394eb5da461f87c00f49826e7ba06e4c93577.png",
+				"db-skill": "PVE Skill 38"
+			}
+		]
+	},
+	{
+		"page_job": "Page/WHM.html",
+		"job": "White Mage",
+		"skills": [
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 00"
+			}
+		]
+	}
+]

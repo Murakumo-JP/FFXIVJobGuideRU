@@ -155,3 +155,68 @@ $(document).ready(() => {
 		}
 	});
 });
+// Global Search
+$(document).ready(function () {
+	let jsonData = [];
+
+	$.getJSON("../DB/GlobalSearch.json", function (data) {
+		jsonData = data;
+	});
+
+	$("#search").on("keyup", function () {
+		let query = $(this).val().trimStart().toLowerCase();
+		let results = $("#results").empty();
+
+		if (query.length > 0) {
+			let hasResults = false;
+
+			jsonData.forEach((job) => {
+				job.skills.forEach((skill) => {
+					if (skill.skill.toLowerCase().includes(query)) {
+						results.append(`
+									<li>
+										 <a target="_blank" href="${job.page_job}" data-skill="${skill["db-skill"]}">
+										     <div class="icon_search">
+											  		<img src="${skill.icon}" class="skill-icon" alt="${skill.skill}">
+											  </div>
+											  <div>
+													${skill.skill}
+											  		<span>[${job.job}: ${skill.level}]</span>
+											  </div>
+										 </a>
+									</li>
+							  `);
+						hasResults = true;
+					}
+				});
+			});
+
+			if (!hasResults) {
+				results.append("<li>Ничего не найдено</li>");
+			}
+
+			$(".search-results").show();
+		} else {
+			$(".search-results").hide();
+		}
+	});
+
+	$(document).click(function (event) {
+		if (!$(event.target).closest(".search-container").length) {
+			$(".search-results").hide();
+		}
+	});
+
+	$(document).on("click", "#results a", function () {
+		localStorage.setItem("scrollToSkill", $(this).data("skill"));
+	});
+
+	let scrollToSkill = localStorage.getItem("scrollToSkill");
+	if (scrollToSkill) {
+		localStorage.removeItem("scrollToSkill");
+		let target = $(`[db-skill='${scrollToSkill}']`);
+		if (target.length) {
+			$("html, body").animate({ scrollTop: target.offset().top - 48 }, 500);
+		}
+	}
+});
