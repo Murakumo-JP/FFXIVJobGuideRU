@@ -2881,8 +2881,8 @@ pre {
 
 			a {
 				display: flex;
-				align-items: center;
 				width: 100%;
+				align-items: center;
 				text-decoration: none;
 				color: #333;
 				font-size: 16px;
@@ -2930,4 +2930,28 @@ pre {
 		left: 0;
 		z-index: 99;
 	}
+}
+.copy-link {
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: 25px !important;
+}
+.copy-tooltip {
+	position: absolute;
+	background: #333;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	white-space: nowrap;
+	left: 45px;
+	opacity: .9;
+	animation: fadeIn .3sease-in-out;
+	z-index: 9999;
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(-120%); }
+	to { opacity: 0.9; transform: translateY(-100%); }
 }

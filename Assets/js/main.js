@@ -159,33 +159,44 @@ $(document).ready(() => {
 $(document).ready(function () {
 	let jsonData = [];
 
-	$.getJSON("../DB/GlobalSearch.json", function (data) {
+	$.getJSON("../DB/GlobalSearch.json").done(function (data) {
 		jsonData = data;
 	});
 
-	$("#search").on("keyup", function () {
-		let query = $(this).val().trimStart().toLowerCase();
+	function debounce(func, wait) {
+		let timeout;
+		return function (...args) {
+			clearTimeout(timeout);
+			timeout = setTimeout(() => func.apply(this, args), wait);
+		};
+	}
+
+	$("#search").on("keyup", debounce(function () {
+		let query = $(this).val().trim().toLowerCase();
 		let results = $("#results").empty();
 
-		if (query.length > 0) {
+		if (query && jsonData.length) {
 			let hasResults = false;
 
 			jsonData.forEach((job) => {
 				job.skills.forEach((skill) => {
 					if (skill.skill.toLowerCase().includes(query)) {
+						let encodedSkill = btoa(skill["db-skill"]);
+						let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
+
 						results.append(`
-									<li>
-										 <a target="_blank" href="${job.page_job}" data-skill="${skill["db-skill"]}">
-										     <div class="icon_search">
-											  		<img src="${skill.icon}" class="skill-icon" alt="${skill.skill}">
-											  </div>
-											  <div>
-													${skill.skill}
-											  		<span>[${job.job}: ${skill.level}]</span>
-											  </div>
-										 </a>
-									</li>
-							  `);
+							<li>
+								<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
+								<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
+									<div class="icon_search">
+										<img src="${skill.icon}" class="skill-icon" alt="${skill.skill}">
+									</div>
+									<div>
+										${skill.skill} <span>[${job.job}: ${skill.level}]</span>
+									</div>
+								</a>
+							</li>
+						`);
 						hasResults = true;
 					}
 				});
@@ -199,24 +210,30 @@ $(document).ready(function () {
 		} else {
 			$(".search-results").hide();
 		}
+	}, 300));
+
+	$(document).on("click", ".copy-link", function () {
+		navigator.clipboard.writeText($(this).attr("data-url"))
+			.then(() => {
+				let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
+				$(this).after(tooltip);
+				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 1500);
+			})
+			.catch(err => console.error("Ошибка копирования: ", err));
 	});
 
-	$(document).click(function (event) {
-		if (!$(event.target).closest(".search-container").length) {
-			$(".search-results").hide();
-		}
-	});
+	let urlParams = new URLSearchParams(window.location.search);
+	let encodedSkill = urlParams.get("skill");
 
-	$(document).on("click", "#results a", function () {
-		localStorage.setItem("scrollToSkill", $(this).data("skill"));
-	});
-
-	let scrollToSkill = localStorage.getItem("scrollToSkill");
-	if (scrollToSkill) {
-		localStorage.removeItem("scrollToSkill");
-		let target = $(`[db-skill='${scrollToSkill}']`);
-		if (target.length) {
-			$("html, body").animate({ scrollTop: target.offset().top - 48 }, 500);
+	if (encodedSkill) {
+		try {
+			let scrollToSkill = atob(encodedSkill);
+			let target = $(`[db-skill='${scrollToSkill}']`);
+			if (target.length) {
+				$("html, body").animate({ scrollTop: target.offset().top - 48 }, 500);
+			}
+		} catch (error) {
+			console.error("Ошибка декодирования skill:", error);
 		}
 	}
 });
