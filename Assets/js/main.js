@@ -217,7 +217,7 @@ $(document).ready(function () {
 			.then(() => {
 				let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
 				$(this).after(tooltip);
-				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 1500);
+				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 350);
 			})
 			.catch(err => console.error("Ошибка копирования: ", err));
 	});

@@ -1,6 +1,6 @@
 [
 	{
-		"page_job": "Page/PLD.html",
+		"page_job": "Page/PLD",
 		"job": "Paladin",
 		"skills": [
 			{
@@ -240,7 +240,7 @@
 		]
 	},
 	{
-		"page_job": "Page/WAR.html",
+		"page_job": "Page/WAR",
 		"job": "Warrior",
 		"skills": [
 			{
@@ -444,7 +444,7 @@
 		]
 	},
 	{
-		"page_job": "Page/DRK.html",
+		"page_job": "Page/DRK",
 		"job": "Dark Knight",
 		"skills": [
 			{
@@ -660,7 +660,7 @@
 		]
 	},
 	{
-		"page_job": "Page/GNB.html",
+		"page_job": "Page/GNB",
 		"job": "Gunbreaker",
 		"skills": [
 			{
@@ -894,8 +894,482 @@
 		]
 	},
 	{
-		"page_job": "Page/WHM.html",
+		"page_job": "Page/WHM",
 		"job": "White Mage",
+		"skills": [
+			{
+				"skill": "Stone",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Cure",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Aero",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/78107cd063a81b78b99eb7cb5da15f2bec403c70.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Medica",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/6c5fd075bab7c063aef743a1de5e36958354b42b.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Raise",
+				"level": "Ур.12",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/34bdc3ad370b701a106f32daa68e73055ab72331.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Stone II",
+				"level": "Ур.18",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ce8e52e199a7d9e548537bc77197f4d7965dea58.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Cure II",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a70a8e3dcb347c11047f00945f9435687f21f06d.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Presence of Mind",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7be14bf07b21fa5c78cd7f7891279704da6cadb9.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Regen",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/53bb0b4fc881c4c06d64c915864968cced6c6201.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Cure III",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/33c3597ee1004e364a6331f732f077666e798acd.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Aetherial Shift",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d69b1e0884f3f4edac543210cd9b42d74c2b3f25.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Holy",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bb161bfc68766590d81cb1f7d6049711c949039b.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Aero II",
+				"level": "Ур.46",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7e4202353c63451702e9944dc93551a18951efcf.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Medica II",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/530234ed64e2b5b5aaacf978a90d87932734272f.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Benediction",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/44e09756739b6b8924b82471572e7103ac5ca1fb.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Afflatus Solace",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Asylum",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Stone III",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f38006e73efc8e122777b9c23097a4c40bc9c9c4.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Assize",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4c9f83b599b37adfa6597ea7e884331cac170a12.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Thin Air",
+				"level": "Ур.58",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/539a73220a23fd185c17bed962b140bf7b4673d2.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Tetragrammaton",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/6e00b907b75a6906045955d68cf68af66ba6aa9e.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Stone IV",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "Divine Benison",
+				"level": "Ур.66",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/065d9df35159a3bc53d59984a18b35581b442a73.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Plenary Indulgence",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Dia",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/de737874f0025d808d0bddac1d4156fec9464d00.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Glare",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Afflatus Misery",
+				"level": "Ур.74",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e01507664cb997891de06ec522b71619279969bc.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Afflatus Rapture",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9582c5aa6ffa9abf82db6140916020235a003a20.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Temperance",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/78e099cba536b64fe978d05487c51b28a66f29df.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Glare III",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/dfafd20ceefae82548deba9511d3d765c4535b3a.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Holy III",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Aquaveil",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f87f8e18282665458cc9c358ff1a2b8a78833491.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Liturgy of the Bell",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4d31a93f520e700ac70ab1604bdb6811f124ebb4.png",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "Glare IV",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/8114a12aa7d10fbe87b9edfe0fc6257adec7a06f.png",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "Medica III",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/afd378388b20cba91d3988c04efeff1256eae7b3.png",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "Divine Caress",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/94e9cc4b561ab6fca2c4a92cdbb2c86cd7825df9.png",
+				"db-skill": "PVE Skill 36"
+			}
+		]
+	},
+	{
+		"page_job": "Page/SCH",
+		"job": "Scholar",
+		"skills": [
+			{
+				"skill": "Ruin",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Bio",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/93f61adcffc6644730a017347d91805359b52bdb.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Physick",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e51f309947cde0c36f3a0cd815ca01e268928eb6.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Summon Eos",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7e5c03b72c4e181034da8121d6f2bdf2f1aa2a60.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Resurrection",
+				"level": "Ур.12",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9e61ea15caf1f7c0e4b44943dcbee0178e61a9fd.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Whispering Dawn",
+				"level": "Ур.20",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/161dc95f27e69fb5bd4caecfdeab022e3560193d.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Bio II",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ea0a5e685172203ac73332f7e1690a5a89b25590.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Adloquium",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/07beea4eb1cc3f24533d045db5b694c939f3a3ac.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Succor",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/59ca7d9f2002ba3176f070a023bcfd8fa2129fb9.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Ruin II",
+				"level": "Ур.38",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d6875ae1008a9e4b2d04562cff42646752e919c5.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Fey Illumination",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/6ed1ace8e31760fa3b042e6d27dac669668196b0.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Aetherflow",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/175631d8db5550a7b74a9bc811c3781e083e393e.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Energy Drain",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/92ea9227a8a09c62eb53852e2c26c0d6763a35c2.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Lustrate",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a9adc8943d1d8402366c869416b7a9d5ef7fcf07.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Art of War",
+				"level": "Ур.46",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a414b67652d67ff6707276156d1ce275f188ef07.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Sacred Soil",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4c47bdf94dc6c3dcd9b303cfa42a08a5cfd13629.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Indomitability",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7f80a5bd016eab7200c55dd8d1d6afb07361a0ca.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Broil",
+				"level": "Ур.54",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7203f797d2c3dd4148a8cb5fe510c1cfd1ac46a8.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Deployment Tactics",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/307e3a65fff1e38b28235509dd392323642d6965.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Emergency Tactics",
+				"level": "Ур.58",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fbfaa6c46fac537aec9d2903ec64d4f64fc54557.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Dissipation",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fffbdbce557a09ee3a50f541fac07d432bfc7c89.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Excogitation",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b46ada85c48a81940953f46eaaba05f1c2f5cfdd.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "Broil II",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d8d8172feffed42f80d335bb7bedb14cc90fbd56.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Chain Stratagem",
+				"level": "Ур.66",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/2f5f538d79932e3bfb3bd5c72af6f13987aa3e6d.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Aetherpact",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/eb866b142bd93d46ffa7809e1092aefc48f48f3c.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Dissolve Union",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/10602136009d5a92a005f0bd127a1a9ec8c1691a.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Biolysis",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e77ebe8644e35de5bc2d67a4c8365d6d726c9ca4.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Broil III",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1f85b58d71471a33c2d35db849b20a681bfd5b56.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Recitation",
+				"level": "Ур.74",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b1be794db381c20399faf7dec80b7f64eaba2e61.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Fey Blessing",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e37b65935298898f61fd4b12a293998ba1258be5.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Summon Seraph",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ff070d67e4c75ed8bb06de1f577979e8c69c8ad1.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Consolation",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/86ce58393104f45f36ef15d9d358a684c4013df4.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Broil IV",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ec2463dfb6a287aaf59d57acf7620690fb92606e.png",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "Art of War II",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ec9b2021f0cbe6165173334f9081ce3be52c92d2.png",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "Protraction",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4960cc6d3b31acfe657bfbdca97021bc546aada0.png",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "Expedient",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b9eb7f8aed74850abe24b753549fc676af9db2c8.png",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "Baneful Impaction",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/16ca1e2b66efb797ca63394b5f856ab89a709acf.png",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "Concitation",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f124b01882a45f5befe10fa82964fc7fb7895e8c.png",
+				"db-skill": "PVE Skill 38"
+			},
+			{
+				"skill": "Seraphism",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3660e0317ed2aba78b7cfdc526dd174efa94d88d.png",
+				"db-skill": "PVE Skill 39"
+			},
+			{
+				"skill": "Manifestation",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7244131eba68b8042f1461bf4100deaebe2a7c0d.png",
+				"db-skill": "PVE Skill 40"
+			},
+			{
+				"skill": "Accession",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c859b1042c024b57c646316f1e0e93ff5e5f90fb.png",
+				"db-skill": "PVE Skill 41"
+			}
+		]
+	},
+	{
+		"page_job": "Page/AST",
+		"job": "Astrologian",
 		"skills": [
 			{
 				"skill": "",
