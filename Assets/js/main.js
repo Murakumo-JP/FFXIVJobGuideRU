@@ -4,15 +4,11 @@ $(document).ready(() => {
 	// Info Update
 	const addUpdateInfo = (date, patchVersion, patchLink) => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
-		$("#patch_info").prepend(
-			`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`
-		);
+		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
 	};
 	addUpdateInfo("21.01.2025", "7.16", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/3c04a3a968d20cad8b17e35d37aa9cae6ff8960a");
 
-	$(".SE").append(
-		'<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>'
-	);
+	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
 
 	// Open JobMenu
 	$(".nav_floating_icon").click(() => {
@@ -31,14 +27,35 @@ $(document).ready(() => {
 	});
 
 	// Tabs
+
+	// OLD CODE ===========================
+	// const activateTab = (id) => {
+	// 	$(`.js-tab-trigger[data-tab="${id}"]`).addClass("active");
+	// 	$(`.js-tab-trigger:not([data-tab="${id}"])`).removeClass("active");
+	// 	$(`.js-tab-content[data-tab="${id}"]`).addClass("active");
+	// 	$(`.js-tab-content:not([data-tab="${id}"])`).removeClass("active");
+	// };
+
+	// $(".js-tab-trigger").click(function (e) {
+	// 	e.preventDefault();
+	// 	const id = $(this).data("tab");
+	// 	activateTab(id);
+	// });
+
 	const activateTab = (id) => {
-		$(`.js-tab-trigger[data-tab="${id}"]`).addClass("active");
-		$(`.js-tab-trigger:not([data-tab="${id}"])`).removeClass("active");
-		$(`.js-tab-content[data-tab="${id}"]`).addClass("active");
-		$(`.js-tab-content:not([data-tab="${id}"])`).removeClass("active");
+		const $tabTriggers = $(".js-tab-trigger");
+		const $tabContents = $(".js-tab-content");
+
+		$tabTriggers.each(function () {
+			$(this).toggleClass("active", $(this).data("tab") === id);
+		});
+
+		$tabContents.each(function () {
+			$(this).toggleClass("active", $(this).data("tab") === id);
+		});
 	};
 
-	$(".js-tab-trigger").click(function (e) {
+	$(".js-tab-trigger").on("click", function (e) {
 		e.preventDefault();
 		const id = $(this).data("tab");
 		activateTab(id);
@@ -88,9 +105,7 @@ $(document).ready(() => {
 		};
 
 		const showErrorInfo = (info) => {
-			$(".job_skil_list, .warn_info").prepend(
-				`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`
-			);
+			$(".job_skil_list, .warn_info").prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
 			if (getCookie("warnInfoHidden") === "true") {
 				$("#warnInfo").addClass("hidden");
 			}
@@ -171,55 +186,59 @@ $(document).ready(function () {
 		};
 	}
 
-	$("#search").on("keyup", debounce(function () {
-		let query = $(this).val().trim().toLowerCase();
-		let results = $("#results").empty();
+	$("#search").on(
+		"keyup",
+		debounce(function () {
+			let query = $(this).val().trim().toLowerCase();
+			let results = $("#results").empty();
 
-		if (query && jsonData.length) {
-			let hasResults = false;
+			if (query && jsonData.length) {
+				let hasResults = false;
 
-			jsonData.forEach((job) => {
-				job.skills.forEach((skill) => {
-					if (skill.skill.toLowerCase().includes(query)) {
-						let encodedSkill = btoa(skill["db-skill"]);
-						let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
+				jsonData.forEach((job) => {
+					job.skills.forEach((skill) => {
+						if (skill.skill.toLowerCase().includes(query)) {
+							let encodedSkill = btoa(skill["db-skill"]);
+							let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
 
-						results.append(`
-							<li>
-								<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
-								<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
-									<div class="icon_search">
-										<img src="${skill.icon}" class="skill-icon" alt="${skill.skill}">
-									</div>
-									<div>
-										${skill.skill} <span>[${job.job}: ${skill.level}]</span>
-									</div>
-								</a>
-							</li>
-						`);
-						hasResults = true;
-					}
+							results.append(
+								`<li>
+									<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
+									<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
+										<div class="icon_search">
+											<img src="${skill.icon}" class="skill-icon" alt="${skill.skill}">
+										</div>
+										<div>
+											${skill.skill} <span>[${job.job}: ${skill.level}]</span>
+										</div>
+									</a>
+								</li>`
+							);
+							hasResults = true;
+						}
+					});
 				});
-			});
 
-			if (!hasResults) {
-				results.append("<li>Ничего не найдено</li>");
+				if (!hasResults) {
+					results.append("<li>Ничего не найдено</li>");
+				}
+
+				$(".search-results").show();
+			} else {
+				$(".search-results").hide();
 			}
-
-			$(".search-results").show();
-		} else {
-			$(".search-results").hide();
-		}
-	}, 300));
+		}, 300)
+	);
 
 	$(document).on("click", ".copy-link", function () {
-		navigator.clipboard.writeText($(this).attr("data-url"))
+		navigator.clipboard
+			.writeText($(this).attr("data-url"))
 			.then(() => {
 				let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
 				$(this).after(tooltip);
 				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 350);
 			})
-			.catch(err => console.error("Ошибка копирования: ", err));
+			.catch((err) => console.error("Ошибка копирования: ", err));
 	});
 
 	let urlParams = new URLSearchParams(window.location.search);
