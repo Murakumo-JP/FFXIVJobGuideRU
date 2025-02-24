@@ -1861,6 +1861,744 @@
 		]
 	},
 	{
+		"page_job": "Page/SGE",
+		"job": "Sage",
+		"skills": [
+			{
+				"skill": "Dosis",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/817398ae8dfe613839528291eebfe76e05bd3584.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Diagnosis",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c750ddbd308f469bfe54e263e98f2b1dc42ecfd3.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Kardia",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bd80c68721d02a37275edfa07de82a39adbceb1c.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Prognosis",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7f8253801283aa010e5a6ff40dafda493f1d58a4.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Egeiro",
+				"level": "Ур.12",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3b5dbe0188fba544474a1c3304af88544838e5cc.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Physis",
+				"level": "Ур.20",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b2acbee8acf84344ed1cbf15e97a5f88fe0f2e22.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Phlegma",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9f221a8b7c540f90f808d332e802b3626fef4431.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Eukrasia",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3d9da11ae40aa687171f1bf2a5655b6f0e442d79.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Eukrasian Diagnosis",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/0a0085828964c504f045a98b67feaf6c26c2307d.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Eukrasian Prognosis",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/723cccd2fe9542159daffcd22f44ff52d8a2f6a1.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Eukrasian Dosis",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3cffb9cb106612236b80ce85e1881e0d7760512f.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Soteria",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4f39d0024ea7741facfb247d0056064e831c3765.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Icarus",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/347d5069652ea0716aa462ba3dd96fc148156b0f.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Druochole",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/00cd1d056243c5e06b9bbb52a6112ddb35dbcbe9.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Dyskrasia",
+				"level": "Ур.46",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/849a554b53462ae2c240dc06558bf710c0f98e5e.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Kerachole",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b49859cbf63de26b230527650742576590166760.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Ixochole",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4ee83614031659334dda42affd3314aebcaf98f4.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Zoe",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/958000045b75c90c1ce059d11d2f2ed488d72a65.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Pepsis",
+				"level": "Ур.58",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/863096a46c76144097ba25d6d9d5fe1f997cda9e.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Physis II",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/ece8fe6d911ad6497e35a13d82572d2373d2a2a4.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Taurochole",
+				"level": "Ур.62",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fe3b0d2ce97deba2e6b4cfbc39e65e2abd32b31b.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Toxikon",
+				"level": "Ур.66",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/bedfcd09b95bf0fa2290753478364965c82a739b.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "Haima",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/31657e2f5ec2ec375960c927a6ed532883d8d271.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Dosis II",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/0323f174ced3df37c1c6699f4c4dc980e58b9b7b.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Phlegma II",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/abcef32ec5c7c111d5a2a3569ce427d7fc0a6ede.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Eukrasian Dosis II",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/075562984879d8d32898462a95da91d65e3df88c.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Rhizomata",
+				"level": "Ур.74",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d4628890501806f6ebbc3371b1e21ba63e69940c.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Holos",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/810d7969914bee1bbf088a70d62d6578a0949f9e.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Panhaima",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f7bdefbdd3410f2dd4b5c0f36e74ee72b115ccda.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Dosis III",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/99b9cce6a42b638d04a03e6e3de38555d333b53b.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Phlegma III",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/93dc61daa2db9449d34a5198669e59de306451e1.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Eukrasian Dosis III",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/7e340f46db9e27a9fd1fcd729d8eaceacf4cfa9f.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Dyskrasia II",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/0f71b2b711281a46eb641cb99bbe0f3b9c2e4a0a.png",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "Eukrasian Dyskrasia",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/c8c74517022e0d8f5fd8f379225a64f12eff5e0a.png",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "Toxikon II",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a5a4b7ed8fbb4d9ac9fbf32fde1784f37367645a.png",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "Krasis",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/2ef8237422768324b57e9d244731351fb0eca548.png",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "Pneuma",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/5ec3407305900508ed6eaea6dba984851b883fe3.png",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "Psyche",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9d4fec42b917590f53bfa7ccc1691c083afd7a3c.png",
+				"db-skill": "PVE Skill 38"
+			},
+			{
+				"skill": "Eukrasian Prognosis II",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/dc49cdcdfa8ec3a8d32f6e8b405ddda6971e23f0.png",
+				"db-skill": "PVE Skill 39"
+			},
+			{
+				"skill": "Philosophia",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a3dd5ff88eb7a7cce95536d48fe81665e3feb3ca.png",
+				"db-skill": "PVE Skill 40"
+			}
+		]
+	},
+	{
+		"page_job": "Page/MNK",
+		"job": "Monk",
+		"skills": [
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 38"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 39"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 40"
+			}
+		]
+	},
+	{
+		"page_job": "Page/",
+		"job": "",
+		"skills": [
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 38"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 39"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 40"
+			}
+		]
+	},
+	{
 		"page_job": "Page/",
 		"job": "",
 		"skills": [
