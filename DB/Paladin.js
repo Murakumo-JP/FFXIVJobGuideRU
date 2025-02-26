@@ -819,7 +819,7 @@
          "range": '25y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 5,000.<br/>Дополнительный эффект: восстанавливает HP персонажа.<br/>Сила лечения: 8,000.<br/>',
+         "content": 'Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: восстанавливает HP персонажа.<br/>Сила лечения: 6,000.<br/>',
       },
       // PVP Skill 06 NEW
       "PVP Skill 06": {
@@ -839,7 +839,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/dc0a7f454aeb6fa8cf680d223f5b97ba6c768955.png',
          "classification": 'Способность',
          "cast": 'Мгновенная',
-         "recast": '10 сек.',
+         "recast": '15 сек.',
          "range": '20y',
          "radius_img": 'R1',
          "radius": '0y',
