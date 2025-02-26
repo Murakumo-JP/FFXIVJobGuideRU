@@ -6,8 +6,10 @@ $(document).ready(() => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
 		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
 	};
-	addUpdateInfo("21.01.2025", "7.16", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/3c04a3a968d20cad8b17e35d37aa9cae6ff8960a");
+	addUpdateInfo("25.02.2025", "7.18", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/250f1d4df14979237c58f5a34f877efc7ef17eed");
+
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
+
 	// Open JobMenu
 	$(".nav_floating_icon").click(() => {
 		$(".nav_floating_list").fadeToggle();
