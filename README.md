@@ -2,7 +2,7 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=Repo%20Size)]()
 [![GitHub License](https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=License)](LICENSE)
 
-* Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания скиллов классов.
+* Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания умений классов.
 * Перевод Seiffear, Morriganna
 
 Старт проекта: 23.01.2024 
@@ -28,7 +28,7 @@
 
 ## Materials Usage License SE
 
-All images in this repository contain the property of SQUARE ENIX© which is used with permission.
+All images in this repository contain the property of SQUARE ENIX©.
 
 FINAL FANTASY XIV © 2010 - 2025 SQUARE ENIX CO., LTD. All Rights Reserved.
 
