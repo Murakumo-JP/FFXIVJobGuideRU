@@ -19,7 +19,7 @@
 	--link: #fffed1;
 	--text-color: white;
 	--block-width: 472px;
-	--main-header-img: #191919 url("../img/JobIndex/header_7_1.png");
+	--main-header-img: #191919 url("../img/JobIndex/webp/header_7_1.webp");
 	/* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%); */
 }
 * {
@@ -1240,8 +1240,7 @@ input::placeholder {
 			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
 			-moz-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 			-o-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-			-webkit-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19),
-				box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+			-webkit-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 			transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 		}
 		.js-tab-trigger {
@@ -1258,7 +1257,7 @@ input::placeholder {
 	}
 	&_gatherer li {
 		color: var(--gathering-color);
-  	}
+	}
 }
 .guide {
 	&-title {
@@ -1390,7 +1389,7 @@ input::placeholder {
 			line-height: 1;
 			position: relative;
 			&::after {
-				content: '';
+				content: "";
 				display: block;
 				width: 100%;
 				height: 2px;
@@ -1398,9 +1397,9 @@ input::placeholder {
 				position: absolute;
 				bottom: 0;
 				left: 0;
-		  }
-	  	}
-	  	&_map {
+			}
+		}
+		&_map {
 			display: flex;
 			align-items: flex-start;
 			justify-content: space-between;
@@ -1410,33 +1409,33 @@ input::placeholder {
 				display: block;
 				width: 400px;
 				height: 400px;
-		  	}
+			}
 			&_text {
 				width: 480px;
-		  	}
+			}
 			p {
 				font-size: 14px;
 				color: #585858;
 				line-height: 1.5;
 				margin-bottom: 1em;
-			&.notes {
+				&.notes {
 					color: #b2122d;
-			  }
-		  	}
-  		}
+				}
+			}
+		}
 		&_text {
 			width: 900px;
 			font-size: 14px;
 			color: #585858;
 			line-height: 1.5;
 			margin: 0 auto 32px;
-	  	}
+		}
 		&_lead {
 			max-width: 900px;
 			margin: 0 auto 16px;
 			font-size: 16px;
 			font-weight: 700;
-	  	}
+		}
 		&_box {
 			display: flex;
 			align-items: flex-start;
@@ -1449,11 +1448,11 @@ input::placeholder {
 				width: 400px;
 				img {
 					border-radius: 8px;
-			  	}
-		  	}
+				}
+			}
 			&_text {
 				width: 480px;
-		  	}
+			}
 			p {
 				font-size: 14px;
 				color: #585858;
@@ -1462,14 +1461,14 @@ input::placeholder {
 				a {
 					font-weight: 700;
 					color: #2556b8;
-					-moz-transition: text-decoration .3s cubic-bezier(.645, .045, .355, 1);
-					-o-transition: text-decoration .3s cubic-bezier(.645, .045, .355, 1);
-					-webkit-transition: text-decoration .3s cubic-bezier(.645,.045,.355,1);
-					transition: text-decoration .3s cubic-bezier(.645,.045,.355,1);
+					-moz-transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+					-o-transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+					-webkit-transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+					transition: text-decoration 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 					text-decoration: none;
-			  	}
-		  	}
-	  	}
+				}
+			}
+		}
 		&_subtitle {
 			display: flex;
 			align-items: center;
@@ -1481,11 +1480,11 @@ input::placeholder {
 			margin-bottom: 32px;
 			border-top-left-radius: 6px;
 			border-bottom-left-radius: 6px;
-	  	}
+		}
 		&_image img {
 			border-radius: 10px;
-	  	}
-  	}
+		}
+	}
 }
 .jobclass_wrapper .jobclass_wrapper_icon img {
 	width: 32px;
@@ -1984,7 +1983,7 @@ table {
 	~ .nome_app_top .app_top {
 		background-color: var(--tank-color);
 		box-shadow: 1px 1px 5px var(--tank-color);
-		&:hover{
+		&:hover {
 			background-color: var(--tank-AltColor);
 		}
 	}
@@ -2021,7 +2020,7 @@ table {
 	~ .nome_app_top .app_top {
 		background-color: var(--healer-color);
 		box-shadow: 1px 1px 5px var(--healer-color);
-		&:hover{
+		&:hover {
 			background-color: var(--healer-AltColor);
 		}
 	}
@@ -2058,7 +2057,7 @@ table {
 	~ .nome_app_top .app_top {
 		background-color: var(--dps-color);
 		box-shadow: 1px 1px 5px var(--dps-color);
-		&:hover{
+		&:hover {
 			background-color: var(--dps-AltColor);
 		}
 	}
@@ -2094,7 +2093,7 @@ table {
 	~ .nome_app_top .app_top {
 		background: var(--craft-color);
 		box-shadow: 1px 1px 5px var(--craft-color);
-		&:hover{
+		&:hover {
 			background-color: var(--craft-AltColor);
 		}
 	}
@@ -2123,7 +2122,7 @@ table {
 	~ .nome_app_top .app_top {
 		background: var(--gathering-color);
 		box-shadow: 1px 1px 5px var(--gathering-color);
-		&:hover{
+		&:hover {
 			background-color: var(--gathering-AltColor);
 		}
 	}
@@ -2358,8 +2357,7 @@ table {
 		border-bottom: 1px solid #999;
 	}
 	&_03 {
-		background: url(../img/main/combo2.png) no-repeat 150px 0, url(../img/main/combo2.png) no-repeat 295px 0,
-			url(../img/main/combo2.png) no-repeat 442px 0;
+		background: url(../img/main/combo2.png) no-repeat 150px 0, url(../img/main/combo2.png) no-repeat 295px 0, url(../img/main/combo2.png) no-repeat 442px 0;
 		margin-bottom: 8px;
 		border-bottom: 1px solid #999;
 		.job_combo_root_skill_first {
@@ -2404,9 +2402,7 @@ table {
 		background: url(../img/main/combo5.png) no-repeat 150px 0, url(../img/main/combo5.png) no-repeat 370px 0;
 	}
 	&_04 {
-		background: url(../img/main/combo6.png) no-repeat 40px 0, url(../img/main/combo7.png) repeat-y 150px 0,
-			url(../img/main/combo6.png) no-repeat 260px 0, url(../img/main/combo7.png) repeat-y 370px 0,
-			url(../img/main/combo6.png) no-repeat 480px 0;
+		background: url(../img/main/combo6.png) no-repeat 40px 0, url(../img/main/combo7.png) repeat-y 150px 0, url(../img/main/combo6.png) no-repeat 260px 0, url(../img/main/combo7.png) repeat-y 370px 0, url(../img/main/combo6.png) no-repeat 480px 0;
 	}
 	&_05 {
 		background: url(../img/main/combo8.png) no-repeat 150px 0, url(../img/main/combo8.png) no-repeat 370px 0;
@@ -2530,8 +2526,7 @@ table {
 		&_01 {
 			grid-area: combo01;
 			position: relative;
-			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0,
-				url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
+			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 			&::before {
 				left: -24px;
 				background: url(https://lds-img.finalfantasyxiv.com/promo/h/J/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat 0 0;
@@ -2552,8 +2547,7 @@ table {
 		&_02 {
 			grid-area: combo02;
 			position: relative;
-			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0,
-				url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
+			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 			&::before {
 				left: -24px;
 				background: url(https://lds-img.finalfantasyxiv.com/promo/h/A/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat 0 0;
@@ -2623,13 +2617,11 @@ table {
 }
 .job_combo_viper_inner {
 	&_01 {
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0,
-			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 	}
 	&_02 {
 		padding-top: 124px;
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/s/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0,
-			url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/s/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/K/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
 	}
 	&_04 {
 		padding-top: 124px;
@@ -2637,18 +2629,14 @@ table {
 	}
 	&_05 {
 		padding-top: 124px;
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px,
-			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px,
-			url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0,
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px, url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0,
 			url(https://lds-img.finalfantasyxiv.com/promo/h/L/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
 	}
 	&_06 {
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0,
-			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/4/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 	}
 	&_07 {
-		background: url(https://lds-img.finalfantasyxiv.com/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0,
-			url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+		background: url(https://lds-img.finalfantasyxiv.com/promo/h/W/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/x/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 	}
 }
 .job_combo_machinist {
@@ -2747,8 +2735,8 @@ table {
 	cursor: pointer;
 }
 /* News Popup */
-#news{
-	&Popup{
+#news {
+	&Popup {
 		display: none;
 		position: fixed;
 		top: 50%;
@@ -2757,16 +2745,16 @@ table {
 		width: 50%;
 		max-width: 600px;
 		padding: 10px;
-		background: rgba(25, 25, 25, .9);
+		background: rgba(25, 25, 25, 0.9);
 		box-shadow: 0 0 5px 0 #000;
 		color: #c9d1d9;
 		border-radius: 10px;
 		z-index: 1000;
 		font-family: Arial, sans-serif;
 	}
-	&Title{
+	&Title {
 		border-bottom: 1px solid #30363d;
-    	padding: 0 0 5px 10px;
+		padding: 0 0 5px 10px;
 	}
 }
 #overlay {
@@ -2796,15 +2784,15 @@ pre {
 	padding: 3px;
 	margin-top: 15px;
 	transition: all 0.3s;
-	&:hover{
+	&:hover {
 		background: rgb(0 0 0 / 30%);
 	}
 	img {
 		width: 25px;
-  	}
+	}
 	span {
 		padding: 0 5px 0 5px;
 		font-weight: bold;
 		font-size: 13px;
-  	}
+	}
 }
