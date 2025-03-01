@@ -2112,8 +2112,8 @@
 		]
 	},
 	{
-		"page_job": "Page/",
-		"job": "",
+		"page_job": "Page/DRG",
+		"job": "Dragoon",
 		"skills": [
 			{
 				"skill": "",
@@ -2312,48 +2312,6 @@
 				"level": "Ур.",
 				"icon": "",
 				"db-skill": "PVE Skill 33"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 34"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 35"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 36"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 37"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 38"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 39"
-			},
-			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
-				"db-skill": "PVE Skill 40"
 			}
 		]
 	},
