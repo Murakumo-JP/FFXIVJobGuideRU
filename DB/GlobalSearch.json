@@ -2116,27 +2116,231 @@
 		"job": "Dragoon",
 		"skills": [
 			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
+				"skill": "True Thrust",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a456526b20c613a31c9ff03a7cd8d69ab328a4c8.png",
 				"db-skill": "PVE Skill 01"
 			},
 			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
+				"skill": "Vorpal Thrust",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/85a78cf7b49d80ab94aa206b385563ffa0222346.png",
 				"db-skill": "PVE Skill 02"
 			},
 			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
+				"skill": "Life Surge",
+				"level": "Ур.6",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/eb7e59cbec93afbdf7a3cecd0e164c545ea8dec2.png",
 				"db-skill": "PVE Skill 03"
 			},
 			{
-				"skill": "",
-				"level": "Ур.",
-				"icon": "",
+				"skill": "Piercing Talon",
+				"level": "Ур.15",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b34933ec0ea122c75fd1deeb69f3b9df942dbdc1.png",
+				"db-skill": "PVE Skill 04"
+			},
+			{
+				"skill": "Disembowel",
+				"level": "Ур.18",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d5052c9c0d1bf846c9a4fb70497dd1cea97ceca6.png",
+				"db-skill": "PVE Skill 05"
+			},
+			{
+				"skill": "Full Thrust",
+				"level": "Ур.26",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/34a78b866a4906267ee8f0e93457cb22b5550b9d.png",
+				"db-skill": "PVE Skill 06"
+			},
+			{
+				"skill": "Lance Charge",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/cb90fa2f691cd58f5b068f6088550b3d56c2bd73.png",
+				"db-skill": "PVE Skill 07"
+			},
+			{
+				"skill": "Jump",
+				"level": "Ур.30",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/f33d8ab6bf2a7e902b9292016eefbbb0fe551548.png",
+				"db-skill": "PVE Skill 08"
+			},
+			{
+				"skill": "Elusive Jump",
+				"level": "Ур.35",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/410e90de2429654f6a4912e15c1d07597f765f53.png",
+				"db-skill": "PVE Skill 09"
+			},
+			{
+				"skill": "Doom Spike",
+				"level": "Ур.40",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1e6e09c76f8847d3caf2ee330400848219460dfa.png",
+				"db-skill": "PVE Skill 10"
+			},
+			{
+				"skill": "Winged Glide",
+				"level": "Ур.45",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/970713e35721fcecc8fce83a6064c984bdeb22c3.png",
+				"db-skill": "PVE Skill 11"
+			},
+			{
+				"skill": "Chaos Thrust",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b77850f0a67953c4b4a13228788bdc1ec41c20fc.png",
+				"db-skill": "PVE Skill 12"
+			},
+			{
+				"skill": "Dragonfire Dive",
+				"level": "Ур.50",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1ccffd13759a4491f95494464c6d10dc33c006af.png",
+				"db-skill": "PVE Skill 13"
+			},
+			{
+				"skill": "Battle Litany",
+				"level": "Ур.52",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/508f9edf2563db3319c3f623ce5d94517062263c.png",
+				"db-skill": "PVE Skill 14"
+			},
+			{
+				"skill": "Fang and Claw",
+				"level": "Ур.56",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4fe2230dcc26896793e2936288fd25252dcfc56c.png",
+				"db-skill": "PVE Skill 15"
+			},
+			{
+				"skill": "Wheeling Thrust",
+				"level": "Ур.58",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a8a45f08c2c5db904616f91470667fe4aaa6bcc5.png",
+				"db-skill": "PVE Skill 16"
+			},
+			{
+				"skill": "Geirskogul",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9997d1e9e3008de62095f170806afc46bf8c0512.png",
+				"db-skill": "PVE Skill 17"
+			},
+			{
+				"skill": "Sonic Thrust",
+				"level": "Ур.62",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/9457aa084f7bf99d66ad2c32318a7377886fa5b1.png",
+				"db-skill": "PVE Skill 18"
+			},
+			{
+				"skill": "Drakesbane",
+				"level": "Ур.64",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/1bc31e46fb90bda5697cf272e0df8b9ac8086b13.png",
+				"db-skill": "PVE Skill 19"
+			},
+			{
+				"skill": "Mirage Dive",
+				"level": "Ур.60",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/83da9c48674e13d357d7ff8ba8fba6b49f287f79.png",
+				"db-skill": "PVE Skill 20"
+			},
+			{
+				"skill": "Nastrond",
+				"level": "Ур.70",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/97ac6d936a5ade6f37ed4395355893eb976a477a.png",
+				"db-skill": "PVE Skill 21"
+			},
+			{
+				"skill": "Coerthan Torment",
+				"level": "Ур.72",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/673868536e6be70ed3ae3e1b4be66579b572e324.png",
+				"db-skill": "PVE Skill 22"
+			},
+			{
+				"skill": "High Jump",
+				"level": "Ур.74",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/864834c5502d69496057326478a42ef74a504af3.png",
+				"db-skill": "PVE Skill 23"
+			},
+			{
+				"skill": "Raiden Thrust",
+				"level": "Ур.76",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/d63e1dd2c2cb09e371caf50f997b65f8148c578b.png",
+				"db-skill": "PVE Skill 24"
+			},
+			{
+				"skill": "Stardiver",
+				"level": "Ур.80",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/235f159d863cc53374d2029a1bfb141828fad5b5.png",
+				"db-skill": "PVE Skill 25"
+			},
+			{
+				"skill": "Draconian Fury",
+				"level": "Ур.82",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/51e0251a0915bf36c3c804a760c8b3eaa3fe869e.png",
+				"db-skill": "PVE Skill 26"
+			},
+			{
+				"skill": "Heavens' Thrust",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e8ab8aa66c28e6c6fd4acf489417d7e7e2d5acc6.png",
+				"db-skill": "PVE Skill 27"
+			},
+			{
+				"skill": "Chaotic Spring",
+				"level": "Ур.86",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e34337371ce368cb087a6c9cf3cad150271b7077.png",
+				"db-skill": "PVE Skill 28"
+			},
+			{
+				"skill": "Wyrmwind Thrust",
+				"level": "Ур.90",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/e61f89ed9db5020d7733920451f4d1809fe52c6b.png",
+				"db-skill": "PVE Skill 29"
+			},
+			{
+				"skill": "Rise of the Dragon",
+				"level": "Ур.92",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/4d7cca717dd43f7598d848d99886ccaec3835bad.png",
+				"db-skill": "PVE Skill 30"
+			},
+			{
+				"skill": "Lance Barrage",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/a5743cd6a29dd664a044690a6e98f3ddeb05eb5a.png",
+				"db-skill": "PVE Skill 31"
+			},
+			{
+				"skill": "Spiral Blow",
+				"level": "Ур.96",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/b87f6aa2ebc0b8c4a858b76c6be82094738a6247.png",
+				"db-skill": "PVE Skill 32"
+			},
+			{
+				"skill": "Starcross",
+				"level": "Ур.100",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/fa02faafe16ebea100212e1ae3b89298bc249a7f.png",
+				"db-skill": "PVE Skill 33"
+			}
+		]
+	},
+	{
+		"page_job": "Page/NIN",
+		"job": "Ninja",
+		"skills": [
+			{
+				"skill": "Spinning Edge",
+				"level": "Ур.1",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/657b568d32fd379339d365704c75ee7ca7e0cbd9.png",
+				"db-skill": "PVE Skill 01"
+			},
+			{
+				"skill": "Shade Shift",
+				"level": "Ур.2",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/533a4a3e924aaf268ee89a9c58845941bb73bad1.png",
+				"db-skill": "PVE Skill 02"
+			},
+			{
+				"skill": "Gust Slash",
+				"level": "Ур.4",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/3b3414364511f0fa913d25a989b88668c6152a90.png",
+				"db-skill": "PVE Skill 03"
+			},
+			{
+				"skill": "Hide",
+				"level": "Ур.10",
+				"icon": "https://lds-img.finalfantasyxiv.com/d/2dc011be7f8180f6559af70db7dc93c4b0229d95.png",
 				"db-skill": "PVE Skill 04"
 			},
 			{
@@ -2312,6 +2516,48 @@
 				"level": "Ур.",
 				"icon": "",
 				"db-skill": "PVE Skill 33"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 34"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 35"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 36"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 37"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 38"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 39"
+			},
+			{
+				"skill": "",
+				"level": "Ур.",
+				"icon": "",
+				"db-skill": "PVE Skill 40"
 			}
 		]
 	},
