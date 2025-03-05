@@ -191,7 +191,7 @@ $(document).ready(function () {
 									<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
 									<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
 										<div class="icon_search">
-											<img src="./Assets/img/DoWDoM/search_icons/${safeJobName}/${skill.icon}" class="skill-icon" alt="${skill.skill}">
+											<img src="./Assets/img/DoWDoM/search/${safeJobName}/${skill.icon}" class="skill-icon" alt="${skill.skill}">
 										</div>
 										<div>
 											${skill.skill} <span>[${job.job}: ${skill.level}]</span>
