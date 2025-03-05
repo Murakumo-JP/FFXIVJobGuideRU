@@ -1,7 +1,7 @@
 {
 	"name": "FFXIV Job Guide RU",
-	"short_name": "FFXIV Guide",
-	"start_url": "/index.html",
+	"short_name": "FFXIV Job Guide RU",
+	"start_url": "/",
 	"display": "standalone",
 	"form_factor": "windowed",
 	"background_color": "#732828",

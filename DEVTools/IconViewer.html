@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Viewer</title>
+    <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
+    <link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
+    <link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
+    <link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="content">
+        <h1>Icon Viewer</h1>
+        <div id="output"></div>
+    </div>
+    <script>
+        const fileUrl = '../DB/GlobalSearch.json';
+        fetch(fileUrl)
+            .then(response => response.json())
+            .then(data => {
+                const output = document.getElementById('output');
+                output.innerHTML = '';
+
+                data.forEach(job => {
+                    const normalizedJobName = job.job.replace(/\s+/g, '_').toLowerCase();
+                    const classSection = document.createElement('div');
+                    classSection.className = 'class-section';
+                    classSection.innerHTML = `<div class="class-title">${job.job}</div>`;
+
+                    const skillsGrid = document.createElement('div');
+                    skillsGrid.className = 'skills-grid';
+
+                    job.skills.forEach(skill => {
+                        const skillDiv = document.createElement('div');
+                        skillDiv.className = 'skill';
+                        skillDiv.innerHTML = `
+                            <img src="../Assets/img/DoWDoM/search_icon/${normalizedJobName}/${skill.icon}" alt="${skill.skill}">
+                            <div>
+                                <strong>${skill.skill}</strong>
+                                <span>${skill.level}</span>
+                            </div>
+                        `;
+                        skillsGrid.appendChild(skillDiv);
+                    });
+
+                    classSection.appendChild(skillsGrid);
+                    output.appendChild(classSection);
+                });
+            })
+            .catch(error => {
+                alert('Ошибка загрузки JSON: ' + error.message);
+            });
+    </script>
+</body>
+</html>
