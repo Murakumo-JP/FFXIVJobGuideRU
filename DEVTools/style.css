@@ -95,16 +95,16 @@ body {
 	text-align: center;
 }
 h1 {
-	color: #ffa726;
+	color: #fffed1;
 	text-align: center;
 }
 input[type="file"] {
 	display: block;
 	margin: 20px auto;
 	padding: 10px;
-	border: 2px dashed #ffa726;
+	border: 2px dashed #fffed1;
 	background-color: #424242;
-	color: #ffa726;
+	color: #fffed1;
 	cursor: pointer;
 }
 .class-section {
@@ -113,8 +113,8 @@ input[type="file"] {
 .class-title {
 	font-size: 1.5em;
 	margin-bottom: 10px;
-	color: #ffcc80;
-	border-bottom: 2px solid #ffa726;
+	color: #fffed1;
+	border-bottom: 2px solid #fffed1;
 	padding-bottom: 5px;
 }
 .skills-grid {
@@ -142,8 +142,11 @@ input[type="file"] {
 	flex-direction: column;
 }
 .skill strong {
-	color: #81c784;
+	color: #fffed1;
 }
 .skill em {
 	color: #ffb74d;
+}
+.content {
+	margin: 20px;
 }

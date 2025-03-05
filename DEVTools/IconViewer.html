@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Просмотр иконок из JSON</title>
+    <title>Icon Viewer</title>
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
     <link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Icon Viewer</h1>
-    <div id="output"></div>
+    <div class="content">
+        <h1>Icon Viewer</h1>
+        <div id="output"></div>
+    </div>
     <script>
         const fileUrl = '../DB/GlobalSearch.json';
         fetch(fileUrl)
@@ -39,7 +41,6 @@
                             <div>
                                 <strong>${skill.skill}</strong>
                                 <span>${skill.level}</span>
-                                <em>${skill['db-skill']}</em>
                             </div>
                         `;
                         skillsGrid.appendChild(skillDiv);
