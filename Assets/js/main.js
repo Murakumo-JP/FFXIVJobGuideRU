@@ -162,6 +162,7 @@ $(document).ready(function () {
 	$.getJSON("../DB/GlobalSearch.json").done(function (data) {
 		jsonData = data;
 	});
+
 	function debounce(func, wait) {
 		let timeout;
 		return function (...args) {
@@ -169,6 +170,7 @@ $(document).ready(function () {
 			timeout = setTimeout(() => func.apply(this, args), wait);
 		};
 	}
+
 	$("#search").on(
 		"keyup",
 		debounce(function () {
@@ -178,6 +180,7 @@ $(document).ready(function () {
 			if (query && jsonData.length) {
 				let hasResults = false;
 				jsonData.forEach((job) => {
+					const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
 					job.skills.forEach((skill) => {
 						if (skill.skill.toLowerCase().includes(query)) {
 							let encodedSkill = btoa(skill["db-skill"]);
@@ -188,7 +191,7 @@ $(document).ready(function () {
 									<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
 									<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
 										<div class="icon_search">
-											<img src="${skill.icon}" class="skill-icon" alt="${skill.skill}">
+											<img src="./Assets/img/DoWDoM/search_icon/${safeJobName}/${skill.icon}" class="skill-icon" alt="${skill.skill}">
 										</div>
 										<div>
 											${skill.skill} <span>[${job.job}: ${skill.level}]</span>
@@ -200,6 +203,7 @@ $(document).ready(function () {
 						}
 					});
 				});
+
 				if (!hasResults) {
 					results.append("<li>Ничего не найдено</li>");
 				}

@@ -38,7 +38,8 @@ $(document).ready(function () {
 				content = content
 					.replace(/!\[.*?\]\(\s*https?:\/\/github\.com\/user-attachments\/assets\/[0-9a-f-]+\s*\)\r?\n?/g, "")
 					.replace(/\(\s*(?:https?:\/\/github\.com\/[\w-]+\/[\w-]+\/commit\/)?[0-9a-f]{40}\s*\)/g, "")
-					.replace(/## Обновление до патча \d+\.\d+\r?\n?\s?/g, "");
+					.replace(/## Обновление до патча \d+\.\d+\r?\n?\s?/g, "")
+					.replace(/## Обновление сайта \d+\.\d+\r?\n?\s?/g, "");
 				$("#newsTitle").text(title);
 				$("#newsContent")
 					.html(content)
