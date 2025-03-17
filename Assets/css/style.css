@@ -20,8 +20,8 @@
   --link: #fffed1;
   --text-color: white;
   --block-width: 472px;
-  --main-header-img: #191919 url("../img/JobIndex/webp/header_7_1.webp");
-  /* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%); */
+  --main-header-img: url("../img/JobIndex/header_7_2.png") no-repeat top center, linear-gradient(90deg, #63558a 0%, #8a486c 100%);
+  /* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #63558a 0%, #8a486c 100%); */
 }
 
 * {
