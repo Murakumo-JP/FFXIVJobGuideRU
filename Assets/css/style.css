@@ -2767,6 +2767,8 @@ pre {
   margin-top: 5px;
   padding-left: 0;
   z-index: 1000;
+  touch-action: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .search-container .search-results li {
   list-style: none;
