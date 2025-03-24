@@ -277,7 +277,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 440.<br/>Комбо умение: Wheeling Thrust или Fang and Claw<br/>Комбо бонус: накладывает эффект Draconian Fire<br/>Продолжительность: 30 сек.<br/>Может быть использовано только после успешного применения Wheeling Thrust или Fang and Claw в качестве комбо умения.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Wheeling Thrust и Fang and Claw меняется на Drakesbane при соблюдении требований к выполнению.',
+         "content": 'Удар, наносящий урон с силой атаки 460.<br/>Комбо умение: Wheeling Thrust или Fang and Claw<br/>Комбо бонус: накладывает эффект Draconian Fire<br/>Продолжительность: 30 сек.<br/>Может быть использовано только после успешного применения Wheeling Thrust или Fang and Claw в качестве комбо умения.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Wheeling Thrust и Fang and Claw меняется на Drakesbane при соблюдении требований к выполнению.',
       },
       // PVE Skill 20
       "PVE Skill 20": {
@@ -362,7 +362,7 @@
          "range": '20y',
          "radius_img": 'R2',
          "radius": '5y',
-         "content": 'Удар с прыжком, наносящий огненный урон с силой атаки 820 по цели и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Starcross Ready<br/>Продолжительность: 20 сек.<br/>Может быть использовано только под эффектом Life of the Dragon.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.',
+         "content": 'Удар с прыжком, наносящий огненный урон с силой атаки 840 по цели и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Starcross Ready<br/>Продолжительность: 20 сек.<br/>Может быть использовано только под эффектом Life of the Dragon.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.',
       },
       // PVE Skill 26
       "PVE Skill 26": {
@@ -390,7 +390,7 @@
          "range": '3y',
          "radius_img": 'R1',
          "radius": '0y',
-         "content": 'Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: Lance Barrage<br/>Сила в комбо: 440',
+         "content": 'Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Lance Barrage<br/>Сила в комбо: 440',
       },
       // PVE Skill 28
       "PVE Skill 28": {
@@ -565,7 +565,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png',
          "job_icon": 'DRG',
          "level": '94',
-         "content": "Увеличивает силу атаки Fang and Claw до 140, Wheeling Thrust до 140, Drakesbane до 440, Raiden Thrust до 320, Stardiver до 820, Heavens' Thrust до 140, Chaotic Spring до 140 и Wyrmwind Thrust до 440.",
+         "content": "Увеличивает силу атаки Fang and Claw до 140, Wheeling Thrust до 140, Drakesbane до 460, Raiden Thrust до 320, Stardiver до 840, Heavens' Thrust до 160, Chaotic Spring до 140 и Wyrmwind Thrust до 440.",
       },
       // Trait 12
       "Trait 12": {
