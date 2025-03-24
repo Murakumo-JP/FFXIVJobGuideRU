@@ -11,7 +11,7 @@
 > Большая благодарность всем, кто помогал с данным проектом.
 > * Отдельное спасибо:
 >   - Rei Eltrei
->   - Budanochka Poly
+>   - [Budanochka Poly](https://www.twitch.tv/budan_poly)
 >   - [Gella Zenhat](https://www.twitch.tv/gella_zenhat)
 >   - Kaka Demon
 >   - Schmelvin Dotan
