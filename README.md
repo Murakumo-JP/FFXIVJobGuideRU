@@ -3,7 +3,7 @@
 [![GitHub License](https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=License)](LICENSE)
 
 * Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания умений классов.
-* Перевод Seiffear, Morriganna
+* Перевод Seiffear, [Morriganna](https://github.com/Morriganna)
 
 Старт проекта: 23.01.2024 
 
