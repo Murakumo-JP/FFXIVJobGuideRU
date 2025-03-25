@@ -49,11 +49,19 @@ $(document).ready(() => {
 		$tabContents.each(function () {
 			$(this).toggleClass("active", $(this).data("tab") === id);
 		});
+		history.replaceState(null, null, `#${id}`);
 	};
+
 	$(".js-tab-trigger").on("click", function (e) {
 		e.preventDefault();
 		const id = $(this).data("tab");
 		activateTab(id);
+	});
+	$(document).ready(() => {
+		const hash = location.hash.substring(1);
+		if (hash) {
+			activateTab(hash);
+		}
 	});
 	// Menu JobGuide
 	const $menuContainer = $("[data-menu-type]");
