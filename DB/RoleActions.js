@@ -515,6 +515,81 @@
          "radius": '0y',
          "content": 'Увеличивает скорость передвижения на 50%.<br/>Эффект заканчивается при повторном использовании или активации другого умения.',
       },
+      // PVP Role Action 01
+      "PVP Role Action 01": {
+         "name": 'Rampage',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/0025644eea0d29c167038c0fa0c4b7784d88c6dc.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '45 сек.',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '10y',
+         "content": " ",
+      },
+      // PVP Role Action 02
+      "PVP Role Action 02": {
+         "name": 'Rampart',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/d947368973397ac9682cbb74a423247410963fc6.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '60 сек.',
+         "range": '0y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": " ",
+      },
+      // PVP Role Action 03
+      "PVP Role Action 03": {
+         "name": 'Full Swing',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/47746513d4aeed38aaa5badcc22cd7d6569869d2.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '30 сек.',
+         "range": '5y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": " ",
+      },
+      // PVP Role Action 04
+      "PVP Role Action 04": {
+         "name": 'Haelan',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/723d97c52696b74e2493aa2c20ad3161f99a5823.png',
+         "classification": 'Spell',
+         "cast": '1.44 сек.',
+         "recast": '2.4 сек.',
+         "cost": '2500 MP',
+         "range": '30y',
+         "radius_img": 'R1',
+         "radius": '0y',
+         "content": " ",
+      },
+      // PVP Role Action 05
+      "PVP Role Action 05": {
+         "name": 'Stoneskin II',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/246e8261f9049a61874125090da6803554fa02ce.png',
+         "classification": 'Spell',
+         "cast": 'Instant',
+         "recast": '30 сек.',
+         "cost": '-',
+         "range": '0y',
+         "radius_img": 'R2',
+         "radius": '15y',
+         "content": " ",
+      },
+      // PVP Role Action 06
+      "PVP Role Action 06": {
+         "name": 'Diabrosis',
+         "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/808a5e2b506ca895c3d5c4187f18ce4ac813a566.png',
+         "classification": 'Ability',
+         "cast": 'Instant',
+         "recast": '45 сек.',
+         "cost": '-',
+         "range": '25y',
+         "radius_img": 'R2',
+         "radius": '10y',
+         "content": " ",
+      },
    };
    FILL_DB_SKILLS_MENU(db);
    FILL_DB_ROLE_ACTIONS(db);

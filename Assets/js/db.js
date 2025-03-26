@@ -440,6 +440,7 @@ function FILL_DB_ROLE_ACTIONS(DB){
 		let jobclass_02 = skill['job_class_02'] ? '<img src="../Assets/img/main/'+skill['job_class_02']+'.png">' : '';
 		let jobclass_03 = skill['job_class_03'] ? '<img src="../Assets/img/main/'+skill['job_class_03']+'.png">' : '';
 		let cost = skill['cost'] ? '<td class="cost">'+skill['cost']+'</td>' : '';
+		let level = skill['level'] ? '<p>Ур. '+skill['level']+'</p>' : '';
 		this.innerHTML = `
 		<td class="skill">
             <div class="skill_wrapper">
@@ -458,7 +459,7 @@ function FILL_DB_ROLE_ACTIONS(DB){
 						`+jobclass_02+`
 						`+jobclass_03+`
                </div>
-               <p>Ур. `+skill['level']+`</p>
+               `+level+`
             </div>
          </td>
          <td class="classification">`+skill['classification']+`</td>

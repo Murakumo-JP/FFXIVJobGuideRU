@@ -2951,3 +2951,8 @@ pre {
 		transform: translateY(-100%);
 	}
 }
+
+/* Fix Temp */
+.job_tbody[data-type="PvPRoleActions"] tr > td.jobclass {
+	display: none;
+}
