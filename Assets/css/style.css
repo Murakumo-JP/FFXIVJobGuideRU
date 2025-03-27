@@ -20,8 +20,8 @@
   --link: #fffed1;
   --text-color: white;
   --block-width: 472px;
-  --main-header-img: #191919 url("../img/JobIndex/webp/header_7_1.webp");
-  /* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #84b9ba 0%, #dbd6a5 100%); */
+  --main-header-img: url("../img/JobIndex/header_7_2.png") no-repeat top center, linear-gradient(90deg, #63558a 0%, #8a486c 100%);
+  /* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #63558a 0%, #8a486c 100%); */
 }
 
 * {
@@ -2418,21 +2418,25 @@ table {
 .job_combo_dragoon_04_start {
   grid-area: start;
   display: grid;
-  place-items: center;
+  place-content: center;
+  padding-right: 21px;
+  position: relative;
 }
-.job_combo_dragoon_04 .job_combo_root_skill p,
-.job_combo_dragoon_04 .job_combo_root_skill_last p {
-  width: 120px;
-}
-.job_combo_dragoon_04_start .job_combo_root_skill::after {
+.job_combo_dragoon_04_start::after {
   content: "";
   display: block;
   position: absolute;
   top: 0;
   right: -4px;
+  bottom: 0;
+  margin: auto;
   width: 48px;
-  height: 100%;
+  height: 124px;
   background: url(https://lds-img.finalfantasyxiv.com/promo/h/Y/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04 .job_combo_root_skill p,
+.job_combo_dragoon_04 .job_combo_root_skill_last p {
+  width: 120px;
 }
 .job_combo_dragoon_04_01::after, .job_combo_dragoon_04_01::before, .job_combo_dragoon_04_02::after, .job_combo_dragoon_04_02::before {
   content: "";
@@ -2767,6 +2771,8 @@ pre {
   margin-top: 5px;
   padding-left: 0;
   z-index: 1000;
+  touch-action: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .search-container .search-results li {
   list-style: none;
@@ -2864,4 +2870,8 @@ pre {
     opacity: 0.9;
     transform: translateY(-100%);
   }
+}
+/* Fix Temp */
+.job_tbody[data-type=PvPRoleActions] tr > td.jobclass {
+  display: none;
 }
