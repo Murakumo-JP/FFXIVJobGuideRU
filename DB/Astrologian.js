@@ -838,7 +838,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
          "job_icon": 'AST',
          "level": '94',
-         "content": 'Увеличивает силу атаки Combust III, наносящего урон с течением времени, до 70 и Fall Malefic до 270.',
+         "content": 'Увеличивает силу атаки Combust III, наносящего урон с течением времени, до 70, Fall Malefic до 270, Gravity II до 140 и Macrocosmos до 270.',
       },
       // Trait 18 NEW
       "Trait 18": {

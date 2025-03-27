@@ -871,7 +871,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
          "job_icon": 'SCH',
          "level": '94',
-         "content": 'Увеличивает силу атаки Biolysis, наносящего урон с течением времени, до 75 и Broil IV до 310.',
+         "content": 'Увеличивает силу атаки Biolysis, наносящего урон с течением времени, до 80 и Broil IV до 310.',
       },
       // Trait 15 NEW
       "Trait 15": {

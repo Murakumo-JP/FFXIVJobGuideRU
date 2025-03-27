@@ -698,7 +698,7 @@
          "skill_icon": 'https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png',
          "job_icon": 'WHM',
          "level": '94',
-         "content": 'Увеличивает силу атаки умениям Dia и его урон с течением времени до 75, Afflatus Misery до 1,360 и Glare III до 340.',
+         "content": 'Увеличивает силу атаки умениям Dia и его урон с течением времени до 80, Afflatus Misery до 1,360 и Glare III до 340.',
       },
       // Trait 19 NEW
       "Trait 19": {
