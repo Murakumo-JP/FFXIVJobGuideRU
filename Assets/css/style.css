@@ -2418,21 +2418,25 @@ table {
 .job_combo_dragoon_04_start {
   grid-area: start;
   display: grid;
-  place-items: center;
+  place-content: center;
+  padding-right: 21px;
+  position: relative;
 }
-.job_combo_dragoon_04 .job_combo_root_skill p,
-.job_combo_dragoon_04 .job_combo_root_skill_last p {
-  width: 120px;
-}
-.job_combo_dragoon_04_start .job_combo_root_skill::after {
+.job_combo_dragoon_04_start::after {
   content: "";
   display: block;
   position: absolute;
   top: 0;
   right: -4px;
+  bottom: 0;
+  margin: auto;
   width: 48px;
-  height: 100%;
+  height: 124px;
   background: url(https://lds-img.finalfantasyxiv.com/promo/h/Y/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat 0 0;
+}
+.job_combo_dragoon_04 .job_combo_root_skill p,
+.job_combo_dragoon_04 .job_combo_root_skill_last p {
+  width: 120px;
 }
 .job_combo_dragoon_04_01::after, .job_combo_dragoon_04_01::before, .job_combo_dragoon_04_02::after, .job_combo_dragoon_04_02::before {
   content: "";

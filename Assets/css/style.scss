@@ -2494,7 +2494,21 @@ table {
 		&_start {
 			grid-area: start;
 			display: grid;
-			place-items: center;
+			place-content: center;
+			padding-right: 21px;
+			position: relative;
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				right: -4px;
+				bottom: 0;
+				margin: auto;
+				width: 48px;
+				height: 124px;
+				background: url(https://lds-img.finalfantasyxiv.com/promo/h/Y/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat 0 0;
+		  }
 		}
 		.job_combo_root_skill,
 		.job_combo_root_skill_last {
@@ -2502,16 +2516,7 @@ table {
 				width: 120px;
 			}
 		}
-		&_start .job_combo_root_skill::after {
-			content: "";
-			display: block;
-			position: absolute;
-			top: 0;
-			right: -4px;
-			width: 48px;
-			height: 100%;
-			background: url(https://lds-img.finalfantasyxiv.com/promo/h/Y/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat 0 0;
-		}
+		
 		&_01::after,
 		&_01::before,
 		&_02::after,
@@ -2529,7 +2534,7 @@ table {
 			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 			&::before {
 				left: -24px;
-				background: url(https://lds-img.finalfantasyxiv.com/promo/h/J/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat 0 0;
+    			background: url(https://lds-img.finalfantasyxiv.com/promo/h/J/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat 0 0;
 			}
 			&::after {
 				right: -24px;
@@ -2550,7 +2555,7 @@ table {
 			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 			&::before {
 				left: -24px;
-				background: url(https://lds-img.finalfantasyxiv.com/promo/h/A/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat 0 0;
+    			background: url(https://lds-img.finalfantasyxiv.com/promo/h/A/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat 0 0;
 			}
 			&::after {
 				right: -24px;
