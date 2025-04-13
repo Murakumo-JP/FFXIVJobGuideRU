@@ -966,8 +966,9 @@
       },
    };
    FILL_DB_VALUES(db);
-   FILL_DB_SKILLS(db);
-   FILL_DB_SKILLS_PASSIVE(db);
+   FILL_DB_SKILLS_ALL(db);
+   // FILL_DB_SKILLS(db);
+   // FILL_DB_SKILLS_PASSIVE(db);
    FILL_DB_SKILLS_PVP(db);
    FILL_DB_SKILLS_MENU(db);
 })();

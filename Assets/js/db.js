@@ -20,6 +20,91 @@ function FILL_DB_VALUES(DB) {
 	});
 }
 
+function FILL_DB_SKILLS_ALL(DB) {
+	const configs = [
+		{
+			attr: "db-skill",
+			fields: ["classification", "cast", "recast", "cost", "range_block", "content"],
+		},
+		{
+			attr: "db-skill-passive",
+			fields: ["content"],
+		},
+	];
+
+	const renderField = (field, skill) => {
+		switch (field) {
+			case "classification":
+				return `<td class="classification">${skill.classification}</td>`;
+			case "cast":
+				return `<td class="cast">${skill.cast}</td>`;
+			case "recast":
+				return `<td class="recast">${skill.recast}</td>`;
+			case "cost":
+				return skill.cost ? `<td class="cost">${skill.cost}</td>` : "";
+			case "range_block":
+				return `
+					<td class="distant_range">
+						<div class="range">
+							<img src="../Assets/img/main/Range.png">
+							<p>${skill.range}</p>
+						</div>
+						<div class="radius">
+							<img src="../Assets/img/DoWDoM/Radius/${skill.radius_img}.png">
+							<p>${skill.radius}</p>
+						</div>
+					</td>`;
+			case "content":
+				return `<td class="content">${skill.content}</td>`;
+			default:
+				return "";
+		}
+	};
+
+	configs.forEach(({attr, fields}) => {
+		$(`[${attr}]`).each(function () {
+			const key = this.getAttribute(attr);
+			const skill = DB[key];
+
+			if (!skill) {
+				console.error(`Skill "${key}" not found`);
+				return;
+			}
+
+			const eorzeadb = skill.eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${skill.eorzeadb}">Задание на получение</a>` : "";
+
+			let html = `
+				<td class="skill">
+					<div class="skill_wrapper">
+						<div class="skill_wrapper_icon">
+							<div class="job_skill_icon">
+								<img src="${skill.skill_icon}">
+							</div>
+						</div>
+						<p>
+							<strong>${skill.name}</strong>
+							${eorzeadb}
+						</p>
+					</div>
+				</td>
+				<td class="jobclass">
+					<div class="jobclass_wrapper">
+						<div class="jobclass_wrapper_icon">
+							<img src="../Assets/img/DoWDoM/Job/${skill.job_icon}.png">
+						</div>
+						<p>Ур. ${skill.level}</p>
+					</div>
+				</td>`;
+
+			fields.forEach((field) => {
+				html += renderField(field, skill);
+			});
+
+			this.innerHTML = html;
+		});
+	});
+}
+
 function FILL_DB_SKILLS(DB) {
 	$("[db-skill]").each(function () {
 		const key = this.getAttribute("db-skill");
