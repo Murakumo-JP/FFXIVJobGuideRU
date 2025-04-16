@@ -699,8 +699,9 @@
          "content": "Снижает наносимый урон и силу исцеляющих умений ближайших противников на 25%.<br/>Продолжительность: 10 сек.",
       },
    };
-   FILL_DB_SKILLS_MENU(db);
-   FILL_DB_ROLE_ACTIONS(db);
-   FILL_DB_ROLE_TRAITS(db);
-   FILL_DB_PVP_ACTIONS(db);
+   FILL_DB_RENDERER(db);
+   //FILL_DB_SKILLS_MENU(db);
+   //FILL_DB_ROLE_ACTIONS(db);
+   //FILL_DB_ROLE_TRAITS(db);
+   //FILL_DB_PVP_ACTIONS(db);
 })();

@@ -965,10 +965,11 @@
          "content": 'Накладывает эффект Hallowed Ground на себе и эффект Phalanx на ближайших сопартийцев.<br/>Эффект Hallowed Ground: дает персонажу неуязвимость против большинства атак<br/>Продолжительность: 10 сек.<br/>Эффект Phalanx: снижаем получаемый урон на 33%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Blade of Faith Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 120 сек.<br/><br/>※Умение меняется на Blade of Faith при использовании.',
       },
    };
-   FILL_DB_VALUES(db);
-   FILL_DB_SKILLS_ALL(db);
+   FILL_DB_RENDERER(db);
+   //FILL_DB_VALUES(db);
+   //FILL_DB_SKILLS_ALL(db);
    // FILL_DB_SKILLS(db);
    // FILL_DB_SKILLS_PASSIVE(db);
-   FILL_DB_SKILLS_PVP(db);
-   FILL_DB_SKILLS_MENU(db);
+   //FILL_DB_SKILLS_PVP(db);
+   //FILL_DB_SKILLS_MENU(db);
 })();
