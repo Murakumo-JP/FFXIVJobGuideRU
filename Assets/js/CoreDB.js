@@ -1,13 +1,13 @@
 async function CORE_BD_LOAD(jsonPaths) {
 	const renderers = {
+		"db-value": renderValue,
 		"db-skill": renderSkill,
 		"db-skill-passive": renderSkill,
 		"db-skill-pvp": renderSkill,
+		"db-pvp-actions": renderSkill,
 		"db-role-action": renderSkill,
 		"db-role-traits": renderSkill,
 		"db-skill-menu": renderSkillMenu,
-		"db-pvp-actions": renderSkill,
-		"db-value": renderValue,
 	};
 
 	const DB = {};
