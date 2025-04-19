@@ -34,6 +34,10 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 				console.error(`${attr} "${key}" не найден`);
 				return;
 			}
+
+			if (value.skill_update) el.classList.add("skill_update");
+			if (value.skill_new) el.classList.add("skill_new");
+
 			el.innerHTML = renderers[attr](value);
 		});
 	});

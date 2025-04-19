@@ -2,6 +2,8 @@
 	"PVE Update": "Последнее обновление: 24/03/2025",
 	"PVP Update": "Последнее обновление: 24/03/2025",
 	"PVE Skill 01": {
+		"skill_update": false,
+		"skill_new": false,
 		"name": "Fast Blade",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8325a7bb54f039c5bd3cd2af4430dccfd525e0b9.png",
 		"job_icon": "GLA",
