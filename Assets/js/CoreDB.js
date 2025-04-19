@@ -1,18 +1,21 @@
-async function CORE_BD_LOAD(jsonPaths) {
+const DB_VERSION = "19.04.2025";
+
+async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const renderers = {
-		"db-value": renderValue,
 		"db-skill": renderSkill,
 		"db-skill-passive": renderSkill,
 		"db-skill-pvp": renderSkill,
-		"db-pvp-actions": renderSkill,
 		"db-role-action": renderSkill,
 		"db-role-traits": renderSkill,
 		"db-skill-menu": renderSkillMenu,
+		"db-pvp-actions": renderSkill,
+		"db-value": renderValue,
 	};
 
 	const DB = {};
 	await Promise.all(
-		jsonPaths.map(async (path) => {
+		fileNames.map(async (file) => {
+			const path = `${file}?v=${version}`;
 			try {
 				const res = await fetch(path);
 				const data = await res.json();
