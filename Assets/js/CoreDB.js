@@ -15,7 +15,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const DB = {};
 	await Promise.all(
 		fileNames.map(async (file) => {
-			const path = `${file}?v=${version}`;
+			const path = `${file}?v${version}`;
 			try {
 				const res = await fetch(path);
 				const data = await res.json();
