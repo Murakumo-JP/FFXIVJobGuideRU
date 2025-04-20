@@ -9,6 +9,10 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		"db-role-traits": renderSkill,
 		"db-skill-menu": renderSkillMenu,
 		"db-pvp-actions": renderSkill,
+		"db-skill-craft": renderSkillCraft,
+		"db-craft-passive": renderSkillCraft,
+		"db-skill-gathering": renderSkillCraft,
+		"db-gathering-passive": renderSkillCraft,
 		"db-value": renderValue,
 	};
 
@@ -89,6 +93,54 @@ function renderSkill(skill) {
 	}
 
 	if (skill.content) html += `<td class="content">${skill.content}</td>`;
+
+	return html;
+}
+
+function renderSkillCraft(skill) {
+	const jobName = document.body.getAttribute("job-name");
+	let skillIcon = skill.skill_icon;
+	let skillName = skill.name;
+	let eorzeadb = skill.eorzeadb;
+	let skillContent = skill.content;
+
+	if (typeof skillIcon !== "string") skillIcon = skillIcon?.[jobName] ?? "";
+	if (typeof skillName !== "string") skillName = skillName?.[jobName] ?? "";
+	if (typeof eorzeadb !== "string") eorzeadb = eorzeadb?.[jobName] ?? "";
+	if (typeof skillContent !== "string") skillContent = skillContent?.[jobName] ?? "";
+
+	const eorzeadbLink = eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${eorzeadb}">Задание на получение</a>` : "";
+	const classification = skill.classification ? `<td class="classification">${skill.classification}</td>` : "";
+	const recast = skill.recast ? `<td class="recast">${skill.recast}</td>` : "";
+	const cost = skill.cost ? `<td class="cost">${skill.cost} ${skill.type === "gathering" ? "GP" : "CP"}</td>` : "";
+
+	let html = `
+		<td class="skill">
+			<div class="skill_wrapper">
+				<div class="skill_wrapper_icon">
+					<div class="guide-skill_icon">
+						<img src="${skillIcon}"/>
+					</div>
+				</div>
+				<p>
+					<strong>${skillName}</strong>
+					${eorzeadbLink}
+				</p>
+			</div>
+		</td>
+		<td class="jobclass">
+			<div class="jobclass_wrapper">
+				<div class="jobclass_wrapper_icon">
+					<img src="../Assets/img/DoWDoM/Job/${jobName}.png"/>
+				</div>
+				<p>Ур. ${skill.level}</p>
+			</div>
+		</td>
+		${classification}
+		${recast}
+		${cost}
+		<td class="content">${skillContent}</td>
+	`;
 
 	return html;
 }
