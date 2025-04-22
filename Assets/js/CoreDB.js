@@ -7,12 +7,12 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		"db-skill-pvp": renderSkill,
 		"db-role-action": renderSkill,
 		"db-role-traits": renderSkill,
-		"db-skill-menu": renderSkillMenu,
 		"db-pvp-actions": renderSkill,
 		"db-skill-craft": renderSkillCraft,
 		"db-craft-passive": renderSkillCraft,
 		"db-skill-gathering": renderSkillCraft,
 		"db-gathering-passive": renderSkillCraft,
+		"db-skill-menu": renderSkillMenu,
 		"db-value": renderValue,
 	};
 
