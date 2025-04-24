@@ -208,7 +208,7 @@
                            <th><p><span>Эффект</span></p></th>
                         </tr>
                      </thead>
-                     <tbody class="job_tbody" data-sort="false">
+                     <tbody class="job_tbody">
                         <tr id="pve_action_01" db-skill="PVE Skill 01"></tr>
                         <tr id="pve_action_02" db-skill="PVE Skill 02"></tr>
                         <tr id="pve_action_03" db-skill="PVE Skill 03"></tr>
@@ -634,13 +634,13 @@
          <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
+      <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
       <script>
          document.addEventListener("DOMContentLoaded", () => {
             CORE_DB_LOAD(["../DB/Tank/Paladin.json", "../DB/RoleActions.json"], DB_VERSION);
          });
       </script>
-      <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
 </html>
