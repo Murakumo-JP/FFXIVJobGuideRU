@@ -39,8 +39,12 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 				return;
 			}
 
-			if (value.skill_update) el.classList.add("skill_update");
-			if (value.skill_new) el.classList.add("skill_new");
+			const isMainTable = el.closest("tbody.job_tbody");
+			const prefix = isMainTable ? "skill" : "menu";
+
+			["update", "new"].forEach((flag) => {
+				if (value[`skill_${flag}`]) el.classList.add(`${prefix}_${flag}`);
+			});
 
 			el.innerHTML = renderers[attr](value);
 		});

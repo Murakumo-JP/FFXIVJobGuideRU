@@ -69,6 +69,18 @@ img {
   background: #f0dddd;
 }
 
+.menu_update:after {
+  content: "";
+  background: url(../img/main/skill_update.png) no-repeat 0 0 !important;
+  top: -4px !important;
+}
+
+.menu_new:after {
+  content: "";
+  background: url(../img/main/skill_new.png) no-repeat 0 0 !important;
+  top: -4px !important;
+}
+
 .search {
   background: var(--tank-color);
   margin: 5px;
