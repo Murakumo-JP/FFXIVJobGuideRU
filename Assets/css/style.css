@@ -833,7 +833,7 @@ input::placeholder {
 }
 .job_skill_icon:after {
   content: "";
-  background: url(../img/main/skil_icon_on.png) no-repeat;
+  background: url(../img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -1320,7 +1320,7 @@ input::placeholder {
 }
 .guide-skill_icon:after {
   content: "";
-  background: url(../img/main/skil_icon_on.png) no-repeat;
+  background: url(../img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -2842,7 +2842,7 @@ pre {
 }
 .icon_search:after {
   content: "";
-  background: url(../img/main/skil_icon_on.png) no-repeat;
+  background: url(../img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
