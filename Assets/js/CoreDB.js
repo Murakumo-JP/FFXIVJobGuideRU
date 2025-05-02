@@ -117,7 +117,7 @@ function renderSkillCraft(skill) {
 	const eorzeadbLink = eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${eorzeadb}">Задание на получение</a>` : "";
 	const classification = skill.classification ? `<td class="classification">${skill.classification}</td>` : "";
 	const recast = skill.recast ? `<td class="recast">${skill.recast}</td>` : "";
-	const cost = skill.cost ? `<td class="cost">${skill.cost} ${skill.type === "gathering" ? "GP" : "CP"}</td>` : "";
+	const cost = skill.cost ? `<td class="cost">${skill.cost}</td>` : "";
 
 	let html = `
 		<td class="skill">
