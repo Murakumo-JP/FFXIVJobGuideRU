@@ -724,10 +724,13 @@
          <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
-      <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
-      <script type="text/javascript" src="../DB/Scholar.js?27032025"></script>
-      <script type="text/javascript" src="../DB/RoleActions.js?27032025"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
+      <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
+      <script>
+         document.addEventListener("DOMContentLoaded", () => {
+            CORE_DB_LOAD(["../DB/Healer/Scholar.json", "../DB/RoleActions.json"], DB_VERSION);
+         });
+      </script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
 </html>
