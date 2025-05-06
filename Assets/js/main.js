@@ -2,7 +2,7 @@ let CONFIG = {};
 
 async function loadConfig() {
 	try {
-		const res = await fetch("../DB/config.json");
+		const res = await fetch("../DB/Config.json");
 		CONFIG = await res.json();
 		initUpdate();
 	} catch (e) {
@@ -75,10 +75,20 @@ $(document).ready(() => {
 	const menuType = $menuContainer.data("menu-type");
 
 	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
-		const menuPath = menuType === "MenuDoWDoM" ? "../DB/MenuDoWDoM.json" : "../DB/MenuDoHDoL.json";
-		$.getJSON(menuPath, (menuData) => {
+		$.getJSON("../DB/Menu.json", (menuData) => {
+			let menuArray = menuData[menuType];
+
+			if (!menuArray) {
+				console.error(`Меню для типа "${menuType}" не найдено.`);
+				return;
+			}
+
+			if (menuData.Links && Array.isArray(menuData.Links)) {
+				menuArray = [...menuArray, ...menuData.Links];
+			}
+
 			const $menuList = $('<ul class="jobguide_menu_list"></ul>');
-			menuData.forEach((category) => {
+			menuArray.forEach((category) => {
 				const $category = $('<li class="jobguide_menu_list"></li>');
 				$category.append(`<span class="job_name_menu">${category.name}</span>`);
 				const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
@@ -92,8 +102,9 @@ $(document).ready(() => {
 				$menuList.append($category);
 			});
 			$menuContainer.append($menuList);
-		}).fail(() => console.error("Данные пропили Муглы, все вопросы к ним."));
+		}).fail(() => console.error("Ошибка Menu.json не был загружен."));
 	}
+
 	// Warning Info
 	if (WarningEnabled) {
 		const setCookie = (name, value, days) => {
