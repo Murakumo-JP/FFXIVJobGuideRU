@@ -1,12 +1,33 @@
-$(document).ready(() => {
-	const WarningEnabled = false;
-	const DebugEnabled = false;
-	// Info Update
+let CONFIG = {};
+
+async function loadConfig() {
+	try {
+		const res = await fetch("../DB/config.json");
+		CONFIG = await res.json();
+		initUpdate();
+	} catch (e) {
+		console.error("Не удалось загрузить config.json", e);
+	}
+}
+
+function initUpdate() {
 	const addUpdateInfo = (date, patchVersion, patchLink) => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
 		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
 	};
-	addUpdateInfo("25.03.2025", "7.2", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/e8dc09ebc782c9c57de6489532ed55804541e0c7");
+	addUpdateInfo(CONFIG.update_info.date, CONFIG.update_info.patch, CONFIG.update_info.url);
+}
+
+$(document).ready(() => {
+	const WarningEnabled = false;
+	const DebugEnabled = false;
+	// Info Update
+	loadConfig();
+	// const addUpdateInfo = (date, patchVersion, patchLink) => {
+	// 	$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
+	// 	$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
+	// };
+	// addUpdateInfo("25.03.2025", "7.2", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/e8dc09ebc782c9c57de6489532ed55804541e0c7");
 
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
 
@@ -24,20 +45,6 @@ $(document).ready(() => {
 		$("html, body").animate({scrollTop: 0}, 1000);
 	});
 	// Tabs
-
-	// OLD CODE ===========================
-	// const activateTab = (id) => {
-	// 	$(`.js-tab-trigger[data-tab="${id}"]`).addClass("active");
-	// 	$(`.js-tab-trigger:not([data-tab="${id}"])`).removeClass("active");
-	// 	$(`.js-tab-content[data-tab="${id}"]`).addClass("active");
-	// 	$(`.js-tab-content:not([data-tab="${id}"])`).removeClass("active");
-	// };
-
-	// $(".js-tab-trigger").click(function (e) {
-	// 	e.preventDefault();
-	// 	const id = $(this).data("tab");
-	// 	activateTab(id);
-	// });
 	const activateTab = (id) => {
 		const $tabTriggers = $(".js-tab-trigger");
 		const $tabContents = $(".js-tab-content");
