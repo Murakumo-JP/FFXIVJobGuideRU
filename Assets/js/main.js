@@ -22,6 +22,8 @@ $(document).ready(() => {
 	const WarningEnabled = false;
 	const DebugEnabled = false;
 	const MENU_PATH = "../DB/Menu.json";
+	const GLOBAL_SEARCH_PATH = "../DB/GlobalSearch.json";
+	const WARNING_TEXT = "OPPS";
 	// Info Update
 	loadConfig();
 	// const addUpdateInfo = (date, patchVersion, patchLink) => {
@@ -131,7 +133,7 @@ $(document).ready(() => {
 				setCookie("warnInfoHidden", "true", 7);
 			});
 		};
-		showErrorInfo("Error");
+		showErrorInfo(WARNING_TEXT);
 	}
 	// Debug
 	if (DebugEnabled) {
@@ -182,12 +184,10 @@ $(document).ready(() => {
 			$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
 		}
 	});
-});
-// Global Search
-$(document).ready(function () {
+	// Global Search
 	let jsonData = [];
 
-	$.getJSON("../DB/GlobalSearch.json").done(function (data) {
+	$.getJSON(GLOBAL_SEARCH_PATH).done(function (data) {
 		jsonData = data;
 	});
 
