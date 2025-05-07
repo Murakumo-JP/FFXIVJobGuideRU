@@ -21,6 +21,7 @@ function initUpdate() {
 $(document).ready(() => {
 	const WarningEnabled = false;
 	const DebugEnabled = false;
+	const MENU_PATH = "../DB/Menu.json";
 	// Info Update
 	loadConfig();
 	// const addUpdateInfo = (date, patchVersion, patchLink) => {
@@ -75,7 +76,7 @@ $(document).ready(() => {
 	const menuType = $menuContainer.data("menu-type");
 
 	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
-		$.getJSON("../DB/Menu.json", (menuData) => {
+		$.getJSON(MENU_PATH, (menuData) => {
 			let menuArray = menuData[menuType];
 
 			if (!menuArray) {
@@ -185,6 +186,7 @@ $(document).ready(() => {
 // Global Search
 $(document).ready(function () {
 	let jsonData = [];
+
 	$.getJSON("../DB/GlobalSearch.json").done(function (data) {
 		jsonData = data;
 	});
@@ -205,6 +207,7 @@ $(document).ready(function () {
 
 			if (query && jsonData.length) {
 				let hasResults = false;
+
 				jsonData.forEach((job) => {
 					const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
 					job.skills.forEach((skill) => {
@@ -257,12 +260,20 @@ $(document).ready(function () {
 	if (encodedSkill) {
 		try {
 			let scrollToSkill = atob(encodedSkill);
-			let target = $(`[db-skill='${scrollToSkill}']`);
-			if (target.length) {
-				$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
-			}
+			let attempts = 0;
+			let maxAttempts = 20;
+			let interval = setInterval(() => {
+				let target = $(`[db-skill='${scrollToSkill}']`);
+				if (target.length) {
+					$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
+					clearInterval(interval);
+				} else if (++attempts >= maxAttempts) {
+					clearInterval(interval);
+					console.warn("Элемент не найден для прокрутки:", scrollToSkill);
+				}
+			}, 100);
 		} catch (error) {
-			console.error("Ошибка декодирования skill:", error);
+			console.error("Ошибка декодирования параметра skill:", error);
 		}
 	}
 });
