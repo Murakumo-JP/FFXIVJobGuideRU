@@ -258,3 +258,23 @@ function App() {
 }
 
 $(document).ready(loadConfig);
+
+$(document).ready(() => {
+	function applyTheme(theme) {
+		document.body.classList.remove("light-theme", "dark-theme");
+		document.body.classList.add(`${theme}-theme`);
+		$("#themeToggle").prop("checked", theme === "dark");
+	}
+
+	function toggleTheme() {
+		const isDark = $("#themeToggle").is(":checked");
+		const newTheme = isDark ? "dark" : "light";
+		applyTheme(newTheme);
+		localStorage.setItem("theme", newTheme);
+	}
+
+	const savedTheme = localStorage.getItem("theme") || "light";
+	applyTheme(savedTheme);
+
+	$("#themeToggle").on("change", toggleTheme);
+});
