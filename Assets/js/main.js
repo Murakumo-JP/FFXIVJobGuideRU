@@ -38,11 +38,22 @@ function App() {
 		}
 	});
 	// Back to Top
-	const button = $(".nome_app_top");
+	const buttonTop = $(".nome_app_top");
+	const buttonTheme = $("#themeToggle");
+
 	$(window).on("scroll", () => {
-		$(window).scrollTop() >= 200 ? button.fadeIn() : button.fadeOut();
+		const scrollY = $(window).scrollTop();
+
+		if (scrollY >= 200) {
+			buttonTop.fadeIn();
+			buttonTheme.fadeIn();
+		} else {
+			buttonTop.fadeOut();
+			buttonTheme.fadeOut();
+		}
 	});
-	button.on("click", (e) => {
+
+	buttonTop.on("click", (e) => {
 		e.preventDefault();
 		$("html, body").animate({scrollTop: 0}, 1000);
 	});
@@ -259,6 +270,7 @@ function App() {
 
 $(document).ready(loadConfig);
 
+// Light/Dark Theme
 $(document).ready(() => {
 	function applyTheme(theme) {
 		document.body.classList.remove("light-theme", "dark-theme");
