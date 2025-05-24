@@ -276,7 +276,8 @@ $(document).ready(() => {
 		document.body.classList.remove("light-theme", "dark-theme");
 		document.body.classList.add(`${theme}-theme`);
 
-		$("#themeToggle .icon").text(theme === "dark" ? "☀️" : "🌙");
+		const iconPath = theme === "dark" ? "../Assets/img/svg/sun.svg" : "../Assets/img/svg/moon.svg";
+		$("#themeToggle .icon").attr("src", iconPath);
 	}
 
 	function toggleTheme() {

@@ -58,8 +58,12 @@ body {
 	.job_tbody td {
 		color: #f5f5f5;
 	}
-	.skill_update td {
-		background: #f0e4c54d;
+	.skill_update {
+		border: 1px solid transparent;
+		box-shadow: 0 0 5px 0 transparent;
+		td {
+			background: #f0e4c54d;
+		}
 	}
 	.job_tab--pve {
 		background: rgb(38, 38, 38);
