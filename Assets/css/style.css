@@ -112,7 +112,6 @@ img {
 }
 
 .skill_update {
-  border: 1px solid #e7810e;
   box-shadow: 0 0 5px 0 #e7810e;
 }
 .skill_update td {
@@ -120,7 +119,6 @@ img {
 }
 
 .skill_new {
-  border: 1px solid #e75858;
   box-shadow: 0 0 5px 0 #e75858;
 }
 .skill_new td {
