@@ -161,37 +161,38 @@ $(document).ready(() => {
 	});
 });
 // Global Search
-$(document).ready(function () {
-	let jsonData = [];
-	$.getJSON("../DB/GlobalSearch.json").done(function (data) {
-		jsonData = data;
-	});
+let jsonData = [];
 
-	function debounce(func, wait) {
-		let timeout;
-		return function (...args) {
-			clearTimeout(timeout);
-			timeout = setTimeout(() => func.apply(this, args), wait);
-		};
-	}
+$.getJSON("../DB/GlobalSearch.json").done(function (data) {
+	jsonData = data;
+});
 
-	$("#search").on(
-		"keyup",
-		debounce(function () {
-			let query = $(this).val().trim().toLowerCase();
-			let results = $("#results").empty();
+function debounce(func, wait) {
+	let timeout;
+	return function (...args) {
+		clearTimeout(timeout);
+		timeout = setTimeout(() => func.apply(this, args), wait);
+	};
+}
 
-			if (query && jsonData.length) {
-				let hasResults = false;
-				jsonData.forEach((job) => {
-					const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
-					job.skills.forEach((skill) => {
-						if (skill.skill.toLowerCase().includes(query)) {
-							let encodedSkill = btoa(skill["db-skill"]);
-							let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
+$("#search").on(
+	"keyup",
+	debounce(function () {
+		let query = $(this).val().trim().toLowerCase();
+		let results = $("#results").empty();
 
-							results.append(
-								`<li>
+		if (query && jsonData.length) {
+			let hasResults = false;
+
+			jsonData.forEach((job) => {
+				const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
+				job.skills.forEach((skill) => {
+					if (skill.skill.toLowerCase().includes(query)) {
+						let encodedSkill = btoa(skill["db-skill"]);
+						let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
+
+						results.append(
+							`<li>
 									<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
 									<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
 										<div class="icon_search">
@@ -202,48 +203,55 @@ $(document).ready(function () {
 										</div>
 									</a>
 								</li>`
-							);
-							hasResults = true;
-						}
-					});
+						);
+						hasResults = true;
+					}
 				});
+			});
 
-				if (!hasResults) {
-					results.append("<li>Ничего не найдено</li>");
-				}
-				$(".search-results").show();
-			} else {
-				$(".search-results").hide();
+			if (!hasResults) {
+				results.append("<li>Ничего не найдено</li>");
 			}
-		}, 300)
-	);
+			$(".search-results").show();
+		} else {
+			$(".search-results").hide();
+		}
+	}, 300)
+);
 
-	$(document).on("click", ".copy-link", function () {
-		navigator.clipboard
-			.writeText($(this).attr("data-url"))
-			.then(() => {
-				let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
-				$(this).after(tooltip);
-				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 350);
-			})
-			.catch((err) => console.error("Ошибка копирования: ", err));
-	});
+$(document).on("click", ".copy-link", function () {
+	navigator.clipboard
+		.writeText($(this).attr("data-url"))
+		.then(() => {
+			let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
+			$(this).after(tooltip);
+			setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 350);
+		})
+		.catch((err) => console.error("Ошибка копирования: ", err));
+});
 
-	let urlParams = new URLSearchParams(window.location.search);
-	let encodedSkill = urlParams.get("skill");
+let urlParams = new URLSearchParams(window.location.search);
+let encodedSkill = urlParams.get("skill");
 
-	if (encodedSkill) {
-		try {
-			let scrollToSkill = atob(encodedSkill);
+if (encodedSkill) {
+	try {
+		let scrollToSkill = atob(encodedSkill);
+		let attempts = 0;
+		let maxAttempts = 20;
+		let interval = setInterval(() => {
 			let target = $(`[db-skill='${scrollToSkill}']`);
 			if (target.length) {
 				$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
+				clearInterval(interval);
+			} else if (++attempts >= maxAttempts) {
+				clearInterval(interval);
+				console.warn("Элемент не найден для прокрутки:", scrollToSkill);
 			}
-		} catch (error) {
-			console.error("Ошибка декодирования skill:", error);
-		}
+		}, 100);
+	} catch (error) {
+		console.error("Ошибка декодирования параметра skill:", error);
 	}
-});
+}
 
 // Light/Dark Theme
 $(document).ready(() => {
