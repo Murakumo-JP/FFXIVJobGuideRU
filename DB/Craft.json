@@ -1,5 +1,5 @@
 {
-	"Craft Update": "Последнее обновление: 27/06/2024",
+	"Craft Update": "Последнее обновление: 24/03/2025",
 	"Action 01": {
 		"name": "Basic Synthesis",
 		"skill_icon": {
@@ -13,7 +13,7 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Basic Synthesis.png"
 		},
 		"level": "1",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Пополняет шкалу progress.<br/>Эффективность: 120%<br/>Шанс успеха: 100%"
 	},
 	"Action 02": {
@@ -29,56 +29,56 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Basic Touch.png"
 		},
 		"level": "5",
-		"cost": "18",
+		"cost": "18 CP",
 		"content": "Пополняет шкалу quality.<br/>Эффективность: 100%<br/>Шанс успеха: 100%"
 	},
 	"Action 03": {
 		"name": "Master's Mend",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Masters Mend.png",
 		"level": "7",
-		"cost": "88",
+		"cost": "88 CP",
 		"content": "Восстанавливает durability предмета на 30."
 	},
 	"Action 04": {
 		"name": "Hasty Touch",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Hasty Touch.png",
 		"level": "9",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Пополняет шкалу quality, без затрат CP.<br/>Эффективность: 100%<br/>Шанс успеха: 60%<br/>Дополнительный эффект: накладывает эффект Expedience на 1 шаг"
 	},
 	"Action 05": {
 		"name": "Rapid Synthesis",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Rapid Synthesis.png",
 		"level": "9",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Пополняет шкалу quality.<br/>Эффективность: 500%<br/>Шанс успеха: 50%"
 	},
 	"Action 06": {
 		"name": "Observe",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Observe.png",
 		"level": "13",
-		"cost": "7",
+		"cost": "7 CP",
 		"content": "Бездействовать в течении одного шага."
 	},
 	"Action 07": {
 		"name": "Tricks of the Trade",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Tricks of the Trade.png",
 		"level": "13",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Восстанавливает 20 CP.<br/><br/>Доступно только при состоянии материала Good или Excellent."
 	},
 	"Action 08": {
 		"name": "Waste Not",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Waste Not.png",
 		"level": "15",
-		"cost": "56",
+		"cost": "56 CP",
 		"content": "Снижает потерю durability на 50% в течение следующих четырех шагов."
 	},
 	"Action 09": {
 		"name": "Veneration",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Veneration.png",
 		"level": "15",
-		"cost": "18",
+		"cost": "18 CP",
 		"content": "Повышает эффективность умения Synthesis на 50 % в течение следующих четырех шагов."
 	},
 	"Action 10": {
@@ -94,42 +94,42 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Standard Touch.png"
 		},
 		"level": "18",
-		"cost": "32",
+		"cost": "32 CP",
 		"content": "Пополняет шкалу quality.<br/>Эффективность: 125%<br/>Шанс успеха: 100%<br/>Комбо умение: Basic Touch<br/>Комбо бонус: стоимость СР снижается до 18"
 	},
 	"Action 11": {
 		"name": "Great Strides",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Great Strides.png",
 		"level": "21",
-		"cost": "32",
+		"cost": "32 CP",
 		"content": "Повышает эффективность следующего умения категории Touch на 100%. Эффект действует в течение трех шагов."
 	},
 	"Action 12": {
 		"name": "Innovation",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Innovation.png",
 		"level": "26",
-		"cost": "18",
+		"cost": "18 CP",
 		"content": "Повышает эффективность умений категории Touch на 50% в течение следующих четырех шагов."
 	},
 	"Action 13": {
 		"name": "Final Appraisal",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Final Appraisal.png",
 		"level": "42",
-		"cost": "1",
+		"cost": "1 CP",
 		"content": "Оставит шкалу progress с незаполненной на одно очко.<br/>Эффект действует в течение пяти шагов."
 	},
 	"Action 14": {
 		"name": "Waste Not II",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Waste Not II.png",
 		"level": "47",
-		"cost": "98",
+		"cost": "98 CP",
 		"content": "Снижает потерю durability на 50% в течение следующих восьми шагов."
 	},
 	"Action 15": {
 		"name": "Byregot's Blessing",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Byregots Blessing.png",
 		"level": "50",
-		"cost": "24",
+		"cost": "24 CP",
 		"content": "Пополняет шкалу quality. Эффект Inner Quiet заканчивается после использования.<br/>Эффективность: 100% плюс 20% за каждый стак Inner Quiet, максимум 300%.<br/>Шанс успеха: 100%<br/>Требует как минимум один стак эффекта Inner Quiet для использования."
 	},
 	"Action 16": {
@@ -145,21 +145,21 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Precise Touch.png"
 		},
 		"level": "53",
-		"cost": "18",
+		"cost": "18 CP",
 		"content": "Пополняет шкалу quality.<br/>Дополнительный эффект: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10).<br/>Эффективность: 150%<br/>Шанс успеха: 100%<br/><br/>Доступно только когда состояние материала Good или Excellent."
 	},
 	"Action 17": {
 		"name": "Muscle Memory",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Muscle Memory.png",
 		"level": "54",
-		"cost": "6",
+		"cost": "6 CP",
 		"content": "Пополняет шкалу progress.<br/>Эффективность: 300%<br/>Шанс успеха: 100%<br/>Дополнительный эффект: эффективность следующего умения категории Synthesis увеличивается на 100%.<br/><br/>Может использоваться только на первом шаге.<br/>Дополнительный эффект действует в течение пяти шагов."
 	},
 	"Action 18": {
 		"name": "Careful Synthesis",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Careful Synthesis.png",
 		"level": "62",
-		"cost": "7",
+		"cost": "7 CP",
 		"content": "Пополняет шкалу progress.<br/>Эффективность: 180%<br/>Шанс успеха: 100%"
 	},
 	"Action 19": {
@@ -167,7 +167,7 @@
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b572f8d00fd/",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Manipulation.png",
 		"level": "65",
-		"cost": "96",
+		"cost": "96 CP",
 		"content": "Восстанавливает 5 очков durability после каждого шага в течение следующих восьми шагов."
 	},
 	"Action 20": {
@@ -183,7 +183,7 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Prudent Touch.png"
 		},
 		"level": "66",
-		"cost": "25",
+		"cost": "25 CP",
 		"content": "Заполняет шкалу quality. Расход durability при использовании умения снижен на 50%.<br/>Эффективность: 100%<br/>Шанс успеха: 100%<br/><br/>Недоступно, когда активны эффекты Waste Not или Waste Not II."
 	},
 	"Action 21": {
@@ -199,14 +199,14 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Advanced Touch.png"
 		},
 		"level": "68",
-		"cost": "46",
+		"cost": "46 CP",
 		"content": "Пополняет шкалу quality.<br/>Эффективность: 150%<br/>Шанс успеха: 100%<br/>Комбо умение: Standard Touch или Observe<br/>Комбо бонус: стоимость CP снижена до 18"
 	},
 	"Action 22": {
 		"name": "Reflect",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Reflect.png",
 		"level": "69",
-		"cost": "6",
+		"cost": "6 CP",
 		"content": "Пополняет шкалу quality.<br/>Эффективность: 300%<br/>Шанс успеха: 100%<br/>Дополнительный эффект: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10).<br/>Может использоваться только на первом шаге."
 	},
 	"Action 23": {
@@ -222,7 +222,7 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Preparatory Touch.png"
 		},
 		"level": "71",
-		"cost": "40",
+		"cost": "40 CP",
 		"content": "Заполняет шкалу quality. Расход durability на использование умения повышен на 100%.<br/>Дополнительный эффект: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10).<br/>Эффективность: 200%<br/>Шанс успеха: 100%<br/>Стоимость durability: 20"
 	},
 	"Action 24": {
@@ -238,7 +238,7 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Groundwork.png"
 		},
 		"level": "72",
-		"cost": "18",
+		"cost": "18 CP",
 		"content": "Заполняет шкалу progress.<br/>Расход durability на использование умения повышен на 100%.<br/>Эффективность: 360%<br/>Шанс успеха: 100%<br/>Стоимость durability: 20"
 	},
 	"Action 25": {
@@ -254,7 +254,7 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Delicate Synthesis.png"
 		},
 		"level": "76",
-		"cost": "32",
+		"cost": "32 CP",
 		"content": "Заполняет обе шкалы progress и quality одновременно.<br/>Эффективность умения Synthesis Action: 150%<br/>Эффективность умения Touch: 100%<br/>Шанс успеха: 100%"
 	},
 	"Action 26": {
@@ -270,14 +270,14 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Intensive Synthesis.png"
 		},
 		"level": "78",
-		"cost": "6",
+		"cost": "6 CP",
 		"content": "Пополняет шкалу progress.<br/>Эффективность: 400%<br/>Шанс успеха: 100%<br/>Доступно только, когда состояние материала Good или Excellent."
 	},
 	"Action 27": {
 		"name": "Trained Eye",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Trained Eye.png",
 		"level": "80",
-		"cost": "250",
+		"cost": "250 CP",
 		"content": "Пополняет шкалу quality на 100%<br/><br/>Доступно только на первом шаге<br/>Уровень рецепта должен быть как минимум на 10 уровней ниже уровня персонажа.<br/>Не может использоваться для expert crafting рецептов."
 	},
 	"Action 28": {
@@ -293,14 +293,14 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Prudent Synthesis.png"
 		},
 		"level": "88",
-		"cost": "18",
+		"cost": "18 CP",
 		"content": "Пополняет шкалу progress, расходуя вдвоем меньше durability.<br/>Эффективность: 180%<br/>Шанс успеха: 100%<br/><br/>Недоступно, когда активны эффекты Waste Not или Waste Not II."
 	},
 	"Action 29": {
 		"name": "Trained Finesse",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Trained Finesse.png",
 		"level": "90",
-		"cost": "32",
+		"cost": "32 CP",
 		"content": "Пополняет шкалу quality без затрат durability.<br/>Эффективность: 100%<br/>Шанс успеха: 100%<br/><br/>Может быть использовано только при наличии 10 стаков эффекта Inner Quiet."
 	},
 	"Action 30": {
@@ -316,28 +316,28 @@
 			"CUL": "../Assets/img/DoHDoL/SkillJob/CUL/Refined Touch.png"
 		},
 		"level": "92",
-		"cost": "24",
+		"cost": "24 CP",
 		"content": "Пополняет шкалу quality.<br/>Эффективность: 100%<br/>Шанс успеха: 100%<br/>Комбо умение: Basic Touch<br/>Комбо бонус: увеличивает количество стаков эффекта Inner Quiet на один (вплоть до 10)"
 	},
 	"Action 31": {
 		"name": "Daring Touch",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Daring Touch.png",
 		"level": "96",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Пополняет шкалу quality без затрат CP.<br/>Эффективность: 150%<br/>Шанс успеха: 60%<br/>Может быть использовано только под действием эффекта Expedience.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"Action 32": {
 		"name": "Immaculate Mend",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Immaculate Mend.png",
 		"level": "98",
-		"cost": "112",
+		"cost": "112 CP",
 		"content": "Полностью восстанавливает шкалу durability предмета."
 	},
 	"Action 33": {
 		"name": "Trained Perfection",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Trained Perfection.png",
 		"level": "100",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Уменьшает потерю durability при применении следующего умения до 0.<br/>Можно использовать только один раз за синтез."
 	},
 	"Specialist Actions 01": {
@@ -345,7 +345,7 @@
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dc1b5d359e7/",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Careful Observation.png",
 		"level": "55",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Умение специалиста.<br/><br/>Бездействовать в течении одного шага, сохраняя статус всех умений, которые действуют в данный момент.<br/>При применении используется crafter's delineation.<br/>Можно использовать не более трех раз за синтез.<br/>Это умение не увеличивает количество шагов."
 	},
 	"Specialist Actions 02": {
@@ -353,7 +353,7 @@
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dc1b5d359e7/",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Heart and Soul.png",
 		"level": "86",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Умение специалиста.<br/><br/>Позволяет использовать Precise Touch, Intensive Synthesis или Tricks of the Trade независимо от состояния материала.<br/>Эффект прекращается, если вышеупомянутые умения используются, когда состояние материала не является Good или Excellent.<br/><br/>При выполнении используется crafter's delineation.<br/>Можно использовать только один раз за синтез.<br/>Это умение не увеличивает количество шагов."
 	},
 	"Specialist Actions 03": {
@@ -361,7 +361,7 @@
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dc1b5d359e7/",
 		"skill_icon": "../Assets/img/DoHDoL/SkillJob/Quick Innovation.png",
 		"level": "96",
-		"cost": "0",
+		"cost": "0 CP",
 		"content": "Умение специалиста.<br/><br/>Дает Innovation на 1 ход.<br/>Не может быть использовано под действием эффекта Innovation.<br/><br/>При применении используется crafter's delineation.<br/>Можно использовать только один раз за синтез.<br/>Это умение не увеличивает количество шагов."
 	},
 	"Traits 01": {

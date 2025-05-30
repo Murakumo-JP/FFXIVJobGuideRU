@@ -3040,7 +3040,34 @@ pre {
 .recast {
 	text-align: center !important;
 }
-
+.guide-about_column {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-bottom: 16px;
+}
+.guide-about_column li img {
+	display: block;
+	margin-bottom: 16px;
+	border-radius: 8px;
+}
+.guide-about_column li {
+	width: 400px;
+	margin: 0 20px;
+}
+.guide-about_column li p {
+	margin-bottom: 32px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #585858;
+	text-align: center;
+}
+.guide-about_column li p.notes {
+	margin-bottom: 16px;
+	font-weight: normal;
+	color: #b2122d;
+	text-align: left;
+}
 /* Tems */
 .theme-toggle-btn {
 	position: fixed;

@@ -1,5 +1,5 @@
 {
-	"Gathering Update": "Последнее обновление: 27/06/2024",
+	"Gathering Update": "Последнее обновление: 24/03/2025",
 	"Action 01": {
 		"name": {
 			"MIN": "Sharp Vision",
@@ -12,7 +12,7 @@
 		"level": "4",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "50",
+		"cost": "50 GP",
 		"content": "Увеличивает шанс получения предметов при сборе на 5%. Увеличение не применяется к предметам с шансом получения 0%."
 	},
 	"Action 02": {
@@ -27,7 +27,7 @@
 		"level": "5",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "100",
+		"cost": "100 GP",
 		"content": "Увеличивает шанс получения предметов при сборе на 15%. Увеличение не применяется к предметам с шансом получения 0%."
 	},
 	"Action 03": {
@@ -36,7 +36,7 @@
 		"level": "8",
 		"classification": "Способность",
 		"recast": "-",
-		"cost": "0",
+		"cost": "0 GP",
 		"content": "Бесшумная походка, позволяет избегать противников на четыре уровня выше персонажа."
 	},
 	"Action 04": {
@@ -51,7 +51,7 @@
 		"level": "10",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "250",
+		"cost": "250 GP",
 		"content": "Увеличивает шанс получения предмета при сборе на 50%. Не сработает при сборе, если шанс добычи 0%."
 	},
 	"Action 05": {
@@ -60,7 +60,7 @@
 		"level": "15",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "50",
+		"cost": "50 GP",
 		"content": "Увеличивает шанс срабатывания Gatherer's Boon на 10%. Не сработает при сборе, если шанс добычи 0%."
 	},
 	"Action 06": {
@@ -69,7 +69,7 @@
 		"level": "20",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "150",
+		"cost": "150 GP",
 		"content": "Увеличивает количество собираемых shard, crystal и cluster yields на 3.<br/>Не сработает, если место сбора не содержит shard, crystal, and cluster yields."
 	},
 	"Action 07": {
@@ -84,7 +84,7 @@
 		"level": "23",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "50",
+		"cost": "50 GP",
 		"content": "Увеличивает шанс получения предмета для следующей попытки сбора на 15%. Не сработает при сборе, если шанс добычи 0%."
 	},
 	"Action 08": {
@@ -99,7 +99,7 @@
 		"level": "24",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "100",
+		"cost": "100 GP",
 		"content": "Увеличивает количество получаемых предметов при следующей попытке сбора на один."
 	},
 	"Action 09": {
@@ -114,7 +114,7 @@
 		"level": "25",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "300",
+		"cost": "300 GP",
 		"content": "Дает дополнительную попытку сбора. При сборе collectables восстанавливает 1 integrity.<br/>Дополнительный эффект: 50% шанс получить эффект Eureka Moment"
 	},
 	"Action 10": {
@@ -129,7 +129,7 @@
 		"level": "30",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "400",
+		"cost": "400 GP",
 		"content": "Увеличивает количество получаемого при сборе предмета на один."
 	},
 	"Action 11": {
@@ -144,7 +144,7 @@
 		"level": "40",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "500",
+		"cost": "500 GP",
 		"content": "Увеличивает количество получаемых предметов при следующей попытке сбора на два."
 	},
 	"Action 12": {
@@ -157,7 +157,7 @@
 		"level": "50",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "0",
+		"cost": "0 GP",
 		"content": "Собирает collectable предмет с его текущим collectability рейтингом.<br/>Уменьшает integrity на 1."
 	},
 	"Action 13": {
@@ -167,7 +167,7 @@
 		"level": "50",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "0",
+		"cost": "0 GP",
 		"content": "Повышает collectability предмета. Увеличение определяется рейтингом сбора (gathering rating).<br/>Уменьшает integrity на 1."
 	},
 	"Action 14": {
@@ -177,7 +177,7 @@
 		"level": "50",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "0",
+		"cost": "0 GP",
 		"content": "Увеличивает collectability предмета. Увеличение происходит случайным образом в диапазоне от 50 до 150% от эффективности Scour.<br/>Уменьшает integrity на 1."
 	},
 	"Action 15": {
@@ -187,7 +187,7 @@
 		"level": "50",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "0",
+		"cost": "0 GP",
 		"content": "Повышает collectability предмета. Увеличение составляет 75% от эффективности Scour.<br/>Уменьшает integrity на 1. При использовании есть шанс, что integrity не изменится, который зависит от вашего рейтинга сбора (gathering rating)."
 	},
 	"Action 16": {
@@ -197,7 +197,7 @@
 		"level": "50",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "200",
+		"cost": "200 GP",
 		"content": "Улучшает увеличение collectability следующего предмета. Эффект зависит от вашего рейтинга восприятия (perception rating)."
 	},
 	"Action 17": {
@@ -212,7 +212,7 @@
 		"level": "50",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "100",
+		"cost": "100 GP",
 		"content": "Увеличивает шанс срабатывания Gatherer's Boon на 30%. Не сработает при сборе, если шанс добычи 0%.<br/>Эффект может использоваться одновременно с Mountaineer's Gift I."
 	},
 	"Action 18": {
@@ -231,7 +231,7 @@
 		"level": "55",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "200",
+		"cost": "200 GP",
 		"content": "Позволяет увидеть скрытые предметы во время сбора."
 	},
 	"Action 19": {
@@ -250,7 +250,7 @@
 		"level": "68",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "100",
+		"cost": "100 GP",
 		"content": "Увеличивает количество предметов, получаемых при следующей попытке сбора, на один, два или три.<br/>Количество зависит от рейтинга сбора (gathering rating)."
 	},
 	"Action 20": {
@@ -262,7 +262,7 @@
 		"level": "74",
 		"classification": "DoL способность",
 		"recast": "180 сек.",
-		"cost": "200",
+		"cost": "200 GP",
 		"content": "Увеличивает количество собираемых shard, crystal и cluster yields на случайное количество.<br/>Эффект может использоваться одновременно с The Twelve's Bounty.<br/>Не сработает, если место сбора не дает shard, crystal and cluster yields."
 	},
 	"Action 21": {
@@ -277,7 +277,7 @@
 		"level": "81",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "200",
+		"cost": "200 GP",
 		"content": "Увеличивает количество предметов, получаемых с помощью эффекта Gatherer's Boon, на 1."
 	},
 	"Action 22": {
@@ -290,7 +290,7 @@
 		"level": "85",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "100",
+		"cost": "100 GP",
 		"content": "Увеличивает шанс срабатывания Collector's Intuition на 75% при следующем использовании collectable умения."
 	},
 	"Action 23": {
@@ -302,7 +302,7 @@
 		"level": "90",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "0",
+		"cost": "0 GP",
 		"content": "Дает дополнительную попытку сбора или восстанавливает 1 integrity при сборе collectables предметов.<br/>Можно использовать только под действием эффекта Eureka Moment."
 	},
 	"Action 24": {
@@ -312,7 +312,7 @@
 		"level": "95",
 		"classification": "DoL способность",
 		"recast": "-",
-		"cost": "100",
+		"cost": "100 GP",
 		"content": "Удваивает шанс того, что следующее использование Meticulous Prospector не повлияет на integrity.<br/>Не влияет на увеличенный шанс от бонусов к точкам сбора или Collector's High Standard."
 	},
 	"Gatherer Role 01": {
