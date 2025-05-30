@@ -35,9 +35,67 @@
 body {
   overflow-y: hidden;
   overflow-x: hidden;
+}
+body.light-theme {
   background-color: var(--color-set-3);
 }
+body.dark-theme {
+  background-color: var(--color-set-1);
+}
 
+/* Dark */
+.dark-theme .jobguide,
+.dark-theme .jobguide_menu_wrapper,
+.dark-theme .jobguide_menu_list > li > span,
+.dark-theme .jobguide_sub_menu {
+  background-color: #333;
+}
+.dark-theme .job_skill_db-pve,
+.dark-theme .job_tab--pve.active {
+  background-color: #262626;
+}
+.dark-theme .job_skill_db-pvp,
+.dark-theme .job_tab--pvp.active {
+  background-color: #3d3d3d;
+}
+.dark-theme .job_tbody td {
+  color: #f5f5f5;
+}
+.dark-theme .skill_update {
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 0 transparent;
+}
+.dark-theme .skill_update td {
+  background: rgba(240, 228, 197, 0.3019607843);
+}
+.dark-theme .job_tab--pve {
+  background: rgb(38, 38, 38);
+  box-shadow: 0 1px 0 0 rgba(38, 38, 38, 0.75) inset, 1px 0 0 0 rgba(38, 38, 38, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+.dark-theme .job_tab--pvp {
+  background: rgb(61, 61, 61);
+  box-shadow: 0 1px 0 0 rgba(61, 61, 61, 0.75) inset, 1px 0 0 0 rgba(61, 61, 61, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+}
+.dark-theme .job_update,
+.dark-theme .job_text,
+.dark-theme .job_combo_text,
+.dark-theme .job_combo_root_effect p,
+.dark-theme .job_combo_root_skill p,
+.dark-theme .job_combo_root_skill_first p,
+.dark-theme .job_combo_root_skill_last p,
+.dark-theme .job_hud_text,
+.dark-theme .job_hud_layout--pve_simple_caption,
+.dark-theme .job_hud_layout--pvp_simple_caption {
+  color: white;
+}
+.dark-theme .job_tank .job_hud_title,
+.dark-theme .job_tank .job_nav_title a,
+.dark-theme .job_tank .job_sub_title,
+.dark-theme .job_tank .jobguide_menu_list > li > span {
+  color: var(--tank-AltColor);
+}
+
+/*==================*/
 .clearfix:after {
   content: ".";
   display: block;
@@ -67,6 +125,18 @@ img {
 }
 .skill_new td {
   background: #f0dddd;
+}
+
+.menu_update:after {
+  content: "";
+  background: url(../img/main/skill_update.png) no-repeat 0 0 !important;
+  top: -4px !important;
+}
+
+.menu_new:after {
+  content: "";
+  background: url(../img/main/skill_new.png) no-repeat 0 0 !important;
+  top: -4px !important;
 }
 
 .search {
@@ -821,7 +891,7 @@ input::placeholder {
 }
 .job_skill_icon:after {
   content: "";
-  background: url(../img/main/skil_icon_on.png) no-repeat;
+  background: url(../img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -1308,7 +1378,7 @@ input::placeholder {
 }
 .guide-skill_icon:after {
   content: "";
-  background: url(../img/main/skil_icon_on.png) no-repeat;
+  background: url(../img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -2174,7 +2244,7 @@ table {
 }
 .job_combo_skill_icon:after {
   content: "";
-  background: url(../img/main/skil_icon_on2x.png) no-repeat;
+  background: url(../img/main/skill_icon_on2x.png) no-repeat;
   background-size: 76px 76px;
   width: 76px;
   height: 76px;
@@ -2830,7 +2900,7 @@ pre {
 }
 .icon_search:after {
   content: "";
-  background: url(../img/main/skil_icon_on.png) no-repeat;
+  background: url(../img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -2874,4 +2944,44 @@ pre {
 /* Fix Temp */
 .job_tbody[data-type=PvPRoleActions] tr > td.jobclass {
   display: none;
+}
+
+.guide-notes {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #b2122d;
+}
+
+.classification,
+.cost,
+.recast {
+  text-align: center !important;
+}
+
+/* Tems */
+.theme-toggle-btn {
+  position: fixed;
+  display: none;
+  bottom: 80px;
+  right: 20px;
+  width: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #2b2b2b;
+  color: #000;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  z-index: 9999;
+  background-color: #333;
+  box-shadow: 1px 1px 5px #333;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.1);
+}
+
+body.dark-theme .theme-toggle-btn {
+  background-color: #ffffff;
+  color: #fff;
 }

@@ -1,0 +1,12 @@
+{
+	"update_info": {
+		"date": "27.05.2025",
+		"patch": "7.25",
+		"url": "https://eu.finalfantasyxiv.com/lodestone/topics/detail/6e4b5a23048ddb2569b12f8567baf7e8a2f370d9"
+	},
+	"menu_path": "../DB/Menu.json",
+	"global_search_path": "../DB/GlobalSearch.json",
+	"warning_enabled": false,
+	"debug_enabled": false,
+	"warning_text": "OOPS"
+}

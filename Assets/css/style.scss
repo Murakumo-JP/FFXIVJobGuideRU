@@ -32,8 +32,67 @@
 body {
 	overflow-y: hidden;
 	overflow-x: hidden;
-	background-color: var(--color-set-3);
+	&.light-theme {
+		background-color: var(--color-set-3);
+	}
+	&.dark-theme {
+		background-color: var(--color-set-1);
+	}
 }
+/* Dark */
+.dark-theme {
+	.jobguide,
+	.jobguide_menu_wrapper,
+	.jobguide_menu_list > li > span,
+	.jobguide_sub_menu {
+		background-color: #333;
+	}
+	.job_skill_db-pve,
+	.job_tab--pve.active {
+		background-color: #262626;
+	}
+	.job_skill_db-pvp,
+	.job_tab--pvp.active {
+		background-color: #3d3d3d;
+	}
+	.job_tbody td {
+		color: #f5f5f5;
+	}
+	.skill_update {
+		border: 1px solid transparent;
+		box-shadow: 0 0 5px 0 transparent;
+		td {
+			background: #f0e4c54d;
+		}
+	}
+	.job_tab--pve {
+		background: rgb(38, 38, 38);
+		box-shadow: 0 1px 0 0 rgba(38, 38, 38, 0.75) inset, 1px 0 0 0 rgba(38, 38, 38, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+	}
+	.job_tab--pvp {
+		background: rgb(61, 61, 61);
+		box-shadow: 0 1px 0 0 rgba(61, 61, 61, 0.75) inset, 1px 0 0 0 rgba(61, 61, 61, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+	}
+	.job_update,
+	.job_text,
+	.job_combo_text,
+	.job_combo_root_effect p,
+	.job_combo_root_skill p,
+	.job_combo_root_skill_first p,
+	.job_combo_root_skill_last p,
+	.job_hud_text,
+	.job_hud_layout--pve_simple_caption,
+	.job_hud_layout--pvp_simple_caption {
+		color: white;
+	}
+	.job_tank .job_hud_title,
+	.job_tank .job_nav_title a,
+	.job_tank .job_sub_title,
+	.job_tank .jobguide_menu_list > li > span {
+		color: var(--tank-AltColor);
+	}
+}
+/*==================*/
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -60,6 +119,16 @@ img {
 	td {
 		background: #f0dddd;
 	}
+}
+.menu_update:after {
+	content: "";
+	background: url(../img/main/skill_update.png) no-repeat 0 0 !important;
+	top: -4px !important;
+}
+.menu_new:after {
+	content: "";
+	background: url(../img/main/skill_new.png) no-repeat 0 0 !important;
+	top: -4px !important;
 }
 .search {
 	background: var(--tank-color);
@@ -846,7 +915,7 @@ input::placeholder {
 			}
 			&:after {
 				content: "";
-				background: url(../img/main/skil_icon_on.png) no-repeat;
+				background: url(../img/main/skill_icon_on.png) no-repeat;
 				width: 48px;
 				height: 48px;
 				display: block;
@@ -1369,7 +1438,7 @@ input::placeholder {
 		}
 		&:after {
 			content: "";
-			background: url(../img/main/skil_icon_on.png) no-repeat;
+			background: url(../img/main/skill_icon_on.png) no-repeat;
 			width: 48px;
 			height: 48px;
 			display: block;
@@ -2219,7 +2288,7 @@ table {
 		}
 		&:after {
 			content: "";
-			background: url(../img/main/skil_icon_on2x.png) no-repeat;
+			background: url(../img/main/skill_icon_on2x.png) no-repeat;
 			-moz-background-size: 76px 76px;
 			-o-background-size: 76px 76px;
 			-webkit-background-size: 76px 76px;
@@ -2508,7 +2577,7 @@ table {
 				width: 48px;
 				height: 124px;
 				background: url(https://lds-img.finalfantasyxiv.com/promo/h/Y/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat 0 0;
-		  }
+			}
 		}
 		.job_combo_root_skill,
 		.job_combo_root_skill_last {
@@ -2516,7 +2585,7 @@ table {
 				width: 120px;
 			}
 		}
-		
+
 		&_01::after,
 		&_01::before,
 		&_02::after,
@@ -2534,7 +2603,7 @@ table {
 			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 			&::before {
 				left: -24px;
-    			background: url(https://lds-img.finalfantasyxiv.com/promo/h/J/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat 0 0;
+				background: url(https://lds-img.finalfantasyxiv.com/promo/h/J/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat 0 0;
 			}
 			&::after {
 				right: -24px;
@@ -2555,7 +2624,7 @@ table {
 			background: url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(https://lds-img.finalfantasyxiv.com/promo/h/m/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 			&::before {
 				left: -24px;
-    			background: url(https://lds-img.finalfantasyxiv.com/promo/h/A/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat 0 0;
+				background: url(https://lds-img.finalfantasyxiv.com/promo/h/A/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat 0 0;
 			}
 			&::after {
 				right: -24px;
@@ -2916,7 +2985,7 @@ pre {
 	}
 	&:after {
 		content: "";
-		background: url(../img/main/skil_icon_on.png) no-repeat;
+		background: url(../img/main/skill_icon_on.png) no-repeat;
 		width: 48px;
 		height: 48px;
 		display: block;
@@ -2960,4 +3029,42 @@ pre {
 /* Fix Temp */
 .job_tbody[data-type="PvPRoleActions"] tr > td.jobclass {
 	display: none;
+}
+.guide-notes {
+	margin: 0 10px;
+	font-size: 12px;
+	color: #b2122d;
+}
+.classification,
+.cost,
+.recast {
+	text-align: center !important;
+}
+
+/* Tems */
+.theme-toggle-btn {
+	position: fixed;
+	display: none;
+	bottom: 80px;
+	right: 20px;
+	width: 30px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #2b2b2b;
+	color: #000;
+	font-size: 22px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s;
+	z-index: 9999;
+	background-color: #333;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.theme-toggle-btn:hover {
+	transform: scale(1.1);
+}
+
+body.dark-theme .theme-toggle-btn {
+	background-color: #ffffff;
+	color: #fff;
 }
