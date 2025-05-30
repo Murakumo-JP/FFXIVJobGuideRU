@@ -54,7 +54,7 @@ $(document).ready(() => {
 	const menuType = $menuContainer.data("menu-type");
 
 	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
-		$.getJSON(menu_path, (menuData) => {
+		$.getJSON("../DB/Menu.json", (menuData) => {
 			let menuArray = menuData[menuType];
 
 			if (!menuArray) {
