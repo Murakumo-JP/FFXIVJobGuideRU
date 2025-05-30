@@ -1,63 +1,43 @@
-let CONFIG = {};
+$(document).ready(() => {
+	const WarningEnabled = false;
+	const DebugEnabled = false;
+	// Info Update
+	const addUpdateInfo = (date, patchVersion, patchLink) => {
+		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
+		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
+	};
+	addUpdateInfo("27.05.2025", "7.25", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/6e4b5a23048ddb2569b12f8567baf7e8a2f370d9");
 
-async function loadConfig() {
-	try {
-		const res = await fetch("../DB/Config.json");
-		CONFIG = await res.json();
-		App();
-	} catch (e) {
-		console.error("Не удалось загрузить Config.json", e);
-	}
-}
-
-function App() {
-	const {update_info, menu_path, global_search_path, warning_enabled, debug_enabled, warning_text} = CONFIG;
-	$("#inner_update").prepend(`<p>Последнее обновление: ${update_info.date} | Патч: ${update_info.patch}</p>`);
-	$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Подробнее: <a target="_blank" href="${update_info.url}">патчноуты</a>.`);
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
-	// Preloader
-	setTimeout(function () {
-		const $preloader = $("#page-preloader");
-		if ($preloader.length && !$preloader.hasClass("done")) {
-			$preloader.addClass("done");
-			$("body").css("overflow-y", "visible");
-		}
-		const id = window.location.hash;
-		if (id) activateTab(id.substring(1));
-	}, 500);
+
 	// Open JobMenu
 	$(".nav_floating_icon").click(() => {
 		$(".nav_floating_list").fadeToggle();
 	});
-	// Smooth Scrolling
-	$("a[href*='#']").click(function (e) {
-		e.preventDefault();
-		const target = $($(this).attr("href"));
-		if (target.length) {
-			$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
-		}
-	});
 	// Back to Top
-	const buttonTop = $(".nome_app_top");
-	const buttonTheme = $("#themeToggle");
-
+	const button = $(".nome_app_top");
 	$(window).on("scroll", () => {
-		const scrollY = $(window).scrollTop();
-
-		if (scrollY >= 200) {
-			buttonTop.fadeIn();
-			buttonTheme.fadeIn();
-		} else {
-			buttonTop.fadeOut();
-			buttonTheme.fadeOut();
-		}
+		$(window).scrollTop() >= 200 ? button.fadeIn() : button.fadeOut();
 	});
-
-	buttonTop.on("click", (e) => {
+	button.on("click", (e) => {
 		e.preventDefault();
 		$("html, body").animate({scrollTop: 0}, 1000);
 	});
 	// Tabs
+
+	// OLD CODE ===========================
+	// const activateTab = (id) => {
+	// 	$(`.js-tab-trigger[data-tab="${id}"]`).addClass("active");
+	// 	$(`.js-tab-trigger:not([data-tab="${id}"])`).removeClass("active");
+	// 	$(`.js-tab-content[data-tab="${id}"]`).addClass("active");
+	// 	$(`.js-tab-content:not([data-tab="${id}"])`).removeClass("active");
+	// };
+
+	// $(".js-tab-trigger").click(function (e) {
+	// 	e.preventDefault();
+	// 	const id = $(this).data("tab");
+	// 	activateTab(id);
+	// });
 	const activateTab = (id) => {
 		const $tabTriggers = $(".js-tab-trigger");
 		const $tabContents = $(".js-tab-content");
@@ -71,6 +51,7 @@ function App() {
 		});
 		history.replaceState(null, null, `#${id}`);
 	};
+
 	$(".js-tab-trigger").on("click", function (e) {
 		e.preventDefault();
 		const id = $(this).data("tab");
@@ -87,20 +68,10 @@ function App() {
 	const menuType = $menuContainer.data("menu-type");
 
 	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
-		$.getJSON(menu_path, (menuData) => {
-			let menuArray = menuData[menuType];
-
-			if (!menuArray) {
-				console.error(`Меню для типа "${menuType}" не найдено.`);
-				return;
-			}
-
-			if (menuData.Links && Array.isArray(menuData.Links)) {
-				menuArray = [...menuArray, ...menuData.Links];
-			}
-
+		const menuPath = menuType === "MenuDoWDoM" ? "../DB/MenuDoWDoM.json" : "../DB/MenuDoHDoL.json";
+		$.getJSON(menuPath, (menuData) => {
 			const $menuList = $('<ul class="jobguide_menu_list"></ul>');
-			menuArray.forEach((category) => {
+			menuData.forEach((category) => {
 				const $category = $('<li class="jobguide_menu_list"></li>');
 				$category.append(`<span class="job_name_menu">${category.name}</span>`);
 				const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
@@ -114,7 +85,50 @@ function App() {
 				$menuList.append($category);
 			});
 			$menuContainer.append($menuList);
-		}).fail(() => console.error("Ошибка Menu.json не был загружен."));
+		}).fail(() => console.error("Данные пропили Муглы, все вопросы к ним."));
+	}
+	// Warning Info
+	if (WarningEnabled) {
+		const setCookie = (name, value, days) => {
+			const date = new Date();
+			date.setTime(date.getTime() + days * 86400000);
+			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+		};
+		const getCookie = (name) => {
+			return (
+				document.cookie
+					.split("; ")
+					.find((cookie) => cookie.startsWith(`${name}=`))
+					?.split("=")[1] || null
+			);
+		};
+		const showErrorInfo = (info) => {
+			$(".job_skil_list, .warn_info").prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
+			if (getCookie("warnInfoHidden") === "true") {
+				$("#warnInfo").addClass("hidden");
+			}
+			$("#closeInfo").click(() => {
+				$("#warnInfo").addClass("hidden");
+				setCookie("warnInfoHidden", "true", 7);
+			});
+		};
+		showErrorInfo("Error");
+	}
+	// Debug
+	if (DebugEnabled) {
+		document.addEventListener("DOMContentLoaded", () => {
+			$("a").click(function (e) {
+				e.preventDefault();
+				window.location.href = `${$(this).attr("href")}.html`;
+			});
+		});
+		$("tr").each(function () {
+			const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
+				.map((attr) => $(this).attr(attr))
+				.filter(Boolean)
+				.join(", ");
+			if (titleText) $(this).attr("title", titleText);
+		});
 	}
 	// Search
 	const initSearch = () => {
@@ -131,10 +145,29 @@ function App() {
 		}
 	};
 	initSearch();
-	// Global Search
+	// Preloader
+	setTimeout(function () {
+		const $preloader = $("#page-preloader");
+		if ($preloader.length && !$preloader.hasClass("done")) {
+			$preloader.addClass("done");
+			$("body").css("overflow-y", "visible");
+		}
+		const id = window.location.hash;
+		if (id) activateTab(id.substring(1));
+	}, 500);
+	// Smooth Scrolling
+	$("a[href*='#']").click(function (e) {
+		e.preventDefault();
+		const target = $($(this).attr("href"));
+		if (target.length) {
+			$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
+		}
+	});
+});
+// Global Search
+$(document).ready(function () {
 	let jsonData = [];
-
-	$.getJSON(global_search_path).done(function (data) {
+	$.getJSON("../DB/GlobalSearch.json").done(function (data) {
 		jsonData = data;
 	});
 
@@ -154,7 +187,6 @@ function App() {
 
 			if (query && jsonData.length) {
 				let hasResults = false;
-
 				jsonData.forEach((job) => {
 					const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
 					job.skills.forEach((skill) => {
@@ -207,68 +239,15 @@ function App() {
 	if (encodedSkill) {
 		try {
 			let scrollToSkill = atob(encodedSkill);
-			let attempts = 0;
-			let maxAttempts = 20;
-			let interval = setInterval(() => {
-				let target = $(`[db-skill='${scrollToSkill}']`);
-				if (target.length) {
-					$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
-					clearInterval(interval);
-				} else if (++attempts >= maxAttempts) {
-					clearInterval(interval);
-					console.warn("Элемент не найден для прокрутки:", scrollToSkill);
-				}
-			}, 100);
+			let target = $(`[db-skill='${scrollToSkill}']`);
+			if (target.length) {
+				$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
+			}
 		} catch (error) {
-			console.error("Ошибка декодирования параметра skill:", error);
+			console.error("Ошибка декодирования skill:", error);
 		}
 	}
-	// Warning Info
-	if (warning_enabled) {
-		const setCookie = (name, value, days) => {
-			const date = new Date();
-			date.setTime(date.getTime() + days * 86400000);
-			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
-		};
-		const getCookie = (name) => {
-			return (
-				document.cookie
-					.split("; ")
-					.find((cookie) => cookie.startsWith(`${name}=`))
-					?.split("=")[1] || null
-			);
-		};
-		const showErrorInfo = (info) => {
-			$(".job_skil_list, .warn_info").prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
-			if (getCookie("warnInfoHidden") === "true") {
-				$("#warnInfo").addClass("hidden");
-			}
-			$("#closeInfo").click(() => {
-				$("#warnInfo").addClass("hidden");
-				setCookie("warnInfoHidden", "true", 7);
-			});
-		};
-		showErrorInfo(warning_text);
-	}
-	// Debug
-	if (debug_enabled) {
-		document.addEventListener("DOMContentLoaded", () => {
-			$("a").click(function (e) {
-				e.preventDefault();
-				window.location.href = `${$(this).attr("href")}.html`;
-			});
-		});
-		$("tr").each(function () {
-			const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
-				.map((attr) => $(this).attr(attr))
-				.filter(Boolean)
-				.join(", ");
-			if (titleText) $(this).attr("title", titleText);
-		});
-	}
-}
-
-$(document).ready(loadConfig);
+});
 
 // Light/Dark Theme
 $(document).ready(() => {
