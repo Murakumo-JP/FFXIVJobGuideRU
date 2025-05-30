@@ -24,20 +24,6 @@ $(document).ready(() => {
 		$("html, body").animate({scrollTop: 0}, 1000);
 	});
 	// Tabs
-
-	// OLD CODE ===========================
-	// const activateTab = (id) => {
-	// 	$(`.js-tab-trigger[data-tab="${id}"]`).addClass("active");
-	// 	$(`.js-tab-trigger:not([data-tab="${id}"])`).removeClass("active");
-	// 	$(`.js-tab-content[data-tab="${id}"]`).addClass("active");
-	// 	$(`.js-tab-content:not([data-tab="${id}"])`).removeClass("active");
-	// };
-
-	// $(".js-tab-trigger").click(function (e) {
-	// 	e.preventDefault();
-	// 	const id = $(this).data("tab");
-	// 	activateTab(id);
-	// });
 	const activateTab = (id) => {
 		const $tabTriggers = $(".js-tab-trigger");
 		const $tabContents = $(".js-tab-content");
@@ -68,10 +54,20 @@ $(document).ready(() => {
 	const menuType = $menuContainer.data("menu-type");
 
 	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
-		const menuPath = menuType === "MenuDoWDoM" ? "../DB/MenuDoWDoM.json" : "../DB/MenuDoHDoL.json";
-		$.getJSON(menuPath, (menuData) => {
+		$.getJSON(menu_path, (menuData) => {
+			let menuArray = menuData[menuType];
+
+			if (!menuArray) {
+				console.error(`Меню для типа "${menuType}" не найдено.`);
+				return;
+			}
+
+			if (menuData.Links && Array.isArray(menuData.Links)) {
+				menuArray = [...menuArray, ...menuData.Links];
+			}
+
 			const $menuList = $('<ul class="jobguide_menu_list"></ul>');
-			menuData.forEach((category) => {
+			menuArray.forEach((category) => {
 				const $category = $('<li class="jobguide_menu_list"></li>');
 				$category.append(`<span class="job_name_menu">${category.name}</span>`);
 				const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
@@ -85,7 +81,7 @@ $(document).ready(() => {
 				$menuList.append($category);
 			});
 			$menuContainer.append($menuList);
-		}).fail(() => console.error("Данные пропили Муглы, все вопросы к ним."));
+		}).fail(() => console.error("Ошибка Menu.json не был загружен."));
 	}
 	// Warning Info
 	if (WarningEnabled) {
