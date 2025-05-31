@@ -230,29 +230,6 @@ $(document).on("click", ".copy-link", function () {
 		.catch((err) => console.error("Ошибка копирования: ", err));
 });
 
-let urlParams = new URLSearchParams(window.location.search);
-let encodedSkill = urlParams.get("skill");
-
-if (encodedSkill) {
-	try {
-		let scrollToSkill = atob(encodedSkill);
-		let attempts = 0;
-		let maxAttempts = 20;
-		let interval = setInterval(() => {
-			let target = $(`[db-skill='${scrollToSkill}']`);
-			if (target.length) {
-				$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
-				clearInterval(interval);
-			} else if (++attempts >= maxAttempts) {
-				clearInterval(interval);
-				console.warn("Элемент не найден для прокрутки:", scrollToSkill);
-			}
-		}, 100);
-	} catch (error) {
-		console.error("Ошибка декодирования параметра skill:", error);
-	}
-}
-
 // Light/Dark Theme
 $(document).ready(() => {
 	function applyTheme(theme) {
