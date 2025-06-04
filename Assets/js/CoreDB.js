@@ -1,4 +1,4 @@
-const DB_VERSION = "29.05.2025";
+const DB_VERSION = "04.06.2025";
 
 async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const renderers = {
