@@ -1,4 +1,4 @@
-const DB_VERSION = "29.05.2025";
+const DB_VERSION = "04.06.2025";
 
 async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const renderers = {
@@ -50,6 +50,32 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 			el.innerHTML = renderers[attr](value);
 		});
 	});
+
+	const urlParams = new URLSearchParams(window.location.search);
+	const encodedSkill = urlParams.get("skill");
+
+	if (encodedSkill) {
+		try {
+			const scrollToSkill = atob(encodedSkill);
+			let attempts = 0;
+			let maxAttempts = 20;
+
+			const interval = setInterval(() => {
+				const target = document.querySelector(`[db-skill='${scrollToSkill}']`);
+				if (target) {
+					const offset = 48;
+					const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+					$("html, body").animate({scrollTop: top}, 500);
+					clearInterval(interval);
+				} else if (++attempts >= maxAttempts) {
+					clearInterval(interval);
+					console.warn("Не найден элемент:", scrollToSkill);
+				}
+			}, 100);
+		} catch (error) {
+			console.error("Ошибка декодирования skill:", error);
+		}
+	}
 }
 
 function renderSkill(skill) {
