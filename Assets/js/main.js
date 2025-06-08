@@ -250,5 +250,10 @@ $(document).ready(() => {
 	const savedTheme = localStorage.getItem("theme") || "light";
 	applyTheme(savedTheme);
 
-	$("#themeToggle").on("click", toggleTheme);
+	$(".theme-toggle-btn").on("click", toggleTheme);
+
+	const button_theme = $(".theme-toggle-btn");
+	$(window).on("scroll", () => {
+		$(window).scrollTop() >= 200 ? button_theme.fadeIn() : button_theme.fadeOut();
+	});
 });
