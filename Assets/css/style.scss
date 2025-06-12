@@ -3070,6 +3070,10 @@ pre {
 	text-align: left;
 }
 /* Tems */
+.main_app .footer_inner {
+	position: absolute;
+	bottom: 0;
+}
 .theme-toggle-btn {
 	position: fixed;
 	display: none;
@@ -3088,11 +3092,19 @@ pre {
 	box-shadow: 1px 1px 5px #333;
 }
 
-.theme-toggle-btn:hover {
-	transform: scale(1.1);
-}
-
 body.dark-theme .theme-toggle-btn {
 	background-color: #ffffff;
 	color: #fff;
+}
+.theme-toggle-btn:after {
+	content: " ";
+	width: 250px;
+	height: 250px;
+	display: block;
+	background-image: url(../img/wow2.png);
+	position: fixed;
+	right: 70px;
+	bottom: -75px;
+	transform: none;
+	pointer-events: none;
 }
