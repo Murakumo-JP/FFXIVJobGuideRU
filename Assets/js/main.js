@@ -1,270 +1,254 @@
-// Doom Load
-$(document).ready(function () {
+$(document).ready(() => {
+	const WarningEnabled = false;
+	const DebugEnabled = false;
 	// Info Update
-	function addUpdateInfo(date, patchVersion, patchLink) {
-		$("#inner_update").prepend('<p>Последнее обновление: ' + date + " | Патч: " + patchVersion + "</p>");
-		$("#patch_info").prepend('Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="' +	patchLink +'">патчноутам</a>.');
-	}
-	addUpdateInfo("17.12.2024", "7.15", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/78bd87d42626b597d2a3a5d7075b56c2604cd14b");
+	const addUpdateInfo = (date, patchVersion, patchLink) => {
+		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
+		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
+	};
+	addUpdateInfo("27.05.2025", "7.25", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/6e4b5a23048ddb2569b12f8567baf7e8a2f370d9");
+
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
+
 	// Open JobMenu
 	$(".nav_floating_icon").click(() => {
 		$(".nav_floating_list").fadeToggle();
 	});
 	// Back to Top
-	let button = $('.nome_app_top');
-
-	$(window).on('scroll', function () {
-		if ($(this).scrollTop() >= 200) {
-			button.fadeIn();
-		} else {
-			button.fadeOut();
-		}
+	const button = $(".nome_app_top");
+	$(window).on("scroll", () => {
+		$(window).scrollTop() >= 200 ? button.fadeIn() : button.fadeOut();
 	});
-
-	button.on('click', function (e) {
+	button.on("click", (e) => {
 		e.preventDefault();
-		$('html, body').animate({ scrollTop: 0 }, 1000);
+		$("html, body").animate({scrollTop: 0}, 1000);
 	});
-});
-// Preloader
-document.body.onload = function () {
-	setTimeout(function () {
-		var preloader = document.getElementById('page-preloader');
-		var loader = document.getElementById('page-loader');
-		if (!preloader.classList.contains('done')) {
-			preloader.classList.add('done');
-			$('body').css('overflow-y', 'visible');
+	// Tabs
+	const activateTab = (id) => {
+		const $tabTriggers = $(".js-tab-trigger");
+		const $tabContents = $(".js-tab-content");
+
+		$tabTriggers.each(function () {
+			$(this).toggleClass("active", $(this).data("tab") === id);
+		});
+
+		$tabContents.each(function () {
+			$(this).toggleClass("active", $(this).data("tab") === id);
+		});
+		history.replaceState(null, null, `#${id}`);
+	};
+
+	$(".js-tab-trigger").on("click", function (e) {
+		e.preventDefault();
+		const id = $(this).data("tab");
+		activateTab(id);
+	});
+	$(document).ready(() => {
+		const hash = location.hash.substring(1);
+		if (hash) {
+			activateTab(hash);
 		}
-		var id = window.location.hash;
-		if (id != '') {
-			activate_tab(id.substring(1));
-		}
-	}, 500);
-};
-// Smooth Scrolling
-$('a[href*="#"]').click(function () {
-	var page = $('html, body');
-	page.animate(
-		{
-			scrollTop: $($(this).attr('href')).offset().top - 48,
-		},
-		500
-	);
-	return false;
-});
-// Tabs
-function activate_tab(id) {
-	$('.js-tab-trigger[data-tab="' + id + '"]').toggleClass('active', true);
-	$('.js-tab-trigger:not([data-tab="' + id + '"])').toggleClass('active', false);
+	});
+	// Menu JobGuide
+	const $menuContainer = $("[data-menu-type]");
+	const menuType = $menuContainer.data("menu-type");
 
-	$('.js-tab-content[data-tab="' + id + '"]').toggleClass('active', true);
-	$('.js-tab-content:not([data-tab="' + id + '"])').toggleClass('active', false);
-}
-$('.js-tab-trigger').click(function () {
-	var id = $(this).attr('data-tab');
-	activate_tab(id);
-	window.location.hash = '#' + id;
-});
+	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
+		$.getJSON("../DB/Menu.json", (menuData) => {
+			let menuArray = menuData[menuType];
 
-// Menu JobGuide
-$(document).ready(function() {
-	const $menuContainer = $('[data-menu-type]');
-	const menuType = $menuContainer.data('menu-type');
+			if (!menuArray) {
+				console.error(`Меню для типа "${menuType}" не найдено.`);
+				return;
+			}
 
-	if (menuType !== 'MenuDoWDoM' && menuType !== 'MenuDoHDoL') {
-		return;
-  	}  
+			if (menuData.Links && Array.isArray(menuData.Links)) {
+				menuArray = [...menuArray, ...menuData.Links];
+			}
 
-	let menuPath;
-	if (menuType === 'MenuDoWDoM') {
-		 menuPath = '../DB/MenuDoWDoM.json';
-	} else if (menuType === 'MenuDoHDoL') {
-		 menuPath = '../DB/MenuDoHDoL.json';
-	} else {
-		 console.error('Failed to load json');
-		 return;
-	}
+			const $menuList = $('<ul class="jobguide_menu_list"></ul>');
+			menuArray.forEach((category) => {
+				const $category = $('<li class="jobguide_menu_list"></li>');
+				$category.append(`<span class="job_name_menu">${category.name}</span>`);
+				const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
 
-	$.getJSON(menuPath, function(menuData) {
-		 const $menuList = $('<ul class="jobguide_menu_list"></ul>');
-
-		 menuData.forEach(function(category) {
-			  const $category = $('<li class="jobguide_menu_list"></li>');
-			  $category.append(`<span class="job_name_menu">${category.name}</span>`);
-
-			  const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
-			  category.jobs.forEach(function(job) {
-					const $job = $('<li></li>');
-					if (job.hidden) {
-						 $job.attr('hidden', 'true');
-					}
+				category.jobs.forEach((job) => {
+					const $job = $(`<li${job.hidden ? " hidden" : ""}></li>`);
 					$job.append(`<a href="${job.link}"><p>${job.name}</p></a>`);
 					$subMenu.append($job);
-			  });
-			  $category.append($subMenu);
-			  $menuList.append($category);
-		 });
-		 $menuContainer.append($menuList);
-	}).fail(function() {
-		 console.error('Данные пропили Муглы, все вопросы к ним.');
-	});
-});
-
-// Sort Skill
-// Длоя релиза пока не готова возможно потом.
-$(document).ready(function() {
-	const $tbody = $('tbody[data-sort="true"]');
-	const $sortButton = $('#sortButton');
-	const $rows = $tbody.children('tr');
-	const $sortIcon = $('#sortIcon');
-	const $sortText = $('#sortText');
-
-	let sortState = 1;
-
-	if (!$tbody.length) return $sortButton.hide();
-	$sortButton.show();
-
-	function updateSortIconAndText() {
-		const state = sortState === 0
-			? { icon: 'sort-descending.svg', text: 'Обновлённые умения' }
-			: { icon: 'sort-ascending.svg', text: 'Список по умолчанию' };
-			
-		$sortIcon.attr('src', `../Assets/img/svg/${state.icon}`);
-		$sortText.text(state.text);
+				});
+				$category.append($subMenu);
+				$menuList.append($category);
+			});
+			$menuContainer.append($menuList);
+		}).fail(() => console.error("Ошибка Menu.json не был загружен."));
 	}
-
-	function getSkillAttribute($element) {
-		return $element.attr('db-skill') || '';
-	}
-
-	function sortRows() {
-		$rows.sort((a, b) => {
-			if (sortState === 0) {
-				return $(b).hasClass('skill_update') - $(a).hasClass('skill_update');
-			} else {
-				return getSkillAttribute($(a)).localeCompare(getSkillAttribute($(b)));
+	// Warning Info
+	if (WarningEnabled) {
+		const setCookie = (name, value, days) => {
+			const date = new Date();
+			date.setTime(date.getTime() + days * 86400000);
+			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+		};
+		const getCookie = (name) => {
+			return (
+				document.cookie
+					.split("; ")
+					.find((cookie) => cookie.startsWith(`${name}=`))
+					?.split("=")[1] || null
+			);
+		};
+		const showErrorInfo = (info) => {
+			$(".job_skil_list, .warn_info").prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
+			if (getCookie("warnInfoHidden") === "true") {
+				$("#warnInfo").addClass("hidden");
 			}
+			$("#closeInfo").click(() => {
+				$("#warnInfo").addClass("hidden");
+				setCookie("warnInfoHidden", "true", 7);
+			});
+		};
+		showErrorInfo("Error");
+	}
+	// Debug
+	if (DebugEnabled) {
+		document.addEventListener("DOMContentLoaded", () => {
+			$("a").click(function (e) {
+				e.preventDefault();
+				window.location.href = `${$(this).attr("href")}.html`;
+			});
 		});
-		$tbody.empty().append($rows);
-		updateSortIconAndText();
+		$("tr").each(function () {
+			const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
+				.map((attr) => $(this).attr(attr))
+				.filter(Boolean)
+				.join(", ");
+			if (titleText) $(this).attr("title", titleText);
+		});
 	}
-
-	$sortButton.on('click', function() {
-		sortState = 1 - sortState;
-		sortRows();
+	// Search
+	const initSearch = () => {
+		const $searchInput = $("#searchInput");
+		const $searchContainer = $(".search");
+		if ($searchInput.length && $searchContainer.length) {
+			$searchInput.on("input", (e) => {
+				const query = e.target.value.toLowerCase();
+				$(`tbody[data-search='true'] tr`).each(function () {
+					const skillName = $(this).find(".skill p strong").text().toLowerCase() || "";
+					$(this).toggle(skillName.includes(query));
+				});
+			});
+		}
+	};
+	initSearch();
+	// Preloader
+	setTimeout(function () {
+		const $preloader = $("#page-preloader");
+		if ($preloader.length && !$preloader.hasClass("done")) {
+			$preloader.addClass("done");
+			$("body").css("overflow-y", "visible");
+		}
+		const id = window.location.hash;
+		if (id) activateTab(id.substring(1));
+	}, 500);
+	// Smooth Scrolling
+	$("a[href*='#']").click(function (e) {
+		e.preventDefault();
+		const target = $($(this).attr("href"));
+		if (target.length) {
+			$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
+		}
 	});
-	sortRows();
 });
-// Warning Info
-let WarningEnabled = false;
+// Global Search
+let jsonData = [];
 
-function WarningFunctions() {
-    if (!WarningEnabled) return;
+$.getJSON("../DB/GlobalSearch.json").done(function (data) {
+	jsonData = data;
+});
 
-    function ErrorInfo(info) {
-      $('.job_skil_list, .warn_info').prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
-    }
-
-    ErrorInfo(" ");
-
-    const $warnInfo = $('#warnInfo');
-    const $closeInfo = $('#closeInfo');
-
-    if (!$warnInfo.length || !$closeInfo.length) return;
-
-    if (getCookie("warnInfoHidden") === "true") {
-        $warnInfo.addClass("hidden");
-    }
-
-    $closeInfo.on("click", function () {
-        $warnInfo.addClass("hidden");
-        setCookie("warnInfoHidden", "true", 7);
-    });
-
-    function setCookie(name, value, days) {
-        const date = new Date();
-        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-        document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
-    }
-
-    function getCookie(name) {
-        const cookies = document.cookie.split("; ");
-        for (const cookie of cookies) {
-            const [cookieName, cookieValue] = cookie.split("=");
-            if (cookieName === name) {
-                return cookieValue;
-            }
-        }
-        return null;
-    }
+function debounce(func, wait) {
+	let timeout;
+	return function (...args) {
+		clearTimeout(timeout);
+		timeout = setTimeout(() => func.apply(this, args), wait);
+	};
 }
-WarningFunctions();
-// Debug
-let DebugEnabled = false; 
 
-function DebugFunctions() {
-    if (!DebugEnabled) return;
+$("#search").on(
+	"keyup",
+	debounce(function () {
+		let query = $(this).val().trim().toLowerCase();
+		let results = $("#results").empty();
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const links = document.querySelectorAll('a');
-        links.forEach(link => {
-            link.addEventListener('click', function (event) {
-                event.preventDefault();
-                const url = this.getAttribute('href') + '.html';
-                window.location.href = url;
-            });
-        });
-    });
+		if (query && jsonData.length) {
+			let hasResults = false;
 
-    $('tr').each(function () {
-        var titleText = [];
-        ['db-skill', 'db-role-action', 'db-skill-passive', 'db-role-traits', 'db-skill-pvp'].forEach(attr => {
-            var attrValue = $(this).attr(attr);
-            if (attrValue) {
-                titleText.push(attrValue);
-            }
-        });
-        if (titleText.length > 0) {
-            $(this).attr('title', titleText.join(', '));
-        }
-    });
-}
-DebugFunctions();
+			jsonData.forEach((job) => {
+				const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
+				job.skills.forEach((skill) => {
+					if (skill.skill.toLowerCase().includes(query)) {
+						let encodedSkill = btoa(skill["db-skill"]);
+						let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
 
-// Search
-function toggleSearch() {
-	const tbody = document.querySelector('tbody[data-search]');
-	const searchContainer = document.querySelector('.search');
-	if (tbody !== 'data-search') {
-		return;
-  	} 
-	if (tbody?.dataset.search === "true") {
-		 searchContainer.style.display = '';
-	} else {
-		 searchContainer.style.display = 'none';
+						results.append(
+							`<li>
+									<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
+									<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
+										<div class="icon_search">
+											<img src="./Assets/img/DoWDoM/search/${safeJobName}/${skill.icon}" class="skill-icon" alt="${skill.skill}">
+										</div>
+										<div>
+											${skill.skill} <span>[${job.job}: ${skill.level}]</span>
+										</div>
+									</a>
+								</li>`
+						);
+						hasResults = true;
+					}
+				});
+			});
+
+			if (!hasResults) {
+				results.append("<li>Ничего не найдено</li>");
+			}
+			$(".search-results").show();
+		} else {
+			$(".search-results").hide();
+		}
+	}, 300)
+);
+
+$(document).on("click", ".copy-link", function () {
+	navigator.clipboard
+		.writeText($(this).attr("data-url"))
+		.then(() => {
+			let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
+			$(this).after(tooltip);
+			setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 350);
+		})
+		.catch((err) => console.error("Ошибка копирования: ", err));
+});
+
+// Light/Dark Theme
+$(document).ready(() => {
+	function applyTheme(theme) {
+		document.body.classList.remove("light-theme", "dark-theme");
+		document.body.classList.add(`${theme}-theme`);
+
+		const iconPath = theme === "dark" ? "../Assets/img/svg/sun.svg" : "../Assets/img/svg/moon.svg";
+		$("#themeToggle .icon").attr("src", iconPath);
 	}
-}
 
-function searchTable(event) {
-	const query = event.target.value.toLowerCase();
-	const tbody = document.querySelector('tbody[data-search="true"]');
-
-	if (!tbody) return;
-
-	tbody.querySelectorAll('tr').forEach(row => {
-		 const skillName = row.querySelector('.skill p strong')?.textContent.toLowerCase() || '';
-
-		 row.style.display = skillName.includes(query) ? '' : 'none';
-	});
-}
-
-function initSearch() {
-	toggleSearch();
-
-	const searchInput = document.getElementById('searchInput');
-	if (searchInput) {
-		 searchInput.addEventListener('input', searchTable);
+	function toggleTheme() {
+		const isDark = $("body").hasClass("dark-theme");
+		const newTheme = isDark ? "light" : "dark";
+		applyTheme(newTheme);
+		localStorage.setItem("theme", newTheme);
 	}
-}
-initSearch();
+
+	const savedTheme = localStorage.getItem("theme") || "light";
+	applyTheme(savedTheme);
+
+	$("#themeToggle").on("click", toggleTheme);
+});

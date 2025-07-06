@@ -4,12 +4,17 @@
       <meta charset="UTF-8">
       <title>Job Guide | FFXIV RU</title>
       <link rel="canonical" href="https://ff14jobguide.ru/JobGuide" />
-      <link rel="shortcut icon" type="image/x-icon" href="Assets/img/favicon.ico" />
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
+		<link rel="manifest" href="/manifest.json" />
       <!-- Open Graph Meta -->
       <meta property="og:title" content="Job Guide | FFXIV RU">
       <meta property="og:site_name" content="FFXIV Job Guide RU">
       <meta property="og:description" content="Описание классовых умений Final Fantasy XIV на русском языке">
-      <meta property="og:url" conent="https://ff14jobguide.ru/JobGuide">
+      <meta property="og:url" content="https://ff14jobguide.ru/JobGuide">
       <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/git-preview.png">
       <meta name="theme-color" content="#732828">
       <meta name="description" content="Описание классовых умений Final Fantasy XIV на русском языке">
@@ -77,12 +82,22 @@
             </p>
             <div class="warn_info"></div>
             <p class="info_pop">
-               Перевод выполнен Seiffear и Morriganna Latrial. 
+               Перевод выполнен Seiffear и <a target="_blank" href="https://github.com/Morriganna">Morriganna Latrial</a>. 
                <br/>Предложения, вопросы и замечания направляйте в Discord: morriganna 
                <br/>Большая благодарность всем, кто помогал с данным проектом. 
-               <br/>Отдельное спасибо: Rei Eltrei, Budanochka Poly, Gella Zenhat, Kaka Demon, Ken Zattano и Schmelvin Dotan.
+               <br/>Отдельное спасибо: Rei Eltrei, <a target="_blank" href="https://www.twitch.tv/budan_poly">Budanochka Poly</a>, <a target="_blank" href="https://www.twitch.tv/gella_zenhat">Gella Zenhat</a>, Kaka Demon, Ken Zattano и Schmelvin Dotan.
                <br/>Перевод выполнен на основе информации с сайта <a href="https://eu.finalfantasyxiv.com/jobguide/battle/">Job Guide</a>
             </p>
+            <div class="search-container">
+               <h2>
+                  <img src="Assets/img/main/Search.png">
+                  Поиск по умениям
+               </h2>
+               <div class="search_block">
+                  <input type="text" id="search" placeholder="Введите название умения..." class="search-input">
+                  <ul id="results" class="search-results"></ul>
+               </div>
+            </div> 
             <div class="jobguide_flex">
                <!-- Tank -->
                <div class="jobguide_tank">
@@ -311,7 +326,7 @@
                </a>
             </div>
             <div class="SE">
-               <p>FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+               <p>FINAL FANTASY XIV © 2010-2025 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
             </div>
          </div>
       </div>

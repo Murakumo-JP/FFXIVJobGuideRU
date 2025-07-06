@@ -2,14 +2,19 @@
 <html lang="ru">
    <head>
       <meta charset="UTF-8">
+      <title>Job Guide: Blue Mage | FFXIV RU</title>
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="../Assets/img/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="../Assets/img/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="../Assets/img/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="../Assets/img/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="../Assets/img/icon/icon-128x128.png" />
+      <link rel="manifest" href="../manifest.json">
       <meta property="og:title" content="Job Guide: Blue Mage">
       <meta property="og:site_name" content="FFXIV Job Guide RU">
       <meta property="og:description" content="Описание умений Blue Mage на русском">
       <meta property="og:url" content="https://ff14jobguide.ru/Page/BLU">
       <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/BLU.png">
       <meta name="theme-color" content="#732828">
-      <title>Job Guide: Blue Mage | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
       <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
@@ -665,7 +670,7 @@
                </a>
             </div>
             <div class="SE">
-               <p>FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+               <p>FINAL FANTASY XIV © 2010-2025 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
             </div>
          </div>
       </footer>
@@ -673,10 +678,13 @@
          <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
-      <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
-      <script type="text/javascript" src="../DB/BlueMage.js?12072024"></script>
-      <script type="text/javascript" src="../DB/RoleActions.js?17122024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
+      <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
+      <script>
+         document.addEventListener("DOMContentLoaded", () => {
+            CORE_DB_LOAD(["../DB/BlueMage.json", "../DB/RoleActions.json"], DB_VERSION);
+         });
+      </script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
 </html>

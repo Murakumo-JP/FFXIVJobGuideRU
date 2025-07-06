@@ -3,14 +3,19 @@
 
    <head>
       <meta charset="UTF-8">
+      <title>Gathering: Miner | FFXIV RU</title>
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="../Assets/img/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="../Assets/img/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="../Assets/img/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="../Assets/img/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="../Assets/img/icon/icon-128x128.png" />
+      <link rel="manifest" href="../manifest.json">
       <meta property="og:title" content="Job Guide: Miner">
       <meta property="og:site_name" content="FFXIV Job Guide RU">
       <meta property="og:description" content="Описание умений Miner на русском">
       <meta property="og:url" content="https://ff14jobguide.ru/Page/MIN">
       <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/MIN.png">
       <meta name="theme-color" content="#8f7832">
-      <title>Gathering: Miner | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
       <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
@@ -244,7 +249,7 @@
                         <h3 class="guide-about_subtitle gatherer">Советы по сбору</h3>
                         <div class="guide-about_box">
                            <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/J/udHXs8pbUHcvB9v-NCusVwwbi0.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/r/4bHie-JNEiZa-OLijPcWWXCBhE.jpg" width="400" />
                            </div>
                            <div class="guide-about_box_text"><br><br>
                               <p>Выберите точку сбора и увидите какие предметы доступны для получения.</p>
@@ -252,7 +257,7 @@
                         </div>
                         <div class="guide-about_box">
                            <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/h/o7nkSXz1JPCtMS-3oVv5mOAhek.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/5I9RVdDEafoitzsWAldJc0rs9I.jpg" width="400" />
                            </div>
                            <div class="guide-about_box_text"><br><br>
                               <p>Выберите предмет, который хотите собрать.<br />
@@ -343,7 +348,7 @@
                </a>
             </div>
             <div class="SE">
-               <p>FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+               <p>FINAL FANTASY XIV © 2010-2025 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
             </div>
          </div>
       </footer>
@@ -351,9 +356,13 @@
          <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
-      <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
-      <script type="text/javascript" src="../DB/Gathering.js?09072024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
+      <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
+      <script>
+         document.addEventListener("DOMContentLoaded", () => {
+            CORE_DB_LOAD(["../DB/Gathering.json"], DB_VERSION);
+         });
+      </script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
 </html>

@@ -3,14 +3,19 @@
 
    <head>
       <meta charset="UTF-8">
+      <title>Crafting: Alchemist | FFXIV RU</title>
+      <link rel="shortcut icon" type="image/png" sizes="16x16" href="../Assets/img/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="../Assets/img/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="../Assets/img/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="../Assets/img/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="../Assets/img/icon/icon-128x128.png" />
+      <link rel="manifest" href="../manifest.json">
       <meta property="og:title" content="Job Guide: Alchemist">
       <meta property="og:site_name" content="FFXIV Job Guide RU">
       <meta property="og:description" content="Описание умений Alchemist на русском">
       <meta property="og:url" content="https://ff14jobguide.ru/Page/ALC">
       <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/ALC.png">
       <meta name="theme-color" content="#4e328f">
-      <title>Crafting: Alchemist | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/x-icon" href="../Assets/img/favicon.ico"/>
       <link rel="stylesheet" href="../Assets/css/style.min.css"/>
       <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
       <!-- Google tag (gtag.js) -->
@@ -262,7 +267,7 @@
                         </div>
                         <div class="guide-about_box">
                            <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/g/wasRhf2ks_kj0mGCDpQNZnvMic.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/H/Q8OqEoLRGLkfi7Kw26as4FIvYk.jpg" width="400" />
                            </div>
                            <div class="guide-about_box_text"><br><br>
                               <p>Чтобы начать процесс синтеза, выберите рецепт предмета, который вы хотите создать, и убедитесь, что у вас есть требуемые предметы.</p>
@@ -358,7 +363,7 @@
                         <h3 class="guide-about_subtitle crafter">Disciple of the Hand Collectable предметы</h3>
                         <div class="guide-about_box">
                            <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/p/fIH_eS9FW8XEQOg0AXqtIqZDPg.jpg" width="400" />
+                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/x/shYfNRJgdPe3l13i8lezUOUPJ0.jpg" width="400" />
                            </div>
                            <div class="guide-about_box_text"><br><br>
                               <p>Как Disciple of the Hand, вам может потребоваться обменивать предметы, называемые collectables.<br />
@@ -436,7 +441,7 @@
                </a>
             </div>
             <div class="SE">
-               <p>FINAL FANTASY XIV © 2010-2024 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+               <p>FINAL FANTASY XIV © 2010-2025 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
             </div>
          </div>
       </footer>
@@ -444,9 +449,13 @@
          <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
       </div>
       <!--- Script --->
-      <script type="text/javascript" src="../Assets/js/db.js?v2"></script>
-      <script type="text/javascript" src="../DB/Craft.js?17122024"></script>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
+      <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
+      <script>
+         document.addEventListener("DOMContentLoaded", () => {
+            CORE_DB_LOAD(["../DB/Craft.json"], DB_VERSION);
+         });
+      </script>
       <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
    </body>
 </html>
