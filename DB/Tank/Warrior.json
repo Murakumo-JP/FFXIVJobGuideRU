@@ -570,7 +570,7 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/825adb90166b2a7a0b9ccc5f399392d895337565.png",
 		"job_icon": "WAR",
 		"level": "72",
-		"content": "Infuriate накладывает эффект Nascent Chaos, улучшая Decimate до Chaotic Cyclone, когад шкала Beast Gauge равна 50 или выше. При достижении 80 уровня, эффект Nascent Chaos улучшает Fell Cleave до Inner Chaos.<br/>Продолжительность: 30 сек.",
+		"content": "Infuriate накладывает эффект Nascent Chaos, улучшая Decimate до Chaotic Cyclone, когда шкала Beast Gauge равна 50 или выше. При достижении 80 уровня, эффект Nascent Chaos улучшает Fell Cleave до Inner Chaos.<br/>Продолжительность: 30 сек.",
 		"skill_update": false,
 		"skill_new": false
 	},
