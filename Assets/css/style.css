@@ -62,15 +62,18 @@ body.dark-theme {
   color: #f5f5f5;
 }
 .dark-theme .skill_update td {
-  background: rgba(240, 228, 197, 0.3019607843);
+  background: rgba(230, 134, 0, 0.3019607843);
+}
+.dark-theme .skill_new td {
+  background: rgba(217, 43, 43, 0.3019607843);
 }
 .dark-theme .job_tab--pve {
   background: rgb(38, 38, 38);
-  box-shadow: 0 1px 0 0 rgba(38, 38, 38, 0.75) inset, 1px 0 0 0 rgba(38, 38, 38, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 0 0 rgba(38, 38, 38, 0.7490196078) inset, 1px 0 0 0 rgba(38, 38, 38, 0.2509803922) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1019607843) inset;
 }
 .dark-theme .job_tab--pvp {
   background: rgb(61, 61, 61);
-  box-shadow: 0 1px 0 0 rgba(61, 61, 61, 0.75) inset, 1px 0 0 0 rgba(61, 61, 61, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 0 0 rgba(61, 61, 61, 0.7490196078) inset, 1px 0 0 0 rgba(61, 61, 61, 0.2509803922) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1019607843) inset;
 }
 .dark-theme .job_update,
 .dark-theme .job_text,
@@ -87,8 +90,14 @@ body.dark-theme {
 .dark-theme .job_tank .job_hud_title,
 .dark-theme .job_tank .job_nav_title a,
 .dark-theme .job_tank .job_sub_title,
-.dark-theme .job_tank .jobguide_menu_list > li > span {
-  color: var(--tank-AltColor);
+.dark-theme .job_tank .jobguide_menu_list > li > span,
+.dark-theme .jobguide_sub_menu li a p {
+  color: #ffffff;
+}
+.dark-theme .job_name_menu:hover,
+.dark-theme .jobguide_sub_menu li:hover,
+.dark-theme .nav_floating_list {
+  background: #3d3d3d;
 }
 
 /*==================*/
