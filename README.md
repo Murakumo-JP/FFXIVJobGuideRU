@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href=https://ff14jobguide.ru>FFXIV JOB GUIDE</a>
+  <a href=https://ff14jobguide.ru>FFXIVJobGuideRU</a>
 </h1>
 
 <p align="center">
