@@ -3,10 +3,10 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues-pr/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge">
-  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fff14jobguide.ru%2F&up_message=Online&style=for-the-badge">
+  <a href=LICENSE><img src="https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
+  <a href=><img src="https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
+  <a href=https://github.com/Murakumo-JP/FFXIVJobGuideRU/pulls><img src="https://img.shields.io/github/issues-pr/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
+  <a href=https://ff14jobguide.ru><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fff14jobguide.ru%2F&up_message=Online&style=for-the-badge"></a>
 </p>
 
 # Информация
