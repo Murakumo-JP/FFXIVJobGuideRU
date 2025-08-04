@@ -1,6 +1,15 @@
+<h1 align="center">
+  <a href=https://ff14jobguide.ru>FFXIV JOB GUIDE</a>
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues-pr/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge">
+  <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fff14jobguide.ru%2F&up_message=Online&style=for-the-badge">
+</p>
+
 # Информация
-[![GitHub repo size](https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=Repo%20Size)]()
-[![GitHub License](https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=flat-square&label=License)](LICENSE)
 
 * Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания умений классов.
 * Перевод Seiffear, [Morriganna](https://github.com/Morriganna)
