@@ -1,6 +1,6 @@
 {
-	"PVE Update": "Последнее обновление: 27/05/2025",
-	"PVP Update": "Последнее обновление: 27/05/2025",
+	"PVE Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 05/08/2025",
 	"PVE Skill 01": {
 		"name": "Malefic",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1c53f900e5226e09621196190c506da91d3703bb.png",
@@ -76,9 +76,9 @@
 		"cost": "700 MP",
 		"range": "0y",
 		"radius_img": "R2",
-		"radius": "15y",
+		"radius": "20y",
 		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 06": {
@@ -236,9 +236,9 @@
 		"cost": "800 MP",
 		"range": "0y",
 		"radius_img": "R2",
-		"radius": "15y",
+		"radius": "20y",
 		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 150<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 16": {
@@ -353,9 +353,9 @@
 		"cost": "-",
 		"range": "0y",
 		"radius_img": "R2",
-		"radius": "15y",
+		"radius": "20y",
 		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 200<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 100<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 23": {
@@ -481,9 +481,9 @@
 		"cost": "-",
 		"range": "0y",
 		"radius_img": "R2",
-		"radius": "20y",
+		"radius": "30y",
 		"content": "Предсказывает судьбу для персонажа и всех окружающих сопартийцев, накладывая на них эффект Horoscope.<br/>Продолжительность: 10 сек.<br/>Эффект улучшается до Horoscope Helios после получения эффекта Helios или Helios Conjunction.<br/>Продолжительность: 30 сек.<br/>Восстанавливает HP сопартийцам с данными эффектами при повторном предсказании судьбы или окончании времени действия эффекта.<br/>Сила лечения Horoscope: 200<br/>Сила лечения Horoscope Helios: 400",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 31": {
@@ -499,7 +499,7 @@
 		"radius_img": "R2",
 		"radius": "20y",
 		"content": "Восстанавливает HP персонажа и всех окружающих сопартийцев.<br/>Сила лечения определяется эффектом Horoscope на сопартийцах. Эффект спадает после использования.<br/>Сила с Horoscope: 200<br/>Сила с Horoscope Helios: 400",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 32": {
@@ -547,7 +547,7 @@
 		"radius_img": "R2",
 		"radius": "8y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 140 по цели и всем окружающим противникам.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 35": {
@@ -611,7 +611,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 860 по первому и на 50% по всем оставшимся.<br/>Может быть использовано только во время действия эффекта Divining.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 39": {
@@ -625,9 +625,9 @@
 		"cost": "800 MP",
 		"range": "0y",
 		"radius_img": "R2",
-		"radius": "15y",
+		"radius": "20y",
 		"content": "Восстанавливает HP персонажа и всех окружающих сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen)<br/>Сила лечения: 175<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 40": {
@@ -901,7 +901,7 @@
 		"job_icon": "AST",
 		"level": "94",
 		"content": "Увеличивает силу атаки Combust III, наносящего урон с течением времени, до 70, Fall Malefic до 270, Gravity II до 140 и Macrocosmos до 270.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"Trait 18": {
@@ -941,7 +941,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000.<br/>После использования с помощью Double Cast, уменьшает время повторного использования Double Cast на 6 секунд.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 02": {
@@ -1019,7 +1019,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Быстрый рывок вперед на 15 ялмов.<br/>Дополнительный эффект: оставляет позади себя Pole Star в точке начала рывка и накладывает на персонажа Retrograde Ready<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Умением меняется на Retrograde после использования.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 08": {

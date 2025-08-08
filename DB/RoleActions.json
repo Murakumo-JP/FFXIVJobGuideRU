@@ -422,12 +422,14 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2fdba29de282257b52e21e33abe5f4fef43519cd.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
-		"recast": "24 сек.",
-		"cost": "-",
+		"recast": "4 сек.",
+		"cost": "2500 MP",
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снимает эффекты оглушения (stun), связывания (bind), тяжести (heavy), безмолвия (silence), глубокой заморозки (deep freeze) и Miracle of Nature.<br/>Дополнительный эффект: накладывает эффект Resilience<br/>Эффект Resilience: убирает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 3 сек.<br/>Можно использовать даже если персонаж находится под действием некоторых негативных эффектов."
+		"content": "Снимает эффекты оглушения (stun), связывания (bind), тяжести (heavy), безмолвия (silence), глубокой заморозки (deep freeze) и Miracle of Nature.<br/>Дополнительный эффект: накладывает эффект Resilience<br/>Эффект Resilience: убирает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 2 сек.<br/>Можно использовать даже если персонаж находится под действием некоторых негативных эффектов.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Actions 04": {
 		"name": "Guard",
@@ -464,7 +466,7 @@
 		"radius": "10y",
 		"content": "Удар, наносящий урон с силой атаки 8,000 по всем блажиайшим противникам.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 25%<br/>Продолжительность: 10 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 02": {
 		"name": "Rampart",
@@ -477,7 +479,7 @@
 		"radius": "0y",
 		"content": " Уменьшает наносимый урон на 50%, одновременно увеличивая HP, восстанавливаемое лечебными умениями на 25%.<br/>Продолжительность: 15 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 03": {
 		"name": "Full Swing",
@@ -490,7 +492,7 @@
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: отталкивание на 30 ялмов<br/>Снимает Guard с противников, находящихся под его эффектом.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 04": {
 		"name": "Haelan",
@@ -504,7 +506,7 @@
 		"radius": "0y",
 		"content": "Восстанавливает HP цели.<br/>Сила лечения: 12,000",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 05": {
 		"name": "Stoneskin II",
@@ -518,7 +520,7 @@
 		"radius": "15y",
 		"content": "Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный лечению с силой 10,000.<br/>Продолжительность: 10 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 06": {
 		"name": "Diabrosis",
@@ -532,7 +534,7 @@
 		"radius": "10y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 8,000 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: уменьшает HP цели, восстанавливаемое лечебными умениями на 25%<br/>Продолжительность: 10 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 07": {
 		"name": "Bloodbath",
@@ -543,9 +545,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Преобразует 100% наносимого физического урона в HP.<br/>Продолжительность: 10 сек.",
-		"skill_update": false,
-		"skill_new": true
+		"content": "Увеличивает наносимый урон на 10% и преобразует 100% наносимого урона в HP.<br/>Продолжительность: 10 сек.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Role Action 08": {
 		"name": "Swift",
@@ -558,7 +560,7 @@
 		"radius": "0y",
 		"content": "Увеличивает скорость передвижения на 100% и дает иммунитет к эффектам оглушения (stun), тяжести (heavy), связывания (bind), безмолвия (silence), полу сна (half-asleep), сна (sleep), глубокой заморозки (deep freeze), а также к отбрасывающим и притягивающим эффектам.<br/>Продолжительность: 4 сек.<br/>Эффект прекращается при езде на маунте.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 09": {
 		"name": "Smite",
@@ -571,7 +573,7 @@
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Сила атаки увеличивается до 18, 000 по мере уменьшения HP цели, достигая максимального значения, когда у цели остается 25% здоровья или меньше.<br/>Время восстановления сбрасывается при получении убийства или ассиста.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 10": {
 		"name": "Dervish",
@@ -584,7 +586,7 @@
 		"radius": "15y",
 		"content": "Сокращает время применения и восстановления боевых навыков, заклинаний и авто атак на 10%, а также увеличивает скорость передвижения на 25% персонажа и ближайших сопартийцев.<br/>Продолжительность: 12 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 11": {
 		"name": "Bravery",
@@ -597,7 +599,7 @@
 		"radius": "0y",
 		"content": "Увеличивает наносимый урон на 25% и уменьшает получаемый урон на 25%.<br/>Продолжительность: 10 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 12": {
 		"name": "Eagle Eye Shot",
@@ -610,7 +612,7 @@
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 12,000.<br/>Игнорирует эффект Guard при нанесении урона.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 13": {
 		"name": "Comet",
@@ -623,7 +625,7 @@
 		"radius": "10y",
 		"content": "Удар, наносящий нестихийный урон противникам с силой атаки 20,000 в указанной области. Персонаж не можете двигаться во время произнесения заклинания и не можете отменить его после произнесения.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 14": {
 		"name": "Phantom Dart",
@@ -636,7 +638,7 @@
 		"radius": "0y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 4,000.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 25%<br/>Продолжительность: 5 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	},
 	"PVP Role Action 15": {
 		"name": "Rust",
@@ -649,6 +651,6 @@
 		"radius": "5y",
 		"content": "Снижает наносимый урон и силу исцеляющих умений ближайших противников на 25%.<br/>Продолжительность: 10 сек.",
 		"skill_update": false,
-		"skill_new": true
+		"skill_new": false
 	}
 }
