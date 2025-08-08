@@ -1,6 +1,6 @@
 {
-	"PVE Update": "Последнее обновление: 27/05/2025",
-	"PVP Update": "Последнее обновление: 27/05/2025",
+	"PVE Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 05/08/2025",
 	"PVE Skill 01": {
 		"name": "Stone",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png",
@@ -62,7 +62,7 @@
 		"radius_img": "R2",
 		"radius": "20y",
 		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 05": {
@@ -311,7 +311,7 @@
 		"radius_img": "R2",
 		"radius": "20y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 400<br/>Дополнительный эффект: восстанавливает 5% от максимума MP персонажа",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 20": {
@@ -394,7 +394,7 @@
 		"radius_img": "R2",
 		"radius": "30y",
 		"content": "Накладывает эффект Confession на персонажа и всех ближайших сопартийцев.<br/>Сопартийцы, находящиеся под действием эффекта Confession, получают дополнительное восстановлении HP с помощью Medica, Medica III, Cure III или Afflatus Rapture.<br/>Сила лечения: 200",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 25": {
@@ -790,7 +790,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000.<br/><br/>※ Умение меняется на Glare IV под действием эффекта Sacred Sight.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 02": {
@@ -855,7 +855,7 @@
 		"radius_img": "R2",
 		"radius": "10y",
 		"content": "Прыжок на цель, наносящий нестихийный урон с силой атаки 6,000 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: снижает получаемый урон по персонажу и ближайшим сопартийцам на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: дает 3 стака Sacred Sight<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Cure III Ready<br/>Продолжительность: 20 сек.<br/><br/>※Glare III меняется на Glare IV под действием эффекта Sacred Sight.<br/>※Умение Cure II меняется на Cure III под действием эффекта Cure III Ready.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 07": {
@@ -868,7 +868,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 9,000 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Sacred Sight.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 08": {
@@ -881,7 +881,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Восстанавливает HP персонажа или цели с силой лечения 16,000 и всех ближайших сопартийцев с силой лечения 12,000.<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill LB": {

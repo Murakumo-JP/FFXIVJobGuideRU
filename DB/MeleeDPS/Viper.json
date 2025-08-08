@@ -1,6 +1,6 @@
 {
-	"PVE Update": "Последнее обновление: 27/05/2025",
-	"PVP Update": "Последнее обновление: 27/05/2025",
+	"PVE Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 05/08/2025",
 	"PVE Skill 01": {
 		"name": "Steel Fangs",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4c17f1a64284635f1483f205f9aea15be9bd1a16.png",
@@ -478,7 +478,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 680 для первого противника и на 60% меньше для остальных.<br/>Дополнительный эффект: накладывает Poised for Twinfang<br/>Эффект Poised for Twinfang: увеличивает силу атаки Uncoiled Twinfang на 50<br/>Продолжительность: 60 сек.<br/>Стоимость Rattling Coil: 1<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 33": {
@@ -508,7 +508,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 750 для первого противника и на 65% меньше для остальных.<br/>Дополнительный эффект: дает 5 стаков Anguine Tribute<br/>Продолжительность: 30 сек.<br/>Стоимость: 50 Serpent Offerings Gauge",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 35": {
@@ -523,7 +523,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 480 для первого противника и на 65% меньше для остальных.<br/>Сила атаки увеличивается до 680, когда выполняется после Reawaken.<br/>Стоимость Anguine Tribute: 1<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Steel Fangs и Steel Maw меняется на First Generation при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 36": {
@@ -538,7 +538,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 480 для первого противника и на 65% меньше для остальных.<br/>Сила атаки увеличивается до 680, когда выполняется после First Generation.<br/>Стоимость Anguine Tribute: 1<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Dread Fangs и Dread Maw меняется на Second Generation при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 37": {
@@ -553,7 +553,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 480 для первого противника и на 65% меньше для остальных.<br/>Сила атаки увеличивается до 680, когда выполняется после Second Generation.<br/>Стоимость Anguine Tribute: 1<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Hunter's Coil и Hunter's Den меняется на Third Generation при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 38": {
@@ -568,7 +568,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 480 для первого противника и на 65% меньше для остальных.<br/>Сила атаки увеличивается до 680, когда выполняется после Third Generation.<br/>Стоимость Anguine Tribute: 1<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Swiftskin's Coil и Swiftskin's Den меняется на Fourth Generation при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 39": {
@@ -583,7 +583,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 120 для первого противника и на 60% меньше для остальных.<br/>Сила атаки Poised for Twinfang: 170<br/>Дополнительный эффект: накладывает эффект Poised for Twinblood<br/>Эффект Poised for Twinblood: увеличивает силу Uncoiled Twinblood на 50<br/>Продолжительность: 60 сек.<br/>Может быть использовано только после Uncoiled Fury.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Twinfang меняется на Uncoiled Twinfang при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 40": {
@@ -598,7 +598,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 120 для первого противника и на 60% меньше для остальных.<br/>Сила атаки Poised for Twinblood: 170<br/>Может быть использовано только после Uncoiled Fury.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Twinblood меняется на Uncoiled Twinblood при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 41": {
@@ -613,7 +613,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 1,150 для первого противника и на 65% меньше для остальных.<br/>Эффект Reawakened пропадает после использования.<br/>Требуется как минимум один стак Anguine Tribute.<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Reawaken меняется на Ouroboros при соблюдении требований к выполнению.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVE Skill 42": {
@@ -803,7 +803,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 02": {
@@ -816,7 +816,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Steel Fangs<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 03": {
@@ -829,7 +829,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Hunter's Sting<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 04": {
@@ -842,7 +842,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 5,000.<br/>Комбо умение: Barbarous Bite<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 05": {
@@ -855,7 +855,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Piercing Fangs<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 06": {
@@ -868,7 +868,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Swiftskin's Sting<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 07": {
@@ -894,7 +894,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 4,000 по цели и всем окружающим противникам.<br/>Сила атаки удваивается, если атаковать только одну цель.<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 09": {
@@ -920,7 +920,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Рывок к выбранному противнику или сопартийцу.<br/>Дополнительный эффект: увеличивает урон, наносимый следующим боевым навыком, на 25%<br/>Продолжительность: 4 сек.<br/>Максимум стаков: 2<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 11": {
@@ -1011,7 +1011,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Bloodcoil<br/>Дополнительный эффект: поглощает 100% наносимого урона в виде HP<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 18": {
@@ -1024,7 +1024,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 12,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: поглощает 100% наносимого урона в виде HP<br/>Может быть использовано только под действием эффекта Reawakened. Эффект пропадает после использования.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 19": {
@@ -1037,7 +1037,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge)<br/>Может быть использовано только после успешного применения Barbarous Bite или Ravenous Bite.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 20": {
@@ -1063,7 +1063,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge)<br/>Может быть использовано только после успешного применения Sanguine Feast.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 22": {
@@ -1076,7 +1076,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 4,000 по цели и всем окружающим противникам.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge).<br/>Может быть использовано только после успешного применения Uncoiled Fury.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 23": {
@@ -1089,7 +1089,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 4,000 по цели и всем окружающим противникам.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: добавляет 3 секунды к накоплению шкалы лимит брейка (limit gauge)<br/>Может быть использовано только после успешного применения Uncoiled Twinfang.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 24": {
@@ -1166,7 +1166,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон в прыжке по цели и всем противникам поблизости с силой атаки 10,000.<br/>Дополнительный эффект: накладывает эффект Reawakened и увеличивает скорость передвижения на 50%<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: поражает цель эффектом Noxious Gnash<br/>Эффект Noxious Gnash: увеличивает наносимый цели урон на 25%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 5 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Dual Fang Combo меняется на First Generation под действием эффекта Reawakened.<br/>※Hunter's Snap меняется на Ouroboros под действием эффекта Reawakened.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	}
 }
