@@ -1,6 +1,6 @@
 {
-	"PVE Update": "Последнее обновление: 24/03/2025",
-	"PVP Update": "Последнее обновление: 24/03/2025",
+	"PVE Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 05/08/2025",
 	"PVE Skill 01": {
 		"name": "Heavy Swing",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7a622f61949998a4bca402f5be90c0417bb02ac1.png",
@@ -13,7 +13,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 240.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 02": {
@@ -119,7 +119,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 220.<br/>Комбо умение: Maim<br/>Сила в комбо: 500<br/>Комбо бонус эффекта: восстанавливает HP персонажа<br/>Сила лечения: 250<br/>Комбо бонус: восполняет ресурс шкалы Beast Gauge на 20",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 09": {
@@ -228,7 +228,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 220.<br/>Комбо умение: Maim<br/>Сила в комбо: 500<br/>Комбо бонус: накладывает эффект Surging Tempest, увеличивающий наносимый урон на 10%<br/>Продолжительность: 30 сек.<br/>Увеличивает продолжительность эффекта Surging Tempest на 30 сек., вплоть до 60 секунд.<br/>Комбо бонус: восполняет ресурс шкалы Beast Gauge на 10",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 16": {
@@ -338,7 +338,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 420.<br/>Имеет общее время восстановления с умением Orogeny.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 23": {
@@ -384,7 +384,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий критический (critical) прямой (direct) урон с силой атаки 200 по всем окружающим противникам.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) и прямого (direct) урона.<br/>Дополнительный эффект: снижает время восстановления умения Infuriate на 5 сек.<br/>Стоимость: 50 Beast Gauge<br/>Умение может быть использовано только под действием эффекта Nascent Chaos. Эффект пропадает после использования.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Decimate меняется на Chaotic Cyclone при соблюдении требований к выполнению.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 26": {
@@ -459,7 +459,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Прыжок к цели, наносящий критический (critical) и прямой (direct) урон по цели и по всем окружающим противникам с силой атаки 700 по первому и на 50% по всем оставшимся.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) и прямого (direct) урона.<br/>Дополнительный эффект: накладывает эффект Primal Ruination Ready<br/>Продолжительность: 20 сек.<br/>Возможно использовать только под действием эффекта Primal Rend Ready, наложенного Inner Release.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 31": {
@@ -489,7 +489,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон по всем окружающим противникам с силой атаки 700 по первому и на 50% по всем оставшимся.<br/>Может быть использован только под действием эффекта Wrathful.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Inner Release меняется на  Primal Wrath при соблюдении требований к выполнению.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVE Skill 33": {
@@ -504,7 +504,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий критический (critical) прямой (direct) урон по цели и по всем окружающим противникам с силой атаки 780 по первому и на 50% по всем оставшимся.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) и прямого (direct) урона.<br/>Возможно использовать только под действием эффекта Primal Ruination Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Primal Rend меняется на Primal Ruination при соблюдении требований к выполнению.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"Trait 01": {
@@ -570,7 +570,7 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/825adb90166b2a7a0b9ccc5f399392d895337565.png",
 		"job_icon": "WAR",
 		"level": "72",
-		"content": "Infuriate накладывает эффект Nascent Chaos, улучшая Decimate до Chaotic Cyclone, когад шкала Beast Gauge равна 50 или выше. При достижении 80 уровня, эффект Nascent Chaos улучшает Fell Cleave до Inner Chaos.<br/>Продолжительность: 30 сек.",
+		"content": "Infuriate накладывает эффект Nascent Chaos, улучшая Decimate до Chaotic Cyclone, когда шкала Beast Gauge равна 50 или выше. При достижении 80 уровня, эффект Nascent Chaos улучшает Fell Cleave до Inner Chaos.<br/>Продолжительность: 30 сек.",
 		"skill_update": false,
 		"skill_new": false
 	},
@@ -661,7 +661,7 @@
 		"job_icon": "WAR",
 		"level": "94",
 		"content": "Увеличивает силу атаки умениям Heavy Swing до 2240, Maim до 190, Storm's Path до 220, Storm's Eye до 220, Fell Cleave до 580 и Upheaval до 420.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"Trait 18": {
@@ -692,7 +692,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 02": {
@@ -705,7 +705,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Heavy Swing<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 03": {
@@ -718,7 +718,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Maim<br/>Дополнительный эффект: поглощает 100% нанесенного урона в виде HP<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 04": {
@@ -757,7 +757,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 1,000 всем окружающим противникам.<br/>Сила атаки увеличивается до 10,000, когда значение HP близко к максимальному.<br/>Расходует 10% текущего HP при использовании.<br/>Дополнительный эффект: снижает наносимый целью урон на 10%<br/>Продолжительность: 10 сек.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 07": {
@@ -796,7 +796,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 10,000.<br/>Может быть использовано только под действием эффекта Inner Release.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 10": {
@@ -809,7 +809,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 10,000 по цели и всем окружающим противникам.<br/>Сила атаки Inner Release: 14,000<br/>Может быть использовано только под действием эффекта Primal Ruination Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 11": {
@@ -822,7 +822,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 12,000 по всем окружающим противникам.<br/>Сила атаки Inner Release: 16,000<br/>Может быть использовано только под действием эффекта Inner Chaos Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 12": {
@@ -835,7 +835,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 8,000 по всем окружающим противникам.<br/>Сила атаки Inner Release: 12,000<br/>Может быть использовано только под действием эффекта Chaotic Cyclone Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	},
 	"PVP Skill 13": {
@@ -860,7 +860,7 @@
 		"radius_img": "R4",
 		"radius": "12y",
 		"content": "Издает кровавый крик в конусе перед собой, лишая противников возможности использовать Guard.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффекты Inner Release и Thrill of Battle<br/>Эффект Inner Release: увеличивает силу атаки Primal Rend и Chaotic Cyclone, повышает скорость передвижения на 25% и дает иммунитет к эффектам оглушения (stun), сна (sleep), связывания (bind), тяжести (heavy), полу сна (half-sleep), сна (sleep) и глубокой заморозки (deep freeze), а также к отбрасывающим и притягивающим эффектам<br/>Продолжительность: 15 сек.<br/>Невозможно использовать Guard, находясь под действием эффекта Inner Release<br/>Эффект Thrill of Battle: увеличивает максимальное количество HP на 20% и восстанавливает их в том же количестве<br/>Продолжительность: 30 сек.<br/>Дает стак Burgeoning Fury после использования боевых навыков, максимум 3.<br/>Продолжительность: 15 сек.<br/>При максимуме стаков становится Wrathful, заменяя Primal Scream на Primal Wrath.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※Storm's Path Combo меняется на Fell Cleave под действием Inner Release.",
-		"skill_update": true,
+		"skill_update": false,
 		"skill_new": false
 	}
 }

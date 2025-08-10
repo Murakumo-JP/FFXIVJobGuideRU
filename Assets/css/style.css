@@ -20,7 +20,7 @@
   --link: #fffed1;
   --text-color: white;
   --block-width: 472px;
-  --main-header-img: url("../img/JobIndex/header_7_2.png") no-repeat top center, linear-gradient(90deg, #63558a 0%, #8a486c 100%);
+  --main-header-img: url("../img/JobIndex/header_7_3.png") #f5f0ea no-repeat top center;
   /* --main-header-img: url('../img/JobIndex/header_DT.png') no-repeat top center, linear-gradient(90deg, #63558a 0%, #8a486c 100%); */
 }
 
@@ -35,12 +35,20 @@
 body {
   overflow-y: hidden;
   overflow-x: hidden;
+  /* Удалить этот блок после патча 7.3 */
+  /*----------------------------------*/
 }
 body.light-theme {
   background-color: var(--color-set-3);
 }
 body.dark-theme {
   background-color: var(--color-set-1);
+}
+body.app_index {
+  background-color: #f5f0ea;
+}
+body.app_index .main_app {
+  background-color: #f5f0ea;
 }
 
 /* Dark */
