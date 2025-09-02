@@ -6,7 +6,7 @@ $(document).ready(() => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
 		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
 	};
-	addUpdateInfo("05.08.2025", "7.3", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/d59ffe73a7f15c0991239761c7c0b715a17e785c");
+	addUpdateInfo("02.09.2025", "7.31", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/e0d5d1beea95c9dc0e71f280e24da25c699e1216");
 
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
 
