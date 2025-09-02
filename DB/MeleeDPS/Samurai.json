@@ -823,7 +823,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает Meikyo Shisui.<br/>Эффект Meikyo Shisui: снимает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: накладывает эффект Tendo Setsugekka Ready<br/>Продолжительность: 10 сек.<br/><br/>※Умение меняется на Midare Setsugekka под действием эффекта Midare.",
+		"content": "Накладывает Meikyo Shisui.<br/>Эффект Meikyo Shisui: снимает все статусные негативные эффекты, которые можно снять с помощью Purify<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Tendo Setsugekka Ready<br/>Продолжительность: 10 сек.<br/><br/>※Умение меняется на Midare Setsugekka под действием эффекта Midare.",
 		"skill_update": false,
 		"skill_new": false
 	},
