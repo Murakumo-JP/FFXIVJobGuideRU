@@ -1,6 +1,6 @@
 {
 	"PVE Update": "Последнее обновление: 05/08/2025",
-	"PVP Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 02/09/2025",
 	"PVE Skill 01": {
 		"name": "Bootshine",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/042e3be3ea0a054e9fa9cb7db61dd0a14a3622f7.png",
@@ -809,7 +809,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 5,500.<br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 02": {
@@ -822,7 +822,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Dragon Kick<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 03": {
@@ -835,7 +835,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 6,500.<br/>Комбо умение: True Strike<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 04": {
@@ -848,7 +848,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Demolish<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 05": {
@@ -861,7 +861,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 7,500.<br/>Комбо умение: Leaping Opo<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 06": {
@@ -874,7 +874,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Rising Raptor<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 07": {
@@ -887,7 +887,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон по цели и всем окружающим противникам с силой атаки 12,000.<br/>Комбо умение: Pouncing Coeurl<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 08": {
@@ -978,7 +978,7 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий физический урон всем ближайшим противникам и восстанавливает HP персонажа.<br/>Сила урона: 4,000 плюс 25% от полученного урона<br/>Сила лечения: 8,000 плюс 50 % от полученного урона<br/>Может быть использовано только под действием эффекта Earth Resonance.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill LB": {

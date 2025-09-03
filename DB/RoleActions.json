@@ -415,7 +415,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстановление HP персонажа.<br/>Сила лечения: 15,000"
+		"content": "Восстановление HP персонажа.<br/>Сила лечения: 15,000",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Actions 03": {
 		"name": "Purify",

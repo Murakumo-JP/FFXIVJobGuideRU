@@ -1,6 +1,6 @@
 {
 	"PVE Update": "Последнее обновление: 05/08/2025",
-	"PVP Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 02/09/2025",
 	"PVE Skill 01": {
 		"name": "Spinning Edge",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/657b568d32fd379339d365704c75ee7ca7e0cbd9.png",
@@ -954,7 +954,7 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Рывок к цели, наносящий урон с силой атаки 6,000.<br/>Дополнительный эффект: stun (оглушение)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает Fleeting Raiju Ready<br/>Продолжительность: 5 сек.<br/>Может быть использован только под действием эффекта Three Mudra.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Aeolian Edge Combo меняется на Fleeting Raiju под действием эффекта Fleeting Raiju Ready.<br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
+		"skill_update": true,
 		"skill_new": false
 	},
 	"PVP Skill 12": {
