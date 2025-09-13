@@ -35,7 +35,11 @@ $(document).ready(() => {
 		$tabContents.each(function () {
 			$(this).toggleClass("active", $(this).data("tab") === id);
 		});
-		history.replaceState(null, null, `#${id}`);
+
+		const url = new URL(window.location);
+		url.searchParams.delete("skill");
+		url.hash = id;
+		history.replaceState(null, null, url.toString());
 	};
 
 	$(".js-tab-trigger").on("click", function (e) {
@@ -43,6 +47,7 @@ $(document).ready(() => {
 		const id = $(this).data("tab");
 		activateTab(id);
 	});
+
 	$(document).ready(() => {
 		const hash = location.hash.substring(1);
 		if (hash) {
