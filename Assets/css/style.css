@@ -3037,3 +3037,36 @@ body.dark-theme .theme-toggle-btn {
   transform: none;
   pointer-events: none;
 }
+
+/* --- Debug --- */
+#debug-menu {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  background: rgba(30, 30, 30, 0.95);
+  color: #fff;
+  padding: 15px 10px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 9999;
+  width: -moz-max-content;
+  width: max-content;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+#debug-menu button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 7px 10px;
+  background: #444;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  transition: background 0.2s ease;
+}
+#debug-menu button:hover {
+  background: #666;
+}
