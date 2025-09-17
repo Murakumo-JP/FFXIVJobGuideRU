@@ -1,6 +1,5 @@
 $(document).ready(() => {
 	const WarningEnabled = false;
-	const DebugEnabled = false;
 	// Info Update
 	const addUpdateInfo = (date, patchVersion, patchLink) => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
@@ -114,24 +113,6 @@ $(document).ready(() => {
 			});
 		};
 		showErrorInfo("Error");
-	}
-	// Debug
-	if (DebugEnabled) {
-		$("a").each(function () {
-			let href = $(this).attr("href");
-			if (!href) return;
-			if (href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#")) return;
-			if (!href.endsWith(".html")) {
-				$(this).attr("href", href + ".html");
-			}
-		});
-		$("tr").each(function () {
-			const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
-				.map((attr) => $(this).attr(attr))
-				.filter(Boolean)
-				.join(", ");
-			if (titleText) $(this).attr("title", titleText);
-		});
 	}
 	// Search
 	const initSearch = () => {
@@ -257,5 +238,49 @@ $(document).ready(() => {
 	const savedTheme = localStorage.getItem("theme") || "light";
 	applyTheme(savedTheme);
 
-	$("#themeToggle").on("click", toggleTheme);
+	$(".theme-toggle-btn").on("click", toggleTheme);
+
+	const button_theme = $(".theme-toggle-btn");
+	$(window).on("scroll", () => {
+		$(window).scrollTop() >= 200 ? button_theme.fadeIn() : button_theme.fadeOut();
+	});
+});
+// Debug Code
+$(document).ready(() => {
+	const DebugEnabled = true;
+	if (!DebugEnabled) return;
+
+	function fixLinks() {
+		$("a").each(function () {
+			const href = $(this).attr("href");
+			if (!href || href.startsWith("mailto:") || href.startsWith("#") || href.endsWith(".html")) return;
+
+			const [path, query] = href.split("?");
+			let newHref;
+
+			newHref = href.startsWith("/Page/") || href.startsWith("Page/") ? path + ".html" : !href.includes("/") ? "/Page/" + path + ".html" : path + ".html";
+
+			if (query) newHref += "?" + query;
+			$(this).attr("href", newHref);
+		});
+	}
+
+	$("tr").each(function () {
+		const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
+			.map((attr) => $(this).attr(attr))
+			.filter(Boolean)
+			.join(", ");
+		if (titleText) $(this).attr("title", titleText);
+	});
+
+	const $menu = $(`
+		 <div id="debug-menu">
+		 		<a>DEBUG</a>
+			 	<button id="btn-fix-links">Add .html</button>
+		 </div>
+	`);
+
+	$("body").append($menu);
+	$("#btn-fix-links").click(fixLinks);
+	fixLinks();
 });

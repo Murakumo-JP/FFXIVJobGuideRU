@@ -54,27 +54,27 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const urlParams = new URLSearchParams(window.location.search);
 	const encodedSkill = urlParams.get("skill");
 
-	if (encodedSkill) {
-		try {
-			const scrollToSkill = atob(encodedSkill);
-			let attempts = 0;
-			let maxAttempts = 20;
+	if (!encodedSkill) return;
 
-			const interval = setInterval(() => {
-				const target = document.querySelector(`[db-skill='${scrollToSkill}']`);
-				if (target) {
-					const offset = 48;
-					const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-					$("html, body").animate({scrollTop: top}, 500);
-					clearInterval(interval);
-				} else if (++attempts >= maxAttempts) {
-					clearInterval(interval);
-					console.warn("Не найден элемент:", scrollToSkill);
-				}
-			}, 100);
-		} catch (error) {
-			console.error("Ошибка декодирования skill:", error);
-		}
+	try {
+		const scrollToSkill = atob(encodedSkill);
+		let attempts = 0;
+		const maxAttempts = 20;
+
+		const interval = setInterval(() => {
+			const target = document.querySelector(`[db-skill='${scrollToSkill}']`);
+			if (target) {
+				const offset = 48;
+				const top = target.getBoundingClientRect().top + window.scrollY - offset;
+				$("html, body").animate({scrollTop: top}, 500);
+				clearInterval(interval);
+			} else if (++attempts >= maxAttempts) {
+				clearInterval(interval);
+				console.warn("Элемент не найден для прокрутки:", scrollToSkill);
+			}
+		}, 100);
+	} catch (error) {
+		console.error("Ошибка декодирования skill:", error);
 	}
 }
 
