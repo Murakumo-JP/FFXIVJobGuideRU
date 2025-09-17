@@ -117,11 +117,13 @@ $(document).ready(() => {
 	}
 	// Debug
 	if (DebugEnabled) {
-		document.addEventListener("DOMContentLoaded", () => {
-			$("a").click(function (e) {
-				e.preventDefault();
-				window.location.href = `${$(this).attr("href")}.html`;
-			});
+		$("a").each(function () {
+			let href = $(this).attr("href");
+			if (!href) return;
+			if (href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#")) return;
+			if (!href.endsWith(".html")) {
+				$(this).attr("href", href + ".html");
+			}
 		});
 		$("tr").each(function () {
 			const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
