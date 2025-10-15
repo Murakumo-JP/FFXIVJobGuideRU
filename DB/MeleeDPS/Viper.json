@@ -1161,7 +1161,7 @@
 		"name": "World-swallower",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ed95dc742df4e9795e7c0a72e18eb72d0d00293a.png",
 		"cast": "Мгновенная",
-		"recast": "10 сек.",
+		"recast": "12 сек.",
 		"range": "20y",
 		"radius_img": "R2",
 		"radius": "5y",

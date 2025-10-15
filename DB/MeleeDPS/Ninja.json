@@ -884,7 +884,7 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/df52e05ddb6ca5801114faf60e5ba05442c5cb6f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
-		"recast": "16 сек.",
+		"recast": "15 сек.",
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
