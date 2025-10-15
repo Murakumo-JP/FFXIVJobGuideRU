@@ -1,12 +1,11 @@
 $(document).ready(() => {
 	const WarningEnabled = false;
-	const DebugEnabled = false;
 	// Info Update
 	const addUpdateInfo = (date, patchVersion, patchLink) => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
 		$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${patchLink}">патчноутам</a>.`);
 	};
-	addUpdateInfo("02.09.2025", "7.31", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/e0d5d1beea95c9dc0e71f280e24da25c699e1216");
+	addUpdateInfo("09.10.2025", "7.35", "https://eu.finalfantasyxiv.com/lodestone/topics/detail/3daca4ab4ea59852a865769ad4a9ecadd4b43d21");
 
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
 
@@ -114,24 +113,6 @@ $(document).ready(() => {
 			});
 		};
 		showErrorInfo("Error");
-	}
-	// Debug
-	if (DebugEnabled) {
-		$("a").each(function () {
-			let href = $(this).attr("href");
-			if (!href) return;
-			if (href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#")) return;
-			if (!href.endsWith(".html")) {
-				$(this).attr("href", href + ".html");
-			}
-		});
-		$("tr").each(function () {
-			const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
-				.map((attr) => $(this).attr(attr))
-				.filter(Boolean)
-				.join(", ");
-			if (titleText) $(this).attr("title", titleText);
-		});
 	}
 	// Search
 	const initSearch = () => {
@@ -258,4 +239,43 @@ $(document).ready(() => {
 	applyTheme(savedTheme);
 
 	$("#themeToggle").on("click", toggleTheme);
+});
+// Debug Code
+$(document).ready(() => {
+	const DebugEnabled = false;
+	if (!DebugEnabled) return;
+
+	function fixLinks() {
+		$("a").each(function () {
+			const href = $(this).attr("href");
+			if (!href || href.startsWith("mailto:") || href.startsWith("#") || href.endsWith(".html")) return;
+
+			const [path, query] = href.split("?");
+			let newHref;
+
+			newHref = href.startsWith("/Page/") || href.startsWith("Page/") ? path + ".html" : !href.includes("/") ? "/Page/" + path + ".html" : path + ".html";
+
+			if (query) newHref += "?" + query;
+			$(this).attr("href", newHref);
+		});
+	}
+
+	$("tr").each(function () {
+		const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
+			.map((attr) => $(this).attr(attr))
+			.filter(Boolean)
+			.join(", ");
+		if (titleText) $(this).attr("title", titleText);
+	});
+
+	const $menu = $(`
+		 <div id="debug-menu">
+		 		<a>DEBUG</a>
+			 	<button id="btn-fix-links">Add .html</button>
+		 </div>
+	`);
+
+	$("body").append($menu);
+	$("#btn-fix-links").click(fixLinks);
+	fixLinks();
 });
