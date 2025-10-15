@@ -1,6 +1,5 @@
 $(document).ready(() => {
 	const WarningEnabled = false;
-	const DebugEnabled = true;
 	// Info Update
 	const addUpdateInfo = (date, patchVersion, patchLink) => {
 		$("#inner_update").prepend(`<p>Последнее обновление: ${date} | Патч: ${patchVersion}</p>`);
@@ -243,7 +242,7 @@ $(document).ready(() => {
 });
 // Debug Code
 $(document).ready(() => {
-	const DebugEnabled = true;
+	const DebugEnabled = false;
 	if (!DebugEnabled) return;
 
 	function fixLinks() {
