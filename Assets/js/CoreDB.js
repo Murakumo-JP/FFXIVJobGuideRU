@@ -45,11 +45,39 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 
 	const updateFlags = await loadUpdateFlags();
 	const currentJobCode = document.body.id;
-	const jobUpdateFlags = updateFlags[currentJobCode] || {};
+	const jobData = updateFlags[currentJobCode] || {};
+
+	const jobSkills = {};
+	const jobUpdates = {};
+
+	Object.entries(jobData).forEach(([key, value]) => {
+		if (key.includes("Skill")) {
+			jobSkills[key] = value;
+		} else if (key.includes("Update")) {
+			jobUpdates[key] = value;
+		}
+	});
 
 	Object.keys(renderers).forEach((attr) => {
 		document.querySelectorAll(`[${attr}]`).forEach((el) => {
 			const key = el.getAttribute(attr);
+
+			if (attr === "db-value") {
+				if (jobUpdates[key]) {
+					el.textContent = jobUpdates[key];
+					return;
+				}
+
+				const value = getValueRecursive(key, DB);
+				if (typeof value === "undefined") {
+					console.error(`db-value "${key}" не найден ни в Update.json, ни в базе`);
+					return;
+				}
+
+				el.textContent = renderValue(value);
+				return;
+			}
+
 			const value = getValueRecursive(key, DB);
 			if (typeof value === "undefined") {
 				console.error(`${attr} "${key}" не найден`);
@@ -59,7 +87,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 			const isMainTable = el.closest("tbody.job_tbody");
 			const prefix = isMainTable ? "skill" : "menu";
 
-			if (jobUpdateFlags[key]) {
+			if (jobSkills[key]) {
 				el.classList.add(`${prefix}_update`);
 			}
 
