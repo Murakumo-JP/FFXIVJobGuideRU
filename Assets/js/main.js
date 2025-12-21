@@ -54,7 +54,7 @@ $(document).ready(() => {
 	function addUpdateInfo() {
 		const updateDate = "16.12.2025";
 		const patchVersion = "7.4";
-		const patchLink = "https://eu.finalfantasyxiv.com/lodestone/topics/detail/";
+		const patchLink = "https://eu.finalfantasyxiv.com/lodestone/topics/detail/597d1b99656a1a0d3ba6501a48d43ec46c667068";
 
 		$("#inner_update").prepend(`<p>Последнее обновление: ${updateDate} | Патч: ${patchVersion}</p>`);
 
