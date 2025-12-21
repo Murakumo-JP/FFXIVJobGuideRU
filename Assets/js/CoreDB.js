@@ -1,4 +1,4 @@
-const DB_VERSION = "10.10.2025";
+const DB_VERSION = "16.12.2025";
 
 async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const renderers = {
@@ -56,22 +56,102 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 
 	if (encodedSkill) {
 		try {
-			const scrollToSkill = atob(encodedSkill);
-			let attempts = 0;
-			let maxAttempts = 20;
+			const decodedSkill = decodeURIComponent(atob(encodedSkill));
 
-			const interval = setInterval(() => {
-				const target = document.querySelector(`[db-skill='${scrollToSkill}']`);
-				if (target) {
-					const offset = 48;
-					const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
-					$("html, body").animate({scrollTop: top}, 500);
-					clearInterval(interval);
-				} else if (++attempts >= maxAttempts) {
-					clearInterval(interval);
-					console.warn("Не найден элемент:", scrollToSkill);
-				}
-			}, 100);
+			const waitForJQuery = (callback, maxAttempts = 50, interval = 100) => {
+				let attempts = 0;
+
+				const checkJQuery = () => {
+					if (typeof jQuery !== "undefined" && jQuery.fn) {
+						callback();
+					} else if (++attempts < maxAttempts) {
+						setTimeout(checkJQuery, interval);
+					} else {
+						console.warn("jQuery не загрузилась, используем нативную прокрутку");
+						nativeScrollToSkill(decodedSkill);
+					}
+				};
+
+				checkJQuery();
+			};
+
+			const nativeScrollToSkill = (skillId) => {
+				let attempts = 0;
+				const maxAttempts = 30;
+				const offset = 48;
+
+				const scrollInterval = setInterval(() => {
+					const target = document.querySelector(`[db-skill='${skillId}']`);
+					if (target) {
+						const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+						const scrollPosition = targetPosition - offset;
+
+						window.scrollTo({
+							top: scrollPosition,
+							behavior: "smooth",
+						});
+
+						const tabElement = target.closest(".js-tab-content");
+						if (tabElement && tabElement.dataset.tab) {
+							if (typeof window.activateTab === "function") {
+								window.activateTab(tabElement.dataset.tab);
+							} else {
+								const tabTrigger = document.querySelector(`.js-tab-trigger[data-tab="${tabElement.dataset.tab}"]`);
+								if (tabTrigger) {
+									tabTrigger.click();
+								}
+							}
+						}
+
+						clearInterval(scrollInterval);
+					} else if (++attempts >= maxAttempts) {
+						clearInterval(scrollInterval);
+						console.warn("Не найден элемент:", skillId);
+					}
+				}, 100);
+			};
+
+			waitForJQuery(() => {
+				scrollToSkillWithJQuery(decodedSkill);
+			});
+
+			function scrollToSkillWithJQuery(skillId) {
+				let attempts = 0;
+				const maxAttempts = 30;
+				const offset = 48;
+
+				const interval = setInterval(() => {
+					const target = $(`[db-skill='${skillId}']`);
+					if (target.length) {
+						const targetPosition = target.offset().top;
+						const scrollPosition = targetPosition - offset;
+
+						$("html, body").animate(
+							{
+								scrollTop: scrollPosition,
+							},
+							500
+						);
+
+						const tabElement = target.closest(".js-tab-content");
+						if (tabElement.length && tabElement.data("tab")) {
+							if (typeof window.activateTab === "function") {
+								window.activateTab(tabElement.data("tab"));
+							} else {
+								const tabTrigger = $(`.js-tab-trigger[data-tab="${tabElement.data("tab")}"]`);
+								if (tabTrigger.length) {
+									tabTrigger.trigger("click");
+								}
+							}
+						}
+
+						clearInterval(interval);
+					} else if (++attempts >= maxAttempts) {
+						clearInterval(interval);
+						console.warn("Не найден элемент:", skillId);
+					}
+				}, 100);
+			}
 		} catch (error) {
 			console.error("Ошибка декодирования skill:", error);
 		}
