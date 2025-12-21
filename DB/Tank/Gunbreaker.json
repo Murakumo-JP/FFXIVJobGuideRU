@@ -12,7 +12,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 300."
+		"content": "Удар, наносящий урон с силой атаки 300.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 02": {
 		"name": "No Mercy",
@@ -25,7 +27,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает наносимый урон на 20%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Ready to Break<br/>Продолжительность: 30 сек."
+		"content": "Увеличивает наносимый урон на 20%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Ready to Break<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 03": {
 		"name": "Brutal Shell",
@@ -38,7 +42,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Keen Edge<br/>Сила в комбо: 380<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 200<br/>Комбо бонус: создает барьер, обнуляющий входящий урон, равный количеству восстановленного HP<br/>Продолжительность: 30 сек."
+		"content": "Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Keen Edge<br/>Сила в комбо: 380<br/>Комбо бонус: восстанавливает HP персонажа<br/>Сила лечения: 200<br/>Комбо бонус: создает барьер, обнуляющий входящий урон, равный количеству восстановленного HP<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 04": {
 		"name": "Camouflage",
@@ -51,7 +57,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает шанс парирования на 50% и снижает получаемый урон на 10%.<br/>Продолжительность: 20 сек."
+		"content": "Увеличивает шанс парирования на 50% и снижает получаемый урон на 10%.<br/>Продолжительность: 20 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 05": {
 		"name": "Demon Slice",
@@ -64,7 +72,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br/>Дополнительный эффект: повышает уровень угрозы"
+		"content": "Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br/>Дополнительный эффект: повышает уровень угрозы",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 06": {
 		"name": "Royal Guard",
@@ -77,7 +87,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Танковая стойка. Значительно повышает генерацию уровня угрозы.<br/>Эффект спадает при повторном использовании."
+		"content": "Танковая стойка. Значительно повышает генерацию уровня угрозы.<br/>Эффект спадает при повторном использовании.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 07": {
 		"name": "Release Royal Guard",
@@ -90,7 +102,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Отменяет эффект Royal Guard."
+		"content": "Отменяет эффект Royal Guard.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 08": {
 		"name": "Lightning Shot",
@@ -103,7 +117,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 150.<br/>Дополнительный эффект: повышает уровень угрозы."
+		"content": "Дальний удар, наносящий урон с силой атаки 150.<br/>Дополнительный эффект: повышает уровень угрозы.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 09": {
 		"name": "Danger Zone",
@@ -116,7 +132,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 250."
+		"content": "Удар, наносящий урон с силой атаки 250.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 10": {
 		"name": "Solid Barrel",
@@ -129,7 +147,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Brutal Shell<br/>Сила в комбо: 460<br/>Комбо бонус: добавляет Cartridge на шкалу Powder Gauge"
+		"content": "Удар, наносящий урон с силой атаки 240.<br/>Комбо умение: Brutal Shell<br/>Сила в комбо: 460<br/>Комбо бонус: добавляет Cartridge на шкалу Powder Gauge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 11": {
 		"name": "Burst Strike",
@@ -142,7 +162,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 460.<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Blast заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge"
+		"content": "Удар, наносящий урон с силой атаки 420.<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Blast заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 12": {
 		"name": "Nebula",
@@ -155,7 +177,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый урон на 30%.<br/>Продолжительность: 15 сек."
+		"content": "Снижает получаемый урон на 30%.<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 13": {
 		"name": "Demon Slaughter",
@@ -168,7 +192,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Комбо умение: Demon Slice<br/>Сила в комбо: 160<br/>Комбо бонус: добавляет Cartridge на шкалу Powder Gauge"
+		"content": "Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Комбо умение: Demon Slice<br/>Сила в комбо: 160<br/>Комбо бонус: добавляет Cartridge на шкалу Powder Gauge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 14": {
 		"name": "Aurora",
@@ -181,7 +207,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает на цель эффект периодического лечения (regen).<br/>Сила лечения: 300<br/>Продолжительность: 18 сек.<br/>Максимум зарядов: 2"
+		"content": "Накладывает на цель эффект периодического лечения (regen).<br/>Сила лечения: 300<br/>Продолжительность: 18 сек.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 15": {
 		"name": "Superbolide",
@@ -194,7 +222,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Уменьшает HP на 50% от максимального и делает персонажа невосприимчивым к большинству атак.<br/>Продолжительность: 10 сек."
+		"content": "Уменьшает HP на 50% от максимального и делает персонажа невосприимчивым к большинству атак.<br/>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 16": {
 		"name": "Sonic Break",
@@ -207,7 +237,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 300.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.<br/>Может быть использовано только при активном эффекте Ready to Break."
+		"content": "Удар, наносящий урон с силой атаки 340.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.<br/>Может быть использовано только при активном эффекте Ready to Break.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 17": {
 		"name": "Trajectory",
@@ -220,7 +252,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок к выбранному противнику.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Количество зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение."
+		"content": "Рывок к выбранному противнику.<br/>Дополнительный эффект: повышает уровень угрозы<br/>Количество зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 18": {
 		"name": "Gnashing Fang",
@@ -233,7 +267,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 500.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Rip заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge<br/>Этот боевой навык не имеет общего время восстановления с другими умениями."
+		"content": "Удар, наносящий урон с силой атаки 440.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Rip заканчивается после использования любого боевого навыка.<br/>Стоимость: 1 Cartridge<br/>Количество зарядов: 2<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 19": {
 		"name": "Savage Claw",
@@ -246,7 +282,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 560.<br/>Комбо умение: Gnashing Fang<br/>Комбо бонус: накладывает эффект Ready to Tear<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Tear заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Gnashing Fang меняется на Savage Claw при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 500.<br/>Комбо умение: Gnashing Fang<br/>Комбо бонус: накладывает эффект Ready to Tear<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Tear заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Gnashing Fang меняется на Savage Claw при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 20": {
 		"name": "Wicked Talon",
@@ -259,7 +297,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 620.<br/>Комбо умение: Savage Claw<br/>Комбо бонус: накладывает эффект Ready to Gouge<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Gouge заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Savage Claw меняется на Wicked Talon при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 560.<br/>Комбо умение: Savage Claw<br/>Комбо бонус: накладывает эффект Ready to Gouge<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Gouge заканчивается после использования любого боевого навыка.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Savage Claw меняется на Wicked Talon при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 21": {
 		"name": "Bow Shock",
@@ -272,7 +312,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 150 по всем окружающим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 15 сек."
+		"content": "Удар, наносящий урон с силой атаки 150 по всем окружающим противникам.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 60<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 22": {
 		"name": "Heart of Light",
@@ -285,7 +327,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Снижает получаемый физический на 5% и магический урон на 10% персонажу и сопартийцами в радиусе действия.<br/>Продолжительность: 15 сек."
+		"content": "Снижает получаемый физический на 5% и магический урон на 10% персонажу и сопартийцами в радиусе действия.<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 23": {
 		"name": "Heart of Stone",
@@ -298,7 +342,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый персонажем или выбранным сопартийцем урон на 15%.<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: если умение накладывается на сопартийца и при этом персонаж находится под эффектом Brutal Shell, он также накладывается на сопартийца<br/>Продолжительность: 30 сек."
+		"content": "Снижает получаемый персонажем или выбранным сопартийцем урон на 15%.<br/>Продолжительность: 7 сек.<br/>Дополнительный эффект: если умение накладывается на сопартийца и при этом персонаж находится под эффектом Brutal Shell, он также накладывается на сопартийца<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 24": {
 		"name": "Continuation",
@@ -312,7 +358,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.<br/>После Fated Circle может быть использован Fated Brand."
+		"content": "Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.<br/>После Fated Circle может быть использован Fated Brand.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 25": {
 		"name": "Jugular Rip",
@@ -325,7 +373,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 240.<br/>Возможно использовать только под действием эффекта Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Jugular Rip при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 220.<br/>Возможно использовать только под действием эффекта Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Jugular Rip при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 26": {
 		"name": "Abdomen Tear",
@@ -338,7 +388,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 280.<br/>Возможно использовать только под действием эффекта Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Abdomen Tear при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 260.<br/>Возможно использовать только под действием эффекта Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Abdomen Tear при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 27": {
 		"name": "Eye Gouge",
@@ -351,7 +403,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 320.<br/>Возможно использовать только под действием эффекта Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Eye Gouge при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 300.<br/>Возможно использовать только под действием эффекта Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Eye Gouge при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 28": {
 		"name": "Fated Circle",
@@ -364,7 +418,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Стоимость: 1 Cartridge<br/>Дополнительный эффект: накладывает эффект Ready to Raze<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Raze заканчивается при использовании любого боевого навыка.<br/>Стоимость: 1 Cartridge"
+		"content": "Удар, наносящий урон с силой атаки 300 по всем окружающим противникам.<br/>Стоимость: 1 Cartridge<br/>Дополнительный эффект: накладывает эффект Ready to Raze<br/>Продолжительность: 10 сек.<br/>Эффект Ready to Raze заканчивается при использовании любого боевого навыка.<br/>Стоимость: 1 Cartridge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 29": {
 		"name": "Bloodfest",
@@ -373,11 +429,13 @@
 		"level": "76",
 		"classification": "Способность",
 		"cast": "Мгновенная",
-		"recast": "120 сек.",
+		"recast": "60 сек.",
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Вытягивает энергию эфира из цели, добавляя 3 Cartridges на шкалу Powder Gauge.<br/>Дополнительный эффект: накладывает эффект Ready to Reign<br/>Продолжительность: 30 сек."
+		"content": "Вытягивает энергию эфира из цели, добавляя 3 Cartridges на шкалу Powder Gauge и увеличивая максимальное количество Cartridges до 6.<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Ready to Reign<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 30": {
 		"name": "Blasting Zone",
@@ -390,7 +448,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 800."
+		"content": "Удар, наносящий урон с силой атаки 800.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 31": {
 		"name": "Heart of Corundum",
@@ -403,7 +463,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый персонажем или выбранным сопартийцем урон на 15%.<br/>Продолжительность: 8 сек.<br/>Дополнительный эффект: если умение накладывается на сопартийца и при этом персонаж находится под эффектом Brutal Shell, он также накладывается на сопартийца<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает на цель эффект Clarity of Corundum<br/>Эффект Clarity of Corundum: снижает получаемый урон на 15%<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: накладывает на цель эффект Catharsis of Corundum<br/>Эффект Catharsis of Corundum: восстанавливает HP, когда HP падает ниже 50% или по истечении срока действия эффекта<br/>Сила лечения: 900<br/>Продолжительность: 20 сек."
+		"content": "Снижает получаемый персонажем или выбранным сопартийцем урон на 15%.<br/>Продолжительность: 8 сек.<br/>Дополнительный эффект: если умение накладывается на сопартийца и при этом персонаж находится под эффектом Brutal Shell, он также накладывается на сопартийца<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает на цель эффект Clarity of Corundum<br/>Эффект Clarity of Corundum: снижает получаемый урон на 15%<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: накладывает на цель эффект Catharsis of Corundum<br/>Эффект Catharsis of Corundum: восстанавливает HP, когда HP падает ниже 50% или по истечении срока действия эффекта<br/>Сила лечения: 900<br/>Продолжительность: 20 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 32": {
 		"name": "Hypervelocity",
@@ -416,7 +478,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 200.<br/>Возможно использовать только под эффектом Ready to Blast.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Hypervelocity при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 180.<br/>Возможно использовать только под эффектом Ready to Blast.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Hypervelocity при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 33": {
 		"name": "Double Down",
@@ -429,7 +493,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,200 для первого и на 15% меньше для всех остальных.<br/>Стоимость: 1 Cartridge<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями."
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,000 для первого и на 15% меньше для всех остальных.<br/>Стоимость: 2 Cartridge<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 34": {
 		"name": "Great Nebula",
@@ -442,7 +508,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый урон на 40%.<br/>Дополнительный эффект: увеличивает максимальное количество HP на 20% и восстанавливает увеличенное количество.<br/>Продолжительность: 15 сек."
+		"content": "Снижает получаемый урон на 40%.<br/>Дополнительный эффект: увеличивает максимальное количество HP на 20% и восстанавливает увеличенное количество.<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 35": {
 		"name": "Fated Brand",
@@ -455,7 +523,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 120 по всем окружающим противникам.<br/>Возможно использовать только находясь под действием эффекта Ready to Raze.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Fated Brand при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 120 по всем окружающим противникам.<br/>Возможно использовать только находясь под действием эффекта Ready to Raze.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Continuation меняется на Fated Brand при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 36": {
 		"name": "Reign of Beasts",
@@ -468,7 +538,9 @@
 		"range": "3y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,000 для первого и на 60% меньше для всех остальных.<br/>Возможно использовать только находясь под действием эффекта Ready to Raze."
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 800 для первого и на 60% меньше для всех остальных.<br/>Возможно использовать только находясь под действием эффекта Ready to Raze.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 37": {
 		"name": "Noble Blood",
@@ -481,7 +553,9 @@
 		"range": "3y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,100 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Reign of Beasts<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Reign of Beasts меняется на Noble Blood при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 900 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Reign of Beasts<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Reign of Beasts меняется на Noble Blood при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 38": {
 		"name": "Lion Heart",
@@ -494,105 +568,135 @@
 		"range": "3y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,200 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Noble Blood<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Noble Blood меняется на Lion Heart при соблюдении требований к выполнению"
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 1,000 для первого и на 60% меньше для всех остальных.<br/>Комбо умение: Noble Blood<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Noble Blood меняется на Lion Heart при соблюдении требований к выполнению",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "GNB",
 		"level": "1",
-		"content": "Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength)."
+		"content": "Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength).",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 02": {
 		"name": "Cartridge Charge",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e4e638d735e97d969ad1bbb6558ac8a8abe7fe15.png",
 		"job_icon": "GNB",
 		"level": "30",
-		"content": "Добавляет Cartridge в шкалу Powder Gauge после успешного использования комбо с Solid Barrel.<br/>Максимум: 2 Cartridge"
+		"content": "Добавляет Cartridge в шкалу Powder Gauge после успешного использования комбо с Solid Barrel.<br/>Максимум: 2 Cartridge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 03": {
 		"name": "Enhanced No Mercy",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/720c9e99130d321869f43956ed85abd1b11f512b.png",
 		"job_icon": "GNB",
 		"level": "54",
-		"content": "Позволяет наложить эффект Ready to Break после использования No Mercy."
+		"content": "Позволяет наложить эффект Ready to Break после использования No Mercy.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 04": {
 		"name": "Enhanced Brutal Shell",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f222fb36167954d21f86b99d1e24a5c11eebd0d4.png",
 		"job_icon": "GNB",
 		"level": "52",
-		"content": "Позволяет наложить эффект Brutal Shell после успешного использования комбо с Brutal Shell.<br/>Продолжительность: 30 сек."
+		"content": "Позволяет наложить эффект Brutal Shell после успешного использования комбо с Brutal Shell.<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 05": {
 		"name": "Danger Zone Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/14b8867b1e317ddf820ff1ce4ef6a5590643a108.png",
 		"job_icon": "GNB",
 		"level": "80",
-		"content": "Улучшает умение Danger Zone до Blasting Zone."
+		"content": "Улучшает умение Danger Zone до Blasting Zone.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 06": {
 		"name": "Heart of Stone Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ef3d170a508f2962c68fd2c95bdb606244b7f7b5.png",
 		"job_icon": "GNB",
 		"level": "82",
-		"content": "Улучшает Heart of Stone до Heart of Corundum."
+		"content": "Улучшает Heart of Stone до Heart of Corundum.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 07": {
 		"name": "Enhanced Aurora",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cdab08fb238d0ea0fb5fdafb684504d9f9b39d41.png",
 		"job_icon": "GNB",
 		"level": "84",
-		"content": "Позволяет накапливать заряды для последовательного использования Aurora.<br/>Максимум зарядов: 2"
+		"content": "Позволяет накапливать заряды для последовательного использования Aurora.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 08": {
 		"name": "Melee Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "GNB",
 		"level": "84",
-		"content": "Увеличивает силу атаки умениям Keen Edge до 200, Brutal Shell до 160 и Solid Barrel до 140."
+		"content": "Увеличивает силу атаки умениям Keen Edge до 200, Brutal Shell до 160 и Solid Barrel до 140.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 09": {
 		"name": "Enhanced Continuation",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9d916d7b45b51d289bef5373704ca2e4751ded29.png",
 		"job_icon": "GNB",
 		"level": "86",
-		"content": "Позволяет наложить эффект Ready to Blast после использования Burst Strike.<br/>Продолжительность: 10 сек."
+		"content": "Позволяет наложить эффект Ready to Blast после использования Burst Strike.<br/>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 10": {
 		"name": "Cartridge Charge II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d4133f5308e1fc0c138ce0659e65ba3797dc31bd.png",
 		"job_icon": "GNB",
 		"level": "88",
-		"content": "Увеличивает вместимость шкалы Powder Gauge до 3 Cartridges.<br/>Позволяет заряжать 3 Cartridges при использовании умения Bloodfest."
+		"content": "Увеличивает вместимость шкалы Powder Gauge до 3 Cartridges.<br/>Позволяет заряжать 3 Cartridges при использовании умения Bloodfest, увеличивая максимальную вместимость до 6 патронов.<br/>При применении Bloodfest в магазине остается 3 Cartridges.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 11": {
 		"name": "Nebula Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b15792e2c2ccc44dd445fe90e3ee303635b6c3be.png",
 		"job_icon": "GNB",
 		"level": "92",
-		"content": "Улучшает умение Nebula до Great Nebula."
+		"content": "Улучшает умение Nebula до Great Nebula.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 12": {
 		"name": "Melee Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "GNB",
 		"level": "94",
-		"content": "Увеличитвает силу атаки умениям Keen Edge до 300, Brutal Shell до 240, Solid Barrel до 240, Burst Strike до 460, Gnashing Fang до 500, Savage Claw до 560, Wicked Talon до 620, Jugular Rip до 240, Abdomen Tear до 280, Eye Gouge до 320, Blasting Zone до 800 и Hypervelocity до 200."
+		"content": "Увеличивает силу атаки умениям Keen Edge до 300, Brutal Shell до 240, Solid Barrel до 240, Burst Strike до 420, Gnashing Fang до 440, Savage Claw до 500, Wicked Talon до 560, Jugular Rip до 220, Abdomen Tear до 260, Eye Gouge до 300, Blasting Zone до 800 и Hypervelocity до 180.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 13": {
 		"name": "Enhanced Continuation II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0388c677531ad523e8c897686069e587b5eaca68.png",
 		"job_icon": "GNB",
 		"level": "96",
-		"content": "Позволяет наложить эффект Ready to Raze после использования Fated Circle.<br/>Продолжительность: 10 сек.<br/>Continuation меняется на Fated Brand под действием эффекта Ready to Raze."
+		"content": "Позволяет наложить эффект Ready to Raze после использования Fated Circle.<br/>Продолжительность: 10 сек.<br/>Continuation меняется на Fated Brand под действием эффекта Ready to Raze.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 14": {
 		"name": "Enhanced Bloodfest",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4a4fa44bc77a8bc9d1a942936b533ed4cbecb896.png",
 		"job_icon": "GNB",
 		"level": "100",
-		"content": "Накладывает эффект Ready Reign после использования Bloodfest.<br/>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Ready Reign после использования Bloodfest.<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 01": {
 		"name": "Keen Edge",
@@ -603,7 +707,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 02": {
 		"name": "Brutal Shell",
@@ -614,7 +720,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Keen Edge<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Keen Edge<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 03": {
 		"name": "Solid Barrel",
@@ -625,7 +733,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Brutal Shell<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Brutal Shell<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 04": {
 		"name": "Burst Strike",
@@ -636,7 +746,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Solid Barrel<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Hypervelocity под действием эффекта Ready to Blast.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Solid Barrel<br/>Дополнительный эффект: накладывает эффект Ready to Blast<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Hypervelocity под действием эффекта Ready to Blast.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 05": {
 		"name": "Gnashing Fang",
@@ -647,7 +759,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Jugular Rip под действием эффекта Ready to Rip."
+		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Дополнительный эффект: накладывает эффект Ready to Rip<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Jugular Rip под действием эффекта Ready to Rip.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 06": {
 		"name": "Fated Circle",
@@ -658,7 +772,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 8,000 по всем окружающим противникам.<br/>Дополнительный эффект: накладывает эффект Nebula<br/>Продолжительность: 8 сек.<br/>Эффект Nebula: контратакует все входящие атаки<br/>Сила контратаки: 4,000<br/>Дополнительный эффект: накладывает эффект Ready to Raze<br/>Продолжительность: 10 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями."
+		"content": "Удар, наносящий урон с силой атаки 8,000 по всем окружающим противникам.<br/>Дополнительный эффект: накладывает эффект Nebula<br/>Продолжительность: 8 сек.<br/>Эффект Nebula: контратакует все входящие атаки<br/>Сила контратаки: 4,000<br/>Дополнительный эффект: накладывает эффект Ready to Raze<br/>Продолжительность: 10 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 07": {
 		"name": "Continuation",
@@ -669,7 +785,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.<br/>После Fated Circle может быть использован Fated Brand."
+		"content": "Позволяет персонажу проводить последовательные выстрелы, используя ганблейд.<br/>После Gnashing Fang может быть использован Jugular Rip.<br/>После Savage Claw может быть использован Abdomen Tear.<br/>После Wicked Talon может быть использован Eye Gouge.<br/>После Burst Strike может быть использован Hypervelocity.<br/>После Fated Circle может быть использован Fated Brand.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 08": {
 		"name": "Rough Divide",
@@ -680,7 +798,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: накладывает эффект No Mercy<br/>Эффект No Mercy: увеличивает наносимый урон и силу лечения на 10%, а также увеличивает скорость передвижения на 25%<br/>Продолжительность: 7 сек.<br/>Максимум зарядов: 3<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение."
+		"content": "Рывок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: накладывает эффект No Mercy<br/>Эффект No Mercy: увеличивает наносимый урон и силу лечения на 10%, а также увеличивает скорость передвижения на 25%<br/>Продолжительность: 7 сек.<br/>Максимум зарядов: 3<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 09": {
 		"name": "Blasting Zone",
@@ -691,7 +811,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 5,000.<br/>Сила атаки увеличивается до 10, 000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше."
+		"content": "Удар, наносящий урон с силой атаки 5,000.<br/>Сила атаки увеличивается до 10, 000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 10": {
 		"name": "Heart of Corundum",
@@ -702,7 +824,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает на персонажа или выбранного сопартийца эффекты Heart of Corundum и Catharsis of Corundum.<br/>Эффект Heart of Corundum: снижает получаемый урон на 10%<br/>Продолжительность: 10 сек.<br/>Эффект Catharsis of Corundum: восстанавливает HP, когда оно падает ниже 50% или по истечении срока действия эффекта<br/>Сила лечения: 12,000<br/>Продолжительность: 10 сек."
+		"content": "Накладывает на персонажа или выбранного сопартийца эффекты Heart of Corundum и Catharsis of Corundum.<br/>Эффект Heart of Corundum: снижает получаемый урон на 10%<br/>Продолжительность: 10 сек.<br/>Эффект Catharsis of Corundum: восстанавливает HP, когда оно падает ниже 50% или по истечении срока действия эффекта<br/>Сила лечения: 12,000<br/>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 11": {
 		"name": "Savage Claw",
@@ -713,7 +837,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Gnashing Fang<br/>Дополнительный эффект: накладывает эффект Ready to Tear<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Abdomen Tear под действием эффекта Ready to Tear.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Gnashing Fang<br/>Дополнительный эффект: накладывает эффект Ready to Tear<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Abdomen Tear под действием эффекта Ready to Tear.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 12": {
 		"name": "Wicked Talon",
@@ -724,7 +850,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 9,000.<br/>Комбо умение: Savage Claw<br/>Дополнительный эффект: накладывает эффект Ready to Gouge<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Eye Gouge под действием эффекта Ready to Gouge.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 9,000.<br/>Комбо умение: Savage Claw<br/>Дополнительный эффект: накладывает эффект Ready to Gouge<br/>Продолжительность: 10 сек.<br/><br/>※Continuation меняется на Eye Gouge под действием эффекта Ready to Gouge.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 13": {
 		"name": "Hypervelocity",
@@ -735,7 +863,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 8,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Blast.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 8,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Blast.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 14": {
 		"name": "Fated Brand",
@@ -746,7 +876,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 4,000 по всем ближайшим противникам.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 8,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Raze.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 4,000 по всем ближайшим противникам.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 4 сек.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 8,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Raze.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 15": {
 		"name": "Jugular Rip",
@@ -757,7 +889,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Rip.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 16": {
 		"name": "Abdomen Tear",
@@ -768,7 +902,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар"
+		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Tear.<br/><br/>※Это умение нельзя поместить на хотбар",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 17": {
 		"name": "Eye Gouge",
@@ -779,7 +915,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар"
+		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill LB1": {
 		"name": "Relentless Rush",
@@ -789,7 +927,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Проводит серию ударов клинком, нанося периодический урон по всем окружающим противникам с силой атаки 4,000 и снижая получаемый урон на 25% до окончания действия эффекта.<br/>Продолжительность: 4 сек.<br/>Активирует Terminal Trigger после конца действия эффекта.<br/>Дополнительный эффект: накладывает на цель Relentless Shrapnel, увеличивает получаемый целью урон на 5%<br/>Продолжительность: 6 сек.<br/>Максимум стаков: 5<br/>Может быть выполнено во время движения.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.<br/><br/>※При выполнении действие меняется на Terminal Trigger."
+		"content": "Проводит серию ударов клинком, нанося периодический урон по всем окружающим противникам с силой атаки 4,500 и снижая получаемый урон на 25% до окончания действия эффекта.<br/>Продолжительность: 4 сек.<br/>Активирует Terminal Trigger после конца действия эффекта.<br/>Дополнительный эффект: накладывает на цель Relentless Shrapnel, увеличивает получаемый целью урон на 5%<br/>Продолжительность: 6 сек.<br/>Максимум стаков: 5<br/>Может быть выполнено во время движения.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.<br/><br/>※При выполнении действие меняется на Terminal Trigger.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill LB2": {
 		"name": "Terminal Trigger",
@@ -799,6 +939,8 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 12,000 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 3 сек.<br/>Можно использовать только под действием эффекта Relentless Rush.<br/>Эффект Relentless Rush пропадает после использования.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 12,000 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 3 сек.<br/>Можно использовать только под действием эффекта Relentless Rush.<br/>Эффект Relentless Rush пропадает после использования.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	}
 }

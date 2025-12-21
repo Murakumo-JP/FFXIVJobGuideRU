@@ -12,7 +12,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140.<br/>Дополнительный эффект: восполняет Heat Gauge на 5"
+		"content": "Удар, наносящий урон с силой атаки 140.<br/>Дополнительный эффект: восполняет Heat Gauge на 5",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 02": {
 		"name": "Slug Shot",
@@ -25,7 +27,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Split Shot или Heated Split Shot<br/>Сила в комбо: 210<br/>Комбо бонус: восполняет Heat Gauge на 5"
+		"content": "Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Split Shot или Heated Split Shot<br/>Сила в комбо: 210<br/>Комбо бонус: восполняет Heat Gauge на 5",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 03": {
 		"name": "Hot Shot",
@@ -38,7 +42,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 240.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями."
+		"content": "Удар, наносящий урон с силой атаки 240.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 04": {
 		"name": "Reassemble",
@@ -51,7 +57,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Следующий боевой навык гарантированно получит эффект критического (critical) прямого (direct) удара.<br/>Продолжительность: 5 сек.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) или прямого (direct) урона.<br/>Это умение не влияет на периодический урон.<br/>Максимум зарядов: 2"
+		"content": "Следующий боевой навык гарантированно получит эффект критического (critical) прямого (direct) удара.<br/>Продолжительность: 5 сек.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) или прямого (direct) урона.<br/>Это умение не влияет на периодический урон.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 05": {
 		"name": "Gauss Round",
@@ -64,7 +72,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 130.<br/>Максимум зарядов: 3"
+		"content": "Удар, наносящий урон с силой атаки 130.<br/>Максимум зарядов: 3",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 06": {
 		"name": "Spread Shot",
@@ -77,7 +87,9 @@
 		"range": "12y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Удар, наносящий урон с силой атаки 110 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Heat Gauge на 5"
+		"content": "Удар, наносящий урон с силой атаки 110 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Heat Gauge на 5",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 07": {
 		"name": "Clean Shot",
@@ -90,7 +102,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Slug Shot или Heated Slug Shot<br/>Сила в комбо: 270<br/>Комбо бонус: восполняет Heat Gauge на 5<br/>Комбо бонус: восполняет Battery Gauge на 10"
+		"content": "Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Slug Shot или Heated Slug Shot<br/>Сила в комбо: 270<br/>Комбо бонус: восполняет Heat Gauge на 5<br/>Комбо бонус: восполняет Battery Gauge на 10",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 08": {
 		"name": "Hypercharge",
@@ -104,7 +118,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает 5 стаков Overheated, каждый из которых позволяет использовать Blazing Shot или Auto Crossbow.<br/>Продолжительность: 10 сек.<br/>Эффект Overheated: увеличивает силу атаки боевых навыков по одной цели на 20<br/>Стоимость Heat Gauge: 50<br/>Эффект Overheated распространяется только на умения машиниста."
+		"content": "Накладывает 5 стаков Overheated, каждый из которых позволяет использовать Blazing Shot или Auto Crossbow.<br/>Продолжительность: 10 сек.<br/>Эффект Overheated: увеличивает силу атаки боевых навыков по одной цели на 20<br/>Стоимость Heat Gauge: 50<br/>Эффект Overheated распространяется только на умения машиниста.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 09": {
 		"name": "Heat Blast",
@@ -118,7 +134,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: снижает время восстановления Gauss Round и Richochet на 15 сек.<br/>Может использоваться только под эффектом Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям."
+		"content": "Удар, наносящий урон с силой атаки 200.<br/>Дополнительный эффект: снижает время восстановления Gauss Round и Richochet на 15 сек.<br/>Может использоваться только под эффектом Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 10": {
 		"name": "Rook Autoturret",
@@ -132,7 +150,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Развертывает боевую турель, которая будет наносить атаки по одиночной цели, используя Volley Fire с силой атаки 35.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 75 при максимальном значении.<br/>Стоимость Battery Gauge: 50<br/>Продолжительность: 9 сек.<br/>Расходует Battery Gauge в процессе использования.<br/>Отключается, если истечет время умения или после запуска Rook Overdrive.<br/>Имеет общее время восстановления с умением Rook Overdrive."
+		"content": "Развертывает боевую турель, которая будет наносить атаки по одиночной цели, используя Volley Fire с силой атаки 35.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 75 при максимальном значении.<br/>Стоимость Battery Gauge: 50<br/>Продолжительность: 9 сек.<br/>Расходует Battery Gauge в процессе использования.<br/>Отключается, если истечет время умения или после запуска Rook Overdrive.<br/>Имеет общее время восстановления с умением Rook Overdrive.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 11": {
 		"name": "Rook Overdrive",
@@ -145,7 +165,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Отправляет команду вашей боевой турели (Rook Autoturret) использовать Rook Overload.<br/>Сила атаки Rook Overload: 160<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 320 при максимальном значении.<br/>Отключается после использования умения.<br/>Если умение не было использовано, пока турель активна, оно сработает автоматически непосредственно перед отключением.<br/>Имеет общее время восстановления с умением Rook Autoturret."
+		"content": "Отправляет команду вашей боевой турели (Rook Autoturret) использовать Rook Overload.<br/>Сила атаки Rook Overload: 160<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 320 при максимальном значении.<br/>Отключается после использования умения.<br/>Если умение не было использовано, пока турель активна, оно сработает автоматически непосредственно перед отключением.<br/>Имеет общее время восстановления с умением Rook Autoturret.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 12": {
 		"name": "Rook Overload",
@@ -158,7 +180,9 @@
 		"range": "40y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 160.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 320 при максимальном значении.<br/>Отключается после использования умения. Если умение не было использовано, пока турель активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 160.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 320 при максимальном значении.<br/>Отключается после использования умения. Если умение не было использовано, пока турель активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 13": {
 		"name": "Wildfire",
@@ -171,7 +195,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Окутывает цель медленно горящим огнем, накладывая эффект Wildfire. Умение заменяется на Detonator на время действия эффекта.<br/>Наносит урон по истечении времени или после использования умения Detonator.<br/>Сила атаки умения увеличивается на 240 за каждый боевой навык персонажа, который будет успешно применен на цель до окончания эффекта.<br/>Может накапливаться до 6 раз.<br/>Продолжительность: 10 сек."
+		"content": "Окутывает цель медленно горящим огнем, накладывая эффект Wildfire. Умение заменяется на Detonator на время действия эффекта.<br/>Наносит урон по истечении времени или после использования умения Detonator.<br/>Сила атаки умения увеличивается на 240 за каждый боевой навык персонажа, который будет успешно применен на цель до окончания эффекта.<br/>Может накапливаться до 6 раз.<br/>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 14": {
 		"name": "Detonator",
@@ -184,7 +210,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Заканчивает действие эффекта Wildfire, нанося урон цели.<br/>Можно использовать только под действием эффекта Wildfire.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Wildfire меняется на Detonator при соблюдении требований к выполнению."
+		"content": "Заканчивает действие эффекта Wildfire, нанося урон цели.<br/>Можно использовать только под действием эффекта Wildfire.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Wildfire меняется на Detonator при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 15": {
 		"name": "Ricochet",
@@ -198,7 +226,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по всем ближайшим противникам с силой атаки 130 для первого и на 30% меньше для всех остальных.<br/>Максимум зарядов: 3"
+		"content": "Удар, наносящий урон по всем ближайшим противникам с силой атаки 130 для первого и на 30% меньше для всех остальных.<br/>Максимум зарядов: 3",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 16": {
 		"name": "Auto Crossbow",
@@ -212,7 +242,9 @@
 		"range": "12y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Удар, наносящий урон с силой атаки 180 по всем противникам в конусе перед персонажем.<br/>Может использоваться только под эффектом Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям."
+		"content": "Удар, наносящий урон с силой атаки 180 по всем противникам в конусе перед персонажем.<br/>Может использоваться только под эффектом Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 17": {
 		"name": "Heated Split Shot",
@@ -226,7 +258,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 220.<br/>Дополнительный эффект: восполняет Heat Gauge на 5"
+		"content": "Удар, наносящий урон с силой атаки 220.<br/>Дополнительный эффект: восполняет Heat Gauge на 5",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 18": {
 		"name": "Tactician",
@@ -240,7 +274,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "30y",
-		"content": "Снижает урон получаемый персонажем и сопартийцами на 15%.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с умением Troubadour барда или Shield Samba дансера."
+		"content": "Снижает урон получаемый персонажем и сопартийцами на 15%.<br/>Продолжительность: 15 сек.<br/>Эффект не суммируется с умением Troubadour барда или Shield Samba дансера.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 19": {
 		"name": "Drill",
@@ -254,7 +290,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 620.<br/>Максимум зарядов: 2<br/>Имеет общее время восстановления с умением Bioblaster."
+		"content": "Удар, наносящий урон с силой атаки 660.<br/>Максимум зарядов: 2<br/>Имеет общее время восстановления с умением Bioblaster.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 20": {
 		"name": "Heated Slug Shot",
@@ -268,7 +306,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: Heated Split Shot<br/>Сила в комбо: 320<br/>Комбо бонус: восполняет Heat Gauge на 5"
+		"content": "Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: Heated Split Shot<br/>Сила в комбо: 320<br/>Комбо бонус: восполняет Heat Gauge на 5",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 21": {
 		"name": "Dismantle",
@@ -281,7 +321,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает наносимый целью урон на 10%.<br/>Продолжительность: 10 сек."
+		"content": "Снижает наносимый целью урон на 10%.<br/>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 22": {
 		"name": "Heated Clean Shot",
@@ -294,7 +336,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Heated Slug Shot<br/>Сила в комбо: 420<br/>Комбо бонус: восполняет Heat Gauge на 5<br/>Комбо бонус: восполняет Battery Gauge на 10"
+		"content": "Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Heated Slug Shot<br/>Сила в комбо: 420<br/>Комбо бонус: восполняет Heat Gauge на 5<br/>Комбо бонус: восполняет Battery Gauge на 10",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 23": {
 		"name": "Barrel Stabilizer",
@@ -307,7 +351,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает эффект Hypercharged.<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Full Metal Machinist<br/>Продолжительность: 30 сек.<br/>Может быть использовано только в бою."
+		"content": "Накладывает эффект Hypercharged.<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Full Metal Machinist<br/>Продолжительность: 30 сек.<br/>Может быть использовано только в бою.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 24": {
 		"name": "Blazing Shot",
@@ -320,7 +366,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 240.<br/>Дополнительный эффект: уменьшает время повторного применения Double Check и Checkmate на 15 сек.<br/>Может быть выполнено только при перегреве огнестрельного оружия.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям."
+		"content": "Удар, наносящий урон с силой атаки 240.<br/>Дополнительный эффект: уменьшает время повторного применения Double Check и Checkmate на 15 сек.<br/>Может быть выполнено только при перегреве огнестрельного оружия.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/>После использования этого умения время восстановления будет применено ко всем остальным боевым навыкам и магическим умениям.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 25": {
 		"name": "Flamethrower",
@@ -334,7 +382,9 @@
 		"range": "0y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Наносит периодический урон по всем противникам в конусе перед персонажем.<br/>Сила атаки: 120<br/>Продолжительность: 10 сек.<br/>Умение прервется при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/>Прерывает авто атаки при использовании умения.<br/>Запускает время восстановления боевых навыков после использования. Не может использоваться во время восстановления боевых навыков."
+		"content": "Наносит периодический урон по всем противникам в конусе перед персонажем.<br/>Сила атаки: 120<br/>Продолжительность: 10 сек.<br/>Умение прервется при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br/>Прерывает авто атаки при использовании умения.<br/>Запускает время восстановления боевых навыков после использования. Не может использоваться во время восстановления боевых навыков.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 26": {
 		"name": "Bioblaster",
@@ -347,7 +397,9 @@
 		"range": "12y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Удар, наносящий урон с силой атаки 50 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 50<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2<br/>Имеет общее время восстановления с умением Drill."
+		"content": "Удар, наносящий урон с силой атаки 50 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 50<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2<br/>Имеет общее время восстановления с умением Drill.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 27": {
 		"name": "Air Anchor",
@@ -360,7 +412,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 620.<br/>Дополнительный эффект: восполняет шкалу Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями."
+		"content": "Удар, наносящий урон с силой атаки 660.<br/>Дополнительный эффект: восполняет шкалу Battery Gauge на 20<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 28": {
 		"name": "Automaton Queen",
@@ -373,7 +427,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Призывает Automaton Queen, которая сражается на стороне персонажа.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge, превышает требуемую стоимость на момент развертывания.<br/>Стоимость Battery Gauge: 50<br/>Продолжительность: 12 сек.<br/>Расходует Battery Gauge в процессе использования.<br/>Отключается, если истечет время действия, или после запуска Queen Overdrive.<br/>Имеет общее время восстановления с умением Queen Overdrive."
+		"content": "Призывает Automaton Queen, которая сражается на стороне персонажа.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge, превышает требуемую стоимость на момент развертывания.<br/>Стоимость Battery Gauge: 50<br/>Продолжительность: 12 сек.<br/>Расходует Battery Gauge в процессе использования.<br/>Отключается, если истечет время действия, или после запуска Queen Overdrive.<br/>Имеет общее время восстановления с умением Queen Overdrive.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 29": {
 		"name": "Queen Overdrive",
@@ -386,7 +442,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Приказывает вашей Automaton Queen использовать Pile Bunker.<br/>Сила атаки Pile Bunker: 340<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 680 при максимальном значении.<br/>Automaton Queen отключается после использования умения. Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/>Имеет общее время восстановления с умением Automaton Queen."
+		"content": "Приказывает вашей Automaton Queen использовать Pile Bunker.<br/>Сила атаки Pile Bunker: 340<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 680 при максимальном значении.<br/>Automaton Queen отключается после использования умения. Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/>Имеет общее время восстановления с умением Automaton Queen.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 30": {
 		"name": "Arm Punch",
@@ -399,7 +457,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 120.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 240 при максимальном значении.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 120.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 240 при максимальном значении.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 31": {
 		"name": "Roller Dash",
@@ -412,7 +472,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок к цели и удар, наносящий урон с силой атаки 240.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 480 при максимальном значении.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Рывок к цели и удар, наносящий урон с силой атаки 240.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 480 при максимальном значении.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 32": {
 		"name": "Pile Bunker",
@@ -425,7 +487,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 340.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 680 при максимальном значении.<br/>Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 340.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 680 при максимальном значении.<br/>Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 33": {
 		"name": "Scattergun",
@@ -438,7 +502,9 @@
 		"range": "12y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Удар, наносящий урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Heat Gauge на 10"
+		"content": "Удар, наносящий урон с силой атаки 130 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: восполняет Heat Gauge на 10",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 34": {
 		"name": "Crowned Collider",
@@ -451,7 +517,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 390.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 780 при максимальном значении.<br/>Automaton Queen отключается после использования умения. Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 390.<br/>Сила атаки увеличивается пропорционально расходу шкалы Battery Gauge и достигает 780 при максимальном значении.<br/>Automaton Queen отключается после использования умения. Если умение не было использовано, пока Automaton Queen активна, оно сработает автоматически непосредственно перед отключением.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 35": {
 		"name": "Chain Saw",
@@ -464,7 +532,9 @@
 		"range": "25y",
 		"radius_img": "R6",
 		"radius": "25y",
-		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 620 для первого противника и на 25% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Дополнительный эффект: накладывает эффект Excavator Ready<br/>Продолжительность: 30 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. "
+		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 660 для первого противника и на 25% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Дополнительный эффект: накладывает эффект Excavator Ready<br/>Продолжительность: 30 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. ",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 36": {
 		"name": "Double Check",
@@ -477,7 +547,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 180 для первого противника и на 30% меньше для всех остальных.<br/>Максимум зарядов: 3"
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 180 для первого противника и на 30% меньше для всех остальных.<br/>Максимум зарядов: 3",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 37": {
 		"name": "Checkmate",
@@ -490,7 +562,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 180 для первого противника и на 30% меньше для всех остальных.<br/>Максимум зарядов: 3"
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 180 для первого противника и на 30% меньше для всех остальных.<br/>Максимум зарядов: 3",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 38": {
 		"name": "Excavator",
@@ -503,7 +577,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 620 для первого противника и на 25% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Можно использовать только под действием эффекта Excavator Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Chain Saw меняется на Excavator при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 660 для первого противника и на 25% меньше для всех остальных.<br/>Дополнительный эффект: восполняет Battery Gauge на 20<br/>Можно использовать только под действием эффекта Excavator Ready.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Chain Saw меняется на Excavator при соблюдении требований к выполнению.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 39": {
 		"name": "Full Metal Field",
@@ -516,21 +592,27 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 900 для первого противника и на 25% меньше для всех остальных.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) и прямого (direct) урона.<br/>Можно использовать только под действием эффекта Full Metal Machinist."
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 900 для первого противника и на 25% меньше для всех остальных.<br/>Наносимый урон увеличивается под действием эффектов, повышающего вероятность критического (critical) и прямого (direct) урона.<br/>Можно использовать только под действием эффекта Full Metal Machinist.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"Trait 01": {
 		"name": "Increased Action Damage",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7a4446670bbb1ae60b4026125c28469c0c32802f.png",
 		"job_icon": "MCH",
 		"level": "20",
-		"content": "Увеличивает базовый урон умений и урон турелей на 10%."
+		"content": "Увеличивает базовый урон умений и урон турелей на 10%.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 02": {
 		"name": "Increased Action Damage II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e58ddf4e9b28be5305924b0a016be89f3e6f5c09.png",
 		"job_icon": "MCH",
 		"level": "40",
-		"content": "Увеличивает базовый урон умений и урон турелей на 20%."
+		"content": "Увеличивает базовый урон умений и урон турелей на 20%.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 03": {
 		"name": "Split Shot Mastery",
@@ -538,7 +620,9 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/17e2bfa91c00357867f74f213d54acbdb3eccf9c.png",
 		"job_icon": "MCH",
 		"level": "54",
-		"content": "Улучшает умение Split Shot до Heated Split Shot."
+		"content": "Улучшает умение Split Shot до Heated Split Shot.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 04": {
 		"name": "Slug Shot Mastery",
@@ -546,126 +630,162 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fcfac995467f1b40637328ca1fb2e0f96d3d93fa.png",
 		"job_icon": "MCH",
 		"level": "60",
-		"content": "Улучшает умение Slug Shot до Heated Slug Shot."
+		"content": "Улучшает умение Slug Shot до Heated Slug Shot.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 05": {
 		"name": "Clean Shot Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/22ad0318de7c24159dee74596a7bfe78c1947d3a.png",
 		"job_icon": "MCH",
 		"level": "64",
-		"content": "Улучшает умение Clean Shot до Heated Clean Shot."
+		"content": "Улучшает умение Clean Shot до Heated Clean Shot.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 06": {
 		"name": "Heat Blast Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9cccaf0b8870d8d58435d49c1d4af6b97747cb05.png",
 		"job_icon": "MCH",
 		"level": "68",
-		"content": "Улучшает умение Heat Blast до Blazing Shot."
+		"content": "Улучшает умение Heat Blast до Blazing Shot.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 07": {
 		"name": "Charged Action Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7c9a0badfb53894c632d694c869e031bceebef88.png",
 		"job_icon": "MCH",
 		"level": "74",
-		"content": "Позволяет накапливать 3 заряда Gauss Round и Ricochet."
+		"content": "Позволяет накапливать 3 заряда Gauss Round и Ricochet.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 08": {
 		"name": "Hot Shot Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7973381f2d9c49f26b5b72f9cc370b402359d2a8.png",
 		"job_icon": "MCH",
 		"level": "76",
-		"content": "Улучшает умение Hot Shot до Air Anchor."
+		"content": "Улучшает умение Hot Shot до Air Anchor.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 09": {
 		"name": "Enhanced Wildfire",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ee45320e4da5dfac149b4d204d8b6d300cdc9623.png",
 		"job_icon": "MCH",
 		"level": "78",
-		"content": "Увеличивает силу Wildfire за каждый использованный боевой навык до 240."
+		"content": "Увеличивает силу Wildfire за каждый использованный боевой навык до 240.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 10": {
 		"name": "Promotion",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7f48e481afe9adde72358481f334754d9bd65016.png",
 		"job_icon": "MCH",
 		"level": "80",
-		"content": "Улучшает Rook Autoturret и Rook Overdrive до Automaton Queen и Queen Overdrive."
+		"content": "Улучшает Rook Autoturret и Rook Overdrive до Automaton Queen и Queen Overdrive.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 11": {
 		"name": "Spread Shot Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/733c87787a7829705ddb6e45ecc77afa3a69706f.png",
 		"job_icon": "MCH",
 		"level": "82",
-		"content": "Улучшает умение Spread Shot до Scattergun."
+		"content": "Улучшает умение Spread Shot до Scattergun.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 12": {
 		"name": "Enhanced Reassemble",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7ea5f5c63a2624cd7f20dc650d5714969117d531.png",
 		"job_icon": "MCH",
 		"level": "84",
-		"content": "Позволяет накапливать заряды для последовательного использования Reassemble.<br/>Максимум зарядов: 2"
+		"content": "Позволяет накапливать заряды для последовательного использования Reassemble.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 13": {
 		"name": "Marksman's Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "MCH",
 		"level": "84",
-		"content": "Увеличивает силу атаки Heated Split Shot до 200, Heated Slug Shot до 120 и Heated Clean Shot до 120."
+		"content": "Увеличивает силу атаки Heated Split Shot до 200, Heated Slug Shot до 120 и Heated Clean Shot до 120.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 14": {
 		"name": "Queen's Gambit",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bfe38af9b9aebf5a2febaafa0ed4c0867da59a2e.png",
 		"job_icon": "MCH",
 		"level": "86",
-		"content": "Automaton Queen, после использования Pile Bunker, также использует Crowned Collider."
+		"content": "Automaton Queen, после использования Pile Bunker, также использует Crowned Collider.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 15": {
 		"name": "Enhanced Tactician",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/83abb5edaa137fdb0a1665598fbba3d0de804520.png",
 		"job_icon": "MCH",
 		"level": "88",
-		"content": "Сокращает время восстановления Tactician до 90 сек."
+		"content": "Сокращает время восстановления Tactician до 90 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 16": {
 		"name": "Double-barrel Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d27efc5e828ecabff4d0b45ee10c6e731cc71847.png",
 		"job_icon": "MCH",
 		"level": "92",
-		"content": "Улучшает умение Gauss Round до Double Check и Ricochet до Checkmate."
+		"content": "Улучшает умение Gauss Round до Double Check и Ricochet до Checkmate.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 17": {
 		"name": "Enhanced Multiweapon",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ae9cf4acdbd365202307fbaedd38340a7d0fa94f.png",
 		"job_icon": "MCH",
 		"level": "94",
-		"content": "Позволяет накапливать заряды для последовательного использования Drill и Bioblaster.<br/>Максимум зарядов: 2"
+		"content": "Позволяет накапливать заряды для последовательного использования Drill и Bioblaster.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 18": {
 		"name": "Marksman's Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "MCH",
 		"level": "94",
-		"content": "Увеличивает силу атаки Auto Crossbow до 180, Heated Split Shot до 220, Heated Slug Shot до 140, Heated Clean Shot до 160 и Blazing Shot до 240."
+		"content": "Увеличивает силу атаки Auto Crossbow до 180, Heated Split Shot до 220, Drill до 660, Heated Slug Shot до 140, Heated Clean Shot до 160, Blazing Shot до 240, Air Anchor до 660 и Chain Saw до 660",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"Trait 19": {
 		"name": "Enhanced Multiweapon II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/28f091ab4b400b52cb77f45488cd87386ba45998.png",
 		"job_icon": "MCH",
 		"level": "96",
-		"content": "Накладывает эффект Excavator Ready после использования Chain Saw.<br/>Продолжительность: 30 сек.<br/>Chain Saw меняется на Excavator под действием эффекта Excavator Ready."
+		"content": "Накладывает эффект Excavator Ready после использования Chain Saw.<br/>Продолжительность: 30 сек.<br/>Chain Saw меняется на Excavator под действием эффекта Excavator Ready.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 20": {
 		"name": "Enhanced Tactician II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a3ae0598316b6300ddb35a842fd49f138d837b8e.png",
 		"job_icon": "MCH",
 		"level": "98",
-		"content": "Увеличивает эффективность снижения урона Tactician до 15%."
+		"content": "Увеличивает эффективность снижения урона Tactician до 15%.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 21": {
 		"name": "Enhanced Barrel Stabilizer",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1afa87e85f90db56234d7365432dfd5bde9a4b31.png",
 		"job_icon": "MCH",
 		"level": "100",
-		"content": "Накладывает эффект Full Metal Machinist после использования Barrel Stabilizer.<br/>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Full Metal Machinist после использования Barrel Stabilizer.<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 01": {
 		"name": "Blast Charge",
@@ -676,7 +796,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 6,000.<br/>ПДополнительный эффект: накладывает стак Heat, вплоть до 3<br/>ППродолжительность: 15 сек.<br/>ППри максимальном количестве стаков накладывает Overheated и увеличивает скорость передвижения на 25%.<br/>ППродолжительность: 5 сек.<br/>ПДля используется требуется время применения. Однако во время применения можно перемещаться.<br/>П<br/>П※Умение меняется на Blazing Shot под действием эффекта Overheated."
+		"content": "Дальний удар, наносящий урон с силой атаки 6,000.<br/>ПДополнительный эффект: накладывает стак Heat, вплоть до 3<br/>ППродолжительность: 15 сек.<br/>ППри максимальном количестве стаков накладывает Overheated и увеличивает скорость передвижения на 25%.<br/>ППродолжительность: 5 сек.<br/>ПДля используется требуется время применения. Однако во время применения можно перемещаться.<br/>П<br/>П※Умение меняется на Blazing Shot под действием эффекта Overheated.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 02": {
 		"name": "Scattergun",
@@ -687,7 +809,9 @@
 		"range": "12y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Удар, наносящий урон с силой атаки 8,000 по всем противникам в конусе перед персонажем.<br/>Наносит двойной удар, если поражает только одну цель.<br/>Дополнительный эффект: отбрасывает цель на 10 ялмов назад<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. "
+		"content": "Удар, наносящий урон с силой атаки 8,000 по всем противникам в конусе перед персонажем.<br/>Наносит двойной удар, если поражает только одну цель.<br/>Дополнительный эффект: отбрасывает цель на 10 ялмов назад<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями. ",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 03": {
 		"name": "Drill",
@@ -698,7 +822,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 9,000.<br/>Сила атаки увеличивается до 16,000, пока персонаж находитесь под действием эффекта Analysis.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: накладывает эффект Bioblaster Primed<br/>Максимум зарядов: 2<br/>Можно выполнить только под действием Drill Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Bioblaster под действием эффекта Bioblaster Primed."
+		"content": "Дальний удар, наносящий урон с силой атаки 9,000.<br/>Сила атаки увеличивается до 16,000, пока персонаж находитесь под действием эффекта Analysis.<br/>Игнорирует эффект Guard при нанесении урона.<br/>Дополнительный эффект: накладывает эффект Bioblaster Primed<br/>Максимум зарядов: 2<br/>Можно выполнить только под действием Drill Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Bioblaster под действием эффекта Bioblaster Primed.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 04": {
 		"name": "Full Metal Field",
@@ -709,7 +835,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 10,000 по цели и ближайшим противникам.<br/>Наносит двойной удар, но при втором ударе сила атаки уменьшается вдвое.<br/>Дополнительный эффект: накладывает эффект Overheated<br/>Продолжительность: 5 сек.<br/>Эффект Overheated: увеличивает скорость передвижения на 25%<br/>Увеличивает длительность перегрева на 5 сек, до максимума 10 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Blast Charge меняется на Blazing Shot под действием эффекта Overheated."
+		"content": "Удар, наносящий урон с силой атаки 10,000 по цели и ближайшим противникам.<br/>Наносит двойной удар, но при втором ударе сила атаки уменьшается вдвое.<br/>Дополнительный эффект: накладывает эффект Overheated<br/>Продолжительность: 5 сек.<br/>Эффект Overheated: увеличивает скорость передвижения на 25%<br/>Увеличивает длительность перегрева на 5 сек, до максимума 10 сек.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Blast Charge меняется на Blazing Shot под действием эффекта Overheated.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 05": {
 		"name": "Wildfire",
@@ -720,7 +848,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Окутывает цель медленно горящим огнем. На время действия эффекта умение меняется на Detonator.<br/>Наносит урон цели и всем противникам в радиусе 5 ялмов по истечении времени или при использовании Detonator.<br/>Продолжительность: 8 сек.<br/>Сила атаки увеличивается на 4,500 за каждое атакующее умение персонажа, которое он совершаете до окончания действия эффекта.<br/>Если персонаж нанесет 4 атакующих умения по цели, то медленно горящая цель немедленно взорвется."
+		"content": "Окутывает цель медленно горящим огнем. На время действия эффекта умение меняется на Detonator.<br/>Наносит урон цели и всем противникам в радиусе 5 ялмов по истечении времени или при использовании Detonator.<br/>Продолжительность: 8 сек.<br/>Сила атаки увеличивается на 4,500 за каждое атакующее умение персонажа, которое он совершаете до окончания действия эффекта.<br/>Если персонаж нанесет 4 атакующих умения по цели, то медленно горящая цель немедленно взорвется.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 06": {
 		"name": "Bishop Autoturret",
@@ -731,7 +861,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Развертывает боевую турель, которая будет наносить авто атаки по противникам с силой атаки 6,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек."
+		"content": "Развертывает боевую турель, которая будет наносить авто атаки по противникам с силой атаки 6,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 7 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 07": {
 		"name": "Analysis",
@@ -742,7 +874,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает эффект, дающий дополнительные эффекты умениям Drill, Bioblaster, Air Anchor и Chain Saw при выполнении этих боевых навыков.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект Drill: сила атаки увеличена до 200%<br/>Дополнительный эффект Bioblaster: сила атаки и периодический урон увеличены на 50%<br/>Дополнительный эффект Air Anchor: сила атаки увеличена на 50%, а эффект связывания (bind) становится оглушением (stun)<br/>Дополнительный эффект Chain Saw: увеличивает получаемый целью урон<br/>Максимум зарядов: 2"
+		"content": "Накладывает эффект, дающий дополнительные эффекты умениям Drill, Bioblaster, Air Anchor и Chain Saw при выполнении этих боевых навыков.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект Drill: сила атаки увеличена до 200%<br/>Дополнительный эффект Bioblaster: сила атаки и периодический урон увеличены на 50%<br/>Дополнительный эффект Air Anchor: сила атаки увеличена на 50%, а эффект связывания (bind) становится оглушением (stun)<br/>Дополнительный эффект Chain Saw: увеличивает получаемый целью урон<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 08": {
 		"name": "Blazing Shot",
@@ -753,7 +887,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 8,000.<br/>Может быть выполнено только под действием Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Дальний удар, наносящий урон с силой атаки 8,000.<br/>Может быть выполнено только под действием Overheated.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 09": {
 		"name": "Bioblaster",
@@ -764,7 +900,9 @@
 		"range": "12y",
 		"radius_img": "R4",
 		"radius": "12y",
-		"content": "Удар, наносящий урон с силой атаки 4,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 4,000<br/>Продолжительность: 9 сек.<br/>Дополнительный эффект: увеличивает силу атаки и периодический урон на 50%, пока персонаж находится под эффектом Analysis<br/>Дополнительный эффект: накладывает эффект Air Anchor Primed<br/>Максимум зарядов: 2<br/>Может быть выполнено только под действием эффекта Bioblaster Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Air Anchor под действием эффекта Air Anchor Primed.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 4,000 по всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: периодический урон<br/>Сила атаки: 4,000<br/>Продолжительность: 9 сек.<br/>Дополнительный эффект: увеличивает силу атаки и периодический урон на 50%, пока персонаж находится под эффектом Analysis<br/>Дополнительный эффект: накладывает эффект Air Anchor Primed<br/>Максимум зарядов: 2<br/>Может быть выполнено только под действием эффекта Bioblaster Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Air Anchor под действием эффекта Air Anchor Primed.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 10": {
 		"name": "Air Anchor",
@@ -775,7 +913,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 3 сек.<br/>Дополнительные эффекты: сила атаки увеличивается на 50%, а эффект связывания (bind) становится оглушением (stun) при наличии эффекта Analysis<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: накладывает эффект Chain Saw Primed<br/>Максимум зарядов: 2<br/>Может быть использовано только под действием эффекта Air Anchor Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Chain Saw под действием эффекта Chain Saw Primed.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Дальний удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: связывание (bind)<br/>Продолжительность: 3 сек.<br/>Дополнительные эффекты: сила атаки увеличивается на 50%, а эффект связывания (bind) становится оглушением (stun) при наличии эффекта Analysis<br/>Продолжительность: 3 сек.<br/>Дополнительный эффект: накладывает эффект Chain Saw Primed<br/>Максимум зарядов: 2<br/>Может быть использовано только под действием эффекта Air Anchor Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Chain Saw под действием эффекта Chain Saw Primed.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 11": {
 		"name": "Chain Saw",
@@ -786,7 +926,9 @@
 		"range": "25y",
 		"radius_img": "R6",
 		"radius": "25y",
-		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 12,000.<br/>Дополнительный эффект: сила атаки увеличивается на 20% при наличии эффекта Analysis<br/>Продолжительность: 6 сек.<br/>Дополнительный эффект: накладывает эффект Drill Primed<br/>Максимум зарядов: 2<br/>Может быть выполнено только под действием эффекта Chain Saw Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Drill под действием эффекта Drill Primed.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 12,000.<br/>Дополнительный эффект: сила атаки увеличивается на 20% при наличии эффекта Analysis<br/>Продолжительность: 6 сек.<br/>Дополнительный эффект: накладывает эффект Drill Primed<br/>Максимум зарядов: 2<br/>Может быть выполнено только под действием эффекта Chain Saw Primed.<br/>Этот боевой навык не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Drill под действием эффекта Drill Primed.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 12": {
 		"name": "Detonator",
@@ -797,7 +939,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Завершает действие эффекта Wildfire, нанося урон цели.<br/>Может быть использовано только под действием эффекта Wildfire.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Завершает действие эффекта Wildfire, нанося урон цели.<br/>Может быть использовано только под действием эффекта Wildfire.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 13": {
 		"name": "Aether Mortar",
@@ -808,7 +952,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 6000 по всем ближайшим противникам.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 6000 по всем ближайшим противникам.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill LB": {
 		"name": "Marksman's Spite",
@@ -818,6 +964,8 @@
 		"range": "50y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 40,000.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек."
+		"content": "Дальний удар, наносящий урон с силой атаки 40,000.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.",
+		"skill_update": false,
+		"skill_new": false
 	}
 }

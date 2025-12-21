@@ -1,4 +1,6 @@
 {
+	"PVE Update": "Последнее обновление: 05/08/2025",
+	"PVP Update": "Последнее обновление: 07/10/2025",
 	"PVE Skill 01": {
 		"name": "Fast Blade",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8325a7bb54f039c5bd3cd2af4430dccfd525e0b9.png",
@@ -11,7 +13,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 220."
+		"content": "Удар, наносящий урон с силой атаки 220.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 02": {
 		"name": "Fight or Flight",
@@ -25,7 +29,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает наносимый урон на 25%.<br>Продолжительность: 20 сек.<br>Дополнительный эффект: накладывает эффект Goring Blade Ready.<br>Продолжительность: 30 сек."
+		"content": "Увеличивает наносимый урон на 25%.<br>Продолжительность: 20 сек.<br>Дополнительный эффект: накладывает эффект Goring Blade Ready.<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 03": {
 		"name": "Riot Blade",
@@ -39,7 +45,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 170.<br>Комбо умение: Fast Blade<br>Сила в комбо: 330<br>Комбо бонус: восстанавливает MP"
+		"content": "Удар, наносящий урон с силой атаки 170.<br>Комбо умение: Fast Blade<br>Сила в комбо: 330<br>Комбо бонус: восстанавливает MP",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 04": {
 		"name": "Total Eclipse",
@@ -53,7 +61,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 120 по всем окружающим противникам.<br>Дополнительный эффект: повышает уровень угрозы"
+		"content": "Удар, наносящий урон с силой атаки 120 по всем окружающим противникам.<br>Дополнительный эффект: повышает уровень угрозы",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 05": {
 		"name": "Shield Bash",
@@ -67,7 +77,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 100.<br>Дополнительный эффект: оглушение (stun)<br>Продолжительность: 6 сек."
+		"content": "Удар, наносящий урон с силой атаки 100.<br>Дополнительный эффект: оглушение (stun)<br>Продолжительность: 6 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 06": {
 		"name": "Iron Will",
@@ -81,7 +93,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Танковая стойка. Значительно повышает генерацию уровня угрозы.<br>Эффект спадает при повторном использовании."
+		"content": "Танковая стойка. Значительно повышает генерацию уровня угрозы.<br>Эффект спадает при повторном использовании.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 07": {
 		"name": "Release Iron Will",
@@ -95,7 +109,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Отменяет эффект Iron Will."
+		"content": "Отменяет эффект Iron Will.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 08": {
 		"name": "Shield Lob",
@@ -110,7 +126,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 100.<br>Дополнительный эффект: повышает уровень угрозы."
+		"content": "Дальний удар, наносящий урон с силой атаки 100.<br>Дополнительный эффект: повышает уровень угрозы.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 09": {
 		"name": "Rage of Halone",
@@ -124,7 +142,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 100.<br>Комбо умение: Riot Blade<br>Сила в комбо: 330"
+		"content": "Удар, наносящий урон с силой атаки 100.<br>Комбо умение: Riot Blade<br>Сила в комбо: 330",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 10": {
 		"name": "Spirits Within",
@@ -139,7 +159,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 270.<br>Дополнительный эффект: восстанавливает MP"
+		"content": "Удар, наносящий урон с силой атаки 270.<br>Дополнительный эффект: восстанавливает MP",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 11": {
 		"name": "Sheltron",
@@ -154,7 +176,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый урон на 15%.<br>Продолжительность: 6 сек.<br>Стоимость: 50 Oath Gauge"
+		"content": "Снижает получаемый урон на 15%.<br>Продолжительность: 6 сек.<br>Стоимость: 50 Oath Gauge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 12": {
 		"name": "Sentinel",
@@ -168,7 +192,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый урон на 30%.<br>Продолжительность: 15 сек."
+		"content": "Снижает получаемый урон на 30%.<br>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 13": {
 		"name": "Prominence",
@@ -183,7 +209,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br>Дополнительный эффект: повышает уровень угрозы<br>Комбо умение: Total Eclipse<br>Сила атаки с комбо: 220<br>Комбо бонус: восстанавливает MP<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет применить Holy Spirit or Holy Circle с повышенной силой атаки. Эффект пропадает после использования<br>Продолжительность: 30 сек."
+		"content": "Удар, наносящий урон с силой атаки 100 по всем окружающим противникам.<br>Дополнительный эффект: повышает уровень угрозы<br>Комбо умение: Total Eclipse<br>Сила атаки с комбо: 220<br>Комбо бонус: восстанавливает MP<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет применить Holy Spirit or Holy Circle с повышенной силой атаки. Эффект пропадает после использования<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 14": {
 		"name": "Cover",
@@ -198,7 +226,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Забирает весь урон направленный на сопартийца, до тех пор, пока он находится в радиусе 20 ялмов.<br>Не срабатывает на некоторые атаки.<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge"
+		"content": "Забирает весь урон направленный на сопартийца, до тех пор, пока он находится в радиусе 20 ялмов.<br>Не срабатывает на некоторые атаки.<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 15": {
 		"name": "Circle of Scorn",
@@ -212,7 +242,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 140 по всем окружающим противникам.<br>Дополнительный эффект: периодический урон<br>Сила периодического урона: 30<br>Продолжительность: 15 сек."
+		"content": "Удар, наносящий урон с силой атаки 140 по всем окружающим противникам.<br>Дополнительный эффект: периодический урон<br>Сила периодического урона: 30<br>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 16": {
 		"name": "Hallowed Ground",
@@ -227,7 +259,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Даёт неуязвимость против большинства атак.<br>Продолжительность: 10 сек."
+		"content": "Даёт неуязвимость против большинства атак.<br>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 17": {
 		"name": "Bulwark",
@@ -241,7 +275,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Блокирует входящие атаки.<br>Продолжительность: 10 сек."
+		"content": "Блокирует входящие атаки.<br>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 18": {
 		"name": "Goring Blade",
@@ -256,7 +292,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 700.<br>Может быть использовано только под действием эффекта Goring Blade Ready.<br>Этот боевой навык не имеет общего время восстановления с другими умениями."
+		"content": "Удар, наносящий урон с силой атаки 700.<br>Может быть использовано только под действием эффекта Goring Blade Ready.<br>Этот боевой навык не имеет общего время восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 19": {
 		"name": "Divine Veil",
@@ -271,7 +309,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Создает барьер вокруг персонажа и всех ближийших сопартийцев, который поглощает урон, равный 10% от максимального HP персонажа.<br>Продолжительность: 30 сек.<br>Дополнительный эффект: восстанавливает HP цели<br>Сила лечения: 400"
+		"content": "Создает барьер вокруг персонажа и всех ближийших сопартийцев, который поглощает урон, равный 10% от максимального HP персонажа.<br>Продолжительность: 30 сек.<br>Дополнительный эффект: восстанавливает HP цели<br>Сила лечения: 400",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 20": {
 		"name": "Clemency",
@@ -286,7 +326,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br>Сила лечения: 1,000<br>Дополнительный эффект: восстанавливает себе 50% от HP восстановленных цели, если цель является сопартийцем"
+		"content": "Восстанавливает HP цели.<br>Сила лечения: 1,000<br>Дополнительный эффект: восстанавливает себе 50% от HP восстановленных цели, если цель является сопартийцем",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 21": {
 		"name": "Royal Authority",
@@ -301,7 +343,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 200.<br>Комбо умение: Riot Blade<br>Сила в комбо: 460<br>Комбо бонус: накладывает эффект Atonement Ready<br>Продолжительность: 30 сек.<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет применить Holy Spirit or Holy Circle с повышенной силой атаки. Эффект пропадает после использования<br>Продолжительность: 30 сек."
+		"content": "Удар, наносящий урон с силой атаки 200.<br>Комбо умение: Riot Blade<br>Сила в комбо: 460<br>Комбо бонус: накладывает эффект Atonement Ready<br>Продолжительность: 30 сек.<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет применить Holy Spirit or Holy Circle с повышенной силой атаки. Эффект пропадает после использования<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 22": {
 		"name": "Intervention",
@@ -315,7 +359,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает урон получаемый выбранным сопартийцем на 10%.<br>Продолжительность: 8 сек.<br>Дополнительный эффект: увеличивает снижаемый урона на дополнительные 10%, если на персонаже наложен эффект от Rampart или Guardian<br>Дополнительный эффект: накладывает на выбранного сопартийца эффект Knight's Resolve<br>Эффект Knight's Resolve: уменьшает получаемый урон на 10%<br>Продолжительность: 4 сек.<br>Дополнительный эффект: накладывает на выбранного сопартийца эффект Knight's Benediction<br>Эффект Knight's Benediction: постепенно восстанавливает HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge"
+		"content": "Снижает урон получаемый выбранным сопартийцем на 10%.<br>Продолжительность: 8 сек.<br>Дополнительный эффект: увеличивает снижаемый урона на дополнительные 10%, если на персонаже наложен эффект от Rampart или Guardian<br>Дополнительный эффект: накладывает на выбранного сопартийца эффект Knight's Resolve<br>Эффект Knight's Resolve: уменьшает получаемый урон на 10%<br>Продолжительность: 4 сек.<br>Дополнительный эффект: накладывает на выбранного сопартийца эффект Knight's Benediction<br>Эффект Knight's Benediction: постепенно восстанавливает HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 23": {
 		"name": "Holy Spirit",
@@ -329,7 +375,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 400.<br>Сила атаки под эффектом Divine Might: 500<br>Сила атаки под эффектом Requiescat: 700<br>Эффект Divine Might будет иметь приоритет над эффектом Requiescat при нахождении под действием обоих.<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400"
+		"content": "Удар, наносящий нестихийный урон с силой атаки 400.<br>Сила атаки под эффектом Divine Might: 500<br>Сила атаки под эффектом Requiescat: 700<br>Эффект Divine Might будет иметь приоритет над эффектом Requiescat при нахождении под действием обоих.<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 24": {
 		"name": "Intervene",
@@ -343,7 +391,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок к цели, наносящий урон с силой атаки 150.<br>Максимум зарядов: 2<br>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение."
+		"content": "Рывок к цели, наносящий урон с силой атаки 150.<br>Максимум зарядов: 2<br>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 25": {
 		"name": "Requiescat",
@@ -357,7 +407,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 320.<br>Дополнительный эффект: накладывает 4 стака эффекта Requiescat<br>Эффект Requiescat: увеличивает силу Holy Spirit, Holy Circle и всех умений комбо Confiteor, а также делает все заклинания мгновенными<br>Дополнительный эффект: накладывает эффект Confiteor Ready. Эффект пропадает после использования<br>Продолжительность: 30 сек."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 320.<br>Дополнительный эффект: накладывает 4 стака эффекта Requiescat<br>Эффект Requiescat: увеличивает силу Holy Spirit, Holy Circle и всех умений комбо Confiteor, а также делает все заклинания мгновенными<br>Дополнительный эффект: накладывает эффект Confiteor Ready. Эффект пропадает после использования<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 26": {
 		"name": "Passage of Arms",
@@ -372,7 +424,9 @@
 		"range": "0y",
 		"radius_img": "R3",
 		"radius": "8y",
-		"content": "Создаёт область, в виде конуса позади персонажа, снижающую урон. На время действия увеличивает шанс блока до 100%, а также снижает нанесенный урон вашим сопартийцам на 15%. Эффект активен только если сопартийцы находятся в области действия умения.<br>Продолжительность: 18 сек.<br>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br>Прерывает авто атаки при использовании умения."
+		"content": "Создаёт область, в виде конуса позади персонажа, снижающую урон. На время действия увеличивает шанс блока до 100%, а также снижает нанесенный урон вашим сопартийцам на 15%. Эффект активен только если сопартийцы находятся в области действия умения.<br>Продолжительность: 18 сек.<br>Эффект спадет при использовании умений или перемещении персонажа (включая разворот в другие стороны).<br>Прерывает авто атаки при использовании умения.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 27": {
 		"name": "Holy Circle",
@@ -386,7 +440,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 100 по всем окружающим противникам.<br>Сила атаки под эффектом Divine Might: 250<br>Сила атаки под эффектом Requiescat: 350<br>Эффект Divine Might будет иметь приоритет над эффектом Requiescat, при нахождении под действием обоих<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400"
+		"content": "Удар, наносящий нестихийный урон с силой атаки 100 по всем окружающим противникам.<br>Сила атаки под эффектом Divine Might: 250<br>Сила атаки под эффектом Requiescat: 350<br>Эффект Divine Might будет иметь приоритет над эффектом Requiescat, при нахождении под действием обоих<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 28": {
 		"name": "Atonement",
@@ -400,7 +456,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 460.<br>Дополнительный эффект: восстанавливает MP<br>Накладывает эффект Supplication Ready<br>Продолжительность: 30 сек.<br>Умение может быть выполнено только под действием эффекта Atonement Ready."
+		"content": "Удар, наносящий урон с силой атаки 460.<br>Дополнительный эффект: восстанавливает MP<br>Накладывает эффект Supplication Ready<br>Продолжительность: 30 сек.<br>Умение может быть выполнено только под действием эффекта Atonement Ready.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 29": {
 		"name": "Supplication",
@@ -414,7 +472,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 500.<br>Дополнительный эффект: восстанавливает MP.<br>Дополнительный эффект: накладывает эффект Sepulcher Ready<br>Продолжительность: 30 сек.<br>Может быть использовано только под действием эффекта Supplication Ready.<br><br>※Это умение нельзя поместить на хотбар.<br>※Atonement меняется на Supplication при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 500.<br>Дополнительный эффект: восстанавливает MP.<br>Дополнительный эффект: накладывает эффект Sepulcher Ready<br>Продолжительность: 30 сек.<br>Может быть использовано только под действием эффекта Supplication Ready.<br><br>※Это умение нельзя поместить на хотбар.<br>※Atonement меняется на Supplication при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 30": {
 		"name": "Sepulchre",
@@ -428,7 +488,9 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 540.<br>Дополнительный эффект: восстанавливает MP<br>Может быть использовано только под действием эффекта Sepulcher Ready.<br><br>※Это умение нельзя поместить на хотбар.<br>※Supplication меняется на Sepulcher при соблюдении требований к выполнению."
+		"content": "Удар, наносящий урон с силой атаки 540.<br>Дополнительный эффект: восстанавливает MP<br>Может быть использовано только под действием эффекта Sepulcher Ready.<br><br>※Это умение нельзя поместить на хотбар.<br>※Supplication меняется на Sepulcher при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 31": {
 		"name": "Confiteor",
@@ -442,7 +504,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 500 для первого и на 60% меньше для всех остальных.<br>Сила атаки Requiescat: 1,000<br>Дополнительный эффект: восстанавливает HP<br>Сила лечения: 400<br>Может быть использовано только под действием эффекта Confiteor Ready. Эффект спадет после использования."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 500 для первого и на 60% меньше для всех остальных.<br>Сила атаки Requiescat: 1,000<br>Дополнительный эффект: восстанавливает HP<br>Сила лечения: 400<br>Может быть использовано только под действием эффекта Confiteor Ready. Эффект спадет после использования.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 32": {
 		"name": "Holy Sheltron",
@@ -456,7 +520,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый урон на 15%.<br>Продолжительность: 8 сек.<br>Дополнительный эффект: накладывает эффект Knight's Resolve<br>Эффект Knight's Resolve: уменьшает получаемый урон на 15%<br>Продолжительность: 4 сек.<br>Дополнительный эффект: накладывает эффект Knight's Benediction<br>Эффект Knight's Benediction: постепенное восстанавливает HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge"
+		"content": "Снижает получаемый урон на 15%.<br>Продолжительность: 8 сек.<br>Дополнительный эффект: накладывает эффект Knight's Resolve<br>Эффект Knight's Resolve: уменьшает получаемый урон на 15%<br>Продолжительность: 4 сек.<br>Дополнительный эффект: накладывает эффект Knight's Benediction<br>Эффект Knight's Benediction: постепенное восстанавливает HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.<br>Стоимость: 50 Oath Gauge",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 33": {
 		"name": "Expiacion",
@@ -470,7 +536,9 @@
 		"range": "3y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 450 для первого и на 60% меньше для всех остальных.<br>Дополнительный эффект: восстанавливает MP"
+		"content": "Удар, наносящий урон по цели и по всем окружающим противникам с силой атаки 450 для первого и на 60% меньше для всех остальных.<br>Дополнительный эффект: восстанавливает MP",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 34": {
 		"name": "Blade of Faith",
@@ -484,7 +552,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 260 для первого и на 60% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 760<br>Комбо умение: Confiteor<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.<br>※Confiteor меняется на Blade of Faith при соблюдении требований к выполнению."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 260 для первого и на 60% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 760<br>Комбо умение: Confiteor<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.<br>※Confiteor меняется на Blade of Faith при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 35": {
 		"name": "Blade of Truth",
@@ -498,7 +568,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 380 для первого и на 60% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 880<br>Комбо умение: Blade of Faith<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.<br>※Blade of Faith меняется на Blade of Truth при соблюдении требований к выполнению."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 380 для первого и на 60% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 880<br>Комбо умение: Blade of Faith<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br><br>※Это умение нельзя поместить на хотбар.<br>※Blade of Faith меняется на Blade of Truth при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 36": {
 		"name": "Blade of Valor",
@@ -512,7 +584,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 500 для первого и на 60% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 1,000<br>Комбо умение: Blade of Truth<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br>Дополнительный эффект: накладывает эффект Blade of Honor Ready<br>Продолжительность: 30 сек.<br><br>※Это умение нельзя поместить на хотбар.<br>※Blade of Truth меняется на Blade of Valor при соблюдении требований к выполнению."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 500 для первого и на 60% меньше для всех остальных.<br>Сила атаки под эффектом Requiescat: 1,000<br>Комбо умение: Blade of Truth<br>Дополнительный эффект: восстанавливает HP персонажа<br>Сила лечения: 400<br>Дополнительный эффект: накладывает эффект Blade of Honor Ready<br>Продолжительность: 30 сек.<br><br>※Это умение нельзя поместить на хотбар.<br>※Blade of Truth меняется на Blade of Valor при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 37": {
 		"name": "Guardian",
@@ -526,7 +600,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Уменьшает получаемый урон на 40%.<br>Продолжительность: 15 сек.<br>Дополнительный эффект: создает барьер, предотвращающий получение урона, эквивалентный исцелению силой 1,000<br>Продолжительность: 15 сек."
+		"content": "Уменьшает получаемый урон на 40%.<br>Продолжительность: 15 сек.<br>Дополнительный эффект: создает барьер, предотвращающий получение урона, эквивалентный исцелению силой 1,000<br>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 38": {
 		"name": "Imperator",
@@ -540,7 +616,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 580 для первого и на 60% меньше для всех остальных.<br>Дополнительный эффект: накладывает 4 стака Requiescat<br>Продолжительность: 30 сек.<br>Эффект Requiescat: увеличивает силу Holy Spirit, Holy Circle и всех умений комбо Confiteor, а также делает все заклинания мгновенными<br>Дополнительные эффекты: накладывает эффект Confiteor Ready<br>Продолжительность: 30 сек."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 580 для первого и на 60% меньше для всех остальных.<br>Дополнительный эффект: накладывает 4 стака Requiescat<br>Продолжительность: 30 сек.<br>Эффект Requiescat: увеличивает силу Holy Spirit, Holy Circle и всех умений комбо Confiteor, а также делает все заклинания мгновенными<br>Дополнительные эффекты: накладывает эффект Confiteor Ready<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 39": {
 		"name": "Blade of Honor",
@@ -554,14 +632,18 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 1,000 для первого и на 60% меньше для всех остальных.<br>Может быть использовано только под действием эффекта Blade of Honor Ready.<br><br>※Это умение нельзя поместить на хотбар.<br>※Imperator меняется на Blade of Honor при соблюдении требований к выполнению."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой 1,000 для первого и на 60% меньше для всех остальных.<br>Может быть использовано только под действием эффекта Blade of Honor Ready.<br><br>※Это умение нельзя поместить на хотбар.<br>※Imperator меняется на Blade of Honor при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "GLA",
 		"level": "1",
-		"content": "Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength)."
+		"content": "Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength).",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 02": {
 		"name": "Oath Mastery",
@@ -569,7 +651,9 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3ea4bdf5de4ff4d7d14041fd6caa625d68c131cd.png",
 		"job_icon": "PLD",
 		"level": "35",
-		"content": "Восполняет ресурс шкалы Oath Gauge на 5 при каждой авто атаке."
+		"content": "Восполняет ресурс шкалы Oath Gauge на 5 при каждой авто атаке.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 04": {
 		"name": "Enhanced Fight or Flight",
@@ -577,14 +661,18 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bd891a4170937927986328cf502585a6a20d3f65.png",
 		"job_icon": "PLD",
 		"level": "54",
-		"content": "Накладывает эффект Goring Blade Ready при использовании Fight or Flight.<br>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Goring Blade Ready при использовании Fight or Flight.<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 03": {
 		"name": "Chivalry",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/303132af0562c1741746d382e2e7060032436afa.png",
 		"job_icon": "PLD",
 		"level": "58",
-		"content": "Восстанавливает MP при использовании умения Riot Blade или Spirits Within."
+		"content": "Восстанавливает MP при использовании умения Riot Blade или Spirits Within.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 05": {
 		"name": "Rage of Halone Mastery",
@@ -592,112 +680,144 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8f37467dd4cd7e208aa4d5d2dba1481e5b330438.png",
 		"job_icon": "PLD",
 		"level": "60",
-		"content": "Улучшает умение Rage of Halone до Royal Authority."
+		"content": "Улучшает умение Rage of Halone до Royal Authority.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 06": {
 		"name": "Divine Magic Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png",
 		"job_icon": "PLD",
 		"level": "64",
-		"content": "Сокращает затраты MP для всех заклинаний, а также предотвращает прерывание чтения заклинания после получения урона. Накладывает следующие эффекты после успешного завершения комбо с Royal Authority:<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек."
+		"content": "Сокращает затраты MP для всех заклинаний, а также предотвращает прерывание чтения заклинания после получения урона. Накладывает следующие эффекты после успешного завершения комбо с Royal Authority:<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 07": {
 		"name": "Enhanced Prominence",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/413518284f7ac59252bf26c3da7493fcae6c5b35.png",
 		"job_icon": "PLD",
 		"level": "72",
-		"content": "Накладывает следующие эффекты после успешного завершения комбо с Prominence:<br>Комбо бонус: восстанавливает MP<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек."
+		"content": "Накладывает следующие эффекты после успешного завершения комбо с Prominence:<br>Комбо бонус: восстанавливает MP<br>Комбо бонус: накладывает эффект Divine Might<br>Эффект Divine Might: позволяет мгновенно применить умение Holy Spirit or Holy Circle с повышенной силой атаки<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 08": {
 		"name": "Enhanced Sheltron",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3d00586a157017225c57713dde5d1d17f8745086.png",
 		"job_icon": "PLD",
 		"level": "74",
-		"content": "Увеличивает продолжительность умения Sheltron до 6 сек."
+		"content": "Увеличивает продолжительность умения Sheltron до 6 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 09": {
 		"name": "Sword Oath",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7abcc7ab50300a442c5f0aa68261b9730a2070c0.png",
 		"job_icon": "PLD",
 		"level": "76",
-		"content": "Накладывает эффект Atonement Ready после успешного завершения комбо с Royal Authority.<br>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Atonement Ready после успешного завершения комбо с Royal Authority.<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 10": {
 		"name": "Enhanced Requiescat",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/894b41ba20cd94ed36fd681d9729d21ba7e22052.png",
 		"job_icon": "PLD",
 		"level": "80",
-		"content": "Накладывает эффект Confiteor Ready после использования Requiescat.<br>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Confiteor Ready после использования Requiescat.<br>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 11": {
 		"name": "Sheltron Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5727377cab202a9ba787318ec8694067e837a8a2.png",
 		"job_icon": "PLD",
 		"level": "82",
-		"content": "Улучшает умение Sheltron до Holy Sheltron."
+		"content": "Улучшает умение Sheltron до Holy Sheltron.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 12": {
 		"name": "Enhanced Intervention",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7d8cd4ab4588bc9d68b8436b378563d590dae1e8.png",
 		"job_icon": "PLD",
 		"level": "82",
-		"content": "Увеличивает продолжительность умения Intervention до 8 секунд.<br>Накладывает эффект Knight's Resolve на выбранного сопартийца, снижая получаемый урон на 10%<br>Продолжительность: 4 сек.<br>Накладывает эффект Knight's Benediction на выбранного сопартийца, постепенно восстанавливающий HP<br>Сила лечения: 250<br>Продолжительность: 12 сек."
+		"content": "Увеличивает продолжительность умения Intervention до 8 секунд.<br>Накладывает эффект Knight's Resolve на выбранного сопартийца, снижая получаемый урон на 10%<br>Продолжительность: 4 сек.<br>Накладывает эффект Knight's Benediction на выбранного сопартийца, постепенно восстанавливающий HP<br>Сила лечения: 250<br>Продолжительность: 12 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 13": {
 		"name": "Divine Magic Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3d7131e2d50c6b43898deadb212e3c58fedc2a87.png",
 		"job_icon": "PLD",
 		"level": "84",
-		"content": "Добавляет исцеляющий эффект умениям Holy Spirit, Holy Circle и Confiteor.<br>Сила лечения: 400"
+		"content": "Добавляет исцеляющий эффект умениям Holy Spirit, Holy Circle и Confiteor.<br>Сила лечения: 400",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 14": {
 		"name": "Melee Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "PLD",
 		"level": "84",
-		"content": "Увеличивает силу атаки умениям Fast Blade до 200, Riot Blade до 140, Royal Authority до 140, Holy Spirit до 350, Atonement до 400, Supplication до 420 и Sepulcher до 440."
+		"content": "Увеличивает силу атаки умениям Fast Blade до 200, Riot Blade до 140, Royal Authority до 140, Holy Spirit до 350, Atonement до 400, Supplication до 420 и Sepulcher до 440.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 15": {
 		"name": "Spirits Within Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8f8d91cf706370a9295a3a9495713a18e9a84e37.png",
 		"job_icon": "PLD",
 		"level": "86",
-		"content": "Улучшает умение Spirits Within до Expiacion."
+		"content": "Улучшает умение Spirits Within до Expiacion.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 16": {
 		"name": "Enhanced Divine Veil",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7cdd930171cd46b5dae53f059704d0db413a7e82.png",
 		"job_icon": "PLD",
 		"level": "88",
-		"content": "Добавляет исцеляющий эффект для умения Divine Veil.<br>Сила лечения: 400"
+		"content": "Добавляет исцеляющий эффект для умения Divine Veil.<br>Сила лечения: 400",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 17": {
 		"name": "Sentinel Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b04967e1f3a9990b5c01ac4b3bb950cbc1bd0392.png",
 		"job_icon": "PLD",
 		"level": "92",
-		"content": "Улучшает умение Sentinel до Guardian."
+		"content": "Улучшает умение Sentinel до Guardian.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 18": {
 		"name": "Melee Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "PLD",
 		"level": "94",
-		"content": "Увеличивает силу атаки умениям Fast Blade до 220, Riot Blade до 170, Royal Authority до 180, Holy Spirit до 370, Atonement до 440, Supplication до 460, Sepulcher до 480, Confiteor до 440, Blade of Faith до 240, Blade of Truth до 340 и Blade of Valor до 440."
+		"content": "Увеличивает силу атаки умениям Fast Blade до 220, Riot Blade до 170, Royal Authority до 180, Holy Spirit до 370, Atonement до 440, Supplication до 460, Sepulcher до 480, Confiteor до 440, Blade of Faith до 240, Blade of Truth до 340 и Blade of Valor до 440.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 19": {
 		"name": "Requiescat Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/416e440b4f9346f24141890f736f6f2838363de4.png",
 		"job_icon": "PLD",
 		"level": "96",
-		"content": "Улучшает умение Requiescat до Imperator."
+		"content": "Улучшает умение Requiescat до Imperator.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 20": {
 		"name": "Enhanced Blade of Valor",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/92d476e84bdd9b49ab34c50058430c0dd4c25930.png",
 		"job_icon": "PLD",
 		"level": "100",
-		"content": "Накладывает эффект Blade of Honor Ready при использовании Blade of Valor.<br>Продолжительность: 30 сек.<br>Imperator меняется на Blade of Honor, пока находится под действием эффекта Blade of Honor Ready."
+		"content": "Накладывает эффект Blade of Honor Ready при использовании Blade of Valor.<br>Продолжительность: 30 сек.<br>Imperator меняется на Blade of Honor, пока находится под действием эффекта Blade of Honor Ready.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 01": {
 		"name": "Fast Blade",
@@ -708,7 +828,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 02": {
 		"name": "Riot Blade",
@@ -719,7 +841,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Fast Blade<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Fast Blade<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 03": {
 		"name": "Royal Authority",
@@ -730,7 +854,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Riot Blade<br/>Дополнительный эффект: дает стак пассивного умения Sword Oath, вплоть до 3<br/>Продолжительность: 10 сек.<br/><br/>※Combo Royal Authority меняется на Atonement под действием эффекта Sword Oath.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Riot Blade<br/>Дополнительный эффект: дает стак пассивного умения Sword Oath, вплоть до 3<br/>Продолжительность: 10 сек.<br/><br/>※Combo Royal Authority меняется на Atonement под действием эффекта Sword Oath.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 04": {
 		"name": "Shield Smite",
@@ -741,7 +867,9 @@
 		"range": "8y",
 		"radius_img": "R4",
 		"radius": "8y",
-		"content": "Удар, наносящий урон с силой атаки 8,000 всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%.<br/>Продолжительность: 10 сек.<br/>Уменьшает вдвое защитный бонус Guard, когда под его действием целью выбран противник.<br/>Этот боевой навык не имеет общего время восстановления с другими умениями."
+		"content": "Удар, наносящий урон с силой атаки 8,000 всем противникам в конусе перед персонажем.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%.<br/>Продолжительность: 10 сек.<br/>Сокращает вдвое защитный бонус Guard, когда вы атакуете противников, находящихся под его эффектом.<br/>Этот боевой навык не имеет общего время восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 05": {
 		"name": "Holy Spirit",
@@ -752,7 +880,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: восстанавливает HP персонажа.<br/>Сила лечения: 6,000.<br/>Максимум стаков: 2"
+		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Дополнительный эффект: восстанавливает HP персонажа.<br/>Сила лечения: 6,000.<br/>Максимум стаков: 2",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVP Skill 06": {
 		"name": "Imperator",
@@ -763,7 +893,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 4,000.<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim.<br/>Эффект Sacred Claim: восстанавливает HP при успешной атаке по цели под этим эффектом<br/>Сила лечения: 3,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Atonement Ready<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Confiteor Ready<br/>Продолжительность: 15 сек.<br/><br/>※Умения меняется на Confiteor после использования.<br/>※Комбо Royal Authority меняется на Atonement, пока находится под действием эффекта Atonement Ready."
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 4,000.<br/>Дополнительный эффект: накладывает на цель эффект Sacred Claim.<br/>Эффект Sacred Claim: восстанавливает HP при успешной атаке по цели под этим эффектом<br/>Сила лечения: 3,000<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Atonement Ready<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Confiteor Ready<br/>Продолжительность: 15 сек.<br/><br/>※Умения меняется на Confiteor после использования.<br/>※Комбо Royal Authority меняется на Atonement, пока находится под действием эффекта Atonement Ready.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 07": {
 		"name": "Intervene",
@@ -774,7 +906,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение."
+		"content": "Рывок к цели, наносящий урон с силой атаки 2,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 08": {
 		"name": "Holy Sheltron",
@@ -785,7 +919,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает на персонажа эффекты Holy Sheltron and Knight's Resolve.<br/>Эффект Holy Sheltron: создает барьер вокруг персонажа, который поглощает урон, равный исцелению силой 8,000<br/>Продолжительность: 4 сек.<br/>Если барьер не разрушен к моменту истечения эффекта, то он наносит стихийный урон всем окружающим противникам с силой атаки, равной 150% от оставшейся прочности барьера и накладывает эффект Sword Oath на персонажа.<br/>Эффект Sword Oath: увеличивает наносимый урон на 15%<br/>Продолжительность: 8 сек.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 4 сек.<br/>Накладывает эффект Shield Oath, когда барьер полностью поглощен.<br/><br/>Эффект Shield Oath: снижает получаемый урон на 15%<br/>Продолжительность: 8 сек."
+		"content": "Накладывает на персонажа эффекты Holy Sheltron and Knight's Resolve.<br/>Эффект Holy Sheltron: создает барьер вокруг персонажа, который поглощает урон, равный исцелению силой 8,000<br/>Продолжительность: 4 сек.<br/>Если барьер не разрушен к моменту истечения эффекта, то он наносит стихийный урон всем окружающим противникам с силой атаки, равной 150% от оставшейся прочности барьера и накладывает эффект Sword Oath на персонажа.<br/>Эффект Sword Oath: увеличивает наносимый урон на 15%<br/>Продолжительность: 8 сек.<br/>Дополнительный эффект: тяжесть (heavy) +75%<br/>Продолжительность: 4 сек.<br/>Накладывает эффект Shield Oath, когда барьер полностью поглощен.<br/><br/>Эффект Shield Oath: снижает получаемый урон на 15%<br/>Продолжительность: 8 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 09": {
 		"name": "Guardian",
@@ -796,7 +932,9 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок в сторону выбранного сопартийца.<br/>Дополнительный эффект: принимает на себя весь урон, предназначенный сопартийцу<br/>Продолжительность: 8 сек.<br/>Может быть использовано только тогда, когда сопартиец находится на расстоянии менее 10 ялмов.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Невозможно использовать на цели, взаимодействующие с объектами."
+		"content": "Рывок в сторону выбранного сопартийца.<br/>Дополнительный эффект: принимает на себя весь урон, предназначенный сопартийцу<br/>Продолжительность: 8 сек.<br/>Может быть использовано только тогда, когда сопартиец находится на расстоянии менее 10 ялмов.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.<br/>Невозможно использовать на цели, взаимодействующие с объектами.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 10": {
 		"name": "Atonement",
@@ -807,7 +945,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 9,000.<br/>Дополнительный эффект: накладывает эффект Supplication Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Atonement Ready.<br/><br/>※Умения меняется на Supplication после использования.※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 9,000.<br/>Дополнительный эффект: накладывает эффект Supplication Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Atonement Ready.<br/><br/>※Умения меняется на Supplication после использования.※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 11": {
 		"name": "Supplication",
@@ -818,7 +958,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 10,000.<br/>Дополнительный эффект: накладывает эффект Sepulchre Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Supplication Ready.<br/><br/>※Умения меняется на Sepulchre после использования.※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 10,000.<br/>Дополнительный эффект: накладывает эффект Sepulchre Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только под действием эффекта Supplication Ready.<br/><br/>※Умения меняется на Sepulchre после использования.※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 12": {
 		"name": "Sepulchre",
@@ -829,7 +971,9 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 11,000.<br/>Может быть использовано только под действием эффекта Sepulchre Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий урон с силой атаки 11,000.<br/>Может быть использовано только под действием эффекта Sepulchre Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 13": {
 		"name": "Confiteor",
@@ -840,7 +984,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 10,000 по цели и всем противника рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Может быть использовано только под действием эффекта Confiteor Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 10,000 по цели и всем противника рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Может быть использовано только под действием эффекта Confiteor Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 14": {
 		"name": "Blade of Faith",
@@ -851,7 +997,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 11,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Возможно использовать только под действием умения Blade of Faith Ready.<br/><br/>※Умения меняется на Blade of Truth после использования.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 11,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Возможно использовать только под действием умения Blade of Faith Ready.<br/><br/>※Умения меняется на Blade of Truth после использования.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 15": {
 		"name": "Blade of Truth",
@@ -862,7 +1010,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Комбо умение: Blade of Faith<br/><br/>※Умения меняется на Blade of Valor после использования.<br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 12,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Комбо умение: Blade of Faith<br/><br/>※Умения меняется на Blade of Valor после использования.<br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 16": {
 		"name": "Blade of Valor",
@@ -873,7 +1023,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 13,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Комбо умение: Blade of Truth<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 13,000 по цели и всем противникам рядом с ней.<br/>Дополнительный эффект: восстановливает HP персонажа<br/>Сила лечения: 8,000<br/>Комбо умение: Blade of Truth<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill LB": {
 		"name": "Phalanx",
@@ -883,6 +1035,8 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "15y",
-		"content": "Накладывает эффект Hallowed Ground на себе и эффект Phalanx на ближайших сопартийцев.<br/>Эффект Hallowed Ground: дает персонажу неуязвимость против большинства атак<br/>Продолжительность: 10 сек.<br/>Эффект Phalanx: снижаем получаемый урон на 33%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Blade of Faith Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 120 сек.<br/><br/>※Умение меняется на Blade of Faith при использовании."
+		"content": "Накладывает эффект Hallowed Ground на себе и эффект Phalanx на ближайших сопартийцев.<br/>Эффект Hallowed Ground: дает персонажу неуязвимость против большинства атак<br/>Продолжительность: 10 сек.<br/>Эффект Phalanx: снижаем получаемый урон на 33%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Blade of Faith Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 120 сек.<br/><br/>※Умение меняется на Blade of Faith при использовании.",
+		"skill_update": false,
+		"skill_new": false
 	}
 }

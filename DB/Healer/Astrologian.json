@@ -13,7 +13,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 150."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 150.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 02": {
 		"name": "Benefic",
@@ -27,7 +29,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 500<br/>Дополнительный эффект: 15% шанс, что следующий Benefic II будет иметь критический эффект при исцелении<br/>Продолжительность: 15 сек."
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 500<br/>Дополнительный эффект: 15% шанс, что следующий Benefic II будет иметь критический эффект при исцелении<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 03": {
 		"name": "Combust",
@@ -41,7 +45,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Периодический нестихийный урон.<br/>Сила атаки: 50<br/>Продолжительность: 30 сек."
+		"content": "Периодический нестихийный урон.<br/>Сила атаки: 50<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 04": {
 		"name": "Lightspeed",
@@ -55,7 +61,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает время применения заклинаний на 2.5 секунды.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2"
+		"content": "Снижает время применения заклинаний на 2.5 секунды.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 05": {
 		"name": "Helios",
@@ -69,7 +77,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400"
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 06": {
 		"name": "Ascend",
@@ -83,7 +93,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Воскрешает цель, накладывая эффект слабости (weakeness)."
+		"content": "Воскрешает цель, накладывая эффект слабости (weakeness).",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 07": {
 		"name": "Essential Dignity",
@@ -97,7 +109,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 400<br/>Сила лечения увеличивается до 900 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 30% HP или меньше.<br/>Максимум зарядов: 3"
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 400<br/>Сила лечения увеличивается до 900 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 30% HP или меньше.<br/>Максимум зарядов: 3",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 08": {
 		"name": "Benefic II",
@@ -111,7 +125,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 800"
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 800",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 09": {
 		"name": "Astral Draw",
@@ -125,7 +141,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Вытягивает из гадальной колоды персонажа карты the Balance, the Arrow, the Spire и the Lord of Crowns.<br/>Дополнительный эффект: восстанавливает 20% MP персонажа<br/>При использовании, Play I меняется на меняется на The Balance, Play II меняется на The Arrow, Play III меняется на The Spire, Minor Arcana меняется на Lord of Crowns и Astral Draw меняется на Umbral Draw.<br/>Имеет общее время восстановления с умением Umbral Draw."
+		"content": "Вытягивает из гадальной колоды персонажа карты the Balance, the Arrow, the Spire и the Lord of Crowns.<br/>Дополнительный эффект: восстанавливает 20% MP персонажа<br/>При использовании, Play I меняется на меняется на The Balance, Play II меняется на The Arrow, Play III меняется на The Spire, Minor Arcana меняется на Lord of Crowns и Astral Draw меняется на Umbral Draw.<br/>Имеет общее время восстановления с умением Umbral Draw.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 10": {
 		"name": "Umbral Draw",
@@ -139,7 +157,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Вытягивает из гадальной колоды персонажа карты the Spear, the Bole, the Ewer и the Lady of Crowns.<br/>Дополнительный эффект: восстанавливает 20% MP персонажа<br/>При использовании Play I меняется на The Spear, Play II меняется на The Bole, Play III меняется на The Ewer, Minor Arcana меняется на Lady of Crowns и Umbral Draw меняется на Astral Draw.<br/>Имеет общее время восстановления с умением Astral Draw.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Astral Draw меняется на Umbral Draw при соблюдении требований к выполнению."
+		"content": "Вытягивает из гадальной колоды персонажа карты the Spear, the Bole, the Ewer и the Lady of Crowns.<br/>Дополнительный эффект: восстанавливает 20% MP персонажа<br/>При использовании Play I меняется на The Spear, Play II меняется на The Bole, Play III меняется на The Ewer, Minor Arcana меняется на Lady of Crowns и Umbral Draw меняется на Astral Draw.<br/>Имеет общее время восстановления с умением Astral Draw.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Astral Draw меняется на Umbral Draw при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 11": {
 		"name": "Play I",
@@ -153,7 +173,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Balance.<br/>Эффект Umbral Draw: Умение меняется на The Spear."
+		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Balance.<br/>Эффект Umbral Draw: Умение меняется на The Spear.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 12": {
 		"name": "Play II",
@@ -167,7 +189,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Arrow.<br/>Эффект Umbral Draw: Умение меняется на The Bole."
+		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Arrow.<br/>Эффект Umbral Draw: Умение меняется на The Bole.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 13": {
 		"name": "Play III",
@@ -181,7 +205,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Spire.<br/>Эффект Umbral Draw: Умение меняется на The Ewer."
+		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw.<br/>Эффект Astral Draw: Умение меняется на The Spire.<br/>Эффект Umbral Draw: Умение меняется на The Ewer.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 14": {
 		"name": "Aspected Benefic",
@@ -195,7 +221,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 250<br/>Продолжительность: 15 сек."
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 250<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 15": {
 		"name": "Aspected Helios",
@@ -209,7 +237,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 150<br/>Продолжительность: 15 сек."
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 150<br/>Продолжительность: 15 сек.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 16": {
 		"name": "Gravity",
@@ -224,7 +254,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "8y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 120 по цели и всем окружающим противникам."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 120 по цели и всем окружающим противникам.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 17": {
 		"name": "Combust II",
@@ -238,7 +270,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Периодический нестихийный урон.<br/>Сила атаки: 60<br/>Продолжительность: 30 сек."
+		"content": "Периодический нестихийный урон.<br/>Сила атаки: 60<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 18": {
 		"name": "Synastry",
@@ -253,7 +287,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Создает эфирную связь с выбранным сопартийцем. Каждое применение одиночного лечебного заклинания на персонажа или сопартийца восстанавливает 40% HP от оригинального эффекта заклинания связанному сопартийцу.<br/>Продолжительность: 20 сек."
+		"content": "Создает эфирную связь с выбранным сопартийцем. Каждое применение одиночного лечебного заклинания на персонажа или сопартийца восстанавливает 40% HP от оригинального эффекта заклинания связанному сопартийцу.<br/>Продолжительность: 20 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 19": {
 		"name": "Divination",
@@ -267,7 +303,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Увеличивает урон персонажа и всех ближайших сопартийцев на 6%.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Divining<br/>Продолжительность: 30 сек."
+		"content": "Увеличивает урон персонажа и всех ближайших сопартийцев на 6%.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Divining<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 20": {
 		"name": "Malefic II",
@@ -282,7 +320,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 160."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 160.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 21": {
 		"name": "Collective Unconscious",
@@ -297,7 +337,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Создает защитную область вокруг заклинателя.<br/>Продолжительность: 18 сек.<br/>Дополнительный эффект: снижает получаемый урон на 10% персонажем и всеми ближайшими сопартийцам в радиусе 30 ялмов и накладывает Wheel of Fortune на персонажа и на сопартийцев в радиусе 8 ялмов<br/>Продолжительность: 5 сек.<br/>Эффект Wheel of Fortune: эффект периодического лечения (regen)<br/>Сила лечения: 100<br/>Продолжительность: 15 сек.<br/>Эффекты будут непрерывно накладываться на персонажа и всех сопартийцев, находящихся в пределах области. Эффект Collective Unconscious прерывается при использовании любого другого умения, либо при перемещении (включая повороты на месте).<br/>Прерывает авто атаки при использовании умения."
+		"content": "Создает защитную область на 8 ялмов вокруг заклинателя.<br/>Продолжительность: 18 сек.<br/>Дополнительный эффект: снижает получаемый урон на 10% персонажу и всеми ближайшими сопартийцам в радиусе 30 ялмов и накладывает Wheel of Fortune на персонажа и на сопартийцев в радиусе 8 ялмов<br/>Продолжительность: 10 сек.<br/>Эффект Wheel of Fortune: эффект периодического лечения (regen)<br/>Сила лечения: 100<br/>Продолжительность: 15 сек.<br/>Эффект Wheel of Fortune будет непрерывно накладываться на персонажа и всех сопартийцев, находящихся в пределах области. Эффект Collective Unconscious прерывается при использовании любого другого умения, либо при перемещении (включая повороты на месте).<br/>Прерывает авто атаки при использовании умения.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 22": {
 		"name": "Celestial Opposition",
@@ -312,7 +354,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 200<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 100<br/>Продолжительность: 15 сек."
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 200<br/>Дополнительный эффект: эффект периодического лечения (regen)<br/>Сила лечения: 100<br/>Продолжительность: 15 сек.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 23": {
 		"name": "Earthly Star",
@@ -326,7 +370,9 @@
 		"range": "30y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Создает в указанной зоне Earthly Star и накладывает эффект Earthly Dominance.<br/>Продолжительность: 10 сек.<br/>Использование Stellar Detonation, под действием Earthly Dominance, создает Stellar Burst, наносящий нестихийный урон с силой атаки 205 по всем окружающим противникам. Также восстанавливает HP персонажу и всем окружающим сопартийцам.<br/>Сила лечения: 540<br/>Через 10 сек. эффект Earthly Dominance сменяется эффектом Giant Dominance.<br/>Продолжительность: 10 сек.<br/>Ожидание 10 сек. или использование Stellar Detonation, будучи под эффектом Giant Dominance, создает Stellar Explosion наносящий нестихийный урон с силой атаки 310 по всем окружающим противникам. Также восстанавливает HP персонажу и всем окружающим сопартицам.<br/>Сила лечения: 720"
+		"content": "Создает в указанной зоне Earthly Star и накладывает эффект Earthly Dominance.<br/>Продолжительность: 10 сек.<br/>Использование Stellar Detonation, под действием Earthly Dominance, создает Stellar Burst, наносящий нестихийный урон с силой атаки 205 по всем окружающим противникам. Также восстанавливает HP персонажу и всем окружающим сопартийцам.<br/>Сила лечения: 540<br/>Через 10 сек. эффект Earthly Dominance сменяется эффектом Giant Dominance.<br/>Продолжительность: 10 сек.<br/>Ожидание 10 сек. или использование Stellar Detonation, будучи под эффектом Giant Dominance, создает Stellar Explosion наносящий нестихийный урон с силой атаки 310 по всем окружающим противникам. Также восстанавливает HP персонажу и всем окружающим сопартицам.<br/>Сила лечения: 720",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 24": {
 		"name": "Stellar Detonation",
@@ -340,7 +386,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Находясь под действием Earthly Dominance создает на месте Earthly Star звёздную вспышку, наносящую нестихийный урон с силой 100 всем противникам поблизости.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 540<br/>Находясь под действием Earthly Dominance создает на месте Earthly Star звездный взрыв, наносящий нестихийный урон с силой 150 всем противникам поблизости.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 720"
+		"content": "Находясь под действием Earthly Dominance создает на месте Earthly Star звёздную вспышку, наносящую нестихийный урон с силой 100 всем противникам поблизости.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 540<br/>Находясь под действием Earthly Dominance создает на месте Earthly Star звездный взрыв, наносящий нестихийный урон с силой 150 всем противникам поблизости.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 720",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 25": {
 		"name": "Malefic III",
@@ -354,7 +402,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 190."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 190.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 26": {
 		"name": "Minor Arcana",
@@ -368,7 +418,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw<br/>Эффект Astral Draw: Умение меняется на Lord of Crowns<br/>Эффект Umbral Draw: Умение меняется на Lady of Crowns"
+		"content": "Разыгрывает нарисованный арканум (arcanum) после использования Astral Draw или Umbral Draw<br/>Эффект Astral Draw: Умение меняется на Lord of Crowns<br/>Эффект Umbral Draw: Умение меняется на Lady of Crowns",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 27": {
 		"name": "Combust III",
@@ -382,7 +434,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Периодический нестихийный урон.<br/>Сила атаки: 70<br/>Продолжительность: 30 сек."
+		"content": "Периодический нестихийный урон.<br/>Сила атаки: 70<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 28": {
 		"name": "Malefic IV",
@@ -396,7 +450,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 230."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 230.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 29": {
 		"name": "Celestial Intersection",
@@ -410,7 +466,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP персонажу или выбранному сопартийцу.<br/>Сила лечения: 200<br/>Дополнительный эффект: создает магический барьер, который предотвращает получение урона, равного 200% от количества восстановленных HP<br/>Продолжительность: 30 сек.<br/>Максимум стаков: 2"
+		"content": "Восстанавливает HP персонажу или выбранному сопартийцу.<br/>Сила лечения: 200<br/>Дополнительный эффект: создает магический барьер, который предотвращает получение урона, равного 200% от количества восстановленных HP<br/>Продолжительность: 30 сек.<br/>Максимум стаков: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 30": {
 		"name": "Horoscope",
@@ -424,7 +482,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Предсказывает судьбу для персонажа и всех окружающих сопартийцев, накладывая на них эффект Horoscope.<br/>Продолжительность: 10 сек.<br/>Эффект улучшается до Horoscope Helios после получения эффекта Helios или Helios Conjunction.<br/>Продолжительность: 30 сек.<br/>Восстанавливает HP сопартийцам с данными эффектами при повторном предсказании судьбы или окончании времени действия эффекта.<br/>Сила лечения Horoscope: 200<br/>Сила лечения Horoscope Helios: 400"
+		"content": "Предсказывает судьбу для персонажа и всех окружающих сопартийцев, накладывая на них эффект Horoscope.<br/>Продолжительность: 10 сек.<br/>Эффект улучшается до Horoscope Helios после получения эффекта Helios или Helios Conjunction.<br/>Продолжительность: 30 сек.<br/>Восстанавливает HP сопартийцам с данными эффектами при повторном предсказании судьбы или окончании времени действия эффекта.<br/>Сила лечения Horoscope: 200<br/>Сила лечения Horoscope Helios: 400",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 31": {
 		"name": "Horoscope",
@@ -438,7 +498,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех окружающих сопартийцев.<br/>Сила лечения определяется эффектом Horoscope на сопартийцах. Эффект спадает после использования.<br/>Сила с Horoscope: 200<br/>Сила с Horoscope Helios: 400"
+		"content": "Восстанавливает HP персонажа и всех окружающих сопартийцев.<br/>Сила лечения определяется эффектом Horoscope на сопартийцах. Эффект спадает после использования.<br/>Сила с Horoscope: 200<br/>Сила с Horoscope Helios: 400",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 32": {
 		"name": "Neutral Sect",
@@ -452,7 +514,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает силу магии лечения на 20%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: после использования Aspected Benefic и Helios Conjunction, который предотвращает получение урона<br/>Эффект Aspected Benefic: обнуляет урон, равный 250% от количества восстановленных HP<br/>Эффект Aspected Helios: обнуляет урон, равный 125% от количества восстановленных HP<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Suntouched<br/>Продолжительность: 30 сек."
+		"content": "Увеличивает силу магии лечения на 20%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: после использования Aspected Benefic и Helios Conjunction, который предотвращает получение урона<br/>Эффект Aspected Benefic: обнуляет урон, равный 250% от количества восстановленных HP<br/>Эффект Aspected Helios: обнуляет урон, равный 125% от количества восстановленных HP<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Suntouched<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 33": {
 		"name": "Fall Malefic",
@@ -466,7 +530,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 270."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 270.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 34": {
 		"name": "Gravity II",
@@ -480,7 +546,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "8y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 140 по цели и всем окружающим противникам."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 140 по цели и всем окружающим противникам.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 35": {
 		"name": "Exaltation",
@@ -494,7 +562,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает урон, наносимый персонажу или выбранному сопартийцу, на 10%.<br/>Продолжительность: 8 сек.<br/>Дополнительный эффект: восстанавливает HP по окончании действия эффекта<br/>Сила лечения: 500"
+		"content": "Снижает урон, наносимый персонажу или выбранному сопартийцу, на 10%.<br/>Продолжительность: 8 сек.<br/>Дополнительный эффект: восстанавливает HP по окончании действия эффекта<br/>Сила лечения: 500",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 36": {
 		"name": "Macrocosmos",
@@ -508,7 +578,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Наносит нестихийный урон по цели и всем окружающим противникам с силой атаки 270 для первого и на 40% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Macrocosmos на персонажа и всех ближайших сопартийцев.<br/>Продолжительность: 15 сек<br/>На время действия эффекта 50% получаемого урона накапливается.<br/>Восстанавливает HP, равное силе лечению 200, прибавляя накопленный урон, когда эффект истекает или при использовании Microcosmos.<br/>Восстановленное количество не может превышать максимальное количество HP цели.<br/>На время восстановления не могут повлиять статусные эффекты или атрибуты снаряжения."
+		"content": "Наносит нестихийный урон по цели и всем окружающим противникам с силой атаки 270 для первого и на 40% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Macrocosmos на персонажа и всех ближайших сопартийцев.<br/>Продолжительность: 15 сек<br/>На время действия эффекта 50% получаемого урона накапливается.<br/>Восстанавливает HP, равное силе лечению 200, прибавляя накопленный урон, когда эффект истекает или при использовании Microcosmos.<br/>Восстановленное количество не может превышать максимальное количество HP цели.<br/>На время восстановления не могут повлиять статусные эффекты или атрибуты снаряжения.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 37": {
 		"name": "Microcosmos",
@@ -522,7 +594,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Активирует исцеляющий эффект Macrocosmos, восстанавливающий HP, равное силе лечения 200, прибавляя 50% накопленного урона.<br/>Количество восстановленных HP не может превышать максимальное количество HP цели."
+		"content": "Активирует исцеляющий эффект Macrocosmos, восстанавливающий HP, равное силе лечения 200, прибавляя 50% накопленного урона.<br/>Количество восстановленных HP не может превышать максимальное количество HP цели.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 38": {
 		"name": "Oracle",
@@ -536,7 +610,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 860 по первому и на 50% по всем оставшимся.<br/>Может быть использовано только во время действия эффекта Divining."
+		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 860 по первому и на 50% по всем оставшимся.<br/>Может быть использовано только во время действия эффекта Divining.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVE Skill 39": {
 		"name": "Helios Conjunction",
@@ -550,7 +626,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех окружающих сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen)<br/>Сила лечения: 175<br/>Продолжительность: 15 сек."
+		"content": "Восстанавливает HP персонажа и всех окружающих сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen)<br/>Сила лечения: 175<br/>Продолжительность: 15 сек.",
+		"skill_update": true,
+		"skill_new": false
 	},
 	"PVE Skill 40": {
 		"name": "Sun Sign",
@@ -564,7 +642,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Снижает урон, наносимый персонажу и ближайшим сопартийцам, на 10%.<br/>Продолжительность: 15 сек.<br/>Может быть использовано только во время действия эффекта Suntouched."
+		"content": "Снижает урон, наносимый персонажу и ближайшим сопартийцам, на 10%.<br/>Продолжительность: 15 сек.<br/>Может быть использовано только во время действия эффекта Suntouched.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 01": {
 		"name": "The Balance",
@@ -575,7 +655,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает урон, наносимый персонажем или сопартийцем на 6% если целью является персонаж ближнего боя или танк, или на 3% для остальных ролей.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play I меняется на The Balance при соблюдении требований к выполнению."
+		"content": "Увеличивает урон, наносимый персонажем или сопартийцем на 6% если целью является персонаж ближнего боя или танк, или на 3% для остальных ролей.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play I меняется на The Balance при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 02": {
 		"name": "The Arrow",
@@ -586,7 +668,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает восстановление HP при использовании исцеляющих умений персонажа или сопартийца на 10%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play II меняется на The Arrow при соблюдении требований к выполнению."
+		"content": "Увеличивает восстановление HP при использовании исцеляющих умений персонажа или сопартийца на 10%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play II меняется на The Arrow при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 03": {
 		"name": "The Spear",
@@ -597,7 +681,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает урон, наносимый персонажем или сопартийцем на 6% если целью является персонаж дальнего боя или целитель, или на 3% для остальных ролей.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play I меняется на The Spear при соблюдении требований к выполнению."
+		"content": "Увеличивает урон, наносимый персонажем или сопартийцем на 6% если целью является персонаж дальнего боя или целитель, или на 3% для остальных ролей.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play I меняется на The Spear при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 04": {
 		"name": "The Bole",
@@ -608,7 +694,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает урон, получаемый персонажем или сопартицем на 10%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play II меняется на The Bole при соблюдении требований к выполнению."
+		"content": "Снижает урон, получаемый персонажем или сопартицем на 10%.<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play II меняется на The Bole при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 05": {
 		"name": "The Ewer",
@@ -619,7 +707,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает эффект периодического лечения на персонажа или сопартийца.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play III меняется на The Ewer при соблюдении требований к выполнению."
+		"content": "Накладывает эффект периодического лечения на персонажа или сопартийца.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play III меняется на The Ewer при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 06": {
 		"name": "The Spire",
@@ -630,7 +720,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Создает вокруг персонажа или выбранного сопартийца барьер, поглощающий урон, эквивалентный силе лечения 400.<br/>Продолжительность: 30 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play III меняется на The Spire при соблюдении требований к выполнению."
+		"content": "Создает вокруг персонажа или выбранного сопартийца барьер, поглощающий урон, эквивалентный силе лечения 400.<br/>Продолжительность: 30 сек.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Play III меняется на The Spire при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 07": {
 		"name": "Lord of Crowns",
@@ -641,7 +733,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Minor Arcana меняется на Lord of Crowns при соблюдении требований к выполнению."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Minor Arcana меняется на Lord of Crowns при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Arcana 08": {
 		"name": "Lady of Crowns",
@@ -652,35 +746,45 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Minor Arcana меняется на Lady of Crowns при соблюдении требований к выполнению."
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Minor Arcana меняется на Lady of Crowns при соблюдении требований к выполнению.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 01": {
 		"name": "Maim and Mend",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/099b8ce7dff9d154a1ae5ac6ba70e7b77530491b.png",
 		"job_icon": "AST",
 		"level": "20",
-		"content": "Увеличивает базовый урон умений и восстановления HP на 10%."
+		"content": "Увеличивает базовый урон умений и восстановления HP на 10%.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 02": {
 		"name": "Enhanced Benefic",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7753c5b2adf795e504d26c97452f03dbd9ad4ae6.png",
 		"job_icon": "AST",
 		"level": "36",
-		"content": "Дает 15% шанс, что следующий Benefic II будет иметь критический эффект при исцелении.<br/>Продолжительность: 15 сек."
+		"content": "Дает 15% шанс, что следующий Benefic II будет иметь критический эффект при исцелении.<br/>Продолжительность: 15 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 03": {
 		"name": "Maim and Mend II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ea011d893abd8a39efff14c7da1e9cac613b33da.png",
 		"job_icon": "AST",
 		"level": "40",
-		"content": "Увеличивает базовый урон умений и восстановления HP на 30%."
+		"content": "Увеличивает базовый урон умений и восстановления HP на 30%.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 04": {
 		"name": "Combust Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f89557c8a060b5202436b06ce55c414930a87824.png",
 		"job_icon": "AST",
 		"level": "46",
-		"content": "Улучшает умения Combust до Combust II."
+		"content": "Улучшает умения Combust до Combust II.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 05": {
 		"name": "Malefic Mastery",
@@ -688,112 +792,144 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/096c90be485edbee28599286d9aa506904bfedc1.png",
 		"job_icon": "AST",
 		"level": "54",
-		"content": "Улучшает умение Malefic до Malefic II."
+		"content": "Улучшает умение Malefic до Malefic II.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 06": {
 		"name": "Malefic Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f519d617a33b436f8bfae128cafb433fa5b4de01.png",
 		"job_icon": "AST",
 		"level": "64",
-		"content": "Улучшает умение Malefic II до Malefic III."
+		"content": "Улучшает умение Malefic II до Malefic III.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 07": {
 		"name": "Hyper Lightspeed",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/97aa38c611b5b28a96f41040e8369f9d662c0398.png",
 		"job_icon": "AST",
 		"level": "68",
-		"content": "Уменьшает время восстановления умения Lightspeed до 90 сек."
+		"content": "Уменьшает время восстановления умения Lightspeed до 90 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 08": {
 		"name": "Minor Arcana Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6a9c01931066dd4d28235ea22c332cb20b7a4a1.png",
 		"job_icon": "AST",
 		"level": "70",
-		"content": "Lord of Crowns может быть нарисована при использовании Astral Draw, а Lady of Crowns - при использовании Umbral Draw."
+		"content": "Lord of Crowns может быть нарисована при использовании Astral Draw, а Lady of Crowns - при использовании Umbral Draw.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 09": {
 		"name": "Combust Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fa5c279e7998444bf41ef52dd540e514040310ba.png",
 		"job_icon": "AST",
 		"level": "72",
-		"content": "Улучшает умение Combust II до Combust III."
+		"content": "Улучшает умение Combust II до Combust III.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 10": {
 		"name": "Malefic Mastery III",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/79a6019f3f36d87224dcb1621917ede36f53a0eb.png",
 		"job_icon": "AST",
 		"level": "72",
-		"content": "Улучшает умение Malefic III до Malefic IV."
+		"content": "Улучшает умение Malefic III до Malefic IV.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 11": {
 		"name": "Enhanced Essential Dignity",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5e5dc4bdd1316f0b6e37f3e7aef349e7504a0713.png",
 		"job_icon": "AST",
 		"level": "78",
-		"content": "Позволяет накапливать заряды для последовательного использования Essential Dignity.<br/>Максимум зарядов: 2"
+		"content": "Позволяет накапливать заряды для последовательного использования Essential Dignity.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 12": {
 		"name": "Malefic Mastery IV",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/263e46f4c7940ee1681d0f15582ac7a32af7fc6a.png",
 		"job_icon": "AST",
 		"level": "82",
-		"content": "Улучшает умение Malefic IV до Fall Malefic."
+		"content": "Улучшает умение Malefic IV до Fall Malefic.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 13": {
 		"name": "Gravity Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e458835a8f922a7e95c1ca5e325e3498007798b6.png",
 		"job_icon": "AST",
 		"level": "82",
-		"content": "Улучшает умение Gravity до Gravity II."
+		"content": "Улучшает умение Gravity до Gravity II.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 14": {
 		"name": "Enhanced Healing Magic",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png",
 		"job_icon": "AST",
 		"level": "85",
-		"content": "Увеличивает силу исцеляющих умений Benefic до 500, Helios до 400, Benefic II до 800, Aspected Benefic до 250, эффект периодического лечения Aspected Benefic (regen) до 250, Aspected Helios до 250 и эффект периодического лечения Aspected Helios (regen) до 150."
+		"content": "Увеличивает силу исцеляющих умений Benefic до 500, Helios до 400, Benefic II до 800, Aspected Benefic до 250, эффект периодического лечения Aspected Benefic (regen) до 250, Aspected Helios до 250 и эффект периодического лечения Aspected Helios (regen) до 150.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 15": {
 		"name": "Enhanced Celestial Intersection",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f43bd4d97118a07e9521573ace0ca9f5cebfb4a5.png",
 		"job_icon": "AST",
 		"level": "88",
-		"content": "Позволяет накапливать заряды для последовательного использования Celestial Intersection.<br/>Максимум зарядов: 2"
+		"content": "Позволяет накапливать заряды для последовательного использования Celestial Intersection.<br/>Максимум зарядов: 2",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 16": {
 		"name": "Enhanced Divination",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7c830c636c71c4ad906fb4cf3f5a5d2ce684f34f.png",
 		"job_icon": "AST",
 		"level": "92",
-		"content": "Накладывает эффект Divining после использования Divination.<br/>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Divining после использования Divination.<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 17": {
 		"name": "Magick Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "AST",
 		"level": "94",
-		"content": "Увеличивает силу атаки Combust III, наносящего урон с течением времени, до 70, Fall Malefic до 270, Gravity II до 140 и Macrocosmos до 270."
+		"content": "Увеличивает силу атаки Combust III, наносящего урон с течением времени, до 70, Fall Malefic до 270, Gravity II до 140 и Macrocosmos до 270.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 18": {
 		"name": "Aspected Helios Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2cba14df39809f3229349749785e64eb391bed15.png",
 		"job_icon": "AST",
 		"level": "96",
-		"content": "Улучшает умение Aspected Helios до Helios Conjunction."
+		"content": "Улучшает умение Aspected Helios до Helios Conjunction.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 19": {
 		"name": "Enhanced Essential Dignity II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2836e6ebf3b7d82144fbc5a8ea04c58aa7dff5da.png",
 		"job_icon": "AST",
 		"level": "98",
-		"content": "Добавляет третий заряд для умения Essential Dignity."
+		"content": "Добавляет третий заряд для умения Essential Dignity.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"Trait 20": {
 		"name": "Enhanced Neutral Sect",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/874220e311422fcc32177900e58af6b005976cb2.png",
 		"job_icon": "AST",
 		"level": "100",
-		"content": "Накладывает эффект Suntouched после использования Neutral Sect.<br/>Продолжительность: 30 сек."
+		"content": "Накладывает эффект Suntouched после использования Neutral Sect.<br/>Продолжительность: 30 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 01": {
 		"name": "Fall Malefic",
@@ -804,7 +940,9 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000.<br/>После использования с помощью Double Cast, уменьшает время повторного использования Double Cast на 6 секунд."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000.<br/>После использования с помощью Double Cast, уменьшает время повторного использования Double Cast на 6 секунд.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 02": {
 		"name": "Aspected Benefic",
@@ -815,7 +953,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 6,000<br/>Сила увеличивается до 9,000 по мере уменьшения HP цели, достигая максимального значения, когда у цели 50% HP или меньше.<br/>Дополнительный эффект: накладывает на цель эффект Diurnal Benefic<br/>Эффект Diurnal Benefic: постепенно восстанавливает HP<br/>Эффективность лечения: 3,000<br/>Продолжительность: 6 сек.<br/>Максимальные заряды: 2<br/>При использовании с помощью Double Cast, накладывает эффект Nocturnal Benefic.<br/>Эффект Nocturnal Benefic: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 4,000<br/>Продолжительность: 12 сек.<br/>Это умение не имеет общего времени восстановления с другими умениями."
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 6,000<br/>Сила увеличивается до 9,000 по мере уменьшения HP цели, достигая максимального значения, когда у цели 50% HP или меньше.<br/>Дополнительный эффект: накладывает на цель эффект Diurnal Benefic<br/>Эффект Diurnal Benefic: постепенно восстанавливает HP<br/>Эффективность лечения: 3,000<br/>Продолжительность: 6 сек.<br/>Максимальные заряды: 2<br/>При использовании с помощью Double Cast, накладывает эффект Nocturnal Benefic.<br/>Эффект Nocturnal Benefic: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 4,000<br/>Продолжительность: 12 сек.<br/>Это умение не имеет общего времени восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 03": {
 		"name": "Gravity II",
@@ -826,7 +966,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "8y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 7,500 по цели и всем окружающим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/>После использования с помощью Double Cast накладывает эффект связывание (bind) на первую цель.<br/>Этот умение не имеет общего времени восстановления с другими умениями."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 7,500 по цели и всем окружающим противникам.<br/>Дополнительный эффект: накладывает на первую цель эффект тяжесть (heavy) +75%<br/>Продолжительность: 3 сек.<br/>После использования с помощью Double Cast накладывает эффект связывание (bind) на первую цель.<br/>Этот умение не имеет общего времени восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 04": {
 		"name": "Double Cast",
@@ -837,7 +979,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Повторяет ранее использованный Fall Malefic, Aspected Benefic или Gravity II.<br/>Максимум зарядов: 2<br/>Может быть использовано только после Fall Malefic, Aspected Benefic или Gravity II."
+		"content": "Повторяет ранее использованный Fall Malefic, Aspected Benefic или Gravity II.<br/>Максимум зарядов: 2<br/>Может быть использовано только после Fall Malefic, Aspected Benefic или Gravity II.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 05": {
 		"name": "Minor Arcana",
@@ -848,7 +992,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Вытягивает Lord of Crowns или Lady of Crowns из гадальной колоды.<br/>Умение меняется на вытянутый аркан.<br/>Продолжительность: 10 сек."
+		"content": "Вытягивает Lord of Crowns или Lady of Crowns из гадальной колоды.<br/>Умение меняется на вытянутый аркан.<br/>Продолжительность: 10 сек.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 06": {
 		"name": "Macrocosmos",
@@ -859,7 +1005,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 10,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: накладывает Macrocosmos на персонажа и всех ближайших сопартийцев<br/>Продолжительность: 10 сек.<br/>При выполнении действие меняется на Microcosmos.<br/>На время действия эффекта 25% получаемого урона накапливается.<br/>Восстанавливает HP, равное силе лечения 5,000, плюс суммарный урон по истечении срока действия эффекта или после выполнения Microcosmos.<br/>Этот умение не имеет общего времени восстановления с другими умениями."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 10,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: накладывает Macrocosmos на персонажа и всех ближайших сопартийцев<br/>Продолжительность: 10 сек.<br/>При выполнении действие меняется на Microcosmos.<br/>На время действия эффекта 25% получаемого урона накапливается.<br/>Восстанавливает HP, равное силе лечения 5,000, плюс суммарный урон по истечении срока действия эффекта или после выполнения Microcosmos.<br/>Этот умение не имеет общего времени восстановления с другими умениями.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 07": {
 		"name": "Epicycle",
@@ -870,7 +1018,9 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Быстрый рывок вперед на 15 ялмов.<br/>Дополнительный эффект: оставляет позади себя Pole Star в точке начала рывка и накладывает на персонажа Retrograde Ready<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Умением меняется на Retrograde после использования."
+		"content": "Быстрый рывок вперед на 15 ялмов.<br/>Дополнительный эффект: оставляет позади себя Pole Star в точке начала рывка и накладывает на персонажа Retrograde Ready<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Умением меняется на Retrograde после использования.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 08": {
 		"name": "Lady of Crowns",
@@ -881,7 +1031,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и HP всех ближайших сопартийцев.<br/>Сила лечения: 6,000<br/>Дополнительный эффект: уменьшает получаемый целью урон на 10%<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Lady of Crowns.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Восстанавливает HP персонажа и HP всех ближайших сопартийцев.<br/>Сила лечения: 6,000<br/>Дополнительный эффект: уменьшает получаемый целью урон на 10%<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Lady of Crowns.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 09": {
 		"name": "Lord of Crowns",
@@ -892,7 +1044,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000 по всем ближайшим противникам.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Lord of Crowns.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000 по всем ближайшим противникам.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Lord of Crowns.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 10": {
 		"name": "Retrograde",
@@ -903,7 +1057,9 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Мгновенно перемещается на Pole Star, оставленную персонажем.<br/>Может быть использовано только под действием эффекта Retrograde Ready.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Мгновенно перемещается на Pole Star, оставленную персонажем.<br/>Может быть использовано только под действием эффекта Retrograde Ready.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 11": {
 		"name": "Microcosmos",
@@ -914,7 +1070,9 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Активирует исцеляющий эффект Macrocosmos, восстанавливающий HP, равное силе лечения 4,000 прибавляя 20% накопленного урона.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Активирует исцеляющий эффект Macrocosmos, восстанавливающий HP, равное силе лечения 4,000 прибавляя 20% накопленного урона.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill 12": {
 		"name": "Oracle",
@@ -925,7 +1083,9 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Может быть использовано только во время действия эффекта Divining.<br/><br/>※Это умение нельзя поместить на хотбар."
+		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Может быть использовано только во время действия эффекта Divining.<br/><br/>※Это умение нельзя поместить на хотбар.",
+		"skill_update": false,
+		"skill_new": false
 	},
 	"PVP Skill LB": {
 		"name": "Celestial River",
@@ -935,6 +1095,8 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "15y",
-		"content": "Увеличивает наносимый урон и силу лечения персонажа и ближайших сопартийцев на 30%, а также снижает наносимый урон ближайших противников на 30%.<br/>Эффект снижается на 10% каждые 5 сек.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Divining на персонажа<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 105 сек.<br/><br/>※ Умением меняется на Oracle после использования."
+		"content": "Увеличивает наносимый урон и силу лечения персонажа и ближайших сопартийцев на 30%, а также снижает наносимый урон ближайших противников на 30%.<br/>Эффект снижается на 10% каждые 5 сек.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Divining на персонажа<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 105 сек.<br/><br/>※ Умением меняется на Oracle после использования.",
+		"skill_update": true,
+		"skill_new": false
 	}
 }
