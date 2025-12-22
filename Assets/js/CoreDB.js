@@ -1,4 +1,4 @@
-const DB_VERSION = "16.12.2025";
+const DB_VERSION = "22.12.2025";
 
 async function loadUpdateFlags() {
 	try {
