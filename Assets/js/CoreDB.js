@@ -51,7 +51,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const jobUpdates = {};
 
 	Object.entries(jobData).forEach(([key, value]) => {
-		if (key.includes("Skill")) {
+		if (key.includes("Skill") || key.includes("Trait")) {
 			jobSkills[key] = value;
 		} else if (key.includes("Update")) {
 			jobUpdates[key] = value;
