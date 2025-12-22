@@ -1,6 +1,4 @@
 {
-	"PVE Update": "Последнее обновление: 05/08/2025",
-	"PVP Update": "Последнее обновление: 07/10/2025",
 	"PVE Skill 01": {
 		"name": "True Thrust",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a456526b20c613a31c9ff03a7cd8d69ab328a4c8.png",
@@ -12,9 +10,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 230.<br/><br/>※Умение меняется на Raiden Thrust под эффектом Draconian Fire.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 230.<br/><br/>※Умение меняется на Raiden Thrust под эффектом Draconian Fire."
 	},
 	"PVE Skill 02": {
 		"name": "Vorpal Thrust",
@@ -27,9 +23,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 130<br/>Комбо умение: True Thrust<br/>Сила в комбо: 280",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 130<br/>Комбо умение: True Thrust<br/>Сила в комбо: 280"
 	},
 	"PVE Skill 03": {
 		"name": "Life Surge",
@@ -42,9 +36,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Гарантирует критический (critical) урон при использовании первого боевого навыка, пока активен Life Surge.<br/>Продолжительность: 5 сек.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Эффект не может быть применен к периодическому урону.<br/>Дополнительный эффект: поглощает часть наносимого урона в виде HP<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Гарантирует критический (critical) урон при использовании первого боевого навыка, пока активен Life Surge.<br/>Продолжительность: 5 сек.<br/>Наносимый урон увеличивается под действием эффектов, повышающих вероятность критического (critical) урона.<br/>Эффект не может быть применен к периодическому урону.<br/>Дополнительный эффект: поглощает часть наносимого урона в виде HP<br/>Максимум зарядов: 2"
 	},
 	"PVE Skill 04": {
 		"name": "Piercing Talon",
@@ -58,9 +50,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Дальний удар, наносящий урон с силой атаки 200.<br/>Сила атаки Enhanced Piercing Talon: 350",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Дальний удар, наносящий урон с силой атаки 200.<br/>Сила атаки Enhanced Piercing Talon: 350"
 	},
 	"PVE Skill 05": {
 		"name": "Disembowel",
@@ -73,9 +63,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: True Thrust<br/>Сила в комбо: 250<br/>Комбо бонус: накладывает эффект Power Surge<br/>Эффект Power Surge: увеличивает наносимый урон на 10%<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: True Thrust<br/>Сила в комбо: 250<br/>Комбо бонус: накладывает эффект Power Surge<br/>Эффект Power Surge: увеличивает наносимый урон на 10%<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 06": {
 		"name": "Full Thrust",
@@ -88,9 +76,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Vorpal Thrust<br/>Сила в комбо: 380",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 100.<br/>Комбо умение: Vorpal Thrust<br/>Сила в комбо: 380"
 	},
 	"PVE Skill 07": {
 		"name": "Lance Charge",
@@ -104,9 +90,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает наносимый урон на 10%.<br/>Продолжительность: 20 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает наносимый урон на 10%.<br/>Продолжительность: 20 сек."
 	},
 	"PVE Skill 08": {
 		"name": "Jump",
@@ -120,9 +104,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар с прыжком, наносящий урон с силой атаки 320. После атаки возвращает персонажа в исходное положение.<br/>Дополнительный эффект: накладывает эффект Dive Ready<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар с прыжком, наносящий урон с силой атаки 320. После атаки возвращает персонажа в исходное положение.<br/>Дополнительный эффект: накладывает эффект Dive Ready<br/>Продолжительность: 15 сек."
 	},
 	"PVE Skill 09": {
 		"name": "Elusive Jump",
@@ -136,9 +118,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Совершает прыжок на место, находящееся в 15 ялмах позади персонажа.<br/>Дополнительный эффект: накладывает эффект Enhanced Piercing Talon<br/>Продолжительность: 15 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Совершает прыжок на место, находящееся в 15 ялмах позади персонажа.<br/>Дополнительный эффект: накладывает эффект Enhanced Piercing Talon<br/>Продолжительность: 15 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение."
 	},
 	"PVE Skill 10": {
 		"name": "Doom Spike",
@@ -152,9 +132,7 @@
 		"range": "10y",
 		"radius_img": "R6",
 		"radius": "10y",
-		"content": "Удар, наносящий урон с силой атаки 110 по всем противникам по прямой линии перед персонажем.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 110 по всем противникам по прямой линии перед персонажем."
 	},
 	"PVE Skill 11": {
 		"name": "Winged Glide",
@@ -168,9 +146,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Рывок к выбранному противнику.<br/>Количество зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Рывок к выбранному противнику.<br/>Количество зарядов: 2<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение."
 	},
 	"PVE Skill 12": {
 		"name": "Chaos Thrust",
@@ -183,9 +159,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 100, при выполнении удара со спины цели 140.<br/>Комбо умение: Disembowel<br/>Сила в комбо: 220<br/>Сила в комбо со спины: 260<br/>Комбо бонус: периодический урон<br/>Сила атаки: 40<br/>Продолжительность: 24 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 100, при выполнении удара со спины цели 140.<br/>Комбо умение: Disembowel<br/>Сила в комбо: 220<br/>Сила в комбо со спины: 260<br/>Комбо бонус: периодический урон<br/>Сила атаки: 40<br/>Продолжительность: 24 сек."
 	},
 	"PVE Skill 13": {
 		"name": "Dragonfire Dive",
@@ -199,9 +173,7 @@
 		"range": "20y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар с прыжком, наносящий огненный урон с силой атаки 500 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Dragon's Flight<br/>Продолжительность: 30 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар с прыжком, наносящий огненный урон с силой атаки 500 по цели и всем ближайшим противникам.<br/>Дополнительный эффект: накладывает эффект Dragon's Flight<br/>Продолжительность: 30 сек.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение."
 	},
 	"PVE Skill 14": {
 		"name": "Battle Litany",
@@ -215,9 +187,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Увеличивает шанс нанесения критического (critical) урона персонажем и всеми ближайшими сопартийцами на 10%.<br/>Продолжительность: 20 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает шанс нанесения критического (critical) урона персонажем и всеми ближайшими сопартийцами на 10%.<br/>Продолжительность: 20 сек."
 	},
 	"PVE Skill 15": {
 		"name": "Fang and Claw",
@@ -231,9 +201,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140, при выполнении удара в бок цели 180.<br/>Комбо умение: Heavens' Thrust<br/>Сила в комбо: 300<br/>Сила в комбо сбоку: 340",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 140, при выполнении удара в бок цели 180.<br/>Комбо умение: Heavens' Thrust<br/>Сила в комбо: 300<br/>Сила в комбо сбоку: 340"
 	},
 	"PVE Skill 16": {
 		"name": "Wheeling Thrust",
@@ -247,9 +215,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140, при выполнении со спины цели 180.<br/>Комбо умение: Chaotic Spring<br/>Сила в комбо: 300<br/>Сила в комбо сбоку: 340",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 140, при выполнении со спины цели 180.<br/>Комбо умение: Chaotic Spring<br/>Сила в комбо: 300<br/>Сила в комбо сбоку: 340"
 	},
 	"PVE Skill 17": {
 		"name": "Geirskogul",
@@ -263,9 +229,7 @@
 		"range": "15y",
 		"radius_img": "R6",
 		"radius": "15y",
-		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 280 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Life of the Dragon<br/>Эффект Life of the Dragon: увеличивает наносимый урон на 15%<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Nastrond Ready<br/>Продолжительность: 20 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 280 для первого и на 50% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Life of the Dragon<br/>Эффект Life of the Dragon: увеличивает наносимый урон на 15%<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Nastrond Ready<br/>Продолжительность: 20 сек."
 	},
 	"PVE Skill 18": {
 		"name": "Sonic Thrust",
@@ -278,9 +242,7 @@
 		"range": "10y",
 		"radius_img": "R6",
 		"radius": "10y",
-		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 100.<br/>Комбо умение: Doom Spike<br/>Сила в комбо: 120<br/>Комбо бонус: накладывает эффект Power Surge<br/>Эффект Power Surge: увеличивает наносимый урон на 10%<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 100.<br/>Комбо умение: Doom Spike<br/>Сила в комбо: 120<br/>Комбо бонус: накладывает эффект Power Surge<br/>Эффект Power Surge: увеличивает наносимый урон на 10%<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 19": {
 		"name": "Drakesbane",
@@ -293,9 +255,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 460.<br/>Комбо умение: Wheeling Thrust или Fang and Claw<br/>Комбо бонус: накладывает эффект Draconian Fire<br/>Продолжительность: 30 сек.<br/>Может быть использовано только после успешного применения Wheeling Thrust или Fang and Claw в качестве комбо умения.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Wheeling Thrust и Fang and Claw меняется на Drakesbane при соблюдении требований к выполнению.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 460.<br/>Комбо умение: Wheeling Thrust или Fang and Claw<br/>Комбо бонус: накладывает эффект Draconian Fire<br/>Продолжительность: 30 сек.<br/>Может быть использовано только после успешного применения Wheeling Thrust или Fang and Claw в качестве комбо умения.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Wheeling Thrust и Fang and Claw меняется на Drakesbane при соблюдении требований к выполнению."
 	},
 	"PVE Skill 20": {
 		"name": "Mirage Dive",
@@ -308,9 +268,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 380.<br/>Можно использовать только при Dive Ready.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 380.<br/>Можно использовать только при Dive Ready."
 	},
 	"PVE Skill 21": {
 		"name": "Nastrond",
@@ -324,9 +282,7 @@
 		"range": "15y",
 		"radius_img": "R6",
 		"radius": "15y",
-		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 720 для первого и на 50% меньше для остальных.<br/>Может быть использовано только под действием эффекта Nastrond Ready.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 720 для первого и на 50% меньше для остальных.<br/>Может быть использовано только под действием эффекта Nastrond Ready."
 	},
 	"PVE Skill 22": {
 		"name": "Coerthan Torment",
@@ -339,9 +295,7 @@
 		"range": "10y",
 		"radius_img": "R6",
 		"radius": "10y",
-		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 100.<br/>Комбо умение: Sonic Thrust<br/>Сила в комбо: 150<br/>Комбо бонус: накладывает эффект Draconian Fire<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 100.<br/>Комбо умение: Sonic Thrust<br/>Сила в комбо: 150<br/>Комбо бонус: накладывает эффект Draconian Fire<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 23": {
 		"name": "High Jump",
@@ -354,9 +308,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар с прыжком, наносящий урон с силой атаки 400. Возвращает персонажа на позицию с которой была произведена атака после неё.<br/>Дополнительный эффект: Накладывает эффект Dive Ready<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар с прыжком, наносящий урон с силой атаки 400. Возвращает персонажа на позицию с которой была произведена атака после неё.<br/>Дополнительный эффект: Накладывает эффект Dive Ready<br/>Продолжительность: 15 сек."
 	},
 	"PVE Skill 24": {
 		"name": "Raiden Thrust",
@@ -369,9 +321,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 320.<br/>Дополнительный эффект: усиливает Firstminds Focus на 1<br/>Может быть использовано только под эффектом Draconian Fire.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※True Thrust меняется на Raiden Thrust при соблюдении требований к выполнению.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 320.<br/>Дополнительный эффект: усиливает Firstminds Focus на 1<br/>Может быть использовано только под эффектом Draconian Fire.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※True Thrust меняется на Raiden Thrust при соблюдении требований к выполнению."
 	},
 	"PVE Skill 25": {
 		"name": "Stardiver",
@@ -384,9 +334,7 @@
 		"range": "20y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар с прыжком, наносящий огненный урон с силой атаки 840 по цели и на 40% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Starcross Ready<br/>Продолжительность: 20 сек.<br/>Может быть использовано только под эффектом Life of the Dragon.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Удар с прыжком, наносящий огненный урон с силой атаки 840 по цели и на 40% меньше для остальных.<br/>Дополнительный эффект: накладывает эффект Starcross Ready<br/>Продолжительность: 20 сек.<br/>Может быть использовано только под эффектом Life of the Dragon.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение."
 	},
 	"PVE Skill 26": {
 		"name": "Draconian Fury",
@@ -399,9 +347,7 @@
 		"range": "10y",
 		"radius_img": "R6",
 		"radius": "10y",
-		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 130.<br/>Дополнительный эффект: усиливает Firstminds Focus на 1<br/>Может быть использовано только под действием эффекта Draconian Fire.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Doom Spike меняется на Draconian Fire при соблюдении требований к выполнению.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий физический урон по всем противникам по прямой линии перед персонажем с силой атаки 130.<br/>Дополнительный эффект: усиливает Firstminds Focus на 1<br/>Может быть использовано только под действием эффекта Draconian Fire.<br/><br/>※Это умение нельзя поместить на хотбар.<br/>※Doom Spike меняется на Draconian Fire при соблюдении требований к выполнению."
 	},
 	"PVE Skill 27": {
 		"name": "Heavens' Thrust",
@@ -414,9 +360,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Lance Barrage<br/>Сила в комбо: 440",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 160.<br/>Комбо умение: Lance Barrage<br/>Сила в комбо: 440"
 	},
 	"PVE Skill 28": {
 		"name": "Chaotic Spring",
@@ -429,9 +373,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140, при выполнении удара со спины цели 180.<br/>Комбо умение: Spiral Blow<br/>Сила в комбо: 300<br/>Сила в комбо при ударе со спины: 340<br/>Комбо бонус: периодический урон<br/>Сила атаки: 45<br/>Продолжительность: 24 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 140, при выполнении удара со спины цели 180.<br/>Комбо умение: Spiral Blow<br/>Сила в комбо: 300<br/>Сила в комбо при ударе со спины: 340<br/>Комбо бонус: периодический урон<br/>Сила атаки: 45<br/>Продолжительность: 24 сек."
 	},
 	"PVE Skill 29": {
 		"name": "Wyrmwind Thrust",
@@ -444,9 +386,7 @@
 		"range": "15y",
 		"radius_img": "R6",
 		"radius": "15y",
-		"content": "Удар, наносящий урон по прямой линии перед персонажем с силой атаки 440 для первого и на 50% меньше для остальных.<br/>Стоимость Firstminds Focus: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон по прямой линии перед персонажем с силой атаки 440 для первого и на 50% меньше для остальных.<br/>Стоимость Firstminds Focus: 2"
 	},
 	"PVE Skill 30": {
 		"name": "Rise of the Dragon",
@@ -460,9 +400,7 @@
 		"range": "20y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 550 для первого и на 50% меньше для остальных.<br/>Может быть использовано только под действием эффекта Dragon's Flight.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 550 для первого и на 50% меньше для остальных.<br/>Может быть использовано только под действием эффекта Dragon's Flight."
 	},
 	"PVE Skill 31": {
 		"name": "Lance Barrage",
@@ -475,9 +413,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 130.<br/>Комбо умение: True Thrust<br/>Сила в комбо: 340",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 130.<br/>Комбо умение: True Thrust<br/>Сила в комбо: 340"
 	},
 	"PVE Skill 32": {
 		"name": "Spiral Blow",
@@ -490,9 +426,7 @@
 		"range": "3y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: True Thrust<br/>Сила в комбо: 300<br/>Комбо бонус: накладывает эффект Power Surge<br/>Эффект Power Surge: увеличивает наносимый урон на 10%<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 140.<br/>Комбо умение: True Thrust<br/>Сила в комбо: 300<br/>Комбо бонус: накладывает эффект Power Surge<br/>Эффект Power Surge: увеличивает наносимый урон на 10%<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 33": {
 		"name": "Starcross",
@@ -505,9 +439,7 @@
 		"range": "3y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 1,000 для первого и на 40% меньше для остальных.<br/>Может быть использовано только под действием эффекта Starcross Ready.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 1,000 для первого и на 40% меньше для остальных.<br/>Может быть использовано только под действием эффекта Starcross Ready."
 	},
 	"Trait 01": {
 		"name": "Enhanced Jump",
@@ -515,9 +447,7 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4c5dedb70ceeba4055bd3ae73297953f986e4019.png",
 		"job_icon": "DRG",
 		"level": "54",
-		"content": "Увеличивает силу атаки Jump до 320.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает силу атаки Jump до 320."
 	},
 	"Trait 02": {
 		"name": "Life of the Dragon",
@@ -525,108 +455,84 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c9d5b7f74c9107188eec0bb2cad21e3081113382.png",
 		"job_icon": "DRG",
 		"level": "70",
-		"content": "Улучшает Blood of the Dragon до Life of the Dragon.<br/>Эффект Life of the Dragon: увеличивает наносимый урон на 15%.<br/>При успешном использовании Geirskogul, дает Nastrond Ready.<br/>Продолжительность: 20 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает Blood of the Dragon до Life of the Dragon.<br/>Эффект Life of the Dragon: увеличивает наносимый урон на 15%.<br/>При успешном использовании Geirskogul, дает Nastrond Ready.<br/>Продолжительность: 20 сек."
 	},
 	"Trait 03": {
 		"name": "Jump Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/487203b1d939fa5da7aaec335a10c30bae150ca5.png",
 		"job_icon": "DRG",
 		"level": "74",
-		"content": "Улучшает умение Jump до High Jump.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Jump до High Jump."
 	},
 	"Trait 04": {
 		"name": "Lance Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4da1e6e139afd6c3c1d6db696410641aab50b31d.png",
 		"job_icon": "DRG",
 		"level": "76",
-		"content": "Увеличивает силу атаки True Thrust до 230, Vorpal Thrust до 130, Piercing Talon до 200, Enhanced Piercing Talon до 350 и Disembowel до 140.<br/>Накладывает эффект Draconian Fire, если Drakesbane выполнено после Fang and Claw или Wheeling Thrust.<br/>Продолжительность: 30 сек.<br/>Эффект Draconian Fire заканчивается при выполнении любого боевого навыка ближнего боя.<br/>Улучшает True Thrust до Raiden Thrust, пока персонаж находится под эффектом Draconian Fire.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает силу атаки True Thrust до 230, Vorpal Thrust до 130, Piercing Talon до 200, Enhanced Piercing Talon до 350 и Disembowel до 140.<br/>Накладывает эффект Draconian Fire, если Drakesbane выполнено после Fang and Claw или Wheeling Thrust.<br/>Продолжительность: 30 сек.<br/>Эффект Draconian Fire заканчивается при выполнении любого боевого навыка ближнего боя.<br/>Улучшает True Thrust до Raiden Thrust, пока персонаж находится под эффектом Draconian Fire."
 	},
 	"Trait 05": {
 		"name": "Enhanced Coerthan Torment",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a5cb24b338a7fda93626df156a3a6ef0352103a0.png",
 		"job_icon": "DRG",
 		"level": "82",
-		"content": "Накладывает эффект Draconian Fire после успешного завершения комбо с Coerthan Torment.<br/>Продолжительность: 30 сек.<br/>Эффект Draconian Fire заканчивается при выполнении любого боевого навыка ближнего боя.<br/>Улучшает Doom Spike до Draconian Fire, пока персонаж находится под эффектом Draconian Fire.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Накладывает эффект Draconian Fire после успешного завершения комбо с Coerthan Torment.<br/>Продолжительность: 30 сек.<br/>Эффект Draconian Fire заканчивается при выполнении любого боевого навыка ближнего боя.<br/>Улучшает Doom Spike до Draconian Fire, пока персонаж находится под эффектом Draconian Fire."
 	},
 	"Trait 06": {
 		"name": "Enhanced Winged Glide",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ccdadc18ab7137d11372e01419e8589ef06a94e8.png",
 		"job_icon": "DRG",
 		"level": "84",
-		"content": "Позволяет накапливать заряды для последовательного использования Winged Glide.<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Позволяет накапливать заряды для последовательного использования Winged Glide.<br/>Максимум зарядов: 2"
 	},
 	"Trait 07": {
 		"name": "Lance Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1d331630aba68af2ef45a7c0b7270529c9b7b9ea.png",
 		"job_icon": "DRG",
 		"level": "86",
-		"content": "Улучшает умение Full Thrust до Heavens' Thrust и Chaos Thrust до Chaotic Spring. Также увеличивает силу атаки Drakesbane до 400.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Full Thrust до Heavens' Thrust и Chaos Thrust до Chaotic Spring. Также увеличивает силу атаки Drakesbane до 400."
 	},
 	"Trait 08": {
 		"name": "Enhanced Life Surge",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/518467072242157cd4a519d8f99ee64cc2a51769.png",
 		"job_icon": "DRG",
 		"level": "88",
-		"content": "Позволяет накапливать заряды для последовательного использования Life Surge.<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Позволяет накапливать заряды для последовательного использования Life Surge.<br/>Максимум зарядов: 2"
 	},
 	"Trait 09": {
 		"name": "Lance Mastery III",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2f3e1a3378cc09d6e54c6be2a920c432b47845cc.png",
 		"job_icon": "DRG",
 		"level": "90",
-		"content": "Увеличивает силу атаки Geirskogul до 280 и Nastrond до 720.<br/>Позволяет усилить Firstminds Focus при успешном использовании Raiden Thrust или Draconian Fury, вплоть до 2 зарядов.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает силу атаки Geirskogul до 280 и Nastrond до 720.<br/>Позволяет усилить Firstminds Focus при успешном использовании Raiden Thrust или Draconian Fury, вплоть до 2 зарядов."
 	},
 	"Trait 10": {
 		"name": "Enhanced Dragonfire Dive",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9620c52ce9377062039809fc58e3b38a00872b97.png",
 		"job_icon": "DRG",
 		"level": "92",
-		"content": "Накладывает эффект Dragon's Flight после использования Dragonfire Dive.<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Накладывает эффект Dragon's Flight после использования Dragonfire Dive.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 11": {
 		"name": "Melee Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png",
 		"job_icon": "DRG",
 		"level": "94",
-		"content": "Увеличивает силу атаки Fang and Claw до 140, Wheeling Thrust до 140, Drakesbane до 460, Raiden Thrust до 320, Stardiver до 840, Heavens' Thrust до 160, Chaotic Spring до 140 и Wyrmwind Thrust до 440.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает силу атаки Fang and Claw до 140, Wheeling Thrust до 140, Drakesbane до 460, Raiden Thrust до 320, Stardiver до 840, Heavens' Thrust до 160, Chaotic Spring до 140 и Wyrmwind Thrust до 440."
 	},
 	"Trait 12": {
 		"name": "Lance Mastery IV",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/846403f0c92dee00d9b075f5133f9eb5096afdc1.png",
 		"job_icon": "DRG",
 		"level": "96",
-		"content": "Улучшает умение Vorpal Thrust до Lance Barrage и Disembowel до Spiral Blow.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Vorpal Thrust до Lance Barrage и Disembowel до Spiral Blow."
 	},
 	"Trait 13": {
 		"name": "Enhanced Stardiver",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/73946f68f294a53d5bcdbeca5e43b9016e07d91f.png",
 		"job_icon": "DRG",
 		"level": "100",
-		"content": "Накладывает эффект Starcross Ready после использования Stardiver.<br/>Продолжительность: 20 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Накладывает эффект Starcross Ready после использования Stardiver.<br/>Продолжительность: 20 сек."
 	},
 	"PVP Skill 01": {
 		"name": "Raiden Thrust",
@@ -637,9 +543,7 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 5,000.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 02": {
 		"name": "Fang and Claw",
@@ -650,9 +554,7 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Raiden Thrust<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 6,000.<br/>Комбо умение: Raiden Thrust<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 03": {
 		"name": "Wheeling Thrust",
@@ -663,9 +565,7 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Fang and Claw<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 7,000.<br/>Комбо умение: Fang and Claw<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 04": {
 		"name": "Drakesbane",
@@ -676,9 +576,7 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Wheeling Thrust<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Комбо умение: Wheeling Thrust<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 05": {
 		"name": "Chaotic Spring",
@@ -689,9 +587,7 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Игнорирует эффекты Guard при нанесении урона.<br/>Дополнительный эффект: поглощает 150% нанесенного урона в виде HP<br/>Этот боевой навык не имеет общее время восстановления с другими умениями.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 8,000.<br/>Игнорирует эффекты Guard при нанесении урона.<br/>Дополнительный эффект: поглощает 150% нанесенного урона в виде HP<br/>Этот боевой навык не имеет общее время восстановления с другими умениями."
 	},
 	"PVP Skill 06": {
 		"name": "Geirskogul",
@@ -702,9 +598,7 @@
 		"range": "15y",
 		"radius_img": "R6",
 		"radius": "15y",
-		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Life of the Dragon<br/>Эффект Life of the Dragon: увеличивает наносимый на 25% и получаемый урон на 15%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффек: накладывает эффект Nastrond Ready<br/>Продолжительность: 10 сек.<br/>Дополнительный эффек: накладывает эффект Starcross Ready<br/>Продолжительность: 10 сек.<br/><br/>※При выполнении умение меняется на Nastrond под действием эффекта Nastrond Ready.<br/>※Wheeling Thrust Combo меняется на Starcross под действием эффекта Starcross Ready.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 5,000.<br/>Дополнительный эффект: накладывает эффект Life of the Dragon<br/>Эффект Life of the Dragon: увеличивает наносимый на 25% и получаемый урон на 15%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффек: накладывает эффект Nastrond Ready<br/>Продолжительность: 10 сек.<br/>Дополнительный эффек: накладывает эффект Starcross Ready<br/>Продолжительность: 10 сек.<br/><br/>※При выполнении умение меняется на Nastrond под действием эффекта Nastrond Ready.<br/>※Wheeling Thrust Combo меняется на Starcross под действием эффекта Starcross Ready."
 	},
 	"PVP Skill 07": {
 		"name": "High Jump",
@@ -715,9 +609,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар с прыжком, наносящий урон с силой атаки 6,000.<br/>Дополнительный эффект: накладывает эффект Heavensent<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Комбо Wheeling Thrust меняется на Heavens' Thrust под эффектом Heavensent.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар с прыжком, наносящий урон с силой атаки 6,000.<br/>Дополнительный эффект: накладывает эффект Heavensent<br/>Продолжительность: 10 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение.<br/><br/>※Комбо Wheeling Thrust меняется на Heavens' Thrust под эффектом Heavensent."
 	},
 	"PVP Skill 08": {
 		"name": "Elusive Jump",
@@ -728,9 +620,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Совершает прыжок в место, находящееся в 15 ялмах позади персонажа.<br/>Дополнительный эффект: снимает тяжесть (heavy) и связывание (bind)<br/>Дополнительный эффект: увеличивает скорость передвижения на 25%<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: накладывает Firstminds Focus<br/>Продолжительность: 10 сек.<br/><br/>※При выполнении умение меняется на Wyrmwind Thrust",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Совершает прыжок в место, находящееся в 15 ялмах позади персонажа.<br/>Дополнительный эффект: снимает тяжесть (heavy) и связывание (bind)<br/>Дополнительный эффект: увеличивает скорость передвижения на 25%<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: накладывает Firstminds Focus<br/>Продолжительность: 10 сек.<br/><br/>※При выполнении умение меняется на Wyrmwind Thrust"
 	},
 	"PVP Skill 09": {
 		"name": "Horrid Roar",
@@ -741,9 +631,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "10y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 3,000 по всем ближайшим противникам.<br/>Эффект Horrid Roar: снижает наносимый персонажу урон на 50%<br/>Продолжительность: 10 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 3,000 по всем ближайшим противникам.<br/>Эффект Horrid Roar: снижает наносимый персонажу урон на 50%<br/>Продолжительность: 10 сек."
 	},
 	"PVP Skill 10": {
 		"name": "Heavens' Thrust",
@@ -754,9 +642,7 @@
 		"range": "5y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон с силой атаки 10,000.<br/>Может быть выполнено только под эффектом Heavensent.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 10,000.<br/>Может быть выполнено только под эффектом Heavensent.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 11": {
 		"name": "Starcross",
@@ -767,9 +653,7 @@
 		"range": "20y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий урон с силой атаки 12,000 по цели и всем ближайшим противникам.<br/>Может быть выполнено только под эффектом Starcross Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон с силой атаки 12,000 по цели и всем ближайшим противникам.<br/>Может быть выполнено только под эффектом Starcross Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 12": {
 		"name": "Nastrond",
@@ -780,9 +664,7 @@
 		"range": "15y",
 		"radius_img": "R6",
 		"radius": "15y",
-		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 5,000.<br/>Сила атаки увеличивается до 10,000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Эффект Life of the Dragon исчезает после использования.<br/>Может быть выполнено только под эффектом Nastrond Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 5,000.<br/>Сила атаки увеличивается до 10,000 по мере уменьшения HP цели и достигает максимального значения, когда у цели остается 50% HP или меньше.<br/>Эффект Life of the Dragon исчезает после использования.<br/>Может быть выполнено только под эффектом Nastrond Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 13": {
 		"name": "Wyrmwind Thrust",
@@ -793,9 +675,7 @@
 		"range": "20y",
 		"radius_img": "R6",
 		"radius": "20y",
-		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается пропорционально расстоянию до цели, вплоть до 16,000, когда цель находится на расстоянии 15 ялмов.<br/>Может быть использовано только под действием эффекта Firstminds Focus.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается пропорционально расстоянию до цели, вплоть до 16,000, когда цель находится на расстоянии 15 ялмов.<br/>Может быть использовано только под действием эффекта Firstminds Focus.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill LB1": {
 		"name": "Sky High",
@@ -805,9 +685,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Персонаж совершает высокий прыжок, становясь недоступным для противников. Перемещение все еще возможно до момента приземления, а скорость увеличивается на 50%.<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: снимает негативные эффекты - тяжесть (heavy), связывание (bind) и полу сон (Half-asleep)<br/>По истечении эффекта автоматически использует Sky Shatter.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※При использовании умение меняется на Sky Shatter.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Персонаж совершает высокий прыжок, становясь недоступным для противников. Перемещение все еще возможно до момента приземления, а скорость увеличивается на 50%.<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: снимает негативные эффекты - тяжесть (heavy), связывание (bind) и полу сон (Half-asleep)<br/>По истечении эффекта автоматически использует Sky Shatter.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※При использовании умение меняется на Sky Shatter."
 	},
 	"PVP Skill LB2": {
 		"name": "Sky Shatter",
@@ -817,8 +695,6 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "10y",
-		"content": "Удар, наносящий урон по всем окружающим противникам с силой атаки 16,000.<br/>Сила атаки удваивается, если цель находится в пределах 5 ялмов.<br/>Дополнительный эффект: создает вокруг себя барьер, поглощающий урон, равный силе лечения 24,000<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Sky High.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон по всем окружающим противникам с силой атаки 16,000.<br/>Сила атаки удваивается, если цель находится в пределах 5 ялмов.<br/>Дополнительный эффект: создает вокруг себя барьер, поглощающий урон, равный силе лечения 24,000<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Sky High.<br/><br/>※Это умение нельзя поместить на хотбар."
 	}
 }

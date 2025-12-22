@@ -1,4 +1,16 @@
-const DB_VERSION = "16.12.2025";
+const DB_VERSION = "22.12.2025";
+
+async function loadUpdateFlags() {
+	try {
+		const url = "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/main/data/Update.json";
+		const response = await fetch(`${url}?v=${Date.now()}`);
+		const data = await response.json();
+		return data.flags || {};
+	} catch (error) {
+		console.debug("Не удалось загрузить флаги обновлений");
+		return {};
+	}
+}
 
 async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	const renderers = {
@@ -31,9 +43,41 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		})
 	);
 
+	const updateFlags = await loadUpdateFlags();
+	const currentJobCode = document.body.id;
+	const jobData = updateFlags[currentJobCode] || {};
+
+	const jobSkills = {};
+	const jobUpdates = {};
+
+	Object.entries(jobData).forEach(([key, value]) => {
+		if (key.includes("Skill")) {
+			jobSkills[key] = value;
+		} else if (key.includes("Update")) {
+			jobUpdates[key] = value;
+		}
+	});
+
 	Object.keys(renderers).forEach((attr) => {
 		document.querySelectorAll(`[${attr}]`).forEach((el) => {
 			const key = el.getAttribute(attr);
+
+			if (attr === "db-value") {
+				if (jobUpdates[key]) {
+					el.textContent = jobUpdates[key];
+					return;
+				}
+
+				const value = getValueRecursive(key, DB);
+				if (typeof value === "undefined") {
+					console.error(`db-value "${key}" не найден ни в Update.json, ни в базе`);
+					return;
+				}
+
+				el.textContent = renderValue(value);
+				return;
+			}
+
 			const value = getValueRecursive(key, DB);
 			if (typeof value === "undefined") {
 				console.error(`${attr} "${key}" не найден`);
@@ -43,9 +87,9 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 			const isMainTable = el.closest("tbody.job_tbody");
 			const prefix = isMainTable ? "skill" : "menu";
 
-			["update", "new"].forEach((flag) => {
-				if (value[`skill_${flag}`]) el.classList.add(`${prefix}_${flag}`);
-			});
+			if (jobSkills[key]) {
+				el.classList.add(`${prefix}_update`);
+			}
 
 			el.innerHTML = renderers[attr](value);
 		});
@@ -160,22 +204,22 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 
 function renderSkill(skill) {
 	let html = `
-	  <td class="skill">
-		 <div class="skill_wrapper">
-			<div class="skill_wrapper_icon">
-			  <div class="job_skill_icon">
-				 <img src="${skill.skill_icon ?? ""}">
-			  </div>
-			</div>
-			<p><strong>${skill.name ?? ""}</strong>
-			${skill.eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${skill.eorzeadb}">Задание на получение</a>` : ""}</p>
-		 </div>
-	  </td>`;
+      <td class="skill">
+         <div class="skill_wrapper">
+            <div class="skill_wrapper_icon">
+              <div class="job_skill_icon">
+                 <img src="${skill.skill_icon ?? ""}">
+              </div>
+            </div>
+            <p><strong>${skill.name ?? ""}</strong>
+            ${skill.eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${skill.eorzeadb}">Задание на получение</a>` : ""}</p>
+         </div>
+      </td>`;
 
 	if (skill.job_icon || skill.job_class_01 || skill.job_class_02 || skill.job_class_03 || skill.level) {
 		html += `<td class="jobclass">
-			<div class="jobclass_wrapper">
-				<div class="jobclass_wrapper_icon">`;
+            <div class="jobclass_wrapper">
+                <div class="jobclass_wrapper_icon">`;
 		if (skill.job_icon) html += `<img src="../Assets/img/DoWDoM/Job/${skill.job_icon}.png">`;
 		if (skill.job_class_01) html += `<img src="../Assets/img/main/${skill.job_class_01}.png">`;
 		if (skill.job_class_02) html += `<img src="../Assets/img/main/${skill.job_class_02}.png">`;
@@ -192,15 +236,15 @@ function renderSkill(skill) {
 
 	if (skill.range || skill.radius || skill.radius_img) {
 		html += `<td class="distant_range">
-			<div class="range">
-				<img src="../Assets/img/main/Range.png">
-				<p>${skill.range ?? ""}</p>
-			</div>
-			<div class="radius">
-				<img src="../Assets/img/DoWDoM/Radius/${skill.radius_img ?? "None"}.png">
-				<p>${skill.radius ?? ""}</p>
-			</div>
-		</td>`;
+            <div class="range">
+                <img src="../Assets/img/main/Range.png">
+                <p>${skill.range ?? ""}</p>
+            </div>
+            <div class="radius">
+                <img src="../Assets/img/DoWDoM/Radius/${skill.radius_img ?? "None"}.png">
+                <p>${skill.radius ?? ""}</p>
+            </div>
+        </td>`;
 	}
 
 	if (skill.content) html += `<td class="content">${skill.content}</td>`;
@@ -226,32 +270,32 @@ function renderSkillCraft(skill) {
 	const cost = skill.cost ? `<td class="cost">${skill.cost}</td>` : "";
 
 	let html = `
-		<td class="skill">
-			<div class="skill_wrapper">
-				<div class="skill_wrapper_icon">
-					<div class="guide-skill_icon">
-						<img src="${skillIcon}"/>
-					</div>
-				</div>
-				<p>
-					<strong>${skillName}</strong>
-					${eorzeadbLink}
-				</p>
-			</div>
-		</td>
-		<td class="jobclass">
-			<div class="jobclass_wrapper">
-				<div class="jobclass_wrapper_icon">
-					<img src="../Assets/img/DoWDoM/Job/${jobName}.png"/>
-				</div>
-				<p>Ур. ${skill.level}</p>
-			</div>
-		</td>
-		${classification}
-		${recast}
-		${cost}
-		<td class="content">${skillContent}</td>
-	`;
+        <td class="skill">
+            <div class="skill_wrapper">
+                <div class="skill_wrapper_icon">
+                    <div class="guide-skill_icon">
+                        <img src="${skillIcon}"/>
+                    </div>
+                </div>
+                <p>
+                    <strong>${skillName}</strong>
+                    ${eorzeadbLink}
+                </p>
+            </div>
+        </td>
+        <td class="jobclass">
+            <div class="jobclass_wrapper">
+                <div class="jobclass_wrapper_icon">
+                    <img src="../Assets/img/DoWDoM/Job/${jobName}.png"/>
+                </div>
+                <p>Ур. ${skill.level}</p>
+            </div>
+        </td>
+        ${classification}
+        ${recast}
+        ${cost}
+        <td class="content">${skillContent}</td>
+    `;
 
 	return html;
 }

@@ -1,6 +1,4 @@
 {
-	"PVE Update": "Последнее обновление: 05/08/2025",
-	"PVP Update": "Последнее обновление: 07/10/2025",
 	"PVE Skill 01": {
 		"name": "Stone",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png",
@@ -13,9 +11,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон землей с силой атаки 140.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон землей с силой атаки 140."
 	},
 	"PVE Skill 02": {
 		"name": "Cure",
@@ -29,9 +25,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 500<br/>Дополнительный эффект: шанс 15%, что следующее применение Cure II не потребует MP<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 500<br/>Дополнительный эффект: шанс 15%, что следующее применение Cure II не потребует MP<br/>Продолжительность: 15 сек."
 	},
 	"PVE Skill 03": {
 		"name": "Aero",
@@ -45,9 +39,7 @@
 		"range": "20y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 30<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 30<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 04": {
 		"name": "Medica",
@@ -61,9 +53,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400"
 	},
 	"PVE Skill 05": {
 		"name": "Raise",
@@ -77,9 +67,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Воскрешает цель, накладывая эффект слабости (weakeness).",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Воскрешает цель, накладывая эффект слабости (weakeness)."
 	},
 	"PVE Skill 06": {
 		"name": "Stone II",
@@ -93,9 +81,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон землей с силой атаки 190.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон землей с силой атаки 190."
 	},
 	"PVE Skill 07": {
 		"name": "Cure II",
@@ -110,9 +96,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 800",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 800"
 	},
 	"PVE Skill 08": {
 		"name": "Presence of Mind",
@@ -127,9 +111,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает время выполнения и время восстановления заклинаний, а также задержку между авто атаками на 20%.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает 3 стака эффекта Sacred Sight<br/>Продолжительность: 30 сек",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Снижает время выполнения и время восстановления заклинаний, а также задержку между авто атаками на 20%.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает 3 стака эффекта Sacred Sight<br/>Продолжительность: 30 сек"
 	},
 	"PVE Skill 09": {
 		"name": "Regen",
@@ -144,9 +126,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Накладывает на цель эффект периодического лечения.<br/>Сила лечения: 250<br/>Продолжительность: 18 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Накладывает на цель эффект периодического лечения.<br/>Сила лечения: 250<br/>Продолжительность: 18 сек."
 	},
 	"PVE Skill 10": {
 		"name": "Cure III",
@@ -161,9 +141,7 @@
 		"range": "30y",
 		"radius_img": "R2",
 		"radius": "10y",
-		"content": "Восстанавливает HP цели и всех ближайших сопартийцев вокруг.<br/>Сила лечения: 600",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP цели и всех ближайших сопартийцев вокруг.<br/>Сила лечения: 600"
 	},
 	"PVE Skill 11": {
 		"name": "Aetherial Shift",
@@ -177,9 +155,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Быстрый рывок на 15 ялмов вперед.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Быстрый рывок на 15 ялмов вперед.<br/>Невозможно использовать, если персонаж находится под эффектами, ограничивающими перемещение."
 	},
 	"PVE Skill 12": {
 		"name": "Holy",
@@ -194,9 +170,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "8y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 140 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 140 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек."
 	},
 	"PVE Skill 13": {
 		"name": "Aero II",
@@ -210,9 +184,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 50<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон ветром с силой атаки 50.<br/>Дополнительный эффект: периодический урон ветром<br/>Сила атаки: 50<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 14": {
 		"name": "Medica II",
@@ -226,9 +198,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen).<br/>Сила лечения: 150<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (regen).<br/>Сила лечения: 150<br/>Продолжительность: 15 сек."
 	},
 	"PVE Skill 15": {
 		"name": "Benediction",
@@ -243,9 +213,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Полностью восстанавливает HP цели.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Полностью восстанавливает HP цели."
 	},
 	"PVE Skill 16": {
 		"name": "Afflatus Solace",
@@ -259,9 +227,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 800<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 800<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge"
 	},
 	"PVE Skill 17": {
 		"name": "Asylum",
@@ -276,9 +242,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "15y",
-		"content": "Создает в указанной области купол целителя, восстанавливащий HP персонажу и сопартийцам, находящимся внутри.<br/>Сила лечения: 100<br/>Продолжительность: 24 сек.<br/>Дополнительный эффект: увеличивает силу лечебных умений, применнёных на всех сопартийцев в области действия, на 10%",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Создает в указанной области купол целителя, восстанавливащий HP персонажу и сопартийцам, находящимся внутри.<br/>Сила лечения: 100<br/>Продолжительность: 24 сек.<br/>Дополнительный эффект: увеличивает силу лечебных умений, применнёных на всех сопартийцев в области действия, на 10%"
 	},
 	"PVE Skill 18": {
 		"name": "Stone III",
@@ -293,9 +257,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон землей с силой атаки 220.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон землей с силой атаки 220."
 	},
 	"PVE Skill 19": {
 		"name": "Assize",
@@ -310,9 +272,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 400<br/>Дополнительный эффект: восстанавливает 5% от максимума MP персонажа",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 400 по всем окружающим противникам.<br/>Дополнительный эффект: восстанавливает HP персонажа и всех ближайших сопартийцев<br/>Сила лечения: 400<br/>Дополнительный эффект: восстанавливает 5% от максимума MP персонажа"
 	},
 	"PVE Skill 20": {
 		"name": "Thin Air",
@@ -327,9 +287,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Следующее умение не потребует затрат MP.<br/>Продолжительность: 12 сек.<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Следующее умение не потребует затрат MP.<br/>Продолжительность: 12 сек.<br/>Максимум зарядов: 2"
 	},
 	"PVE Skill 21": {
 		"name": "Tetragrammaton",
@@ -344,9 +302,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 700<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 700<br/>Максимум зарядов: 2"
 	},
 	"PVE Skill 22": {
 		"name": "Stone IV",
@@ -360,9 +316,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий урон землей с силой атаки 260.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий урон землей с силой атаки 260."
 	},
 	"PVE Skill 23": {
 		"name": "Divine Benison",
@@ -376,9 +330,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный силе лечения 500.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный силе лечения 500.<br/>Продолжительность: 15 сек.<br/>Максимум зарядов: 2"
 	},
 	"PVE Skill 24": {
 		"name": "Plenary Indulgence",
@@ -393,9 +345,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Накладывает эффект Confession на персонажа и всех ближайших сопартийцев, уменьшая получаемый урон на 10%.<br/>Продолжительность: 15 сек.<br/>Сопартийцы, находящиеся под действием эффекта Confession, получают дополнительное восстановлении HP с помощью Medica, Medica III, Cure III или Afflatus Rapture.<br/>Сила лечения: 200",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Накладывает эффект Confession на персонажа и всех ближайших сопартийцев, уменьшая получаемый урон на 10%.<br/>Продолжительность: 15 сек.<br/>Сопартийцы, находящиеся под действием эффекта Confession, получают дополнительное восстановлении HP с помощью Medica, Medica III, Cure III или Afflatus Rapture.<br/>Сила лечения: 200"
 	},
 	"PVE Skill 25": {
 		"name": "Dia",
@@ -409,9 +359,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 85.<br/>Дополнительный эффект: нестихийный периодический урон<br/>Сила атаки: 85<br/>Продолжительность: 30 сек.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 85.<br/>Дополнительный эффект: нестихийный периодический урон<br/>Сила атаки: 85<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 26": {
 		"name": "Glare",
@@ -425,9 +373,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 290.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 290."
 	},
 	"PVE Skill 27": {
 		"name": "Afflatus Misery",
@@ -441,9 +387,7 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1,400 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только когда Blood Lily полностью расцвела.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 1,400 для первого и на 50% меньше для всех остальных.<br/>Может использоваться только когда Blood Lily полностью расцвела."
 	},
 	"PVE Skill 28": {
 		"name": "Afflatus Rapture",
@@ -457,9 +401,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 400<br/>Дополнительный эффект: накапливает Blood Lily<br/>Стоимость: 1 Lily Healing Gauge"
 	},
 	"PVE Skill 29": {
 		"name": "Temperance",
@@ -473,9 +415,7 @@
 		"range": "0y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Увеличивает эффективность магии лечения на 20%, также снижает получаемый урон персонажем и сопартийцами в радиусе 50 ялмов на 10%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Divine Grace<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает эффективность магии лечения на 20%, также снижает получаемый урон персонажем и сопартийцами в радиусе 50 ялмов на 10%.<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Divine Grace<br/>Продолжительность: 30 сек."
 	},
 	"PVE Skill 30": {
 		"name": "Glare III",
@@ -489,9 +429,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 350.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 350."
 	},
 	"PVE Skill 31": {
 		"name": "Holy III",
@@ -505,9 +443,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "8y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 150 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 150 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 4 сек."
 	},
 	"PVE Skill 32": {
 		"name": "Aquaveil",
@@ -521,9 +457,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Снижает получаемый урон персонажем или сопартийцем урон на 15%.<br/>Продолжительность: 8 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Снижает получаемый урон персонажем или сопартийцем урон на 15%.<br/>Продолжительность: 8 сек."
 	},
 	"PVE Skill 33": {
 		"name": "Liturgy of the Bell",
@@ -537,9 +471,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Помещает исцеляющий цветок в указанное место и дает персонажу 5 стаков Liturgy of the Bell.<br/>Продолжительность: 20 сек.<br/>Когда персонаж получает урон, 1 стак Liturgy of the Bell расходуется, чтобы исцелить себя и всех сопартийцев в радиусе 20 ялмов.<br/>Сила лечения: 400<br/>Эффект этого умения срабатывает не чаще одного раза в секунду.<br/>По окончанию времени действия умения или при использовании его второй раз все оставшиеся стаки Liturgy of the Bell будет использованы для дополнительного восстановления HP.<br/>Сила лечения: 200 за каждый оставшийся стак Liturgy of the Bell<br/>Этот умение не имеет общего время восстановления с другими умениями.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Помещает исцеляющий цветок в указанное место и дает персонажу 5 стаков Liturgy of the Bell.<br/>Продолжительность: 20 сек.<br/>Когда персонаж получает урон, 1 стак Liturgy of the Bell расходуется, чтобы исцелить себя и всех сопартийцев в радиусе 20 ялмов.<br/>Сила лечения: 400<br/>Эффект этого умения срабатывает не чаще одного раза в секунду.<br/>По окончанию времени действия умения или при использовании его второй раз все оставшиеся стаки Liturgy of the Bell будет использованы для дополнительного восстановления HP.<br/>Сила лечения: 200 за каждый оставшийся стак Liturgy of the Bell<br/>Этот умение не имеет общего время восстановления с другими умениями."
 	},
 	"PVE Skill 34": {
 		"name": "Glare IV",
@@ -553,9 +485,7 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 640 для первого и на 40% меньше для всех остальных.<br/Может быть использовано только при активном эффекте Sacred Sight.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 640 для первого и на 40% меньше для всех остальных.<br/Может быть использовано только при активном эффекте Sacred Sight."
 	},
 	"PVE Skill 35": {
 		"name": "Medica III",
@@ -569,9 +499,7 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "20y",
-		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen).<br/>Сила лечения: 175<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP персонажа и всех ближайших сопартийцев.<br/>Сила лечения: 250<br/>Дополнительный эффект: эффект периодического лечения (Regen).<br/>Сила лечения: 175<br/>Продолжительность: 15 сек."
 	},
 	"PVE Skill 36": {
 		"name": "Divine Caress",
@@ -585,54 +513,42 @@
 		"range": "0y",
 		"radius_img": "R2",
 		"radius": "30y",
-		"content": "Создает вокруг персонажа и всех ближайших сопартийцев барьер, поглощающий урон, эквивалентный исцелению с силой 400.<br/>Продолжительность: 10 сек.<br/>Накладывает эффект периодического лечения (Regen) после того, как эффект барьера исчезает.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Может быть использовано только при активном эффекте Divine Grace.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Создает вокруг персонажа и всех ближайших сопартийцев барьер, поглощающий урон, эквивалентный исцелению с силой 400.<br/>Продолжительность: 10 сек.<br/>Накладывает эффект периодического лечения (Regen) после того, как эффект барьера исчезает.<br/>Сила лечения: 200<br/>Продолжительность: 15 сек.<br/>Может быть использовано только при активном эффекте Divine Grace."
 	},
 	"Trait 01": {
 		"name": "Stone Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ec59af21d4783ec07af93ded5382036016d67ade.png",
 		"job_icon": "CNJ",
 		"level": "18",
-		"content": "Улучшает умение Stone до Stone II.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Stone до Stone II."
 	},
 	"Trait 02": {
 		"name": "Maim and Mend",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "CNJ",
 		"level": "20",
-		"content": "Увеличивает базовый урон умений и восстановления HP на 10%.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает базовый урон умений и восстановления HP на 10%."
 	},
 	"Trait 03": {
 		"name": "Freecure",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a3a57f7b7aa0de5e6da5e5696661ad29a4888e7f.png",
 		"job_icon": "CNJ",
 		"level": "32",
-		"content": "Дает 15% шанс, что после использования Cure, стоимость следующего Cure II будет равна 0 MP.<br/>Продолжительность: 15 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Дает 15% шанс, что после использования Cure, стоимость следующего Cure II будет равна 0 MP.<br/>Продолжительность: 15 сек."
 	},
 	"Trait 04": {
 		"name": "Maim and Mend II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "CNJ",
 		"level": "40",
-		"content": "Увеличивает базовый урон умений и восстановления HP на 30%.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает базовый урон умений и восстановления HP на 30%."
 	},
 	"Trait 05": {
 		"name": "Aero Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bfb73b26584ff1beea3c051df995efb2057f9746.png",
 		"job_icon": "CNJ",
 		"level": "46",
-		"content": "Улучшает умение Aero до Aero II.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Aero до Aero II."
 	},
 	"Trait 06": {
 		"name": "Secret of the Lily",
@@ -640,9 +556,7 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9d84d98cec3b373c4d288036197345815b0079a5.png",
 		"job_icon": "WHM",
 		"level": "52",
-		"content": "Добавляет Lily на Healing Gauge персонажа каждые 20 секунд при нахождении в бою. Максимум 3 Lily.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Добавляет Lily на Healing Gauge персонажа каждые 20 секунд при нахождении в бою. Максимум 3 Lily."
 	},
 	"Trait 07": {
 		"name": "Stone Mastery II",
@@ -650,135 +564,105 @@
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7700f3365453c8581b17b771446e0ceb253d2482.png",
 		"job_icon": "WHM",
 		"level": "54",
-		"content": "Улучшает умение Stone II до Stone III.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Stone II до Stone III."
 	},
 	"Trait 08": {
 		"name": "Stone Mastery III",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0dece0a812fe1229b768f235340926de1be3a4d9.png",
 		"job_icon": "WHM",
 		"level": "64",
-		"content": "Улучшает умение Stone III до Stone IV.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Stone III до Stone IV."
 	},
 	"Trait 09": {
 		"name": "Aero Mastery II",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7f5083e44cab6be3c440d2db89c35be3242d340d.png",
 		"job_icon": "WHM",
 		"level": "72",
-		"content": "Улучшает умение Aero II до Dia.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Aero II до Dia."
 	},
 	"Trait 10": {
 		"name": "Stone Mastery IV",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/092e5ba991784873f9b5f9a92db364956029657a.png",
 		"job_icon": "WHM",
 		"level": "72",
-		"content": "Улучшает умение Stone IV до Glare.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Stone IV до Glare."
 	},
 	"Trait 11": {
 		"name": "Transcendent Afflatus",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/df2fd48f77f5355c6ddc3580504abf58b9aa69ea.png",
 		"job_icon": "WHM",
 		"level": "74",
-		"content": "Добавляет Blood Lily к Healing Gauge, которая расцветает после трех применений Afflatus Solace или Afflatus Rapture.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Добавляет Blood Lily к Healing Gauge, которая расцветает после трех применений Afflatus Solace или Afflatus Rapture."
 	},
 	"Trait 12": {
 		"name": "Enhanced Asylum",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b340f8eedf09a0058e1a6d74bf129a6c0cfff5d1.png",
 		"job_icon": "WHM",
 		"level": "78",
-		"content": "Добавляет дополнительный эффект умению Asylum, увеличивающий силу умений восстанавливающих HP на 10%.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Добавляет дополнительный эффект умению Asylum, увеличивающий силу умений восстанавливающих HP на 10%."
 	},
 	"Trait 13": {
 		"name": "Glare Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4a78ef89a46bfc230651382c1326ea848696bf4f.png",
 		"job_icon": "WHM",
 		"level": "82",
-		"content": "Улучшает умение Glare to Glare III.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Glare to Glare III."
 	},
 	"Trait 14": {
 		"name": "Holy Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8754d08e1d361478839e1a220369134a71a28d0a.png",
 		"job_icon": "WHM",
 		"level": "82",
-		"content": "Улучшает умение Holy да Holy III.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Holy да Holy III."
 	},
 	"Trait 15": {
 		"name": "Enhanced Healing Magic",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a24e5cd23307348ea0119062908b5153b2b84ca2.png",
 		"job_icon": "WHM",
 		"level": "85",
-		"content": "Увеличивает силу исцеляющих умений Cure до 500, Medica до 400, Cure II до 800, Regen до 250, Cure III до 600, Medica II до 250, эффект периодического лечения Medica II (regen) до 150, Afflatus Solace до 800 и Afflatus Rapture до 400.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Увеличивает силу исцеляющих умений Cure до 500, Medica до 400, Cure II до 800, Regen до 250, Cure III до 600, Medica II до 250, эффект периодического лечения Medica II (regen) до 150, Afflatus Solace до 800 и Afflatus Rapture до 400."
 	},
 	"Trait 16": {
 		"name": "Enhanced Divine Benison",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/70956bb631d282deba1787b5497f70b9540eeaa5.png",
 		"job_icon": "WHM",
 		"level": "88",
-		"content": "Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Позволяет накапливать заряды для последовательного использования Divine Benison.<br/>Максимум зарядов: 2"
 	},
 	"Trait 17": {
 		"name": "Enhanced Presence of Mind",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/522d1367f418f9d9ab9497cb7aac3fd75d75ef16.png",
 		"job_icon": "WHM",
 		"level": "92",
-		"content": "Presence of Mind дает 3 стака эффекта Sacred Sight после использования.<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Presence of Mind дает 3 стака эффекта Sacred Sight после использования.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 18": {
 		"name": "White Magic Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "WHM",
 		"level": "94",
-		"content": "Увеличивает силу атаки умениям Dia и его урон с течением времени до 85, Afflatus Misery до 1,360 и Glare III до 340.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Увеличивает силу атаки умениям Dia и его урон с течением времени до 85, Afflatus Misery до 1,360 и Glare III до 340."
 	},
 	"Trait 19": {
 		"name": "Medica Mastery",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/6e19d26c224d8df136427dc9d65b2b8adcda20d7.png",
 		"job_icon": "WHM",
 		"level": "96",
-		"content": "Улучшает умение Medica II до Medica III.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Улучшает умение Medica II до Medica III."
 	},
 	"Trait 20": {
 		"name": "Enhanced Tetragrammaton",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2c8d74105960fc4db1162f4bfc05b258cc43adb0.png",
 		"job_icon": "WHM",
 		"level": "98",
-		"content": "Позволяет накапливать заряды для последовательного использования Tetragrammaton.<br/>Максимум зарядов: 2",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Позволяет накапливать заряды для последовательного использования Tetragrammaton.<br/>Максимум зарядов: 2"
 	},
 	"Trait 21": {
 		"name": "Enhanced Temperance",
 		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1617b594d0846dfcbc4a7c258e89bdc2fb10c168.png",
 		"job_icon": "WHM",
 		"level": "100",
-		"content": "Temperance накладывает эффект Divine Grace после использования.<br/>Продолжительность: 30 сек.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Temperance накладывает эффект Divine Grace после использования.<br/>Продолжительность: 30 сек."
 	},
 	"PVP Skill 01": {
 		"name": "Glare III",
@@ -789,9 +673,7 @@
 		"range": "25y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000.<br/><br/>※ Умение меняется на Glare IV под действием эффекта Sacred Sight.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000.<br/><br/>※ Умение меняется на Glare IV под действием эффекта Sacred Sight."
 	},
 	"PVP Skill 02": {
 		"name": "Cure II",
@@ -802,9 +684,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Восстанавливает HP цели.<br/>Сила лечения: 12,000<br/>Максимум стаков: 2<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Cure III под действием эффекта Cure III Ready.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP цели.<br/>Сила лечения: 12,000<br/>Максимум стаков: 2<br/>Этот умение не имеет общего времени восстановления с другими умениями.<br/><br/>※Умение меняется на Cure III под действием эффекта Cure III Ready."
 	},
 	"PVP Skill 03": {
 		"name": "Afflatus Misery",
@@ -815,9 +695,7 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 12,000.<br/>Этот умение не имеет общего времени восстановления с другими умениями.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон по цели и по всем окружающим противникам с силой атаки 12,000.<br/>Этот умение не имеет общего времени восстановления с другими умениями."
 	},
 	"PVP Skill 04": {
 		"name": "Aquaveil",
@@ -828,9 +706,7 @@
 		"range": "30y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный лечению с силой 8,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: снимает один статусный эффект, который может быть снят Purify<br/>Сила барьера удваивается, если данное умение успешно снимает статусный эффект.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Создает барьер вокруг персонажа или сопартийца, поглощающий урон, равный лечению с силой 8,000.<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: снимает один статусный эффект, который может быть снят Purify<br/>Сила барьера удваивается, если данное умение успешно снимает статусный эффект."
 	},
 	"PVP Skill 05": {
 		"name": "Miracle of Nature",
@@ -841,9 +717,7 @@
 		"range": "10y",
 		"radius_img": "R1",
 		"radius": "0y",
-		"content": "Насильно превращает цель в крошечное существо, лишая ее возможности использовать умения, кроме Purify.<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: уменьшает MP до 1,000<br/>Не действует на игроков, находящихся под действием статусных эффектов, которые могут быть сняты Purify, Relentless Rush, Honing Dance, игроков, находящихся в роботах и неигровых персонажей.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Насильно превращает цель в крошечное существо, лишая ее возможности использовать умения, кроме Purify.<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: уменьшает MP до 1,000<br/>Не действует на игроков, находящихся под действием статусных эффектов, которые могут быть сняты Purify, Relentless Rush, Honing Dance, игроков, находящихся в роботах и неигровых персонажей."
 	},
 	"PVP Skill 06": {
 		"name": "Seraph Strike",
@@ -854,9 +728,7 @@
 		"range": "20y",
 		"radius_img": "R2",
 		"radius": "10y",
-		"content": "Прыжок на цель, наносящий нестихийный урон с силой атаки 6,000 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: снижает получаемый урон по персонажу и ближайшим сопартийцам на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: дает 3 стака Sacred Sight<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Cure III Ready<br/>Продолжительность: 20 сек.<br/><br/>※Glare III меняется на Glare IV под действием эффекта Sacred Sight.<br/>※Умение Cure II меняется на Cure III под действием эффекта Cure III Ready.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Прыжок на цель, наносящий нестихийный урон с силой атаки 6,000 по цели и по всем окружающим противникам.<br/>Дополнительный эффект: снижает получаемый урон по персонажу и ближайшим сопартийцам на 10%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: дает 3 стака Sacred Sight<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: накладывает эффект Cure III Ready<br/>Продолжительность: 20 сек.<br/><br/>※Glare III меняется на Glare IV под действием эффекта Sacred Sight.<br/>※Умение Cure II меняется на Cure III под действием эффекта Cure III Ready."
 	},
 	"PVP Skill 07": {
 		"name": "Glare IV",
@@ -867,9 +739,7 @@
 		"range": "25y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Удар, наносящий нестихийный урон с силой атаки 9,000 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Sacred Sight.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон с силой атаки 9,000 по цели и всем ближайшим противникам.<br/>Может быть использовано только под действием эффекта Sacred Sight.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill 08": {
 		"name": "Cure III",
@@ -880,9 +750,7 @@
 		"range": "30y",
 		"radius_img": "R2",
 		"radius": "5y",
-		"content": "Восстанавливает HP персонажа или цели с силой лечения 16,000 и всех ближайших сопартийцев с силой лечения 12,000.<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар.",
-		"skill_update": false,
-		"skill_new": false
+		"content": "Восстанавливает HP персонажа или цели с силой лечения 16,000 и всех ближайших сопартийцев с силой лечения 12,000.<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
 	"PVP Skill LB": {
 		"name": "Afflatus Purgation",
@@ -892,8 +760,6 @@
 		"range": "40y",
 		"radius_img": "R6",
 		"radius": "40y",
-		"content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 18,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Temperance<br/>Эффект Temperance: накладывает эффект периодического лечения (Regen) на персонажа и всех ближайших сопартийцев в радиусе 30 ялмов<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.",
-		"skill_update": true,
-		"skill_new": false
+		"content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 18,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Temperance<br/>Эффект Temperance: накладывает эффект периодического лечения (Regen) на персонажа и всех ближайших сопартийцев в радиусе 30 ялмов<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек."
 	}
 }
