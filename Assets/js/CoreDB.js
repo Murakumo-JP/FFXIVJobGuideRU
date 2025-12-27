@@ -2,7 +2,7 @@ const DB_VERSION = "22.12.2025";
 
 async function loadUpdateFlags() {
 	try {
-		const url = "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/main/data/Update.json";
+		const url = "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/main/data/UpdateFlags.json";
 		const response = await fetch(`${url}?v=${Date.now()}`);
 		const data = await response.json();
 		return data.flags || {};
