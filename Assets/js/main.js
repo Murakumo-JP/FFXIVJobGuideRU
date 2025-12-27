@@ -11,7 +11,15 @@ $(document).ready(() => {
 		.then((response) => response.json())
 		.then((data) => {
 			$("#inner_update").prepend(`<p>Последнее обновление: ${data.lastUpdate} | Патч: ${data.patchVersion}</p>`);
-			$("#patch_info").prepend(`... <a href="${data.patchLink}">патчноутам</a>.`);
+			$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${data.patchLink}">патчноутам</a>.`);
+		})
+		.catch((error) => {
+			console.error("Ошибка загрузки Updates.json:", error);
+			fetch(`../../DB/Updates.json?v=${Date.now()}`)
+				.then((r) => r.json())
+				.then((data) => {
+					$("#patch_info").prepend(`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>Более подробную информацию об изменениях в активных и пассивных умениях можно найти в примечаниях к <a target="_blank" href="${data.patchLink}">патчноутам</a>.`);
+				});
 		});
 
 	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
