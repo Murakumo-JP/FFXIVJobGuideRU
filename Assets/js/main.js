@@ -301,3 +301,90 @@ $(document).ready(() => {
 	$("#btn-fix-links").click(fixLinks);
 	fixLinks();
 });
+
+// Снег и да эту дичь писал не я пришлось просить AI, но зато красиво.
+
+function createSVGSnowfall() {
+	const canvas = document.createElement("canvas");
+	canvas.id = "snowCanvas";
+	Object.assign(canvas.style, {
+		position: "fixed",
+		top: 0,
+		left: 0,
+		width: "100%",
+		height: "100%",
+		pointerEvents: "none",
+		zIndex: 1000,
+	});
+	document.body.prepend(canvas);
+
+	const ctx = canvas.getContext("2d");
+	let width = window.innerWidth;
+	let height = window.innerHeight;
+	canvas.width = width;
+	canvas.height = height;
+
+	window.addEventListener(
+		"resize",
+		() => {
+			width = canvas.width = window.innerWidth;
+			height = canvas.height = window.innerHeight;
+		},
+		{passive: true}
+	);
+
+	const flakeCount = 69;
+	const flakes = [];
+
+	function createFlake() {
+		return {
+			x: Math.random() * width,
+			y: Math.random() * height,
+			size: 8 + Math.random() * 12,
+			speed: 0.3 + Math.random() * 0.9,
+			wind: -0.2 + Math.random() * 0.4,
+			opacity: 0.3 + Math.random() * 0.4,
+			rotation: Math.random() * Math.PI * 2,
+			rotationSpeed: (Math.random() - 0.5) * 0.02,
+		};
+	}
+
+	for (let i = 0; i < flakeCount; i++) flakes.push(createFlake());
+
+	const svgString = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+            <path d="M50,10 L50,90 M10,50 L90,50 M20,20 L80,80 M80,20 L20,80 M25,50 L75,50 M50,25 L50,75"
+                  stroke="white" stroke-width="8" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="12" fill="white"/>
+        </svg>
+    `;
+	const snowflakeImg = new Image();
+	snowflakeImg.src = URL.createObjectURL(new Blob([svgString], {type: "image/svg+xml;charset=utf-8"}));
+
+	function animate() {
+		ctx.clearRect(0, 0, width, height);
+		flakes.forEach((flake) => {
+			flake.y += flake.speed;
+			flake.x += flake.wind;
+			flake.rotation += flake.rotationSpeed;
+
+			if (flake.y > height + 30) {
+				Object.assign(flake, createFlake(), {y: -30});
+			}
+			if (flake.x > width + 30) flake.x = -30;
+			if (flake.x < -30) flake.x = width + 30;
+
+			ctx.save();
+			ctx.translate(flake.x, flake.y);
+			ctx.rotate(flake.rotation);
+			ctx.globalAlpha = flake.opacity;
+			ctx.drawImage(snowflakeImg, -flake.size / 2, -flake.size / 2, flake.size, flake.size);
+			ctx.restore();
+		});
+		requestAnimationFrame(animate);
+	}
+
+	snowflakeImg.onload = animate;
+}
+
+createSVGSnowfall();

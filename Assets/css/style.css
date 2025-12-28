@@ -253,13 +253,14 @@ input::placeholder {
   }
 }
 .app_index {
-  background-color: var(--color-set-1);
+  background-color: var(--color-set-1) !important;
 }
 
 .main_content {
   width: auto;
   padding: 0 0 16px;
   margin: 0 auto;
+  background: var(--color-set-3);
 }
 .main_app {
   background: var(--color-set-3);
@@ -2983,7 +2984,6 @@ pre {
 
 /* Tems */
 .main_app .footer_inner {
-  position: absolute;
   bottom: 0;
 }
 
