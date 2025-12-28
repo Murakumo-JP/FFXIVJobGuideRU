@@ -1,5 +1,5 @@
 const JSON_URLS = {
-	UPDATES: "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/main/data/UpdatesPatch.json",
+	UPDATES: "https://cdn.ff14jobguide.ru/data/UpdatesPatch.json",
 	MENU: "../DB/Menu.json",
 	SEARCH: "../DB/GlobalSearch.json",
 };
