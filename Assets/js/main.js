@@ -19,7 +19,17 @@ $(document).ready(() => {
 			);
 		});
 
-	$(".SE").append('<p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License</a></p>');
+	const year = new Date().getFullYear();
+
+	$(".SE").html(`
+		  <p>FINAL FANTASY XIV © 2010–${year} SQUARE ENIX CO., LTD. All Rights Reserved. | FFXIV Job Guide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></p>
+		  <p>
+			 All images on the site are the property of SQUARE ENIX© and are used under the
+			 <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc" target="_blank" rel="noopener">
+				Materials Usage License
+			 </a>.
+		  </p>
+		`);
 
 	// Open JobMenu
 	$(".nav_floating_icon").click(() => {

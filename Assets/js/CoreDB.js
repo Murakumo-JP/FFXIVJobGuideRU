@@ -70,7 +70,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 
 				const value = getValueRecursive(key, DB);
 				if (typeof value === "undefined") {
-					console.error(`db-value "${key}" не найден ни в Update.json, ни в базе`);
+					console.error(`db-value "${key}" не найден в базе`);
 					return;
 				}
 
