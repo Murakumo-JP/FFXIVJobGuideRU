@@ -558,12 +558,13 @@ input {
 	&_flex {
 		margin-bottom: 32px;
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 		justify-content: flex-end;
 	}
 
 	&_tank,
-	&_healer {
+	&_healer,
+	&__dps {
 		width: 390px;
 		overflow: hidden;
 		border-radius: 10px;

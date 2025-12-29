@@ -478,17 +478,17 @@ input::placeholder {
 .jobguide_flex {
   margin-bottom: 32px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
 }
-.jobguide_tank, .jobguide_healer {
+.jobguide_tank, .jobguide_healer, .jobguide__dps {
   width: 390px;
   overflow: hidden;
   border-radius: 10px;
   background: #f3f3f3;
   margin-right: 20px;
 }
-.jobguide_tank h2, .jobguide_healer h2 {
+.jobguide_tank h2, .jobguide_healer h2, .jobguide__dps h2 {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   position: relative;
@@ -498,7 +498,7 @@ input::placeholder {
   font-weight: 900;
   line-height: 32px;
 }
-.jobguide_tank h2 img, .jobguide_healer h2 img {
+.jobguide_tank h2 img, .jobguide_healer h2 img, .jobguide__dps h2 img {
   width: 32px;
   height: 32px;
   display: block;
