@@ -2224,6 +2224,9 @@ table {
   margin: 0 10px;
   padding-bottom: 32px;
 }
+.bluemage-text .eorzeadb_link {
+  color: #2556b8;
+}
 .bluemage-quest {
   display: flex;
   align-items: center;
