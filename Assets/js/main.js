@@ -1,7 +1,7 @@
 const JSON_URLS = {
 	UPDATES: "https://cdn.ff14jobguide.ru/data/UpdatesPatch.json",
 	MENU: "../DB/Menu.json",
-	SEARCH: "../DB/GlobalSearch.json",
+	SEARCH: "https://cdn.ff14jobguide.ru/data/GlobalSearch.json",
 };
 
 $(document).ready(() => {
@@ -170,13 +170,22 @@ $(document).ready(() => {
 		}
 	});
 });
-// Global Search
+// Global Search ==================================================================
+
 let jsonData = [];
 
+// Конфигурация путей (НАСТРОЙТЕ ПОД ВАШУ СТРУКТУРУ!)
+const config = {
+	assetsPath: "../Assets/", // измените на нужный путь
+	pagesPath: "/Page/",
+};
+
+// Загружаем данные
 $.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`).done(function (data) {
 	jsonData = data;
 });
 
+// Функция debounce
 function debounce(func, wait) {
 	let timeout;
 	return function (...args) {
@@ -185,60 +194,152 @@ function debounce(func, wait) {
 	};
 }
 
-$("#search").on(
-	"keyup",
-	debounce(function () {
-		let query = $(this).val().trim().toLowerCase();
-		let results = $("#results").empty();
+// Функция для выполнения поиска (ваша старая логика, но исправленная)
+function performSearch(searchInput, resultsContainer) {
+	let query = searchInput.val().trim().toLowerCase();
+	let results = resultsContainer.empty();
 
-		if (query && jsonData.length) {
-			let hasResults = false;
+	if (query && jsonData.length) {
+		let hasResults = false;
 
-			jsonData.forEach((job) => {
-				const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
-				job.skills.forEach((skill) => {
-					if (skill.skill.toLowerCase().includes(query)) {
-						let encodedSkill = btoa(skill["db-skill"]);
-						let fullUrl = `${window.location.origin}/${job.page_job}?skill=${encodedSkill}`;
+		jsonData.forEach((job) => {
+			const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
+			job.skills.forEach((skill) => {
+				if (skill.skill.toLowerCase().includes(query)) {
+					let encodedSkill = btoa(skill["db-skill"]);
+					let fullUrl = `${config.pagesPath}${job.page_job}?skill=${encodedSkill}`;
+					let absoluteUrl = window.location.origin + fullUrl;
 
-						results.append(
-							`<li>
-									<a class="copy-link" data-url="${fullUrl}"><img src="./Assets/img/svg/link.svg"></a>
-									<a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
-										<div class="icon_search">
-											<img src="./Assets/img/DoWDoM/search/${safeJobName}/${skill.icon}" class="skill-icon" alt="${skill.skill}">
-										</div>
-										<div>
-											${skill.skill} <span>[${job.job}: ${skill.level}]</span>
-										</div>
-									</a>
-								</li>`
-						);
-						hasResults = true;
-					}
-				});
+					let iconPath = `${config.assetsPath}img/DoWDoM/search/${safeJobName}/${skill.icon}`;
+					let linkIconPath = `${config.assetsPath}img/svg/link.svg`;
+
+					results.append(
+						`<li>
+                            <a class="copy-link" data-url="${absoluteUrl}">
+                                <img src="${linkIconPath}">
+                            </a>
+                            <a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
+                                <div class="icon_search">
+                                    <img src="${iconPath}" class="skill-icon" alt="${skill.skill}">
+                                </div>
+                                <div>
+                                    ${skill.skill} <span>[${job.job}: ${skill.level}]</span>
+                                </div>
+                            </a>
+                        </li>`
+					);
+					hasResults = true;
+				}
 			});
+		});
 
-			if (!hasResults) {
-				results.append("<li>Ничего не найдено</li>");
-			}
-			$(".search-results").show();
-		} else {
-			$(".search-results").hide();
+		if (!hasResults) {
+			results.append("<li>Ничего не найдено</li>");
 		}
-	}, 300)
-);
+		resultsContainer.show(); // ПОПРАВКА: показываем контейнер результатов
+	} else {
+		resultsContainer.hide(); // ПОПРАВКА: скрываем контейнер результатов
+	}
+}
 
-$(document).on("click", ".copy-link", function () {
-	navigator.clipboard
-		.writeText($(this).attr("data-url"))
-		.then(() => {
-			let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
-			$(this).after(tooltip);
-			setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 350);
-		})
-		.catch((err) => console.error("Ошибка копирования: ", err));
+// 1. Инициализация основного поиска на странице (ваш старый код)
+$(document).ready(function () {
+	// Если есть основной поиск на странице
+	if ($("#search").length) {
+		$("#search").on(
+			"keyup",
+			debounce(function () {
+				performSearch($(this), $("#results"));
+			}, 300)
+		);
+
+		// Дополнительно: очистка при удалении текста
+		$("#search").on("input", function () {
+			if ($(this).val().trim() === "") {
+				$("#results").empty().hide();
+			}
+		});
+	}
+
+	// 2. Инициализация плавающей кнопки и попапа
+	setupFloatingSearch();
 });
+
+// Функция для настройки плавающей кнопки и попапа
+function setupFloatingSearch() {
+	const $floatingBtn = $("#floatingSearchBtn");
+	const $popup = $("#searchPopup");
+	const $popupInput = $("#searchPopupInput");
+	const $popupResults = $("#searchPopupResults");
+	const $closeBtn = $("#closeSearchPopup");
+
+	// Проверяем, есть ли элементы на странице
+	if (!$floatingBtn.length) return;
+
+	// Открытие попапа
+	$floatingBtn.on("click", function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+
+		$popup.fadeIn(200, function () {
+			$popupInput.focus();
+		});
+	});
+
+	// Закрытие попапа
+	function closePopup() {
+		$popup.fadeOut(200);
+		$popupInput.val("");
+		$popupResults.empty().hide();
+	}
+
+	$closeBtn.on("click", closePopup);
+
+	// Закрытие по клику на оверлей
+	$popup.on("click", function (e) {
+		if (e.target === this) {
+			closePopup();
+		}
+	});
+
+	// Закрытие по Escape
+	$(document).on("keydown", function (e) {
+		if (e.key === "Escape" && $popup.is(":visible")) {
+			closePopup();
+		}
+	});
+
+	// Поиск в попапе (используем ту же функцию performSearch)
+	$popupInput.on(
+		"keyup",
+		debounce(function () {
+			performSearch($(this), $popupResults);
+		}, 300)
+	);
+
+	// Очистка результатов при удалении текста
+	$popupInput.on("input", function () {
+		if ($(this).val().trim() === "") {
+			$popupResults.empty().hide();
+		}
+	});
+
+	// Копирование ссылки (работает для всех кнопок копирования на странице)
+	$(document).on("click", ".copy-link", function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+
+		const url = $(this).attr("data-url");
+		navigator.clipboard
+			.writeText(url)
+			.then(() => {
+				let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
+				$(this).after(tooltip);
+				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 1000);
+			})
+			.catch((err) => console.error("Ошибка копирования: ", err));
+	});
+}
 
 // Light/Dark Theme
 $(document).ready(() => {

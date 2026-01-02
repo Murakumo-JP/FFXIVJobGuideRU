@@ -2758,3 +2758,96 @@ body.dark-theme .theme-toggle-btn {
 .main_app .footer_inner {
   bottom: 0;
 }
+
+/* Плавающая кнопка */
+.floating-search-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  z-index: 9998;
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.4);
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.floating-search-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 180, 216, 0.6);
+}
+
+.floating-search-btn img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+/* Оверлей попапа */
+.search-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Контейнер попапа */
+@keyframes popupSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.search-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.search-popup-close:hover {
+  color: #00b4d8;
+  background-color: rgba(0, 180, 216, 0.1);
+}

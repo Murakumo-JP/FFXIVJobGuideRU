@@ -641,6 +641,26 @@
          <img class="icon" src="../Assets/img/svg/moon.svg" alt="Theme icon">
       </div>     -->
       <!--- Script --->
+      <div id="floatingSearchBtn" class="floating-search-btn">
+         <img src="Assets/img/main/Search.png" alt="Поиск">
+         <span>Поиск</span>
+      </div>
+      <div id="searchPopup" class="search-popup-overlay" style="display: none;">
+         <div class="search-popup-container">
+            <button class="search-popup-close" id="closeSearchPopup">&times;</button>
+            <div class="search-container">
+                  <img src="../Assets/img/DoWDoM/JobGuideRU.png">
+                  <h2>
+                     <img src="../Assets/img/main/Search.png">
+                     Поиск по умениям
+                  </h2>
+                  <div class="search_block">
+                     <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
+                     <ul id="searchPopupResults" class="search-results"></ul>
+                  </div>
+            </div>
+         </div>
+      </div>
       <script type="text/javascript" src="../Assets/js/main.js"></script>
       <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
       <script>
