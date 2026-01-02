@@ -174,18 +174,15 @@ $(document).ready(() => {
 
 let jsonData = [];
 
-// Конфигурация путей (НАСТРОЙТЕ ПОД ВАШУ СТРУКТУРУ!)
 const config = {
-	assetsPath: "../Assets/", // измените на нужный путь
+	assetsPath: "../Assets/",
 	pagesPath: "/Page/",
 };
 
-// Загружаем данные
 $.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`).done(function (data) {
 	jsonData = data;
 });
 
-// Функция debounce
 function debounce(func, wait) {
 	let timeout;
 	return function (...args) {
@@ -194,7 +191,6 @@ function debounce(func, wait) {
 	};
 }
 
-// Функция для выполнения поиска (ваша старая логика, но исправленная)
 function performSearch(searchInput, resultsContainer) {
 	let query = searchInput.val().trim().toLowerCase();
 	let results = resultsContainer.empty();
@@ -236,15 +232,13 @@ function performSearch(searchInput, resultsContainer) {
 		if (!hasResults) {
 			results.append("<li>Ничего не найдено</li>");
 		}
-		resultsContainer.show(); // ПОПРАВКА: показываем контейнер результатов
+		resultsContainer.show();
 	} else {
-		resultsContainer.hide(); // ПОПРАВКА: скрываем контейнер результатов
+		resultsContainer.hide();
 	}
 }
 
-// 1. Инициализация основного поиска на странице (ваш старый код)
 $(document).ready(function () {
-	// Если есть основной поиск на странице
 	if ($("#search").length) {
 		$("#search").on(
 			"keyup",
@@ -253,7 +247,6 @@ $(document).ready(function () {
 			}, 300)
 		);
 
-		// Дополнительно: очистка при удалении текста
 		$("#search").on("input", function () {
 			if ($(this).val().trim() === "") {
 				$("#results").empty().hide();
@@ -261,11 +254,9 @@ $(document).ready(function () {
 		});
 	}
 
-	// 2. Инициализация плавающей кнопки и попапа
 	setupFloatingSearch();
 });
 
-// Функция для настройки плавающей кнопки и попапа
 function setupFloatingSearch() {
 	const $floatingBtn = $("#floatingSearchBtn");
 	const $popup = $("#searchPopup");
@@ -273,10 +264,8 @@ function setupFloatingSearch() {
 	const $popupResults = $("#searchPopupResults");
 	const $closeBtn = $("#closeSearchPopup");
 
-	// Проверяем, есть ли элементы на странице
 	if (!$floatingBtn.length) return;
 
-	// Открытие попапа
 	$floatingBtn.on("click", function (e) {
 		e.preventDefault();
 		e.stopPropagation();
@@ -286,7 +275,6 @@ function setupFloatingSearch() {
 		});
 	});
 
-	// Закрытие попапа
 	function closePopup() {
 		$popup.fadeOut(200);
 		$popupInput.val("");
@@ -295,21 +283,18 @@ function setupFloatingSearch() {
 
 	$closeBtn.on("click", closePopup);
 
-	// Закрытие по клику на оверлей
 	$popup.on("click", function (e) {
 		if (e.target === this) {
 			closePopup();
 		}
 	});
 
-	// Закрытие по Escape
 	$(document).on("keydown", function (e) {
 		if (e.key === "Escape" && $popup.is(":visible")) {
 			closePopup();
 		}
 	});
 
-	// Поиск в попапе (используем ту же функцию performSearch)
 	$popupInput.on(
 		"keyup",
 		debounce(function () {
@@ -317,14 +302,12 @@ function setupFloatingSearch() {
 		}, 300)
 	);
 
-	// Очистка результатов при удалении текста
 	$popupInput.on("input", function () {
 		if ($(this).val().trim() === "") {
 			$popupResults.empty().hide();
 		}
 	});
 
-	// Копирование ссылки (работает для всех кнопок копирования на странице)
 	$(document).on("click", ".copy-link", function (e) {
 		e.preventDefault();
 		e.stopPropagation();
