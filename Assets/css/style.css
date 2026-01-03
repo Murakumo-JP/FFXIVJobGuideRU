@@ -2772,7 +2772,7 @@ body.dark-theme .theme-toggle-btn {
   border-radius: 50%;
   transition: all 0.4s;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   position: fixed;
 }
 #floatingSearchBtn .icon {
@@ -2780,6 +2780,10 @@ body.dark-theme .theme-toggle-btn {
 }
 #floatingSearchBtn:hover {
   background-color: #575757;
+}
+
+#floatingSearchBtn.move-up {
+  bottom: 80px;
 }
 
 .search-popup-overlay {

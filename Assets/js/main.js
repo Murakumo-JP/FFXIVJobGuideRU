@@ -36,11 +36,16 @@ $(document).ready(() => {
 		$(".nav_floating_list").fadeToggle();
 	});
 	// Back to Top
-	const button = $(".nome_app_top");
+	const $topBtn = $(".nome_app_top");
+	const $searchBtn = $("#floatingSearchBtn");
+
 	$(window).on("scroll", () => {
-		$(window).scrollTop() >= 200 ? button.fadeIn() : button.fadeOut();
+		const showTop = $(window).scrollTop() >= 200;
+		showTop ? $topBtn.fadeIn() : $topBtn.fadeOut();
+		$searchBtn.toggleClass("move-up", showTop);
 	});
-	button.on("click", (e) => {
+
+	$topBtn.on("click", (e) => {
 		e.preventDefault();
 		$("html, body").animate({scrollTop: 0}, 1000);
 	});
@@ -170,126 +175,129 @@ $(document).ready(() => {
 		}
 	});
 });
-// Global Search ==================================================================
-
+// Global Search
 let jsonData = [];
 
-const config = {
-	assetsPath: "../Assets/",
-	pagesPath: "/Page/",
-};
+const ASSETS_PATH = "../Assets/";
+const PAGES_PATH = "/Page/";
 
 function safeBtoa(str) {
 	const bytes = new TextEncoder().encode(str);
-	let binary = "";
-	bytes.forEach((b) => (binary += String.fromCharCode(b)));
-	return btoa(binary);
+	let result = "";
+	for (let i = 0; i < bytes.length; i++) {
+		result += String.fromCharCode(bytes[i]);
+	}
+	return btoa(result);
 }
 
-function debounce(fn, wait) {
-	let t;
-	return (...args) => {
-		clearTimeout(t);
-		t = setTimeout(() => fn.apply(this, args), wait);
+function debounce(fn, delay) {
+	let timer = null;
+
+	return function () {
+		clearTimeout(timer);
+		timer = setTimeout(fn, delay);
 	};
 }
 
-$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`).done((data) => {
-	jsonData = data.map((job) => ({
-		...job,
-		skills: job.skills.map((skill) => ({
-			...skill,
-			_skillLower: skill.skill.toLowerCase(),
-		})),
-	}));
+$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, function (data) {
+	jsonData = data;
+
+	jsonData.forEach((job) => {
+		job.skills.forEach((skill) => {
+			skill._search = skill.skill.toLowerCase();
+		});
+	});
 });
 
-function buildResultItem(job, skill) {
+function createItem(job, skill) {
 	const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
 	const encodedSkill = safeBtoa(skill["db-skill"]);
 
-	const fullUrl = `${config.pagesPath}${job.page_job}?skill=${encodedSkill}`;
-	const absoluteUrl = location.origin + fullUrl;
+	const pageUrl = `${PAGES_PATH}${job.page_job}?skill=${encodedSkill}`;
+	const fullUrl = location.origin + pageUrl;
 
 	const $li = $("<li>");
 
-	$("<a>", {
+	const $copy = $("<a>", {
 		class: "copy-link",
-		"data-url": absoluteUrl,
-	})
-		.append($("<img>", {src: `${config.assetsPath}img/svg/link.svg`}))
-		.appendTo($li);
+		"data-url": fullUrl,
+	}).append($("<img>", {src: ASSETS_PATH + "img/svg/link.svg"}));
 
 	const $link = $("<a>", {
-		href: fullUrl,
+		href: pageUrl,
 		target: "_blank",
 		"db-skill": skill["db-skill"],
-	}).appendTo($li);
+	});
 
-	$("<div>", {class: "icon_search"})
-		.append(
-			$("<img>", {
-				src: `${config.assetsPath}img/DoWDoM/search/${jobName}/${skill.icon}`,
-				class: "skill-icon",
-				alt: skill.skill,
-			})
-		)
-		.appendTo($link);
+	const $icon = $("<div>", {class: "icon_search"}).append(
+		$("<img>", {
+			src: `${ASSETS_PATH}img/DoWDoM/search/${jobName}/${skill.icon}`,
+			alt: skill.skill,
+			class: "skill-icon",
+		})
+	);
 
-	$("<div>")
-		.text(skill.skill + " ")
-		.append($("<span>").text(`[${job.job}: ${skill.level}]`))
-		.appendTo($link);
+	const $text = $("<div>");
+	$text.text(skill.skill + " ");
+	$text.append($("<span>").text(`[${job.job}: ${skill.level}]`));
+
+	$link.append($icon, $text);
+	$li.append($copy, $link);
 
 	return $li;
 }
 
-function performSearch($input, $results) {
-	const query = $input.val().trim().toLowerCase();
-	$results.empty();
+function doSearch($input, $list) {
+	const value = $input.val().trim().toLowerCase();
 
-	if (!query || !jsonData.length) {
-		$results.hide();
+	$list.empty();
+
+	if (!value || !jsonData.length) {
+		$list.hide();
 		return;
 	}
 
-	let found = false;
+	let hasResult = false;
 
 	jsonData.forEach((job) => {
 		job.skills.forEach((skill) => {
-			if (skill._skillLower.includes(query)) {
-				$results.append(buildResultItem(job, skill));
-				found = true;
+			if (skill._search.includes(value)) {
+				$list.append(createItem(job, skill));
+				hasResult = true;
 			}
 		});
 	});
 
-	if (!found) {
-		$results.append($("<li>").text("Ничего не найдено"));
+	if (!hasResult) {
+		$list.append($("<li>").text("Ничего не найдено"));
 	}
 
-	$results.show();
+	$list.show();
 }
 
-function initSearch($input, $results) {
-	const handler = debounce(() => performSearch($input, $results), 300);
+function initSearch(inputSelector, resultSelector) {
+	const $input = $(inputSelector);
+	const $result = $(resultSelector);
+
+	if (!$input.length) return;
+
+	const handler = debounce(() => doSearch($input, $result), 300);
 	$input.on("input", handler);
 }
 
-function setupFloatingSearch() {
+function initPopupSearch() {
 	const $btn = $("#floatingSearchBtn");
-	if (!$btn.length) return;
-
 	const $popup = $("#searchPopup");
 	const $input = $("#searchPopupInput");
 	const $results = $("#searchPopupResults");
-	const $close = $("#closeSearchPopup");
 
-	const closePopup = () => {
+	if (!$btn.length) return;
+
+	function close() {
 		$popup.fadeOut(200);
 		$input.val("");
 		$results.empty().hide();
-	};
+	}
 
 	$btn.on("click", (e) => {
 		e.preventDefault();
@@ -297,19 +305,17 @@ function setupFloatingSearch() {
 		$popup.fadeIn(200, () => $input.focus());
 	});
 
-	$close.on("click", closePopup);
+	$("#closeSearchPopup").on("click", close);
 
 	$popup.on("click", (e) => {
-		if (e.target === e.currentTarget) closePopup();
+		if (e.target === e.currentTarget) close();
 	});
 
 	$(document).on("keydown", (e) => {
-		if (e.key === "Escape" && $popup.is(":visible")) {
-			closePopup();
-		}
+		if (e.key === "Escape" && $popup.is(":visible")) close();
 	});
 
-	initSearch($input, $results);
+	initSearch("#searchPopupInput", "#searchPopupResults");
 }
 
 $(document).on("click", ".copy-link", function (e) {
@@ -319,19 +325,19 @@ $(document).on("click", ".copy-link", function (e) {
 	const url = $(this).data("url");
 
 	navigator.clipboard.writeText(url).then(() => {
-		const $tip = $("<span>", {
-			class: "copy-tooltip",
-			text: "Скопировано!",
-		});
+		const $msg = $("<span>").addClass("copy-tooltip").text("Скопировано!");
 
-		$(this).after($tip);
-		setTimeout(() => $tip.fadeOut(200, () => $tip.remove()), 1000);
+		$(this).after($msg);
+
+		setTimeout(() => {
+			$msg.fadeOut(200, () => $msg.remove());
+		}, 1000);
 	});
 });
 
-$(document).ready(() => {
-	initSearch($("#search"), $("#results"));
-	setupFloatingSearch();
+$(function () {
+	initSearch("#search", "#results");
+	initPopupSearch();
 });
 
 // Light/Dark Theme
