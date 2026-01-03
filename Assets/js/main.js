@@ -179,150 +179,160 @@ const config = {
 	pagesPath: "/Page/",
 };
 
-$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`).done(function (data) {
-	jsonData = data;
-});
+function safeBtoa(str) {
+	const bytes = new TextEncoder().encode(str);
+	let binary = "";
+	bytes.forEach((b) => (binary += String.fromCharCode(b)));
+	return btoa(binary);
+}
 
-function debounce(func, wait) {
-	let timeout;
-	return function (...args) {
-		clearTimeout(timeout);
-		timeout = setTimeout(() => func.apply(this, args), wait);
+function debounce(fn, wait) {
+	let t;
+	return (...args) => {
+		clearTimeout(t);
+		t = setTimeout(() => fn.apply(this, args), wait);
 	};
 }
 
-function performSearch(searchInput, resultsContainer) {
-	let query = searchInput.val().trim().toLowerCase();
-	let results = resultsContainer.empty();
-
-	if (query && jsonData.length) {
-		let hasResults = false;
-
-		jsonData.forEach((job) => {
-			const safeJobName = job.job.replace(/\s+/g, "_").toLowerCase();
-			job.skills.forEach((skill) => {
-				if (skill.skill.toLowerCase().includes(query)) {
-					let encodedSkill = btoa(skill["db-skill"]);
-					let fullUrl = `${config.pagesPath}${job.page_job}?skill=${encodedSkill}`;
-					let absoluteUrl = window.location.origin + fullUrl;
-
-					let iconPath = `${config.assetsPath}img/DoWDoM/search/${safeJobName}/${skill.icon}`;
-					let linkIconPath = `${config.assetsPath}img/svg/link.svg`;
-
-					results.append(
-						`<li>
-                            <a class="copy-link" data-url="${absoluteUrl}">
-                                <img src="${linkIconPath}">
-                            </a>
-                            <a target="_blank" href="${fullUrl}" db-skill="${skill["db-skill"]}">
-                                <div class="icon_search">
-                                    <img src="${iconPath}" class="skill-icon" alt="${skill.skill}">
-                                </div>
-                                <div>
-                                    ${skill.skill} <span>[${job.job}: ${skill.level}]</span>
-                                </div>
-                            </a>
-                        </li>`
-					);
-					hasResults = true;
-				}
-			});
-		});
-
-		if (!hasResults) {
-			results.append("<li>Ничего не найдено</li>");
-		}
-		resultsContainer.show();
-	} else {
-		resultsContainer.hide();
-	}
-}
-
-$(document).ready(function () {
-	if ($("#search").length) {
-		$("#search").on(
-			"keyup",
-			debounce(function () {
-				performSearch($(this), $("#results"));
-			}, 300)
-		);
-
-		$("#search").on("input", function () {
-			if ($(this).val().trim() === "") {
-				$("#results").empty().hide();
-			}
-		});
-	}
-
-	setupFloatingSearch();
+$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`).done((data) => {
+	jsonData = data.map((job) => ({
+		...job,
+		skills: job.skills.map((skill) => ({
+			...skill,
+			_skillLower: skill.skill.toLowerCase(),
+		})),
+	}));
 });
 
-function setupFloatingSearch() {
-	const $floatingBtn = $("#floatingSearchBtn");
-	const $popup = $("#searchPopup");
-	const $popupInput = $("#searchPopupInput");
-	const $popupResults = $("#searchPopupResults");
-	const $closeBtn = $("#closeSearchPopup");
+function buildResultItem(job, skill) {
+	const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
+	const encodedSkill = safeBtoa(skill["db-skill"]);
 
-	if (!$floatingBtn.length) return;
+	const fullUrl = `${config.pagesPath}${job.page_job}?skill=${encodedSkill}`;
+	const absoluteUrl = location.origin + fullUrl;
 
-	$floatingBtn.on("click", function (e) {
-		e.preventDefault();
-		e.stopPropagation();
+	const $li = $("<li>");
 
-		$popup.fadeIn(200, function () {
-			$popupInput.focus();
+	$("<a>", {
+		class: "copy-link",
+		"data-url": absoluteUrl,
+	})
+		.append($("<img>", {src: `${config.assetsPath}img/svg/link.svg`}))
+		.appendTo($li);
+
+	const $link = $("<a>", {
+		href: fullUrl,
+		target: "_blank",
+		"db-skill": skill["db-skill"],
+	}).appendTo($li);
+
+	$("<div>", {class: "icon_search"})
+		.append(
+			$("<img>", {
+				src: `${config.assetsPath}img/DoWDoM/search/${jobName}/${skill.icon}`,
+				class: "skill-icon",
+				alt: skill.skill,
+			})
+		)
+		.appendTo($link);
+
+	$("<div>")
+		.text(skill.skill + " ")
+		.append($("<span>").text(`[${job.job}: ${skill.level}]`))
+		.appendTo($link);
+
+	return $li;
+}
+
+function performSearch($input, $results) {
+	const query = $input.val().trim().toLowerCase();
+	$results.empty();
+
+	if (!query || !jsonData.length) {
+		$results.hide();
+		return;
+	}
+
+	let found = false;
+
+	jsonData.forEach((job) => {
+		job.skills.forEach((skill) => {
+			if (skill._skillLower.includes(query)) {
+				$results.append(buildResultItem(job, skill));
+				found = true;
+			}
 		});
 	});
 
-	function closePopup() {
-		$popup.fadeOut(200);
-		$popupInput.val("");
-		$popupResults.empty().hide();
+	if (!found) {
+		$results.append($("<li>").text("Ничего не найдено"));
 	}
 
-	$closeBtn.on("click", closePopup);
+	$results.show();
+}
 
-	$popup.on("click", function (e) {
-		if (e.target === this) {
-			closePopup();
-		}
+function initSearch($input, $results) {
+	const handler = debounce(() => performSearch($input, $results), 300);
+	$input.on("input", handler);
+}
+
+function setupFloatingSearch() {
+	const $btn = $("#floatingSearchBtn");
+	if (!$btn.length) return;
+
+	const $popup = $("#searchPopup");
+	const $input = $("#searchPopupInput");
+	const $results = $("#searchPopupResults");
+	const $close = $("#closeSearchPopup");
+
+	const closePopup = () => {
+		$popup.fadeOut(200);
+		$input.val("");
+		$results.empty().hide();
+	};
+
+	$btn.on("click", (e) => {
+		e.preventDefault();
+		e.stopPropagation();
+		$popup.fadeIn(200, () => $input.focus());
 	});
 
-	$(document).on("keydown", function (e) {
+	$close.on("click", closePopup);
+
+	$popup.on("click", (e) => {
+		if (e.target === e.currentTarget) closePopup();
+	});
+
+	$(document).on("keydown", (e) => {
 		if (e.key === "Escape" && $popup.is(":visible")) {
 			closePopup();
 		}
 	});
 
-	$popupInput.on(
-		"keyup",
-		debounce(function () {
-			performSearch($(this), $popupResults);
-		}, 300)
-	);
-
-	$popupInput.on("input", function () {
-		if ($(this).val().trim() === "") {
-			$popupResults.empty().hide();
-		}
-	});
-
-	$(document).on("click", ".copy-link", function (e) {
-		e.preventDefault();
-		e.stopPropagation();
-
-		const url = $(this).attr("data-url");
-		navigator.clipboard
-			.writeText(url)
-			.then(() => {
-				let tooltip = $("<span class='copy-tooltip'>Скопировано!</span>");
-				$(this).after(tooltip);
-				setTimeout(() => tooltip.fadeOut(200, () => tooltip.remove()), 1000);
-			})
-			.catch((err) => console.error("Ошибка копирования: ", err));
-	});
+	initSearch($input, $results);
 }
+
+$(document).on("click", ".copy-link", function (e) {
+	e.preventDefault();
+	e.stopPropagation();
+
+	const url = $(this).data("url");
+
+	navigator.clipboard.writeText(url).then(() => {
+		const $tip = $("<span>", {
+			class: "copy-tooltip",
+			text: "Скопировано!",
+		});
+
+		$(this).after($tip);
+		setTimeout(() => $tip.fadeOut(200, () => $tip.remove()), 1000);
+	});
+});
+
+$(document).ready(() => {
+	initSearch($("#search"), $("#results"));
+	setupFloatingSearch();
+});
 
 // Light/Dark Theme
 $(document).ready(() => {
