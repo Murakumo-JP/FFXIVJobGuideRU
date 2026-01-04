@@ -212,7 +212,8 @@ function renderSkill(skill) {
               </div>
             </div>
             <p><strong>${skill.name ?? ""}</strong>
-            ${skill.eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${skill.eorzeadb}">Задание на получение</a>` : ""}</p>
+				${skill.number ? `<br/><strong class="blu_number">Номер # ${skill.number}</strong>` : ""}
+				${skill.eorzeadb ? `<br/><a class="eorzeadb_link class_quest" href="${skill.eorzeadb}">Задание на получение</a>` : ""}</p>
          </div>
       </td>`;
 

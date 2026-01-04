@@ -86,6 +86,7 @@ img {
   padding: 0 10px;
 }
 .search #searchInput {
+  width: 270px;
   border: 0;
   background: var(--tank-AltColor);
   height: 25px;
@@ -118,6 +119,9 @@ input::placeholder {
   padding: 10px;
   border-radius: 50%;
   transition: all 0.4s;
+}
+.app_top:hover {
+  background-color: #575757;
 }
 
 ::-webkit-scrollbar {
@@ -1792,12 +1796,14 @@ table {
   background: var(--tank-AltColor);
 }
 .job_tank .nav_floating_icon,
-.job_tank ~ .nome_app_top .app_top {
+.job_tank ~ .nome_app_top .app_top,
+.job_tank ~ #floatingSearchBtn {
   background-color: var(--tank-color);
   box-shadow: 1px 1px 5px var(--tank-color);
 }
 .job_tank .nav_floating_icon:hover,
-.job_tank ~ .nome_app_top .app_top:hover {
+.job_tank ~ .nome_app_top .app_top:hover,
+.job_tank ~ #floatingSearchBtn:hover {
   background-color: var(--tank-AltColor);
 }
 .job_tank .job_header_role {
@@ -1829,12 +1835,14 @@ table {
   background: var(--healer-AltColor);
 }
 .job_healer .nav_floating_icon,
-.job_healer ~ .nome_app_top .app_top {
+.job_healer ~ .nome_app_top .app_top,
+.job_healer ~ #floatingSearchBtn {
   background-color: var(--healer-color);
   box-shadow: 1px 1px 5px var(--healer-color);
 }
 .job_healer .nav_floating_icon:hover,
-.job_healer ~ .nome_app_top .app_top:hover {
+.job_healer ~ .nome_app_top .app_top:hover,
+.job_healer ~ #floatingSearchBtn:hover {
   background-color: var(--healer-AltColor);
 }
 .job_healer .job_header_role {
@@ -1866,12 +1874,14 @@ table {
   background: var(--dps-AltColor);
 }
 .job_dps .nav_floating_icon,
-.job_dps ~ .nome_app_top .app_top {
+.job_dps ~ .nome_app_top .app_top,
+.job_dps ~ #floatingSearchBtn {
   background-color: var(--dps-color);
   box-shadow: 1px 1px 5px var(--dps-color);
 }
 .job_dps .nav_floating_icon:hover,
-.job_dps ~ .nome_app_top .app_top:hover {
+.job_dps ~ .nome_app_top .app_top:hover,
+.job_dps ~ #floatingSearchBtn:hover {
   background-color: var(--dps-AltColor);
 }
 .job_dps .job_header_role {
@@ -2335,6 +2345,13 @@ table {
   margin: 0 10px;
 }
 
+.blu_number {
+  background-color: #e58600;
+  color: white;
+  padding: 0 5px 0 5px;
+  border-radius: 10px;
+}
+
 .error_info {
   display: block;
   position: relative;
@@ -2757,4 +2774,87 @@ body.dark-theme .theme-toggle-btn {
 }
 .main_app .footer_inner {
   bottom: 0;
+}
+
+#floatingSearchBtn {
+  display: block;
+  width: 30px;
+  cursor: pointer;
+  background-color: #333;
+  box-shadow: 1px 1px 5px #333;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.4s;
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+}
+#floatingSearchBtn .icon {
+  width: 30px;
+}
+#floatingSearchBtn:hover {
+  background-color: #575757;
+}
+
+#floatingSearchBtn.move-up {
+  bottom: 80px;
+}
+
+.search-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.search-popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 10;
+}
+.search-popup-close:hover {
+  color: red;
+  background-color: rgba(0, 180, 216, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes popupSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

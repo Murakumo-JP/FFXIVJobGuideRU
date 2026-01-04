@@ -117,6 +117,7 @@ img {
 	}
 
 	#searchInput {
+		width: 270px;
 		border: 0;
 		background: var(--tank-AltColor);
 		height: 25px;
@@ -154,6 +155,9 @@ input {
 	padding: 10px;
 	border-radius: 50%;
 	transition: all 0.4s;
+	&:hover {
+		background-color: #575757;
+	}
 }
 
 // Scrollbar
@@ -1950,7 +1954,8 @@ table {
 		}
 
 		.nav_floating_icon,
-		~ .nome_app_top .app_top {
+		~ .nome_app_top .app_top,
+		~ #floatingSearchBtn {
 			background-color: var(--#{$type}-color);
 			box-shadow: 1px 1px 5px var(--#{$type}-color);
 
@@ -2378,9 +2383,7 @@ table {
 	}
 }
 
-// ... (остальные специфичные комбо-классы остаются как есть)
-
-// Blu Mage
+// Blue Mage
 .bluemage {
 	&_content {
 		padding: 16px 5px 5px !important;
@@ -2537,6 +2540,13 @@ table {
 		font-size: 14px;
 		margin: 0 10px;
 	}
+}
+
+.blu_number {
+	background-color: #e58600;
+	color: white;
+	padding: 0 5px 0 5px;
+	border-radius: 10px;
 }
 
 // Warning & Error
@@ -3017,4 +3027,88 @@ pre {
 // Fix Temp Classes
 .main_app .footer_inner {
 	bottom: 0;
+}
+
+#floatingSearchBtn {
+	display: block;
+	width: 30px;
+	cursor: pointer;
+	background-color: #333;
+	box-shadow: 1px 1px 5px #333;
+	padding: 10px;
+	border-radius: 50%;
+	transition: all 0.4s;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;
+	.icon {
+		width: 30px;
+	}
+	&:hover {
+		background-color: #575757;
+	}
+}
+
+#floatingSearchBtn.move-up {
+	bottom: 80px;
+}
+
+.search-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.85);
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 0.3s ease;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.search-popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 32px;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	z-index: 10;
+	&:hover {
+		color: red;
+		background-color: rgba(0, 180, 216, 0.1);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes popupSlideUp {
+	from {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
