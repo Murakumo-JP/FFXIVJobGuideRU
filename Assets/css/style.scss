@@ -117,6 +117,7 @@ img {
 	}
 
 	#searchInput {
+		width: 270px;
 		border: 0;
 		background: var(--tank-AltColor);
 		height: 25px;
@@ -1953,7 +1954,8 @@ table {
 		}
 
 		.nav_floating_icon,
-		~ .nome_app_top .app_top {
+		~ .nome_app_top .app_top,
+		~ #floatingSearchBtn {
 			background-color: var(--#{$type}-color);
 			box-shadow: 1px 1px 5px var(--#{$type}-color);
 
@@ -2538,6 +2540,13 @@ table {
 		font-size: 14px;
 		margin: 0 10px;
 	}
+}
+
+.blu_number {
+	background-color: #e58600;
+	color: white;
+	padding: 0 5px 0 5px;
+	border-radius: 10px;
 }
 
 // Warning & Error

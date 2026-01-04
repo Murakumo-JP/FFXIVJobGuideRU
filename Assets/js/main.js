@@ -145,12 +145,17 @@ $(document).ready(() => {
 	const initSearch = () => {
 		const $searchInput = $("#searchInput");
 		const $searchContainer = $(".search");
+
 		if ($searchInput.length && $searchContainer.length) {
 			$searchInput.on("input", (e) => {
 				const query = e.target.value.toLowerCase();
-				$(`tbody[data-search='true'] tr`).each(function () {
-					const skillName = $(this).find(".skill p strong").text().toLowerCase() || "";
-					$(this).toggle(skillName.includes(query));
+
+				$("tbody[data-search='true'] tr").each(function () {
+					const skillName = $(this).find(".skill p strong:not(.blu_number)").text().toLowerCase();
+
+					const skillNumber = $(this).find(".blu_number").text().toLowerCase();
+
+					$(this).toggle(skillName.includes(query) || skillNumber.includes(query));
 				});
 			});
 		}
@@ -192,7 +197,6 @@ function safeBtoa(str) {
 
 function debounce(fn, delay) {
 	let timer = null;
-
 	return function () {
 		clearTimeout(timer);
 		timer = setTimeout(fn, delay);
@@ -201,7 +205,6 @@ function debounce(fn, delay) {
 
 $.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, function (data) {
 	jsonData = data;
-
 	jsonData.forEach((job) => {
 		job.skills.forEach((skill) => {
 			skill._search = skill.skill.toLowerCase();
@@ -212,12 +215,10 @@ $.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, function (data) {
 function createItem(job, skill) {
 	const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
 	const encodedSkill = safeBtoa(skill["db-skill"]);
-
 	const pageUrl = `${PAGES_PATH}${job.page_job}?skill=${encodedSkill}`;
 	const fullUrl = location.origin + pageUrl;
 
 	const $li = $("<li>");
-
 	const $copy = $("<a>", {
 		class: "copy-link",
 		"data-url": fullUrl,
@@ -243,13 +244,11 @@ function createItem(job, skill) {
 
 	$link.append($icon, $text);
 	$li.append($copy, $link);
-
 	return $li;
 }
 
 function doSearch($input, $list) {
 	const value = $input.val().trim().toLowerCase();
-
 	$list.empty();
 
 	if (!value || !jsonData.length) {
@@ -258,7 +257,6 @@ function doSearch($input, $list) {
 	}
 
 	let hasResult = false;
-
 	jsonData.forEach((job) => {
 		job.skills.forEach((skill) => {
 			if (skill._search.includes(value)) {
@@ -271,48 +269,73 @@ function doSearch($input, $list) {
 	if (!hasResult) {
 		$list.append($("<li>").text("Ничего не найдено"));
 	}
-
 	$list.show();
 }
 
 function initSearch(inputSelector, resultSelector) {
 	const $input = $(inputSelector);
 	const $result = $(resultSelector);
-
 	if (!$input.length) return;
 
 	const handler = debounce(() => doSearch($input, $result), 300);
 	$input.on("input", handler);
 }
 
+function createSearchPopup() {
+	if ($("#searchPopup").length > 0) return;
+
+	const popupHTML = `
+        <div id="searchPopup" class="search-popup-overlay" style="display: none;">
+            <div class="search-popup-container">
+                <button class="search-popup-close" id="closeSearchPopup">&times;</button>
+                <div class="search-container">
+                    <h2><img src="${ASSETS_PATH}img/main/Search.png">Поиск по умениям</h2>
+                    <div class="search_block">
+                        <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
+                        <ul id="searchPopupResults" class="search-results"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+	$("#floatingSearchBtn").after(popupHTML);
+}
+
 function initPopupSearch() {
+	if ($("#floatingSearchBtn").length === 0) return;
+
+	createSearchPopup();
+
 	const $btn = $("#floatingSearchBtn");
 	const $popup = $("#searchPopup");
 	const $input = $("#searchPopupInput");
 	const $results = $("#searchPopupResults");
 
-	if (!$btn.length) return;
-
-	function close() {
+	function closePopup() {
 		$popup.fadeOut(200);
 		$input.val("");
 		$results.empty().hide();
 	}
 
-	$btn.on("click", (e) => {
+	$btn.on("click", function (e) {
 		e.preventDefault();
 		e.stopPropagation();
-		$popup.fadeIn(200, () => $input.focus());
+		$popup.fadeIn(200, function () {
+			$input.focus();
+		});
 	});
 
-	$("#closeSearchPopup").on("click", close);
+	$("#closeSearchPopup").on("click", closePopup);
 
-	$popup.on("click", (e) => {
-		if (e.target === e.currentTarget) close();
+	$popup.on("click", function (e) {
+		if (e.target === this) closePopup();
 	});
 
-	$(document).on("keydown", (e) => {
-		if (e.key === "Escape" && $popup.is(":visible")) close();
+	$(document).on("keydown", function (e) {
+		if (e.key === "Escape" && $popup.is(":visible")) {
+			closePopup();
+		}
 	});
 
 	initSearch("#searchPopupInput", "#searchPopupResults");
@@ -321,18 +344,18 @@ function initPopupSearch() {
 $(document).on("click", ".copy-link", function (e) {
 	e.preventDefault();
 	e.stopPropagation();
-
 	const url = $(this).data("url");
 
-	navigator.clipboard.writeText(url).then(() => {
-		const $msg = $("<span>").addClass("copy-tooltip").text("Скопировано!");
-
-		$(this).after($msg);
-
-		setTimeout(() => {
-			$msg.fadeOut(200, () => $msg.remove());
-		}, 1000);
-	});
+	navigator.clipboard
+		.writeText(url)
+		.then(() => {
+			const $msg = $("<span>").addClass("copy-tooltip").text("Скопировано!");
+			$(this).after($msg);
+			setTimeout(() => {
+				$msg.fadeOut(200, () => $msg.remove());
+			}, 1000);
+		})
+		.catch((err) => console.error("Ошибка:", err));
 });
 
 $(function () {

@@ -86,6 +86,7 @@ img {
   padding: 0 10px;
 }
 .search #searchInput {
+  width: 270px;
   border: 0;
   background: var(--tank-AltColor);
   height: 25px;
@@ -1795,12 +1796,14 @@ table {
   background: var(--tank-AltColor);
 }
 .job_tank .nav_floating_icon,
-.job_tank ~ .nome_app_top .app_top {
+.job_tank ~ .nome_app_top .app_top,
+.job_tank ~ #floatingSearchBtn {
   background-color: var(--tank-color);
   box-shadow: 1px 1px 5px var(--tank-color);
 }
 .job_tank .nav_floating_icon:hover,
-.job_tank ~ .nome_app_top .app_top:hover {
+.job_tank ~ .nome_app_top .app_top:hover,
+.job_tank ~ #floatingSearchBtn:hover {
   background-color: var(--tank-AltColor);
 }
 .job_tank .job_header_role {
@@ -1832,12 +1835,14 @@ table {
   background: var(--healer-AltColor);
 }
 .job_healer .nav_floating_icon,
-.job_healer ~ .nome_app_top .app_top {
+.job_healer ~ .nome_app_top .app_top,
+.job_healer ~ #floatingSearchBtn {
   background-color: var(--healer-color);
   box-shadow: 1px 1px 5px var(--healer-color);
 }
 .job_healer .nav_floating_icon:hover,
-.job_healer ~ .nome_app_top .app_top:hover {
+.job_healer ~ .nome_app_top .app_top:hover,
+.job_healer ~ #floatingSearchBtn:hover {
   background-color: var(--healer-AltColor);
 }
 .job_healer .job_header_role {
@@ -1869,12 +1874,14 @@ table {
   background: var(--dps-AltColor);
 }
 .job_dps .nav_floating_icon,
-.job_dps ~ .nome_app_top .app_top {
+.job_dps ~ .nome_app_top .app_top,
+.job_dps ~ #floatingSearchBtn {
   background-color: var(--dps-color);
   box-shadow: 1px 1px 5px var(--dps-color);
 }
 .job_dps .nav_floating_icon:hover,
-.job_dps ~ .nome_app_top .app_top:hover {
+.job_dps ~ .nome_app_top .app_top:hover,
+.job_dps ~ #floatingSearchBtn:hover {
   background-color: var(--dps-AltColor);
 }
 .job_dps .job_header_role {
@@ -2336,6 +2343,13 @@ table {
 .bluemage-sub_title {
   font-size: 14px;
   margin: 0 10px;
+}
+
+.blu_number {
+  background-color: #e58600;
+  color: white;
+  padding: 0 5px 0 5px;
+  border-radius: 10px;
 }
 
 .error_info {
