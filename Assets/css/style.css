@@ -480,17 +480,16 @@ input::placeholder {
   color: #585858;
 }
 .jobguide_flex {
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .jobguide_tank, .jobguide_healer, .jobguide__dps {
   width: 390px;
   overflow: hidden;
   border-radius: 10px;
   background: #f3f3f3;
-  margin-right: 20px;
 }
 .jobguide_tank h2, .jobguide_healer h2, .jobguide__dps h2 {
   border-top-left-radius: 6px;

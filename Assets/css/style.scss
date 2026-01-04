@@ -560,10 +560,10 @@ input {
 	}
 
 	&_flex {
-		margin-bottom: 32px;
+		margin-bottom: 30px;
 		display: flex;
 		flex-wrap: nowrap;
-		justify-content: flex-end;
+		justify-content: space-between;
 	}
 
 	&_tank,
@@ -573,7 +573,6 @@ input {
 		overflow: hidden;
 		border-radius: 10px;
 		background: #f3f3f3;
-		margin-right: 20px;
 
 		h2 {
 			border-top-left-radius: 6px;
