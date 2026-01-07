@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icon Viewer</title>
+    <title>skill Viewer</title>
+    <meta name="robots" content="noindex">
     <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
     <link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
@@ -17,7 +18,7 @@
         <div id="output"></div>
     </div>
     <script>
-        const fileUrl = '../DB/GlobalSearch.json';
+        const fileUrl = 'https://cdn.ff14jobguide.ru/data/GlobalSearch.json';
         fetch(fileUrl)
             .then(response => response.json())
             .then(data => {
