@@ -510,4 +510,4 @@ function createSVGSnowfall() {
 	snowflakeImg.onload = animate;
 }
 
-createSVGSnowfall();
+//createSVGSnowfall();
