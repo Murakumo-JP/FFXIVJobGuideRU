@@ -1003,7 +1003,9 @@ input {
 
 	span {
 		background: #333;
-		box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25) inset, 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+		box-shadow:
+			0 1px 0 0 rgba(255, 255, 255, 0.25) inset,
+			0 -1px 0 0 rgba(0, 0, 0, 0.1) inset;
 		border-radius: 12px;
 		display: block;
 		position: relative;
@@ -1039,7 +1041,10 @@ input {
 
 	&--pve {
 		background: #e5e3d3;
-		box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+		box-shadow:
+			0 1px 0 0 rgba(255, 255, 255, 0.75) inset,
+			1px 0 0 0 rgba(255, 255, 255, 0.25) inset,
+			-1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
 
 		&.active {
 			background: #e5e3d3;
@@ -1049,7 +1054,10 @@ input {
 
 	&--pvp {
 		background: #d9d9d9;
-		box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
+		box-shadow:
+			0 1px 0 0 rgba(255, 255, 255, 0.75) inset,
+			1px 0 0 0 rgba(255, 255, 255, 0.25) inset,
+			-1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
 
 		&.active {
 			background: #d9d9d9;
@@ -1070,7 +1078,10 @@ input {
 	&-pve,
 	&-pvp {
 		position: static;
-		box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.05) inset, 1px 0 0 0 rgba(0, 0, 0, 0.05) inset, -1px 0 0 0 rgba(0, 0, 0, 0.05) inset;
+		box-shadow:
+			0 -1px 0 0 rgba(0, 0, 0, 0.05) inset,
+			1px 0 0 0 rgba(0, 0, 0, 0.05) inset,
+			-1px 0 0 0 rgba(0, 0, 0, 0.05) inset;
 		border-bottom-left-radius: 8px;
 		border-bottom-right-radius: 8px;
 		padding: 16px 10px 10px;
@@ -1302,7 +1313,9 @@ input {
 		a {
 			display: block;
 			position: relative;
-			transition: background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+			transition:
+				background-color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1),
+				box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 			border-radius: 8px;
 
 			p {
@@ -1344,7 +1357,10 @@ input {
 
 			&:hover {
 				background: rgba(78, 50, 143, 0.15);
-				box-shadow: 0 0 2px 0 rgba(78, 50, 143, 0.14) inset, 0 0 8px 0 rgba(78, 50, 143, 0.25), 0 0 32px 0 rgba(78, 50, 143, 0.25);
+				box-shadow:
+					0 0 2px 0 rgba(78, 50, 143, 0.14) inset,
+					0 0 8px 0 rgba(78, 50, 143, 0.25),
+					0 0 32px 0 rgba(78, 50, 143, 0.25);
 			}
 		}
 	}
@@ -1357,7 +1373,10 @@ input {
 
 			&:hover {
 				background: rgba(143, 120, 50, 0.15);
-				box-shadow: 0 0 2px 0 rgba(143, 120, 50, 0.14) inset, 0 0 8px 0 rgba(143, 120, 50, 0.25), 0 0 32px 0 rgba(143, 120, 50, 0.25);
+				box-shadow:
+					0 0 2px 0 rgba(143, 120, 50, 0.14) inset,
+					0 0 8px 0 rgba(143, 120, 50, 0.25),
+					0 0 32px 0 rgba(143, 120, 50, 0.25);
 			}
 		}
 	}
@@ -1435,8 +1454,13 @@ input {
 		font-size: 20px;
 		font-weight: 900;
 		background: #f0eddd;
-		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
-		transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		box-shadow:
+			0 2px 4px 0 rgba(0, 0, 0, 0.25),
+			0 -1px 0 0 rgba(0, 0, 0, 0.1) inset,
+			0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
+		transition:
+			background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19),
+			box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 
 		&.js-tab-trigger.active {
 			background: #f5a300;
@@ -2178,7 +2202,9 @@ table {
 .job_combo_darkknight_01,
 .job_combo_gunbreaker_01,
 .job_combo_reaper_01 {
-	background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+	background:
+		url(../img/main/combo.png) no-repeat 150px 0,
+		url(../img/main/combo.png) no-repeat 370px 0;
 	border-bottom: 1px solid #999;
 }
 
@@ -2308,7 +2334,9 @@ table {
 // More Specific Combo Classes
 .job_combo_paladin {
 	&_01 {
-		background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+		background:
+			url(../img/main/combo.png) no-repeat 150px 0,
+			url(../img/main/combo.png) no-repeat 370px 0;
 		border-bottom: 1px solid #999;
 	}
 
@@ -2318,7 +2346,10 @@ table {
 	}
 
 	&_03 {
-		background: url(../img/main/combo2.png) no-repeat 150px 0, url(../img/main/combo2.png) no-repeat 295px 0, url(../img/main/combo2.png) no-repeat 442px 0;
+		background:
+			url(../img/main/combo2.png) no-repeat 150px 0,
+			url(../img/main/combo2.png) no-repeat 295px 0,
+			url(../img/main/combo2.png) no-repeat 442px 0;
 		margin-bottom: 8px;
 		border-bottom: 1px solid #999;
 
@@ -2356,7 +2387,9 @@ table {
 
 .job_combo_warrior {
 	&_01 {
-		background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo3.png) no-repeat 370px 0;
+		background:
+			url(../img/main/combo.png) no-repeat 150px 0,
+			url(../img/main/combo3.png) no-repeat 370px 0;
 	}
 
 	&_02 {
@@ -2370,15 +2403,60 @@ table {
 	width: 600px;
 
 	&_03 {
-		background: url(../img/main/combo5.png) no-repeat 150px 0, url(../img/main/combo5.png) no-repeat 370px 0;
+		background:
+			url(../img/main/combo5.png) no-repeat 150px 0,
+			url(../img/main/combo5.png) no-repeat 370px 0;
 	}
 
 	&_04 {
-		background: url(../img/main/combo6.png) no-repeat 40px 0, url(../img/main/combo7.png) repeat-y 150px 0, url(../img/main/combo6.png) no-repeat 260px 0, url(../img/main/combo7.png) repeat-y 370px 0, url(../img/main/combo6.png) no-repeat 480px 0;
+		background:
+			url(../img/main/combo6.png) no-repeat 40px 0,
+			url(../img/main/combo7.png) repeat-y 150px 0,
+			url(../img/main/combo6.png) no-repeat 260px 0,
+			url(../img/main/combo7.png) repeat-y 370px 0,
+			url(../img/main/combo6.png) no-repeat 480px 0;
 	}
 
 	&_05 {
-		background: url(../img/main/combo8.png) no-repeat 150px 0, url(../img/main/combo8.png) no-repeat 370px 0;
+		background:
+			url(../img/main/combo8.png) no-repeat 150px 0,
+			url(../img/main/combo8.png) no-repeat 370px 0;
+	}
+}
+
+.job_combo_viper {
+	&_inner_01 {
+		background:
+			url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0,
+			url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+	}
+	&_inner_02 {
+		padding-top: 124px;
+		background:
+			url(../img/main/combo/viper/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0,
+			url(../img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+	}
+	&_inner_04 {
+		padding-top: 124px;
+		background: url(../img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+	}
+	&_inner_05 {
+		padding-top: 124px;
+		background:
+			url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px,
+			url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px,
+			url(../img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0,
+			url(../img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
+	}
+	&_inner_06 {
+		background:
+			url(../img/main/combo/viper/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0,
+			url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+	}
+	&_inner_07 {
+		background:
+			url(../img/main/combo/viper/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0,
+			url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 	}
 }
 
@@ -2854,7 +2932,10 @@ pre {
 	color: #000;
 	font-size: 22px;
 	cursor: pointer;
-	transition: background-color 0.3s, color 0.3s, transform 0.3s;
+	transition:
+		background-color 0.3s,
+		color 0.3s,
+		transform 0.3s;
 	z-index: 9999;
 	background-color: #333;
 	box-shadow: 1px 1px 5px #333;

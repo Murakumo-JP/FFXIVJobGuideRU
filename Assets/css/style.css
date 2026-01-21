@@ -2212,6 +2212,28 @@ table {
   background: url(../img/main/combo8.png) no-repeat 150px 0, url(../img/main/combo8.png) no-repeat 370px 0;
 }
 
+.job_combo_viper_inner_01 {
+  background: url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_02 {
+  padding-top: 124px;
+  background: url(../img/main/combo/viper/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0, url(../img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_04 {
+  padding-top: 124px;
+  background: url(../img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_05 {
+  padding-top: 124px;
+  background: url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px, url(../img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0, url(../img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_06 {
+  background: url(../img/main/combo/viper/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+}
+.job_combo_viper_inner_07 {
+  background: url(../img/main/combo/viper/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+}
+
 .bluemage_content {
   padding: 16px 5px 5px !important;
 }
