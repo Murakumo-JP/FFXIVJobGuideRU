@@ -38,6 +38,9 @@ body {
 body.light-theme {
   background-color: var(--color-set-3);
 }
+body.no-scroll {
+  overflow: hidden !important;
+}
 
 .clearfix:after {
   content: ".";

@@ -186,6 +186,14 @@ let jsonData = [];
 const ASSETS_PATH = "../Assets/";
 const PAGES_PATH = "/Page/";
 
+function lockScroll() {
+	$("body").addClass("no-scroll");
+}
+
+function unlockScroll() {
+	$("body").removeClass("no-scroll");
+}
+
 function safeBtoa(str) {
 	const bytes = new TextEncoder().encode(str);
 	let result = "";
@@ -316,6 +324,7 @@ function initPopupSearch() {
 		$popup.fadeOut(200);
 		$input.val("");
 		$results.empty().hide();
+		unlockScroll();
 	}
 
 	$btn.on("click", function (e) {
@@ -324,6 +333,8 @@ function initPopupSearch() {
 		$popup.fadeIn(200, function () {
 			$input.focus();
 		});
+		lockScroll();
+		$popup.fadeIn(200, () => $input.focus());
 	});
 
 	$("#closeSearchPopup").on("click", closePopup);

@@ -59,6 +59,9 @@ body {
 	&.light-theme {
 		background-color: var(--color-set-3);
 	}
+	&.no-scroll {
+		overflow: hidden !important;
+	}
 }
 
 // Utility Classes
