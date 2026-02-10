@@ -435,6 +435,29 @@ $(document).ready(() => {
 	$("#btn-fix-links").click(fixLinks);
 	fixLinks();
 });
+// CSS VERSION FILE
+(function () {
+	const CSS_VERSION_DEFAULT = 3;
+
+	function applyCssVersion() {
+		let ver = null;
+		if (typeof CSS_VERSION_DEFAULT !== "undefined" && CSS_VERSION_DEFAULT !== null) {
+			ver = String(CSS_VERSION_DEFAULT) === "auto" ? Date.now() : CSS_VERSION_DEFAULT;
+		} else {
+			ver = null;
+		}
+
+		document.querySelectorAll('link[rel="stylesheet"]').forEach((link) => {
+			const href = link.getAttribute("href") || "";
+			if (!href.includes("/Assets/css/")) return;
+			const base = href.split("?")[0];
+			if (ver !== null && String(ver).length) link.setAttribute("href", base + "?v=" + ver);
+			else link.setAttribute("href", base);
+		});
+	}
+
+	document.addEventListener("DOMContentLoaded", applyCssVersion);
+})();
 
 // Снег и да эту дичь писал не я пришлось просить AI, но зато красиво.
 
