@@ -1,0 +1,490 @@
+// --- Переменные (Variables) ---
+$font-main: var(--font);
+$font-secondary: "Noto Sans", sans-serif;
+
+// Цвета
+$color-dark: #585858;
+$color-accent: #ccaa66;
+$color-bg-dark: #1b0f27;
+$color-header-text: #2e230e;
+$color-link: #4c7ee8;
+$color-link-hover: #6696ff;
+$color-red: #a62137;
+$color-title: #663d29;
+$color-orange: #d99857;
+
+// Миксины (Mixins)
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+}
+
+@mixin flex-wrap-center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@mixin border-radius-std {
+	border-radius: 8px;
+}
+
+// --- Основные стили ---
+
+body#gs {
+	font-family: $font-main;
+	line-height: 1.5;
+}
+
+.gs_header {
+	height: 440px;
+	margin-bottom: 16px;
+	background: url(../images/header.jpg) no-repeat top center $color-bg-dark;
+	position: relative;
+
+	&_img {
+		position: relative;
+		width: 960px;
+		height: 360px;
+		margin: 0 auto;
+
+		img {
+			position: absolute;
+		}
+
+		.link_list {
+			font-size: 12px;
+		}
+	}
+
+	&_text {
+		padding: 10px;
+		background: $color-header-text;
+
+		p {
+			width: 960px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 13px;
+			color: $color-accent;
+		}
+	}
+}
+
+.gs_logo {
+	bottom: 60px;
+}
+
+/* Content */
+.gs_content {
+	width: 800px;
+	height: 1%;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	position: relative;
+	font-size: 14px;
+}
+
+.gs_title {
+	font-family: $font-main;
+	position: relative;
+	padding: 10px 0 15px 60px;
+	border-radius: 28px;
+	font-size: 25px;
+	font-weight: bold;
+	color: $color-title;
+
+	img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.gs_quest {
+	position: relative;
+	padding: 4px 10px 4px 44px;
+	margin: 4px 0 12px;
+	background: rgba(89, 81, 76, 0.1);
+	border-radius: 28px;
+
+	a {
+		font-family: $font-main;
+		font-size: 16px;
+		font-weight: bold;
+		color: #2c21a6;
+
+		&:hover {
+			color: #5749f2;
+		}
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: -4px;
+		left: 0;
+		width: 40px;
+		height: 40px;
+		background: url(../images/quest.png) no-repeat 0 0;
+		background-size: 40px 40px;
+	}
+
+	&_info {
+		@include flex-center;
+		margin-bottom: 10px;
+
+		img {
+			width: 320px;
+			margin-right: 8px;
+		}
+	}
+
+	&__info {
+		flex: 1;
+		padding: 8px 8px 12px;
+		background: rgba(89, 81, 76, 0.05);
+		@include border-radius-std;
+
+		li {
+			font-family: $font-main;
+			position: relative;
+			padding-left: 24px;
+			margin-bottom: 7px;
+			font-size: 15px;
+			list-style: none;
+			color: $color-dark;
+
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 20px;
+				height: 20px;
+			}
+
+			a {
+				color: #2c21a6;
+				font-weight: normal;
+			}
+
+			// Иконки типов квестов
+			&.level::after {
+				background: url(../img/main/lvl.png) no-repeat 0 0;
+				background-size: 20px;
+			}
+			&.place::after {
+				background: url(../img/main/loc.png) no-repeat 0 0;
+				background-size: 20px;
+			}
+			&.npc::after {
+				background: url(../img/main/npc.png) no-repeat 0 0;
+				background-size: 20px;
+			}
+			&.terms::after {
+				background: url(../img/main/complite.png) no-repeat 0 0;
+				background-size: 20px;
+			}
+		}
+	}
+}
+
+/* Дополнительные блоки */
+.gs_supplement {
+	padding: 16px;
+	background-color: #f2f2f2;
+	@include border-radius-std;
+	margin-bottom: 16px;
+}
+
+.gs_attractions {
+	@include flex-wrap-center;
+	margin-bottom: 24px;
+
+	&_info {
+		display: flex;
+		flex-direction: row;
+		height: 160px;
+		background-color: rgba(89, 81, 76, 0.1);
+		border-radius: 10px;
+		margin: 10px;
+		transition: all 0.4s;
+		&:hover {
+			transform: scale(1.1);
+		}
+		span {
+			display: flex;
+			color: #585858;
+			padding: 5px;
+			text-align: center;
+			align-items: center;
+			font-family: var(--font);
+			font-size: 15px;
+		}
+	}
+}
+
+.gs_description {
+	margin-left: 60px;
+}
+
+.gs_shop_item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.gs_shop_list {
+	width: 390px;
+	height: 160px;
+	@include border-radius-std;
+	margin-bottom: 16px;
+
+	h3 {
+		padding: 4px;
+		text-align: center;
+		font-size: 16px;
+		color: #ffffff;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+
+	ul {
+		width: 100%;
+		min-height: 128px;
+		padding: 12px 16px;
+		box-sizing: border-box;
+
+		li {
+			font-size: 14px;
+			font-weight: bold;
+
+			a {
+				color: $color-link;
+			}
+		}
+	}
+}
+
+.gs_shop {
+	&_01 {
+		h3 {
+			background-color: #91c2f2;
+		}
+		box-shadow: 0 0 0 2px #91c2f2 inset;
+	}
+	&_02 {
+		h3 {
+			background-color: #e6b673;
+		}
+		box-shadow: 0 0 0 2px #e6b673 inset;
+	}
+	&_03 {
+		h3 {
+			background-color: #b6aaf2;
+		}
+		box-shadow: 0 0 0 2px #b6aaf2 inset;
+	}
+	&_04 {
+		h3 {
+			background-color: #e0c55a;
+		}
+		box-shadow: 0 0 0 2px #e0c55a inset;
+	}
+}
+
+/* Page Layout */
+.gs_page {
+	background: url("../img/GoldSaucer/bg.jpg") no-repeat center top #eceee7;
+	background-attachment: fixed;
+}
+
+.gs_menu_page {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 50;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+
+	&_pos {
+		width: 100%;
+		height: 48px;
+		text-align: center;
+		background: #eaebe6;
+		position: relative;
+	}
+
+	&_inner {
+		width: max-content;
+		height: 48px;
+		margin: 0 auto;
+	}
+}
+
+.btn_gs_menu {
+	display: inline-block;
+	padding: 0 10px;
+	line-height: 48px;
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+	font-size: 13px;
+	font-weight: 700;
+	background: #eaebe6;
+	font-family: $font-secondary;
+	color: #4769b3;
+	transition: all 0.5s;
+
+	&:hover {
+		color: #5990ff;
+	}
+
+	svg {
+		width: 35px;
+		height: 100%;
+	}
+}
+
+.btn_svg {
+	height: 48px;
+	float: left;
+}
+/* Page Content Wrapper */
+.gs_content_wrapper {
+	top: 80px;
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	height: 1%;
+	font-size: 14px;
+	position: relative;
+}
+
+.gs_title_box {
+	@include flex-center;
+	width: 640px;
+	margin: 0 auto;
+
+	img {
+		width: 340px;
+		margin-right: 16px;
+	}
+
+	&_menu {
+		width: 284px;
+		height: 160px;
+
+		&_list li {
+			background: rgba(89, 81, 76, 0.05);
+			border-radius: 2px;
+			margin-bottom: 2px;
+
+			a {
+				display: block;
+				padding: 2px 10px;
+				color: $color-link;
+				font-weight: bold;
+
+				&:hover {
+					color: $color-link-hover;
+				}
+			}
+		}
+
+		h2 {
+			position: relative;
+			color: #59514c;
+			text-transform: uppercase;
+			padding: 2px 10px;
+			height: 25px;
+			pointer-events: none;
+
+			&::after {
+				content: " ";
+				display: block;
+				position: relative;
+				width: 284px;
+				height: 10px;
+				left: -10px;
+				bottom: 10px;
+				background: rgba(89, 81, 76, 0.05);
+				border-radius: 2px;
+			}
+		}
+	}
+}
+
+.gs_wrapper {
+	width: 640px;
+	margin: 0 auto;
+
+	p {
+		position: relative;
+		margin: 15px -98px 55px;
+		padding: 0 98px;
+		font-size: 14px;
+		color: $color-dark;
+		height: 1%;
+		margin-bottom: 16px;
+		font-family: "Noto Sans";
+	}
+
+	&_h3 {
+		position: relative;
+		padding-left: 20px;
+		margin-bottom: 14px;
+		font-size: 18px;
+		color: $color-dark;
+		font-weight: bold;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 4px;
+			left: 0;
+			width: 14px;
+			height: 14px;
+			border-radius: 14px;
+			background-color: $color-orange;
+		}
+	}
+
+	&_h4 {
+		position: relative;
+		margin-bottom: 16px;
+		font-size: 14px;
+		font-weight: bold;
+		color: $color-dark;
+		font-family: $font-main;
+	}
+}
+
+.gs_text_red {
+	color: $color-red;
+	&--15 {
+		font-size: 15px;
+		color: $color-red;
+	}
+}
+
+.gs_img_center {
+	margin: 0 auto;
+	display: block;
+	&--16 {
+		margin-bottom: 16px;
+	}
+}
+
+.gs_p--40 {
+	margin-bottom: 40px !important;
+}
+.gs_p--32 {
+	margin-bottom: 32px !important;
+}
+.gs_h2--40 {
+	margin: 0 0 8px -40px;
+}

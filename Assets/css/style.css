@@ -247,8 +247,7 @@ input::placeholder {
 }
 .main_header_text {
   background: rgba(25, 25, 25, 0.7019607843);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   width: 100%;
@@ -745,8 +744,7 @@ input::placeholder {
 }
 .job_header_text {
   background: url(../img/main/job_text.png) no-repeat left top;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   border-radius: 10px;
   width: var(--block-width);
   height: 178px;
@@ -2715,8 +2713,7 @@ table {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   z-index: 999;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 pre {
