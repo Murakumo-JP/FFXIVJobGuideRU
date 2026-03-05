@@ -93,7 +93,7 @@ body#gs {
 	font-size: 25px;
 	font-weight: bold;
 	color: $color-title;
-
+	margin: 0 0 8px -40px;
 	img {
 		position: absolute;
 		left: 0;
@@ -173,19 +173,19 @@ body#gs {
 
 			// Иконки типов квестов
 			&.level::after {
-				background: url(../img/main/lvl.png) no-repeat 0 0;
+				background: url(../images/lvl.png) no-repeat 0 0;
 				background-size: 20px;
 			}
 			&.place::after {
-				background: url(../img/main/loc.png) no-repeat 0 0;
+				background: url(../images/loc.png) no-repeat 0 0;
 				background-size: 20px;
 			}
 			&.npc::after {
-				background: url(../img/main/npc.png) no-repeat 0 0;
+				background: url(../images/npc.png) no-repeat 0 0;
 				background-size: 20px;
 			}
 			&.terms::after {
-				background: url(../img/main/complite.png) no-repeat 0 0;
+				background: url(../images/complite.png) no-repeat 0 0;
 				background-size: 20px;
 			}
 		}
@@ -299,7 +299,7 @@ body#gs {
 
 /* Page Layout */
 .gs_page {
-	background: url("../img/GoldSaucer/bg.jpg") no-repeat center top #eceee7;
+	background: url("../images/bg.jpg") no-repeat center top #eceee7;
 	background-attachment: fixed;
 }
 
@@ -421,7 +421,6 @@ body#gs {
 .gs_wrapper {
 	width: 640px;
 	margin: 0 auto;
-
 	p {
 		position: relative;
 		margin: 15px -98px 55px;
@@ -432,7 +431,6 @@ body#gs {
 		margin-bottom: 16px;
 		font-family: "Noto Sans";
 	}
-
 	&_h3 {
 		position: relative;
 		padding-left: 20px;
@@ -440,7 +438,6 @@ body#gs {
 		font-size: 18px;
 		color: $color-dark;
 		font-weight: bold;
-
 		&::after {
 			content: "";
 			position: absolute;
@@ -452,7 +449,6 @@ body#gs {
 			background-color: $color-orange;
 		}
 	}
-
 	&_h4 {
 		position: relative;
 		margin-bottom: 16px;
@@ -460,6 +456,10 @@ body#gs {
 		font-weight: bold;
 		color: $color-dark;
 		font-family: $font-main;
+	}
+	&_images {
+		margin-bottom: 16px;
+		text-align: center;
 	}
 }
 
@@ -487,4 +487,22 @@ body#gs {
 }
 .gs_h2--40 {
 	margin: 0 0 8px -40px;
+}
+.gs_circle {
+	color: #585858;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 14px;
+	font-size: 19px;
+	font-weight: bold;
+	&:after {
+		content: "";
+		position: absolute;
+		top: 4px;
+		left: 0;
+		width: 14px;
+		height: 14px;
+		border-radius: 14px;
+		background-color: #d99857;
+	}
 }

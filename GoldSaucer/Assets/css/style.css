@@ -56,6 +56,7 @@ body#gs {
   font-size: 25px;
   font-weight: bold;
   color: #663d29;
+  margin: 0 0 8px -40px;
 }
 .gs_title img {
   position: absolute;
@@ -128,19 +129,19 @@ body#gs {
   font-weight: normal;
 }
 .gs_quest__info li.level::after {
-  background: url(../img/main/lvl.png) no-repeat 0 0;
+  background: url(../images/lvl.png) no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.place::after {
-  background: url(../img/main/loc.png) no-repeat 0 0;
+  background: url(../images/loc.png) no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.npc::after {
-  background: url(../img/main/npc.png) no-repeat 0 0;
+  background: url(../images/npc.png) no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.terms::after {
-  background: url(../img/main/complite.png) no-repeat 0 0;
+  background: url(../images/complite.png) no-repeat 0 0;
   background-size: 20px;
 }
 
@@ -246,7 +247,7 @@ body#gs {
 
 /* Page Layout */
 .gs_page {
-  background: url("../img/GoldSaucer/bg.jpg") no-repeat center top #eceee7;
+  background: url("../images/bg.jpg") no-repeat center top #eceee7;
   background-attachment: fixed;
 }
 
@@ -397,6 +398,10 @@ body#gs {
   color: #585858;
   font-family: var(--font);
 }
+.gs_wrapper_images {
+  margin-bottom: 16px;
+  text-align: center;
+}
 
 .gs_text_red {
   color: #a62137;
@@ -424,4 +429,23 @@ body#gs {
 
 .gs_h2--40 {
   margin: 0 0 8px -40px;
+}
+
+.gs_circle {
+  color: #585858;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 14px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.gs_circle:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  background-color: #d99857;
 }
