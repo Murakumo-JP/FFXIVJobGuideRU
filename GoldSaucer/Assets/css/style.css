@@ -566,3 +566,43 @@ table {
 .gs_group_space--reset {
   margin-bottom: 0 !important;
 }
+
+/* Управления */
+.gs_control {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.gs_control_title {
+  padding: 2px 8px;
+  margin-bottom: 8px;
+  background: rgba(89, 81, 76, 0.1);
+  border-radius: 4px;
+  color: #585858;
+}
+.gs_control li {
+  width: 213.3333333333px;
+  padding: 16px;
+  text-align: center;
+  border-right: solid 1px #b5b5b3;
+  box-sizing: border-box;
+  list-style: none;
+}
+.gs_control li:last-child {
+  border-right: none;
+}
+.gs_control strong {
+  color: #585858;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.gs_control img {
+  width: 180px;
+  height: 140px;
+  display: block;
+  margin-bottom: 8px;
+}
+.gs_control p {
+  color: #585858;
+}
