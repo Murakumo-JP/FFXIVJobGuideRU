@@ -1,6 +1,8 @@
-// --- Переменные (Variables) ---
-$font-main: var(--font);
-$font-secondary: "Noto Sans", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese);
 
 // Цвета
 $color-dark: #585858;
@@ -18,24 +20,27 @@ $color-orange: #d99857;
 	display: flex;
 	align-items: center;
 }
-
 @mixin flex-wrap-center {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
 @mixin border-radius-std {
 	border-radius: 8px;
 }
 
+@mixin gs_card($color) {
+	margin-bottom: 16px;
+	box-shadow: 0px 0px 0px 2px $color inset;
+}
 // --- Основные стили ---
 
 body#gs {
-	font-family: $font-main;
 	line-height: 1.5;
 }
-
+body.gs_page {
+	font-family: Arial, Verdana, sans-serif, "メイリオ", Meiryo, "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "FFXIV_Lodestone_SSF";
+}
 .gs_header {
 	height: 440px;
 	margin-bottom: 16px;
@@ -86,7 +91,6 @@ body#gs {
 }
 
 .gs_title {
-	font-family: $font-main;
 	position: relative;
 	padding: 10px 0 15px 60px;
 	border-radius: 28px;
@@ -94,6 +98,7 @@ body#gs {
 	font-weight: bold;
 	color: $color-title;
 	margin: 0 0 8px -40px;
+	font-family: system-ui;
 	img {
 		position: absolute;
 		left: 0;
@@ -111,7 +116,6 @@ body#gs {
 	border-radius: 28px;
 
 	a {
-		font-family: $font-main;
 		font-size: 16px;
 		font-weight: bold;
 		color: #2c21a6;
@@ -149,7 +153,6 @@ body#gs {
 		@include border-radius-std;
 
 		li {
-			font-family: $font-main;
 			position: relative;
 			padding-left: 24px;
 			margin-bottom: 7px;
@@ -217,7 +220,7 @@ body#gs {
 		}
 		span {
 			display: flex;
-			color: #585858;
+			color: $color-dark;
 			padding: 5px;
 			text-align: center;
 			align-items: center;
@@ -225,10 +228,6 @@ body#gs {
 			font-size: 15px;
 		}
 	}
-}
-
-.gs_description {
-	margin-left: 60px;
 }
 
 .gs_shop_item {
@@ -243,7 +242,6 @@ body#gs {
 	height: 160px;
 	@include border-radius-std;
 	margin-bottom: 16px;
-
 	h3 {
 		padding: 4px;
 		text-align: center;
@@ -252,17 +250,14 @@ body#gs {
 		border-top-left-radius: 8px;
 		border-top-right-radius: 8px;
 	}
-
 	ul {
 		width: 100%;
 		min-height: 128px;
 		padding: 12px 16px;
 		box-sizing: border-box;
-
 		li {
 			font-size: 14px;
 			font-weight: bold;
-
 			a {
 				color: $color-link;
 			}
@@ -296,7 +291,28 @@ body#gs {
 		box-shadow: 0 0 0 2px #e0c55a inset;
 	}
 }
-
+.gs_ {
+	&EntranceS {
+		@include gs_card(#91c2f2);
+		background: url(../images/entrance_square.png) no-repeat right bottom #e1edfa;
+	}
+	&CardS {
+		@include gs_card(#91c2f2);
+		background: url(../images/card_square.png) no-repeat right bottom #e1edfa;
+	}
+	&ChocoboS {
+		@include gs_card(#e6b673);
+		background: url(../images/chocobo_square.png) no-repeat right bottom #e1edfa;
+	}
+	&MinionS {
+		@include gs_card(#b6aaf2);
+		background: url(../images/minion_square.png) no-repeat right bottom #e1edfa;
+	}
+	&WonderS {
+		@include gs_card(#e0c55a);
+		background: url(../images/wonder_square.png) no-repeat right bottom #e1edfa;
+	}
+}
 /* Page Layout */
 .gs_page {
 	background: url("../images/bg.jpg") no-repeat center top #eceee7;
@@ -335,7 +351,6 @@ body#gs {
 	font-size: 13px;
 	font-weight: 700;
 	background: #eaebe6;
-	font-family: $font-secondary;
 	color: #4769b3;
 	transition: all 0.5s;
 
@@ -455,7 +470,6 @@ body#gs {
 		font-size: 14px;
 		font-weight: bold;
 		color: $color-dark;
-		font-family: $font-main;
 	}
 	&_images {
 		margin-bottom: 16px;
@@ -489,20 +503,27 @@ body#gs {
 	margin: 0 0 8px -40px;
 }
 .gs_circle {
-	color: #585858;
+	color: $color-dark;
 	position: relative;
 	padding-left: 20px;
 	margin-bottom: 14px;
-	font-size: 19px;
+	font-size: 16px;
 	font-weight: bold;
 	&:after {
 		content: "";
 		position: absolute;
-		top: 4px;
+		top: 2px;
 		left: 0;
 		width: 14px;
 		height: 14px;
 		border-radius: 14px;
 		background-color: #d99857;
 	}
+}
+.gs_sm_head {
+	color: $color-dark;
+	position: relative;
+	margin-bottom: 16px;
+	font-size: 14px;
+	font-weight: bold;
 }
