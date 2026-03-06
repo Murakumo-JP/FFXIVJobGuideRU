@@ -46,6 +46,11 @@ body.gs_page {
   bottom: 60px;
 }
 
+.gs_wrapper_images img,
+.gs_group_image img {
+  border-radius: 10px;
+}
+
 /* Content */
 .gs_content {
   width: 800px;
@@ -394,7 +399,6 @@ body.gs_page {
   margin: 15px -98px 55px;
   padding: 0 98px;
   font-size: 14px;
-  color: #585858;
   height: 1%;
   margin-bottom: 16px;
   font-family: "Noto Sans";
@@ -435,6 +439,10 @@ body.gs_page {
 .gs_text_red--15 {
   font-size: 15px;
   color: #a62137;
+}
+
+.gs_text_default {
+  color: #585858;
 }
 
 .gs_img_center {
@@ -482,4 +490,79 @@ body.gs_page {
   margin-bottom: 16px;
   font-size: 14px;
   font-weight: bold;
+}
+
+/* Таблица */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.gs_guide_table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.gs_guide_table.space--reset {
+  margin-bottom: 0;
+}
+.gs_guide_table thead th {
+  color: #585858;
+  width: 213px;
+  background: rgba(89, 81, 76, 0.1);
+  padding: 2px 2px 1px 2px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  box-sizing: border-box;
+}
+.gs_guide_table thead th:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.gs_guide_table thead th:nth-last-child(1) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.gs_guide_table tbody td {
+  color: #585858;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 1px solid #b5b5b3;
+  text-align: center;
+  padding: 6px 12px;
+  box-sizing: border-box;
+}
+.gs_guide_table tbody td.txt_left {
+  text-align: left;
+}
+.gs_guide_table tbody td.txt_left {
+  text-align: left;
+}
+
+/* Группа блоков */
+.gs_group {
+  padding: 16px;
+  margin-bottom: 40px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+.gs_group_title {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #585858;
+}
+.gs_group_image {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.gs_group p {
+  font-size: 14px;
+  color: #585858;
+  height: 1%;
+  margin-bottom: 16px;
+}
+.gs_group_space--reset {
+  margin-bottom: 0 !important;
 }
