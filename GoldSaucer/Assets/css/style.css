@@ -280,7 +280,7 @@ body.gs_page {
 
 /* Page Layout */
 .gs_page {
-  background: url("../images/bg.jpg") no-repeat center top #eceee7;
+  background: url(../images/bg.jpg) no-repeat center top #eceee7;
   background-attachment: fixed;
 }
 

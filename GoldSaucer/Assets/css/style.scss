@@ -321,7 +321,7 @@ body.gs_page {
 }
 /* Page Layout */
 .gs_page {
-	background: url("../images/bg.jpg") no-repeat center top #eceee7;
+	background: url(../images/bg.jpg) no-repeat center top #eceee7;
 	background-attachment: fixed;
 }
 
@@ -596,7 +596,7 @@ table {
 		margin-bottom: 16px;
 		font-size: 14px;
 		font-weight: bold;
-		color: #585858;
+		color: $color-dark;
 	}
 	&_image {
 		margin-bottom: 16px;
@@ -604,7 +604,7 @@ table {
 	}
 	p {
 		font-size: 14px;
-		color: #585858;
+		color: $color-dark;
 		height: 1%;
 		margin-bottom: 16px;
 	}
