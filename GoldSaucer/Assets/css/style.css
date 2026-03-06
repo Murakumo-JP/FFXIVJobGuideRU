@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese);
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
 body#gs {
   font-family: "Noto Sans", sans-serif;
   font-size: 12px;
@@ -375,10 +376,13 @@ body.gs_page {
 .gs_title_box_menu h2 {
   position: relative;
   color: #59514c;
-  text-transform: uppercase;
   padding: 2px 10px;
+  bottom: 6px;
   height: 25px;
   pointer-events: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .gs_title_box_menu h2::after {
   content: " ";
