@@ -425,7 +425,7 @@ input {
 	display: flex;
 	justify-content: center;
 	margin-top: 16px;
-
+	flex-wrap: wrap;
 	a {
 		padding: 10px;
 		transition: all 0.4s;

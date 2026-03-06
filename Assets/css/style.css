@@ -362,6 +362,7 @@ input::placeholder {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+  flex-wrap: wrap;
 }
 .app_page a {
   padding: 10px;
