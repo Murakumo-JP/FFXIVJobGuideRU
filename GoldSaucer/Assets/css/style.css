@@ -106,8 +106,12 @@ body.gs_page {
   background-size: 40px 40px;
 }
 .gs_quest_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 10px;
 }
 .gs_quest_info img {
@@ -115,7 +119,9 @@ body.gs_page {
   margin-right: 8px;
 }
 .gs_quest__info {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 8px 8px 12px;
   background: rgba(89, 81, 76, 0.05);
   border-radius: 8px;
@@ -166,37 +172,58 @@ body.gs_page {
 }
 
 .gs_attractions {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 24px;
 }
 .gs_attractions_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 160px;
   background-color: rgba(89, 81, 76, 0.1);
   border-radius: 10px;
   margin: 10px;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 .gs_attractions_info:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .gs_attractions_info span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: #585858;
   padding: 5px;
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: var(--font);
   font-size: 15px;
 }
 
 .gs_shop_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -218,7 +245,8 @@ body.gs_page {
   width: 100%;
   min-height: 128px;
   padding: 12px 16px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .gs_shop_list ul li {
   font-size: 14px;
@@ -232,50 +260,59 @@ body.gs_page {
   background-color: #91c2f2;
 }
 .gs_shop_01 {
-  box-shadow: 0 0 0 2px #91c2f2 inset;
+  -webkit-box-shadow: 0 0 0 2px #91c2f2 inset;
+          box-shadow: 0 0 0 2px #91c2f2 inset;
 }
 .gs_shop_02 h3 {
   background-color: #e6b673;
 }
 .gs_shop_02 {
-  box-shadow: 0 0 0 2px #e6b673 inset;
+  -webkit-box-shadow: 0 0 0 2px #e6b673 inset;
+          box-shadow: 0 0 0 2px #e6b673 inset;
 }
 .gs_shop_03 h3 {
   background-color: #b6aaf2;
 }
 .gs_shop_03 {
-  box-shadow: 0 0 0 2px #b6aaf2 inset;
+  -webkit-box-shadow: 0 0 0 2px #b6aaf2 inset;
+          box-shadow: 0 0 0 2px #b6aaf2 inset;
 }
 .gs_shop_04 h3 {
   background-color: #e0c55a;
 }
 .gs_shop_04 {
-  box-shadow: 0 0 0 2px #e0c55a inset;
+  -webkit-box-shadow: 0 0 0 2px #e0c55a inset;
+          box-shadow: 0 0 0 2px #e0c55a inset;
 }
 
 .gs_EntranceS {
   margin-bottom: 16px;
-  box-shadow: 0px 0px 0px 2px #91c2f2 inset;
+  -webkit-box-shadow: 0px 0px 0px 2px #91c2f2 inset;
+          box-shadow: 0px 0px 0px 2px #91c2f2 inset;
   background: url(../images/entrance_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_CardS {
   margin-bottom: 16px;
-  box-shadow: 0px 0px 0px 2px #91c2f2 inset;
+  -webkit-box-shadow: 0px 0px 0px 2px #91c2f2 inset;
+          box-shadow: 0px 0px 0px 2px #91c2f2 inset;
   background: url(../images/card_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_ChocoboS {
   margin-bottom: 16px;
-  box-shadow: 0px 0px 0px 2px #e6b673 inset;
+  -webkit-box-shadow: 0px 0px 0px 2px #e6b673 inset;
+          box-shadow: 0px 0px 0px 2px #e6b673 inset;
   background: url(../images/chocobo_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_MinionS {
   margin-bottom: 16px;
-  box-shadow: 0px 0px 0px 2px #b6aaf2 inset;
+  -webkit-box-shadow: 0px 0px 0px 2px #b6aaf2 inset;
+          box-shadow: 0px 0px 0px 2px #b6aaf2 inset;
   background: url(../images/minion_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_WonderS {
   margin-bottom: 16px;
-  box-shadow: 0px 0px 0px 2px #e0c55a inset;
+  -webkit-box-shadow: 0px 0px 0px 2px #e0c55a inset;
+          box-shadow: 0px 0px 0px 2px #e0c55a inset;
   background: url(../images/wonder_square.png) no-repeat right bottom #e1edfa;
 }
 
@@ -290,7 +327,8 @@ body.gs_page {
   width: 100%;
   position: fixed;
   z-index: 50;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 .gs_menu_page_pos {
   width: 100%;
@@ -300,6 +338,7 @@ body.gs_page {
   position: relative;
 }
 .gs_menu_page_inner {
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   height: 48px;
@@ -317,6 +356,7 @@ body.gs_page {
   font-weight: 700;
   background: #eaebe6;
   color: #4769b3;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 .btn_gs_menu:hover {
@@ -344,8 +384,12 @@ body.gs_page {
 }
 
 .gs_title_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 640px;
   margin: 0 auto;
 }
@@ -517,6 +561,7 @@ table {
   font-size: 14px;
   font-weight: normal;
   text-align: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .gs_guide_table thead th:first-child {
@@ -535,6 +580,7 @@ table {
   border-bottom: 1px solid #b5b5b3;
   text-align: center;
   padding: 6px 12px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .gs_guide_table tbody td.txt_left {
@@ -554,7 +600,8 @@ table {
   font-weight: normal;
   text-align: center;
   font-size: 14px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .gs_table thead th:first-child {
   border-top-left-radius: 4px;
@@ -567,7 +614,8 @@ table {
   text-align: left;
   padding-top: 8px;
   padding-bottom: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 14px;
 }
 .gs_table tr td:first-child {
@@ -579,7 +627,8 @@ table {
   width: 400px;
   padding-right: 8px;
   padding-left: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .gs_ico_table_box {
@@ -637,8 +686,12 @@ table {
 
 /* Управления */
 .gs_control {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 32px;
 }
 .gs_control_title {
@@ -653,7 +706,8 @@ table {
   padding: 16px;
   text-align: center;
   border-right: solid 1px #b5b5b3;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   list-style: none;
 }
 .gs_control li:last-child {
