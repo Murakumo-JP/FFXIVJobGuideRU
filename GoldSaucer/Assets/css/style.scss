@@ -34,13 +34,21 @@ $color-orange: #d99857;
 }
 // --- Основные стили ---
 
+// TOODO
+
+.gsgl_space-reset {
+	margin: 0 0 0 0;
+}
+
 body#gs {
 	font-family: "Noto Sans", sans-serif;
 	font-size: 12px;
 	line-height: 1.5;
 }
 body.gs_page {
-	font-family: Arial, Verdana, sans-serif, "メイリオ", Meiryo, "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "FFXIV_Lodestone_SSF";
+	font-family:
+		Arial, Verdana, sans-serif, "メイリオ", Meiryo, "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+		"ＭＳ Ｐゴシック", "FFXIV_Lodestone_SSF";
 }
 .gs_header {
 	height: 440px;
@@ -490,6 +498,9 @@ body.gs_page {
 	&--15 {
 		font-size: 15px;
 		color: $color-red;
+	}
+	&.indent {
+		margin-top: 0;
 	}
 }
 

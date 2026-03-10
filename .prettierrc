@@ -4,7 +4,10 @@
 	"useTabs": true,
 	"tabWidth": 2,
 	"trailingComma": "es5",
-	"printWidth": 350,
+	"printWidth": 120,
 	"bracketSpacing": false,
-	"proseWrap": "never"
+	"proseWrap": "never",
+	"bracketSameLine": true,
+	"htmlWhitespaceSensitivity": "ignore",
+	"singleAttributePerLine": false
 }
