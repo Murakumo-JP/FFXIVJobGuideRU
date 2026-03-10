@@ -130,7 +130,9 @@ $(document).ready(() => {
 			);
 		};
 		const showErrorInfo = (info) => {
-			$(".job_skil_list, .warn_info").prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
+			$(".job_skil_list, .warn_info").prepend(
+				`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`
+			);
 			if (getCookie("warnInfoHidden") === "true") {
 				$("#warnInfo").addClass("hidden");
 			}
@@ -396,45 +398,6 @@ $(document).ready(() => {
 
 	$("#themeToggle").on("click", toggleTheme);
 });
-// Debug Code
-$(document).ready(() => {
-	const DebugEnabled = false;
-	if (!DebugEnabled) return;
-
-	function fixLinks() {
-		$("a").each(function () {
-			const href = $(this).attr("href");
-			if (!href || href.startsWith("mailto:") || href.startsWith("#") || href.endsWith(".html")) return;
-
-			const [path, query] = href.split("?");
-			let newHref;
-
-			newHref = href.startsWith("/Page/") || href.startsWith("Page/") ? path + ".html" : !href.includes("/") ? "/Page/" + path + ".html" : path + ".html";
-
-			if (query) newHref += "?" + query;
-			$(this).attr("href", newHref);
-		});
-	}
-
-	$("tr").each(function () {
-		const titleText = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"]
-			.map((attr) => $(this).attr(attr))
-			.filter(Boolean)
-			.join(", ");
-		if (titleText) $(this).attr("title", titleText);
-	});
-
-	const $menu = $(`
-		 <div id="debug-menu">
-		 		<a>DEBUG</a>
-			 	<button id="btn-fix-links">Add .html</button>
-		 </div>
-	`);
-
-	$("body").append($menu);
-	$("#btn-fix-links").click(fixLinks);
-	fixLinks();
-});
 // CSS VERSION FILE
 (function () {
 	const CSS_VERSION_DEFAULT = 3;
@@ -545,3 +508,76 @@ function createSVGSnowfall() {
 }
 
 //createSVGSnowfall();
+
+document.addEventListener("DOMContentLoaded", () => {
+	const currentPath = window.location.pathname;
+	const menuLinks = document.querySelectorAll(".btn_gs_menu");
+
+	menuLinks.forEach((link) => {
+		const href = link.getAttribute("href");
+
+		if (currentPath.includes(href)) {
+			link.classList.add("active");
+		}
+	});
+});
+// Debug Code
+$(document).ready(() => {
+	const ENABLE_HTML_FIX = true;
+	const isLocal = location.hostname === "localhost";
+
+	if (!ENABLE_HTML_FIX || !isLocal) return;
+
+	function fixSingleLink(el) {
+		const $el = $(el);
+		let href = $el.attr("href");
+
+		if (
+			!href ||
+			href.startsWith("http") ||
+			href.startsWith("mailto:") ||
+			href.startsWith("#") ||
+			href.includes(".html") ||
+			href.endsWith("/")
+		)
+			return;
+
+		const [urlPart, hashPart] = href.split("#");
+		const [path, query] = urlPart.split("?");
+
+		if (path && !path.endsWith(".html")) {
+			const newHref = path + ".html" + (query ? "?" + query : "") + (hashPart ? "#" + hashPart : "");
+			$el.attr("href", newHref);
+		}
+	}
+
+	$("a").each(function () {
+		fixSingleLink(this);
+	});
+
+	const observer = new MutationObserver((mutations) => {
+		mutations.forEach((mutation) => {
+			mutation.addedNodes.forEach((node) => {
+				if (node.nodeType === 1) {
+					if (node.nodeName === "A") fixSingleLink(node);
+					$(node)
+						.find("a")
+						.each(function () {
+							fixSingleLink(this);
+						});
+				}
+			});
+		});
+	});
+
+	observer.observe(document.body, {childList: true, subtree: true});
+
+	$("tr").each(function () {
+		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
+		const titleText = attrs
+			.map((attr) => $(this).attr(attr))
+			.filter(Boolean)
+			.join(", ");
+		if (titleText) $(this).attr("title", titleText);
+	});
+});

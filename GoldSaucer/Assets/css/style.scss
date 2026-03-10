@@ -1,7 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&family=Noto+Sans:wght@400;700&family=Oswald:wght@700&display=swap);
 
 // Цвета
 $color-dark: #585858;
@@ -47,8 +44,8 @@ body#gs {
 }
 body.gs_page {
 	font-family:
-		Arial, Verdana, sans-serif, "メイリオ", Meiryo, "Hiragino Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
-		"ＭＳ Ｐゴシック", "FFXIV_Lodestone_SSF";
+		"Inter", "Noto Sans", "Montserrat", Arial, Verdana, "メイリオ", Meiryo, "Hiragino Sans", "ヒラギノ角ゴ Pro W3",
+		"Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "FFXIV_Lodestone_SSF", sans-serif;
 }
 .gs_header {
 	height: 440px;
@@ -377,6 +374,11 @@ body.gs_page {
 		width: 35px;
 		height: 100%;
 	}
+	&.active {
+		pointer-events: none;
+		cursor: default;
+		opacity: 0.6;
+	}
 }
 
 .btn_svg {
@@ -415,8 +417,11 @@ body.gs_page {
 			a {
 				display: block;
 				padding: 2px 10px;
-				color: $color-link;
-				font-weight: bold;
+				color: #4c7ee8;
+				font-family: "Inter", sans-serif;
+				font-weight: 600;
+				font-size: 13px;
+				letter-spacing: 0.3px;
 
 				&:hover {
 					color: $color-link-hover;
@@ -428,7 +433,6 @@ body.gs_page {
 			position: relative;
 			color: #59514c;
 			padding: 2px 10px;
-			bottom: 6px;
 			height: 25px;
 			pointer-events: none;
 			font-family: "Oswald", sans-serif;
