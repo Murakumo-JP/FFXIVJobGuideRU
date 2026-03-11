@@ -1,430 +1,41 @@
+// ============================================================================
+// [1] ГЛОБАЛЬНЫЕ КОНСТАНТЫ И НАСТРОЙКИ
+// ============================================================================
 const JSON_URLS = {
 	UPDATES: "https://cdn.ff14jobguide.ru/data/UpdatesPatch.json",
 	MENU: "../DB/Menu.json",
 	SEARCH: "https://cdn.ff14jobguide.ru/data/GlobalSearch.json",
 };
 
-$(document).ready(() => {
-	const WarningEnabled = false;
-	// Info Update
-	fetch(`${JSON_URLS.UPDATES}?v=${Date.now()}`)
-		.then((response) => response.json())
-		.then((data) => {
-			$("#inner_update").prepend(`<p>Последнее обновление: ${data.lastUpdate} | Патч: ${data.patchVersion}</p>`);
-
-			$("#patch_info").prepend(
-				`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>
-                 Более подробную информацию об изменениях в активных и пассивных умениях можно найти 
-                 в примечаниях к <a target="_blank" href="${data.patchLink}">патчноутам</a>.`
-			);
-		});
-
-	const year = new Date().getFullYear();
-
-	$(".SE").html(`
-		  <p>FINAL FANTASY XIV © 2010–${year} SQUARE ENIX CO., LTD. All Rights Reserved. | FFXIV Job Guide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></p>
-		  <p>
-			 All images on the site are the property of SQUARE ENIX© and are used under the
-			 <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc" target="_blank" rel="noopener">
-				Materials Usage License
-			 </a>.
-		  </p>
-		`);
-
-	// Open JobMenu
-	$(".nav_floating_icon").click(() => {
-		$(".nav_floating_list").fadeToggle();
-	});
-	// Back to Top
-	const $topBtn = $(".nome_app_top");
-	const $searchBtn = $("#floatingSearchBtn");
-
-	$(window).on("scroll", () => {
-		const showTop = $(window).scrollTop() >= 200;
-		showTop ? $topBtn.fadeIn() : $topBtn.fadeOut();
-		$searchBtn.toggleClass("move-up", showTop);
-	});
-
-	$topBtn.on("click", (e) => {
-		e.preventDefault();
-		$("html, body").animate({scrollTop: 0}, 1000);
-	});
-	// Tabs
-	const activateTab = (id) => {
-		const $tabTriggers = $(".js-tab-trigger");
-		const $tabContents = $(".js-tab-content");
-
-		$tabTriggers.each(function () {
-			$(this).toggleClass("active", $(this).data("tab") === id);
-		});
-
-		$tabContents.each(function () {
-			$(this).toggleClass("active", $(this).data("tab") === id);
-		});
-
-		const url = new URL(window.location);
-		url.searchParams.delete("skill");
-		url.hash = id;
-		history.replaceState(null, null, url.toString());
-	};
-
-	$(".js-tab-trigger").on("click", function (e) {
-		e.preventDefault();
-		const id = $(this).data("tab");
-		activateTab(id);
-	});
-
-	$(document).ready(() => {
-		const hash = location.hash.substring(1);
-		if (hash) {
-			activateTab(hash);
-		}
-	});
-	// Menu JobGuide
-	const $menuContainer = $("[data-menu-type]");
-	const menuType = $menuContainer.data("menu-type");
-
-	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
-		$.getJSON(`${JSON_URLS.MENU}`, (menuData) => {
-			let menuArray = menuData[menuType];
-
-			if (!menuArray) {
-				console.error(`Меню для типа "${menuType}" не найдено.`);
-				return;
-			}
-
-			if (menuData.Links && Array.isArray(menuData.Links)) {
-				menuArray = [...menuArray, ...menuData.Links];
-			}
-
-			const $menuList = $('<ul class="jobguide_menu_list"></ul>');
-			menuArray.forEach((category) => {
-				const $category = $('<li class="jobguide_menu_list"></li>');
-				$category.append(`<span class="job_name_menu">${category.name}</span>`);
-				const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
-
-				category.jobs.forEach((job) => {
-					const $job = $(`<li${job.hidden ? " hidden" : ""}></li>`);
-					$job.append(`<a href="${job.link}"><p>${job.name}</p></a>`);
-					$subMenu.append($job);
-				});
-				$category.append($subMenu);
-				$menuList.append($category);
-			});
-			$menuContainer.append($menuList);
-		}).fail(() => console.error("Ошибка Menu.json не был загружен."));
-	}
-	// Warning Info
-	if (WarningEnabled) {
-		const setCookie = (name, value, days) => {
-			const date = new Date();
-			date.setTime(date.getTime() + days * 86400000);
-			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
-		};
-		const getCookie = (name) => {
-			return (
-				document.cookie
-					.split("; ")
-					.find((cookie) => cookie.startsWith(`${name}=`))
-					?.split("=")[1] || null
-			);
-		};
-		const showErrorInfo = (info) => {
-			$(".job_skil_list, .warn_info").prepend(
-				`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`
-			);
-			if (getCookie("warnInfoHidden") === "true") {
-				$("#warnInfo").addClass("hidden");
-			}
-			$("#closeInfo").click(() => {
-				$("#warnInfo").addClass("hidden");
-				setCookie("warnInfoHidden", "true", 7);
-			});
-		};
-		showErrorInfo("Error");
-	}
-	// Search
-	const initSearch = () => {
-		const $searchInput = $("#searchInput");
-		const $searchContainer = $(".search");
-
-		if ($searchInput.length && $searchContainer.length) {
-			$searchInput.on("input", (e) => {
-				const query = e.target.value.toLowerCase();
-
-				$("tbody[data-search='true'] tr").each(function () {
-					const skillName = $(this).find(".skill p strong:not(.blu_number)").text().toLowerCase();
-
-					const skillNumber = $(this).find(".blu_number").text().toLowerCase();
-
-					$(this).toggle(skillName.includes(query) || skillNumber.includes(query));
-				});
-			});
-		}
-	};
-	initSearch();
-	// Preloader
-	setTimeout(function () {
-		const $preloader = $("#page-preloader");
-		if ($preloader.length && !$preloader.hasClass("done")) {
-			$preloader.addClass("done");
-			$("body").css("overflow-y", "visible");
-		}
-		const id = window.location.hash;
-		if (id) activateTab(id.substring(1));
-	}, 500);
-	// Smooth Scrolling
-	$("a[href*='#']").click(function (e) {
-		e.preventDefault();
-		const target = $($(this).attr("href"));
-		if (target.length) {
-			$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
-		}
-	});
-});
-// Global Search
-let jsonData = [];
-
 const ASSETS_PATH = "../Assets/";
 const PAGES_PATH = "/Page/";
+let jsonData = [];
 
-function lockScroll() {
-	$("body").addClass("no-scroll");
-}
+// ============================================================================
+// [2] ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
+// ============================================================================
+const lockScroll = () => $("body").addClass("no-scroll");
+const unlockScroll = () => $("body").removeClass("no-scroll");
 
-function unlockScroll() {
-	$("body").removeClass("no-scroll");
-}
-
-function safeBtoa(str) {
+const safeBtoa = (str) => {
 	const bytes = new TextEncoder().encode(str);
 	let result = "";
 	for (let i = 0; i < bytes.length; i++) {
 		result += String.fromCharCode(bytes[i]);
 	}
 	return btoa(result);
-}
+};
 
-function debounce(fn, delay) {
+const debounce = (fn, delay) => {
 	let timer = null;
-	return function () {
+	return function (...args) {
 		clearTimeout(timer);
-		timer = setTimeout(fn, delay);
+		timer = setTimeout(() => fn.apply(this, args), delay);
 	};
-}
+};
 
-$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, function (data) {
-	jsonData = data;
-	jsonData.forEach((job) => {
-		job.skills.forEach((skill) => {
-			skill._search = skill.skill.toLowerCase();
-		});
-	});
-});
-
-function createItem(job, skill) {
-	const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
-	const encodedSkill = safeBtoa(skill["db-skill"]);
-	const pageUrl = `${PAGES_PATH}${job.page_job}?skill=${encodedSkill}`;
-	const fullUrl = location.origin + pageUrl;
-
-	const $li = $("<li>");
-	const $copy = $("<a>", {
-		class: "copy-link",
-		"data-url": fullUrl,
-	}).append($("<img>", {src: ASSETS_PATH + "img/svg/link.svg"}));
-
-	const $link = $("<a>", {
-		href: pageUrl,
-		target: "_blank",
-		"db-skill": skill["db-skill"],
-	});
-
-	const $icon = $("<div>", {class: "icon_search"}).append(
-		$("<img>", {
-			src: `${ASSETS_PATH}img/DoWDoM/search/${jobName}/${skill.icon}`,
-			alt: skill.skill,
-			class: "skill-icon",
-		})
-	);
-
-	const $text = $("<div>");
-	$text.text(skill.skill + " ");
-	$text.append($("<span>").text(`[${job.job}: ${skill.level}]`));
-
-	$link.append($icon, $text);
-	$li.append($copy, $link);
-	return $li;
-}
-
-function doSearch($input, $list) {
-	const value = $input.val().trim().toLowerCase();
-	$list.empty();
-
-	if (!value || !jsonData.length) {
-		$list.hide();
-		return;
-	}
-
-	let hasResult = false;
-	jsonData.forEach((job) => {
-		job.skills.forEach((skill) => {
-			if (skill._search.includes(value)) {
-				$list.append(createItem(job, skill));
-				hasResult = true;
-			}
-		});
-	});
-
-	if (!hasResult) {
-		$list.append($("<li>").text("Ничего не найдено"));
-	}
-	$list.show();
-}
-
-function initSearch(inputSelector, resultSelector) {
-	const $input = $(inputSelector);
-	const $result = $(resultSelector);
-	if (!$input.length) return;
-
-	const handler = debounce(() => doSearch($input, $result), 300);
-	$input.on("input", handler);
-}
-
-function createSearchPopup() {
-	if ($("#searchPopup").length > 0) return;
-
-	const popupHTML = `
-        <div id="searchPopup" class="search-popup-overlay" style="display: none;">
-            <div class="search-popup-container">
-                <button class="search-popup-close" id="closeSearchPopup">&times;</button>
-                <div class="search-container">
-                    <h2><img src="${ASSETS_PATH}img/main/Search.png">Поиск по умениям</h2>
-                    <div class="search_block">
-                        <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
-                        <ul id="searchPopupResults" class="search-results"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    `;
-
-	$("#floatingSearchBtn").after(popupHTML);
-}
-
-function initPopupSearch() {
-	if ($("#floatingSearchBtn").length === 0) return;
-
-	createSearchPopup();
-
-	const $btn = $("#floatingSearchBtn");
-	const $popup = $("#searchPopup");
-	const $input = $("#searchPopupInput");
-	const $results = $("#searchPopupResults");
-
-	function closePopup() {
-		$popup.fadeOut(200);
-		$input.val("");
-		$results.empty().hide();
-		unlockScroll();
-	}
-
-	$btn.on("click", function (e) {
-		e.preventDefault();
-		e.stopPropagation();
-		$popup.fadeIn(200, function () {
-			$input.focus();
-		});
-		lockScroll();
-		$popup.fadeIn(200, () => $input.focus());
-	});
-
-	$("#closeSearchPopup").on("click", closePopup);
-
-	$popup.on("click", function (e) {
-		if (e.target === this) closePopup();
-	});
-
-	$(document).on("keydown", function (e) {
-		if (e.key === "Escape" && $popup.is(":visible")) {
-			closePopup();
-		}
-	});
-
-	initSearch("#searchPopupInput", "#searchPopupResults");
-}
-
-$(document).on("click", ".copy-link", function (e) {
-	e.preventDefault();
-	e.stopPropagation();
-	const url = $(this).data("url");
-
-	navigator.clipboard
-		.writeText(url)
-		.then(() => {
-			const $msg = $("<span>").addClass("copy-tooltip").text("Скопировано!");
-			$(this).after($msg);
-			setTimeout(() => {
-				$msg.fadeOut(200, () => $msg.remove());
-			}, 1000);
-		})
-		.catch((err) => console.error("Ошибка:", err));
-});
-
-$(function () {
-	initSearch("#search", "#results");
-	initPopupSearch();
-});
-
-// Light/Dark Theme
-$(document).ready(() => {
-	function applyTheme(theme) {
-		document.body.classList.remove("light-theme", "dark-theme");
-		document.body.classList.add(`${theme}-theme`);
-
-		const iconPath = theme === "dark" ? "../Assets/img/svg/sun.svg" : "../Assets/img/svg/moon.svg";
-		$("#themeToggle .icon").attr("src", iconPath);
-	}
-
-	function toggleTheme() {
-		const isDark = $("body").hasClass("dark-theme");
-		const newTheme = isDark ? "light" : "dark";
-		applyTheme(newTheme);
-		localStorage.setItem("theme", newTheme);
-	}
-
-	const savedTheme = localStorage.getItem("theme") || "light";
-	applyTheme(savedTheme);
-
-	$("#themeToggle").on("click", toggleTheme);
-});
-// CSS VERSION FILE
-(function () {
-	const CSS_VERSION_DEFAULT = 3;
-
-	function applyCssVersion() {
-		let ver = null;
-		if (typeof CSS_VERSION_DEFAULT !== "undefined" && CSS_VERSION_DEFAULT !== null) {
-			ver = String(CSS_VERSION_DEFAULT) === "auto" ? Date.now() : CSS_VERSION_DEFAULT;
-		} else {
-			ver = null;
-		}
-
-		document.querySelectorAll('link[rel="stylesheet"]').forEach((link) => {
-			const href = link.getAttribute("href") || "";
-			if (!href.includes("/Assets/css/")) return;
-			const base = href.split("?")[0];
-			if (ver !== null && String(ver).length) link.setAttribute("href", base + "?v=" + ver);
-			else link.setAttribute("href", base);
-		});
-	}
-
-	document.addEventListener("DOMContentLoaded", applyCssVersion);
-})();
-
-// Снег и да эту дичь писал не я пришлось просить AI, но зато красиво.
-
-function createSVGSnowfall() {
+// Снегопад
+const createSVGSnowfall = () => {
 	const canvas = document.createElement("canvas");
 	canvas.id = "snowCanvas";
 	Object.assign(canvas.style, {
@@ -454,7 +65,7 @@ function createSVGSnowfall() {
 	);
 
 	const flakeCount = 69;
-	const flakes = [];
+	const flakes = Array.from({length: flakeCount}, () => createFlake());
 
 	function createFlake() {
 		return {
@@ -469,12 +80,9 @@ function createSVGSnowfall() {
 		};
 	}
 
-	for (let i = 0; i < flakeCount; i++) flakes.push(createFlake());
-
 	const svgString = `
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-            <path d="M50,10 L50,90 M10,50 L90,50 M20,20 L80,80 M80,20 L20,80 M25,50 L75,50 M50,25 L50,75"
-                  stroke="white" stroke-width="8" stroke-linecap="round"/>
+            <path d="M50,10 L50,90 M10,50 L90,50 M20,20 L80,80 M80,20 L20,80 M25,50 L75,50 M50,25 L50,75" stroke="white" stroke-width="8" stroke-linecap="round"/>
             <circle cx="50" cy="50" r="12" fill="white"/>
         </svg>
     `;
@@ -487,10 +95,7 @@ function createSVGSnowfall() {
 			flake.y += flake.speed;
 			flake.x += flake.wind;
 			flake.rotation += flake.rotationSpeed;
-
-			if (flake.y > height + 30) {
-				Object.assign(flake, createFlake(), {y: -30});
-			}
+			if (flake.y > height + 30) Object.assign(flake, createFlake(), {y: -30});
 			if (flake.x > width + 30) flake.x = -30;
 			if (flake.x < -30) flake.x = width + 30;
 
@@ -503,75 +108,337 @@ function createSVGSnowfall() {
 		});
 		requestAnimationFrame(animate);
 	}
-
 	snowflakeImg.onload = animate;
-}
+};
+// createSVGSnowfall();
 
-//createSVGSnowfall();
+// ============================================================================
+// [3] ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
+// ============================================================================
+$(function () {
+	// --- 3.1 CSS Версионирование ---
+	const applyCssVersion = () => {
+		const CSS_VERSION_DEFAULT = 3;
+		const ver = CSS_VERSION_DEFAULT === "auto" ? Date.now() : CSS_VERSION_DEFAULT;
+		$('link[rel="stylesheet"]').each(function () {
+			const href = $(this).attr("href") || "";
+			if (href.includes("/Assets/css/")) {
+				const base = href.split("?")[0];
+				$(this).attr("href", `${base}?v=${ver}`);
+			}
+		});
+	};
+	applyCssVersion();
 
-document.addEventListener("DOMContentLoaded", () => {
-	const currentPath = window.location.pathname;
-	const menuLinks = document.querySelectorAll(".btn_gs_menu");
+	// --- 3.2 Темная / Светлая тема ---
+	const applyTheme = (theme) => {
+		document.body.classList.remove("light-theme", "dark-theme");
+		document.body.classList.add(`${theme}-theme`);
+		const iconPath = theme === "dark" ? "../Assets/img/svg/sun.svg" : "../Assets/img/svg/moon.svg";
+		$("#themeToggle .icon").attr("src", iconPath);
+	};
 
-	menuLinks.forEach((link) => {
-		const href = link.getAttribute("href");
+	const toggleTheme = () => {
+		const newTheme = $("body").hasClass("dark-theme") ? "light" : "dark";
+		applyTheme(newTheme);
+		localStorage.setItem("theme", newTheme);
+	};
 
-		if (currentPath.includes(href)) {
-			link.classList.add("active");
+	applyTheme(localStorage.getItem("theme") || "light");
+	$("#themeToggle").on("click", toggleTheme);
+
+	// --- 3.3 Активное меню (Фикс бага с includes) ---
+	const currentPath = window.location.pathname.split("/").pop().replace(".html", "") || "index";
+	$(".btn_gs_menu").each(function () {
+		const href = $(this).attr("href");
+		if (!href) return;
+		const cleanHref = href.replace(".html", "");
+		if (currentPath === cleanHref) {
+			$(this).addClass("active");
+			// Дополнительная блокировка клика для надежности
+			$(this).on("click", (e) => e.preventDefault());
 		}
 	});
-});
-// Debug Code
-$(document).ready(() => {
+
+	// --- 3.4 Инфо об обновлениях и Копирайт ---
+	fetch(`${JSON_URLS.UPDATES}?v=${Date.now()}`)
+		.then((response) => response.json())
+		.then((data) => {
+			$("#inner_update").prepend(`<p>Последнее обновление: ${data.lastUpdate} | Патч: ${data.patchVersion}</p>`);
+			$("#patch_info").prepend(
+				`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>
+                 Более подробную информацию об изменениях в активных и пассивных умениях можно найти 
+                 в примечаниях к <a target="_blank" href="${data.patchLink}">патчноутам</a>.`
+			);
+		})
+		.catch((err) => console.error("Ошибка загрузки UpdatesPatch.json", err));
+
+	const year = new Date().getFullYear();
+	$(".SE").html(`
+        <p>FINAL FANTASY XIV © 2010–${year} SQUARE ENIX CO., LTD. All Rights Reserved. | FFXIV Job Guide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></p>
+        <p>All images on the site are the property of SQUARE ENIX© and are used under the <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc" target="_blank" rel="noopener">Materials Usage License</a>.</p>
+    `);
+
+	// --- 3.5 UI Взаимодействия (Меню, Скролл, Табы) ---
+	$(".nav_floating_icon").click(() => $(".nav_floating_list").fadeToggle());
+
+	const $topBtn = $(".nome_app_top");
+	const $searchBtn = $("#floatingSearchBtn");
+
+	$(window).on("scroll", () => {
+		const showTop = $(window).scrollTop() >= 200;
+		showTop ? $topBtn.fadeIn() : $topBtn.fadeOut();
+		$searchBtn.toggleClass("move-up", showTop);
+	});
+
+	$topBtn.on("click", (e) => {
+		e.preventDefault();
+		$("html, body").animate({scrollTop: 0}, 1000);
+	});
+
+	// Табы
+	const activateTab = (id) => {
+		$(".js-tab-trigger").each(function () {
+			$(this).toggleClass("active", $(this).data("tab") === id);
+		});
+		$(".js-tab-content").each(function () {
+			$(this).toggleClass("active", $(this).data("tab") === id);
+		});
+
+		const url = new URL(window.location);
+		url.searchParams.delete("skill");
+		url.hash = id;
+		history.replaceState(null, null, url.toString());
+	};
+
+	$(".js-tab-trigger").on("click", function (e) {
+		e.preventDefault();
+		activateTab($(this).data("tab"));
+	});
+
+	// Плавный скролл по якорям
+	$("a[href*='#']:not([href='#'])").click(function (e) {
+		e.preventDefault();
+		const target = $($(this).attr("href"));
+		if (target.length) {
+			$("html, body").animate({scrollTop: target.offset().top - 48}, 500);
+		}
+	});
+
+	// --- 3.6 Динамическое Job Меню ---
+	const $menuContainer = $("[data-menu-type]");
+	const menuType = $menuContainer.data("menu-type");
+
+	if (menuType === "MenuDoWDoM" || menuType === "MenuDoHDoL") {
+		$.getJSON(JSON_URLS.MENU, (menuData) => {
+			let menuArray = menuData[menuType];
+			if (!menuArray) return console.error(`Меню для типа "${menuType}" не найдено.`);
+			if (menuData.Links && Array.isArray(menuData.Links)) menuArray = [...menuArray, ...menuData.Links];
+
+			const $menuList = $('<ul class="jobguide_menu_list"></ul>');
+			menuArray.forEach((category) => {
+				const $category = $('<li class="jobguide_menu_list"></li>').append(`<span class="job_name_menu">${category.name}</span>`);
+				const $subMenu = $('<ul class="jobguide_sub_menu"></ul>');
+
+				category.jobs.forEach((job) => {
+					const $job = $(`<li${job.hidden ? " hidden" : ""}></li>`).append(`<a href="${job.link}"><p>${job.name}</p></a>`);
+					$subMenu.append($job);
+				});
+				$category.append($subMenu);
+				$menuList.append($category);
+			});
+			$menuContainer.append($menuList);
+		}).fail(() => console.error("Ошибка: Menu.json не был загружен."));
+	}
+
+	// --- 3.7 Система Предупреждений ---
+	const WarningEnabled = false;
+	if (WarningEnabled) {
+		const setCookie = (name, value, days) => {
+			const date = new Date();
+			date.setTime(date.getTime() + days * 86400000);
+			document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+		};
+		const getCookie = (name) =>
+			document.cookie
+				.split("; ")
+				.find((c) => c.startsWith(`${name}=`))
+				?.split("=")[1] || null;
+
+		const showErrorInfo = (info) => {
+			$(".job_skil_list, .warn_info").prepend(`<div class="error_info" id="warnInfo"><h5>Важная информация!</h5><span id="closeInfo">✖</span><p>${info}</p></div>`);
+			if (getCookie("warnInfoHidden") === "true") $("#warnInfo").addClass("hidden");
+			$("#closeInfo").click(() => {
+				$("#warnInfo").addClass("hidden");
+				setCookie("warnInfoHidden", "true", 7);
+			});
+		};
+		showErrorInfo("Error");
+	}
+
+	// --- 3.8 Локальный Поиск по Таблице ---
+	const $searchInput = $("#searchInput");
+	if ($searchInput.length) {
+		$searchInput.on("input", (e) => {
+			const query = e.target.value.toLowerCase();
+			$("tbody[data-search='true'] tr").each(function () {
+				const skillName = $(this).find(".skill p strong:not(.blu_number)").text().toLowerCase();
+				const skillNumber = $(this).find(".blu_number").text().toLowerCase();
+				$(this).toggle(skillName.includes(query) || skillNumber.includes(query));
+			});
+		});
+	}
+
+	// --- 3.9 Глобальный Поиск (Загрузка и логика) ---
+	$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, (data) => {
+		jsonData = data;
+		jsonData.forEach((job) => job.skills.forEach((skill) => (skill._search = skill.skill.toLowerCase())));
+	});
+
+	const createItem = (job, skill) => {
+		const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
+		const encodedSkill = safeBtoa(skill["db-skill"]);
+		const pageUrl = `${PAGES_PATH}${job.page_job}?skill=${encodedSkill}`;
+		const fullUrl = location.origin + pageUrl;
+
+		const $li = $("<li>");
+		const $copy = $("<a>", {class: "copy-link", "data-url": fullUrl}).append($("<img>", {src: `${ASSETS_PATH}img/svg/link.svg`}));
+		const $link = $("<a>", {href: pageUrl, target: "_blank", "db-skill": skill["db-skill"]});
+		const $icon = $("<div>", {class: "icon_search"}).append($("<img>", {src: `${ASSETS_PATH}img/DoWDoM/search/${jobName}/${skill.icon}`, alt: skill.skill, class: "skill-icon"}));
+
+		const $text = $("<div>")
+			.text(`${skill.skill} `)
+			.append($("<span>").text(`[${job.job}: ${skill.level}]`));
+
+		return $li.append($copy, $link.append($icon, $text));
+	};
+
+	const doSearch = ($input, $list) => {
+		const value = $input.val().trim().toLowerCase();
+		$list.empty();
+		if (!value || !jsonData.length) return $list.hide();
+
+		let hasResult = false;
+		jsonData.forEach((job) =>
+			job.skills.forEach((skill) => {
+				if (skill._search.includes(value)) {
+					$list.append(createItem(job, skill));
+					hasResult = true;
+				}
+			})
+		);
+		if (!hasResult) $list.append($("<li>").text("Ничего не найдено"));
+		$list.show();
+	};
+
+	const initGlobalSearch = (inputSelector, resultSelector) => {
+		const $input = $(inputSelector);
+		if ($input.length)
+			$input.on(
+				"input",
+				debounce(() => doSearch($input, $(resultSelector)), 300)
+			);
+	};
+
+	if ($("#floatingSearchBtn").length) {
+		const popupHTML = `
+            <div id="searchPopup" class="search-popup-overlay" style="display: none;">
+                <div class="search-popup-container">
+                    <button class="search-popup-close" id="closeSearchPopup">&times;</button>
+                    <div class="search-container">
+                        <h2><img src="${ASSETS_PATH}img/main/Search.png">Поиск по умениям</h2>
+                        <div class="search_block">
+                            <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
+                            <ul id="searchPopupResults" class="search-results"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+		$("#floatingSearchBtn").after(popupHTML);
+
+		const $popup = $("#searchPopup"),
+			$input = $("#searchPopupInput"),
+			$results = $("#searchPopupResults");
+
+		const closePopup = () => {
+			$popup.fadeOut(200);
+			$input.val("");
+			$results.empty().hide();
+			unlockScroll();
+		};
+
+		$("#floatingSearchBtn").on("click", (e) => {
+			e.preventDefault();
+			e.stopPropagation();
+			lockScroll();
+			$popup.fadeIn(200, () => $input.focus());
+		});
+
+		$("#closeSearchPopup").on("click", closePopup);
+		$popup.on("click", function (e) {
+			if (e.target === this) closePopup();
+		});
+		$(document).on("keydown", (e) => {
+			if (e.key === "Escape" && $popup.is(":visible")) closePopup();
+		});
+
+		initGlobalSearch("#searchPopupInput", "#searchPopupResults");
+	}
+
+	// Копирование ссылок поиска
+	$(document).on("click", ".copy-link", function (e) {
+		e.preventDefault();
+		e.stopPropagation();
+		navigator.clipboard.writeText($(this).data("url")).then(() => {
+			const $msg = $("<span>").addClass("copy-tooltip").text("Скопировано!");
+			$(this).after($msg);
+			setTimeout(() => $msg.fadeOut(200, () => $msg.remove()), 1000);
+		});
+	});
+
+	initGlobalSearch("#search", "#results"); // Для инлайн-поиска, если есть
+
+	// --- 3.10 Дебаг (Локальные ссылки и Tooltips) ---
 	const ENABLE_HTML_FIX = true;
-	const isLocal = location.hostname === "localhost";
+	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
-	if (!ENABLE_HTML_FIX || !isLocal) return;
-
-	function fixSingleLink(el) {
+	const fixSingleLink = (el) => {
 		const $el = $(el);
-		let href = $el.attr("href");
-
-		if (
-			!href ||
-			href.startsWith("http") ||
-			href.startsWith("mailto:") ||
-			href.startsWith("#") ||
-			href.includes(".html") ||
-			href.endsWith("/")
-		)
-			return;
+		const href = $el.attr("href");
+		if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
 
 		const [urlPart, hashPart] = href.split("#");
 		const [path, query] = urlPart.split("?");
 
 		if (path && !path.endsWith(".html")) {
-			const newHref = path + ".html" + (query ? "?" + query : "") + (hashPart ? "#" + hashPart : "");
-			$el.attr("href", newHref);
+			$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
 		}
+	};
+
+	if (ENABLE_HTML_FIX && isLocal) {
+		$("a").each(function () {
+			fixSingleLink(this);
+		});
+
+		// Оставлен MutationObserver, чтобы динамическое меню и поиск тоже получали .html
+		const observer = new MutationObserver((mutations) => {
+			mutations.forEach((mutation) =>
+				mutation.addedNodes.forEach((node) => {
+					if (node.nodeType === 1) {
+						if (node.nodeName === "A") fixSingleLink(node);
+						$(node)
+							.find("a")
+							.each(function () {
+								fixSingleLink(this);
+							});
+					}
+				})
+			);
+		});
+		observer.observe(document.body, {childList: true, subtree: true});
 	}
 
-	$("a").each(function () {
-		fixSingleLink(this);
-	});
-
-	const observer = new MutationObserver((mutations) => {
-		mutations.forEach((mutation) => {
-			mutation.addedNodes.forEach((node) => {
-				if (node.nodeType === 1) {
-					if (node.nodeName === "A") fixSingleLink(node);
-					$(node)
-						.find("a")
-						.each(function () {
-							fixSingleLink(this);
-						});
-				}
-			});
-		});
-	});
-
-	observer.observe(document.body, {childList: true, subtree: true});
-
+	// Тултипы для строк таблицы
 	$("tr").each(function () {
 		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
 		const titleText = attrs
@@ -580,4 +447,15 @@ $(document).ready(() => {
 			.join(", ");
 		if (titleText) $(this).attr("title", titleText);
 	});
+
+	// --- 3.11 Снятие прелоадера (Запуск в самом конце) ---
+	setTimeout(() => {
+		const $preloader = $("#page-preloader");
+		if ($preloader.length && !$preloader.hasClass("done")) {
+			$preloader.addClass("done");
+			$("body").css("overflow-y", "visible");
+		}
+		const hash = location.hash.substring(1);
+		if (hash) activateTab(hash);
+	}, 500);
 });
