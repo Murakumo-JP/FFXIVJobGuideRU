@@ -781,4 +781,64 @@ table {
 .gs_annotation_text {
   color: #a62137;
   margin-bottom: 0 !important;
+}
+
+/* Правила */
+.gs_rule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.gs_rule li {
+  width: 318px;
+  padding: 16px 16px 0 16px;
+  margin-bottom: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0px 0px 0px 2px #b5b5b3 inset;
+          box-shadow: 0px 0px 0px 2px #b5b5b3 inset;
+}
+.gs_rule li:nth-child(odd) {
+  margin-right: 4px;
+}
+.gs_rule li img {
+  position: relative;
+  width: 286px;
+  height: 140px;
+  display: block;
+  margin-bottom: 16px;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  border-radius: 10px;
+}
+.gs_rule li img:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  z-index: 99;
+}
+.gs_rule_title {
+  color: #585858;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.gs_rule_title:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  background-color: #d99857;
 }/*# sourceMappingURL=style.css.map */
