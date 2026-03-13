@@ -444,6 +444,9 @@ body.gs_page {
   background: rgba(89, 81, 76, 0.05);
   border-radius: 2px;
 }
+.gs_title_box_menu h2.gs_menu_fix {
+  height: 30px;
+}
 
 .gs_wrapper {
   width: 640px;
