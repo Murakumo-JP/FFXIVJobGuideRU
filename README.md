@@ -1,6 +1,8 @@
-<h1 align="center">
-  <a href=https://ff14jobguide.ru>FFXIVJobGuideRU</a>
-</h1>
+<p align="center">
+  <a href="https://ff14jobguide.ru">
+    <img src="https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobGuideRU/main/Assets/img/logo.png">
+  </a>
+</p>
 
 <p align="center">
   <a href=LICENSE><img src="https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
@@ -11,27 +13,26 @@
 
 # Информация
 
-* Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания умений классов.
-* Перевод Seiffear, [Morriganna](https://github.com/Morriganna)
+- Проект сделан для помощи русским игрокам, которые не обладают хорошими знаниями английского языка понять описания умений классов.
+- Перевод Seiffear, [Morriganna](https://github.com/Morriganna)
 
-Старт проекта: 23.01.2024 
+Старт проекта: 23.01.2024
 
-> [!NOTE]
-> Большая благодарность всем, кто помогал с данным проектом.
-> * Отдельное спасибо:
+> [!NOTE] Большая благодарность всем, кто помогал с данным проектом.
+>
+> - Отдельное спасибо:
 >   - Rei Eltrei
 >   - [Budanochka Poly](https://www.twitch.tv/budan_poly)
 >   - [Gella Zenhat](https://www.twitch.tv/gella_zenhat)
 >   - Kaka Demon
 >   - Schmelvin Dotan
 
-> [!IMPORTANT]
->  Original Website Design
+> [!IMPORTANT] Original Website Design
+>
 > - [FFXIV Job Guide](https://eu.finalfantasyxiv.com/jobguide/battle)
 > - [FFXIV Crafting & Gathering Guide](https://eu.finalfantasyxiv.com/crafting_gathering_guide)
 
-> [!WARNING]
-> FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2026 SQUARE ENIX CO., LTD. All Rights Reserved.
+> [!WARNING] FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2026 SQUARE ENIX CO., LTD. All Rights Reserved.
 >
 > We are not affiliated with SQUARE ENIX CO., LTD. in any way.
 
