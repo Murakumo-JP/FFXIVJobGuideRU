@@ -3,7 +3,7 @@
 // ============================================================================
 const JSON_URLS = {
 	UPDATES: "https://cdn.ff14jobguide.ru/data/UpdatesPatch.json",
-	MENU: "../DB/Menu.json",
+	MENU: "/DB/Menu.json",
 	SEARCH: "https://cdn.ff14jobguide.ru/data/GlobalSearch.json",
 };
 
@@ -447,15 +447,34 @@ $(function () {
 			.join(", ");
 		if (titleText) $(this).attr("title", titleText);
 	});
+	// Прелодер
+	// --- Логика Прелоадера ---
 
-	// --- 3.11 Снятие прелоадера (Запуск в самом конце) ---
+	// Фиксированная ширина твоего скроллбара из CSS
+	const sbWidth = "15px";
+
+	if ($("#page-preloader").length === 0) {
+		//$("body").prepend(preloaderHtml);
+		if (document.documentElement.scrollHeight > window.innerHeight) {
+			$("body").css({
+				"overflow-y": "hidden",
+				"padding-right": sbWidth,
+			});
+		}
+	}
+
 	setTimeout(() => {
 		const $preloader = $("#page-preloader");
 		if ($preloader.length && !$preloader.hasClass("done")) {
 			$preloader.addClass("done");
-			$("body").css("overflow-y", "visible");
+			setTimeout(() => {
+				$("body").css({
+					"overflow-y": "visible",
+					"padding-right": "0px",
+				});
+			}, 0);
 		}
 		const hash = location.hash.substring(1);
 		if (hash) activateTab(hash);
-	}, 500);
+	}, 1800);
 });
