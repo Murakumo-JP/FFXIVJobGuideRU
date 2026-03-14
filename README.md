@@ -18,21 +18,22 @@
 
 Старт проекта: 23.01.2024
 
-> [!NOTE] Большая благодарность всем, кто помогал с данным проектом.
->
-> - Отдельное спасибо:
+> [!NOTE]
+> Большая благодарность всем, кто помогал с данным проектом.
+> * Отдельное спасибо:
 >   - Rei Eltrei
 >   - [Budanochka Poly](https://www.twitch.tv/budan_poly)
 >   - [Gella Zenhat](https://www.twitch.tv/gella_zenhat)
 >   - Kaka Demon
 >   - Schmelvin Dotan
 
-> [!IMPORTANT] Original Website Design
->
+> [!IMPORTANT]
+>  Original Website Design
 > - [FFXIV Job Guide](https://eu.finalfantasyxiv.com/jobguide/battle)
 > - [FFXIV Crafting & Gathering Guide](https://eu.finalfantasyxiv.com/crafting_gathering_guide)
 
-> [!WARNING] FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2026 SQUARE ENIX CO., LTD. All Rights Reserved.
+> [!WARNING]
+> FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. FINAL FANTASY XIV © 2010-2026 SQUARE ENIX CO., LTD. All Rights Reserved.
 >
 > We are not affiliated with SQUARE ENIX CO., LTD. in any way.
 
