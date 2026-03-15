@@ -213,18 +213,14 @@ $bg: #1b1b1b;
 			width: 100px;
 			height: auto;
 			z-index: 5;
-			// Статичный drop-shadow, который ты просил
 			filter: drop-shadow(0 0 5px rgba($accent, 0.3));
-			// ЧИСТАЯ ПУЛЬСАЦИЯ (без изменения цвета тени)
 			animation: aether-breathe 4s infinite ease-in-out;
 		}
 
 		.seal-ring {
 			position: absolute;
 			border-radius: 50%;
-			border: 1px dashed rgba($accent, 0.25); // Тот самый пунктир
-
-			// Общий стиль для "шарика" на кольце
+			border: 1px dashed rgba($accent, 0.25);
 			&::after {
 				content: "";
 				position: absolute;
@@ -235,7 +231,7 @@ $bg: #1b1b1b;
 				box-shadow:
 					0 0 10px $accent,
 					0 0 20px rgba($accent, 0.5);
-				top: -4px; // Центрируем шарик по линии
+				top: -4px;
 				left: 50%;
 				transform: translateX(-50%);
 			}
@@ -247,10 +243,10 @@ $bg: #1b1b1b;
 			}
 
 			&.ring-2 {
-				width: 240px; // Чуть больше диаметр, чтобы они не перекрывали друг друга идеально
+				width: 240px;
 				height: 240px;
 				animation: rotate-ccw 9s linear infinite;
-				opacity: 0.6; // Немного приглушим второе, чтобы была глубина
+				opacity: 0.6;
 			}
 		}
 	}
@@ -263,12 +259,10 @@ $bg: #1b1b1b;
 		letter-spacing: 5px;
 		text-transform: uppercase;
 		opacity: 0.5;
-		// ЧИСТАЯ ПУЛЬСАЦИЯ ТЕКСТА
 		animation: text-pulse 3s infinite ease-in-out;
 	}
 }
 
-// Анимации
 @keyframes rotate-cw {
 	from {
 		transform: rotate(0deg);
@@ -287,7 +281,6 @@ $bg: #1b1b1b;
 	}
 }
 
-// ЧИСТАЯ ПУЛЬСАЦИЯ (только масштаб и яркость, без градиентов)
 @keyframes aether-breathe {
 	0%,
 	100% {
@@ -295,8 +288,8 @@ $bg: #1b1b1b;
 		filter: drop-shadow(0 0 5px rgba($accent, 0.3)) brightness(1);
 	}
 	50% {
-		transform: scale(1.05); // Легкое увеличение
-		filter: drop-shadow(0 0 5px rgba($accent, 0.3)) brightness(1.2); // Легкое осветление
+		transform: scale(1.05);
+		filter: drop-shadow(0 0 5px rgba($accent, 0.3)) brightness(1.2);
 	}
 }
 
