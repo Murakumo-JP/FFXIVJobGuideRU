@@ -19,7 +19,6 @@
   --link: #fffed1;
   --text-color: white;
   --block-width: 472px;
-  --main-header-img: url("../img/JobIndex/header_7_4.jpg") #2d3c61 no-repeat top center;
 }
 
 * {
@@ -66,13 +65,13 @@ img {
 
 .menu_update:after {
   content: "";
-  background: url(../img/main/skill_update.png) no-repeat 0 0 !important;
+  background: url("/Assets/img/main/skill_update.png") no-repeat 0 0 !important;
   top: -4px !important;
 }
 
 .menu_new:after {
   content: "";
-  background: url(../img/main/skill_new.png) no-repeat 0 0 !important;
+  background: url("/Assets/img/main/skill_new.png") no-repeat 0 0 !important;
   top: -4px !important;
 }
 
@@ -346,7 +345,7 @@ input::placeholder {
 }
 
 .main_header {
-  background: var(--main-header-img);
+  background: url("/Assets/img/JobIndex/header_7_4.jpg") #2d3c61 no-repeat top center;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 500px;
@@ -676,7 +675,7 @@ input::placeholder {
   margin-right: 2px;
 }
 .jobguide_tank {
-  background: url(../img/DoWDoM/Tank.jpg) bottom right no-repeat #f3f3f3;
+  background: url("/Assets/img/DoWDoM/Tank.jpg") bottom right no-repeat #f3f3f3;
   -webkit-box-shadow: 0 0 5px 0 var(--tank-color);
           box-shadow: 0 0 5px 0 var(--tank-color);
 }
@@ -684,7 +683,7 @@ input::placeholder {
   background: var(--tank-color);
 }
 .jobguide_healer {
-  background: url(../img/DoWDoM/Healer.jpg) bottom right no-repeat #f3f3f3;
+  background: url("/Assets/img/DoWDoM/Healer.jpg") bottom right no-repeat #f3f3f3;
   -webkit-box-shadow: 0 0 5px 0 var(--healer-color);
           box-shadow: 0 0 5px 0 var(--healer-color);
 }
@@ -693,7 +692,7 @@ input::placeholder {
 }
 .jobguide__dps {
   width: 800px;
-  background: url(../img/DoWDoM/DPS.jpg) 72px bottom no-repeat #f3f3f3;
+  background: url("/Assets/img/DoWDoM/DPS.jpg") 72px bottom no-repeat #f3f3f3;
   -webkit-box-shadow: 0 0 5px 0 var(--dps-color);
           box-shadow: 0 0 5px 0 var(--dps-color);
   border-radius: 10px;
@@ -859,12 +858,12 @@ input::placeholder {
 }
 
 .job--DoWDoM {
-  background: url(../img/DoWDoM/header.jpg) no-repeat top center #222;
+  background: url("/Assets/img/DoWDoM/header.jpg") no-repeat top center #222;
   background-attachment: fixed;
 }
 
 .job--DoHDoL {
-  background: url(../img/DoHDoL/header.jpg) no-repeat center top #4e3928;
+  background: url("/Assets/img/DoHDoL/header.jpg") no-repeat center top #4e3928;
   background-attachment: fixed;
   height: 600px;
 }
@@ -919,7 +918,7 @@ input::placeholder {
   height: 32px;
 }
 .job_header_text {
-  background: url(../img/main/job_text.png) no-repeat left top;
+  background: url("/Assets/img/main/job_text.png") no-repeat left top;
   backdrop-filter: blur(5px);
   border-radius: 10px;
   width: var(--block-width);
@@ -956,7 +955,7 @@ input::placeholder {
   margin-left: 6px;
 }
 .job_header_guide_top {
-  background: url(../img/main/back_off.png) no-repeat;
+  background: url("/Assets/img/main/back_off.png") no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -972,7 +971,7 @@ input::placeholder {
   transition: all 0.4s;
 }
 .job_header_guide_top:hover {
-  background: url(../img/main/back_on.png) no-repeat;
+  background: url("/Assets/img/main/back_on.png") no-repeat;
 }
 .job_header_guide_top span {
   font-size: 14px;
@@ -995,7 +994,7 @@ input::placeholder {
   width: 48px;
   height: 48px;
   display: inline-block;
-  background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+  background: url("/Assets/img/main/skil_icon.png") no-repeat 4px 2px;
   background-size: 40px 40px;
   vertical-align: middle;
 }
@@ -1018,7 +1017,7 @@ input::placeholder {
 }
 .job_skill_icon:after {
   content: "";
-  background: url(../img/main/skill_icon_on.png) no-repeat;
+  background: url("/Assets/img/main/skill_icon_on.png") no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -1579,7 +1578,7 @@ input::placeholder {
   width: 48px;
   height: 48px;
   display: inline-block;
-  background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+  background: url("/Assets/img/main/skil_icon.png") no-repeat 4px 2px;
   background-size: 40px 40px;
   vertical-align: middle;
 }
@@ -1593,7 +1592,7 @@ input::placeholder {
 }
 .guide-skill_icon:after {
   content: "";
-  background: url(../img/main/skill_icon_on.png) no-repeat;
+  background: url("/Assets/img/main/skill_icon_on.png") no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -1787,7 +1786,7 @@ li {
 
 .nav_floating_icon {
   display: block;
-  background: url(../img/svg/dots-vertical.svg) no-repeat 0 0;
+  background: url(/Assets/img/svg/dots-vertical.svg) no-repeat 0 0;
   border-radius: 50%;
   width: 32px;
   height: 32px;
@@ -1872,167 +1871,167 @@ li {
 }
 
 .job_pld {
-  background: url("../img/JobHaider/HaiderPLD.jpg") no-repeat center top #192455;
+  background: url("/Assets/img/JobHaider/HaiderPLD.jpg") no-repeat center top #192455;
   background-attachment: fixed;
 }
 
 .job_war {
-  background: url("../img/JobHaider/HaiderWAR.jpg") no-repeat center top #192455;
+  background: url("/Assets/img/JobHaider/HaiderWAR.jpg") no-repeat center top #192455;
   background-attachment: fixed;
 }
 
 .job_drk {
-  background: url("../img/JobHaider/HaiderDRK.jpg") no-repeat center top #192455;
+  background: url("/Assets/img/JobHaider/HaiderDRK.jpg") no-repeat center top #192455;
   background-attachment: fixed;
 }
 
 .job_gnb {
-  background: url("../img/JobHaider/HaiderGNB.jpg") no-repeat center top #192455;
+  background: url("/Assets/img/JobHaider/HaiderGNB.jpg") no-repeat center top #192455;
   background-attachment: fixed;
 }
 
 .job_whm {
-  background: url("../img/JobHaider/HaiderWHM.jpg") no-repeat center top #1e4413;
+  background: url("/Assets/img/JobHaider/HaiderWHM.jpg") no-repeat center top #1e4413;
   background-attachment: fixed;
 }
 
 .job_sch {
-  background: url("../img/JobHaider/HaiderSCH.jpg") no-repeat center top #1e4413;
+  background: url("/Assets/img/JobHaider/HaiderSCH.jpg") no-repeat center top #1e4413;
   background-attachment: fixed;
 }
 
 .job_ast {
-  background: url("../img/JobHaider/HaiderAST.jpg") no-repeat center top #1e4413;
+  background: url("/Assets/img/JobHaider/HaiderAST.jpg") no-repeat center top #1e4413;
   background-attachment: fixed;
 }
 
 .job_sge {
-  background: url("../img/JobHaider/HaiderSGE.jpg") no-repeat center top #1e4413;
+  background: url("/Assets/img/JobHaider/HaiderSGE.jpg") no-repeat center top #1e4413;
   background-attachment: fixed;
 }
 
 .job_mnk {
-  background: url("../img/JobHaider/HaiderMNK.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderMNK.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_drg {
-  background: url("../img/JobHaider/HaiderDRG.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderDRG.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_nin {
-  background: url("../img/JobHaider/HaiderNIN.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderNIN.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_sam {
-  background: url("../img/JobHaider/HaiderSAM.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderSAM.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_rpr {
-  background: url("../img/JobHaider/HaiderRPR.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderRPR.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_vpr {
-  background: url("../img/JobHaider/HaiderVPR.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderVPR.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_brd {
-  background: url("../img/JobHaider/HaiderBRD.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderBRD.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_mch {
-  background: url("../img/JobHaider/HaiderMCH.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderMCH.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_dnc {
-  background: url("../img/JobHaider/HaiderDNC.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderDNC.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_blm {
-  background: url("../img/JobHaider/HaiderBLM.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderBLM.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_smn {
-  background: url("../img/JobHaider/HaiderSMN.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderSMN.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_rdm {
-  background: url("../img/JobHaider/HaiderRDM.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderRDM.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_pct {
-  background: url("../img/JobHaider/HaiderPCT.jpg") no-repeat center top #4f1717;
+  background: url("/Assets/img/JobHaider/HaiderPCT.jpg") no-repeat center top #4f1717;
   background-attachment: fixed;
 }
 
 .job_blu {
-  background: url("../img/JobHaider/HaiderBLU.jpg") no-repeat center top #23396a;
+  background: url("/Assets/img/JobHaider/HaiderBLU.jpg") no-repeat center top #23396a;
   background-attachment: fixed;
 }
 
 .job_crp {
-  background: url("../img/JobHaider/HaiderCRP.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderCRP.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_bsm {
-  background: url("../img/JobHaider/HaiderBSM.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderBSM.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_arm {
-  background: url("../img/JobHaider/HaiderARM.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderARM.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_gsm {
-  background: url("../img/JobHaider/HaiderGSM.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderGSM.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_ltw {
-  background: url("../img/JobHaider/HaiderLTW.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderLTW.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_wvr {
-  background: url("../img/JobHaider/HaiderWVR.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderWVR.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_alc {
-  background: url("../img/JobHaider/HaiderALC.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderALC.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_cul {
-  background: url("../img/JobHaider/HaiderCUL.jpg") no-repeat center top #27174c;
+  background: url("/Assets/img/JobHaider/HaiderCUL.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
 }
 
 .job_min {
-  background: url("../img/JobHaider/HaiderMIN.jpg") no-repeat center top #554317;
+  background: url("/Assets/img/JobHaider/HaiderMIN.jpg") no-repeat center top #554317;
   background-attachment: fixed;
 }
 
 .job_btn {
-  background: url("../img/JobHaider/HaiderBTN.jpg") no-repeat center top #554317;
+  background: url("/Assets/img/JobHaider/HaiderBTN.jpg") no-repeat center top #554317;
   background-attachment: fixed;
 }
 
 .job_fsh {
-  background: url("../img/JobHaider/HaiderFSH.jpg") no-repeat center top #554317;
+  background: url("/Assets/img/JobHaider/HaiderFSH.jpg") no-repeat center top #554317;
   background-attachment: fixed;
 }
 
@@ -2298,7 +2297,7 @@ table {
   width: 76px;
   height: 76px;
   display: inline-block;
-  background: url(../img/main/skil_icon.png) no-repeat 6px 3px;
+  background: url(/Assets/img/main/skil_icon.png) no-repeat 6px 3px;
   background-size: 64px 64px;
   vertical-align: middle;
   margin: 0 auto;
@@ -2315,7 +2314,7 @@ table {
 }
 .job_combo_skill_icon:after {
   content: "";
-  background: url(../img/main/skill_icon_on2x.png) no-repeat;
+  background: url(/Assets/img/main/skill_icon_on2x.png) no-repeat;
   background-size: 76px 76px;
   width: 76px;
   height: 76px;
@@ -2331,14 +2330,14 @@ table {
 .job_combo_ninja_04,
 .job_combo_reaper_02,
 .job_combo_warrior_03 {
-  background: url(../img/main/combo.png) no-repeat 150px 0;
+  background: url(/Assets/img/main/combo.png) no-repeat 150px 0;
   border-bottom: 1px solid #999;
 }
 
 .job_combo_darkknight_01,
 .job_combo_gunbreaker_01,
 .job_combo_reaper_01 {
-  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo.png) no-repeat 150px 0, url(/Assets/img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
 }
 
@@ -2441,15 +2440,15 @@ table {
 }
 
 .job_combo_paladin_01 {
-  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo.png) no-repeat 150px 0, url(/Assets/img/main/combo.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
 }
 .job_combo_paladin_02 {
-  background: url(../img/main/combo.png) no-repeat 150px 0;
+  background: url(/Assets/img/main/combo.png) no-repeat 150px 0;
   border-bottom: 1px solid #999;
 }
 .job_combo_paladin_03 {
-  background: url(../img/main/combo2.png) no-repeat 150px 0, url(../img/main/combo2.png) no-repeat 295px 0, url(../img/main/combo2.png) no-repeat 442px 0;
+  background: url(/Assets/img/main/combo2.png) no-repeat 150px 0, url(/Assets/img/main/combo2.png) no-repeat 295px 0, url(/Assets/img/main/combo2.png) no-repeat 442px 0;
   margin-bottom: 8px;
   border-bottom: 1px solid #999;
 }
@@ -2479,10 +2478,10 @@ table {
 }
 
 .job_combo_warrior_01 {
-  background: url(../img/main/combo.png) no-repeat 150px 0, url(../img/main/combo3.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo.png) no-repeat 150px 0, url(/Assets/img/main/combo3.png) no-repeat 370px 0;
 }
 .job_combo_warrior_02 {
-  background: url(../img/main/combo4.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo4.png) no-repeat 370px 0;
   border-bottom: 1px solid #999;
 }
 
@@ -2491,35 +2490,35 @@ table {
   width: 600px;
 }
 .job_combo_gunbreaker_03 {
-  background: url(../img/main/combo5.png) no-repeat 150px 0, url(../img/main/combo5.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo5.png) no-repeat 150px 0, url(/Assets/img/main/combo5.png) no-repeat 370px 0;
 }
 .job_combo_gunbreaker_04 {
-  background: url(../img/main/combo6.png) no-repeat 40px 0, url(../img/main/combo7.png) repeat-y 150px 0, url(../img/main/combo6.png) no-repeat 260px 0, url(../img/main/combo7.png) repeat-y 370px 0, url(../img/main/combo6.png) no-repeat 480px 0;
+  background: url(/Assets/img/main/combo6.png) no-repeat 40px 0, url(/Assets/img/main/combo7.png) repeat-y 150px 0, url(/Assets/img/main/combo6.png) no-repeat 260px 0, url(/Assets/img/main/combo7.png) repeat-y 370px 0, url(/Assets/img/main/combo6.png) no-repeat 480px 0;
 }
 .job_combo_gunbreaker_05 {
-  background: url(../img/main/combo8.png) no-repeat 150px 0, url(../img/main/combo8.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo8.png) no-repeat 150px 0, url(/Assets/img/main/combo8.png) no-repeat 370px 0;
 }
 
 .job_combo_viper_inner_01 {
-  background: url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(/Assets/img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 }
 .job_combo_viper_inner_02 {
   padding-top: 124px;
-  background: url(../img/main/combo/viper/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0, url(../img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/viper/aoZRBLUMOwVTevo9_UMU5wwxzA.png) no-repeat 150px 0, url(/Assets/img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
 }
 .job_combo_viper_inner_04 {
   padding-top: 124px;
-  background: url(../img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/viper/P4fbPR-FLa_4E80IYy6rRAI3bM.png) no-repeat 370px 0;
 }
 .job_combo_viper_inner_05 {
   padding-top: 124px;
-  background: url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px, url(../img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0, url(../img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 124px, url(/Assets/img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 124px, url(/Assets/img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 150px 0, url(/Assets/img/main/combo/viper/ZGo9Hr9sUqV1kmKPTjGlS4-ACI.png) no-repeat 370px 0;
 }
 .job_combo_viper_inner_06 {
-  background: url(../img/main/combo/viper/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/viper/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(/Assets/img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 }
 .job_combo_viper_inner_07 {
-  background: url(../img/main/combo/viper/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0, url(../img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/viper/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0, url(/Assets/img/main/combo/viper/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 }
 
 .job_monkcombo {
@@ -2615,13 +2614,13 @@ table {
   width: 120px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon {
-  background: url(../img/main/skil_icon.png) no-repeat 4px 2px;
+  background: url(/Assets/img/main/skil_icon.png) no-repeat 4px 2px;
   background-size: 40px 40px;
   width: 48px;
   height: 48px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon::after {
-  background: url(../img/main/skill_icon_on2x.png) no-repeat;
+  background: url(/Assets/img/main/skill_icon_on2x.png) no-repeat;
   background-size: 48px 48px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon img {
@@ -2649,11 +2648,11 @@ table {
   margin: auto;
   width: 48px;
   height: 124px;
-  background: url(../img/main/combo/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat;
+  background: url(/Assets/img/main/combo/x9lITB6Lzdc2iBZ10UydmE01rA.png) no-repeat;
 }
 .job_combo_dragoon_04_01, .job_combo_dragoon_04_02 {
   position: relative;
-  background: url(../img/main/combo/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(../img/main/combo/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
+  background: url(/Assets/img/main/combo/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 96px 0, url(/Assets/img/main/combo/Ei1k3bgW12qROXtBEugOEs4u1g.png) no-repeat 216px 0;
 }
 .job_combo_dragoon_04_01::before, .job_combo_dragoon_04_01::after, .job_combo_dragoon_04_02::before, .job_combo_dragoon_04_02::after {
   content: "";
@@ -2667,11 +2666,11 @@ table {
 }
 .job_combo_dragoon_04_01::before {
   left: -24px;
-  background: url(../img/main/combo/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat;
+  background: url(/Assets/img/main/combo/BRXsOnl-gJIxXi85_PWPB7uQMg.png) no-repeat;
 }
 .job_combo_dragoon_04_01::after {
   right: -24px;
-  background: url(../img/main/combo/xGCf8qG2Ku_qL2g8VbYwBXouNY.png) no-repeat;
+  background: url(/Assets/img/main/combo/xGCf8qG2Ku_qL2g8VbYwBXouNY.png) no-repeat;
 }
 .job_combo_dragoon_04_01_effect {
   grid-area: combo01_effect;
@@ -2691,11 +2690,11 @@ table {
 }
 .job_combo_dragoon_04_02::before {
   left: -24px;
-  background: url(../img/main/combo/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat;
+  background: url(/Assets/img/main/combo/FZtlOE_IqaRciJpsbOeO3YbJSA.png) no-repeat;
 }
 .job_combo_dragoon_04_02::after {
   right: -24px;
-  background: url(../img/main/combo/0ZO58SIVqabfX2BXUt49SQeD80.png) no-repeat;
+  background: url(/Assets/img/main/combo/0ZO58SIVqabfX2BXUt49SQeD80.png) no-repeat;
 }
 .job_combo_dragoon_04_02_effect {
   grid-area: combo02_effect;
@@ -2723,44 +2722,44 @@ table {
   margin: auto;
   width: 48px;
   height: 124px;
-  background: url(../img/main/combo/sJyips9fze37klbPBnrs2I6Z9I.png) no-repeat;
+  background: url(/Assets/img/main/combo/sJyips9fze37klbPBnrs2I6Z9I.png) no-repeat;
 }
 
 .job_combo_dragoon_03 {
-  background: url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
   margin-bottom: 8px;
 }
 
 .job_combo_ninja_01 {
-  background: url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(../img/main/combo/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(/Assets/img/main/combo/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 370px 0;
 }
 .job_combo_ninja_02 {
-  background: url(../img/main/combo/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
 }
 
 .job_combo_samurai_01 {
-  background: url(../img/main/combo/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0, url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 }
 .job_combo_samurai_02 {
-  background: url(../img/main/combo/_O1Z0ojPuLkXc7Dq3LqUsQg2F8.png) no-repeat 150px 0, url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/_O1Z0ojPuLkXc7Dq3LqUsQg2F8.png) no-repeat 150px 0, url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
 }
 .job_combo_samurai_03 {
-  background: url(../img/main/combo/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0;
+  background: url(/Assets/img/main/combo/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0;
   border-bottom: 1px solid #999999;
 }
 .job_combo_samurai_04 {
-  background: url(../img/main/combo/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0;
+  background: url(/Assets/img/main/combo/CPlw_vyjntBjdc44iMVcY5qwMQ.png) no-repeat 150px 0;
 }
 .job_combo_samurai_05 {
-  background: url(../img/main/combo/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0;
+  background: url(/Assets/img/main/combo/DsM5O0psoLoBIZTvp5M6b7HXlU.png) no-repeat 150px 0;
   border-bottom: 1px solid #999999;
   margin-bottom: 8px;
 }
 
 .job_combo_machinist_01 {
-  background: url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
   margin-bottom: 8px;
 }
@@ -2771,7 +2770,7 @@ table {
   padding-right: 165px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 205px 0;
+  background: url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 205px 0;
 }
 .job_combo_dancer_02_inner {
   width: 640px;
@@ -2780,7 +2779,7 @@ table {
   padding-right: 55px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(../img/main/combo/vpOiKJDYG3_CcwDe5EUhp7Wr3w.png) no-repeat 95px 0, url(../img/main/combo/vpOiKJDYG3_CcwDe5EUhp7Wr3w.png) no-repeat 315px 0;
+  background: url(/Assets/img/main/combo/vpOiKJDYG3_CcwDe5EUhp7Wr3w.png) no-repeat 95px 0, url(/Assets/img/main/combo/vpOiKJDYG3_CcwDe5EUhp7Wr3w.png) no-repeat 315px 0;
 }
 .job_combo_dancer_02_percent {
   position: absolute;
@@ -2812,7 +2811,7 @@ table {
 }
 
 .job_combo_redmage_01 {
-  background: url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(../img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
+  background: url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 150px 0, url(/Assets/img/main/combo/_IVh6kXeW2Nnc3vzoVw2hKv0d0.png) no-repeat 370px 0;
   border-bottom: 1px solid #999999;
 }
 
@@ -2860,7 +2859,7 @@ table {
 }
 .bluemage-quest_title::before {
   content: "";
-  background: url(../img/main/quest.png);
+  background: url(/Assets/img/main/quest.png);
   background-size: 40px 40px;
   display: block;
   width: 40px;
@@ -2896,19 +2895,19 @@ table {
   padding: 0 0 8px 24px;
 }
 .bluemage-quest li.level {
-  background: url(../img/main/lvl.png) no-repeat 0 0;
+  background: url(/Assets/img/main/lvl.png) no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li.pos {
-  background: url(../img/main/loc.png) no-repeat 0 0;
+  background: url(/Assets/img/main/loc.png) no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li.npc {
-  background: url(../img/main/npc.png) no-repeat 0 0;
+  background: url(/Assets/img/main/npc.png) no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li.condition {
-  background: url(../img/main/complite.png) no-repeat 0 0;
+  background: url(/Assets/img/main/complite.png) no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li a {
@@ -2919,14 +2918,14 @@ table {
   margin: 0 10px;
 }
 .bluemage-list li {
-  background: url(../img/main/bluli.png) no-repeat 0 2px;
+  background: url(/Assets/img/main/bluli.png) no-repeat 0 2px;
   background-size: 16px 16px;
   padding-bottom: 32px;
   padding-left: 20px;
   font-size: 14px;
 }
 .bluemage-list li li {
-  background: url(../img/main/bluli2.png) no-repeat 0 2px;
+  background: url(/Assets/img/main/bluli2.png) no-repeat 0 2px;
   background-size: 16px 16px;
   padding-bottom: 0;
   padding-left: 20px;
@@ -3220,7 +3219,7 @@ pre {
 }
 .icon_search:after {
   content: "";
-  background: url(../img/main/skill_icon_on.png) no-repeat;
+  background: url(/Assets/img/main/skill_icon_on.png) no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -3317,7 +3316,7 @@ body.dark-theme .theme-toggle-btn {
   width: 250px;
   height: 250px;
   display: block;
-  background-image: url(../img/wow2.png);
+  background-image: url(/Assets/img/wow2.png);
   position: fixed;
   right: 70px;
   bottom: -75px;
