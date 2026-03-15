@@ -3,7 +3,7 @@
 	"Action 01": {
 		"number": "1",
 		"name": "Water Cannon",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/water_cannon.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/water_cannon.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -16,7 +16,7 @@
 	"Action 02": {
 		"number": "2",
 		"name": "Flame Thrower",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Flame_Thrower.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Flame_Thrower.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -29,7 +29,7 @@
 	"Action 03": {
 		"number": "3",
 		"name": "Aqua Breath",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Aqua_Breath.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Aqua_Breath.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -42,7 +42,7 @@
 	"Action 04": {
 		"number": "4",
 		"name": "Flying Frenzy",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Flying_Frenzy.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Flying_Frenzy.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -55,7 +55,7 @@
 	"Action 05": {
 		"number": "5",
 		"name": "Drill Cannons",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Drill_Cannons.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Drill_Cannons.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -68,7 +68,7 @@
 	"Action 06": {
 		"number": "6",
 		"name": "High Voltage",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/High_Voltage.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/High_Voltage.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -81,7 +81,7 @@
 	"Action 07": {
 		"number": "7",
 		"name": "Loom",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Loom.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Loom.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -94,7 +94,7 @@
 	"Action 08": {
 		"number": "8",
 		"name": "Final Sting",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Final_Sting.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Final_Sting.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -107,7 +107,7 @@
 	"Action 09": {
 		"number": "9",
 		"name": "Song of Torment",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Song_of_Torment.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Song_of_Torment.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -120,7 +120,7 @@
 	"Action 10": {
 		"number": "10",
 		"name": "Glower",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Glower.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Glower.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -133,7 +133,7 @@
 	"Action 11": {
 		"number": "11",
 		"name": "Plaincracker",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Plaincracker.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Plaincracker.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -146,7 +146,7 @@
 	"Action 12": {
 		"number": "12",
 		"name": "Bristle",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Bristle.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Bristle.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -159,7 +159,7 @@
 	"Action 13": {
 		"number": "13",
 		"name": "White Wind",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/White_Wind.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/White_Wind.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -172,7 +172,7 @@
 	"Action 14": {
 		"number": "14",
 		"name": "Level 5 Petrify",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Level_5_Petrify.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Level_5_Petrify.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -185,7 +185,7 @@
 	"Action 15": {
 		"number": "15",
 		"name": "Sharpened Knife",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Sharpened_Knife.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Sharpened_Knife.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -198,7 +198,7 @@
 	"Action 16": {
 		"number": "16",
 		"name": "Ice Spikes",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Ice_Spikes.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Ice_Spikes.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -211,7 +211,7 @@
 	"Action 17": {
 		"number": "17",
 		"name": "Blood Drain",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Blood_Drain.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Blood_Drain.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -224,7 +224,7 @@
 	"Action 18": {
 		"number": "18",
 		"name": "Acorn Bomb",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Acorn_Bomb.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Acorn_Bomb.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -237,7 +237,7 @@
 	"Action 19": {
 		"number": "19",
 		"name": "Bomb Toss",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Bomb_Toss.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Bomb_Toss.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -250,7 +250,7 @@
 	"Action 20": {
 		"number": "20",
 		"name": "Off-Guard",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Off-guard.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Off-guard.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "60 сек.",
@@ -263,7 +263,7 @@
 	"Action 21": {
 		"number": "21",
 		"name": "Self-Destruct",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Self-destruct.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Self-destruct.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -276,7 +276,7 @@
 	"Action 22": {
 		"number": "22",
 		"name": "Transfusion",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Transfusion.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Transfusion.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -289,7 +289,7 @@
 	"Action 23": {
 		"number": "23",
 		"name": "Faze",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Faze.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Faze.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -302,7 +302,7 @@
 	"Action 24": {
 		"number": "24",
 		"name": "Flying Sardine",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Flying_Sardine.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Flying_Sardine.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
 		"recast": "2.5 сек.",
@@ -315,7 +315,7 @@
 	"Action 25": {
 		"number": "25",
 		"name": "Snort",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Snort.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Snort.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -328,7 +328,7 @@
 	"Action 26": {
 		"number": "26",
 		"name": "4-Tonze Weight",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/4-tonze_Weight.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/4-tonze_Weight.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -341,7 +341,7 @@
 	"Action 27": {
 		"number": "27",
 		"name": "The Look",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/The_Look.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/The_Look.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -354,7 +354,7 @@
 	"Action 28": {
 		"number": "28",
 		"name": "Bad Breath",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Bad_Breath.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Bad_Breath.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -367,7 +367,7 @@
 	"Action 29": {
 		"number": "29",
 		"name": "Diamondback",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Diamondback.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Diamondback.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -380,7 +380,7 @@
 	"Action 30": {
 		"number": "30",
 		"name": "Mighty Guard",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Mighty_Guard.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Mighty_Guard.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -393,7 +393,7 @@
 	"Action 31": {
 		"number": "31",
 		"name": "Sticky Tongue",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Sticky_Tongue.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Sticky_Tongue.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -406,7 +406,7 @@
 	"Action 32": {
 		"number": "32",
 		"name": "Toad Oil",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Toad_Oil.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Toad_Oil.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -419,7 +419,7 @@
 	"Action 33": {
 		"number": "33",
 		"name": "The Ram's Voice",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/The_Rams_Voice.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/The_Rams_Voice.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -432,7 +432,7 @@
 	"Action 34": {
 		"number": "34",
 		"name": "The Dragon's Voice",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/The_Dragons_Voice.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/The_Dragons_Voice.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -445,7 +445,7 @@
 	"Action 35": {
 		"number": "35",
 		"name": "Missile",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Missile.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Missile.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -458,7 +458,7 @@
 	"Action 36": {
 		"number": "36",
 		"name": "1000 Needles",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/1000_Needles.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/1000_Needles.png",
 		"classification": "Заклинание",
 		"cast": "6 сек.",
 		"recast": "2.5 сек.",
@@ -471,7 +471,7 @@
 	"Action 37": {
 		"number": "37",
 		"name": "Ink Jet",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Ink_Jet.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Ink_Jet.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -484,7 +484,7 @@
 	"Action 38": {
 		"number": "38",
 		"name": "Fire Angon",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Fire_Angon.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Fire_Angon.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -497,7 +497,7 @@
 	"Action 39": {
 		"number": "39",
 		"name": "Moon Flute",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Moon_Flute.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Moon_Flute.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -510,7 +510,7 @@
 	"Action 40": {
 		"number": "40",
 		"name": "Tail Screw",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Tail_Screw.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Tail_Screw.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -523,7 +523,7 @@
 	"Action 41": {
 		"number": "41",
 		"name": "Mind Blast",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Mind_Blast.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Mind_Blast.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -536,7 +536,7 @@
 	"Action 42": {
 		"number": "42",
 		"name": "Doom",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Doom.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Doom.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -549,7 +549,7 @@
 	"Action 43": {
 		"number": "43",
 		"name": "Peculiar Light",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Peculiar_Light.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Peculiar_Light.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "60 сек.",
@@ -562,7 +562,7 @@
 	"Action 44": {
 		"number": "44",
 		"name": "Feather Rain",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Feather_Rain.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Feather_Rain.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "60 сек.",
@@ -575,7 +575,7 @@
 	"Action 45": {
 		"number": "45",
 		"name": "Eruption",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Eruption.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Eruption.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "30 сек.",
@@ -588,7 +588,7 @@
 	"Action 46": {
 		"number": "46",
 		"name": "Mountain Buster",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Mountain_Buster.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Mountain_Buster.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "60 сек.",
@@ -601,7 +601,7 @@
 	"Action 47": {
 		"number": "47",
 		"name": "Shock Strike",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Shock_Strike.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Shock_Strike.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "60 сек.",
@@ -614,7 +614,7 @@
 	"Action 48": {
 		"number": "48",
 		"name": "Glass Dance",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Glass_Dance.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Glass_Dance.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "90 сек.",
@@ -627,7 +627,7 @@
 	"Action 49": {
 		"number": "49",
 		"name": "Veil of the Whorl",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Veil_of_the_Whorl.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Veil_of_the_Whorl.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "90 сек.",
@@ -640,7 +640,7 @@
 	"Action 50": {
 		"number": "50",
 		"name": "Alpine Draft",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Alpine_Draft.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Alpine_Draft.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -653,7 +653,7 @@
 	"Action 51": {
 		"number": "51",
 		"name": "Protean Wave",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Protean_Wave.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Protean_Wave.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -666,7 +666,7 @@
 	"Action 52": {
 		"number": "52",
 		"name": "Northerlies",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Northerlies.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Northerlies.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -679,7 +679,7 @@
 	"Action 53": {
 		"number": "53",
 		"name": "Electrogenesis",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Electrogenesis.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Electrogenesis.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -692,7 +692,7 @@
 	"Action 54": {
 		"number": "54",
 		"name": "Kaltstrahl",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Kaltstrahl.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Kaltstrahl.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -705,7 +705,7 @@
 	"Action 55": {
 		"number": "55",
 		"name": "Abyssal Transfixion",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Abyssal_Transfixion.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Abyssal_Transfixion.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -718,7 +718,7 @@
 	"Action 56": {
 		"number": "56",
 		"name": "Chirp",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Chirp.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Chirp.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -731,7 +731,7 @@
 	"Action 57": {
 		"number": "57",
 		"name": "Eerie Soundwave",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Eerie_Soundwave.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Eerie_Soundwave.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -744,7 +744,7 @@
 	"Action 58": {
 		"number": "58",
 		"name": "Pom Cure",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Pom_Cure.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Pom_Cure.png",
 		"classification": "Заклинание",
 		"cast": "1.5 сек.",
 		"recast": "2.5 сек.",
@@ -757,7 +757,7 @@
 	"Action 59": {
 		"number": "59",
 		"name": "Gobskin",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Gobskin.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Gobskin.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -770,7 +770,7 @@
 	"Action 60": {
 		"number": "60",
 		"name": "Magic Hammer",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Magic_Hammer.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Magic_Hammer.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "90 сек.",
@@ -783,7 +783,7 @@
 	"Action 61": {
 		"number": "61",
 		"name": "Avail",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Avail.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Avail.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "120 сек.",
@@ -796,7 +796,7 @@
 	"Action 62": {
 		"number": "62",
 		"name": "Frog Legs",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Frog_Legs.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Frog_Legs.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -809,7 +809,7 @@
 	"Action 63": {
 		"number": "63",
 		"name": "Sonic Boom",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Sonic_Boom.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Sonic_Boom.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -822,7 +822,7 @@
 	"Action 64": {
 		"number": "64",
 		"name": "Whistle",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Whistle.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Whistle.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -835,7 +835,7 @@
 	"Action 65": {
 		"number": "65",
 		"name": "White Knight's Tour",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/White_Knights_Tour.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/White_Knights_Tour.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -848,7 +848,7 @@
 	"Action 66": {
 		"number": "66",
 		"name": "Black Knight's Tour",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Black_Knights_Tour.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Black_Knights_Tour.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -861,7 +861,7 @@
 	"Action 67": {
 		"number": "67",
 		"name": "Level 5 Death",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Level_5_Death.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Level_5_Death.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "180 сек.",
@@ -874,7 +874,7 @@
 	"Action 68": {
 		"number": "68",
 		"name": "Launcher",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Launcher.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Launcher.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -887,7 +887,7 @@
 	"Action 69": {
 		"number": "69",
 		"name": "Perpetual Ray",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Perpetual_Ray.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Perpetual_Ray.png",
 		"classification": "Заклинание",
 		"cast": "3 сек.",
 		"recast": "2.5 сек.",
@@ -900,7 +900,7 @@
 	"Action 70": {
 		"number": "70",
 		"name": "Cactguard",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Cactguard.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Cactguard.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -913,7 +913,7 @@
 	"Action 71": {
 		"number": "71",
 		"name": "Revenge Blast",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Revenge_Blast.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Revenge_Blast.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -926,7 +926,7 @@
 	"Action 72": {
 		"number": "72",
 		"name": "Angel Whisper",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Angel_Whisper.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Angel_Whisper.png",
 		"classification": "Заклинание",
 		"cast": "10 сек.",
 		"recast": "300 сек.",
@@ -939,7 +939,7 @@
 	"Action 73": {
 		"number": "73",
 		"name": "Exuviation",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Exuviation.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Exuviation.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -952,7 +952,7 @@
 	"Action 74": {
 		"number": "74",
 		"name": "Reflux",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Reflux.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Reflux.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -965,7 +965,7 @@
 	"Action 75": {
 		"number": "75",
 		"name": "Devour",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Devour.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Devour.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "60 сек.",
@@ -978,7 +978,7 @@
 	"Action 76": {
 		"number": "76",
 		"name": "Condensed Libra",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Condensed_Libra.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Condensed_Libra.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -991,7 +991,7 @@
 	"Action 77": {
 		"number": "77",
 		"name": "Aetheric Mimicry",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Aetherial_Mimicry.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Aetherial_Mimicry.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "2.5 сек.",
@@ -1004,7 +1004,7 @@
 	"Action 78": {
 		"number": "78",
 		"name": "Surpanakha",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Surpanakha.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Surpanakha.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "30 сек.",
@@ -1017,7 +1017,7 @@
 	"Action 79": {
 		"number": "79",
 		"name": "Quasar",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Quasar.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Quasar.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "60 сек.",
@@ -1030,7 +1030,7 @@
 	"Action 80": {
 		"number": "80",
 		"name": "J Kick",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/J_Kick.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/J_Kick.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "60 сек.",
@@ -1043,7 +1043,7 @@
 	"Action 81": {
 		"number": "81",
 		"name": "Triple Trident",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Triple_Trident.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Triple_Trident.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "90 сек.",
@@ -1056,7 +1056,7 @@
 	"Action 82": {
 		"number": "82",
 		"name": "Tingle",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Tingle.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Tingle.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1069,7 +1069,7 @@
 	"Action 83": {
 		"number": "83",
 		"name": "Tatami-Gaeshi",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Tatami-gaeshi.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Tatami-gaeshi.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1082,7 +1082,7 @@
 	"Action 84": {
 		"number": "84",
 		"name": "Cold Fog",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Cold_Fog.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Cold_Fog.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "90 сек.",
@@ -1095,7 +1095,7 @@
 	"Action 85": {
 		"number": "85",
 		"name": "Stotram",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Stotram.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Stotram.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1108,7 +1108,7 @@
 	"Action 86": {
 		"number": "86",
 		"name": "Saintly Beam",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Saintly_Beam.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Saintly_Beam.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1121,7 +1121,7 @@
 	"Action 87": {
 		"number": "87",
 		"name": "Feculent Flood",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Feculent_Flood.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Feculent_Flood.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1134,7 +1134,7 @@
 	"Action 88": {
 		"number": "88",
 		"name": "Angel's Snack",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Angels_Snack.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Angels_Snack.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "120 сек.",
@@ -1147,7 +1147,7 @@
 	"Action 89": {
 		"number": "89",
 		"name": "Chelonian Gate",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Chelonian_Gate.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Chelonian_Gate.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "30 сек.",
@@ -1160,7 +1160,7 @@
 	"Action 90": {
 		"number": "90",
 		"name": "The Rose of Destruction",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/The_Rose_of_Destruction.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/The_Rose_of_Destruction.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "30 сек.",
@@ -1173,7 +1173,7 @@
 	"Action 91": {
 		"number": "91",
 		"name": "Basic Instinct",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Basic_Instinct.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Basic_Instinct.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1186,7 +1186,7 @@
 	"Action 92": {
 		"number": "92",
 		"name": "Ultravibration",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Ultravibration.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Ultravibration.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "120 сек.",
@@ -1199,7 +1199,7 @@
 	"Action 93": {
 		"number": "93",
 		"name": "Blaze",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Blaze.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Blaze.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1212,7 +1212,7 @@
 	"Action 94": {
 		"number": "94",
 		"name": "Mustard Bomb",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Mustard_Bomb.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Mustard_Bomb.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1225,7 +1225,7 @@
 	"Action 95": {
 		"number": "95",
 		"name": "Dragon Force",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Dragon_Force.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Dragon_Force.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "120 сек.",
@@ -1238,7 +1238,7 @@
 	"Action 96": {
 		"number": "96",
 		"name": "Aetherial Spark",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Aetherial_Spark.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Aetherial_Spark.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1251,7 +1251,7 @@
 	"Action 97": {
 		"number": "97",
 		"name": "Hydro Pull",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Hydro_Pull.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Hydro_Pull.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1264,7 +1264,7 @@
 	"Action 98": {
 		"number": "98",
 		"name": "Malediction of Water",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Malediction_of_Water.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Malediction_of_Water.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1277,7 +1277,7 @@
 	"Action 99": {
 		"number": "99",
 		"name": "Choco Meteor",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Choco_Meteor.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Choco_Meteor.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1290,7 +1290,7 @@
 	"Action 100": {
 		"number": "100",
 		"name": "Matra Magic",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Matra_Magic.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Matra_Magic.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "120 сек.",
@@ -1303,7 +1303,7 @@
 	"Action 101": {
 		"number": "101",
 		"name": "Peripheral Synthesis",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Peripheral_Synthesis.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Peripheral_Synthesis.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1316,7 +1316,7 @@
 	"Action 102": {
 		"number": "102",
 		"name": "Both Ends",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Both_Ends.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Both_Ends.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "120 сек.",
@@ -1329,7 +1329,7 @@
 	"Action 103": {
 		"number": "103",
 		"name": "Phantom Flurry",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Phantom_Flurry.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Phantom_Flurry.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "120 сек.",
@@ -1342,7 +1342,7 @@
 	"Action 104": {
 		"number": "104",
 		"name": "Nightbloom",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Nightbloom.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Nightbloom.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "120 сек.",
@@ -1355,7 +1355,7 @@
 	"Action 105": {
 		"number": "105",
 		"name": "Goblin Punch",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Goblin_Punch.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Goblin_Punch.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
 		"recast": "2.5 сек.",
@@ -1368,7 +1368,7 @@
 	"Action 106": {
 		"number": "106",
 		"name": "Right Round",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Right_Round.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Right_Round.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1381,7 +1381,7 @@
 	"Action 107": {
 		"number": "107",
 		"name": "Schiltron",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Schiltron.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Schiltron.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1394,7 +1394,7 @@
 	"Action 108": {
 		"number": "108",
 		"name": "Rehydration",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Rehydration.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Rehydration.png",
 		"classification": "Заклинание",
 		"cast": "2.5 сек.",
 		"recast": "5 сек.",
@@ -1407,7 +1407,7 @@
 	"Action 109": {
 		"number": "109",
 		"name": "Breath of Magic",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Breath_of_Magic.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Breath_of_Magic.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1420,7 +1420,7 @@
 	"Action 110": {
 		"number": "110",
 		"name": "Wild Rage",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Wild_Rage.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Wild_Rage.png",
 		"classification": "Заклинание",
 		"cast": "5 сек.",
 		"recast": "2.5 сек.",
@@ -1433,7 +1433,7 @@
 	"Action 111": {
 		"number": "111",
 		"name": "Peat Pelt",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Peat_Pelt.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Peat_Pelt.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1446,7 +1446,7 @@
 	"Action 112": {
 		"number": "112",
 		"name": "Deep Clean",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Deep_Clean.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Deep_Clean.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1459,7 +1459,7 @@
 	"Action 113": {
 		"number": "113",
 		"name": "Ruby Dynamics",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Ruby_Dynamics.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Ruby_Dynamics.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "30 сек.",
@@ -1472,7 +1472,7 @@
 	"Action 114": {
 		"number": "114",
 		"name": "Divination Rune",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Divination_Rune.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Divination_Rune.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1485,7 +1485,7 @@
 	"Action 115": {
 		"number": "115",
 		"name": "Dimensional Shift",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Dimensional_Shift.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Dimensional_Shift.png",
 		"classification": "Заклинание",
 		"cast": "5 сек.",
 		"recast": "2.5 сек.",
@@ -1498,7 +1498,7 @@
 	"Action 116": {
 		"number": "116",
 		"name": "Conviction Marcato",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Conviction_Marcato.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Conviction_Marcato.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1511,7 +1511,7 @@
 	"Action 117": {
 		"number": "117",
 		"name": "Force Field",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Force_Field.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Force_Field.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "120 сек.",
@@ -1524,7 +1524,7 @@
 	"Action 118": {
 		"number": "118",
 		"name": "Winged Reprobation",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Winged_Reprobation.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Winged_Reprobation.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "90 сек.",
@@ -1537,7 +1537,7 @@
 	"Action 119": {
 		"number": "119",
 		"name": "Laser Eye",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Laser_Eye.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Laser_Eye.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1550,7 +1550,7 @@
 	"Action 120": {
 		"number": "120",
 		"name": "Candy Cane",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Candy_Cane.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Candy_Cane.png",
 		"classification": "Заклинание",
 		"cast": "1 сек.",
 		"recast": "90 сек.",
@@ -1563,7 +1563,7 @@
 	"Action 121": {
 		"number": "121",
 		"name": "Mortal Flame",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Mortal_Flame.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Mortal_Flame.png",
 		"classification": "Заклинание",
 		"cast": "2 сек.",
 		"recast": "2.5 сек.",
@@ -1576,7 +1576,7 @@
 	"Action 122": {
 		"number": "122",
 		"name": "Sea Shanty",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Sea_Shanty.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Sea_Shanty.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "120 сек.",
@@ -1589,7 +1589,7 @@
 	"Action 123": {
 		"number": "123",
 		"name": "Apokalypsis",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Apokalypsis.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Apokalypsis.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "120 сек.",
@@ -1602,7 +1602,7 @@
 	"Action 124": {
 		"number": "124",
 		"name": "Being Mortal",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Being_Mortal.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Being_Mortal.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "120 сек.",
@@ -1614,42 +1614,42 @@
 	},
 	"Trait 01": {
 		"name": "Learning",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Trait/Learning.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Trait/Learning.png",
 		"job_icon": "BLU",
 		"level": "1",
 		"content": "Дает способность иногда узнавать секреты умений противника, применяемых в бою, и превращать их в свои собственные."
 	},
 	"Trait 02": {
 		"name": "Maim and Mend",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend.png",
 		"job_icon": "BLU",
 		"level": "10",
 		"content": "Увеличивает базовый урон от умений и восстановления HP на 10%."
 	},
 	"Trait 03": {
 		"name": "Maim and Mend II",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_II.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_II.png",
 		"job_icon": "BLU",
 		"level": "20",
 		"content": "Увеличивает базовый урон от умений и восстановления HP на 20%."
 	},
 	"Trait 04": {
 		"name": "Maim and Mend III",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_III.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_III.png",
 		"job_icon": "BLU",
 		"level": "30",
 		"content": "Увеличивает базовый урон от умений и восстановления HP на 30%."
 	},
 	"Trait 05": {
 		"name": "Maim and Mend IV",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_IV.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_IV.png",
 		"job_icon": "BLU",
 		"level": "40",
 		"content": "Увеличивает базовый урон от умений и восстановления HP на 40%."
 	},
 	"Trait 06": {
 		"name": "Maim and Mend V",
-		"skill_icon": "../Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_V.png",
+		"skill_icon": "/Assets/img/DoWDoM/BLU/Trait/Maim_and_Mend_V.png",
 		"job_icon": "BLU",
 		"level": "50",
 		"content": "Увеличивает базовый урон от умений и восстановления HP на 50%."

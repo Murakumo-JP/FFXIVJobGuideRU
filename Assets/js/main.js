@@ -7,7 +7,7 @@ const JSON_URLS = {
 	SEARCH: "https://cdn.ff14jobguide.ru/data/GlobalSearch.json",
 };
 
-const ASSETS_PATH = "../Assets/";
+const ASSETS_PATH = "/Assets/";
 const PAGES_PATH = "/Page/";
 let jsonData = [];
 
@@ -116,25 +116,11 @@ const createSVGSnowfall = () => {
 // [3] ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
 // ============================================================================
 $(function () {
-	// --- 3.1 CSS Версионирование ---
-	const applyCssVersion = () => {
-		const CSS_VERSION_DEFAULT = 3;
-		const ver = CSS_VERSION_DEFAULT === "auto" ? Date.now() : CSS_VERSION_DEFAULT;
-		$('link[rel="stylesheet"]').each(function () {
-			const href = $(this).attr("href") || "";
-			if (href.includes("/Assets/css/")) {
-				const base = href.split("?")[0];
-				$(this).attr("href", `${base}?v=${ver}`);
-			}
-		});
-	};
-	applyCssVersion();
-
 	// --- 3.2 Темная / Светлая тема ---
 	const applyTheme = (theme) => {
 		document.body.classList.remove("light-theme", "dark-theme");
 		document.body.classList.add(`${theme}-theme`);
-		const iconPath = theme === "dark" ? "../Assets/img/svg/sun.svg" : "../Assets/img/svg/moon.svg";
+		const iconPath = theme === "dark" ? "/Assets/img/svg/sun.svg" : "/Assets/img/svg/moon.svg";
 		$("#themeToggle .icon").attr("src", iconPath);
 	};
 
