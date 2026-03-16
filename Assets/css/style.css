@@ -459,39 +459,189 @@ input::placeholder {
 }
 
 .news {
-  padding: 0 16px 6px 16px;
+  padding: 5px 10px;
   background: var(--color-set-1);
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
-.news span {
+.news > span {
+  display: block;
   color: var(--text-color);
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fffed1;
+  padding-bottom: 4px;
 }
 
 #main_news {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 5px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 3px;
+  padding-left: 10px;
+  border-left: 2px solid #fff;
 }
 #main_news div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+#main_news div:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
 }
 #main_news div span {
-  color: var(--text-color);
-  font-size: 13px;
-  margin-right: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  font-family: monospace;
+  margin-right: 8px;
 }
 #main_news div a {
   color: var(--link);
+  font-size: 13px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#main_news div a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px var(--link);
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  backdrop-filter: blur(5px);
+}
+
+#newsPopup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 650px;
+  padding: 20px;
+  background: rgba(15, 15, 15, 0.95);
+  color: #c9d1d9;
+  border-radius: 4px;
+  z-index: 1000;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  border: 1px solid #fffed1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(255, 215, 0, 0.05);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(255, 215, 0, 0.05);
+}
+#newsPopup::before, #newsPopup::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fffed1;
+}
+#newsPopup::before {
+  top: -2px;
+  left: -2px;
+  border-right: 0;
+  border-bottom: 0;
+}
+#newsPopup::after {
+  bottom: -2px;
+  right: -2px;
+  border-left: 0;
+  border-top: 0;
+}
+
+#newsTitle {
+  color: #fffed1;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #fffed1;
+  padding: 0 0 10px 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#newsContent {
+  padding: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #d1d1d1;
+  max-height: 60vh;
+  overflow-y: auto;
+  border-radius: 4px;
+}
+#newsContent::-webkit-scrollbar {
+  width: 4px;
+}
+#newsContent::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 2px;
+}
+
+.btnNewsGitHub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #fffed1;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 15px;
+  margin: 20px auto 0 auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.btnNewsGitHub:hover {
+  background: rgba(255, 215, 0, 0.1);
+  border-color: #fffae6;
+  -webkit-box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+          box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+.btnNewsGitHub img {
+  width: 20px;
+  margin-right: 8px;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+.btnNewsGitHub span {
+  font-weight: bold;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 .main_header_text a:hover,
@@ -2994,80 +3144,6 @@ table {
 
 .hidden {
   display: none !important;
-}
-
-#newsPopup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 50%;
-  max-width: 600px;
-  padding: 10px;
-  background: rgba(25, 25, 25, 0.9);
-  -webkit-box-shadow: 0 0 5px 0 #000;
-          box-shadow: 0 0 5px 0 #000;
-  color: #c9d1d9;
-  border-radius: 10px;
-  z-index: 1000;
-  font-family: Arial, sans-serif;
-}
-
-#newsTitle {
-  border-bottom: 1px solid #30363d;
-  padding: 0 0 5px 10px;
-}
-
-#overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 999;
-  backdrop-filter: blur(5px);
-}
-
-pre {
-  padding: 5px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-.btnNewsGitHub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  border-bottom: 1px solid #000000;
-  -webkit-box-shadow: 0px 1px 2px #000000;
-          box-shadow: 0px 1px 2px #000000;
-  color: white;
-  border-radius: 20px;
-  padding: 3px;
-  margin-top: 15px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.btnNewsGitHub:hover {
-  background: rgba(0, 0, 0, 0.3);
-}
-.btnNewsGitHub img {
-  width: 25px;
-}
-.btnNewsGitHub span {
-  padding: 0 5px 0 5px;
-  font-weight: bold;
-  font-size: 13px;
 }
 
 .search-container {

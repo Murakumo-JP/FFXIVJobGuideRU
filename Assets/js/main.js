@@ -141,7 +141,6 @@ $(function () {
 		const cleanHref = href.replace(".html", "");
 		if (currentPath === cleanHref) {
 			$(this).addClass("active");
-			// Дополнительная блокировка клика для надежности
 			$(this).on("click", (e) => e.preventDefault());
 		}
 	});
@@ -371,7 +370,6 @@ $(function () {
 		initGlobalSearch("#searchPopupInput", "#searchPopupResults");
 	}
 
-	// Копирование ссылок поиска
 	$(document).on("click", ".copy-link", function (e) {
 		e.preventDefault();
 		e.stopPropagation();
@@ -382,7 +380,7 @@ $(function () {
 		});
 	});
 
-	initGlobalSearch("#search", "#results"); // Для инлайн-поиска, если есть
+	initGlobalSearch("#search", "#results");
 
 	// --- 3.10 Дебаг (Локальные ссылки и Tooltips) ---
 	const ENABLE_HTML_FIX = true;
@@ -406,7 +404,6 @@ $(function () {
 			fixSingleLink(this);
 		});
 
-		// Оставлен MutationObserver, чтобы динамическое меню и поиск тоже получали .html
 		const observer = new MutationObserver((mutations) => {
 			mutations.forEach((mutation) =>
 				mutation.addedNodes.forEach((node) => {
@@ -424,7 +421,6 @@ $(function () {
 		observer.observe(document.body, {childList: true, subtree: true});
 	}
 
-	// Тултипы для строк таблицы
 	$("tr").each(function () {
 		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
 		const titleText = attrs
@@ -433,34 +429,25 @@ $(function () {
 			.join(", ");
 		if (titleText) $(this).attr("title", titleText);
 	});
-	// Прелодер
-	// --- Логика Прелоадера ---
-
-	// Фиксированная ширина твоего скроллбара из CSS
-	const sbWidth = "15px";
-
-	if ($("#page-preloader").length === 0) {
-		//$("body").prepend(preloaderHtml);
-		if (document.documentElement.scrollHeight > window.innerHeight) {
-			$("body").css({
-				"overflow-y": "hidden",
-				"padding-right": sbWidth,
-			});
-		}
-	}
-
-	setTimeout(() => {
-		const $preloader = $("#page-preloader");
-		if ($preloader.length && !$preloader.hasClass("done")) {
-			$preloader.addClass("done");
-			setTimeout(() => {
+	// Preloader
+	function hidePreloader() {
+		setTimeout(() => {
+			const $preloader = $("#page-preloader");
+			if ($preloader.length && !$preloader.hasClass("done")) {
+				$preloader.addClass("done");
 				$("body").css({
 					"overflow-y": "visible",
 					"padding-right": "0px",
 				});
-			}, 0);
-		}
-		const hash = location.hash.substring(1);
-		if (hash) activateTab(hash);
-	}, 1800);
+			}
+			const hash = location.hash.substring(1);
+			if (hash) activateTab(hash);
+		}, 1200);
+	}
+
+	if (document.readyState === "complete") {
+		hidePreloader();
+	} else {
+		$(window).on("load", hidePreloader);
+	}
 });
