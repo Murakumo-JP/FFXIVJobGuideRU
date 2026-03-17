@@ -1,457 +1,546 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-
-   <head>
-      <meta charset="UTF-8">
-      <title>Gathering: Fisher | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<title>Gathering: Fisher | FFXIV RU</title>
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
 		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
 		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
 		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
 		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
-      <link rel="manifest" href="/manifest.json">
-      <meta property="og:title" content="Job Guide: Fisher">
-      <meta property="og:site_name" content="FFXIV Job Guide RU">
-      <meta property="og:description" content="Описание умений Fisher на русском">
-      <meta property="og:url" content="https://ff14jobguide.ru/Page/FSH">
-      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/FSH.png">
-      <meta name="theme-color" content="#8f7832">
-      <link rel="stylesheet" href="/Assets/css/style.min.css"/>
-      <script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-Y6M41KEYQX');
-      </script>
-   </head>
-   <body job-name="FSH">
-      <div id="page-preloader" class="preloader">
-         <div class="seal-container">
-               <img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo">
-               <div class="seal-ring ring-1"></div>
-               <div class="seal-ring ring-2"></div>
-         </div>
-         <div class="loader-text">Загрузка...</div>
-      </div>
-      <div class="jobguide job_gathering">
-         <!-- Top Menu -->
-         <div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
-         <!-- Header -->
-         <header class="job_header job_fsh">
-            <div class="job_header_inner">
-               <a href="../CraftingGatheringGuide" class="job_header_guide_top"><span>На главную</span></a>
-               <h1 class="job_header_nome">
-                  <img src="/Assets/img/JobHaider/JobFSH.png">
-                  <span class="job_header_role">
-                     <img src="/Assets/img/main/Gatherer.png"> Disciplines of the Land
-                  </span>
-               </h1>
-               <div class="job_header_text">
-                  <p>
-                     Рыбаки - добытчики морских и пресноводных рыб и животных Эорзеи.
-                     <br>Это ремесло получило широкое распространение в государстве Лимса Ломинса (Limsa Lominsa) благодаря изобилию вод на острове Вилбранд (Vylbrand island) и вокруг него.
-                     <br>Будь то берег моря, реки или палуба лодки, рыболовы Эорзеи должны постоянно учитывать множество факторов для достижения успеха, включая сезон, время, место, снасти и наживку.
-                  </p>
-               </div>
-               <div class="job_header_quest">
-                  <a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3498d9293ff/">
-                     <span>
-                        <img src="/Assets/img/main/quest.png"> Стартовое задание профессии
-                     </span>
-                  </a>
-               </div>
-            </div>
-         </header>
-         <!-- DB Skill List -->
-         <div class="job_skill_list">
-            <div class="job_skill_db-pve">
-               <p class="job_update" db-value="Gathering Update"></p>
-               <ul class="job_tab tab_gatherer clearfix">
-                  <li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
-                  <li class="js-tab-trigger" data-tab="guide">Общая информация</li>
-               </ul>
-               <!-- Skil -->
-               <div class="guide-inner js-tab-content active" data-tab="skill">
-                  <p class="job_notes_lvl" id="patch_info"></p>
-                  <h2 class="guide-title">Активные и пассивные умения</h2>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="190">
-                           <col width="90">
-                           <col width="89">
-                           <col width="115">
-                           <col width="77">
-                           <col width="345">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Тип</p></th>
-                              <th><p>Время восстановления</p></th>
-                              <th><p>Стоимость GP</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="action_01" db-skill-gathering="Action 01"></tr>
-                           <tr id="action_02" db-skill-gathering="Action 02"></tr>
-                           <tr id="action_03" db-skill-gathering="Action 03"></tr>
-                           <tr id="action_04" db-skill-gathering="Action 04"></tr>
-                           <tr id="action_05" db-skill-gathering="Action 05"></tr>
-                           <tr id="action_06" db-skill-gathering="Action 06"></tr>
-                           <tr id="action_07" db-skill-gathering="Action 07"></tr>
-                           <tr id="action_08" db-skill-gathering="Action 08"></tr>
-                           <tr id="action_09" db-skill-gathering="Action 09"></tr>
-                           <tr id="action_10" db-skill-gathering="Action 10"></tr>
-                           <tr id="action_11" db-skill-gathering="Action 11"></tr>
-                           <tr id="action_12" db-skill-gathering="Action 12"></tr>
-                           <tr id="action_13" db-skill-gathering="Action 13"></tr>
-                           <tr id="action_14" db-skill-gathering="Action 14"></tr>
-                           <tr id="action_15" db-skill-gathering="Action 15"></tr>
-                           <tr id="action_16" db-skill-gathering="Action 16"></tr>
-                           <tr id="action_17" db-skill-gathering="Action 17"></tr>
-                           <tr id="action_18" db-skill-gathering="Action 18"></tr>
-                           <tr id="action_19" db-skill-gathering="Action 19"></tr>
-                           <tr id="action_20" db-skill-gathering="Action 20"></tr>
-                           <tr id="action_21" db-skill-gathering="Action 21"></tr>
-                           <tr id="action_22" db-skill-gathering="Action 22"></tr>
-                           <tr id="action_23" db-skill-gathering="Action 23"></tr>
-                           <tr id="action_24" db-skill-gathering="Action 24"></tr>
-                           <tr id="action_25" db-skill-gathering="Action 25"></tr>
-                           <tr id="action_26" db-skill-gathering="Action 26"></tr>
-                           <tr id="action_27" db-skill-gathering="Action 27"></tr>
-                           <tr id="action_28" db-skill-gathering="Action 28"></tr>
-                           <tr id="action_29" db-skill-gathering="Action 29"></tr>
-                           <tr id="action_30" db-skill-gathering="Action 30"></tr>
-                           <tr id="action_31" db-skill-gathering="Action 31"></tr>
-                           <tr id="action_32" db-skill-gathering="Action 32"></tr>
-                           <tr id="action_33" db-skill-gathering="Action 33"></tr>
-                           <tr id="action_34" db-skill-gathering="Action 34"></tr>
-                           <tr id="action_35" db-skill-gathering="Action 35"></tr>
-                           <tr id="action_36" db-skill-gathering="Action 36"></tr>
-                           <tr id="action_37" db-skill-gathering="Action 37"></tr>
-                        </tbody>
-                     </table>
-                     <p class="guide-notes">* В Dawntrail были добавленные спрятанные рыбы. Это рыбы, который можно поймать только с помощью скиллов 100 уровня. 
-                        <br/>При использовании этих скиллов может произойти 2 вещи: или появится стандартный текст (You have a feeling smth smth), что означает, что рыба на крючке будет либо маленькая (зеленый скилл), либо большая (красный скилл). В данном случае это имеется ввиду, что изначальный размер рыбы не high quality большая.
-                        <br/>Или появится специальный текст. Он появляется если спрятанная рыба доступна для поимки в водоёме. Специальный текст даёт шанс, что нужная рыба будет на крючке.</p>
-                  </div>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_addaction">Ролевые умения собирателей (Gatherer)</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="191">
-                           <col width="90">
-                           <col width="82">
-                           <col width="115">
-                           <col width="429">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Тип</p></th>
-                              <th><p>Время восстановления</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="addaction_01" db-gathering-passive="Gatherer Role 01"></tr>
-                           <tr id="addaction_02" db-gathering-passive="Gatherer Role 02"></tr>
-                           <tr id="addaction_03" db-gathering-passive="Gatherer Role 03"></tr>
-                           <tr id="addaction_04" db-gathering-passive="Gatherer Role 04"></tr>
-                        </tbody>
-                     </table>
-                     <p class="guide-notes">* Ролевые умения (role actions) собирателей после изучения можно использовать на любом классе собирателей (gathering).</p>
-                  </div>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_trait">Пассивные умения</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="191">
-                           <col width="90">
-                           <col width="*">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="traitaction_01" db-gathering-passive="Gatherer Traits 01"></tr>
-                           <tr id="traitaction_02" db-gathering-passive="Gatherer Traits 02"></tr>
-                           <tr id="traitaction_03" db-gathering-passive="Gatherer Traits 03"></tr>
-                           <tr id="traitaction_04" db-gathering-passive="Gatherer Traits 04"></tr>
-                           <tr id="traitaction_05" db-gathering-passive="Gatherer Traits 05"></tr>
-                           <tr id="traitaction_06" db-gathering-passive="Gatherer Traits 06"></tr>
-                           <tr id="traitaction_07" db-gathering-passive="Gatherer Traits 07"></tr>
-                           <tr id="traitaction_08" db-gathering-passive="Gatherer Traits 08"></tr>
-                           <tr id="traitaction_09" db-gathering-passive="Gatherer Traits 09"></tr>
-                           <tr id="traitaction_10" db-gathering-passive="Gatherer Traits 10"></tr>
-                           <tr id="traitaction_11" db-gathering-passive="Gatherer Traits 11"></tr>
-                           <tr id="traitaction_12" db-gathering-passive="Gatherer Traits 12"></tr>
-                           <tr id="traitaction_13" db-gathering-passive="Gatherer Traits 13"></tr>
-                           <tr id="traitaction_14" db-gathering-passive="Gatherer Traits 14"></tr>
-                           <tr id="traitaction_15" db-gathering-passive="Gatherer Traits 15"></tr>
-                           <tr id="traitaction_16" db-gathering-passive="Gatherer Traits 16"></tr>
-                           <tr id="traitaction_17" db-gathering-passive="Gatherer Traits 17"></tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <!-- Content Wrapper END -->                  
-               </div>
-               <!-- Guide -->
-               <div class="guide-inner js-tab-content" data-tab="guide">
-                  <div class="guide-about" id="anchor_start">
-                     <h2 class="guide-about_title gatherer">Присоединиться к Discipline of the Land</h2>
-                     <div class="guide-about_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/_/Blak4d0rc_RMgi9Czpd2hbAdZI.jpg" width="400" height="400" />
-                        <div class="guide-about_map_text"><br><br>
-                           <p>
-                              Как только персонаж достигнет 10 уровня класса, который был выбран в начале игры, можно взять новое задание. Выполнив его, персонаж сможет вступить в гильдии других классов.<br />
-                              <br />Чтобы стать рыбаком, требуется найти и вступить в Fishermen's Guild, расположенную в lower decks в Limsa Lominsa (X:7.9 Y:14.2).
-                           </p>
-                           <p class="notes">Для смены класса, после вступления в гильдию, необходимо экипировать инструмент нужного класса.</p>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_can">
-                        <h2 class="guide-about_title gatherer">Рыбак: ключевые особенности</h2>
-                        <p class="guide-about_text">Disciples of the Land могут собирать полезные материалы в игровом мире, доступные их профессии.</p>
-                        <p class="guide-about_text">
-                           Рыбаки - это класс собирателей, специализирующийся на ловле пресноводных и морских животных из озер, рек и океанов.
-                           <br />Те, кто овладел искусством рыбной ловли, могут добывать улов и в более уникальных местах, таких как пески пустыни, облака и даже магма.
-                           <br />А вот при исследовании океанских глубин рыбаки должны использовать spearfishing gig, чтобы выловить рыбу из teeming waters.
-                        </p>
-                        <ul class="guide-about_column">
-                           <li>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/3/WMEAXxTmWCZi2Ue11cZurE_3gI.jpg" width="400" />
-                           </li>
-                           <li>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/v/7R4jdyPVmEKnehMBs9HhYY6gGY.jpg" width="400" />
-                           </li>
-                        </ul>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_play">
-                        <h2 class="guide-about_title gatherer">Рыбалка</h2>
-                        <h3 class="guide-about_subtitle gatherer">Как начать?</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/n/4wx30P6z7KrbRf_qLlrqa2q160.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Первое, используйте умение Bait, чтобы подготовить приманку и снасти.<br />
-                                 <br />Существует большой выбор приманок: одни для пресной воды, другие для соленой, третьи для всех водоемов и т.д.<br />
-                                 <br />Приманки и снасти можно приобрести у различных торговцев. Тщательно выбирайте инструменты, чтобы они соответствовали месту рыбалки.
-                              </p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/3/WMEAXxTmWCZi2Ue11cZurE_3gI.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Выбрав приманку, подойдите к выбранному месту ловли и используйте умение Cast, чтобы начать рыбалку.</p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Рыбная приманка</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/0/FItMa_iukPNWIQxvZXETBWTR0U.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Как только вы забросите приманку, через некоторое время к ней подплывет рыба.<br />
-                                 <br />Когда рыба клюнет, над головой персонажа появятся восклицательные знаки. Используйте умение Hook в правильное время, чтобы поймать улов.<br />
-                                 <br />В fishing log можно просмотреть данные как о разведанных и скрытых местах рыбалки, так и о каждой рыбе.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_size">
-                        <h2 class="guide-about_title gatherer">Размеры улова</h2>
-                        <h3 class="guide-about_subtitle gatherer">Крупная рыба и Angler's Art</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/M/bMM3z7_rLaQUsBa7XKjPDFFWEM.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Все рыбы имеют определенный размер. Рыбы, которые больше среднего размера своего вида, считаются крупными.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/3/n45A2WKTHVeP2Vk6op0CO1mJ8M.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 После получения пассивного умения Angler's Art у вас появляется шанс получить стак эффекта Angler's Art, когда вы поймаете рыбу большого размера.<br />
-                                 <br />Одновременно у вас может быть до 10 стаков эффекта Angler's Art, которые можно использовать для мощных умений.
-                              </p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Patience</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/l/vAfIl_-MC0Snu5l76iXMbDlBas.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p>Как только вы забросите приманку, через некоторое время к ней подплывет рыба.
-                                 <br />Когда рыба клюнет, над головой персонажа появятся восклицательные знаки. Используйте умение Hook в правильное время, чтобы поймать улов.</p>
-                              <h4 class="guide-about_lead gatherer">Patience &amp; Patience II</h4>
-                              <p>Умения Patience или Patience II могут значительно увеличить шансы на поимку крупной рыбы.<br />
-                                 <br />Взамен эффективность Hook снижается.</p>
-                              <h4 class="guide-about_lead gatherer">Precision Hookset &amp; Powerful Hookset</h4>
-                              <p>
-                                 Вы можете компенсировать снижение эффективности Hook после использования Patience или Patience II, выбрав соответствующий набор ключков. Когда над головой вашего персонажа появляется "!", используйте Precision Hookset, а когда появляется "!!", используйте Powerful Hookset.<br />
-                                 <br />Это поможет вам легче поймать крупный улов.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_collect">
-                        <h2 class="guide-about_title gatherer">Collectables</h2>
-                        <h3 class="guide-about_subtitle gatherer">Рыбные Collectable предметы</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/-/Y-7U0tiLvob0xdQ4ckURbhRtHU.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Как Disciple of the Land, вам может потребоваться обменивать предметы, называемые collectables.<br />
-                                 <br />Ценность данных предметов определяется с помощью collectability rating, чем он выше, тем более высокую награду вы получите при обмене.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/l/za-nwyZzYKDodaBDMUJYg_PyJs.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Некоторые collectables предметы можно распылить для получения других полезных материалов с помощью aetherial reduction.<br />
-                                 <br />Тип предмета collectable's type и его collectability влияют на тип и количество предметов, на которые он распыляется..</p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Рыбалка для Collectables предметов</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/B/NGpV-hmUx21AAA70Tn53S-4VIo.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Используя умение Collect, вы сможете поймать некоторых рыб в качестве collectables предметов.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/P/CtQc2VtImqp43ZvoYxOs-o7TvU.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Чем больше collectable рыба, тем выше ее collectability.</p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_spear">
-                        <h2 class="guide-about_title gatherer">Spearfishing</h2>
-                        <h3 class="guide-about_subtitle gatherer">Как начать?</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/i/qqepk5P_fOCN16fZRUos_74BbU.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Достигнув 61 уровня рыбака, становится доступно задание <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/569821285da/" class="eorzeadb_link">"A New Fishing Ex-spear-ience"</a>. Выполнив его, вы сможете заняться spearfishing.<br />
-                                 <br />Чтобы заняться spearfishing, требуется снарядить spearfishing gig.
-                              </p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/T/tuf9IUjXksCXhwfDzPTmTyuRDo.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>В воде вы можете использовать умение Shark Eye, чтобы найти teeming waters, где водится много рыбы.<br />
-                                 <br />Наведите курсор на место teeming waters, чтобы переключиться на spearfishing screen.</p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Советы по Spearfishing</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/t/fAxvzdMf03e9WaH2SN7nb7L75U.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Вы увидите, как на экране проплывают различные виды рыб.<br />
-                                 <br />У каждой рыбы есть слабое место, в которое вы можете прицелиться.
-                                 <br />Наведите spear на слабое место с помощью умения Gig, чтобы поймать рыбу.<br />
-                                 <br />В fishing log вы можете просмотреть прошлые места рыбалки и данные о рыбе.
-                              </p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/q/tBUv9bv2iKPUE9HG1Q-ilYjIdw.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Ближайшие рыбы обратят внимание на ваши умения: их настороженность (wariness) отображается на шкале (gauge) в верхней части интерфейса spearfishing.<br />
-                                 <br />Настороженность (wariness) медленно увеличивается с течением времени, а также с каждым ударом копья. Когда шкала заполнится, рыба расплывется, завершив вашу попытку spearfishing.
-                              </p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Счетчик улова</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/F/xWeORYCds-nVBfrHbzQAQe3Yhk.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Успешная поимка нескольких рыб подряд увеличивает счетчик улова, который замедляет скорость нарастания настороженности.<br />
-                                 <br />Счетчик улова может подняться до 10, но опустится до 0, если вы провалите умение Gig или слишком долго не поймаете ни одной рыбы.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>                                   
-               </div>
-            </div>
-         </div>
-      </div>
-      <footer>
-         <div class="footer_inner">
-            <div class="footer_info">
-               <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-                  <img src="/Assets/img/svg/github.svg">
-                  Source Code
-               </a>
-            </div>
-            <div class="SE"></div>
-         </div>
-      </footer>
-      <div class="nome_app_top">
-         <a class="app_top"><img src="/Assets/img/svg/arrow-up.svg"></a>
-      </div>
-      <!--- Script --->
-      <script type="text/javascript" src="/Assets/js/main.js"></script>
-      <script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
-      <script>
-         document.addEventListener("DOMContentLoaded", () => {
-            CORE_DB_LOAD(["/DB/Fisher.json"], DB_VERSION);
-         });
-      </script>
-      <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
-   </body>
+		<link rel="manifest" href="/manifest.json" />
+		<meta property="og:title" content="Job Guide: Fisher" />
+		<meta property="og:site_name" content="FFXIV Job Guide RU" />
+		<meta property="og:description" content="Описание умений Fisher на русском" />
+		<meta property="og:url" content="https://ff14jobguide.ru/Page/FSH" />
+		<meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/FSH.png" />
+		<meta name="theme-color" content="#8f7832" />
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-Y6M41KEYQX");
+		</script>
+	</head>
+	<body job-name="FSH">
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<div class="jobguide job_gathering">
+			<!-- Top Menu -->
+			<div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
+			<!-- Header -->
+			<header class="job_header job_fsh">
+				<div class="job_header_inner">
+					<a href="../CraftingGatheringGuide" class="job_header_guide_top"><span>На главную</span></a>
+					<h1 class="job_header_nome">
+						<img src="/Assets/img/JobHaider/JobFSH.png" />
+						<span class="job_header_role">
+							<img src="/Assets/img/main/Gatherer.png" />
+							Disciplines of the Land
+						</span>
+					</h1>
+					<div class="job_header_text">
+						<p>
+							Рыбаки - добытчики морских и пресноводных рыб и животных Эорзеи.
+							<br />
+							Это ремесло получило широкое распространение в государстве Лимса Ломинса (Limsa Lominsa) благодаря изобилию вод на острове Вилбранд (Vylbrand island) и вокруг него.
+							<br />
+							Будь то берег моря, реки или палуба лодки, рыболовы Эорзеи должны постоянно учитывать множество факторов для достижения успеха, включая сезон, время, место, снасти и наживку.
+						</p>
+					</div>
+					<div class="job_header_quest">
+						<a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3498d9293ff/">
+							<span>
+								<img src="/Assets/img/main/quest.png" />
+								Стартовое задание профессии
+							</span>
+						</a>
+					</div>
+				</div>
+			</header>
+			<!-- DB Skill List -->
+			<div class="job_skill_list">
+				<div class="job_skill_db-pve">
+					<p class="job_update" db-value="Gathering Update"></p>
+					<ul class="job_tab tab_gatherer clearfix">
+						<li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
+						<li class="js-tab-trigger" data-tab="guide">Общая информация</li>
+					</ul>
+					<!-- Skil -->
+					<div class="guide-inner js-tab-content active" data-tab="skill">
+						<p class="job_notes_lvl" id="patch_info"></p>
+						<h2 class="guide-title">Активные и пассивные умения</h2>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="190" />
+									<col width="90" />
+									<col width="89" />
+									<col width="115" />
+									<col width="77" />
+									<col width="345" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Тип</p></th>
+										<th><p>Время восстановления</p></th>
+										<th><p>Стоимость GP</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="action_01" db-skill-gathering="Action 01"></tr>
+									<tr id="action_02" db-skill-gathering="Action 02"></tr>
+									<tr id="action_03" db-skill-gathering="Action 03"></tr>
+									<tr id="action_04" db-skill-gathering="Action 04"></tr>
+									<tr id="action_05" db-skill-gathering="Action 05"></tr>
+									<tr id="action_06" db-skill-gathering="Action 06"></tr>
+									<tr id="action_07" db-skill-gathering="Action 07"></tr>
+									<tr id="action_08" db-skill-gathering="Action 08"></tr>
+									<tr id="action_09" db-skill-gathering="Action 09"></tr>
+									<tr id="action_10" db-skill-gathering="Action 10"></tr>
+									<tr id="action_11" db-skill-gathering="Action 11"></tr>
+									<tr id="action_12" db-skill-gathering="Action 12"></tr>
+									<tr id="action_13" db-skill-gathering="Action 13"></tr>
+									<tr id="action_14" db-skill-gathering="Action 14"></tr>
+									<tr id="action_15" db-skill-gathering="Action 15"></tr>
+									<tr id="action_16" db-skill-gathering="Action 16"></tr>
+									<tr id="action_17" db-skill-gathering="Action 17"></tr>
+									<tr id="action_18" db-skill-gathering="Action 18"></tr>
+									<tr id="action_19" db-skill-gathering="Action 19"></tr>
+									<tr id="action_20" db-skill-gathering="Action 20"></tr>
+									<tr id="action_21" db-skill-gathering="Action 21"></tr>
+									<tr id="action_22" db-skill-gathering="Action 22"></tr>
+									<tr id="action_23" db-skill-gathering="Action 23"></tr>
+									<tr id="action_24" db-skill-gathering="Action 24"></tr>
+									<tr id="action_25" db-skill-gathering="Action 25"></tr>
+									<tr id="action_26" db-skill-gathering="Action 26"></tr>
+									<tr id="action_27" db-skill-gathering="Action 27"></tr>
+									<tr id="action_28" db-skill-gathering="Action 28"></tr>
+									<tr id="action_29" db-skill-gathering="Action 29"></tr>
+									<tr id="action_30" db-skill-gathering="Action 30"></tr>
+									<tr id="action_31" db-skill-gathering="Action 31"></tr>
+									<tr id="action_32" db-skill-gathering="Action 32"></tr>
+									<tr id="action_33" db-skill-gathering="Action 33"></tr>
+									<tr id="action_34" db-skill-gathering="Action 34"></tr>
+									<tr id="action_35" db-skill-gathering="Action 35"></tr>
+									<tr id="action_36" db-skill-gathering="Action 36"></tr>
+									<tr id="action_37" db-skill-gathering="Action 37"></tr>
+								</tbody>
+							</table>
+							<p class="guide-notes">
+								* В Dawntrail были добавленные спрятанные рыбы. Это рыбы, который можно поймать только с помощью скиллов 100 уровня.
+								<br />
+								При использовании этих скиллов может произойти 2 вещи: или появится стандартный текст (You have a feeling smth smth), что означает, что рыба на крючке будет либо маленькая (зеленый скилл), либо большая (красный скилл). В данном случае
+								это имеется ввиду, что изначальный размер рыбы не high quality большая.
+								<br />
+								Или появится специальный текст. Он появляется если спрятанная рыба доступна для поимки в водоёме. Специальный текст даёт шанс, что нужная рыба будет на крючке.
+							</p>
+						</div>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_addaction">Ролевые умения собирателей (Gatherer)</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="191" />
+									<col width="90" />
+									<col width="82" />
+									<col width="115" />
+									<col width="429" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Тип</p></th>
+										<th><p>Время восстановления</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="addaction_01" db-gathering-passive="Gatherer Role 01"></tr>
+									<tr id="addaction_02" db-gathering-passive="Gatherer Role 02"></tr>
+									<tr id="addaction_03" db-gathering-passive="Gatherer Role 03"></tr>
+									<tr id="addaction_04" db-gathering-passive="Gatherer Role 04"></tr>
+								</tbody>
+							</table>
+							<p class="guide-notes">* Ролевые умения (role actions) собирателей после изучения можно использовать на любом классе собирателей (gathering).</p>
+						</div>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_trait">Пассивные умения</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="191" />
+									<col width="90" />
+									<col width="*" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="traitaction_01" db-gathering-passive="Gatherer Traits 01"></tr>
+									<tr id="traitaction_02" db-gathering-passive="Gatherer Traits 02"></tr>
+									<tr id="traitaction_03" db-gathering-passive="Gatherer Traits 03"></tr>
+									<tr id="traitaction_04" db-gathering-passive="Gatherer Traits 04"></tr>
+									<tr id="traitaction_05" db-gathering-passive="Gatherer Traits 05"></tr>
+									<tr id="traitaction_06" db-gathering-passive="Gatherer Traits 06"></tr>
+									<tr id="traitaction_07" db-gathering-passive="Gatherer Traits 07"></tr>
+									<tr id="traitaction_08" db-gathering-passive="Gatherer Traits 08"></tr>
+									<tr id="traitaction_09" db-gathering-passive="Gatherer Traits 09"></tr>
+									<tr id="traitaction_10" db-gathering-passive="Gatherer Traits 10"></tr>
+									<tr id="traitaction_11" db-gathering-passive="Gatherer Traits 11"></tr>
+									<tr id="traitaction_12" db-gathering-passive="Gatherer Traits 12"></tr>
+									<tr id="traitaction_13" db-gathering-passive="Gatherer Traits 13"></tr>
+									<tr id="traitaction_14" db-gathering-passive="Gatherer Traits 14"></tr>
+									<tr id="traitaction_15" db-gathering-passive="Gatherer Traits 15"></tr>
+									<tr id="traitaction_16" db-gathering-passive="Gatherer Traits 16"></tr>
+									<tr id="traitaction_17" db-gathering-passive="Gatherer Traits 17"></tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Content Wrapper END -->
+					</div>
+					<!-- Guide -->
+					<div class="guide-inner js-tab-content" data-tab="guide">
+						<div class="guide-about" id="anchor_start">
+							<h2 class="guide-about_title gatherer">Присоединиться к Discipline of the Land</h2>
+							<div class="guide-about_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/_/Blak4d0rc_RMgi9Czpd2hbAdZI.jpg" width="400" height="400" />
+								<div class="guide-about_map_text">
+									<br />
+									<br />
+									<p>
+										Как только персонаж достигнет 10 уровня класса, который был выбран в начале игры, можно взять новое задание. Выполнив его, персонаж сможет вступить в гильдии других классов.
+										<br />
+										<br />
+										Чтобы стать рыбаком, требуется найти и вступить в Fishermen's Guild, расположенную в lower decks в Limsa Lominsa (X:7.9 Y:14.2).
+									</p>
+									<p class="notes">Для смены класса, после вступления в гильдию, необходимо экипировать инструмент нужного класса.</p>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_can">
+								<h2 class="guide-about_title gatherer">Рыбак: ключевые особенности</h2>
+								<p class="guide-about_text">Disciples of the Land могут собирать полезные материалы в игровом мире, доступные их профессии.</p>
+								<p class="guide-about_text">
+									Рыбаки - это класс собирателей, специализирующийся на ловле пресноводных и морских животных из озер, рек и океанов.
+									<br />
+									Те, кто овладел искусством рыбной ловли, могут добывать улов и в более уникальных местах, таких как пески пустыни, облака и даже магма.
+									<br />
+									А вот при исследовании океанских глубин рыбаки должны использовать spearfishing gig, чтобы выловить рыбу из teeming waters.
+								</p>
+								<ul class="guide-about_column">
+									<li>
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/3/WMEAXxTmWCZi2Ue11cZurE_3gI.jpg" width="400" />
+									</li>
+									<li>
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/v/7R4jdyPVmEKnehMBs9HhYY6gGY.jpg" width="400" />
+									</li>
+								</ul>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_play">
+								<h2 class="guide-about_title gatherer">Рыбалка</h2>
+								<h3 class="guide-about_subtitle gatherer">Как начать?</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/n/4wx30P6z7KrbRf_qLlrqa2q160.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Первое, используйте умение Bait, чтобы подготовить приманку и снасти.
+											<br />
+											<br />
+											Существует большой выбор приманок: одни для пресной воды, другие для соленой, третьи для всех водоемов и т.д.
+											<br />
+											<br />
+											Приманки и снасти можно приобрести у различных торговцев. Тщательно выбирайте инструменты, чтобы они соответствовали месту рыбалки.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/3/WMEAXxTmWCZi2Ue11cZurE_3gI.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Выбрав приманку, подойдите к выбранному месту ловли и используйте умение Cast, чтобы начать рыбалку.</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Рыбная приманка</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/0/FItMa_iukPNWIQxvZXETBWTR0U.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Как только вы забросите приманку, через некоторое время к ней подплывет рыба.
+											<br />
+											<br />
+											Когда рыба клюнет, над головой персонажа появятся восклицательные знаки. Используйте умение Hook в правильное время, чтобы поймать улов.
+											<br />
+											<br />
+											В fishing log можно просмотреть данные как о разведанных и скрытых местах рыбалки, так и о каждой рыбе.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_size">
+								<h2 class="guide-about_title gatherer">Размеры улова</h2>
+								<h3 class="guide-about_subtitle gatherer">Крупная рыба и Angler's Art</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/M/bMM3z7_rLaQUsBa7XKjPDFFWEM.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Все рыбы имеют определенный размер. Рыбы, которые больше среднего размера своего вида, считаются крупными.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/3/n45A2WKTHVeP2Vk6op0CO1mJ8M.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											После получения пассивного умения Angler's Art у вас появляется шанс получить стак эффекта Angler's Art, когда вы поймаете рыбу большого размера.
+											<br />
+											<br />
+											Одновременно у вас может быть до 10 стаков эффекта Angler's Art, которые можно использовать для мощных умений.
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Patience</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/l/vAfIl_-MC0Snu5l76iXMbDlBas.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											Как только вы забросите приманку, через некоторое время к ней подплывет рыба.
+											<br />
+											Когда рыба клюнет, над головой персонажа появятся восклицательные знаки. Используйте умение Hook в правильное время, чтобы поймать улов.
+										</p>
+										<h4 class="guide-about_lead gatherer">Patience &amp; Patience II</h4>
+										<p>
+											Умения Patience или Patience II могут значительно увеличить шансы на поимку крупной рыбы.
+											<br />
+											<br />
+											Взамен эффективность Hook снижается.
+										</p>
+										<h4 class="guide-about_lead gatherer">Precision Hookset &amp; Powerful Hookset</h4>
+										<p>
+											Вы можете компенсировать снижение эффективности Hook после использования Patience или Patience II, выбрав соответствующий набор ключков. Когда над головой вашего персонажа появляется "!", используйте Precision Hookset, а когда
+											появляется "!!", используйте Powerful Hookset.
+											<br />
+											<br />
+											Это поможет вам легче поймать крупный улов.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_collect">
+								<h2 class="guide-about_title gatherer">Collectables</h2>
+								<h3 class="guide-about_subtitle gatherer">Рыбные Collectable предметы</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/-/Y-7U0tiLvob0xdQ4ckURbhRtHU.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Как Disciple of the Land, вам может потребоваться обменивать предметы, называемые collectables.
+											<br />
+											<br />
+											Ценность данных предметов определяется с помощью collectability rating, чем он выше, тем более высокую награду вы получите при обмене.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/l/za-nwyZzYKDodaBDMUJYg_PyJs.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Некоторые collectables предметы можно распылить для получения других полезных материалов с помощью aetherial reduction.
+											<br />
+											<br />
+											Тип предмета collectable's type и его collectability влияют на тип и количество предметов, на которые он распыляется..
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Рыбалка для Collectables предметов</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/B/NGpV-hmUx21AAA70Tn53S-4VIo.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Используя умение Collect, вы сможете поймать некоторых рыб в качестве collectables предметов.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/P/CtQc2VtImqp43ZvoYxOs-o7TvU.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Чем больше collectable рыба, тем выше ее collectability.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_spear">
+								<h2 class="guide-about_title gatherer">Spearfishing</h2>
+								<h3 class="guide-about_subtitle gatherer">Как начать?</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/i/qqepk5P_fOCN16fZRUos_74BbU.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Достигнув 61 уровня рыбака, становится доступно задание
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/569821285da/" class="eorzeadb_link">"A New Fishing Ex-spear-ience"</a>
+											. Выполнив его, вы сможете заняться spearfishing.
+											<br />
+											<br />
+											Чтобы заняться spearfishing, требуется снарядить spearfishing gig.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/T/tuf9IUjXksCXhwfDzPTmTyuRDo.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											В воде вы можете использовать умение Shark Eye, чтобы найти teeming waters, где водится много рыбы.
+											<br />
+											<br />
+											Наведите курсор на место teeming waters, чтобы переключиться на spearfishing screen.
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Советы по Spearfishing</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/t/fAxvzdMf03e9WaH2SN7nb7L75U.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Вы увидите, как на экране проплывают различные виды рыб.
+											<br />
+											<br />
+											У каждой рыбы есть слабое место, в которое вы можете прицелиться.
+											<br />
+											Наведите spear на слабое место с помощью умения Gig, чтобы поймать рыбу.
+											<br />
+											<br />
+											В fishing log вы можете просмотреть прошлые места рыбалки и данные о рыбе.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/q/tBUv9bv2iKPUE9HG1Q-ilYjIdw.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Ближайшие рыбы обратят внимание на ваши умения: их настороженность (wariness) отображается на шкале (gauge) в верхней части интерфейса spearfishing.
+											<br />
+											<br />
+											Настороженность (wariness) медленно увеличивается с течением времени, а также с каждым ударом копья. Когда шкала заполнится, рыба расплывется, завершив вашу попытку spearfishing.
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Счетчик улова</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/F/xWeORYCds-nVBfrHbzQAQe3Yhk.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Успешная поимка нескольких рыб подряд увеличивает счетчик улова, который замедляет скорость нарастания настороженности.
+											<br />
+											<br />
+											Счетчик улова может подняться до 10, но опустится до 0, если вы провалите умение Gig или слишком долго не поймаете ни одной рыбы.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer_inner">
+				<div class="footer_info">
+					<a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
+						<img src="/Assets/img/svg/github.svg" />
+						Source Code
+					</a>
+				</div>
+				<div class="SE"></div>
+			</div>
+		</footer>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/img/svg/arrow-up.svg" /></a>
+		</div>
+		<!--- Script --->
+		<script type="text/javascript" src="/Assets/js/main.js"></script>
+		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				CORE_DB_LOAD(["/DB/Fisher.json"], DB_VERSION);
+			});
+		</script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</body>
 </html>

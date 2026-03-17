@@ -1,692 +1,791 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8">
-      <title>Job Guide: Blue Mage | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<title>Job Guide: Blue Mage | FFXIV RU</title>
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
 		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
 		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
 		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
 		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
-      <link rel="manifest" href="/manifest.json">
-      <meta property="og:title" content="Job Guide: Blue Mage">
-      <meta property="og:site_name" content="FFXIV Job Guide RU">
-      <meta property="og:description" content="Описание умений Blue Mage на русском">
-      <meta property="og:url" content="https://ff14jobguide.ru/Page/BLU">
-      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/BLU.png">
-      <meta name="theme-color" content="#732828">
-      <link rel="stylesheet" href="/Assets/css/style.min.css"/>
-      <script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-Y6M41KEYQX');
-      </script>
-   </head>
-   <body id="BLU">
-      <div id="page-preloader" class="preloader">
-         <div class="seal-container">
-               <img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo">
-               <div class="seal-ring ring-1"></div>
-               <div class="seal-ring ring-2"></div>
-         </div>
-         <div class="loader-text">Загрузка...</div>
-      </div>
-      <div class="jobguide job_tank">
-         <!-- Top Menu -->
-          <div class="jobguide_menu_wrapper" data-menu-type="MenuDoWDoM"></div>
-         <!-- Header -->
-         <header class="job_header job_blu">
-            <!-- Job Skil Menu -->
-            <div class="job_menu">
-               <div class="nav_floating_icon fixed"></div>
-               <div class="nav_floating_list fixed">
-                  <div class="nav_floating_list_wrapper">
-                     <!-- Guide -->
-                     <div class="job_menu_tank js-tab-content active" data-tab="guide">
-                        <h2 class="job_nav_title"><a href="#anchor_start">Как открыть?</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_limited">Лимитная профессия</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_learning">Изучение заклинаний</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_book">Blue Magic Spellbook</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_action">Активные умения</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_carnival">Masked Carnivale</a></h2>
-                        <h2 class="job_nav_title"><a href="#anchor_report">Blue Mage Log</a></h2>
-                     </div>
-                     <!-- Skill -->
-                     <div class="job_menu_tank js-tab-content" data-tab="skill">
-                        <h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
-                        <ul class="clearfix">
-                           <li><a href="#action_01" class="job_skill_icon" db-skill-menu="Action 01"></a></li>
-                           <li><a href="#action_02" class="job_skill_icon" db-skill-menu="Action 02"></a></li>
-                           <li><a href="#action_03" class="job_skill_icon" db-skill-menu="Action 03"></a></li>
-                           <li><a href="#action_04" class="job_skill_icon" db-skill-menu="Action 04"></a></li>
-                           <li><a href="#action_05" class="job_skill_icon" db-skill-menu="Action 05"></a></li>
-                           <li><a href="#action_06" class="job_skill_icon" db-skill-menu="Action 06"></a></li>
-                           <li><a href="#action_07" class="job_skill_icon" db-skill-menu="Action 07"></a></li>
-                           <li><a href="#action_08" class="job_skill_icon" db-skill-menu="Action 08"></a></li>
-                           <li><a href="#action_09" class="job_skill_icon" db-skill-menu="Action 09"></a></li>
-                           <li><a href="#action_10" class="job_skill_icon" db-skill-menu="Action 10"></a></li>
-                           <li><a href="#action_11" class="job_skill_icon" db-skill-menu="Action 11"></a></li>
-                           <li><a href="#action_12" class="job_skill_icon" db-skill-menu="Action 12"></a></li>
-                           <li><a href="#action_13" class="job_skill_icon" db-skill-menu="Action 13"></a></li>
-                           <li><a href="#action_14" class="job_skill_icon" db-skill-menu="Action 14"></a></li>
-                           <li><a href="#action_15" class="job_skill_icon" db-skill-menu="Action 15"></a></li>
-                           <li><a href="#action_16" class="job_skill_icon" db-skill-menu="Action 16"></a></li>
-                           <li><a href="#action_17" class="job_skill_icon" db-skill-menu="Action 17"></a></li>
-                           <li><a href="#action_18" class="job_skill_icon" db-skill-menu="Action 18"></a></li>
-                           <li><a href="#action_19" class="job_skill_icon" db-skill-menu="Action 19"></a></li>
-                           <li><a href="#action_20" class="job_skill_icon" db-skill-menu="Action 20"></a></li>
-                           <li><a href="#action_21" class="job_skill_icon" db-skill-menu="Action 21"></a></li>
-                           <li><a href="#action_22" class="job_skill_icon" db-skill-menu="Action 22"></a></li>
-                           <li><a href="#action_23" class="job_skill_icon" db-skill-menu="Action 23"></a></li>
-                           <li><a href="#action_24" class="job_skill_icon" db-skill-menu="Action 24"></a></li>
-                           <li><a href="#action_25" class="job_skill_icon" db-skill-menu="Action 25"></a></li>
-                           <li><a href="#action_26" class="job_skill_icon" db-skill-menu="Action 26"></a></li>
-                           <li><a href="#action_27" class="job_skill_icon" db-skill-menu="Action 27"></a></li>
-                           <li><a href="#action_28" class="job_skill_icon" db-skill-menu="Action 28"></a></li>
-                           <li><a href="#action_29" class="job_skill_icon" db-skill-menu="Action 29"></a></li>
-                           <li><a href="#action_30" class="job_skill_icon" db-skill-menu="Action 30"></a></li>
-                           <li><a href="#action_31" class="job_skill_icon" db-skill-menu="Action 31"></a></li>
-                           <li><a href="#action_32" class="job_skill_icon" db-skill-menu="Action 32"></a></li>
-                           <li><a href="#action_33" class="job_skill_icon" db-skill-menu="Action 33"></a></li>
-                           <li><a href="#action_34" class="job_skill_icon" db-skill-menu="Action 34"></a></li>
-                           <li><a href="#action_35" class="job_skill_icon" db-skill-menu="Action 35"></a></li>
-                           <li><a href="#action_36" class="job_skill_icon" db-skill-menu="Action 36"></a></li>
-                           <li><a href="#action_37" class="job_skill_icon" db-skill-menu="Action 37"></a></li>
-                           <li><a href="#action_38" class="job_skill_icon" db-skill-menu="Action 38"></a></li>
-                           <li><a href="#action_39" class="job_skill_icon" db-skill-menu="Action 39"></a></li>
-                           <li><a href="#action_40" class="job_skill_icon" db-skill-menu="Action 40"></a></li>
-                           <li><a href="#action_41" class="job_skill_icon" db-skill-menu="Action 41"></a></li>
-                           <li><a href="#action_42" class="job_skill_icon" db-skill-menu="Action 42"></a></li>
-                           <li><a href="#action_43" class="job_skill_icon" db-skill-menu="Action 43"></a></li>
-                           <li><a href="#action_44" class="job_skill_icon" db-skill-menu="Action 44"></a></li>
-                           <li><a href="#action_45" class="job_skill_icon" db-skill-menu="Action 45"></a></li>
-                           <li><a href="#action_46" class="job_skill_icon" db-skill-menu="Action 46"></a></li>
-                           <li><a href="#action_47" class="job_skill_icon" db-skill-menu="Action 47"></a></li>
-                           <li><a href="#action_48" class="job_skill_icon" db-skill-menu="Action 48"></a></li>
-                           <li><a href="#action_49" class="job_skill_icon" db-skill-menu="Action 49"></a></li>
-                           <li><a href="#action_50" class="job_skill_icon" db-skill-menu="Action 50"></a></li>
-                           <li><a href="#action_51" class="job_skill_icon" db-skill-menu="Action 51"></a></li>
-                           <li><a href="#action_52" class="job_skill_icon" db-skill-menu="Action 52"></a></li>
-                           <li><a href="#action_53" class="job_skill_icon" db-skill-menu="Action 53"></a></li>
-                           <li><a href="#action_54" class="job_skill_icon" db-skill-menu="Action 54"></a></li>
-                           <li><a href="#action_55" class="job_skill_icon" db-skill-menu="Action 55"></a></li>
-                           <li><a href="#action_56" class="job_skill_icon" db-skill-menu="Action 56"></a></li>
-                           <li><a href="#action_57" class="job_skill_icon" db-skill-menu="Action 57"></a></li>
-                           <li><a href="#action_58" class="job_skill_icon" db-skill-menu="Action 58"></a></li>
-                           <li><a href="#action_59" class="job_skill_icon" db-skill-menu="Action 59"></a></li>
-                           <li><a href="#action_60" class="job_skill_icon" db-skill-menu="Action 60"></a></li>
-                           <li><a href="#action_61" class="job_skill_icon" db-skill-menu="Action 61"></a></li>
-                           <li><a href="#action_62" class="job_skill_icon" db-skill-menu="Action 62"></a></li>
-                           <li><a href="#action_63" class="job_skill_icon" db-skill-menu="Action 63"></a></li>
-                           <li><a href="#action_64" class="job_skill_icon" db-skill-menu="Action 64"></a></li>
-                           <li><a href="#action_65" class="job_skill_icon" db-skill-menu="Action 65"></a></li>
-                           <li><a href="#action_66" class="job_skill_icon" db-skill-menu="Action 66"></a></li>
-                           <li><a href="#action_67" class="job_skill_icon" db-skill-menu="Action 67"></a></li>
-                           <li><a href="#action_68" class="job_skill_icon" db-skill-menu="Action 68"></a></li>
-                           <li><a href="#action_69" class="job_skill_icon" db-skill-menu="Action 69"></a></li>
-                           <li><a href="#action_70" class="job_skill_icon" db-skill-menu="Action 70"></a></li>
-                           <li><a href="#action_71" class="job_skill_icon" db-skill-menu="Action 71"></a></li>
-                           <li><a href="#action_72" class="job_skill_icon" db-skill-menu="Action 72"></a></li>
-                           <li><a href="#action_73" class="job_skill_icon" db-skill-menu="Action 73"></a></li>
-                           <li><a href="#action_74" class="job_skill_icon" db-skill-menu="Action 74"></a></li>
-                           <li><a href="#action_75" class="job_skill_icon" db-skill-menu="Action 75"></a></li>
-                           <li><a href="#action_76" class="job_skill_icon" db-skill-menu="Action 76"></a></li>
-                           <li><a href="#action_77" class="job_skill_icon" db-skill-menu="Action 77"></a></li>
-                           <li><a href="#action_78" class="job_skill_icon" db-skill-menu="Action 78"></a></li>
-                           <li><a href="#action_79" class="job_skill_icon" db-skill-menu="Action 79"></a></li>
-                           <li><a href="#action_80" class="job_skill_icon" db-skill-menu="Action 80"></a></li>
-                           <li><a href="#action_81" class="job_skill_icon" db-skill-menu="Action 81"></a></li>
-                           <li><a href="#action_82" class="job_skill_icon" db-skill-menu="Action 82"></a></li>
-                           <li><a href="#action_83" class="job_skill_icon" db-skill-menu="Action 83"></a></li>
-                           <li><a href="#action_84" class="job_skill_icon" db-skill-menu="Action 84"></a></li>
-                           <li><a href="#action_85" class="job_skill_icon" db-skill-menu="Action 85"></a></li>
-                           <li><a href="#action_86" class="job_skill_icon" db-skill-menu="Action 86"></a></li>
-                           <li><a href="#action_87" class="job_skill_icon" db-skill-menu="Action 87"></a></li>
-                           <li><a href="#action_88" class="job_skill_icon" db-skill-menu="Action 88"></a></li>
-                           <li><a href="#action_89" class="job_skill_icon" db-skill-menu="Action 89"></a></li>
-                           <li><a href="#action_90" class="job_skill_icon" db-skill-menu="Action 90"></a></li>
-                           <li><a href="#action_91" class="job_skill_icon" db-skill-menu="Action 91"></a></li>
-                           <li><a href="#action_92" class="job_skill_icon" db-skill-menu="Action 92"></a></li>
-                           <li><a href="#action_93" class="job_skill_icon" db-skill-menu="Action 93"></a></li>
-                           <li><a href="#action_94" class="job_skill_icon" db-skill-menu="Action 94"></a></li>
-                           <li><a href="#action_95" class="job_skill_icon" db-skill-menu="Action 95"></a></li>
-                           <li><a href="#action_96" class="job_skill_icon" db-skill-menu="Action 96"></a></li>
-                           <li><a href="#action_97" class="job_skill_icon" db-skill-menu="Action 97"></a></li>
-                           <li><a href="#action_98" class="job_skill_icon" db-skill-menu="Action 98"></a></li>
-                           <li><a href="#action_99" class="job_skill_icon" db-skill-menu="Action 99"></a></li>
-                           <li><a href="#action_100" class="job_skill_icon" db-skill-menu="Action 100"></a></li>
-                           <li><a href="#action_101" class="job_skill_icon" db-skill-menu="Action 101"></a></li>
-                           <li><a href="#action_102" class="job_skill_icon" db-skill-menu="Action 102"></a></li>
-                           <li><a href="#action_103" class="job_skill_icon" db-skill-menu="Action 103"></a></li>
-                           <li><a href="#action_104" class="job_skill_icon" db-skill-menu="Action 104"></a></li>
-                           <li><a href="#action_105" class="job_skill_icon" db-skill-menu="Action 105"></a></li>
-                           <li><a href="#action_106" class="job_skill_icon" db-skill-menu="Action 106"></a></li>
-                           <li><a href="#action_107" class="job_skill_icon" db-skill-menu="Action 107"></a></li>
-                           <li><a href="#action_108" class="job_skill_icon" db-skill-menu="Action 108"></a></li>
-                           <li><a href="#action_109" class="job_skill_icon" db-skill-menu="Action 109"></a></li>
-                           <li><a href="#action_110" class="job_skill_icon" db-skill-menu="Action 110"></a></li>
-                           <li><a href="#action_111" class="job_skill_icon" db-skill-menu="Action 111"></a></li>
-                           <li><a href="#action_112" class="job_skill_icon" db-skill-menu="Action 112"></a></li>
-                           <li><a href="#action_113" class="job_skill_icon" db-skill-menu="Action 113"></a></li>
-                           <li><a href="#action_114" class="job_skill_icon" db-skill-menu="Action 114"></a></li>
-                           <li><a href="#action_115" class="job_skill_icon" db-skill-menu="Action 115"></a></li>
-                           <li><a href="#action_116" class="job_skill_icon" db-skill-menu="Action 116"></a></li>
-                           <li><a href="#action_117" class="job_skill_icon" db-skill-menu="Action 117"></a></li>
-                           <li><a href="#action_118" class="job_skill_icon" db-skill-menu="Action 118"></a></li>
-                           <li><a href="#action_119" class="job_skill_icon" db-skill-menu="Action 119"></a></li>
-                           <li><a href="#action_120" class="job_skill_icon" db-skill-menu="Action 120"></a></li>
-                           <li><a href="#action_121" class="job_skill_icon" db-skill-menu="Action 121"></a></li>
-                           <li><a href="#action_122" class="job_skill_icon" db-skill-menu="Action 122"></a></li>
-                           <li><a href="#action_123" class="job_skill_icon" db-skill-menu="Action 123"></a></li>
-                           <li><a href="#action_124" class="job_skill_icon" db-skill-menu="Action 124"></a></li>
-                           
-                        </ul>
-                        <h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Ролевые умения</a></h2>
-                        <ul class="clearfix">
-                           <li><a href="#mrange_action_01" class="job_skill_icon" db-skill-menu="Role Action 23"></a></li>
-                           <li><a href="#mrange_action_02" class="job_skill_icon" db-skill-menu="Role Action 24"></a></li>
-                           <li><a href="#mrange_action_03" class="job_skill_icon" db-skill-menu="Role Action 11"></a></li>
-                           <li><a href="#mrange_action_04" class="job_skill_icon" db-skill-menu="Role Action 10"></a></li>
-                           <li><a href="#mrange_action_05" class="job_skill_icon" db-skill-menu="Role Action 12"></a></li>
-                        </ul>
-                        <h2 class="job_nav_title"><a href="#anchor_onlytrait">Пассивные умения</a></h2>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="job_header_inner">
-               <a href="../JobGuide" class="job_header_guide_top"><span>На главную</span></a>
-               <h1 class="job_header_nome">
-                  <img src="/Assets/img/JobHaider/JobBLU.png">
-                  <span class="job_header_role">
-                     <img alt="Нет он не танк =)" src="/Assets/img/main/BLU_MRDPS_Tank.png"> Magical Ranged DPS (Лимитная профессия)
-                  </span>
-               </h1>
-               <div class="job_header_text">
-                  <p>
-                     Так называемый маг весьма сомнительного происхождения утверждает, что во время своего путешествия в Новый мир (New World) он овладел необычной формой колдовства, не похожей ни на черную, ни на белую магию. 
-                     <br/><br/>Предположительно, что любой, кто приобретет один из его кристаллов души, сможет научиться подражать эфирной магии (aetherial magicks) диких созданий. 
-                     <br/><br/>Но можно ли ему доверять или он просто мошенник, желающий быстро заработать гили?
-                  </p>
-               </div>
-               <div class="job_header_quest">
-                  <a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/667c7f49a11/">
-                     <span>
-                        <img src="/Assets/img/main/quest.png"> Стартовое задание профессии
-                     </span>
-                  </a>
-               </div>
-            </div>
-         </header>
-         <!-- DB Skill List -->
-         <div class="job_skill_list">
-            <ul class="job_tab clearfix">
-               <li class="job_tab--pve js-tab-trigger active" data-tab="guide"><img src="/Assets/img/main/BLUInfo.png"></li>
-               <li class="job_tab--pvp js-tab-trigger" data-tab="skill"><img src="/Assets/img/main/BLUAction.png"></li>
-            </ul>
-            <!-- Guide -->
-            <div class="job_skill_db-pve js-tab-content active" data-tab="guide">
-               <p class="job_update" db-value="Update"></p>
-               <p class="job_notes_lvl">Синие маги могут изучать синюю магию у различных противников, что делает их невероятно универсальными в бою.</p>
-                <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_start">Как открыть?</h2>
-                  <p class="bluemage-text">Выполните приведенный ниже квест, чтобы разблокировать ограниченную профессию синего мага.</p>
-                  <h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/667c7f49a11/" class="eorzeadb_link">Out of the Blue</a></h3>
-               
-                  <div class="bluemage-quest">
-                     <div class="bluemage-quest_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/s/TN8NQCY5UoGr1Wd1h7H6jOEiGE.png" width="360" height="" class="" />
-                     </div>
-                     <ul class="bluemage-quest_detail">
-                        <li class="level eu">Disciple of War or Magic уровень 50</li>
-                        <li class="pos">Limsa Lominsa Lower Decks (X:9.9 Y:11.0)</li>
-                        <li class="npc">Zealous Yellowjacket</li>
-                        <li class="condition">Завершите основное задание (main scenario) "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2ba6b3e60da/" class="eorzeadb_link">The Ultimate Weapon</a>."</li>
-                     </ul>
-                  </div>
-               </div>
-                <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_limited">Limited Job</h2>
-                  <p class="bluemage-text">Синий маг известен как ограниченная профессия. Есть несколько ключевых моментов, которые отличают его от других профессий.</p>
-                  <ul class="bluemage-list">
-                     <li>Синий маг действует независимо от других классов и профессий, начиная с 1 уровня до максимального уровня 80.</li>
-                     <li>
-                        Играя синим магом, можно участвовать в подземельях с другими игроками в заранее сформированных (preformed) или неполных (undersized) группах. Однако следующие подземелья останутся недоступными:
-                        <ul>
-                           <li>Duty Roulettes</li>
-                           <li>
-                              The Forbidden Land, Eureka / The Bozjan Southern Front / Variant &amp; Criterion Dungeons<br />
-                              <span class="bluemage-notes">* Невозможно переключиться на синего мага после входа в подземелье.</span>
-                           </li>
-                           <li>Squadron Missions</li>
-                           <li>Deep Dungeons</li>
-                           <li>
-                              PvP, включая дуэли<br />
-                              <span class="bluemage-notes">* Однако можно войти синим магом в the Wolves' Den.</span>
-                           </li>
-                           <li>Stone, Sky, Sea</li>
-                           <li>Hall of the Novice</li>
-                        </ul>
-                     </li>
-                     <li>
-                        Синие маги получают больше опыта от сражений с противниками в открытом мире, чем другие профессии.<br />
-                        <span class="bluemage-notes">* Никаких бонусов к опыту не дается при закрытии FATE или убийстве противников в guildleve.</span>
-                     </li>
-                     <li>Синий маг не может быть использован для продвижения по основному заданию (main scenario).</li>
-                     <li>Retainers не могут получить профессию синего мага.</li>
-                  </ul>
-               </div>  
-               <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_learning">Изучение заклинаний</h2>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/R/7OqKNZaJspayiZ8cFS50lMrqEE.jpg" width="640" height="360" class="bluemage-image" />
-                  <p class="bluemage-text">
-                     Вместо того чтобы получать новые умения, повышая свой уровень, синие маги изучают их у противников. Для этого нужно сначала увидеть, как противник выполняет специальную атаку в бою. Как только он будет повержен, у персонажа появится шанс получить способность.<br />
-                     <span class="bluemage-notes"><br />* Уровень профессии не влияет на время изучения умения.</span>
-                  </p>
-               </div>
-               <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_book">Blue Magic Spellbook</h2>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/Y/rTbD8HgdbmG3ihUjV2W4W1Hucs.jpg" width="640" height="442" class="bluemage-image" />
-                  <p class="bluemage-text">Все выученные заклинания записываются в Blue Magic Spellbook. В книге также содержатся подсказки о том, как приобрести другие заклинания.</p>
-               </div>
-               <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_action">Активные умения</h2>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/I/PU7Wq6Qa-HANfc0-4IhfFYmUvg.jpg" width="578" height="184" class="bluemage-image" />
-                  <p class="bluemage-text">
-                     Прежде чем заклинания можно будет установить на хотбар, их нужно выбрать в качестве активных умений. Можно выбрать 24 активных умений за один раз.<br />
-                     <span class="bluemage-notes">* Активные умения нельзя менять во время боя или при входе в подземелье.</span>
-                  </p>
-                  <h3 class="job_sub_title">Активные наборы</h3>
-                  <p class="bluemage-text">
-                     Активные умения и слоты хотбара Blue Magic можно сохранить в так называемом активном наборе. Можно создать до пяти различных активных наборов, что позволит быстро переключаться между предпочитаемыми комбинациями активных умений и слотов хотбара.
-                  </p>
-                  <div class="bluemage-indent">
-                     <h4 class="bluemage-sub_title">Затронутые слоты хотбара</h4>
-                     <p class="bluemage-text">
-                        В активном наборе будут сохранены только слоты на хотбарах, эксклюзивных для синих магов. Это означает, что при создании активного набора во время игры за другую профессию/класс эти хотбары не будут сохранены, и расположение хотбаров синего мага останется неизменным. Слоты на общих хотбарах также исключены.
-                     </p>
-                     <h4 class="bluemage-sub_title">Затронутые умения</h4>
-                     <p class="bluemage-text">
-                        Схема хотбаров всех заклинаний синего мага, как активных, так и неактивных, будет сохранена в наборе вместе с любыми макросами (macros).<br />
-                        <span class="bluemage-notes">※ Все макросы будут сохранены, несмотря на содержимое синей магии.</span>
-                     </p>
-                     <h4 class="bluemage-sub_title">Загрузка наборов</h4>
-                     <p class="bluemage-text">Загрузка активного набора влияет только на хотбары, исключающие синюю магию.</p>
-                  </div>
-                  <h3 class="job_sub_title">Whalaqee Totems</h3>
-                  <p class="bluemage-text">
-                     Некоторые заклинания синей магии можно получить только с помощью Whalaqee Totems.<br />
-                     <br />Чтобы получить эти предметы, требуется выполнить задание для синих магов "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/76f63bf2828/" class="eorzeadb_link">Blue Leading the Blue</a>" и определенные достижения, а затем поговорить с Wayward Gaheel Ja в Ul'dah - Steps of Thal (X:12.5 Y:12.9).
-                  </p>
-               </div>
-               <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_carnival">Masked Carnivale</h2>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/n/j9Kj_mFxEjnJzYAerqxOFDR3dI.jpg" width="640" height="360" class="bluemage-image" />
-                  <p class="bluemage-text">Masked Carnivale дает синим магам возможность проверить свои навыки против различных противников.</p>
-               
-                  <h3 class="job_sub_title">Требования для входа</h3>
-                  <h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1878e683dfd/" class="eorzeadb_link">The Real Folk Blues</a></h3>
-                  <div class="bluemage-quest">
-                     <div class="bluemage-quest_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/W/df5j5VpIunxyANYmMdM4-AH2IY.png" width="360" height="" class="" />
-                     </div>
-                     <ul class="bluemage-quest_detail">
-                        <li class="level eu">Синий маг уровень 50</li>
-                        <li class="pos">Ul'dah - Steps of Thal (X:12.5 Y:13.0)</li>
-                        <li class="npc">Maudlin Latool Ja</li>
-                        <li class="condition">Закончить задание для синего мага "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/ab5c126e9a1/" class="eorzeadb_link">Blue Gold</a>" и выучить заклинания синего мага "Glower".</li>
-                     </ul>
-                  </div>
-                  <h3 class="job_sub_title">Как принять участие</h3>
-                  <p class="bluemage-text">Поговорите с Celestium attendant в Ul'dah - Steps of Thal (X:11.5 Y:13.2).</p>
-                  <div class="bluemage-quest">
-                     <div class="bluemage-quest_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/P/6W9Jn9BrH8xTnKMp1kLDGn8tbI.png" width="360" height="" class="" />
-                     </div>
-                     <ul class="bluemage-quest_detail">
-                        <li class="level eu">Синий маг уровень 50</li>
-                        <li class="pos">Ul'dah - Steps of Thal (X:11.5 Y:13.2)</li>
-                        <li class="npc">Celestium attendant</li>
-                        <li class="condition">Закончить задание для синего мага "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1878e683dfd/" class="eorzeadb_link">The Real Folk Blues</a>."</li>
-                     </ul>
-                  </div>
-                  <h3 class="job_sub_title">Этапы</h3>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/Q/NTg0KbYGqr4eUkow8kxw0-sBKY.jpg" width="640" height="520" class="bluemage-image" />
-                  <p class="bluemage-text">
-                     Masked Carnivale состоит из 31 этапа. Список всех доступных этапов можно посмотреть в разговоре со Celestium attendant. Требуется иметь в виду, что начав этап, нельзя назначить или удалить активные умения.
-                  </p>
-                  <h3 class="job_sub_title">Слабые стороны противника</h3>
-                  <p class="bluemage-text">
-                     Многие противники, появляющиеся в Masked Carnivale, слабы к определенному элементу, в чем можно убедиться, просмотрев список этапов. Это можно использовать в своих интересах и выбирать умения соответствующим образом. Слабость противников к стихиям также обозначается значком над их именами на экране.
-                  </p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/T/2lfSyt94WTV9b6V96KSa9v6JOo.jpg" width="640" height="360" class="bluemage-image_mb" />
-                  <h3 class="job_sub_title">Результаты</h3>
-                  <p class="bluemage-text">После завершения боя на экране отображается время, затраченное на прохождение, бонусы и результат.<br /><br />Бонусы начисляются за выполнение определенных условий и влияют на результат.</p>
-                  <h3 class="job_sub_title">Недельные цели</h3>
-                  <p class="bluemage-text">
-                     Для определенных боев доступны недельные цели, обозначенные специальным значком.<br /><br />Для недельных целей существует три уровня сложности: начинающий (novice), средний (moderate) и продвинутый (advanced).<br /><br />Чтобы просмотреть условия, выберите бой с недельной целью, отмеченной значком. Эту информацию также можно просмотреть в меню Timers.<br />
-                     <span class="bluemage-notes">* Дополнительные награды за выполнение недельной цели можно получить только один раз в неделю.<br />* Недельные цели сбрасываются каждый вторник в 8:00 (GMT) / 18:00 (AEST) / 19:00 (AEDT) / 12:00 (PST).</span>
-                  </p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/b/ZFnxNvXOSqU7GlkEHgexKQLVxs.jpg" width="400" height="668" class="bluemage-image" />
-               </div>
-               <!-- Content Wrapper -->
-               <div class="bluemage-content">
-                  <h2 class="job_title" id="anchor_report">Blue Mage Log</h2>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/z/f5bnLexJrDM1Zrwx4GdhsX6GDI.jpg" width="640" height="360" class="bluemage-image" />
-                  <p class="bluemage-text">Blue mage log позволяет объединяться с другими синими магами и участвовать в выполнении определенных подземелий.</p>
-               
-                  <h3 class="job_sub_title">Требования для открытия</h3>
-                  <h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51d8fd972e0/" class="eorzeadb_link">Blue Scream of Death</a></h3>
-                  <div class="bluemage-quest">
-                     <div class="bluemage-quest_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/W/hi1ikak4hq07eKrquemPGgHcZY.png" width="360" height="" class="" />
-                     </div>
-                     <ul class="bluemage-quest_detail">
-                        <li class="level eu">Синий маг уровень 60</li>
-                        <li class="pos">Ul'dah - Steps of Thal (X:12.5 Y:13.0)</li>
-                        <li class="npc">Martyn</li>
-                        <li class="condition">Закончить задание для синего мага "<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1edc59a0cc9/" class="eorzeadb_link">Blue in the Face</a>" и выучить заклинания синего мага "Frog Legs".</li>
-                     </ul>
-                  </div>
-                  <p class="bluemage-text">Выполнение этого задания открывает blue mage log.</p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/5/x11WWC-o4NylthSyDvwjiYysZ0.jpg" width="640" height="402" class="bluemage-image_mb" />
-               
-                  <h3 class="job_sub_title">Как принять участие</h3>
-                  <p class="bluemage-text">
-                     В журнале можно просмотреть список доступных подземелий, набрать членов партии и приступить к прохождению. Обратите внимание, что прохождение подземелий засчитывается в прогресс blue mage log только в том случае, если партия соответствует требованиям по размеру. По этой причине рекомендуется избегать использования опции "Undersized Party".
-                  </p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/A/WKs6qF2zBTW-sKicxJDTau0uEo.jpg" width="640" height="80" class="bluemage-image_mb" />
-               
-                  <h3 class="job_sub_title">Доступные подземелья</h3>
-                  <p class="bluemage-text">
-                     Успешное прохождение подземелий, перечисленных в blue mage log, отметит их как завершенные, если вы выполните все требования. По завершении этих подземелий будут выдаваться различные награды. Большую награду можно получить при первом выполнении задания через blue mage log.
-                  </p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/p/mKl7VsfaBSb75aVo-GulQtHOww.jpg" width="380" height="372" class="bluemage-image_mb" />
-               
-                  <h3 class="job_sub_title">Недельные цели</h3>
-                  <p class="bluemage-text">
-                     За выполнение заданий, обозначенных как еженедельные цели (отмечены серебряной звездой), полагается большее вознаграждение.<br />
-                     <span class="bluemage-notes"
-                        >* Дополнительные награды за выполнение еженедельной цели можно получить только один раз в неделю.<br />
-                        * Недельные цели сбрасываются каждый вторник в 8:00 (GMT) / 18:00 (AEST) / 19:00 (AEDT) / 12:00 (PST).</span
-                     >
-                  </p>
-                  <p class="bluemage-text"></p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/9/NwmoEC8aXUXgmtcY-yyr_Y5HL4.jpg" width="640" height="400" class="bluemage-image_mb" />
-               
-                  <h3 class="job_sub_title">Основные цели</h3>
-                  <p class="bluemage-text">
-                     Помимо стандартной еженедельной цели, отмеченной серебряной звездой в списке подземелий, есть еще и главная цель, отмеченная золотой звездой. Хотя главная цель предлагает повышенную награду, ее сложность значительно выше. Подземелья, выбранные в качестве первостепенных, недоступны через blue mage log.
-                  </p>
-                  <img src="https://lds-img.finalfantasyxiv.com/promo/h/e/wUG9Ma6OIxws2PVGJ01zOdJxwU.jpg" width="640" height="400" class="bluemage-image_mb" />
-               </div>                                          
-               <!-- END -->
-            </div>
-            <!-- Skill -->
-            <div class="job_skill_db-pvp bluemage_content js-tab-content" data-tab="skill">
-               <p class="job_update" db-value="Update"></p>
-               <!-- Content Wrapper -->
-               <div class="job_content_wrapper">
-                  <h2 class="job_title">Активные и пассивные умения</h2>
-                  <div class="search">
-                     <a>Поиск по умениям:</a>
-                     <input type="text" id="searchInput" placeholder="Введите название умения... или его номер"/>
-                  </div>
-                  <h3 class="job_sub_title" id="anchor_pvp_onlyaction">Активные умения</h3>
-                  <table class="job_table">
-                     <colgroup>
-                        <col width="180">
-                        <col width="90">
-                        <col width="99">
-                        <col width="110">
-                        <col width="77">
-                        <col width="78">
-                        <col width="*">
-                     </colgroup>
-                     <thead>
-                        <tr class="job_thead">
-                           <th><p><span>Название умения</span></p></th>
-                           <th><p><span>Тип</span></p></th>
-                           <th><p><span>Длительность применения</span></p></th>
-                           <th><p><span>Время восстановления</span></p></th>
-                           <th><p><span>Стоимость MP</span></p></th>
-                           <th>
-                              <div><p><span>Дальность действия</span></p></div>
-                              <hr/>
-                              <div><p><span>Радиус</span></p></div>
-                           </th>
-                           <th><p><span>Эффект</span></p></th>
-                        </tr>
-                     </thead>
-                     <tbody class="job_tbody" data-search="true">
-                        <tr id="action_01" db-skill-limited="Action 01"></tr>
-                        <tr id="action_02" db-skill-limited="Action 02"></tr>
-                        <tr id="action_03" db-skill-limited="Action 03"></tr>
-                        <tr id="action_04" db-skill-limited="Action 04"></tr>
-                        <tr id="action_05" db-skill-limited="Action 05"></tr>
-                        <tr id="action_06" db-skill-limited="Action 06"></tr>
-                        <tr id="action_07" db-skill-limited="Action 07"></tr>
-                        <tr id="action_08" db-skill-limited="Action 08"></tr>
-                        <tr id="action_09" db-skill-limited="Action 09"></tr>
-                        <tr id="action_10" db-skill-limited="Action 10"></tr>
-                        <tr id="action_11" db-skill-limited="Action 11"></tr>
-                        <tr id="action_12" db-skill-limited="Action 12"></tr>
-                        <tr id="action_13" db-skill-limited="Action 13"></tr>
-                        <tr id="action_14" db-skill-limited="Action 14"></tr>
-                        <tr id="action_15" db-skill-limited="Action 15"></tr>
-                        <tr id="action_16" db-skill-limited="Action 16"></tr>
-                        <tr id="action_17" db-skill-limited="Action 17"></tr>
-                        <tr id="action_18" db-skill-limited="Action 18"></tr>
-                        <tr id="action_19" db-skill-limited="Action 19"></tr>
-                        <tr id="action_20" db-skill-limited="Action 20"></tr>
-                        <tr id="action_21" db-skill-limited="Action 21"></tr>
-                        <tr id="action_22" db-skill-limited="Action 22"></tr>
-                        <tr id="action_23" db-skill-limited="Action 23"></tr>
-                        <tr id="action_24" db-skill-limited="Action 24"></tr>
-                        <tr id="action_25" db-skill-limited="Action 25"></tr>
-                        <tr id="action_26" db-skill-limited="Action 26"></tr>
-                        <tr id="action_27" db-skill-limited="Action 27"></tr>
-                        <tr id="action_28" db-skill-limited="Action 28"></tr>
-                        <tr id="action_29" db-skill-limited="Action 29"></tr>
-                        <tr id="action_30" db-skill-limited="Action 30"></tr>
-                        <tr id="action_31" db-skill-limited="Action 31"></tr>
-                        <tr id="action_32" db-skill-limited="Action 32"></tr>
-                        <tr id="action_33" db-skill-limited="Action 33"></tr>
-                        <tr id="action_34" db-skill-limited="Action 34"></tr>
-                        <tr id="action_35" db-skill-limited="Action 35"></tr>
-                        <tr id="action_36" db-skill-limited="Action 36"></tr>
-                        <tr id="action_37" db-skill-limited="Action 37"></tr>
-                        <tr id="action_38" db-skill-limited="Action 38"></tr>
-                        <tr id="action_39" db-skill-limited="Action 39"></tr>
-                        <tr id="action_40" db-skill-limited="Action 40"></tr>
-                        <tr id="action_41" db-skill-limited="Action 41"></tr>
-                        <tr id="action_42" db-skill-limited="Action 42"></tr>
-                        <tr id="action_43" db-skill-limited="Action 43"></tr>
-                        <tr id="action_44" db-skill-limited="Action 44"></tr>
-                        <tr id="action_45" db-skill-limited="Action 45"></tr>
-                        <tr id="action_46" db-skill-limited="Action 46"></tr>
-                        <tr id="action_47" db-skill-limited="Action 47"></tr>
-                        <tr id="action_48" db-skill-limited="Action 48"></tr>
-                        <tr id="action_49" db-skill-limited="Action 49"></tr>
-                        <tr id="action_50" db-skill-limited="Action 50"></tr>
-                        <tr id="action_51" db-skill-limited="Action 51"></tr>
-                        <tr id="action_52" db-skill-limited="Action 52"></tr>
-                        <tr id="action_53" db-skill-limited="Action 53"></tr>
-                        <tr id="action_54" db-skill-limited="Action 54"></tr>
-                        <tr id="action_55" db-skill-limited="Action 55"></tr>
-                        <tr id="action_56" db-skill-limited="Action 56"></tr>
-                        <tr id="action_57" db-skill-limited="Action 57"></tr>
-                        <tr id="action_58" db-skill-limited="Action 58"></tr>
-                        <tr id="action_59" db-skill-limited="Action 59"></tr>
-                        <tr id="action_60" db-skill-limited="Action 60"></tr>
-                        <tr id="action_61" db-skill-limited="Action 61"></tr>
-                        <tr id="action_62" db-skill-limited="Action 62"></tr>
-                        <tr id="action_63" db-skill-limited="Action 63"></tr>
-                        <tr id="action_64" db-skill-limited="Action 64"></tr>
-                        <tr id="action_65" db-skill-limited="Action 65"></tr>
-                        <tr id="action_66" db-skill-limited="Action 66"></tr>
-                        <tr id="action_67" db-skill-limited="Action 67"></tr>
-                        <tr id="action_68" db-skill-limited="Action 68"></tr>
-                        <tr id="action_69" db-skill-limited="Action 69"></tr>
-                        <tr id="action_70" db-skill-limited="Action 70"></tr>
-                        <tr id="action_71" db-skill-limited="Action 71"></tr>
-                        <tr id="action_72" db-skill-limited="Action 72"></tr>
-                        <tr id="action_73" db-skill-limited="Action 73"></tr>
-                        <tr id="action_74" db-skill-limited="Action 74"></tr>
-                        <tr id="action_75" db-skill-limited="Action 75"></tr>
-                        <tr id="action_76" db-skill-limited="Action 76"></tr>
-                        <tr id="action_77" db-skill-limited="Action 77"></tr>
-                        <tr id="action_78" db-skill-limited="Action 78"></tr>
-                        <tr id="action_79" db-skill-limited="Action 79"></tr>
-                        <tr id="action_80" db-skill-limited="Action 80"></tr>
-                        <tr id="action_81" db-skill-limited="Action 81"></tr>
-                        <tr id="action_82" db-skill-limited="Action 82"></tr>
-                        <tr id="action_83" db-skill-limited="Action 83"></tr>
-                        <tr id="action_84" db-skill-limited="Action 84"></tr>
-                        <tr id="action_85" db-skill-limited="Action 85"></tr>
-                        <tr id="action_86" db-skill-limited="Action 86"></tr>
-                        <tr id="action_87" db-skill-limited="Action 87"></tr>
-                        <tr id="action_88" db-skill-limited="Action 88"></tr>
-                        <tr id="action_89" db-skill-limited="Action 89"></tr>
-                        <tr id="action_90" db-skill-limited="Action 90"></tr>
-                        <tr id="action_91" db-skill-limited="Action 91"></tr>
-                        <tr id="action_92" db-skill-limited="Action 92"></tr>
-                        <tr id="action_93" db-skill-limited="Action 93"></tr>
-                        <tr id="action_94" db-skill-limited="Action 94"></tr>
-                        <tr id="action_95" db-skill-limited="Action 95"></tr>
-                        <tr id="action_96" db-skill-limited="Action 96"></tr>
-                        <tr id="action_97" db-skill-limited="Action 97"></tr>
-                        <tr id="action_98" db-skill-limited="Action 98"></tr>
-                        <tr id="action_99" db-skill-limited="Action 99"></tr>
-                        <tr id="action_100" db-skill-limited="Action 100"></tr>
-                        <tr id="action_101" db-skill-limited="Action 101"></tr>
-                        <tr id="action_102" db-skill-limited="Action 102"></tr>
-                        <tr id="action_103" db-skill-limited="Action 103"></tr>
-                        <tr id="action_104" db-skill-limited="Action 104"></tr>
-                        <tr id="action_105" db-skill-limited="Action 105"></tr>
-                        <tr id="action_106" db-skill-limited="Action 106"></tr>
-                        <tr id="action_107" db-skill-limited="Action 107"></tr>
-                        <tr id="action_108" db-skill-limited="Action 108"></tr>
-                        <tr id="action_109" db-skill-limited="Action 109"></tr>
-                        <tr id="action_110" db-skill-limited="Action 110"></tr>
-                        <tr id="action_111" db-skill-limited="Action 111"></tr>
-                        <tr id="action_112" db-skill-limited="Action 112"></tr>
-                        <tr id="action_113" db-skill-limited="Action 113"></tr>
-                        <tr id="action_114" db-skill-limited="Action 114"></tr>
-                        <tr id="action_115" db-skill-limited="Action 115"></tr>
-                        <tr id="action_116" db-skill-limited="Action 116"></tr>
-                        <tr id="action_117" db-skill-limited="Action 117"></tr>
-                        <tr id="action_118" db-skill-limited="Action 118"></tr>
-                        <tr id="action_119" db-skill-limited="Action 119"></tr>
-                        <tr id="action_120" db-skill-limited="Action 120"></tr>
-                        <tr id="action_121" db-skill-limited="Action 121"></tr>
-                        <tr id="action_122" db-skill-limited="Action 122"></tr>
-                        <tr id="action_123" db-skill-limited="Action 123"></tr>
-                        <tr id="action_124" db-skill-limited="Action 124"></tr>
-                     </tbody>
-                  </table>
-               </div>
-               <!-- Content Wrapper -->
-               <div class="job_content_wrapper">
-                  <h3 class="job_sub_title" id="anchor_rollcommonaction">Ролевые умения</h3>
-                  <p class="job_text">Ролевые умения - это способности, общие для классов и специализаций с одинаковой ролью.</p>
-                  <table class="job_table">
-                     <colgroup>
-                        <col width="191">
-                        <col width="84">
-                        <col width="74">
-                        <col width="74">
-                        <col width="74">
-                        <col width="74">
-                        <col width="74">
-                        <col width="*">
-                     </colgroup>
-                     <thead>
-                        <tr class="job_thead">
-                           <th><p><span>Название умения</span></p></th>
-                           <th><p><span>Уровень получения</span></p></th>
-                           <th><p><span>Тип</span></p></th>
-                           <th><p><span>Длительность применения</span></p></th>
-                           <th><p><span>Время восстановления</span></p></th>
-                           <th><p><span>Стоимость MP</span></p></th>
-                           <th>
-                              <div><p><span>Дальность действия</span></p></div>
-                              <hr/>
-                              <div><p><span>Радиус</span></p></div>
-                           </th>
-                           <th><p><span>Эффект</span></p></th>
-                        </tr>
-                     </thead>
-                     <tbody class="job_tbody">
-                        <tr id="mrange_action_01" db-role-action="Role Action 23"></tr>
-                        <tr id="mrange_action_02" db-role-action="Role Action 24"></tr>
-                        <tr id="mrange_action_03" db-role-action="Role Action 11"></tr>
-                        <tr id="mrange_action_04" db-role-action="Role Action 10"></tr>
-                        <tr id="mrange_action_05" db-role-action="Role Action 12"></tr>
-                     </tbody>
-                  </table>
-               </div>
-               <!-- Content Wrapper -->
-               <div class="job_content_wrapper">
-                  <h3 class="job_sub_title" id="anchor_onlytrait">Пассивные умения</h3>
-                  <table class="job_table">
-                     <colgroup>
-                        <col width="191">
-                        <col width="90">
-                        <col width="659">
-                     </colgroup>
-                     <thead>
-                        <tr class="job_thead">
-                           <th><p><span>Название умения</span></p></th>
-                           <th><p><span>Уровень получения</span></p></th>
-                           <th><p><span>Эффект</span></p></th>
-                        </tr>
-                     </thead>
-                     <tbody class="job_tbody">
-                        <tr id="trait_action_01" db-skill-passive="Trait 01"></tr>
-                        <tr id="trait_action_02" db-skill-passive="Trait 02"></tr>
-                        <tr id="trait_action_03" db-skill-passive="Trait 03"></tr>
-                        <tr id="trait_action_04" db-skill-passive="Trait 04"></tr>
-                        <tr id="trait_action_05" db-skill-passive="Trait 05"></tr>
-                        <tr id="trait_action_06" db-skill-passive="Trait 06"></tr>
-                     </tbody>                     
-                  </table>
-               </div>
-            </div>
-         </div>
-      </div>
-      <footer>
-         <div class="footer_inner">
-            <div class="footer_info">
-               <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-                  <img src="/Assets/img/svg/github.svg">
-                  Source Code
-               </a>
-            </div>
-            <div class="SE"></div>
-         </div>
-      </footer>
-      <div class="nome_app_top">
-         <a class="app_top"><img src="/Assets/img/svg/arrow-up.svg"></a>
-      </div>
-      <!--- Script --->
-      <script type="text/javascript" src="/Assets/js/main.js"></script>
-      <script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
-      <script>
-         document.addEventListener("DOMContentLoaded", () => {
-            CORE_DB_LOAD(["/DB/BlueMage.json", "/DB/RoleActions.json"], DB_VERSION);
-         });
-      </script>
-      <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
-   </body>
+		<link rel="manifest" href="/manifest.json" />
+		<meta property="og:title" content="Job Guide: Blue Mage" />
+		<meta property="og:site_name" content="FFXIV Job Guide RU" />
+		<meta property="og:description" content="Описание умений Blue Mage на русском" />
+		<meta property="og:url" content="https://ff14jobguide.ru/Page/BLU" />
+		<meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/BLU.png" />
+		<meta name="theme-color" content="#732828" />
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-Y6M41KEYQX");
+		</script>
+	</head>
+	<body id="BLU">
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<div class="jobguide job_tank">
+			<!-- Top Menu -->
+			<div class="jobguide_menu_wrapper" data-menu-type="MenuDoWDoM"></div>
+			<!-- Header -->
+			<header class="job_header job_blu">
+				<!-- Job Skil Menu -->
+				<div class="job_menu">
+					<div class="nav_floating_icon fixed"></div>
+					<div class="nav_floating_list fixed">
+						<div class="nav_floating_list_wrapper">
+							<!-- Guide -->
+							<div class="job_menu_tank js-tab-content active" data-tab="guide">
+								<h2 class="job_nav_title"><a href="#anchor_start">Как открыть?</a></h2>
+								<h2 class="job_nav_title"><a href="#anchor_limited">Лимитная профессия</a></h2>
+								<h2 class="job_nav_title"><a href="#anchor_learning">Изучение заклинаний</a></h2>
+								<h2 class="job_nav_title"><a href="#anchor_book">Blue Magic Spellbook</a></h2>
+								<h2 class="job_nav_title"><a href="#anchor_action">Активные умения</a></h2>
+								<h2 class="job_nav_title"><a href="#anchor_carnival">Masked Carnivale</a></h2>
+								<h2 class="job_nav_title"><a href="#anchor_report">Blue Mage Log</a></h2>
+							</div>
+							<!-- Skill -->
+							<div class="job_menu_tank js-tab-content" data-tab="skill">
+								<h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
+								<ul class="clearfix">
+									<li><a href="#action_01" class="job_skill_icon" db-skill-menu="Action 01"></a></li>
+									<li><a href="#action_02" class="job_skill_icon" db-skill-menu="Action 02"></a></li>
+									<li><a href="#action_03" class="job_skill_icon" db-skill-menu="Action 03"></a></li>
+									<li><a href="#action_04" class="job_skill_icon" db-skill-menu="Action 04"></a></li>
+									<li><a href="#action_05" class="job_skill_icon" db-skill-menu="Action 05"></a></li>
+									<li><a href="#action_06" class="job_skill_icon" db-skill-menu="Action 06"></a></li>
+									<li><a href="#action_07" class="job_skill_icon" db-skill-menu="Action 07"></a></li>
+									<li><a href="#action_08" class="job_skill_icon" db-skill-menu="Action 08"></a></li>
+									<li><a href="#action_09" class="job_skill_icon" db-skill-menu="Action 09"></a></li>
+									<li><a href="#action_10" class="job_skill_icon" db-skill-menu="Action 10"></a></li>
+									<li><a href="#action_11" class="job_skill_icon" db-skill-menu="Action 11"></a></li>
+									<li><a href="#action_12" class="job_skill_icon" db-skill-menu="Action 12"></a></li>
+									<li><a href="#action_13" class="job_skill_icon" db-skill-menu="Action 13"></a></li>
+									<li><a href="#action_14" class="job_skill_icon" db-skill-menu="Action 14"></a></li>
+									<li><a href="#action_15" class="job_skill_icon" db-skill-menu="Action 15"></a></li>
+									<li><a href="#action_16" class="job_skill_icon" db-skill-menu="Action 16"></a></li>
+									<li><a href="#action_17" class="job_skill_icon" db-skill-menu="Action 17"></a></li>
+									<li><a href="#action_18" class="job_skill_icon" db-skill-menu="Action 18"></a></li>
+									<li><a href="#action_19" class="job_skill_icon" db-skill-menu="Action 19"></a></li>
+									<li><a href="#action_20" class="job_skill_icon" db-skill-menu="Action 20"></a></li>
+									<li><a href="#action_21" class="job_skill_icon" db-skill-menu="Action 21"></a></li>
+									<li><a href="#action_22" class="job_skill_icon" db-skill-menu="Action 22"></a></li>
+									<li><a href="#action_23" class="job_skill_icon" db-skill-menu="Action 23"></a></li>
+									<li><a href="#action_24" class="job_skill_icon" db-skill-menu="Action 24"></a></li>
+									<li><a href="#action_25" class="job_skill_icon" db-skill-menu="Action 25"></a></li>
+									<li><a href="#action_26" class="job_skill_icon" db-skill-menu="Action 26"></a></li>
+									<li><a href="#action_27" class="job_skill_icon" db-skill-menu="Action 27"></a></li>
+									<li><a href="#action_28" class="job_skill_icon" db-skill-menu="Action 28"></a></li>
+									<li><a href="#action_29" class="job_skill_icon" db-skill-menu="Action 29"></a></li>
+									<li><a href="#action_30" class="job_skill_icon" db-skill-menu="Action 30"></a></li>
+									<li><a href="#action_31" class="job_skill_icon" db-skill-menu="Action 31"></a></li>
+									<li><a href="#action_32" class="job_skill_icon" db-skill-menu="Action 32"></a></li>
+									<li><a href="#action_33" class="job_skill_icon" db-skill-menu="Action 33"></a></li>
+									<li><a href="#action_34" class="job_skill_icon" db-skill-menu="Action 34"></a></li>
+									<li><a href="#action_35" class="job_skill_icon" db-skill-menu="Action 35"></a></li>
+									<li><a href="#action_36" class="job_skill_icon" db-skill-menu="Action 36"></a></li>
+									<li><a href="#action_37" class="job_skill_icon" db-skill-menu="Action 37"></a></li>
+									<li><a href="#action_38" class="job_skill_icon" db-skill-menu="Action 38"></a></li>
+									<li><a href="#action_39" class="job_skill_icon" db-skill-menu="Action 39"></a></li>
+									<li><a href="#action_40" class="job_skill_icon" db-skill-menu="Action 40"></a></li>
+									<li><a href="#action_41" class="job_skill_icon" db-skill-menu="Action 41"></a></li>
+									<li><a href="#action_42" class="job_skill_icon" db-skill-menu="Action 42"></a></li>
+									<li><a href="#action_43" class="job_skill_icon" db-skill-menu="Action 43"></a></li>
+									<li><a href="#action_44" class="job_skill_icon" db-skill-menu="Action 44"></a></li>
+									<li><a href="#action_45" class="job_skill_icon" db-skill-menu="Action 45"></a></li>
+									<li><a href="#action_46" class="job_skill_icon" db-skill-menu="Action 46"></a></li>
+									<li><a href="#action_47" class="job_skill_icon" db-skill-menu="Action 47"></a></li>
+									<li><a href="#action_48" class="job_skill_icon" db-skill-menu="Action 48"></a></li>
+									<li><a href="#action_49" class="job_skill_icon" db-skill-menu="Action 49"></a></li>
+									<li><a href="#action_50" class="job_skill_icon" db-skill-menu="Action 50"></a></li>
+									<li><a href="#action_51" class="job_skill_icon" db-skill-menu="Action 51"></a></li>
+									<li><a href="#action_52" class="job_skill_icon" db-skill-menu="Action 52"></a></li>
+									<li><a href="#action_53" class="job_skill_icon" db-skill-menu="Action 53"></a></li>
+									<li><a href="#action_54" class="job_skill_icon" db-skill-menu="Action 54"></a></li>
+									<li><a href="#action_55" class="job_skill_icon" db-skill-menu="Action 55"></a></li>
+									<li><a href="#action_56" class="job_skill_icon" db-skill-menu="Action 56"></a></li>
+									<li><a href="#action_57" class="job_skill_icon" db-skill-menu="Action 57"></a></li>
+									<li><a href="#action_58" class="job_skill_icon" db-skill-menu="Action 58"></a></li>
+									<li><a href="#action_59" class="job_skill_icon" db-skill-menu="Action 59"></a></li>
+									<li><a href="#action_60" class="job_skill_icon" db-skill-menu="Action 60"></a></li>
+									<li><a href="#action_61" class="job_skill_icon" db-skill-menu="Action 61"></a></li>
+									<li><a href="#action_62" class="job_skill_icon" db-skill-menu="Action 62"></a></li>
+									<li><a href="#action_63" class="job_skill_icon" db-skill-menu="Action 63"></a></li>
+									<li><a href="#action_64" class="job_skill_icon" db-skill-menu="Action 64"></a></li>
+									<li><a href="#action_65" class="job_skill_icon" db-skill-menu="Action 65"></a></li>
+									<li><a href="#action_66" class="job_skill_icon" db-skill-menu="Action 66"></a></li>
+									<li><a href="#action_67" class="job_skill_icon" db-skill-menu="Action 67"></a></li>
+									<li><a href="#action_68" class="job_skill_icon" db-skill-menu="Action 68"></a></li>
+									<li><a href="#action_69" class="job_skill_icon" db-skill-menu="Action 69"></a></li>
+									<li><a href="#action_70" class="job_skill_icon" db-skill-menu="Action 70"></a></li>
+									<li><a href="#action_71" class="job_skill_icon" db-skill-menu="Action 71"></a></li>
+									<li><a href="#action_72" class="job_skill_icon" db-skill-menu="Action 72"></a></li>
+									<li><a href="#action_73" class="job_skill_icon" db-skill-menu="Action 73"></a></li>
+									<li><a href="#action_74" class="job_skill_icon" db-skill-menu="Action 74"></a></li>
+									<li><a href="#action_75" class="job_skill_icon" db-skill-menu="Action 75"></a></li>
+									<li><a href="#action_76" class="job_skill_icon" db-skill-menu="Action 76"></a></li>
+									<li><a href="#action_77" class="job_skill_icon" db-skill-menu="Action 77"></a></li>
+									<li><a href="#action_78" class="job_skill_icon" db-skill-menu="Action 78"></a></li>
+									<li><a href="#action_79" class="job_skill_icon" db-skill-menu="Action 79"></a></li>
+									<li><a href="#action_80" class="job_skill_icon" db-skill-menu="Action 80"></a></li>
+									<li><a href="#action_81" class="job_skill_icon" db-skill-menu="Action 81"></a></li>
+									<li><a href="#action_82" class="job_skill_icon" db-skill-menu="Action 82"></a></li>
+									<li><a href="#action_83" class="job_skill_icon" db-skill-menu="Action 83"></a></li>
+									<li><a href="#action_84" class="job_skill_icon" db-skill-menu="Action 84"></a></li>
+									<li><a href="#action_85" class="job_skill_icon" db-skill-menu="Action 85"></a></li>
+									<li><a href="#action_86" class="job_skill_icon" db-skill-menu="Action 86"></a></li>
+									<li><a href="#action_87" class="job_skill_icon" db-skill-menu="Action 87"></a></li>
+									<li><a href="#action_88" class="job_skill_icon" db-skill-menu="Action 88"></a></li>
+									<li><a href="#action_89" class="job_skill_icon" db-skill-menu="Action 89"></a></li>
+									<li><a href="#action_90" class="job_skill_icon" db-skill-menu="Action 90"></a></li>
+									<li><a href="#action_91" class="job_skill_icon" db-skill-menu="Action 91"></a></li>
+									<li><a href="#action_92" class="job_skill_icon" db-skill-menu="Action 92"></a></li>
+									<li><a href="#action_93" class="job_skill_icon" db-skill-menu="Action 93"></a></li>
+									<li><a href="#action_94" class="job_skill_icon" db-skill-menu="Action 94"></a></li>
+									<li><a href="#action_95" class="job_skill_icon" db-skill-menu="Action 95"></a></li>
+									<li><a href="#action_96" class="job_skill_icon" db-skill-menu="Action 96"></a></li>
+									<li><a href="#action_97" class="job_skill_icon" db-skill-menu="Action 97"></a></li>
+									<li><a href="#action_98" class="job_skill_icon" db-skill-menu="Action 98"></a></li>
+									<li><a href="#action_99" class="job_skill_icon" db-skill-menu="Action 99"></a></li>
+									<li><a href="#action_100" class="job_skill_icon" db-skill-menu="Action 100"></a></li>
+									<li><a href="#action_101" class="job_skill_icon" db-skill-menu="Action 101"></a></li>
+									<li><a href="#action_102" class="job_skill_icon" db-skill-menu="Action 102"></a></li>
+									<li><a href="#action_103" class="job_skill_icon" db-skill-menu="Action 103"></a></li>
+									<li><a href="#action_104" class="job_skill_icon" db-skill-menu="Action 104"></a></li>
+									<li><a href="#action_105" class="job_skill_icon" db-skill-menu="Action 105"></a></li>
+									<li><a href="#action_106" class="job_skill_icon" db-skill-menu="Action 106"></a></li>
+									<li><a href="#action_107" class="job_skill_icon" db-skill-menu="Action 107"></a></li>
+									<li><a href="#action_108" class="job_skill_icon" db-skill-menu="Action 108"></a></li>
+									<li><a href="#action_109" class="job_skill_icon" db-skill-menu="Action 109"></a></li>
+									<li><a href="#action_110" class="job_skill_icon" db-skill-menu="Action 110"></a></li>
+									<li><a href="#action_111" class="job_skill_icon" db-skill-menu="Action 111"></a></li>
+									<li><a href="#action_112" class="job_skill_icon" db-skill-menu="Action 112"></a></li>
+									<li><a href="#action_113" class="job_skill_icon" db-skill-menu="Action 113"></a></li>
+									<li><a href="#action_114" class="job_skill_icon" db-skill-menu="Action 114"></a></li>
+									<li><a href="#action_115" class="job_skill_icon" db-skill-menu="Action 115"></a></li>
+									<li><a href="#action_116" class="job_skill_icon" db-skill-menu="Action 116"></a></li>
+									<li><a href="#action_117" class="job_skill_icon" db-skill-menu="Action 117"></a></li>
+									<li><a href="#action_118" class="job_skill_icon" db-skill-menu="Action 118"></a></li>
+									<li><a href="#action_119" class="job_skill_icon" db-skill-menu="Action 119"></a></li>
+									<li><a href="#action_120" class="job_skill_icon" db-skill-menu="Action 120"></a></li>
+									<li><a href="#action_121" class="job_skill_icon" db-skill-menu="Action 121"></a></li>
+									<li><a href="#action_122" class="job_skill_icon" db-skill-menu="Action 122"></a></li>
+									<li><a href="#action_123" class="job_skill_icon" db-skill-menu="Action 123"></a></li>
+									<li><a href="#action_124" class="job_skill_icon" db-skill-menu="Action 124"></a></li>
+								</ul>
+								<h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Ролевые умения</a></h2>
+								<ul class="clearfix">
+									<li><a href="#mrange_action_01" class="job_skill_icon" db-skill-menu="Role Action 23"></a></li>
+									<li><a href="#mrange_action_02" class="job_skill_icon" db-skill-menu="Role Action 24"></a></li>
+									<li><a href="#mrange_action_03" class="job_skill_icon" db-skill-menu="Role Action 11"></a></li>
+									<li><a href="#mrange_action_04" class="job_skill_icon" db-skill-menu="Role Action 10"></a></li>
+									<li><a href="#mrange_action_05" class="job_skill_icon" db-skill-menu="Role Action 12"></a></li>
+								</ul>
+								<h2 class="job_nav_title"><a href="#anchor_onlytrait">Пассивные умения</a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="job_header_inner">
+					<a href="../JobGuide" class="job_header_guide_top"><span>На главную</span></a>
+					<h1 class="job_header_nome">
+						<img src="/Assets/img/JobHaider/JobBLU.png" />
+						<span class="job_header_role">
+							<img alt="Нет он не танк =)" src="/Assets/img/main/BLU_MRDPS_Tank.png" />
+							Magical Ranged DPS (Лимитная профессия)
+						</span>
+					</h1>
+					<div class="job_header_text">
+						<p>
+							Так называемый маг весьма сомнительного происхождения утверждает, что во время своего путешествия в Новый мир (New World) он овладел необычной формой колдовства, не похожей ни на черную, ни на белую магию.
+							<br />
+							<br />
+							Предположительно, что любой, кто приобретет один из его кристаллов души, сможет научиться подражать эфирной магии (aetherial magicks) диких созданий.
+							<br />
+							<br />
+							Но можно ли ему доверять или он просто мошенник, желающий быстро заработать гили?
+						</p>
+					</div>
+					<div class="job_header_quest">
+						<a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/667c7f49a11/">
+							<span>
+								<img src="/Assets/img/main/quest.png" />
+								Стартовое задание профессии
+							</span>
+						</a>
+					</div>
+				</div>
+			</header>
+			<!-- DB Skill List -->
+			<div class="job_skill_list">
+				<ul class="job_tab clearfix">
+					<li class="job_tab--pve js-tab-trigger active" data-tab="guide"><img src="/Assets/img/main/BLUInfo.png" /></li>
+					<li class="job_tab--pvp js-tab-trigger" data-tab="skill"><img src="/Assets/img/main/BLUAction.png" /></li>
+				</ul>
+				<!-- Guide -->
+				<div class="job_skill_db-pve js-tab-content active" data-tab="guide">
+					<p class="job_update" db-value="Update"></p>
+					<p class="job_notes_lvl">Синие маги могут изучать синюю магию у различных противников, что делает их невероятно универсальными в бою.</p>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_start">Как открыть?</h2>
+						<p class="bluemage-text">Выполните приведенный ниже квест, чтобы разблокировать ограниченную профессию синего мага.</p>
+						<h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/667c7f49a11/" class="eorzeadb_link">Out of the Blue</a></h3>
+
+						<div class="bluemage-quest">
+							<div class="bluemage-quest_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/s/TN8NQCY5UoGr1Wd1h7H6jOEiGE.png" width="360" height="" class="" />
+							</div>
+							<ul class="bluemage-quest_detail">
+								<li class="level eu">Disciple of War or Magic уровень 50</li>
+								<li class="pos">Limsa Lominsa Lower Decks (X:9.9 Y:11.0)</li>
+								<li class="npc">Zealous Yellowjacket</li>
+								<li class="condition">
+									Завершите основное задание (main scenario) "
+									<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2ba6b3e60da/" class="eorzeadb_link">The Ultimate Weapon</a>
+									."
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_limited">Limited Job</h2>
+						<p class="bluemage-text">Синий маг известен как ограниченная профессия. Есть несколько ключевых моментов, которые отличают его от других профессий.</p>
+						<ul class="bluemage-list">
+							<li>Синий маг действует независимо от других классов и профессий, начиная с 1 уровня до максимального уровня 80.</li>
+							<li>
+								Играя синим магом, можно участвовать в подземельях с другими игроками в заранее сформированных (preformed) или неполных (undersized) группах. Однако следующие подземелья останутся недоступными:
+								<ul>
+									<li>Duty Roulettes</li>
+									<li>
+										The Forbidden Land, Eureka / The Bozjan Southern Front / Variant &amp; Criterion Dungeons
+										<br />
+										<span class="bluemage-notes">* Невозможно переключиться на синего мага после входа в подземелье.</span>
+									</li>
+									<li>Squadron Missions</li>
+									<li>Deep Dungeons</li>
+									<li>
+										PvP, включая дуэли
+										<br />
+										<span class="bluemage-notes">* Однако можно войти синим магом в the Wolves' Den.</span>
+									</li>
+									<li>Stone, Sky, Sea</li>
+									<li>Hall of the Novice</li>
+								</ul>
+							</li>
+							<li>
+								Синие маги получают больше опыта от сражений с противниками в открытом мире, чем другие профессии.
+								<br />
+								<span class="bluemage-notes">* Никаких бонусов к опыту не дается при закрытии FATE или убийстве противников в guildleve.</span>
+							</li>
+							<li>Синий маг не может быть использован для продвижения по основному заданию (main scenario).</li>
+							<li>Retainers не могут получить профессию синего мага.</li>
+						</ul>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_learning">Изучение заклинаний</h2>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/R/7OqKNZaJspayiZ8cFS50lMrqEE.jpg" width="640" height="360" class="bluemage-image" />
+						<p class="bluemage-text">
+							Вместо того чтобы получать новые умения, повышая свой уровень, синие маги изучают их у противников. Для этого нужно сначала увидеть, как противник выполняет специальную атаку в бою. Как только он будет повержен, у персонажа появится
+							шанс получить способность.
+							<br />
+							<span class="bluemage-notes">
+								<br />
+								* Уровень профессии не влияет на время изучения умения.
+							</span>
+						</p>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_book">Blue Magic Spellbook</h2>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/Y/rTbD8HgdbmG3ihUjV2W4W1Hucs.jpg" width="640" height="442" class="bluemage-image" />
+						<p class="bluemage-text">Все выученные заклинания записываются в Blue Magic Spellbook. В книге также содержатся подсказки о том, как приобрести другие заклинания.</p>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_action">Активные умения</h2>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/I/PU7Wq6Qa-HANfc0-4IhfFYmUvg.jpg" width="578" height="184" class="bluemage-image" />
+						<p class="bluemage-text">
+							Прежде чем заклинания можно будет установить на хотбар, их нужно выбрать в качестве активных умений. Можно выбрать 24 активных умений за один раз.
+							<br />
+							<span class="bluemage-notes">* Активные умения нельзя менять во время боя или при входе в подземелье.</span>
+						</p>
+						<h3 class="job_sub_title">Активные наборы</h3>
+						<p class="bluemage-text">
+							Активные умения и слоты хотбара Blue Magic можно сохранить в так называемом активном наборе. Можно создать до пяти различных активных наборов, что позволит быстро переключаться между предпочитаемыми комбинациями активных умений и слотов
+							хотбара.
+						</p>
+						<div class="bluemage-indent">
+							<h4 class="bluemage-sub_title">Затронутые слоты хотбара</h4>
+							<p class="bluemage-text">
+								В активном наборе будут сохранены только слоты на хотбарах, эксклюзивных для синих магов. Это означает, что при создании активного набора во время игры за другую профессию/класс эти хотбары не будут сохранены, и расположение хотбаров
+								синего мага останется неизменным. Слоты на общих хотбарах также исключены.
+							</p>
+							<h4 class="bluemage-sub_title">Затронутые умения</h4>
+							<p class="bluemage-text">
+								Схема хотбаров всех заклинаний синего мага, как активных, так и неактивных, будет сохранена в наборе вместе с любыми макросами (macros).
+								<br />
+								<span class="bluemage-notes">※ Все макросы будут сохранены, несмотря на содержимое синей магии.</span>
+							</p>
+							<h4 class="bluemage-sub_title">Загрузка наборов</h4>
+							<p class="bluemage-text">Загрузка активного набора влияет только на хотбары, исключающие синюю магию.</p>
+						</div>
+						<h3 class="job_sub_title">Whalaqee Totems</h3>
+						<p class="bluemage-text">
+							Некоторые заклинания синей магии можно получить только с помощью Whalaqee Totems.
+							<br />
+							<br />
+							Чтобы получить эти предметы, требуется выполнить задание для синих магов "
+							<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/76f63bf2828/" class="eorzeadb_link">Blue Leading the Blue</a>
+							" и определенные достижения, а затем поговорить с Wayward Gaheel Ja в Ul'dah - Steps of Thal (X:12.5 Y:12.9).
+						</p>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_carnival">Masked Carnivale</h2>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/n/j9Kj_mFxEjnJzYAerqxOFDR3dI.jpg" width="640" height="360" class="bluemage-image" />
+						<p class="bluemage-text">Masked Carnivale дает синим магам возможность проверить свои навыки против различных противников.</p>
+
+						<h3 class="job_sub_title">Требования для входа</h3>
+						<h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1878e683dfd/" class="eorzeadb_link">The Real Folk Blues</a></h3>
+						<div class="bluemage-quest">
+							<div class="bluemage-quest_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/W/df5j5VpIunxyANYmMdM4-AH2IY.png" width="360" height="" class="" />
+							</div>
+							<ul class="bluemage-quest_detail">
+								<li class="level eu">Синий маг уровень 50</li>
+								<li class="pos">Ul'dah - Steps of Thal (X:12.5 Y:13.0)</li>
+								<li class="npc">Maudlin Latool Ja</li>
+								<li class="condition">
+									Закончить задание для синего мага "
+									<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/ab5c126e9a1/" class="eorzeadb_link">Blue Gold</a>
+									" и выучить заклинания синего мага "Glower".
+								</li>
+							</ul>
+						</div>
+						<h3 class="job_sub_title">Как принять участие</h3>
+						<p class="bluemage-text">Поговорите с Celestium attendant в Ul'dah - Steps of Thal (X:11.5 Y:13.2).</p>
+						<div class="bluemage-quest">
+							<div class="bluemage-quest_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/P/6W9Jn9BrH8xTnKMp1kLDGn8tbI.png" width="360" height="" class="" />
+							</div>
+							<ul class="bluemage-quest_detail">
+								<li class="level eu">Синий маг уровень 50</li>
+								<li class="pos">Ul'dah - Steps of Thal (X:11.5 Y:13.2)</li>
+								<li class="npc">Celestium attendant</li>
+								<li class="condition">
+									Закончить задание для синего мага "
+									<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1878e683dfd/" class="eorzeadb_link">The Real Folk Blues</a>
+									."
+								</li>
+							</ul>
+						</div>
+						<h3 class="job_sub_title">Этапы</h3>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/Q/NTg0KbYGqr4eUkow8kxw0-sBKY.jpg" width="640" height="520" class="bluemage-image" />
+						<p class="bluemage-text">Masked Carnivale состоит из 31 этапа. Список всех доступных этапов можно посмотреть в разговоре со Celestium attendant. Требуется иметь в виду, что начав этап, нельзя назначить или удалить активные умения.</p>
+						<h3 class="job_sub_title">Слабые стороны противника</h3>
+						<p class="bluemage-text">
+							Многие противники, появляющиеся в Masked Carnivale, слабы к определенному элементу, в чем можно убедиться, просмотрев список этапов. Это можно использовать в своих интересах и выбирать умения соответствующим образом. Слабость
+							противников к стихиям также обозначается значком над их именами на экране.
+						</p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/T/2lfSyt94WTV9b6V96KSa9v6JOo.jpg" width="640" height="360" class="bluemage-image_mb" />
+						<h3 class="job_sub_title">Результаты</h3>
+						<p class="bluemage-text">
+							После завершения боя на экране отображается время, затраченное на прохождение, бонусы и результат.
+							<br />
+							<br />
+							Бонусы начисляются за выполнение определенных условий и влияют на результат.
+						</p>
+						<h3 class="job_sub_title">Недельные цели</h3>
+						<p class="bluemage-text">
+							Для определенных боев доступны недельные цели, обозначенные специальным значком.
+							<br />
+							<br />
+							Для недельных целей существует три уровня сложности: начинающий (novice), средний (moderate) и продвинутый (advanced).
+							<br />
+							<br />
+							Чтобы просмотреть условия, выберите бой с недельной целью, отмеченной значком. Эту информацию также можно просмотреть в меню Timers.
+							<br />
+							<span class="bluemage-notes">
+								* Дополнительные награды за выполнение недельной цели можно получить только один раз в неделю.
+								<br />
+								* Недельные цели сбрасываются каждый вторник в 8:00 (GMT) / 18:00 (AEST) / 19:00 (AEDT) / 12:00 (PST).
+							</span>
+						</p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/b/ZFnxNvXOSqU7GlkEHgexKQLVxs.jpg" width="400" height="668" class="bluemage-image" />
+					</div>
+					<!-- Content Wrapper -->
+					<div class="bluemage-content">
+						<h2 class="job_title" id="anchor_report">Blue Mage Log</h2>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/z/f5bnLexJrDM1Zrwx4GdhsX6GDI.jpg" width="640" height="360" class="bluemage-image" />
+						<p class="bluemage-text">Blue mage log позволяет объединяться с другими синими магами и участвовать в выполнении определенных подземелий.</p>
+
+						<h3 class="job_sub_title">Требования для открытия</h3>
+						<h3 class="bluemage-quest_title"><a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51d8fd972e0/" class="eorzeadb_link">Blue Scream of Death</a></h3>
+						<div class="bluemage-quest">
+							<div class="bluemage-quest_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/W/hi1ikak4hq07eKrquemPGgHcZY.png" width="360" height="" class="" />
+							</div>
+							<ul class="bluemage-quest_detail">
+								<li class="level eu">Синий маг уровень 60</li>
+								<li class="pos">Ul'dah - Steps of Thal (X:12.5 Y:13.0)</li>
+								<li class="npc">Martyn</li>
+								<li class="condition">
+									Закончить задание для синего мага "
+									<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1edc59a0cc9/" class="eorzeadb_link">Blue in the Face</a>
+									" и выучить заклинания синего мага "Frog Legs".
+								</li>
+							</ul>
+						</div>
+						<p class="bluemage-text">Выполнение этого задания открывает blue mage log.</p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/5/x11WWC-o4NylthSyDvwjiYysZ0.jpg" width="640" height="402" class="bluemage-image_mb" />
+
+						<h3 class="job_sub_title">Как принять участие</h3>
+						<p class="bluemage-text">
+							В журнале можно просмотреть список доступных подземелий, набрать членов партии и приступить к прохождению. Обратите внимание, что прохождение подземелий засчитывается в прогресс blue mage log только в том случае, если партия
+							соответствует требованиям по размеру. По этой причине рекомендуется избегать использования опции "Undersized Party".
+						</p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/A/WKs6qF2zBTW-sKicxJDTau0uEo.jpg" width="640" height="80" class="bluemage-image_mb" />
+
+						<h3 class="job_sub_title">Доступные подземелья</h3>
+						<p class="bluemage-text">
+							Успешное прохождение подземелий, перечисленных в blue mage log, отметит их как завершенные, если вы выполните все требования. По завершении этих подземелий будут выдаваться различные награды. Большую награду можно получить при первом
+							выполнении задания через blue mage log.
+						</p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/p/mKl7VsfaBSb75aVo-GulQtHOww.jpg" width="380" height="372" class="bluemage-image_mb" />
+
+						<h3 class="job_sub_title">Недельные цели</h3>
+						<p class="bluemage-text">
+							За выполнение заданий, обозначенных как еженедельные цели (отмечены серебряной звездой), полагается большее вознаграждение.
+							<br />
+							<span class="bluemage-notes">
+								* Дополнительные награды за выполнение еженедельной цели можно получить только один раз в неделю.
+								<br />
+								* Недельные цели сбрасываются каждый вторник в 8:00 (GMT) / 18:00 (AEST) / 19:00 (AEDT) / 12:00 (PST).
+							</span>
+						</p>
+						<p class="bluemage-text"></p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/9/NwmoEC8aXUXgmtcY-yyr_Y5HL4.jpg" width="640" height="400" class="bluemage-image_mb" />
+
+						<h3 class="job_sub_title">Основные цели</h3>
+						<p class="bluemage-text">
+							Помимо стандартной еженедельной цели, отмеченной серебряной звездой в списке подземелий, есть еще и главная цель, отмеченная золотой звездой. Хотя главная цель предлагает повышенную награду, ее сложность значительно выше. Подземелья,
+							выбранные в качестве первостепенных, недоступны через blue mage log.
+						</p>
+						<img src="https://lds-img.finalfantasyxiv.com/promo/h/e/wUG9Ma6OIxws2PVGJ01zOdJxwU.jpg" width="640" height="400" class="bluemage-image_mb" />
+					</div>
+					<!-- END -->
+				</div>
+				<!-- Skill -->
+				<div class="job_skill_db-pvp bluemage_content js-tab-content" data-tab="skill">
+					<p class="job_update" db-value="Update"></p>
+					<!-- Content Wrapper -->
+					<div class="job_content_wrapper">
+						<h2 class="job_title">Активные и пассивные умения</h2>
+						<div class="search">
+							<a>Поиск по умениям:</a>
+							<input type="text" id="searchInput" placeholder="Введите название умения... или его номер" />
+						</div>
+						<h3 class="job_sub_title" id="anchor_pvp_onlyaction">Активные умения</h3>
+						<table class="job_table">
+							<colgroup>
+								<col width="180" />
+								<col width="90" />
+								<col width="99" />
+								<col width="110" />
+								<col width="77" />
+								<col width="78" />
+								<col width="*" />
+							</colgroup>
+							<thead>
+								<tr class="job_thead">
+									<th>
+										<p><span>Название умения</span></p>
+									</th>
+									<th>
+										<p><span>Тип</span></p>
+									</th>
+									<th>
+										<p><span>Длительность применения</span></p>
+									</th>
+									<th>
+										<p><span>Время восстановления</span></p>
+									</th>
+									<th>
+										<p><span>Стоимость MP</span></p>
+									</th>
+									<th>
+										<div>
+											<p><span>Дальность действия</span></p>
+										</div>
+										<hr />
+										<div>
+											<p><span>Радиус</span></p>
+										</div>
+									</th>
+									<th>
+										<p><span>Эффект</span></p>
+									</th>
+								</tr>
+							</thead>
+							<tbody class="job_tbody" data-search="true">
+								<tr id="action_01" db-skill-limited="Action 01"></tr>
+								<tr id="action_02" db-skill-limited="Action 02"></tr>
+								<tr id="action_03" db-skill-limited="Action 03"></tr>
+								<tr id="action_04" db-skill-limited="Action 04"></tr>
+								<tr id="action_05" db-skill-limited="Action 05"></tr>
+								<tr id="action_06" db-skill-limited="Action 06"></tr>
+								<tr id="action_07" db-skill-limited="Action 07"></tr>
+								<tr id="action_08" db-skill-limited="Action 08"></tr>
+								<tr id="action_09" db-skill-limited="Action 09"></tr>
+								<tr id="action_10" db-skill-limited="Action 10"></tr>
+								<tr id="action_11" db-skill-limited="Action 11"></tr>
+								<tr id="action_12" db-skill-limited="Action 12"></tr>
+								<tr id="action_13" db-skill-limited="Action 13"></tr>
+								<tr id="action_14" db-skill-limited="Action 14"></tr>
+								<tr id="action_15" db-skill-limited="Action 15"></tr>
+								<tr id="action_16" db-skill-limited="Action 16"></tr>
+								<tr id="action_17" db-skill-limited="Action 17"></tr>
+								<tr id="action_18" db-skill-limited="Action 18"></tr>
+								<tr id="action_19" db-skill-limited="Action 19"></tr>
+								<tr id="action_20" db-skill-limited="Action 20"></tr>
+								<tr id="action_21" db-skill-limited="Action 21"></tr>
+								<tr id="action_22" db-skill-limited="Action 22"></tr>
+								<tr id="action_23" db-skill-limited="Action 23"></tr>
+								<tr id="action_24" db-skill-limited="Action 24"></tr>
+								<tr id="action_25" db-skill-limited="Action 25"></tr>
+								<tr id="action_26" db-skill-limited="Action 26"></tr>
+								<tr id="action_27" db-skill-limited="Action 27"></tr>
+								<tr id="action_28" db-skill-limited="Action 28"></tr>
+								<tr id="action_29" db-skill-limited="Action 29"></tr>
+								<tr id="action_30" db-skill-limited="Action 30"></tr>
+								<tr id="action_31" db-skill-limited="Action 31"></tr>
+								<tr id="action_32" db-skill-limited="Action 32"></tr>
+								<tr id="action_33" db-skill-limited="Action 33"></tr>
+								<tr id="action_34" db-skill-limited="Action 34"></tr>
+								<tr id="action_35" db-skill-limited="Action 35"></tr>
+								<tr id="action_36" db-skill-limited="Action 36"></tr>
+								<tr id="action_37" db-skill-limited="Action 37"></tr>
+								<tr id="action_38" db-skill-limited="Action 38"></tr>
+								<tr id="action_39" db-skill-limited="Action 39"></tr>
+								<tr id="action_40" db-skill-limited="Action 40"></tr>
+								<tr id="action_41" db-skill-limited="Action 41"></tr>
+								<tr id="action_42" db-skill-limited="Action 42"></tr>
+								<tr id="action_43" db-skill-limited="Action 43"></tr>
+								<tr id="action_44" db-skill-limited="Action 44"></tr>
+								<tr id="action_45" db-skill-limited="Action 45"></tr>
+								<tr id="action_46" db-skill-limited="Action 46"></tr>
+								<tr id="action_47" db-skill-limited="Action 47"></tr>
+								<tr id="action_48" db-skill-limited="Action 48"></tr>
+								<tr id="action_49" db-skill-limited="Action 49"></tr>
+								<tr id="action_50" db-skill-limited="Action 50"></tr>
+								<tr id="action_51" db-skill-limited="Action 51"></tr>
+								<tr id="action_52" db-skill-limited="Action 52"></tr>
+								<tr id="action_53" db-skill-limited="Action 53"></tr>
+								<tr id="action_54" db-skill-limited="Action 54"></tr>
+								<tr id="action_55" db-skill-limited="Action 55"></tr>
+								<tr id="action_56" db-skill-limited="Action 56"></tr>
+								<tr id="action_57" db-skill-limited="Action 57"></tr>
+								<tr id="action_58" db-skill-limited="Action 58"></tr>
+								<tr id="action_59" db-skill-limited="Action 59"></tr>
+								<tr id="action_60" db-skill-limited="Action 60"></tr>
+								<tr id="action_61" db-skill-limited="Action 61"></tr>
+								<tr id="action_62" db-skill-limited="Action 62"></tr>
+								<tr id="action_63" db-skill-limited="Action 63"></tr>
+								<tr id="action_64" db-skill-limited="Action 64"></tr>
+								<tr id="action_65" db-skill-limited="Action 65"></tr>
+								<tr id="action_66" db-skill-limited="Action 66"></tr>
+								<tr id="action_67" db-skill-limited="Action 67"></tr>
+								<tr id="action_68" db-skill-limited="Action 68"></tr>
+								<tr id="action_69" db-skill-limited="Action 69"></tr>
+								<tr id="action_70" db-skill-limited="Action 70"></tr>
+								<tr id="action_71" db-skill-limited="Action 71"></tr>
+								<tr id="action_72" db-skill-limited="Action 72"></tr>
+								<tr id="action_73" db-skill-limited="Action 73"></tr>
+								<tr id="action_74" db-skill-limited="Action 74"></tr>
+								<tr id="action_75" db-skill-limited="Action 75"></tr>
+								<tr id="action_76" db-skill-limited="Action 76"></tr>
+								<tr id="action_77" db-skill-limited="Action 77"></tr>
+								<tr id="action_78" db-skill-limited="Action 78"></tr>
+								<tr id="action_79" db-skill-limited="Action 79"></tr>
+								<tr id="action_80" db-skill-limited="Action 80"></tr>
+								<tr id="action_81" db-skill-limited="Action 81"></tr>
+								<tr id="action_82" db-skill-limited="Action 82"></tr>
+								<tr id="action_83" db-skill-limited="Action 83"></tr>
+								<tr id="action_84" db-skill-limited="Action 84"></tr>
+								<tr id="action_85" db-skill-limited="Action 85"></tr>
+								<tr id="action_86" db-skill-limited="Action 86"></tr>
+								<tr id="action_87" db-skill-limited="Action 87"></tr>
+								<tr id="action_88" db-skill-limited="Action 88"></tr>
+								<tr id="action_89" db-skill-limited="Action 89"></tr>
+								<tr id="action_90" db-skill-limited="Action 90"></tr>
+								<tr id="action_91" db-skill-limited="Action 91"></tr>
+								<tr id="action_92" db-skill-limited="Action 92"></tr>
+								<tr id="action_93" db-skill-limited="Action 93"></tr>
+								<tr id="action_94" db-skill-limited="Action 94"></tr>
+								<tr id="action_95" db-skill-limited="Action 95"></tr>
+								<tr id="action_96" db-skill-limited="Action 96"></tr>
+								<tr id="action_97" db-skill-limited="Action 97"></tr>
+								<tr id="action_98" db-skill-limited="Action 98"></tr>
+								<tr id="action_99" db-skill-limited="Action 99"></tr>
+								<tr id="action_100" db-skill-limited="Action 100"></tr>
+								<tr id="action_101" db-skill-limited="Action 101"></tr>
+								<tr id="action_102" db-skill-limited="Action 102"></tr>
+								<tr id="action_103" db-skill-limited="Action 103"></tr>
+								<tr id="action_104" db-skill-limited="Action 104"></tr>
+								<tr id="action_105" db-skill-limited="Action 105"></tr>
+								<tr id="action_106" db-skill-limited="Action 106"></tr>
+								<tr id="action_107" db-skill-limited="Action 107"></tr>
+								<tr id="action_108" db-skill-limited="Action 108"></tr>
+								<tr id="action_109" db-skill-limited="Action 109"></tr>
+								<tr id="action_110" db-skill-limited="Action 110"></tr>
+								<tr id="action_111" db-skill-limited="Action 111"></tr>
+								<tr id="action_112" db-skill-limited="Action 112"></tr>
+								<tr id="action_113" db-skill-limited="Action 113"></tr>
+								<tr id="action_114" db-skill-limited="Action 114"></tr>
+								<tr id="action_115" db-skill-limited="Action 115"></tr>
+								<tr id="action_116" db-skill-limited="Action 116"></tr>
+								<tr id="action_117" db-skill-limited="Action 117"></tr>
+								<tr id="action_118" db-skill-limited="Action 118"></tr>
+								<tr id="action_119" db-skill-limited="Action 119"></tr>
+								<tr id="action_120" db-skill-limited="Action 120"></tr>
+								<tr id="action_121" db-skill-limited="Action 121"></tr>
+								<tr id="action_122" db-skill-limited="Action 122"></tr>
+								<tr id="action_123" db-skill-limited="Action 123"></tr>
+								<tr id="action_124" db-skill-limited="Action 124"></tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="job_content_wrapper">
+						<h3 class="job_sub_title" id="anchor_rollcommonaction">Ролевые умения</h3>
+						<p class="job_text">Ролевые умения - это способности, общие для классов и специализаций с одинаковой ролью.</p>
+						<table class="job_table">
+							<colgroup>
+								<col width="191" />
+								<col width="84" />
+								<col width="74" />
+								<col width="74" />
+								<col width="74" />
+								<col width="74" />
+								<col width="74" />
+								<col width="*" />
+							</colgroup>
+							<thead>
+								<tr class="job_thead">
+									<th>
+										<p><span>Название умения</span></p>
+									</th>
+									<th>
+										<p><span>Уровень получения</span></p>
+									</th>
+									<th>
+										<p><span>Тип</span></p>
+									</th>
+									<th>
+										<p><span>Длительность применения</span></p>
+									</th>
+									<th>
+										<p><span>Время восстановления</span></p>
+									</th>
+									<th>
+										<p><span>Стоимость MP</span></p>
+									</th>
+									<th>
+										<div>
+											<p><span>Дальность действия</span></p>
+										</div>
+										<hr />
+										<div>
+											<p><span>Радиус</span></p>
+										</div>
+									</th>
+									<th>
+										<p><span>Эффект</span></p>
+									</th>
+								</tr>
+							</thead>
+							<tbody class="job_tbody">
+								<tr id="mrange_action_01" db-role-action="Role Action 23"></tr>
+								<tr id="mrange_action_02" db-role-action="Role Action 24"></tr>
+								<tr id="mrange_action_03" db-role-action="Role Action 11"></tr>
+								<tr id="mrange_action_04" db-role-action="Role Action 10"></tr>
+								<tr id="mrange_action_05" db-role-action="Role Action 12"></tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- Content Wrapper -->
+					<div class="job_content_wrapper">
+						<h3 class="job_sub_title" id="anchor_onlytrait">Пассивные умения</h3>
+						<table class="job_table">
+							<colgroup>
+								<col width="191" />
+								<col width="90" />
+								<col width="659" />
+							</colgroup>
+							<thead>
+								<tr class="job_thead">
+									<th>
+										<p><span>Название умения</span></p>
+									</th>
+									<th>
+										<p><span>Уровень получения</span></p>
+									</th>
+									<th>
+										<p><span>Эффект</span></p>
+									</th>
+								</tr>
+							</thead>
+							<tbody class="job_tbody">
+								<tr id="trait_action_01" db-skill-passive="Trait 01"></tr>
+								<tr id="trait_action_02" db-skill-passive="Trait 02"></tr>
+								<tr id="trait_action_03" db-skill-passive="Trait 03"></tr>
+								<tr id="trait_action_04" db-skill-passive="Trait 04"></tr>
+								<tr id="trait_action_05" db-skill-passive="Trait 05"></tr>
+								<tr id="trait_action_06" db-skill-passive="Trait 06"></tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer_inner">
+				<div class="footer_info">
+					<a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
+						<img src="/Assets/img/svg/github.svg" />
+						Source Code
+					</a>
+				</div>
+				<div class="SE"></div>
+			</div>
+		</footer>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/img/svg/arrow-up.svg" /></a>
+		</div>
+		<!--- Script --->
+		<script type="text/javascript" src="/Assets/js/main.js"></script>
+		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				CORE_DB_LOAD(["/DB/BlueMage.json", "/DB/RoleActions.json"], DB_VERSION);
+			});
+		</script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</body>
 </html>

@@ -1,372 +1,418 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-
-   <head>
-      <meta charset="UTF-8">
-      <title>Gathering: Botanist | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<title>Gathering: Botanist | FFXIV RU</title>
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
 		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
 		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
 		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
 		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
-      <link rel="manifest" href="/manifest.json">
-      <meta property="og:title" content="Job Guide: Botanist">
-      <meta property="og:site_name" content="FFXIV Job Guide RU">
-      <meta property="og:description" content="Описание умений Botanist на русском">
-      <meta property="og:url" content="https://ff14jobguide.ru/Page/BTN">
-      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/BTN.png">
-      <meta name="theme-color" content="#8f7832">
-      <link rel="stylesheet" href="/Assets/css/style.min.css"/>
-      <script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-Y6M41KEYQX');
-      </script>
-   </head>
-   <body job-name="BTN">
-      <div id="page-preloader" class="preloader">
-         <div class="seal-container">
-               <img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo">
-               <div class="seal-ring ring-1"></div>
-               <div class="seal-ring ring-2"></div>
-         </div>
-         <div class="loader-text">Загрузка...</div>
-      </div>
-      <div class="jobguide job_gathering">
-         <!-- Top Menu -->
-         <div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
-         <!-- Header -->
-         <header class="job_header job_btn">
-            <div class="job_header_inner">
-               <a href="../CraftingGatheringGuide" class="job_header_guide_top"><span>На главную</span></a>
-               <h1 class="job_header_nome">
-                  <img src="/Assets/img/JobHaider/JobBTN.png">
-                  <span class="job_header_role">
-                     <img src="/Assets/img/main/Gatherer.png"> Disciplines of the Land
-                  </span>
-               </h1>
-               <div class="job_header_text">
-                  <p>
-                     Профессия ботаника (botanist) включает в себя добычу ресурсов из всех форм растительного мира.
-                     <br><br>Это и сбор овощей и злаков, и уход за плодоносящими деревьями, и заготовка древесины, и многое другое.
-                     <br><br>Ботаники пытаются донести до других идею о мирном сосуществовании с растительным миром Эорзии и разумном использовании природных ресурсов.
-                     <br><br>Благодаря своей близости к природе ботаники почитают Nothica, богиню изобилия.
-                  </p>
-               </div>
-               <div class="job_header_quest">
-                  <a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a761973ed33/">
-                     <span>
-                        <img src="/Assets/img/main/quest.png"> Стартовое задание профессии
-                     </span>
-                  </a>
-               </div>
-            </div>
-         </header>
-         <!-- DB Skill List -->
-         <div class="job_skill_list">
-            <div class="job_skill_db-pve">
-               <p class="job_update" db-value="Gathering Update"></p>
-               <ul class="job_tab tab_gatherer clearfix">
-                  <li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
-                  <li class="js-tab-trigger" data-tab="guide">Общая информация</li>
-               </ul>
-               <!-- Skil -->
-               <div class="guide-inner js-tab-content active" data-tab="skill">
-                  <p class="job_notes_lvl" id="patch_info"></p>
-                  <h2 class="guide-title">Активные и пассивные умения</h2>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="190">
-                           <col width="90">
-                           <col width="89">
-                           <col width="115">
-                           <col width="77">
-                           <col width="345">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Тип</p></th>
-                              <th><p>Время восстановления</p></th>
-                              <th><p>Стоимость GP</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="action_01" db-skill-gathering="Action 01"></tr>
-                           <tr id="action_02" db-skill-gathering="Action 02"></tr>
-                           <tr id="action_03" db-skill-gathering="Action 03"></tr>
-                           <tr id="action_04" db-skill-gathering="Action 04"></tr>
-                           <tr id="action_05" db-skill-gathering="Action 05"></tr>
-                           <tr id="action_06" db-skill-gathering="Action 06"></tr>
-                           <tr id="action_07" db-skill-gathering="Action 07"></tr>
-                           <tr id="action_08" db-skill-gathering="Action 08"></tr>
-                           <tr id="action_09" db-skill-gathering="Action 09"></tr>
-                           <tr id="action_10" db-skill-gathering="Action 10"></tr>
-                           <tr id="action_11" db-skill-gathering="Action 11"></tr>
-                           <tr id="action_12" db-skill-gathering="Action 12"></tr>
-                           <tr id="action_13" db-skill-gathering="Action 13"></tr>
-                           <tr id="action_14" db-skill-gathering="Action 14"></tr>
-                           <tr id="action_15" db-skill-gathering="Action 15"></tr>
-                           <tr id="action_16" db-skill-gathering="Action 16"></tr>
-                           <tr id="action_17" db-skill-gathering="Action 17"></tr>
-                           <tr id="action_18" db-skill-gathering="Action 18"></tr>
-                           <tr id="action_19" db-skill-gathering="Action 19"></tr>
-                           <tr id="action_20" db-skill-gathering="Action 20"></tr>
-                           <tr id="action_21" db-skill-gathering="Action 21"></tr>
-                           <tr id="action_22" db-skill-gathering="Action 22"></tr>
-                           <tr id="action_23" db-skill-gathering="Action 23"></tr>
-                           <tr id="action_24" db-skill-gathering="Action 24"></tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_addaction">Ролевые умения собирателей (Gatherer)</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="191">
-                           <col width="90">
-                           <col width="82">
-                           <col width="115">
-                           <col width="429">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Тип</p></th>
-                              <th><p>Время восстановления</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="addaction_01" db-gathering-passive="Gatherer Role 01"></tr>
-                           <tr id="addaction_02" db-gathering-passive="Gatherer Role 02"></tr>
-                           <tr id="addaction_03" db-gathering-passive="Gatherer Role 03"></tr>
-                           <tr id="addaction_04" db-gathering-passive="Gatherer Role 04"></tr>
-                        </tbody>
-                     </table>
-                     <p class="guide-notes">* Ролевые умения (role actions) собирателей после изучения можно использовать на любом классе собирателей (gathering).</p>
-                  </div>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_trait">Пассивные умения</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="191">
-                           <col width="90">
-                           <col width="*">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="traitaction_01" db-gathering-passive="Gatherer Traits 01"></tr>
-                           <tr id="traitaction_02" db-gathering-passive="Gatherer Traits 02"></tr>
-                           <tr id="traitaction_03" db-gathering-passive="Gatherer Traits 03"></tr>
-                           <tr id="traitaction_04" db-gathering-passive="Gatherer Traits 04"></tr>
-                           <tr id="traitaction_05" db-gathering-passive="Gatherer Traits 05"></tr>
-                           <tr id="traitaction_06" db-gathering-passive="Gatherer Traits 06"></tr>
-                           <tr id="traitaction_07" db-gathering-passive="Gatherer Traits 07"></tr>
-                           <tr id="traitaction_08" db-gathering-passive="Gatherer Traits 08"></tr>
-                           <tr id="traitaction_09" db-gathering-passive="Gatherer Traits 09"></tr>
-                           <tr id="traitaction_10" db-gathering-passive="Gatherer Traits 10"></tr>
-                           <tr id="traitaction_11" db-gathering-passive="Gatherer Traits 11"></tr>
-                           <tr id="traitaction_12" db-gathering-passive="Gatherer Traits 12"></tr>
-                           <tr id="traitaction_13" db-gathering-passive="Gatherer Traits 13"></tr>
-                           <tr id="traitaction_14" db-gathering-passive="Gatherer Traits 14"></tr>
-                           <tr id="traitaction_15" db-gathering-passive="Gatherer Traits 15"></tr>
-                           <tr id="traitaction_16" db-gathering-passive="Gatherer Traits 16"></tr>
-                           <tr id="traitaction_17" db-gathering-passive="Gatherer Traits 17"></tr>
-                           <tr id="traitaction_18" db-gathering-passive="Gatherer Traits 18"></tr>
-                           <tr id="traitaction_19" db-gathering-passive="Gatherer Traits 19"></tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <!-- Content Wrapper END -->                  
-               </div>
-               <!-- Guide -->
-               <div class="guide-inner js-tab-content" data-tab="guide">
-                  <div class="guide-about" id="anchor_start">
-                     <h2 class="guide-about_title gatherer">Присоединиться к Discipline of the Land</h2>
-                     <div class="guide-about_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/t/X3OI0XJd6NIVKCiY4HNXxxEK7M.jpg" width="400" height="400" />
-                        <div class="guide-about_map_text"><br><br>
-                           <p>
-                              Как только персонаж достигнет 10 уровня класса, который был выбран в начале игры, можно взять новое задание. Выполнив его, персонаж сможет вступить в гильдии других классов.<br />
-                              <br />Чтобы стать ботаником, требуется найти и вступить в Botanists' Guild в Old Gridania (X:6.4 Y:8.3).
-                           </p>
-                           <p class="notes">Для смены класса, после вступления в гильдию, необходимо экипировать инструмент нужного класса.</p>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_can">
-                        <h2 class="guide-about_title gatherer">Шахтер и Ботаник: ключевые особенности</h2>
-                        <p class="guide-about_text">Disciples of the Land могут собирать полезные материалы в игровом мире, доступные их специализации.</p>
-                        <p class="guide-about_text">
-                           Шахтеры - это класс собирателей, которые могут собирать руду и драгоценные металлы с mineral deposits и rocky outcrops.
-                           <br />Ботаники могут собирать древесину, фрукты и другие растительные продукты с mature trees и lush vegetation patches.
-                           <br />Повышение уровня этих классов расширит области сбора и поможет найти более редкие материалы.
-                        </p>
-                        <ul class="guide-about_column">
-                           <li>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/h/j9vpZfhG0SYq-0OJb5oYfH4xW4.jpg" width="400" />
-                           </li>
-                           <li>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/L/Lc-zCpkuqs63dVSttLS6RqDoZI.jpg" width="400" />
-                           </li>
-                        </ul>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_play">
-                        <h2 class="guide-about_title gatherer">Сбор</h2>
-                        <h3 class="guide-about_subtitle gatherer">Как начать?</h3>
-                        <p class="guide-about_text">
-                           Шахтеры и ботаники могут собирать ресурсы в точках сбора, таких как mineral deposits и mature trees.
-                           <br />Класс персонажа определяет, в каких местах можно собирать ресурсы.
-                           <br /><br />Найти новые места для сбора поможет умение шахтера Lay of the Land и умение ботаника Arbor Call.
-                           <br />Узнать, в каких местах можно получить те или иные предметы, можно из gathering log.
-                        </p>
-                        <ul class="guide-about_column">
-                           <li>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/y/-O0lYtxOL08PAJo1K1jzEFCieQ.jpg" width="400" />
-                              <p>Miners: Mineral Deposits и Rocky Outcrops</p>
-                              <p class="notes">(Чтобы собирать ресурсы с rocky outcrops, необходимо экипировать кувалду)</p>
-                           </li>
-                           <li>
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/D/QN3IrgUukwRJj24H4UN8FviR14.jpg" width="400" />
-                              <p>Botanists: Mature Trees и Lush Vegetation Patches</p>
-                              <p class="notes">(Чтобы собирать ресурсы с lush vegetation patches, необходимо экипировать косу)</p>
-                           </li>
-                        </ul>
-                        <h3 class="guide-about_subtitle gatherer">Советы по сбору</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/2/UxssH3HwPpwGWC-omn-zmvGgG4.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Выберите точку сбора и увидите какие предметы доступны для получения.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/4/j_l2GPTWmztSJ21I9r9qGyO1u0.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Выберите предмет, который хотите собрать.<br />
-                                 <br />Успех сбора зависит от рейтинга сбора (gathering rating). При сборе есть вероятность срабатывания эффекта Gatherer's Boon, который дает дополнительный предмет.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/8/t2u1P-mpZofTXoya969x3YTYNQ.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Пока вы собираете предметы из точки сбора, уменьшается количество попыток сбора независимо от успеха попытки. Использовать точку сбора можно до тех пор, пока не будут исчерпаны все попытки сбора.</p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_collect">
-                        <h2 class="guide-about_title gatherer">Collectables</h2>
-                        <h3 class="guide-about_subtitle gatherer">Шахтера и ботаник: collectable предметы</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/e/vsd9jmabTPSqF5gNI7a_lPlC6s.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Как Disciple of the Land, вам может потребоваться обменивать предметы, называемые collectables.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/g/lkrr98Mpv5itfWAsO8SNb3HtkY.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>
-                                 Ценность данных предметов определяется с помощью collectability rating, чем он выше, тем более высокую награду вы получите при обмене.<br />
-                                 <br />Некоторые collectables предметы можно распылить для получения других полезных материалов с помощью умения aetherial reduction.<br />
-                                 <br />Тип предмета (collectable's type) и его collectability влияют на тип и количество предметов, на которые он распыляется.
-                              </p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Сбор collectables: шахтер и ботаник</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/x/E3jbG3GDUKxP271ac5bYMtqBf8.jpg" width="400" />
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/G/YroCdrRNF-FgND6kSHyUigklmc.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Находясь на экране сбора, выберите предмет с меткой collectable, чтобы перейти в окно сбора collectable предметов. Отсюда вы можете собирать collectables.</p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Повышение Collectability с помощью with Scour</h3>
-                        <p class="guide-about_text">
-                           Есть три умения, которые можно использовать, чтобы повысить collectability предметов: Scour, Brazen Prospector/Woodsman и Meticulous Prospector/Woodsman.
-                           <br />Используйте умение "Collect" после выполнения одного из указанных ранее умений, чтобы собрать предмет с повышенным collectability.
-                        </p>
-                        <div class="guide-about_image">
-                           <img src="https://lds-img.finalfantasyxiv.com/promo/h/-/SSEphefuj9Y7VYDfG5mFg5KmIY.jpg" width="900" />
-                           <p class="guide-about_text notes">(Пока вы используете collectable умения и собираете предметы из точки сбора, уменьшается количество попыток сбора независимо от успеха попытки. Использовать точку сбора можно до тех пор, пока не будут исчерпаны все попытки сбора)</p>
-                        </div>
-                        <h3 class="guide-about_subtitle gatherer">Повышение Collectability с помощью Scrutiny и Collector's Standard</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/L/Mbqxh7nVh0hcA5emS_eB6VyV78.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Применение умения Scrutiny повышает эффективность следующего примененного умения из Scour категории.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/W/B9knZNcp-sKEpY0TfOcJsH-aB0.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>После применения умения из Scour категории, у вас есть шанс получить эффект Collector's Standard, который значительно повышает эффективность умений Brazen и Meticulous.</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>                  
-               </div>
-            </div>
-         </div>
-      </div>
-      <footer>
-         <div class="footer_inner">
-            <div class="footer_info">
-               <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-                  <img src="/Assets/img/svg/github.svg">
-                  Source Code
-               </a>
-            </div>
-            <div class="SE"></div>
-         </div>
-      </footer>
-      <div class="nome_app_top">
-         <a class="app_top"><img src="/Assets/img/svg/arrow-up.svg"></a>
-      </div>
-      <!--- Script --->
-      <script type="text/javascript" src="/Assets/js/main.js"></script>
-      <script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
-      <script>
-         document.addEventListener("DOMContentLoaded", () => {
-            CORE_DB_LOAD(["/DB/Gathering.json"], DB_VERSION);
-         });
-      </script>
-      <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
-   </body>
+		<link rel="manifest" href="/manifest.json" />
+		<meta property="og:title" content="Job Guide: Botanist" />
+		<meta property="og:site_name" content="FFXIV Job Guide RU" />
+		<meta property="og:description" content="Описание умений Botanist на русском" />
+		<meta property="og:url" content="https://ff14jobguide.ru/Page/BTN" />
+		<meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/BTN.png" />
+		<meta name="theme-color" content="#8f7832" />
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-Y6M41KEYQX");
+		</script>
+	</head>
+	<body job-name="BTN">
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<div class="jobguide job_gathering">
+			<!-- Top Menu -->
+			<div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
+			<!-- Header -->
+			<header class="job_header job_btn">
+				<div class="job_header_inner">
+					<a href="../CraftingGatheringGuide" class="job_header_guide_top"><span>На главную</span></a>
+					<h1 class="job_header_nome">
+						<img src="/Assets/img/JobHaider/JobBTN.png" />
+						<span class="job_header_role">
+							<img src="/Assets/img/main/Gatherer.png" />
+							Disciplines of the Land
+						</span>
+					</h1>
+					<div class="job_header_text">
+						<p>
+							Профессия ботаника (botanist) включает в себя добычу ресурсов из всех форм растительного мира.
+							<br />
+							<br />
+							Это и сбор овощей и злаков, и уход за плодоносящими деревьями, и заготовка древесины, и многое другое.
+							<br />
+							<br />
+							Ботаники пытаются донести до других идею о мирном сосуществовании с растительным миром Эорзии и разумном использовании природных ресурсов.
+							<br />
+							<br />
+							Благодаря своей близости к природе ботаники почитают Nothica, богиню изобилия.
+						</p>
+					</div>
+					<div class="job_header_quest">
+						<a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a761973ed33/">
+							<span>
+								<img src="/Assets/img/main/quest.png" />
+								Стартовое задание профессии
+							</span>
+						</a>
+					</div>
+				</div>
+			</header>
+			<!-- DB Skill List -->
+			<div class="job_skill_list">
+				<div class="job_skill_db-pve">
+					<p class="job_update" db-value="Gathering Update"></p>
+					<ul class="job_tab tab_gatherer clearfix">
+						<li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
+						<li class="js-tab-trigger" data-tab="guide">Общая информация</li>
+					</ul>
+					<!-- Skil -->
+					<div class="guide-inner js-tab-content active" data-tab="skill">
+						<p class="job_notes_lvl" id="patch_info"></p>
+						<h2 class="guide-title">Активные и пассивные умения</h2>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="190" />
+									<col width="90" />
+									<col width="89" />
+									<col width="115" />
+									<col width="77" />
+									<col width="345" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Тип</p></th>
+										<th><p>Время восстановления</p></th>
+										<th><p>Стоимость GP</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="action_01" db-skill-gathering="Action 01"></tr>
+									<tr id="action_02" db-skill-gathering="Action 02"></tr>
+									<tr id="action_03" db-skill-gathering="Action 03"></tr>
+									<tr id="action_04" db-skill-gathering="Action 04"></tr>
+									<tr id="action_05" db-skill-gathering="Action 05"></tr>
+									<tr id="action_06" db-skill-gathering="Action 06"></tr>
+									<tr id="action_07" db-skill-gathering="Action 07"></tr>
+									<tr id="action_08" db-skill-gathering="Action 08"></tr>
+									<tr id="action_09" db-skill-gathering="Action 09"></tr>
+									<tr id="action_10" db-skill-gathering="Action 10"></tr>
+									<tr id="action_11" db-skill-gathering="Action 11"></tr>
+									<tr id="action_12" db-skill-gathering="Action 12"></tr>
+									<tr id="action_13" db-skill-gathering="Action 13"></tr>
+									<tr id="action_14" db-skill-gathering="Action 14"></tr>
+									<tr id="action_15" db-skill-gathering="Action 15"></tr>
+									<tr id="action_16" db-skill-gathering="Action 16"></tr>
+									<tr id="action_17" db-skill-gathering="Action 17"></tr>
+									<tr id="action_18" db-skill-gathering="Action 18"></tr>
+									<tr id="action_19" db-skill-gathering="Action 19"></tr>
+									<tr id="action_20" db-skill-gathering="Action 20"></tr>
+									<tr id="action_21" db-skill-gathering="Action 21"></tr>
+									<tr id="action_22" db-skill-gathering="Action 22"></tr>
+									<tr id="action_23" db-skill-gathering="Action 23"></tr>
+									<tr id="action_24" db-skill-gathering="Action 24"></tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_addaction">Ролевые умения собирателей (Gatherer)</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="191" />
+									<col width="90" />
+									<col width="82" />
+									<col width="115" />
+									<col width="429" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Тип</p></th>
+										<th><p>Время восстановления</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="addaction_01" db-gathering-passive="Gatherer Role 01"></tr>
+									<tr id="addaction_02" db-gathering-passive="Gatherer Role 02"></tr>
+									<tr id="addaction_03" db-gathering-passive="Gatherer Role 03"></tr>
+									<tr id="addaction_04" db-gathering-passive="Gatherer Role 04"></tr>
+								</tbody>
+							</table>
+							<p class="guide-notes">* Ролевые умения (role actions) собирателей после изучения можно использовать на любом классе собирателей (gathering).</p>
+						</div>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_trait">Пассивные умения</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="191" />
+									<col width="90" />
+									<col width="*" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="traitaction_01" db-gathering-passive="Gatherer Traits 01"></tr>
+									<tr id="traitaction_02" db-gathering-passive="Gatherer Traits 02"></tr>
+									<tr id="traitaction_03" db-gathering-passive="Gatherer Traits 03"></tr>
+									<tr id="traitaction_04" db-gathering-passive="Gatherer Traits 04"></tr>
+									<tr id="traitaction_05" db-gathering-passive="Gatherer Traits 05"></tr>
+									<tr id="traitaction_06" db-gathering-passive="Gatherer Traits 06"></tr>
+									<tr id="traitaction_07" db-gathering-passive="Gatherer Traits 07"></tr>
+									<tr id="traitaction_08" db-gathering-passive="Gatherer Traits 08"></tr>
+									<tr id="traitaction_09" db-gathering-passive="Gatherer Traits 09"></tr>
+									<tr id="traitaction_10" db-gathering-passive="Gatherer Traits 10"></tr>
+									<tr id="traitaction_11" db-gathering-passive="Gatherer Traits 11"></tr>
+									<tr id="traitaction_12" db-gathering-passive="Gatherer Traits 12"></tr>
+									<tr id="traitaction_13" db-gathering-passive="Gatherer Traits 13"></tr>
+									<tr id="traitaction_14" db-gathering-passive="Gatherer Traits 14"></tr>
+									<tr id="traitaction_15" db-gathering-passive="Gatherer Traits 15"></tr>
+									<tr id="traitaction_16" db-gathering-passive="Gatherer Traits 16"></tr>
+									<tr id="traitaction_17" db-gathering-passive="Gatherer Traits 17"></tr>
+									<tr id="traitaction_18" db-gathering-passive="Gatherer Traits 18"></tr>
+									<tr id="traitaction_19" db-gathering-passive="Gatherer Traits 19"></tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Content Wrapper END -->
+					</div>
+					<!-- Guide -->
+					<div class="guide-inner js-tab-content" data-tab="guide">
+						<div class="guide-about" id="anchor_start">
+							<h2 class="guide-about_title gatherer">Присоединиться к Discipline of the Land</h2>
+							<div class="guide-about_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/t/X3OI0XJd6NIVKCiY4HNXxxEK7M.jpg" width="400" height="400" />
+								<div class="guide-about_map_text">
+									<br />
+									<br />
+									<p>
+										Как только персонаж достигнет 10 уровня класса, который был выбран в начале игры, можно взять новое задание. Выполнив его, персонаж сможет вступить в гильдии других классов.
+										<br />
+										<br />
+										Чтобы стать ботаником, требуется найти и вступить в Botanists' Guild в Old Gridania (X:6.4 Y:8.3).
+									</p>
+									<p class="notes">Для смены класса, после вступления в гильдию, необходимо экипировать инструмент нужного класса.</p>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_can">
+								<h2 class="guide-about_title gatherer">Шахтер и Ботаник: ключевые особенности</h2>
+								<p class="guide-about_text">Disciples of the Land могут собирать полезные материалы в игровом мире, доступные их специализации.</p>
+								<p class="guide-about_text">
+									Шахтеры - это класс собирателей, которые могут собирать руду и драгоценные металлы с mineral deposits и rocky outcrops.
+									<br />
+									Ботаники могут собирать древесину, фрукты и другие растительные продукты с mature trees и lush vegetation patches.
+									<br />
+									Повышение уровня этих классов расширит области сбора и поможет найти более редкие материалы.
+								</p>
+								<ul class="guide-about_column">
+									<li>
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/h/j9vpZfhG0SYq-0OJb5oYfH4xW4.jpg" width="400" />
+									</li>
+									<li>
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/L/Lc-zCpkuqs63dVSttLS6RqDoZI.jpg" width="400" />
+									</li>
+								</ul>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_play">
+								<h2 class="guide-about_title gatherer">Сбор</h2>
+								<h3 class="guide-about_subtitle gatherer">Как начать?</h3>
+								<p class="guide-about_text">
+									Шахтеры и ботаники могут собирать ресурсы в точках сбора, таких как mineral deposits и mature trees.
+									<br />
+									Класс персонажа определяет, в каких местах можно собирать ресурсы.
+									<br />
+									<br />
+									Найти новые места для сбора поможет умение шахтера Lay of the Land и умение ботаника Arbor Call.
+									<br />
+									Узнать, в каких местах можно получить те или иные предметы, можно из gathering log.
+								</p>
+								<ul class="guide-about_column">
+									<li>
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/y/-O0lYtxOL08PAJo1K1jzEFCieQ.jpg" width="400" />
+										<p>Miners: Mineral Deposits и Rocky Outcrops</p>
+										<p class="notes">(Чтобы собирать ресурсы с rocky outcrops, необходимо экипировать кувалду)</p>
+									</li>
+									<li>
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/D/QN3IrgUukwRJj24H4UN8FviR14.jpg" width="400" />
+										<p>Botanists: Mature Trees и Lush Vegetation Patches</p>
+										<p class="notes">(Чтобы собирать ресурсы с lush vegetation patches, необходимо экипировать косу)</p>
+									</li>
+								</ul>
+								<h3 class="guide-about_subtitle gatherer">Советы по сбору</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/2/UxssH3HwPpwGWC-omn-zmvGgG4.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Выберите точку сбора и увидите какие предметы доступны для получения.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/4/j_l2GPTWmztSJ21I9r9qGyO1u0.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Выберите предмет, который хотите собрать.
+											<br />
+											<br />
+											Успех сбора зависит от рейтинга сбора (gathering rating). При сборе есть вероятность срабатывания эффекта Gatherer's Boon, который дает дополнительный предмет.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/8/t2u1P-mpZofTXoya969x3YTYNQ.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Пока вы собираете предметы из точки сбора, уменьшается количество попыток сбора независимо от успеха попытки. Использовать точку сбора можно до тех пор, пока не будут исчерпаны все попытки сбора.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_collect">
+								<h2 class="guide-about_title gatherer">Collectables</h2>
+								<h3 class="guide-about_subtitle gatherer">Шахтера и ботаник: collectable предметы</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/e/vsd9jmabTPSqF5gNI7a_lPlC6s.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Как Disciple of the Land, вам может потребоваться обменивать предметы, называемые collectables.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/g/lkrr98Mpv5itfWAsO8SNb3HtkY.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Ценность данных предметов определяется с помощью collectability rating, чем он выше, тем более высокую награду вы получите при обмене.
+											<br />
+											<br />
+											Некоторые collectables предметы можно распылить для получения других полезных материалов с помощью умения aetherial reduction.
+											<br />
+											<br />
+											Тип предмета (collectable's type) и его collectability влияют на тип и количество предметов, на которые он распыляется.
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Сбор collectables: шахтер и ботаник</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/x/E3jbG3GDUKxP271ac5bYMtqBf8.jpg" width="400" />
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/G/YroCdrRNF-FgND6kSHyUigklmc.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Находясь на экране сбора, выберите предмет с меткой collectable, чтобы перейти в окно сбора collectable предметов. Отсюда вы можете собирать collectables.</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Повышение Collectability с помощью with Scour</h3>
+								<p class="guide-about_text">
+									Есть три умения, которые можно использовать, чтобы повысить collectability предметов: Scour, Brazen Prospector/Woodsman и Meticulous Prospector/Woodsman.
+									<br />
+									Используйте умение "Collect" после выполнения одного из указанных ранее умений, чтобы собрать предмет с повышенным collectability.
+								</p>
+								<div class="guide-about_image">
+									<img src="https://lds-img.finalfantasyxiv.com/promo/h/-/SSEphefuj9Y7VYDfG5mFg5KmIY.jpg" width="900" />
+									<p class="guide-about_text notes">
+										(Пока вы используете collectable умения и собираете предметы из точки сбора, уменьшается количество попыток сбора независимо от успеха попытки. Использовать точку сбора можно до тех пор, пока не будут исчерпаны все попытки сбора)
+									</p>
+								</div>
+								<h3 class="guide-about_subtitle gatherer">Повышение Collectability с помощью Scrutiny и Collector's Standard</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/L/Mbqxh7nVh0hcA5emS_eB6VyV78.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Применение умения Scrutiny повышает эффективность следующего примененного умения из Scour категории.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/W/B9knZNcp-sKEpY0TfOcJsH-aB0.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>После применения умения из Scour категории, у вас есть шанс получить эффект Collector's Standard, который значительно повышает эффективность умений Brazen и Meticulous.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer_inner">
+				<div class="footer_info">
+					<a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
+						<img src="/Assets/img/svg/github.svg" />
+						Source Code
+					</a>
+				</div>
+				<div class="SE"></div>
+			</div>
+		</footer>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/img/svg/arrow-up.svg" /></a>
+		</div>
+		<!--- Script --->
+		<script type="text/javascript" src="/Assets/js/main.js"></script>
+		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				CORE_DB_LOAD(["/DB/Gathering.json"], DB_VERSION);
+			});
+		</script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</body>
 </html>

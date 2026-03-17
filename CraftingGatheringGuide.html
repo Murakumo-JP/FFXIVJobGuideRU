@@ -1,195 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8">
-      <title>Crafting Gathering Guide | FFXIV RU</title>
-      <link rel="canonical" href="https://ff14jobguide.ru/CraftingGatheringGuide" />
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<title>Crafting Gathering Guide | FFXIV RU</title>
+		<link rel="canonical" href="https://ff14jobguide.ru/CraftingGatheringGuide" />
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
 		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
 		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
 		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
 		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
 		<link rel="manifest" href="/manifest.json" />
-      <!-- Open Graph Meta -->
-      <meta property="og:title" content="Crafting Gathering Guide | FFXIV RU">
-      <meta property="og:site_name" content="FFXIV Job Guide RU">
-      <meta property="og:description" content="Описание классовых умений Final Fantasy XIV на русском языке">
-      <meta property="og:url" content="https://ff14jobguide.ru/CraftingGatheringGuide">
-      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/git-preview.png">
-      <meta name="theme-color" content="#23401a">
-      <meta name="description" content="Описание классовых умений Final Fantasy XIV на русском языке">
-      <!-- Styles and Script -->
-      <link rel="stylesheet" href="/Assets/css/style.min.css" />
-      <script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-Y6M41KEYQX');
-      </script>
-   </head>
-   <body>
-      <div id="page-preloader" class="preloader">
-         <div class="seal-container">
-               <img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo">
-               <div class="seal-ring ring-1"></div>
-               <div class="seal-ring ring-2"></div>
-         </div>
-         <div class="loader-text">Загрузка...</div>
-      </div>
-      <div class="jobguide crafting_gathering_guide">
-         <!-- header -->
-         <header class="jobguide_header job--DoHDoL">
-            <div class="jobguide_header_inner">
-               <div class="jobguide_name">
-                  <a href="/" class="job_header_guide_top"><span>На главную</span></a>
-               </div>
-               <div class="link_list">
-                  <a class="btn_link" target="_blank" href="https://discord.gg/5RmsfZGFMu">
-                     <img src="/Assets/img/svg/discord.svg">                        
-                     <span>Наш Discord</span>
-                  </a>
-                  <a class="btn_link" target="_blank" href="https://boosty.to/murakumo">
-                     <img src="/Assets/img/svg/boosty.svg">
-                     <span>Поддержи проект</span>
-                  </a>
-                  <span id="inner_update"><span>
-               </div>
-               <h1>
-                  <img src="/Assets/img/DoHDoL/DoHDoL_RU.png">
-               </h1>
-            </div>
-         </header>
-         <div class="jobguide_catch">
-            <p>Освойте различные умения и сделайте себе имя, как ремесленник!</p>
-         </div>
-         <!-- Content -->
-         <div class="content">
-            <p class="content_text content_text--margin">
-               В дополнение к существующим боевым классам вы можете стать Disciple of the Hand - тем, кто синтезирует новые предметы из подручных материалов, или Disciple of the Land - тем, кто собирает природные ресурсы Эорзеи в полях.
-               <br><br>Овладев одной из этих дисциплин, вы сможете приобретать или создавать новые предметы, которые помогут в ваших путешествиях.
-            </p>
-            <div class="warn_info"></div>
-            <p class="info_pop">
-               Перевод выполнен Seiffear и <a target="_blank" href="https://github.com/Morriganna">Morriganna Latrial</a>. Предложения, вопросы и замечания направляйте в Discord: morriganna
-               <br>Большая благодарность всем, кто помогал с данным проектом. 
-               <br>Отдельное спасибо: Rei Eltrei, <a target="_blank" href="https://www.twitch.tv/budan_poly">Budanochka Poly</a>, <a target="_blank" href="https://www.twitch.tv/gella_zenhat">Gella Zenhat</a>, Kaka Demon, Ken Zattano и Schmelvin Dotan.
-               <br>Перевод выполнен на основе информации с сайта <a href="https://eu.finalfantasyxiv.com/crafting_gathering_guide/">Crafting & Gathering Guide</a>
-            </p>
-            <h2 class="content_title crafter">
-               <i><img src="/Assets/img/main/Craft.png"></i>
-               Disciplines of the Hand
-            </h2>
-            <p class="content_text">
-               Disciples of the Hand занимаются созданием всевозможных предметов, от боевого снаряжения и лекарств до еды и мебели.
-               <br><br>Всего существует восемь дисциплин, и каждая специализируется на создании своего продукта. Кузнецы (blacksmiths), например, умеют работать с металлами, а кулинары (culinarians) - создавать вкусные блюда.
-            </p>
-         </div>
-         <div class="job_list_wrapper">
-            <ul class="job_list crafter">
-               <li>
-                  <a href="Page/CRP">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/CRP.png"/></i>Carpenter (CRP)</p>
-                     <img src="/Assets/img/DoHDoL/CRP.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/BSM">
-                     <p>
-                        <i><img src="/Assets/img/DoWDoM/Job/BSM.png"/></i>Blacksmith (BSM)</p>
-                     <img src="/Assets/img/DoHDoL/BSM.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/ARM">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/ARM.png"/></i>Armorer (ARM)</p>
-                     <img src="/Assets/img/DoHDoL/ARM.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/GSM">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/GSM.png"/></i>Goldsmith (GSM)</p>
-                     <img src="/Assets/img/DoHDoL/GSM.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/LTW">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/LTW.png"/></i>Leatherworker (LTW)</p>
-                     <img src="/Assets/img/DoHDoL/LTW.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/WVR">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/WVR.png"/></i>Weaver (WVR)</p>
-                     <img src="/Assets/img/DoHDoL/WVR.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/ALC">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/ALC.png"/></i>Alchemist (ALC)</p>
-                     <img src="/Assets/img/DoHDoL/ALC.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/CUL">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/CUL.png"/></i>Culinarian (CUL)</p>
-                     <img src="/Assets/img/DoHDoL/CUL.png" />
-                  </a>
-               </li>
-            </ul>
-         </div>
-         <div class="content">
-            <h2 class="content_title gatherer">
-               <i><img src="/Assets/img/main/Gatherer.png"></i>
-               Disciplines of the Hand
-            </h2>
-            <p class="content_text">
-               Disciplines of the Hand - мастера по сбору богатых природных ресурсов Эорзеи. В дикой природе они могут найти драгоценные металлы, собрать свежие ингредиенты и другие полезные предметы, а иногда обнаружить и карты сокровищ (treasure map)
-               <br/><br/>
-               Существует три вида Disciplines of the Land: шахтер (miner), специализирующийся на добыче редкой руды; ботаник (botanist), собирающий растения и травы; и рыбак (fisher), вылавливающий свежий улов из рек и океанов.
-            </p>
-         </div>
-         <div class="job_list_wrapper">
-            <ul class="job_list gatherer">
-               <li>
-                  <a href="Page/MIN">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/MIN.png"/></i>Miner (MIN)</p>
-                     <img src="/Assets/img/DoHDoL/MIN.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/BTN">
-                     <p>
-                        <i><img src="/Assets/img/DoWDoM/Job/BTN.png"/></i>Botanist (BTN)</p>
-                     <img src="/Assets/img/DoHDoL/BTN.png"/>
-                  </a>
-               </li>
-               <li>
-                  <a href="Page/FSH">
-                     <p><i><img src="/Assets/img/DoWDoM/Job/FSH.png"/></i>Fisher (FSH)</p>
-                     <img src="/Assets/img/DoHDoL/FSH.png"/>
-                  </a>
-               </li>
-            </ul>
-         </div>
-      </div>
-      <div class="nome_app_top">
-         <a class="app_top"><img src="/Assets/img/svg/arrow-up.svg"></a>
-      </div>
-      <footer>
-         <div class="footer_inner">
-            <div class="footer_info">
-               <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-                  <img src="/Assets/img/svg/github.svg">
-                  Source Code
-               </a>
-            </div>
-            <div class="SE"></div>
-         </div>
-      </footer>
-   </body>
-   <!--- Script --->
-   <script type="text/javascript" src="/Assets/js/main.js"></script>
+		<!-- Open Graph Meta -->
+		<meta property="og:title" content="Crafting Gathering Guide | FFXIV RU" />
+		<meta property="og:site_name" content="FFXIV Job Guide RU" />
+		<meta property="og:description" content="Описание классовых умений Final Fantasy XIV на русском языке" />
+		<meta property="og:url" content="https://ff14jobguide.ru/CraftingGatheringGuide" />
+		<meta property="og:image" content="https://ff14jobguide.ru/Assets/img/git-preview.png" />
+		<meta name="theme-color" content="#23401a" />
+		<meta name="description" content="Описание классовых умений Final Fantasy XIV на русском языке" />
+		<!-- Styles and Script -->
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-Y6M41KEYQX");
+		</script>
+	</head>
+	<body>
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/img/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<div class="jobguide crafting_gathering_guide">
+			<!-- header -->
+			<header class="jobguide_header job--DoHDoL">
+				<div class="jobguide_header_inner">
+					<div class="jobguide_name">
+						<a href="/" class="job_header_guide_top"><span>На главную</span></a>
+					</div>
+					<div class="link_list">
+						<a class="btn_link" target="_blank" href="https://discord.gg/5RmsfZGFMu">
+							<img src="/Assets/img/svg/discord.svg" />
+							<span>Наш Discord</span>
+						</a>
+						<a class="btn_link" target="_blank" href="https://boosty.to/murakumo">
+							<img src="/Assets/img/svg/boosty.svg" />
+							<span>Поддержи проект</span>
+						</a>
+						<span id="inner_update"></span>
+					</div>
+					<h1>
+						<img src="/Assets/img/DoHDoL/DoHDoL_RU.png" />
+					</h1>
+				</div>
+			</header>
+			<div class="jobguide_catch">
+				<p>Освойте различные умения и сделайте себе имя, как ремесленник!</p>
+			</div>
+			<!-- Content -->
+			<div class="content">
+				<p class="content_text content_text--margin">
+					В дополнение к существующим боевым классам вы можете стать Disciple of the Hand - тем, кто синтезирует новые предметы из подручных материалов, или Disciple of the Land - тем, кто собирает природные ресурсы Эорзеи в полях.
+					<br />
+					<br />
+					Овладев одной из этих дисциплин, вы сможете приобретать или создавать новые предметы, которые помогут в ваших путешествиях.
+				</p>
+				<div class="warn_info"></div>
+				<p class="info_pop">
+					Перевод выполнен Seiffear и
+					<a target="_blank" href="https://github.com/Morriganna">Morriganna Latrial</a>
+					. Предложения, вопросы и замечания направляйте в Discord: morriganna
+					<br />
+					Большая благодарность всем, кто помогал с данным проектом.
+					<br />
+					Отдельное спасибо: Rei Eltrei,
+					<a target="_blank" href="https://www.twitch.tv/budan_poly">Budanochka Poly</a>
+					,
+					<a target="_blank" href="https://www.twitch.tv/gella_zenhat">Gella Zenhat</a>
+					, Kaka Demon, Ken Zattano и Schmelvin Dotan.
+					<br />
+					Перевод выполнен на основе информации с сайта
+					<a href="https://eu.finalfantasyxiv.com/crafting_gathering_guide/">Crafting & Gathering Guide</a>
+				</p>
+				<h2 class="content_title crafter">
+					<i><img src="/Assets/img/main/Craft.png" /></i>
+					Disciplines of the Hand
+				</h2>
+				<p class="content_text">
+					Disciples of the Hand занимаются созданием всевозможных предметов, от боевого снаряжения и лекарств до еды и мебели.
+					<br />
+					<br />
+					Всего существует восемь дисциплин, и каждая специализируется на создании своего продукта. Кузнецы (blacksmiths), например, умеют работать с металлами, а кулинары (culinarians) - создавать вкусные блюда.
+				</p>
+			</div>
+			<div class="job_list_wrapper">
+				<ul class="job_list crafter">
+					<li>
+						<a href="Page/CRP">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/CRP.png" /></i>
+								Carpenter (CRP)
+							</p>
+							<img src="/Assets/img/DoHDoL/CRP.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/BSM">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/BSM.png" /></i>
+								Blacksmith (BSM)
+							</p>
+							<img src="/Assets/img/DoHDoL/BSM.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/ARM">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/ARM.png" /></i>
+								Armorer (ARM)
+							</p>
+							<img src="/Assets/img/DoHDoL/ARM.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/GSM">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/GSM.png" /></i>
+								Goldsmith (GSM)
+							</p>
+							<img src="/Assets/img/DoHDoL/GSM.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/LTW">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/LTW.png" /></i>
+								Leatherworker (LTW)
+							</p>
+							<img src="/Assets/img/DoHDoL/LTW.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/WVR">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/WVR.png" /></i>
+								Weaver (WVR)
+							</p>
+							<img src="/Assets/img/DoHDoL/WVR.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/ALC">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/ALC.png" /></i>
+								Alchemist (ALC)
+							</p>
+							<img src="/Assets/img/DoHDoL/ALC.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/CUL">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/CUL.png" /></i>
+								Culinarian (CUL)
+							</p>
+							<img src="/Assets/img/DoHDoL/CUL.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content">
+				<h2 class="content_title gatherer">
+					<i><img src="/Assets/img/main/Gatherer.png" /></i>
+					Disciplines of the Hand
+				</h2>
+				<p class="content_text">
+					Disciplines of the Hand - мастера по сбору богатых природных ресурсов Эорзеи. В дикой природе они могут найти драгоценные металлы, собрать свежие ингредиенты и другие полезные предметы, а иногда обнаружить и карты сокровищ (treasure map)
+					<br />
+					<br />
+					Существует три вида Disciplines of the Land: шахтер (miner), специализирующийся на добыче редкой руды; ботаник (botanist), собирающий растения и травы; и рыбак (fisher), вылавливающий свежий улов из рек и океанов.
+				</p>
+			</div>
+			<div class="job_list_wrapper">
+				<ul class="job_list gatherer">
+					<li>
+						<a href="Page/MIN">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/MIN.png" /></i>
+								Miner (MIN)
+							</p>
+							<img src="/Assets/img/DoHDoL/MIN.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/BTN">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/BTN.png" /></i>
+								Botanist (BTN)
+							</p>
+							<img src="/Assets/img/DoHDoL/BTN.png" />
+						</a>
+					</li>
+					<li>
+						<a href="Page/FSH">
+							<p>
+								<i><img src="/Assets/img/DoWDoM/Job/FSH.png" /></i>
+								Fisher (FSH)
+							</p>
+							<img src="/Assets/img/DoHDoL/FSH.png" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/img/svg/arrow-up.svg" /></a>
+		</div>
+		<footer>
+			<div class="footer_inner">
+				<div class="footer_info">
+					<a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
+						<img src="/Assets/img/svg/github.svg" />
+						Source Code
+					</a>
+				</div>
+				<div class="SE"></div>
+			</div>
+		</footer>
+	</body>
+	<!--- Script --->
+	<script type="text/javascript" src="/Assets/js/main.js"></script>
 </html>
