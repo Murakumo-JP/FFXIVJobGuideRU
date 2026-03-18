@@ -552,6 +552,39 @@ body.gs_page {
   font-size: 14px;
   font-weight: bold;
 }
+.gs_sm_head.icon_arcana::after {
+  background: url(https://lds-img.finalfantasyxiv.com/h/a/juCjg6OFG8mJgDMoMOVTYMD7lE.png) no-repeat 0 0;
+  background-size: 32px 32px;
+  content: "";
+}
+.gs_sm_head.icon_gates::after {
+  background: url(https://lds-img.finalfantasyxiv.com/h/J/1IrBlVjKb6rKBzrKfiToKDN60M.png) no-repeat 0 0;
+  background-size: 32px 32px;
+  content: "";
+}
+.gs_sm_head.icon_shields::after {
+  background: url(https://lds-img.finalfantasyxiv.com/h/3/xjAM2r3mc2d3k4Dy1rtHfemR4I.png) no-repeat 0 0;
+  background-size: 32px 32px;
+  content: "";
+}
+.gs_sm_head.icon_search_eyes::after {
+  background: url(https://lds-img.finalfantasyxiv.com/h/C/WseDv1sA93DAc36uxc01gWQsXM.png) no-repeat 0 0;
+  background-size: 32px 32px;
+  content: "";
+}
+
+.gs_icon {
+  padding-left: 36px;
+}
+.gs_icon:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  margin-top: -16px;
+}
 
 /* Таблица */
 table {

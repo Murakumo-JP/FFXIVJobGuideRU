@@ -29,6 +29,12 @@ $color-orange: #d99857;
 	margin-bottom: 16px;
 	box-shadow: 0px 0px 0px 2px $color inset;
 }
+
+@mixin gs-icon($img-url) {
+	background: url(#{$img-url}) no-repeat 0 0;
+	background-size: 32px 32px;
+	content: "";
+}
 // --- Основные стили ---
 
 // TOODO
@@ -554,6 +560,32 @@ body.gs_page {
 	margin-bottom: 16px;
 	font-size: 14px;
 	font-weight: bold;
+	&.icon_arcana::after {
+		@include gs-icon("https://lds-img.finalfantasyxiv.com/h/a/juCjg6OFG8mJgDMoMOVTYMD7lE.png");
+	}
+
+	&.icon_gates::after {
+		@include gs-icon("https://lds-img.finalfantasyxiv.com/h/J/1IrBlVjKb6rKBzrKfiToKDN60M.png");
+	}
+	&.icon_shields::after {
+		@include gs-icon("https://lds-img.finalfantasyxiv.com/h/3/xjAM2r3mc2d3k4Dy1rtHfemR4I.png");
+	}
+	&.icon_search_eyes::after {
+		@include gs-icon("https://lds-img.finalfantasyxiv.com/h/C/WseDv1sA93DAc36uxc01gWQsXM.png");
+	}
+}
+
+.gs_icon {
+	padding-left: 36px;
+	&:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 32px;
+		height: 32px;
+		margin-top: -16px;
+	}
 }
 /* Таблица */
 table {
