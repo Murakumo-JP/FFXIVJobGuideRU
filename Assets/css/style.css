@@ -1936,7 +1936,7 @@ li {
 
 .nav_floating_icon {
   display: block;
-  background: url(/Assets/img/svg/dots-vertical.svg) no-repeat 0 0;
+  background: url("/Assets/img/svg/dots-vertical.svg") no-repeat 0 0;
   border-radius: 50%;
   width: 32px;
   height: 32px;
@@ -2447,7 +2447,7 @@ table {
   width: 76px;
   height: 76px;
   display: inline-block;
-  background: url(/Assets/img/main/skil_icon.png) no-repeat 6px 3px;
+  background: url("/Assets/img/main/skil_icon.png") no-repeat 6px 3px;
   background-size: 64px 64px;
   vertical-align: middle;
   margin: 0 auto;
@@ -2464,7 +2464,7 @@ table {
 }
 .job_combo_skill_icon:after {
   content: "";
-  background: url(/Assets/img/main/skill_icon_on2x.png) no-repeat;
+  background: url("/Assets/img/main/skill_icon_on2x.png") no-repeat;
   background-size: 76px 76px;
   width: 76px;
   height: 76px;

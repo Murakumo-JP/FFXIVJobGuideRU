@@ -16,3 +16,62 @@ $back-off: "#{$images-path}main/back_off.png";
 $back-on: "#{$images-path}main/back_on.png";
 $skill-icon: "#{$images-path}main/skil_icon.png";
 $skill-icon-top: "#{$images-path}main/skill_icon_on.png";
+$skill-icon-top2x: "#{$images-path}main/skill_icon_on2x.png";
+// Main Combo
+
+// SVG
+$svg-dots-vertical: "#{$images-path}svg/dots-vertical.svg";
+// Jobs Haider
+$color-tank: #192455;
+$color-healer: #1e4413;
+$color-dps: #4f1717;
+$color-blu: #23396a;
+$color-crafter: #27174c;
+$color-gatherer: #554317;
+
+$job-colors: (
+	pld: $color-tank,
+	war: $color-tank,
+	drk: $color-tank,
+	gnb: $color-tank,
+	whm: $color-healer,
+	sch: $color-healer,
+	ast: $color-healer,
+	sge: $color-healer,
+	mnk: $color-dps,
+	drg: $color-dps,
+	nin: $color-dps,
+	sam: $color-dps,
+	rpr: $color-dps,
+	vpr: $color-dps,
+	brd: $color-dps,
+	mch: $color-dps,
+	dnc: $color-dps,
+	blm: $color-dps,
+	smn: $color-dps,
+	rdm: $color-dps,
+	pct: $color-dps,
+	blu: $color-blu,
+	crp: $color-crafter,
+	bsm: $color-crafter,
+	arm: $color-crafter,
+	gsm: $color-crafter,
+	ltw: $color-crafter,
+	wvr: $color-crafter,
+	alc: $color-crafter,
+	cul: $color-crafter,
+	min: $color-gatherer,
+	btn: $color-gatherer,
+	fsh: $color-gatherer,
+);
+
+@mixin job-haider {
+	@each $job, $color in $job-colors {
+		$job-upper: to-upper-case($job);
+
+		.job_#{$job} {
+			background: url("#{$images-path}JobHaider/Haider#{$job-upper}.jpg") no-repeat center top $color;
+			background-attachment: fixed;
+		}
+	}
+}

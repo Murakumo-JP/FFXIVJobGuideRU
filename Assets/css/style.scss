@@ -2008,7 +2008,7 @@ li {
 .nav_floating {
 	&_icon {
 		display: block;
-		background: url(/Assets/img/svg/dots-vertical.svg) no-repeat 0 0;
+		background: url(image.$svg-dots-vertical) no-repeat 0 0;
 		border-radius: 50%;
 		width: 32px;
 		height: 32px;
@@ -2101,46 +2101,7 @@ li {
 }
 
 // Job Backgrounds
-@mixin job-background($job, $image, $color) {
-	.job_#{$job} {
-		background: url("/Assets/img/JobHaider/#{$image}") no-repeat center top #{$color};
-		background-attachment: fixed;
-	}
-}
-
-@include job-background(pld, "HaiderPLD.jpg", #192455);
-@include job-background(war, "HaiderWAR.jpg", #192455);
-@include job-background(drk, "HaiderDRK.jpg", #192455);
-@include job-background(gnb, "HaiderGNB.jpg", #192455);
-@include job-background(whm, "HaiderWHM.jpg", #1e4413);
-@include job-background(sch, "HaiderSCH.jpg", #1e4413);
-@include job-background(ast, "HaiderAST.jpg", #1e4413);
-@include job-background(sge, "HaiderSGE.jpg", #1e4413);
-@include job-background(mnk, "HaiderMNK.jpg", #4f1717);
-@include job-background(drg, "HaiderDRG.jpg", #4f1717);
-@include job-background(nin, "HaiderNIN.jpg", #4f1717);
-@include job-background(sam, "HaiderSAM.jpg", #4f1717);
-@include job-background(rpr, "HaiderRPR.jpg", #4f1717);
-@include job-background(vpr, "HaiderVPR.jpg", #4f1717);
-@include job-background(brd, "HaiderBRD.jpg", #4f1717);
-@include job-background(mch, "HaiderMCH.jpg", #4f1717);
-@include job-background(dnc, "HaiderDNC.jpg", #4f1717);
-@include job-background(blm, "HaiderBLM.jpg", #4f1717);
-@include job-background(smn, "HaiderSMN.jpg", #4f1717);
-@include job-background(rdm, "HaiderRDM.jpg", #4f1717);
-@include job-background(pct, "HaiderPCT.jpg", #4f1717);
-@include job-background(blu, "HaiderBLU.jpg", #23396a);
-@include job-background(crp, "HaiderCRP.jpg", #27174c);
-@include job-background(bsm, "HaiderBSM.jpg", #27174c);
-@include job-background(arm, "HaiderARM.jpg", #27174c);
-@include job-background(gsm, "HaiderGSM.jpg", #27174c);
-@include job-background(ltw, "HaiderLTW.jpg", #27174c);
-@include job-background(wvr, "HaiderWVR.jpg", #27174c);
-@include job-background(alc, "HaiderALC.jpg", #27174c);
-@include job-background(cul, "HaiderCUL.jpg", #27174c);
-@include job-background(min, "HaiderMIN.jpg", #554317);
-@include job-background(btn, "HaiderBTN.jpg", #554317);
-@include job-background(fsh, "HaiderFSH.jpg", #554317);
+@include image.job-haider;
 
 table {
 	border-collapse: collapse;
@@ -2362,7 +2323,7 @@ table {
 		width: 76px;
 		height: 76px;
 		display: inline-block;
-		background: url(/Assets/img/main/skil_icon.png) no-repeat 6px 3px;
+		background: url(image.$skill-icon) no-repeat 6px 3px;
 		background-size: 64px 64px;
 		vertical-align: middle;
 		margin: 0 auto;
@@ -2380,7 +2341,7 @@ table {
 
 		&:after {
 			content: "";
-			background: url(/Assets/img/main/skill_icon_on2x.png) no-repeat;
+			background: url(image.$skill-icon-top2x) no-repeat;
 			background-size: 76px 76px;
 			width: 76px;
 			height: 76px;
@@ -2393,7 +2354,7 @@ table {
 	}
 }
 
-// Specific Combo Classes (остаются как есть, но можно вынести в отдельный миксин)
+// Specific Combo Classes
 .job_combo_darkknight_02,
 .job_combo_gunbreaker_02,
 .job_combo_ninja_04,
