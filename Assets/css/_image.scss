@@ -29,6 +29,7 @@ $color-blu: #23396a;
 $color-crafter: #27174c;
 $color-gatherer: #554317;
 
+// Твой изначальный, компактный список
 $job-colors: (
 	pld: $color-tank,
 	war: $color-tank,
@@ -67,10 +68,8 @@ $job-colors: (
 
 @mixin job-haider {
 	@each $job, $color in $job-colors {
-		$job-upper: to-upper-case($job);
-
 		.job_#{$job} {
-			background: url("#{$images-path}JobHaider/Haider#{$job-upper}.jpg") no-repeat center top $color;
+			background: url("#{$images-path}JobHaider/haider_#{$job}.jpg") no-repeat center top $color;
 			background-attachment: fixed;
 		}
 	}
