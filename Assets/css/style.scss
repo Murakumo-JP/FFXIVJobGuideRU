@@ -1,47 +1,8 @@
 @charset "UTF-8";
-@use "image";
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,900&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap&subset=japanese);
-
-$tank-color: #2d3a80;
-$healer-color: #346624;
-$dps-color: #732828;
-$craft-color: #4e328f;
-$gathering-color: #8f7832;
-$tank-AltColor: #545e99;
-$healer-AltColor: #548046;
-$dps-AltColor: #8c4d4d;
-$craft-AltColor: #695499;
-$gathering-AltColor: #998854;
-$font: sans-serif;
-$color-set-1: #191919;
-$color-set-2: #000;
-$color-set-3: #ecede7;
-$color-error: #a62137;
-$link: #fffed1;
-$text-color: white;
-$block-width: 472px;
-
-:root {
-	--tank-color: #{$tank-color};
-	--healer-color: #{$healer-color};
-	--dps-color: #{$dps-color};
-	--craft-color: #{$craft-color};
-	--gathering-color: #{$gathering-color};
-	--tank-AltColor: #{$tank-AltColor};
-	--healer-AltColor: #{$healer-AltColor};
-	--dps-AltColor: #{$dps-AltColor};
-	--craft-AltColor: #{$craft-AltColor};
-	--gathering-AltColor: #{$gathering-AltColor};
-	--font: #{$font};
-	--color-set-1: #{$color-set-1};
-	--color-set-2: #{$color-set-2};
-	--color-set-3: #{$color-set-3};
-	--color-error: #{$color-error};
-	--link: #{$link};
-	--text-color: #{$text-color};
-	--block-width: #{$block-width};
-}
+@use "modules/image" as *;
+@use "modules/mixins" as *;
+@use "modules/main" as *;
+@use "modules/variables" as *;
 
 // Reset & Base Styles
 * {
@@ -93,7 +54,7 @@ img {
 .menu_update {
 	&:after {
 		content: "";
-		background: url(image.$skill-update) no-repeat 0 0 !important;
+		background: url($skill-update) no-repeat 0 0 !important;
 		top: -4px !important;
 	}
 }
@@ -101,7 +62,7 @@ img {
 .menu_new {
 	&:after {
 		content: "";
-		background: url(image.$skill-new) no-repeat 0 0 !important;
+		background: url($skill-new) no-repeat 0 0 !important;
 		top: -4px !important;
 	}
 }
@@ -304,344 +265,6 @@ $bg: #1b1b1b;
 	}
 }
 
-// Main App Structure
-.app_index {
-	background-color: var(--color-set-1) !important;
-}
-
-.main_content {
-	width: auto;
-	padding: 0 0 16px;
-	margin: 0 auto;
-	background: var(--color-set-3);
-}
-
-.main_app {
-	background: var(--color-set-3);
-	font-family: "Noto Sans", sans-serif;
-	font-size: 12px;
-}
-
-.main_header {
-	background: url(image.$header) #2d3c61 no-repeat top center;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	height: 500px;
-
-	&_inner {
-		width: 960px;
-		height: 500px;
-		margin: 0 auto;
-		position: relative;
-	}
-
-	&_alignment {
-		display: flex;
-		width: 500px;
-		height: 500px;
-		flex-direction: column;
-	}
-
-	&_img {
-		position: relative;
-		height: 190px;
-
-		img {
-			bottom: 35px;
-			position: relative;
-			width: 100%;
-			filter: drop-shadow(0 0 0 black);
-		}
-	}
-
-	&_text {
-		background: rgba(25, 25, 25, 0.7019607843);
-		backdrop-filter: blur(5px);
-		box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.4);
-		border-radius: 10px;
-		width: 100%;
-		padding: 10px;
-		box-sizing: border-box;
-		position: relative;
-
-		p {
-			font-size: 14px;
-			color: #f5f5f5;
-			text-shadow: 0px 1px 4px var(--color-set-2);
-			margin: 0 !important;
-			position: relative;
-			display: block;
-			text-align: center;
-		}
-
-		a {
-			color: var(--link);
-		}
-	}
-}
-
-.link_list {
-	position: absolute;
-	display: flex;
-	bottom: 10px;
-	align-items: center;
-}
-
-.btn_link {
-	display: inline-block;
-
-	img {
-		position: relative;
-		width: 35px;
-		height: 35px;
-		left: 10px;
-		background: var(--color-set-1);
-		box-shadow: 0px 0px 5px var(--color-set-2);
-		padding: 5px;
-		border-radius: 50%;
-		z-index: 2;
-		transition: all 0.5s;
-	}
-
-	span {
-		position: relative;
-		background: var(--color-set-1);
-		box-shadow: 0px 0px 5px var(--color-set-2);
-		color: var(--text-color);
-		padding: 5px 10px 5px 25px;
-		border-radius: 0 10px 10px 0;
-		line-height: 45px;
-		right: 10px;
-		transition: all 0.5s;
-	}
-
-	&:hover {
-		img,
-		span {
-			background: #292929;
-		}
-	}
-}
-
-#inner_update p {
-	background: var(--color-set-1);
-	box-shadow: 0px 0px 5px var(--color-set-2);
-	padding: 5px 10px 5px 10px;
-	border-radius: 10px;
-	color: var(--text-color);
-}
-
-// News
-.news {
-	padding: 5px 10px;
-	background: var(--color-set-1);
-	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-
-	& > span {
-		display: block;
-		color: var(--text-color);
-		font-size: 18px;
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin-bottom: 10px;
-		border-bottom: 1px solid $link;
-		padding-bottom: 4px;
-	}
-}
-
-#main_news {
-	display: flex;
-	flex-direction: column;
-	gap: 3px;
-	padding-left: 10px;
-	border-left: 2px solid #fff;
-
-	div {
-		display: flex;
-		align-items: baseline;
-		transition: transform 0.2s ease;
-
-		&:hover {
-			transform: translateX(5px);
-		}
-
-		span {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 11px;
-			font-family: monospace;
-			margin-right: 8px;
-		}
-
-		a {
-			color: var(--link);
-			font-size: 13px;
-			text-decoration: none;
-			border-bottom: 1px solid transparent;
-			transition: 0.3s;
-
-			&:hover {
-				color: #fff;
-				text-shadow: 0 0 8px var(--link);
-			}
-		}
-	}
-}
-
-#overlay {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.7);
-	z-index: 999;
-	backdrop-filter: blur(5px);
-}
-
-#newsPopup {
-	display: none;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 60%;
-	max-width: 650px;
-	padding: 20px;
-	background: rgba(15, 15, 15, 0.95);
-	color: #c9d1d9;
-	border-radius: 4px;
-	z-index: 1000;
-	font-family: "Segoe UI", Roboto, sans-serif;
-	border: 1px solid $link;
-	box-shadow:
-		0 0 20px rgba(0, 0, 0, 0.8),
-		inset 0 0 10px rgba(255, 215, 0, 0.05);
-
-	&::before,
-	&::after {
-		content: "";
-		position: absolute;
-		width: 15px;
-		height: 15px;
-		border: 2px solid $link;
-	}
-	&::before {
-		top: -2px;
-		left: -2px;
-		border-right: 0;
-		border-bottom: 0;
-	}
-	&::after {
-		bottom: -2px;
-		right: -2px;
-		border-left: 0;
-		border-top: 0;
-	}
-}
-
-#newsTitle {
-	color: $link;
-	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	border-bottom: 2px solid $link;
-	padding: 0 0 10px 0;
-	margin-bottom: 15px;
-	text-align: center;
-}
-
-#newsContent {
-	padding: 10px;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-	font-size: 14px;
-	line-height: 1.6;
-	color: #d1d1d1;
-	max-height: 60vh;
-	overflow-y: auto;
-	border-radius: 4px;
-
-	&::-webkit-scrollbar {
-		width: 4px;
-	}
-	&::-webkit-scrollbar-thumb {
-		background: #fff;
-		border-radius: 2px;
-	}
-}
-
-.btnNewsGitHub {
-	display: flex;
-	align-items: center;
-	width: max-content;
-	background: rgba(255, 255, 255, 0.05);
-	border: 1px solid $link;
-	color: white;
-	border-radius: 4px;
-	padding: 6px 15px;
-	margin: 20px auto 0 auto;
-	transition: all 0.3s ease;
-	text-decoration: none;
-
-	&:hover {
-		background: rgba(255, 215, 0, 0.1);
-		border-color: $accent;
-		box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
-		transform: translateY(-2px);
-	}
-
-	img {
-		width: 20px;
-		margin-right: 8px;
-		filter: brightness(0) invert(1);
-	}
-
-	span {
-		font-weight: bold;
-		font-size: 12px;
-		text-transform: uppercase;
-	}
-}
-//===========================
-
-.main_header_text a:hover,
-#main_news a:hover {
-	color: var(--text-color);
-}
-
-.warning_info {
-	background: #fe3636;
-	margin: 10px 0;
-	padding: 6px;
-	font-size: 13px;
-	font-weight: bold;
-	color: var(--text-color);
-	text-align: center;
-}
-
-// App Page
-.app_page {
-	display: flex;
-	justify-content: center;
-	margin-top: 16px;
-	flex-wrap: wrap;
-	a {
-		padding: 10px;
-		transition: all 0.4s;
-
-		img {
-			width: 100%;
-			border-radius: 10px;
-		}
-
-		&:hover {
-			filter: drop-shadow(0px 0px 6px black);
-		}
-	}
-}
-
 // Footer
 .footer_inner {
 	background-color: var(--color-set-1);
@@ -799,7 +422,7 @@ $bg: #1b1b1b;
 	}
 
 	&_tank {
-		background: url(image.$jobguide-tank) bottom right no-repeat #f3f3f3;
+		background: url($jobguide-tank) bottom right no-repeat #f3f3f3;
 		box-shadow: 0 0 5px 0 var(--tank-color);
 
 		h2 {
@@ -808,7 +431,7 @@ $bg: #1b1b1b;
 	}
 
 	&_healer {
-		background: url(image.$jobguide-healer) bottom right no-repeat #f3f3f3;
+		background: url($jobguide-healer) bottom right no-repeat #f3f3f3;
 		box-shadow: 0 0 5px 0 var(--healer-color);
 
 		h2 {
@@ -818,7 +441,7 @@ $bg: #1b1b1b;
 
 	&__dps {
 		width: 800px;
-		background: url(image.$jobguide-dps) 72px bottom no-repeat #f3f3f3;
+		background: url($jobguide-dps) 72px bottom no-repeat #f3f3f3;
 		box-shadow: 0 0 5px 0 var(--dps-color);
 		border-radius: 10px;
 		float: none;
@@ -1009,12 +632,12 @@ $bg: #1b1b1b;
 
 // Job Specific Backgrounds
 .job--DoWDoM {
-	background: url(image.$DoWDoM-header) no-repeat top center #222;
+	background: url($DoWDoM-header) no-repeat top center #222;
 	background-attachment: fixed;
 }
 
 .job--DoHDoL {
-	background: url(image.$DoHDoL-header) no-repeat center top #4e3928;
+	background: url($DoHDoL-header) no-repeat center top #4e3928;
 	background-attachment: fixed;
 	height: 600px;
 
@@ -1075,7 +698,7 @@ $bg: #1b1b1b;
 	}
 
 	&_text {
-		background: url(image.$job-text) no-repeat left top;
+		background: url($job-text) no-repeat left top;
 		backdrop-filter: blur(5px);
 		border-radius: 10px;
 		width: var(--block-width);
@@ -1116,7 +739,7 @@ $bg: #1b1b1b;
 	}
 
 	&_guide_top {
-		background: url(image.$back-off) no-repeat;
+		background: url($back-off) no-repeat;
 		display: flex;
 		align-items: center;
 		width: 200px;
@@ -1127,7 +750,7 @@ $bg: #1b1b1b;
 		transition: all 0.4s;
 
 		&:hover {
-			background: url(image.$back-on) no-repeat;
+			background: url($back-on) no-repeat;
 		}
 
 		span {
@@ -1156,7 +779,7 @@ $bg: #1b1b1b;
 	width: 48px;
 	height: 48px;
 	display: inline-block;
-	background: url(image.$skill-icon) no-repeat 4px 2px;
+	background: url($skill-icon) no-repeat 4px 2px;
 	background-size: 40px 40px;
 	vertical-align: middle;
 
@@ -1181,7 +804,7 @@ $bg: #1b1b1b;
 
 	&:after {
 		content: "";
-		background: url(image.$skill-icon-top) no-repeat;
+		background: url($skill-icon-top) no-repeat;
 		width: 48px;
 		height: 48px;
 		display: block;
@@ -1795,7 +1418,7 @@ $bg: #1b1b1b;
 		width: 48px;
 		height: 48px;
 		display: inline-block;
-		background: url(image.$skill-icon) no-repeat 4px 2px;
+		background: url($skill-icon) no-repeat 4px 2px;
 		background-size: 40px 40px;
 		vertical-align: middle;
 
@@ -1810,7 +1433,7 @@ $bg: #1b1b1b;
 
 		&:after {
 			content: "";
-			background: url(image.$skill-icon-top) no-repeat;
+			background: url($skill-icon-top) no-repeat;
 			width: 48px;
 			height: 48px;
 			display: block;
@@ -2008,7 +1631,7 @@ li {
 .nav_floating {
 	&_icon {
 		display: block;
-		background: url(image.$svg-dots-vertical) no-repeat 0 0;
+		background: url($svg-dots-vertical) no-repeat 0 0;
 		border-radius: 50%;
 		width: 32px;
 		height: 32px;
@@ -2101,7 +1724,7 @@ li {
 }
 
 // Job Backgrounds
-@include image.job-haider;
+@include job-haider;
 
 table {
 	border-collapse: collapse;
@@ -2118,54 +1741,6 @@ table {
 }
 
 // Job Color Classes
-@mixin job-color-class($type, $color, $alt-color) {
-	.job_#{$type} {
-		.jobguide_menu_list > li > span,
-		.job_nav_title a,
-		.job_sub_title,
-		.job_hud_title {
-			color: var(--#{$type}-color);
-		}
-
-		.jobguide_sub_menu li a {
-			color: var(--#{$type}-AltColor);
-		}
-
-		.job_title {
-			background: var(--#{$type}-color);
-		}
-
-		.job_thead p,
-		.job_combo_title_sequence,
-		.job_combo_title_effect {
-			background: var(--#{$type}-AltColor);
-		}
-
-		.nav_floating_icon,
-		~ .nome_app_top .app_top,
-		~ #floatingSearchBtn {
-			background-color: var(--#{$type}-color);
-			box-shadow: 1px 1px 5px var(--#{$type}-color);
-
-			&:hover {
-				background-color: var(--#{$type}-AltColor);
-			}
-		}
-
-		.job_header_role {
-			background: var(--#{$type}-color);
-			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
-
-			img {
-				display: inline-block;
-				margin-right: 4px;
-				width: 32px;
-				height: 32px;
-			}
-		}
-	}
-}
-
 @include job-color-class(tank, $tank-color, $tank-AltColor);
 @include job-color-class(healer, $healer-color, $healer-AltColor);
 @include job-color-class(dps, $dps-color, $dps-AltColor);
@@ -2323,7 +1898,7 @@ table {
 		width: 76px;
 		height: 76px;
 		display: inline-block;
-		background: url(image.$skill-icon) no-repeat 6px 3px;
+		background: url($skill-icon) no-repeat 6px 3px;
 		background-size: 64px 64px;
 		vertical-align: middle;
 		margin: 0 auto;
@@ -2341,7 +1916,7 @@ table {
 
 		&:after {
 			content: "";
-			background: url(image.$skill-icon-top2x) no-repeat;
+			background: url($skill-icon-top2x) no-repeat;
 			background-size: 76px 76px;
 			width: 76px;
 			height: 76px;
@@ -2360,7 +1935,7 @@ table {
 .job_combo_ninja_04,
 .job_combo_reaper_02,
 .job_combo_warrior_03 {
-	background: url(image.$combo-10) no-repeat 150px 0;
+	background: url($combo-10) no-repeat 150px 0;
 	border-bottom: 1px solid #999;
 }
 
@@ -2368,8 +1943,8 @@ table {
 .job_combo_gunbreaker_01,
 .job_combo_reaper_01 {
 	background:
-		url(image.$combo-10) no-repeat 150px 0,
-		url(image.$combo-10) no-repeat 370px 0;
+		url($combo-10) no-repeat 150px 0,
+		url($combo-10) no-repeat 370px 0;
 	border-bottom: 1px solid #999;
 }
 
@@ -2500,21 +2075,21 @@ table {
 .job_combo_paladin {
 	&_01 {
 		background:
-			url(image.$combo-10) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-10) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 		border-bottom: 1px solid #999;
 	}
 
 	&_02 {
-		background: url(image.$combo-10) no-repeat 150px 0;
+		background: url($combo-10) no-repeat 150px 0;
 		border-bottom: 1px solid #999;
 	}
 
 	&_03 {
 		background:
-			url(image.$combo-08) no-repeat 150px 0,
-			url(image.$combo-08) no-repeat 295px 0,
-			url(image.$combo-08) no-repeat 442px 0;
+			url($combo-08) no-repeat 150px 0,
+			url($combo-08) no-repeat 295px 0,
+			url($combo-08) no-repeat 442px 0;
 		margin-bottom: 8px;
 		border-bottom: 1px solid #999;
 
@@ -2553,12 +2128,12 @@ table {
 .job_combo_warrior {
 	&_01 {
 		background:
-			url(image.$combo-10) no-repeat 150px 0,
-			url(image.$combo-06) no-repeat 370px 0;
+			url($combo-10) no-repeat 150px 0,
+			url($combo-06) no-repeat 370px 0;
 	}
 
 	&_02 {
-		background: url(image.$combo-07) no-repeat 370px 0;
+		background: url($combo-07) no-repeat 370px 0;
 		border-bottom: 1px solid #999;
 	}
 }
@@ -2569,59 +2144,59 @@ table {
 
 	&_03 {
 		background:
-			url(image.$combo-03) no-repeat 150px 0,
-			url(image.$combo-03) no-repeat 370px 0;
+			url($combo-03) no-repeat 150px 0,
+			url($combo-03) no-repeat 370px 0;
 	}
 
 	&_04 {
 		background:
-			url(image.$combo-15) no-repeat 40px 0,
-			url(image.$combo-11) repeat-y 150px 0,
-			url(image.$combo-15) no-repeat 260px 0,
-			url(image.$combo-11) repeat-y 370px 0,
-			url(image.$combo-15) no-repeat 480px 0;
+			url($combo-15) no-repeat 40px 0,
+			url($combo-11) repeat-y 150px 0,
+			url($combo-15) no-repeat 260px 0,
+			url($combo-11) repeat-y 370px 0,
+			url($combo-15) no-repeat 480px 0;
 	}
 
 	&_05 {
 		background:
-			url(image.$combo-02) no-repeat 150px 0,
-			url(image.$combo-02) no-repeat 370px 0;
+			url($combo-02) no-repeat 150px 0,
+			url($combo-02) no-repeat 370px 0;
 	}
 }
 
 .job_combo_viper {
 	&_inner_01 {
 		background:
-			url(image.$combo-10) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-10) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 	}
 	&_inner_02 {
 		padding-top: 124px;
 		background:
-			url(image.$combo-04) no-repeat 150px 0,
-			url(image.$combo-13) no-repeat 370px 0;
+			url($combo-04) no-repeat 150px 0,
+			url($combo-13) no-repeat 370px 0;
 	}
 	&_inner_04 {
 		padding-top: 124px;
-		background: url(image.$combo-13) no-repeat 370px 0;
+		background: url($combo-13) no-repeat 370px 0;
 	}
 	&_inner_05 {
 		padding-top: 124px;
 		background:
-			url(image.$combo-10) no-repeat 150px 124px,
-			url(image.$combo-10) no-repeat 370px 124px,
-			url(image.$combo-19) no-repeat 150px 0,
-			url(image.$combo-19) no-repeat 370px 0;
+			url($combo-10) no-repeat 150px 124px,
+			url($combo-10) no-repeat 370px 124px,
+			url($combo-19) no-repeat 150px 0,
+			url($combo-19) no-repeat 370px 0;
 	}
 	&_inner_06 {
 		background:
-			url(image.$combo-06) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-06) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 	}
 	&_inner_07 {
 		background:
-			url(image.$combo-07) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-07) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 	}
 }
 
@@ -2768,7 +2343,7 @@ table {
 			margin: auto;
 			width: 48px;
 			height: 124px;
-			background: url(image.$combo-17) no-repeat;
+			background: url($combo-17) no-repeat;
 		}
 	}
 
@@ -2776,8 +2351,8 @@ table {
 	&_02 {
 		position: relative;
 		background:
-			url(image.$combo-08) no-repeat 96px 0,
-			url(image.$combo-08) no-repeat 216px 0;
+			url($combo-08) no-repeat 96px 0,
+			url($combo-08) no-repeat 216px 0;
 
 		&::before,
 		&::after {
@@ -2794,12 +2369,12 @@ table {
 
 		&::before {
 			left: -24px;
-			background: url(image.$combo-05) no-repeat;
+			background: url($combo-05) no-repeat;
 		}
 
 		&::after {
 			right: -24px;
-			background: url(image.$combo-18) no-repeat;
+			background: url($combo-18) no-repeat;
 		}
 
 		&_effect {
@@ -2819,12 +2394,12 @@ table {
 
 		&::before {
 			left: -24px;
-			background: url(image.$combo-09) no-repeat;
+			background: url($combo-09) no-repeat;
 		}
 
 		&::after {
 			right: -24px;
-			background: url(image.$combo-01) no-repeat;
+			background: url($combo-01) no-repeat;
 		}
 
 		&_effect {
@@ -2851,15 +2426,15 @@ table {
 			margin: auto;
 			width: 48px;
 			height: 124px;
-			background: url(image.$combo-14) no-repeat;
+			background: url($combo-14) no-repeat;
 		}
 	}
 }
 
 .job_combo_dragoon_03 {
 	background:
-		url(image.$combo-10) no-repeat 150px 0,
-		url(image.$combo-10) no-repeat 370px 0;
+		url($combo-10) no-repeat 150px 0,
+		url($combo-10) no-repeat 370px 0;
 	border-bottom: 1px solid #999999;
 	margin-bottom: 8px;
 }
@@ -2867,11 +2442,11 @@ table {
 .job_combo_ninja {
 	&_01 {
 		background:
-			url(image.$combo-10) no-repeat 150px 0,
-			url(image.$combo-06) no-repeat 370px 0;
+			url($combo-10) no-repeat 150px 0,
+			url($combo-06) no-repeat 370px 0;
 	}
 	&_02 {
-		background: url(image.$combo-07) no-repeat 370px 0;
+		background: url($combo-07) no-repeat 370px 0;
 		border-bottom: 1px solid #999999;
 	}
 }
@@ -2879,31 +2454,31 @@ table {
 .job_combo_samurai {
 	&_01 {
 		background:
-			url(image.$combo-06) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-06) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 	}
 	&_02 {
 		background:
-			url(image.$combo-12) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-12) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 	}
 	&_03 {
-		background: url(image.$combo-07) no-repeat 150px 0;
+		background: url($combo-07) no-repeat 150px 0;
 		border-bottom: 1px solid #999999;
 	}
 	&_04 {
-		background: url(image.$combo-06) no-repeat 150px 0;
+		background: url($combo-06) no-repeat 150px 0;
 	}
 	&_05 {
-		background: url(image.$combo-07) no-repeat 150px 0;
+		background: url($combo-07) no-repeat 150px 0;
 		border-bottom: 1px solid #999999;
 		margin-bottom: 8px;
 	}
 }
 .job_combo_machinist_01 {
 	background:
-		url(image.$combo-10) no-repeat 150px 0,
-		url(image.$combo-10) no-repeat 370px 0;
+		url($combo-10) no-repeat 150px 0,
+		url($combo-10) no-repeat 370px 0;
 	border-bottom: 1px solid #999999;
 	margin-bottom: 8px;
 }
@@ -2915,7 +2490,7 @@ table {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-		background: url(image.$combo-10) no-repeat 205px 0;
+		background: url($combo-10) no-repeat 205px 0;
 	}
 	&_02_inner {
 		width: 640px;
@@ -2926,8 +2501,8 @@ table {
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 		background:
-			url(image.$combo-16) no-repeat 95px 0,
-			url(image.$combo-16) no-repeat 315px 0;
+			url($combo-16) no-repeat 95px 0,
+			url($combo-16) no-repeat 315px 0;
 	}
 	&_02_percent {
 		position: absolute;
@@ -2959,8 +2534,8 @@ table {
 .job_combo_redmage {
 	&_01 {
 		background:
-			url(image.$combo-10) no-repeat 150px 0,
-			url(image.$combo-10) no-repeat 370px 0;
+			url($combo-10) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
 		border-bottom: 1px solid #999999;
 	}
 }
@@ -3538,11 +3113,6 @@ table {
 			display: none;
 		}
 	}
-}
-
-// Fix Temp Classes
-.main_app .footer_inner {
-	bottom: 0;
 }
 
 #floatingSearchBtn {
