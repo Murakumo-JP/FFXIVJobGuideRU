@@ -1,0 +1,604 @@
+@use "image" as *;
+@use "variables" as *;
+
+.job_combo {
+	&_text {
+		color: #585858;
+		margin: 0 10px 32px;
+		font-size: 14px;
+	}
+
+	&_title {
+		margin: 0 10px;
+
+		h3 {
+			border-radius: 3px;
+			text-align: center;
+			font-size: 12px;
+			color: #fff;
+			font-weight: 400;
+			line-height: 28px;
+		}
+
+		&_sequence {
+			width: 640px;
+			margin-right: 4px;
+			float: left;
+		}
+
+		&_effect {
+			width: 276px;
+			float: left;
+		}
+	}
+
+	&_detail {
+		margin: 0 10px;
+	}
+
+	&_root {
+		display: table;
+		box-sizing: border-box;
+		min-height: 124px;
+
+		&_skill,
+		&_skill_first,
+		&_skill_last {
+			display: table-cell;
+			width: 200px;
+			padding: 16px 20px 16px 0;
+			text-align: center;
+
+			p {
+				font-size: 12px;
+				font-weight: 700;
+				color: #585858;
+				width: 200px;
+			}
+		}
+
+		&_skill_last {
+			padding-right: 0;
+		}
+
+		&_effect {
+			width: 280px;
+			display: table-cell;
+			vertical-align: middle;
+
+			p {
+				display: block;
+				padding: 16px 12px;
+				font-size: 12px;
+				color: #585858;
+			}
+		}
+	}
+
+	&_skill_icon {
+		position: relative;
+		width: 76px;
+		height: 76px;
+		display: inline-block;
+		background: url($skill-icon) no-repeat 6px 3px;
+		background-size: 64px 64px;
+		vertical-align: middle;
+		margin: 0 auto;
+
+		img {
+			width: 64px;
+			height: 64px;
+			position: absolute;
+			top: 3px !important;
+			left: 50% !important;
+			margin-left: -32px;
+			display: block;
+			z-index: 1;
+		}
+
+		&:after {
+			content: "";
+			background: url($skill-icon-top2x) no-repeat;
+			background-size: 76px 76px;
+			width: 76px;
+			height: 76px;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+	}
+}
+.job_combo_darkknight_02,
+.job_combo_gunbreaker_02,
+.job_combo_ninja_04,
+.job_combo_reaper_02,
+.job_combo_warrior_03 {
+	background: url($combo-10) no-repeat 150px 0;
+	border-bottom: 1px solid #999;
+}
+.job_combo_darkknight_01,
+.job_combo_gunbreaker_01,
+.job_combo_reaper_01 {
+	background:
+		url($combo-10) no-repeat 150px 0,
+		url($combo-10) no-repeat 370px 0;
+	border-bottom: 1px solid #999;
+}
+.job_combo_root_dancer,
+.job_combo_root_gunbreaker,
+.job_combo_viper {
+	border-bottom: 1px solid #999;
+}
+.job_combo_dragoon_04 {
+	.job_combo_root_skill,
+	.job_combo_root_skill_last {
+		width: 120px;
+	}
+
+	&_start .job_combo_root_skill {
+		position: relative;
+		padding-right: 24px;
+	}
+}
+.job_combo_paladin {
+	&_01 {
+		background:
+			url($combo-10) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+		border-bottom: 1px solid #999;
+	}
+
+	&_02 {
+		background: url($combo-10) no-repeat 150px 0;
+		border-bottom: 1px solid #999;
+	}
+
+	&_03 {
+		background:
+			url($combo-08) no-repeat 150px 0,
+			url($combo-08) no-repeat 295px 0,
+			url($combo-08) no-repeat 442px 0;
+		margin-bottom: 8px;
+		border-bottom: 1px solid #999;
+
+		.job_combo_root_skill_first {
+			width: 120px;
+			padding-left: 40px;
+			padding-right: 26px;
+
+			p {
+				width: 120px;
+			}
+		}
+
+		.job_combo_root_skill {
+			width: 120px;
+			padding-right: 26px;
+
+			p {
+				width: 120px;
+				text-align: center;
+			}
+		}
+
+		.job_combo_root_skill_last {
+			width: 120px;
+			padding-right: 40px;
+
+			p {
+				width: 120px;
+				text-align: center;
+			}
+		}
+	}
+}
+.job_combo_warrior {
+	&_01 {
+		background:
+			url($combo-10) no-repeat 150px 0,
+			url($combo-06) no-repeat 370px 0;
+	}
+
+	&_02 {
+		background: url($combo-07) no-repeat 370px 0;
+		border-bottom: 1px solid #999;
+	}
+}
+.job_combo_gunbreaker {
+	display: table-cell;
+	width: 600px;
+
+	&_03 {
+		background:
+			url($combo-03) no-repeat 150px 0,
+			url($combo-03) no-repeat 370px 0;
+	}
+
+	&_04 {
+		background:
+			url($combo-15) no-repeat 40px 0,
+			url($combo-11) repeat-y 150px 0,
+			url($combo-15) no-repeat 260px 0,
+			url($combo-11) repeat-y 370px 0,
+			url($combo-15) no-repeat 480px 0;
+	}
+
+	&_05 {
+		background:
+			url($combo-02) no-repeat 150px 0,
+			url($combo-02) no-repeat 370px 0;
+	}
+}
+.job_combo_viper {
+	&_inner_01 {
+		background:
+			url($combo-10) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+	}
+	&_inner_02 {
+		padding-top: 124px;
+		background:
+			url($combo-04) no-repeat 150px 0,
+			url($combo-13) no-repeat 370px 0;
+	}
+	&_inner_04 {
+		padding-top: 124px;
+		background: url($combo-13) no-repeat 370px 0;
+	}
+	&_inner_05 {
+		padding-top: 124px;
+		background:
+			url($combo-10) no-repeat 150px 124px,
+			url($combo-10) no-repeat 370px 124px,
+			url($combo-19) no-repeat 150px 0,
+			url($combo-19) no-repeat 370px 0;
+	}
+	&_inner_06 {
+		background:
+			url($combo-06) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+	}
+	&_inner_07 {
+		background:
+			url($combo-07) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+	}
+}
+.job_monkcombo {
+	display: table;
+	margin: 0 10px 8px;
+	&_action {
+		display: table-cell;
+		border-radius: 4px;
+		box-shadow: inset 0 0 0 2px #8c4d4d;
+		background: #f2f2f2;
+		width: 280px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		overflow: hidden;
+		padding: 2px;
+		&_title {
+			background: #8c4d4d;
+			text-align: center;
+			color: #ffffff;
+			font-size: 12px;
+			font-weight: normal;
+			padding: 8px 0;
+			line-height: 1;
+		}
+		&_skill,
+		&_skill_last {
+			padding: 8px 8px 0 8px;
+			display: flex;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-align: center;
+			-moz-box-align: center;
+			-ms-box-align: center;
+			box-align: center;
+			align-items: center;
+			width: 276px;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		&_effect {
+			&_title {
+				background: #ebdfdf;
+				padding: 6px;
+				font-size: 12px;
+				font-weight: bold;
+				color: #732828;
+				display: block;
+				text-align: left;
+			}
+			&_text {
+				padding: 8px 6px 16px;
+				text-align: left;
+			}
+		}
+	}
+	&_arrow {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.job_combo_root_skill,
+.job_combo_root_skill_first,
+.job_combo_root_skill_last {
+	p {
+		font-size: 12px;
+		font-weight: bold;
+		color: #585858;
+		width: 200px;
+	}
+}
+.job_combo_root {
+	display: table;
+	box-sizing: border-box;
+	min-height: 124px;
+}
+.job_combo_dragoon_04 {
+	display: grid;
+	grid-template:
+		"start combo01 end combo01_effect"
+		"start . end combo01_effect" 62px
+		"start . end combo02_effect" 62px
+		"start combo02 end combo02_effect";
+	height: 372px;
+	border-bottom: 1px solid #999999;
+	.job_combo_root_skill,
+	.job_combo_root_skill_last {
+		width: 120px;
+		height: 124px;
+		padding: 31px 0 0;
+		box-sizing: border-box;
+
+		p {
+			width: 120px;
+		}
+	}
+
+	.job_combo_skill_icon {
+		background: url(/Assets/img/main/skil_icon.png) no-repeat 4px 2px;
+		background-size: 40px 40px;
+		width: 48px;
+		height: 48px;
+
+		&::after {
+			background: url(/Assets/img/main/skill_icon_on2x.png) no-repeat;
+			background-size: 48px 48px;
+		}
+
+		img {
+			width: 40px;
+			height: 40px;
+			top: 2px !important;
+			margin-left: -20px;
+		}
+	}
+
+	.job_combo_root_effect {
+		p {
+			padding: 0 12px;
+		}
+	}
+
+	&_start {
+		grid-area: start;
+		display: grid;
+		place-content: center;
+		padding-right: 21px;
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: -4px;
+			bottom: 0;
+			margin: auto;
+			width: 48px;
+			height: 124px;
+			background: url($combo-17) no-repeat;
+		}
+		.job_combo_root_skill {
+			position: relative;
+			padding-right: 24px;
+		}
+	}
+
+	&_01,
+	&_02 {
+		position: relative;
+		background:
+			url($combo-08) no-repeat 96px 0,
+			url($combo-08) no-repeat 216px 0;
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			width: 48px;
+			height: 100%;
+		}
+	}
+
+	&_01 {
+		grid-area: combo01;
+
+		&::before {
+			left: -24px;
+			background: url($combo-05) no-repeat;
+		}
+
+		&::after {
+			right: -24px;
+			background: url($combo-18) no-repeat;
+		}
+
+		&_effect {
+			grid-area: combo01_effect;
+			display: flex;
+			align-items: center;
+			padding-top: 16px;
+		}
+	}
+
+	&_02 {
+		grid-area: combo02;
+
+		.job_combo_root_skill {
+			padding: 31px 0 0;
+		}
+
+		&::before {
+			left: -24px;
+			background: url($combo-09) no-repeat;
+		}
+
+		&::after {
+			right: -24px;
+			background: url($combo-01) no-repeat;
+		}
+
+		&_effect {
+			grid-area: combo02_effect;
+			display: flex;
+			align-items: center;
+			padding-bottom: 16px;
+		}
+	}
+
+	&_end {
+		grid-area: end;
+		display: grid;
+		place-items: center;
+		padding-left: 21px;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: -4px;
+			bottom: 0;
+			margin: auto;
+			width: 48px;
+			height: 124px;
+			background: url($combo-14) no-repeat;
+		}
+	}
+}
+.job_combo_dragoon_03 {
+	background:
+		url($combo-10) no-repeat 150px 0,
+		url($combo-10) no-repeat 370px 0;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 8px;
+}
+.job_combo_ninja {
+	&_01 {
+		background:
+			url($combo-10) no-repeat 150px 0,
+			url($combo-06) no-repeat 370px 0;
+	}
+	&_02 {
+		background: url($combo-07) no-repeat 370px 0;
+		border-bottom: 1px solid #999999;
+	}
+}
+.job_combo_samurai {
+	&_01 {
+		background:
+			url($combo-06) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+	}
+	&_02 {
+		background:
+			url($combo-12) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+	}
+	&_03 {
+		background: url($combo-07) no-repeat 150px 0;
+		border-bottom: 1px solid #999999;
+	}
+	&_04 {
+		background: url($combo-06) no-repeat 150px 0;
+	}
+	&_05 {
+		background: url($combo-07) no-repeat 150px 0;
+		border-bottom: 1px solid #999999;
+		margin-bottom: 8px;
+	}
+}
+.job_combo_machinist_01 {
+	background:
+		url($combo-10) no-repeat 150px 0,
+		url($combo-10) no-repeat 370px 0;
+	border-bottom: 1px solid #999999;
+	margin-bottom: 8px;
+}
+.job_combo_dancer {
+	&_01_inner {
+		width: 640px;
+		padding-left: 55px;
+		padding-right: 165px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background: url($combo-10) no-repeat 205px 0;
+	}
+	&_02_inner {
+		width: 640px;
+		height: 124px;
+		padding-left: 165px;
+		padding-right: 55px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		background:
+			url($combo-16) no-repeat 95px 0,
+			url($combo-16) no-repeat 315px 0;
+	}
+	&_02_percent {
+		position: absolute;
+		top: 40%;
+		left: 95px;
+		transform: translateY(-50%);
+		p {
+			width: 120px;
+			span {
+				display: inline-block;
+				font-size: 16px;
+				font-weight: bold;
+				color: #5c95e5;
+			}
+		}
+	}
+}
+.job_combo_dancer_02 {
+	position: relative;
+}
+.job_combo_dancer_02_percent .job_combo_root_skill {
+	width: 120px;
+	padding: 0 95px 0 5px;
+	text-align: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.job_combo_redmage {
+	&_01 {
+		background:
+			url($combo-10) no-repeat 150px 0,
+			url($combo-10) no-repeat 370px 0;
+		border-bottom: 1px solid #999999;
+	}
+}
