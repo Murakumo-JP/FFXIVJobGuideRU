@@ -2009,22 +2009,22 @@ table {
 			padding: 0 0 8px 24px;
 
 			&.level {
-				background: url(/Assets/images/main/lvl.png) no-repeat 0 0;
+				background: url($ico-level) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
 			&.pos {
-				background: url(/Assets/images/main/loc.png) no-repeat 0 0;
+				background: url($ico-location) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
 			&.npc {
-				background: url(/Assets/images/main/npc.png) no-repeat 0 0;
+				background: url($ico-npc) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
 			&.condition {
-				background: url(/Assets/images/main/complite.png) no-repeat 0 0;
+				background: url($ico-complite) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 

@@ -17,7 +17,7 @@ body.gs_page {
 .gs_header {
   height: 440px;
   margin-bottom: 16px;
-  background: url(/Assets/images/GoldSaucer/header.jpg) no-repeat top center #1b0f27;
+  background: url("/Assets/images/GoldSaucer/header.jpg") no-repeat top center #1b0f27;
   position: relative;
 }
 .gs_header_img {
@@ -148,19 +148,19 @@ body.gs_page {
   font-weight: normal;
 }
 .gs_quest__info li.level::after {
-  background: url(/Assets/images/GoldSaucer/lvl.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/level.png") no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.place::after {
-  background: url(/Assets/images/GoldSaucer/loc.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/location.png") no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.npc::after {
-  background: url(/Assets/images/GoldSaucer/npc.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/npc.png") no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.terms::after {
-  background: url(/Assets/images/GoldSaucer/complite.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/complite.png") no-repeat 0 0;
   background-size: 20px;
 }
 

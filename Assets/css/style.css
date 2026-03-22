@@ -3373,19 +3373,19 @@ table {
   padding: 0 0 8px 24px;
 }
 .bluemage-quest li.level {
-  background: url(/Assets/images/main/lvl.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/level.png") no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li.pos {
-  background: url(/Assets/images/main/loc.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/location.png") no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li.npc {
-  background: url(/Assets/images/main/npc.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/npc.png") no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li.condition {
-  background: url(/Assets/images/main/complite.png) no-repeat 0 0;
+  background: url("/Assets/images/main/attributes/complite.png") no-repeat 0 0;
   background-size: 20px 20px;
 }
 .bluemage-quest li a {

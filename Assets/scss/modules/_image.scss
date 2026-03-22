@@ -1,6 +1,7 @@
 $images-path: "/Assets/images/";
 
 $header: "#{$images-path}JobIndex/header_7_4.jpg";
+$gs-header: "#{$images-path}GoldSaucer/header.jpg";
 // DoWDoM
 $jobguide-tank: "#{$images-path}DoWDoM/Tank.jpg";
 $jobguide-healer: "#{$images-path}DoWDoM/Healer.jpg";
@@ -17,6 +18,11 @@ $back-on: "#{$images-path}main/back_on.png";
 $skill-icon: "#{$images-path}main/skil_icon.png";
 $skill-icon-top: "#{$images-path}main/skill_icon_on.png";
 $skill-icon-top2x: "#{$images-path}main/skill_icon_on2x.png";
+// Attributes
+$ico-complite: "#{$images-path}main/attributes/complite.png";
+$ico-location: "#{$images-path}main/attributes/location.png";
+$ico-level: "#{$images-path}main/attributes/level.png";
+$ico-npc: "#{$images-path}main/attributes/npc.png";
 // Main Combo
 $combo-01: "#{$images-path}combo/corner-down-right.png";
 $combo-02: "#{$images-path}combo/blue-corner-down-right.png";

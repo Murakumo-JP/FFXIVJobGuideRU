@@ -1,3 +1,5 @@
+@use "modules/image" as *;
+
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&family=Noto+Sans:wght@400;700&family=Oswald:wght@700&display=swap);
 
 // Цвета
@@ -54,7 +56,7 @@ body.gs_page {
 .gs_header {
 	height: 440px;
 	margin-bottom: 16px;
-	background: url(/Assets/images/GoldSaucer/header.jpg) no-repeat top center $color-bg-dark;
+	background: url($gs-header) no-repeat top center $color-bg-dark;
 	position: relative;
 
 	&_img {
@@ -190,21 +192,20 @@ body.gs_page {
 				font-weight: normal;
 			}
 
-			// Иконки типов квестов
 			&.level::after {
-				background: url(/Assets/images/GoldSaucer/lvl.png) no-repeat 0 0;
+				background: url($ico-level) no-repeat 0 0;
 				background-size: 20px;
 			}
 			&.place::after {
-				background: url(/Assets/images/GoldSaucer/loc.png) no-repeat 0 0;
+				background: url($ico-location) no-repeat 0 0;
 				background-size: 20px;
 			}
 			&.npc::after {
-				background: url(/Assets/images/GoldSaucer/npc.png) no-repeat 0 0;
+				background: url($ico-npc) no-repeat 0 0;
 				background-size: 20px;
 			}
 			&.terms::after {
-				background: url(/Assets/images/GoldSaucer/complite.png) no-repeat 0 0;
+				background: url($ico-complite) no-repeat 0 0;
 				background-size: 20px;
 			}
 		}
