@@ -1,4 +1,4 @@
-$images-path: "/Assets/img/";
+$images-path: "/Assets/images/";
 
 @mixin job-color-class($type, $color, $alt-color) {
 	.job_#{$type} {

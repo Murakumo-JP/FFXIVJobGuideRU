@@ -120,7 +120,7 @@ $(function () {
 	const applyTheme = (theme) => {
 		document.body.classList.remove("light-theme", "dark-theme");
 		document.body.classList.add(`${theme}-theme`);
-		const iconPath = theme === "dark" ? "/Assets/img/svg/sun.svg" : "/Assets/img/svg/moon.svg";
+		const iconPath = theme === "dark" ? "/Assets/images/svg/sun.svg" : "/Assets/images/svg/moon.svg";
 		$("#themeToggle .icon").attr("src", iconPath);
 	};
 

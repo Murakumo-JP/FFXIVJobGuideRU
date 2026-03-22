@@ -1970,7 +1970,7 @@ table {
 
 			&::before {
 				content: "";
-				background: url(/Assets/img/main/quest.png);
+				background: url(/Assets/images/main/quest.png);
 				background-size: 40px 40px;
 				display: block;
 				width: 40px;
@@ -2009,22 +2009,22 @@ table {
 			padding: 0 0 8px 24px;
 
 			&.level {
-				background: url(/Assets/img/main/lvl.png) no-repeat 0 0;
+				background: url(/Assets/images/main/lvl.png) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
 			&.pos {
-				background: url(/Assets/img/main/loc.png) no-repeat 0 0;
+				background: url(/Assets/images/main/loc.png) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
 			&.npc {
-				background: url(/Assets/img/main/npc.png) no-repeat 0 0;
+				background: url(/Assets/images/main/npc.png) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
 			&.condition {
-				background: url(/Assets/img/main/complite.png) no-repeat 0 0;
+				background: url(/Assets/images/main/complite.png) no-repeat 0 0;
 				background-size: 20px 20px;
 			}
 
@@ -2039,14 +2039,14 @@ table {
 		margin: 0 10px;
 
 		li {
-			background: url(/Assets/img/main/bluli.png) no-repeat 0 2px;
+			background: url(/Assets/images/main/bluli.png) no-repeat 0 2px;
 			background-size: 16px 16px;
 			padding-bottom: 32px;
 			padding-left: 20px;
 			font-size: 14px;
 
 			li {
-				background: url(/Assets/img/main/bluli2.png) no-repeat 0 2px;
+				background: url(/Assets/images/main/bluli2.png) no-repeat 0 2px;
 				background-size: 16px 16px;
 				padding-bottom: 0;
 				padding-left: 20px;
@@ -2168,7 +2168,7 @@ table {
 		width: 250px;
 		height: 250px;
 		display: block;
-		background-image: url(/Assets/img/wow2.png);
+		background-image: url(/Assets/images/wow2.png);
 		position: fixed;
 		right: 70px;
 		bottom: -75px;

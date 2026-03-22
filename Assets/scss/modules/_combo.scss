@@ -365,13 +365,13 @@
 	}
 
 	.job_combo_skill_icon {
-		background: url(/Assets/img/main/skil_icon.png) no-repeat 4px 2px;
+		background: url(/Assets/images/main/skil_icon.png) no-repeat 4px 2px;
 		background-size: 40px 40px;
 		width: 48px;
 		height: 48px;
 
 		&::after {
-			background: url(/Assets/img/main/skill_icon_on2x.png) no-repeat;
+			background: url(/Assets/images/main/skill_icon_on2x.png) no-repeat;
 			background-size: 48px 48px;
 		}
 

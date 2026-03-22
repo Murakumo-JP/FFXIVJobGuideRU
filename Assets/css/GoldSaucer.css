@@ -17,7 +17,7 @@ body.gs_page {
 .gs_header {
   height: 440px;
   margin-bottom: 16px;
-  background: url(/Assets/img/GoldSaucer/header.jpg) no-repeat top center #1b0f27;
+  background: url(/Assets/images/GoldSaucer/header.jpg) no-repeat top center #1b0f27;
   position: relative;
 }
 .gs_header_img {
@@ -103,7 +103,7 @@ body.gs_page {
   left: 0;
   width: 40px;
   height: 40px;
-  background: url(/Assets/img/GoldSaucer/quest.png) no-repeat 0 0;
+  background: url(/Assets/images/GoldSaucer/quest.png) no-repeat 0 0;
   background-size: 40px 40px;
 }
 .gs_quest_info {
@@ -148,19 +148,19 @@ body.gs_page {
   font-weight: normal;
 }
 .gs_quest__info li.level::after {
-  background: url(/Assets/img/GoldSaucer/lvl.png) no-repeat 0 0;
+  background: url(/Assets/images/GoldSaucer/lvl.png) no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.place::after {
-  background: url(/Assets/img/GoldSaucer/loc.png) no-repeat 0 0;
+  background: url(/Assets/images/GoldSaucer/loc.png) no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.npc::after {
-  background: url(/Assets/img/GoldSaucer/npc.png) no-repeat 0 0;
+  background: url(/Assets/images/GoldSaucer/npc.png) no-repeat 0 0;
   background-size: 20px;
 }
 .gs_quest__info li.terms::after {
-  background: url(/Assets/img/GoldSaucer/complite.png) no-repeat 0 0;
+  background: url(/Assets/images/GoldSaucer/complite.png) no-repeat 0 0;
   background-size: 20px;
 }
 
@@ -290,36 +290,36 @@ body.gs_page {
   margin-bottom: 16px;
   -webkit-box-shadow: 0px 0px 0px 2px #91c2f2 inset;
           box-shadow: 0px 0px 0px 2px #91c2f2 inset;
-  background: url(/Assets/img/GoldSaucer/entrance_square.png) no-repeat right bottom #e1edfa;
+  background: url(/Assets/images/GoldSaucer/entrance_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_CardS {
   margin-bottom: 16px;
   -webkit-box-shadow: 0px 0px 0px 2px #91c2f2 inset;
           box-shadow: 0px 0px 0px 2px #91c2f2 inset;
-  background: url(/Assets/img/GoldSaucer/card_square.png) no-repeat right bottom #e1edfa;
+  background: url(/Assets/images/GoldSaucer/card_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_ChocoboS {
   margin-bottom: 16px;
   -webkit-box-shadow: 0px 0px 0px 2px #e6b673 inset;
           box-shadow: 0px 0px 0px 2px #e6b673 inset;
-  background: url(/Assets/img/GoldSaucer/chocobo_square.png) no-repeat right bottom #e1edfa;
+  background: url(/Assets/images/GoldSaucer/chocobo_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_MinionS {
   margin-bottom: 16px;
   -webkit-box-shadow: 0px 0px 0px 2px #b6aaf2 inset;
           box-shadow: 0px 0px 0px 2px #b6aaf2 inset;
-  background: url(/Assets/img/GoldSaucer/minion_square.png) no-repeat right bottom #e1edfa;
+  background: url(/Assets/images/GoldSaucer/minion_square.png) no-repeat right bottom #e1edfa;
 }
 .gs_WonderS {
   margin-bottom: 16px;
   -webkit-box-shadow: 0px 0px 0px 2px #e0c55a inset;
           box-shadow: 0px 0px 0px 2px #e0c55a inset;
-  background: url(/Assets/img/GoldSaucer/wonder_square.png) no-repeat right bottom #e1edfa;
+  background: url(/Assets/images/GoldSaucer/wonder_square.png) no-repeat right bottom #e1edfa;
 }
 
 /* Page Layout */
 .gs_page {
-  background: url(/Assets/img/GoldSaucer/bg.jpg) no-repeat center top #eceee7;
+  background: url(/Assets/images/GoldSaucer/bg.jpg) no-repeat center top #eceee7;
   background-attachment: fixed;
 }
 
@@ -690,7 +690,7 @@ table {
 .gs_ico_table_box .gs_ico_table_frame {
   width: 48px;
   height: 48px;
-  background: url(/Assets/img/GoldSaucer/ico_frame.png) no-repeat;
+  background: url(/Assets/images/GoldSaucer/ico_frame.png) no-repeat;
   position: absolute;
   top: 0;
   left: 0;

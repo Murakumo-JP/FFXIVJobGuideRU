@@ -54,7 +54,7 @@ $(document).ready(function () {
 					.text(content)
 					.append(
 						`\n\n<a href="${url}" target="_blank" class="btnNewsGitHub">
-                     <img src="/Assets/img/svg/github.svg"/>
+                     <img src="/Assets/images/svg/github.svg"/>
                      <span>Открыть новость на GitHub</span>
                   </a>`
 					);
