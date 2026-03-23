@@ -1,0 +1,101 @@
+$images-path: "/Assets/images/";
+
+@mixin job-color-class($type, $color, $alt-color) {
+	.job_#{$type} {
+		.jobguide_menu_list > li > span,
+		.job_nav_title a,
+		.job_sub_title,
+		.job_hud_title {
+			color: var(--#{$type}-color);
+		}
+
+		.jobguide_sub_menu li a {
+			color: var(--#{$type}-AltColor);
+		}
+
+		.job_title {
+			background: var(--#{$type}-color);
+		}
+
+		.job_thead p,
+		.job_combo_title_sequence,
+		.job_combo_title_effect {
+			background: var(--#{$type}-AltColor);
+		}
+
+		.nav_floating_icon,
+		~ .nome_app_top .app_top,
+		~ #floatingSearchBtn {
+			background-color: var(--#{$type}-color);
+			box-shadow: 1px 1px 5px var(--#{$type}-color);
+
+			&:hover {
+				background-color: var(--#{$type}-AltColor);
+			}
+		}
+
+		.job_header_role {
+			background: var(--#{$type}-color);
+			box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
+
+			img {
+				display: inline-block;
+				margin-right: 4px;
+				width: 32px;
+				height: 32px;
+			}
+		}
+	}
+}
+// Jobs Haider
+$color-tank: #192455;
+$color-healer: #1e4413;
+$color-dps: #4f1717;
+$color-blu: #23396a;
+$color-crafter: #27174c;
+$color-gatherer: #554317;
+
+$job-colors: (
+	pld: $color-tank,
+	war: $color-tank,
+	drk: $color-tank,
+	gnb: $color-tank,
+	whm: $color-healer,
+	sch: $color-healer,
+	ast: $color-healer,
+	sge: $color-healer,
+	mnk: $color-dps,
+	drg: $color-dps,
+	nin: $color-dps,
+	sam: $color-dps,
+	rpr: $color-dps,
+	vpr: $color-dps,
+	brd: $color-dps,
+	mch: $color-dps,
+	dnc: $color-dps,
+	blm: $color-dps,
+	smn: $color-dps,
+	rdm: $color-dps,
+	pct: $color-dps,
+	blu: $color-blu,
+	crp: $color-crafter,
+	bsm: $color-crafter,
+	arm: $color-crafter,
+	gsm: $color-crafter,
+	ltw: $color-crafter,
+	wvr: $color-crafter,
+	alc: $color-crafter,
+	cul: $color-crafter,
+	min: $color-gatherer,
+	btn: $color-gatherer,
+	fsh: $color-gatherer,
+);
+
+@mixin job-haider {
+	@each $job, $color in $job-colors {
+		.job_#{$job} {
+			background: url("#{$images-path}JobHaider/haider_#{$job}.jpg") no-repeat center top $color;
+			background-attachment: fixed;
+		}
+	}
+}

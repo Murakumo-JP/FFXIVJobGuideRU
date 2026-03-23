@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>GS Editor</title>
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/images/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/images/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/images/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/images/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/images/icon/icon-128x128.png" />
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<link rel="stylesheet" href="/Assets/css/GoldSaucer.min.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="gs_page editor">
+		<div class="app-layout">
+			<aside class="sidebar-left">
+				<div class="panel-header">Библиотека блоков</div>
+				<div class="components-list" id="sidebar-btns"></div>
+			</aside>
+
+			<main class="main-workspace">
+				<div class="top-toolbar">
+					<span style="font-weight: 600; font-size: 14px; color: var(--text-light)">GS Editor</span>
+					<button class="btn-export" onclick="showExport()">ЭКСПОРТ HTML</button>
+				</div>
+				<div class="canvas-area">
+					<div id="editor-canvas" class="gs_wrapper"></div>
+				</div>
+			</main>
+		</div>
+
+		<div class="code-modal" id="code-modal">
+			<div class="code-modal-content">
+				<div style="padding: 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between">
+					<strong style="color: #fff">HTML</strong>
+					<button onclick="closeExport()" style="background: none; border: none; color: #fff; cursor: pointer; font-size: 20px">✕</button>
+				</div>
+				<textarea id="export-code" readonly spellcheck="false"></textarea>
+			</div>
+		</div>
+
+		<script>
+			const canvas = document.getElementById("editor-canvas");
+			let activeBlock = null;
+
+			const templates = {
+				h2: `<h2 class="gs_title"><img src="/Assets/images/GoldSaucer/star.png"></h2>`,
+				h3: `<h3 class="gs_circle"></h3>`,
+				h4: `<h4 class="gs_sm_head"></h4>`,
+				p: `<p class="gs_text_default"></p>`,
+				p_red: `<p class="gs_text_red"></p>`,
+				img: `<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/9/FgM897Tv5TnhUN7HpKGHjYbXpg.jpg"/></div>`,
+				group: `<div class="gs_group"></div>`,
+				anno: `<div class="gs_annotation gs_space-32"><h5 class="gs_annotation_title">Совет</h5><p class="gs_annotation_text">Информация...</p></div>`,
+				table: `<table class="gs_guide_table"><thead><tr><th>Заголовок 1</th><th>Заголовок 2</th></tr></thead><tbody><tr><td>Ячейка 1</td><td>Ячейка 2</td></tr></tbody></table>`,
+			};
+
+			const menuItems = [
+				{id: "h2", n: "⭐ Заголовок H2"},
+				{id: "h3", n: "🔵 Заголовок H3"},
+				{id: "h4", n: "◽ Заголовок H4"},
+				{id: "p", n: "📄 Текст (p)"},
+				{id: "p_red", n: "🔴 Красный текст"},
+				{id: "img", n: "🖼️ Картинка"},
+				{id: "table", n: "📊 Таблица"},
+				{id: "group", n: "📦 Группа"},
+				{id: "anno", n: "💡 Аннотация"},
+			];
+
+			const sidebar = document.getElementById("sidebar-btns");
+			menuItems.forEach((i) => {
+				const b = document.createElement("button");
+				b.className = "comp-btn";
+				b.innerText = i.n;
+				b.onclick = () => addBlock(i.id);
+				sidebar.appendChild(b);
+			});
+
+			function addBlock(type, target = canvas) {
+				const wrapper = document.createElement("div");
+				wrapper.className = "block-wrapper";
+				wrapper.dataset.type = type;
+
+				let toolbarHTML = `
+            <div class="floating-toolbar">
+                <button class="ft-btn" onclick="move(event, this, -1)">↑</button>
+                <button class="ft-btn" onclick="move(event, this, 1)">↓</button>
+                <button class="ft-btn primary" onmousedown="event.preventDefault(); formatRed()">🔴 Red</button>
+                <button class="ft-btn" onmousedown="event.preventDefault(); insertBrAtCursor()">↵ Br</button>
+                ${type === "group" ? `<div style="position:relative;display:inline-block"><button class="ft-btn primary" onclick="toggleNest(event, this)">➕ Добавить</button><div class="nested-menu">${menuItems.map((m) => `<button onclick="addNested(event,'${m.id}')">${m.n}</button>`).join("")}</div></div>` : ""}
+                ${type === "table" ? `<button class="ft-btn primary" onclick="addTr(event)">+ Строка</button>` : ""}
+                <button class="ft-btn del" onclick="del(event, this)">✕</button>
+            </div>`;
+
+				wrapper.innerHTML = toolbarHTML + `<div class="block-content">${templates[type]}</div>`;
+
+				if (type === "img") {
+					const eb = document.createElement("div");
+					eb.className = "img-edit-box";
+					eb.innerHTML = `<input type="text" placeholder="URL картинки..." oninput="updImg(this)">`;
+					wrapper.appendChild(eb);
+				}
+
+				wrapper.onclick = (e) => {
+					e.stopPropagation();
+					setActive(wrapper);
+				};
+				makeEdit(wrapper);
+				target.appendChild(wrapper);
+				setActive(wrapper);
+			}
+
+			function setActive(el) {
+				if (activeBlock) activeBlock.classList.remove("active");
+				activeBlock = el;
+				activeBlock.classList.add("active");
+				document.querySelectorAll(".nested-menu").forEach((m) => (m.style.display = "none"));
+			}
+
+			function makeEdit(cont) {
+				cont.querySelectorAll("h2, h3, h4, h5, p, td, th").forEach((el) => {
+					el.contentEditable = true;
+					el.onkeydown = (e) => {
+						if (e.key === "Enter") {
+							e.preventDefault();
+							insertBrAtCursor();
+						}
+					};
+
+					el.onpaste = (e) => {
+						e.preventDefault();
+						let text = e.clipboardData.getData("text/plain");
+						text = text.replace(/\r?\n/g, " ").replace(/\s\s+/g, " ");
+						text = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+						document.execCommand("insertHTML", false, text);
+					};
+				});
+			}
+
+			function insertBrAtCursor() {
+				const s = window.getSelection();
+				if (!s.rangeCount) return;
+				const r = s.getRangeAt(0);
+				const br = document.createElement("br");
+				r.deleteContents();
+				r.insertNode(br);
+				r.setStartAfter(br);
+				r.collapse(true);
+				s.removeAllRanges();
+				s.addRange(r);
+			}
+
+			function formatRed() {
+				const s = window.getSelection();
+				if (s.isCollapsed) return;
+				const r = s.getRangeAt(0);
+				const span = document.createElement("span");
+				span.className = "gs_text_red";
+				span.appendChild(r.extractContents());
+				r.insertNode(span);
+				s.removeAllRanges();
+			}
+
+			function addTr(e) {
+				e.stopPropagation();
+				const table = activeBlock.querySelector("table");
+				const tbody = table.querySelector("tbody") || table;
+				const row = document.createElement("tr");
+				const cols = table.querySelector("tr").children.length;
+				for (let i = 0; i < cols; i++) row.innerHTML += "<td>...</td>";
+				tbody.appendChild(row);
+				makeEdit(row);
+			}
+
+			function toggleNest(e, b) {
+				e.stopPropagation();
+				const m = b.nextElementSibling;
+				m.style.display = m.style.display === "flex" ? "none" : "flex";
+			}
+
+			function addNested(e, t) {
+				e.stopPropagation();
+				const group = activeBlock.querySelector(".gs_group");
+				if (group) addBlock(t, group);
+			}
+
+			function move(e, b, d) {
+				e.stopPropagation();
+				const w = b.closest(".block-wrapper");
+				if (d === -1 && w.previousElementSibling) w.parentNode.insertBefore(w, w.previousElementSibling);
+				if (d === 1 && w.nextElementSibling) w.parentNode.insertBefore(w.nextElementSibling, w);
+			}
+
+			function del(e, b) {
+				e.stopPropagation();
+				b.closest(".block-wrapper").remove();
+				activeBlock = null;
+			}
+
+			function updImg(i) {
+				const img = i.closest(".block-wrapper").querySelector("img");
+				if (img) img.src = i.value;
+			}
+
+			function getCleanHTML(container) {
+				let html = "";
+				const children = container.children;
+
+				for (let i = 0; i < children.length; i++) {
+					const w = children[i];
+					if (!w.classList.contains("block-wrapper")) continue;
+
+					const type = w.dataset.type;
+					const contentBox = w.querySelector(":scope > .block-content");
+
+					if (!contentBox) continue;
+
+					if (type === "group") {
+						const groupContainer = contentBox.querySelector(".gs_group");
+						if (groupContainer) {
+							const innerHTML = getCleanHTML(groupContainer);
+							html += `<div class="gs_group">\n${innerHTML}</div>\n`;
+						}
+					} else {
+						const temp = document.createElement("div");
+						temp.innerHTML = contentBox.innerHTML;
+						temp.querySelectorAll("[contenteditable]").forEach((el) => el.removeAttribute("contenteditable"));
+						html += temp.innerHTML + "\n";
+					}
+				}
+				return html;
+			}
+
+			function showExport() {
+				const finalHTML = getCleanHTML(canvas);
+				document.getElementById("export-code").value = finalHTML.trim();
+				document.getElementById("code-modal").style.display = "flex";
+			}
+
+			function closeExport() {
+				document.getElementById("code-modal").style.display = "none";
+			}
+
+			document.onclick = (e) => {
+				if (!e.target.closest(".block-wrapper") && !e.target.closest(".sidebar-left")) {
+					if (activeBlock) activeBlock.classList.remove("active");
+					activeBlock = null;
+					document.querySelectorAll(".nested-menu").forEach((m) => (m.style.display = "none"));
+				}
+			};
+		</script>
+	</body>
+</html>

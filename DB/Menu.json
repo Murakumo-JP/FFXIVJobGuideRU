@@ -77,8 +77,8 @@
 			"jobs": [
 				{"name": "Главная", "link": "/"},
 				{"name": "Job Guide", "link": "../JobGuide"},
-				{"name": "Crafting & Gathering Guide", "link": "../CraftingGatheringGuide"},
-				{"name": "Gold Saucer Guide", "link": "../GoldSaucer", "hidden": true}
+				{"name": "Crafting & Gathering", "link": "../CraftingGatheringGuide"},
+				{"name": "Gold Saucer", "link": "../GoldSaucer"}
 			]
 		}
 	]
