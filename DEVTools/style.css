@@ -301,7 +301,6 @@ body.editor {
 
 /* Toolbar */
 .floating-toolbar {
-	width: max-content;
 	position: absolute;
 	top: -50px;
 	left: 50%;

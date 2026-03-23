@@ -50,7 +50,14 @@ $(document).ready(function () {
 					.replace(/## Обновление сайта \d+\.\d+\r?\n?\s?/g, "");
 
 				$("#newsTitle").text(title);
-				$("#newsContent").text(content);
+				$("#newsContent")
+					.text(content)
+					.append(
+						`\n\n<a href="${url}" target="_blank" class="btnNewsGitHub">
+                     <img src="/Assets/images/svg/github.svg"/>
+                     <span>Открыть новость на GitHub</span>
+                  </a>`
+					);
 
 				$("#newsPopup, #overlay").fadeIn();
 			});
