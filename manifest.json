@@ -2,11 +2,26 @@
 	"name": "FFXIV Job Guide RU",
 	"short_name": "FFXIV Job Guide RU",
 	"start_url": "/",
+	"id": "/",
 	"display": "standalone",
 	"form_factor": "windowed",
 	"background_color": "#732828",
 	"theme_color": "#732828",
 	"description": "Описание классовых умений Final Fantasy XIV на русском языке",
+	"screenshots": [
+		{
+			"src": "/Assets/images/git-preview.png",
+			"sizes": "1280x640",
+			"type": "image/png",
+			"form_factor": "narrow"
+		},
+		{
+			"src": "/Assets/images/git-preview.png",
+			"sizes": "1280x640",
+			"type": "image/png",
+			"form_factor": "wide"
+		}
+	],
 	"icons": [
 		{
 			"src": "/Assets/images/icon/icon-32x32.png",
