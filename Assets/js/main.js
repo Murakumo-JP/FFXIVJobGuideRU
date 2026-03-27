@@ -143,16 +143,10 @@ $(function () {
 	const year = new Date().getFullYear();
 	$(".footer_info").html(`
 			<span>FINAL FANTASY XIV © 2010–${year} SQUARE ENIX CO., LTD. All Rights Reserved.</span>
-			<span>FFXIV JobGuide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE">MIT License</a></span>
+			<span>FFXIV JobGuide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE">MIT License and CC-BY-NC-SA-4.0</a></span>
 			<span>
 				All images on the site are the property of SQUARE ENIX© and are used under the
 				<a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License.</a>
-			</span>
-			<span>
-				<a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-					<img src="/Assets/images/svg/github.svg" />
-					Source Code
-				</a>
 			</span>
     `);
 
