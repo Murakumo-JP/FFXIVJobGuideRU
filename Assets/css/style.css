@@ -198,19 +198,13 @@
   --block-width: 472px;
 }
 
-.app_index {
-  background-color: var(--color-set-1) !important;
-}
-
 .main_content {
   width: auto;
   padding: 0 0 16px;
   margin: 0 auto;
-  background: var(--color-set-3);
 }
 
 .main_app {
-  background: var(--color-set-3);
   font-family: "Noto Sans", sans-serif;
   font-size: 12px;
 }
@@ -1394,9 +1388,17 @@
 body {
   overflow-y: hidden;
   overflow-x: hidden;
-}
-body.light-theme {
-  background-color: var(--color-set-3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 body.no-scroll {
   overflow: hidden !important;
@@ -1512,17 +1514,28 @@ input::placeholder {
   border-radius: 15px;
 }
 
-.footer_inner {
-  background-color: var(--color-set-1);
-  width: 100%;
-  margin: 0 auto;
-  padding: 16px 0 16px 0;
-  color: #cccccc;
-}
-
 .footer_info {
-  margin-bottom: 10px;
-  text-align: center;
+  background-color: var(--color-set-1);
+  color: var(--color-set-3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Noto Sans";
+  font-size: 13px;
+  padding: 10px;
+}
+.footer_info span {
+  padding-bottom: 5px;
+}
+.footer_info span a {
+  color: var(--link);
 }
 
 .footer_git {
@@ -1544,23 +1557,6 @@ input::placeholder {
   height: 30px;
   border: 0;
   vertical-align: bottom;
-}
-
-.SE {
-  font-family: "Noto Sans";
-}
-.SE p {
-  font-size: 13px;
-  color: #fff;
-  padding-left: 16px;
-  line-height: 1.6;
-  text-align: center;
-}
-.SE a {
-  color: var(--link);
-}
-.SE a:hover {
-  color: var(--text-color);
 }
 
 .jobguide {
