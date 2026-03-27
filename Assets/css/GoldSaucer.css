@@ -381,13 +381,11 @@ body.gs_page {
 
 /* Page Content Wrapper */
 .gs_content_wrapper {
-  top: 80px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   width: 960px;
   margin: 0 auto;
-  padding-bottom: 120px;
-  height: 1%;
   font-size: 14px;
-  position: relative;
 }
 
 .gs_title_box {

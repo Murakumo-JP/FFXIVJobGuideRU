@@ -19,10 +19,10 @@
 body {
 	overflow-y: hidden;
 	overflow-x: hidden;
-
-	&.light-theme {
-		background-color: var(--color-set-3);
-	}
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between;
 	&.no-scroll {
 		overflow: hidden !important;
 	}
@@ -143,17 +143,21 @@ input {
 }
 
 // Footer
-.footer_inner {
-	background-color: var(--color-set-1);
-	width: 100%;
-	margin: 0 auto;
-	padding: 16px 0 16px 0;
-	color: #cccccc;
-}
-
 .footer_info {
-	margin-bottom: 10px;
-	text-align: center;
+	background-color: var(--color-set-1);
+	color: var(--color-set-3);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Noto Sans";
+	font-size: 13px;
+	padding: 10px;
+	span {
+		padding-bottom: 5px;
+		a {
+			color: var(--link);
+		}
+	}
 }
 
 .footer_git {
@@ -175,27 +179,6 @@ input {
 		height: 30px;
 		border: 0;
 		vertical-align: bottom;
-	}
-}
-
-// SE Section
-.SE {
-	font-family: "Noto Sans";
-
-	p {
-		font-size: 13px;
-		color: #fff;
-		padding-left: 16px;
-		line-height: 1.6;
-		text-align: center;
-	}
-
-	a {
-		color: var(--link);
-
-		&:hover {
-			color: var(--text-color);
-		}
 	}
 }
 
