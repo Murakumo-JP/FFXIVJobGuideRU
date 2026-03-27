@@ -1,29 +1,70 @@
-# FFXIV Job Guide RU — Project Licensing
+FFXIV JOB GUIDE RU - PROJECT LICENSE
+Copyright (c) 2024 Murakumo-JP, Morriganna Latrial
 
-This project, **FFXIV Job Guide RU**, created by **Murakumo-JP**, uses a dual-licensing model to protect both the software code and the translation content.
+This project is distributed under a multi-part licensing agreement. By using, 
+copying, or distributing any part of this project, you agree to the terms 
+stipulated below.
 
-## 1. Software Code (MIT License)
-The source code of this website (including HTML, CSS, and JavaScript) is licensed under the **MIT License**.
+-------------------------------------------------------------------------------
+PART 1: SOFTWARE SOURCE CODE (MIT LICENSE)
+-------------------------------------------------------------------------------
+The software source code (including but not limited to the website structure, 
+logic, CSS, and JavaScript frameworks) is licensed under the MIT License:
 
-Copyright (c) 2024 Murakumo-JP
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-## 2. Translation & Content (CC BY-NC-SA 4.0)
-The fan-made translation data, localizations (JSON/text files), and original documentation are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+-------------------------------------------------------------------------------
+PART 2: TRANSLATIONS AND CONTENT (CC BY-NC-SA 4.0)
+-------------------------------------------------------------------------------
+All fan-made translations, localized text, and original documentation contained 
+within this project—regardless of their storage format (including but not 
+limited to JSON, XML, or text embedded directly within HTML and JavaScript 
+files)—are licensed under the Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
-To view a copy of this license, visit: http://creativecommons.org/licenses/by-nc-sa/4.0/
+Full License Text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-**Under this license, you are free to:**
-- Share and Adapt the material.
-**Under the following terms:**
-- **Attribution (BY):** You must give appropriate credit to Murakumo-JP.
-- **Non-Commercial (NC):** You may not use the material for commercial purposes.
-- **ShareAlike (SA):** If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+TERMS SUMMARY:
+- Attribution: You must give appropriate credit to Murakumo-JP, Morriganna Latrial.
+- Non-Commercial: You may not use this material for commercial purposes.
+- ShareAlike: You must distribute your contributions under the same license.
 
-## 3. Legal Disclaimer (Square Enix)
-**FINAL FANTASY XIV © 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.**
+-------------------------------------------------------------------------------
+PART 3: THIRD-PARTY INTELLECTUAL PROPERTY (SQUARE ENIX)
+-------------------------------------------------------------------------------
+FINAL FANTASY XIV © 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.
 
-This is an unofficial fan-made project. FFXIV Job Guide RU is not affiliated with, endorsed by, or sponsored by Square Enix. All game-related assets, including but not limited to icons, names, descriptions, and lore, are the intellectual property of Square Enix. All such materials are used here under fair use or fan-content guidelines.
+This project is an unofficial fan-made initiative. All game-related assets, 
+including titles, logos, icons, descriptions, and lore, are the sole 
+intellectual property of SQUARE ENIX CO., LTD. 
+
+All images and game materials are used strictly under the "Materials Usage 
+License" provided by Square Enix. This project is not affiliated with, 
+endorsed by, or sponsored by Square Enix.
+
+Reference: https://support.na.square-enix.com/rule.php?id=5382&tag=authc
+
+-------------------------------------------------------------------------------
+PART 4: NON-COMMERCIAL STATUS AND VOLUNTARY SUPPORT
+-------------------------------------------------------------------------------
+This project is strictly non-commercial. All content is provided free of charge. 
+Any "Support" or "Donation" links associated with this project represent 
+entirely voluntary contributions intended solely to offset hosting and 
+maintenance costs. These contributions do not constitute a sale of any goods, 
+services, or third-party intellectual property.
