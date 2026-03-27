@@ -1,18 +1,29 @@
-# Project Licensing
+# FFXIV Job Guide RU — Project Licensing
 
-This project is a fan-made translation for Final Fantasy XIV. 
+This project, **FFXIV Job Guide RU**, created by **Murakumo-JP**, uses a dual-licensing model to protect both the software code and the translation content.
 
-## 1. Translation & Content
-The translation data (JSON files, text content, and localizations) is licensed under the 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+## 1. Software Code (MIT License)
+The source code of this website (including HTML, CSS, and JavaScript) is licensed under the **MIT License**.
 
-## 2. Software Code
-All original source code of the website (HTML, CSS, JavaScript) is licensed under the 
-MIT License.
 Copyright (c) 2024 Murakumo-JP
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+## 2. Translation & Content (CC BY-NC-SA 4.0)
+The fan-made translation data, localizations (JSON/text files), and original documentation are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+
+To view a copy of this license, visit: http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+**Under this license, you are free to:**
+- Share and Adapt the material.
+**Under the following terms:**
+- **Attribution (BY):** You must give appropriate credit to Murakumo-JP.
+- **Non-Commercial (NC):** You may not use the material for commercial purposes.
+- **ShareAlike (SA):** If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
 ## 3. Legal Disclaimer (Square Enix)
-FINAL FANTASY XIV © 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.
-This is an unofficial fan project. All game assets, titles, and lore are the 
-intellectual property of Square Enix. We do not claim ownership of any game-related content.
+**FINAL FANTASY XIV © 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.**
+
+This is an unofficial fan-made project. FFXIV Job Guide RU is not affiliated with, endorsed by, or sponsored by Square Enix. All game-related assets, including but not limited to icons, names, descriptions, and lore, are the intellectual property of Square Enix. All such materials are used here under fair use or fan-content guidelines.
