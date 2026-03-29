@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap&subset=japanese);
+
+$tank-color: #2d3a80;
+$healer-color: #346624;
+$dps-color: #732828;
+$craft-color: #4e328f;
+$gathering-color: #8f7832;
+
+$tank-AltColor: #545e99;
+$healer-AltColor: #548046;
+$dps-AltColor: #8c4d4d;
+$craft-AltColor: #695499;
+$gathering-AltColor: #998854;
+
+$font: sans-serif;
+$color-set-1: #191919;
+$color-set-2: #000;
+$color-set-3: #ecede7;
+$color-error: #a62137;
+$link: #fffed1;
+$text-color: white;
+$block-width: 472px;
+
+$accent: #fffae6;
+$bg: #1b1b1b;
+
+:root {
+	--tank-color: #{$tank-color};
+	--healer-color: #{$healer-color};
+	--dps-color: #{$dps-color};
+	--craft-color: #{$craft-color};
+	--gathering-color: #{$gathering-color};
+	--tank-AltColor: #{$tank-AltColor};
+	--healer-AltColor: #{$healer-AltColor};
+	--dps-AltColor: #{$dps-AltColor};
+	--craft-AltColor: #{$craft-AltColor};
+	--gathering-AltColor: #{$gathering-AltColor};
+	--font: #{$font};
+	--color-set-1: #{$color-set-1};
+	--color-set-2: #{$color-set-2};
+	--color-set-3: #{$color-set-3};
+	--color-error: #{$color-error};
+	--link: #{$link};
+	--text-color: #{$text-color};
+	--block-width: #{$block-width};
+}

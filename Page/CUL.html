@@ -1,458 +1,547 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Crafting: Culinarian | FFXIV RU</title>
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/images/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/images/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/images/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/images/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/images/icon/icon-128x128.png" />
+		<link rel="manifest" href="/manifest.json" />
+		<meta property="og:title" content="Job Guide: Culinarian" />
+		<meta property="og:site_name" content="FFXIV Job Guide RU" />
+		<meta property="og:description" content="Описание умений Culinarian на русском" />
+		<meta property="og:url" content="https://ff14jobguide.ru/Page/CUL" />
+		<meta property="og:image" content="https://ff14jobguide.ru/Assets/images/DoWDoM/Job/CUL.png" />
+		<meta name="theme-color" content="#4e328f" />
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-Y6M41KEYQX");
+		</script>
+	</head>
+	<body job-name="CUL">
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/images/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<div class="jobguide job_craft">
+			<!-- Top Menu -->
+			<div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
+			<!-- Header -->
+			<header class="job_header job_cul">
+				<div class="job_header_inner">
+					<a href="../CraftingGatheringGuide" class="job_header_guide_top"><span>На главную</span></a>
+					<h1 class="job_header_nome">
+						<img src="/Assets/images/JobHaider/JobCUL.png" />
+						<span class="job_header_role">
+							<img src="/Assets/images/main/Craft.png" />
+							Disciplines of the Hand
+						</span>
+					</h1>
+					<div class="job_header_text">
+						<p>
+							Кулинары возглавляют мир кухни, готовя все известные в Эорзее съестные припасы. Вооруженные всевозможными ингредиентами со всех государств и владеющие техниками из дальних уголков мира, эти мастера кулинарии помогают искателям
+							приключений сохранять силы на поле боя.
+							<br />
+							<br />
+							Из всех городов-государств Эорзеи Лимса Ломинса (Limsa Lominsa) может похвастаться самыми богатыми кулинарными традициями, что объясняется близостью к плодородным землям и изобильными морям, а также тем, что является главным торговым
+							портом.
+						</p>
+					</div>
+					<div class="job_header_quest">
+						<a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/eb8fa0bd9c6/">
+							<span>
+								<img src="/Assets/images/main/quest.png" />
+								Стартовое задание профессии
+							</span>
+						</a>
+					</div>
+				</div>
+			</header>
+			<!-- DB Skill List -->
+			<div class="job_skill_list">
+				<div class="job_skill_db-pve">
+					<p class="job_update" db-value="Craft Update"></p>
+					<ul class="job_tab tab_craft clearfix">
+						<li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
+						<li class="js-tab-trigger" data-tab="guide">Общая информация</li>
+					</ul>
+					<!-- Skil -->
+					<div class="guide-inner js-tab-content active" data-tab="skill">
+						<p class="job_notes_lvl" id="patch_info"></p>
+						<h2 class="guide-title">Активные и пассивные умения</h2>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="190" />
+									<col width="90" />
+									<col width="72" />
+									<col width="580" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Стоимость CP</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="action_01" db-skill-craft="Action 01"></tr>
+									<tr id="action_02" db-skill-craft="Action 02"></tr>
+									<tr id="action_03" db-skill-craft="Action 03"></tr>
+									<tr id="action_04" db-skill-craft="Action 04"></tr>
+									<tr id="action_05" db-skill-craft="Action 05"></tr>
+									<tr id="action_06" db-skill-craft="Action 06"></tr>
+									<tr id="action_07" db-skill-craft="Action 07"></tr>
+									<tr id="action_08" db-skill-craft="Action 08"></tr>
+									<tr id="action_09" db-skill-craft="Action 09"></tr>
+									<tr id="action_10" db-skill-craft="Action 10"></tr>
+									<tr id="action_11" db-skill-craft="Action 11"></tr>
+									<tr id="action_12" db-skill-craft="Action 12"></tr>
+									<tr id="action_13" db-skill-craft="Action 13"></tr>
+									<tr id="action_14" db-skill-craft="Action 14"></tr>
+									<tr id="action_15" db-skill-craft="Action 15"></tr>
+									<tr id="action_16" db-skill-craft="Action 16"></tr>
+									<tr id="action_17" db-skill-craft="Action 17"></tr>
+									<tr id="action_18" db-skill-craft="Action 18"></tr>
+									<tr id="action_19" db-skill-craft="Action 19"></tr>
+									<tr id="action_20" db-skill-craft="Action 20"></tr>
+									<tr id="action_21" db-skill-craft="Action 21"></tr>
+									<tr id="action_22" db-skill-craft="Action 22"></tr>
+									<tr id="action_23" db-skill-craft="Action 23"></tr>
+									<tr id="action_24" db-skill-craft="Action 24"></tr>
+									<tr id="action_25" db-skill-craft="Action 25"></tr>
+									<tr id="action_26" db-skill-craft="Action 26"></tr>
+									<tr id="action_27" db-skill-craft="Action 27"></tr>
+									<tr id="action_28" db-skill-craft="Action 28"></tr>
+									<tr id="action_29" db-skill-craft="Action 29"></tr>
+									<tr id="action_30" db-skill-craft="Action 30"></tr>
+									<tr id="action_31" db-skill-craft="Action 31"></tr>
+									<tr id="action_32" db-skill-craft="Action 32"></tr>
+									<tr id="action_33" db-skill-craft="Action 33"></tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title crafter" id="anchor_meisteraction">Умения специалиста</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="190" />
+									<col width="90" />
+									<col width="72" />
+									<col width="580" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Стоимость CP</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="meisteraction_01" db-craft-passive="Specialist Actions 01"></tr>
+									<tr id="meisteraction_02" db-craft-passive="Specialist Actions 02"></tr>
+									<tr id="meisteraction_02" db-craft-passive="Specialist Actions 03"></tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- Content Wrapper -->
+						<div class="guide-table_wrapper">
+							<h3 class="guide-sub_title crafter" id="anchor_trait">Пассивные умения</h3>
+							<table class="guide-table">
+								<colgroup>
+									<col width="190" />
+									<col width="90" />
+									<col width="654" />
+								</colgroup>
+								<thead>
+									<tr class="guide-thead">
+										<th><p>Название умения</p></th>
+										<th><p>Уровень получения</p></th>
+										<th><p>Эффект</p></th>
+									</tr>
+								</thead>
+								<tbody class="guide-tbody">
+									<tr id="traitaction_01" db-craft-passive="Traits 01"></tr>
+									<tr id="traitaction_02" db-craft-passive="Traits 02"></tr>
+									<tr id="traitaction_03" db-craft-passive="Traits 03"></tr>
+									<tr id="traitaction_04" db-craft-passive="Traits 04"></tr>
+									<tr id="traitaction_05" db-craft-passive="Traits 05"></tr>
+									<tr id="traitaction_06" db-craft-passive="Traits 06"></tr>
+									<tr id="traitaction_07" db-craft-passive="Traits 07"></tr>
+									<tr id="traitaction_08" db-craft-passive="Traits 08"></tr>
+									<tr id="traitaction_09" db-craft-passive="Traits 09"></tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- END -->
+					</div>
+					<!-- Guide -->
+					<div class="guide-inner js-tab-content" data-tab="guide">
+						<div class="guide-about" id="anchor_start">
+							<h2 class="guide-about_title crafter">Присоединиться к Discipline of the Hand</h2>
+							<div class="guide-about_map">
+								<img src="https://lds-img.finalfantasyxiv.com/promo/h/T/NKXN3kYCRdxbHVR-eF0DFOEuHs.jpg" width="400" height="400" />
+								<div class="guide-about_map_text">
+									<p>
+										<br />
+										<br />
+										Как только персонаж достигнет 10 уровня класса, который был выбран в начале игры, можно взять новое задание. Выполнив его, персонаж сможет вступить в гильдии других классов.
+										<br />
+										<br />
+										Чтобы стать кулинаром, требуется найти и вступить в Culinarians' Guild, расположенную в upper decks в Limsa Lominsa (X:10.0 Y:7.9).
+									</p>
+									<p class="notes">Для смены класса, после вступления в гильдию, необходимо экипировать инструмент нужного класса.</p>
+								</div>
+							</div>
 
-   <head>
-      <meta charset="UTF-8">
-      <title>Crafting: Culinarian | FFXIV RU</title>
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="../Assets/img/icon/icon-16x16.png" />
-		<link rel="shortcut icon" type="image/png" sizes="32x32" href="../Assets/img/icon/icon-32x32.png" />
-		<link rel="shortcut icon" type="image/png" sizes="48x48" href="../Assets/img/icon/icon-48x48.png" />
-		<link rel="shortcut icon" type="image/png" sizes="64x64" href="../Assets/img/icon/icon-64x64.png" />
-		<link rel="shortcut icon" type="image/png" sizes="128x128" href="../Assets/img/icon/icon-128x128.png" />
-      <link rel="manifest" href="../manifest.json">
-      <meta property="og:title" content="Job Guide: Culinarian">
-      <meta property="og:site_name" content="FFXIV Job Guide RU">
-      <meta property="og:description" content="Описание умений Culinarian на русском">
-      <meta property="og:url" content="https://ff14jobguide.ru/Page/CUL">
-      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/DoWDoM/Job/CUL.png">
-      <meta name="theme-color" content="#4e328f">
-      <link rel="stylesheet" href="../Assets/css/style.min.css"/>
-      <script type="text/javascript" src="../Assets/js/jquery.min.js"></script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-Y6M41KEYQX');
-      </script>
-   </head>
-   <body job-name="CUL">
-      <!--Preloader-->
-      <div id="page-preloader" class="preloader">
-         <div id="page-loader" class="loader"></div>
-      </div>
-      <div class="jobguide job_craft">
-         <!-- Top Menu -->
-         <div class="jobguide_menu_wrapper" data-menu-type="MenuDoHDoL"></div>
-         <!-- Header -->
-         <header class="job_header job_cul">
-            <div class="job_header_inner">
-               <a href="../CraftingGatheringGuide" class="job_header_guide_top"><span>На главную</span></a>
-               <h1 class="job_header_nome">
-                  <img src="../Assets/img/JobHaider/JobCUL.png">
-                  <span class="job_header_role">
-                     <img src="../Assets/img/main/Craft.png"> Disciplines of the Hand
-                  </span>
-               </h1>
-               <div class="job_header_text">
-                  <p>
-                     Кулинары возглавляют мир кухни, готовя все известные в Эорзее съестные припасы. Вооруженные всевозможными ингредиентами со всех государств и владеющие техниками из дальних уголков мира, эти мастера кулинарии помогают искателям приключений сохранять силы на поле боя.
-                     <br><br>Из всех городов-государств Эорзеи Лимса Ломинса (Limsa Lominsa) может похвастаться самыми богатыми кулинарными традициями, что объясняется близостью к плодородным землям и изобильными морям, а также тем, что является главным торговым портом.
-                  </p>
-               </div>
-               <div class="job_header_quest">
-                  <a class="job_db eorzeadb_link" href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/eb8fa0bd9c6/">
-                     <span>
-                        <img src="../Assets/img/main/quest.png"> Стартовое задание профессии
-                     </span>
-                  </a>
-               </div>
-            </div>
-         </header>
-         <!-- DB Skill List -->
-         <div class="job_skill_list">
-            <div class="job_skill_db-pve">
-               <p class="job_update" db-value="Craft Update"></p>
-               <ul class="job_tab tab_craft clearfix">
-                  <li class="js-tab-trigger active" data-tab="skill">Активные и пассивные умения</li>
-                  <li class="js-tab-trigger" data-tab="guide">Общая информация</li>
-               </ul>
-               <!-- Skil -->
-               <div class="guide-inner js-tab-content active" data-tab="skill">
-                  <p class="job_notes_lvl" id="patch_info"></p>
-                  <h2 class="guide-title">Активные и пассивные умения</h2>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title" id="anchor_onlyaction">Классовые умения</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="190">
-                           <col width="90">
-                           <col width="72">
-                           <col width="580">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Стоимость CP</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="action_01" db-skill-craft="Action 01"></tr>
-                           <tr id="action_02" db-skill-craft="Action 02"></tr>
-                           <tr id="action_03" db-skill-craft="Action 03"></tr>
-                           <tr id="action_04" db-skill-craft="Action 04"></tr>
-                           <tr id="action_05" db-skill-craft="Action 05"></tr>
-                           <tr id="action_06" db-skill-craft="Action 06"></tr>
-                           <tr id="action_07" db-skill-craft="Action 07"></tr>
-                           <tr id="action_08" db-skill-craft="Action 08"></tr>
-                           <tr id="action_09" db-skill-craft="Action 09"></tr>
-                           <tr id="action_10" db-skill-craft="Action 10"></tr>
-                           <tr id="action_11" db-skill-craft="Action 11"></tr>
-                           <tr id="action_12" db-skill-craft="Action 12"></tr>
-                           <tr id="action_13" db-skill-craft="Action 13"></tr>
-                           <tr id="action_14" db-skill-craft="Action 14"></tr>
-                           <tr id="action_15" db-skill-craft="Action 15"></tr>
-                           <tr id="action_16" db-skill-craft="Action 16"></tr>
-                           <tr id="action_17" db-skill-craft="Action 17"></tr>
-                           <tr id="action_18" db-skill-craft="Action 18"></tr>
-                           <tr id="action_19" db-skill-craft="Action 19"></tr>
-                           <tr id="action_20" db-skill-craft="Action 20"></tr>
-                           <tr id="action_21" db-skill-craft="Action 21"></tr>
-                           <tr id="action_22" db-skill-craft="Action 22"></tr>
-                           <tr id="action_23" db-skill-craft="Action 23"></tr>
-                           <tr id="action_24" db-skill-craft="Action 24"></tr>
-                           <tr id="action_25" db-skill-craft="Action 25"></tr>
-                           <tr id="action_26" db-skill-craft="Action 26"></tr>
-                           <tr id="action_27" db-skill-craft="Action 27"></tr>
-                           <tr id="action_28" db-skill-craft="Action 28"></tr>
-                           <tr id="action_29" db-skill-craft="Action 29"></tr>
-                           <tr id="action_30" db-skill-craft="Action 30"></tr>
-                           <tr id="action_31" db-skill-craft="Action 31"></tr>
-                           <tr id="action_32" db-skill-craft="Action 32"></tr>
-                           <tr id="action_33" db-skill-craft="Action 33"></tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title crafter" id="anchor_meisteraction">Умения специалиста</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="190">
-                           <col width="90">
-                           <col width="72">
-                           <col width="580">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Стоимость CP</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="meisteraction_01" db-craft-passive="Specialist Actions 01"></tr>
-                           <tr id="meisteraction_02" db-craft-passive="Specialist Actions 02"></tr>
-                           <tr id="meisteraction_02" db-craft-passive="Specialist Actions 03"></tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <!-- Content Wrapper -->
-                  <div class="guide-table_wrapper">
-                     <h3 class="guide-sub_title crafter" id="anchor_trait">Пассивные умения</h3>
-                     <table class="guide-table">
-                        <colgroup>
-                           <col width="190">
-                           <col width="90">
-                           <col width="654">
-                        </colgroup>
-                        <thead>
-                           <tr class="guide-thead">
-                              <th><p>Название умения</p></th>
-                              <th><p>Уровень получения</p></th>
-                              <th><p>Эффект</p></th>
-                           </tr>
-                        </thead>
-                        <tbody class="guide-tbody">
-                           <tr id="traitaction_01" db-craft-passive="Traits 01"></tr>
-                           <tr id="traitaction_02" db-craft-passive="Traits 02"></tr>
-                           <tr id="traitaction_03" db-craft-passive="Traits 03"></tr>
-                           <tr id="traitaction_04" db-craft-passive="Traits 04"></tr>
-                           <tr id="traitaction_05" db-craft-passive="Traits 05"></tr>
-                           <tr id="traitaction_06" db-craft-passive="Traits 06"></tr>
-                           <tr id="traitaction_07" db-craft-passive="Traits 07"></tr>
-                           <tr id="traitaction_08" db-craft-passive="Traits 08"></tr>
-                           <tr id="traitaction_09" db-craft-passive="Traits 09"></tr>
-                        </tbody>
-                     </table>
-                  </div>
-                  <!-- END -->
-               </div>
-               <!-- Guide -->
-               <div class="guide-inner js-tab-content" data-tab="guide">
-                  <div class="guide-about" id="anchor_start">
-                     <h2 class="guide-about_title crafter">Присоединиться к Discipline of the Hand</h2>
-                     <div class="guide-about_map">
-                        <img src="https://lds-img.finalfantasyxiv.com/promo/h/T/NKXN3kYCRdxbHVR-eF0DFOEuHs.jpg" width="400" height="400" />
-                        <div class="guide-about_map_text">
-                           <p><br><br>
-                              Как только персонаж достигнет 10 уровня класса, который был выбран в начале игры, можно взять новое задание. Выполнив его, персонаж сможет вступить в гильдии других классов.<br />
-                              <br />Чтобы стать кулинаром, требуется найти и вступить в Culinarians' Guild, расположенную в upper decks в Limsa Lominsa (X:10.0 Y:7.9).
-                           </p>
-                           <p class="notes">Для смены класса, после вступления в гильдию, необходимо экипировать инструмент нужного класса.</p>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_can">
-                        <h2 class="guide-about_title crafter">Discipline of the Hand: ключевые особенности</h2>
-                        <p class="guide-about_text">Овладев умениями Disciple of the Hand, вы получите возможность синтезировать предметы, ремонтировать оружие и броню и многое другое.</p>
-                        <h4 class="guide-about_lead crafter">1. Synthesis</h4>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/b/8qobnWOhVB6w6DAAOjBP7DZWlg.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Synthesis позволяет создавать новые предметы из имеющихся материалов.<br />
-                                 <br />Эти предметы варьируются в зависимости от класса, а более высокие уровни открывают доступ к еще более мощным предметам.</p>
-                           </div>
-                        </div>
-                        <h4 class="guide-about_lead crafter">2. Repair</h4>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/h/ATBZDIOPIeV0RDzKHwuhZq7UNE.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p><br><br>
-                                 Вы можете ремонтировать снаряжение в любом месте с помощью предмета, называемого <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/item/?q=dark+matter">dark matter</a>.<br /><br />Ремонт каждого предмета экипировки ограничен определенным классом и уровнем данного класса. Подробную информацию об этих ограничениях можно найти в описании предмета.
-                              </p>
-                           </div>
-                        </div>
-                        <h4 class="guide-about_lead crafter">3. Materia Melding</h4>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/y/KmQYkEPxuZi5r98Enzi5CiXrgE.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p><br><br>
-                                 Вы можете усилить снаряжение, вставив в него материю (affixing materia).<br />
-                                 <br />С помощью общего действия Advanced Materia Melding вы можете прикрепить материю даже к тому снаряжению, у которого уже заполнены все доступные слоты для материи.<br />
-                                 <br />Умение Materia melding становится доступным после достижения 19 уровня Disciple of the Hand и выполнения задания <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/494c4ff8e5a/" class="eorzeadb_link">"Waking the Spirit"</a>. Advanced Materia Melding становится доступным после достижения 25 уровня Disciple of the Hand и выполнения задания <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b75b2f62483/" class="eorzeadb_link">"Melding Materia Muchly"</a>.
-                              </p>
-                           </div>
-                        </div>
-                        <h4 class="guide-about_lead crafter">4. Desynthesis</h4>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/b/bCauaZlCiYF8xSMSz1lcQ1GKMQ.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p><br><br>
-                                 Вы также можете распылить предметы на материалы, применив на них умение Desynthesis.<br />
-                                 <br />Чтобы разблокировать Desynthesis, достигните 30 уровня в качестве Disciple of the Hand и выполните задание <a
-                                    href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b507ad2d3bb/"
-                                    class="eorzeadb_link"
-                                    >"Gone to Pieces"</a
-                                 >.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_play">
-                        <h2 class="guide-about_title crafter">Synthesis</h2>
-                        <h3 class="guide-about_subtitle crafter">Как начать?</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/M/RfE-I-nZNHIjF_YjFfkXaOmT2Y.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Все доступные рецепты можно просмотреть в crafting log. Чтобы попасть туда, выберите пункт Logs в main menu.<br />
-                                 <br />Новые рецепты становятся доступны при повышении уровня, а также при помощи специальных предметов.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/6/nHeCHw--63r9o2JWmTZnjrpZHI.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Чтобы начать процесс синтеза, выберите рецепт предмета, который вы хотите создать, и убедитесь, что у вас есть требуемые предметы.</p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle crafter">Synthesis Tips</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/f/xxuj6ykrWZD-MLObkJORi-kwJY.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Чтобы изготовить предмет, необходимо использовать умения.<br />
-                                 <br />Использование умений категории Synthesis заполняет шкалу progress.<br />Как только progress достигнет 100%, вы получите предмет. Требования к progress для разных рецептов различны.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/I/Jjai1jtJt7fttZEP7_1HYFZzFo.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Умения, связанные с созданием предмета, уменьшают шкалу durability.
-                                 <br />Если durability достигнет 0 до того, как progress достигнет 100%, создание предмета завершится неудачей.</p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_hq">
-                        <h2 class="guide-about_title crafter">High-quality предметы</h2>
-                        <h3 class="guide-about_subtitle crafter">High-quality предмет</h3>
-                        <div class="guide-about_image">
-                           <img src="https://lds-img.finalfantasyxiv.com/promo/h/H/TL9IyYaWspvgeW1L_z3Mt8I2BI.jpg" width="900" />
-                           <p class="guide-about_text">
-                              Когда вы синтезируете предмет, есть шанс, что в результате получится предмет более высокого качества (HQ).<br />
-                              <br />High-quality предметы имеют лучшие характеристики и ценность, чем обычные. Попробуйте увеличить шанс получения high-quality предмета, чтобы получить более качественные предметы.
-                           </p>
-                        </div>
-                        <h3 class="guide-about_subtitle crafter">Шанс high-quality предмета</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/q/i9ky0oOmBmxZqdPu8Uf2w6OYJE.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Значение шанса HQ при синтезе предмета показывает ваш шанс получить high-quality предмет по завершению синтеза.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_image">
-                           <img src="https://lds-img.finalfantasyxiv.com/promo/h/T/HHePfhgHXI9mh4xaWh6EMJC7C8.jpg" width="900" />
-                           <p class="guide-about_text">Вы можете увеличить свои шансы на получение предмета HQ, вручную повышая quality предмета, например, используя умения Touch (изучается на 5 уровне).</p>
-                        </div>
-                        <h3 class="guide-about_subtitle crafter">Повышение качества предмета</h3>
-                        <h4 class="guide-about_lead crafter">1. Material Condition (Состояние материалов)</h4>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/m/w8CNkSHVVTgURsW6ZOvA-hxR9E.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p>
-                                 Состояние материалов, используемых в синтезе, сильно влияет на то, насколько эффективно ваши умения повышают quality предмета.<br />
-                                 <br />Например, если ваши материалы находятся в состоянии "good" , любые умения повысят quality предмета в 1,5 раза от базового значения. Это даст значительный прирост quality, если вы используете мощное умение.<br />
-                                 <br />Состояние материала меняется случайным образом в процессе синтеза.
-                              </p>
-                           </div>
-                        </div>
-                        <h4 class="guide-about_lead crafter">2. Inner Quiet и Byregot's Blessing</h4>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/J/8kjj4Jv2I62LDgf36OFkG47jQ8.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Достигнув 11 уровня в качестве Disciple of the Hand, вы откроете пассивное умение Inner Quiet, которое дает стак Inner Quiet каждый раз, когда вы успешно используете умение умение категории Touch.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/r/wx6-Yv4T0ZyXwSjztI_1j2VAb4.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Одновременно вы можете иметь до 10 стаков Inner Quiet, и каждый стак дает бонус к эффективности умений, повышающих quality.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/w/oqenUcuTRb_5wiD2HUU1BOEKXM.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>На 50 уровне вы изучите умение Byregot's Blessing, которое расходует все стаки Inner Quiet, значительно повышая quality.</p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_collect">
-                        <h2 class="guide-about_title crafter">Collectables</h2>
-                        <h3 class="guide-about_subtitle crafter">Disciple of the Hand Collectable предметы</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/K/AoZH1qJOXMHge1c7rbNt1xqt6o.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Как Disciple of the Hand, вам может потребоваться обменивать предметы, называемые collectables.<br />
-                                 <br />Ценность данных предметов определяется с помощью collectability rating, чем он выше, тем более высокую награду вы получите при обмене.</p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle crafter">Создание Collectables</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/L/ICUkM9whIQgUnUD5Bo2xumxN1E.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>В crafting log можно найти рецепты, при создании которых всегда создают collectables предметы. Эти рецепты отмечены специальной меткой.</p>
-                              <p class="notes">(Эти рецепты не дают обычных или high-quality предметов).</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/h/pQdUIYqG1dDyAd_dGVdD88Obac.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>При синтезировании collectables предметов использование умений Touch, для повышения quality, увеличит ценность collectability предмета вместо ценности предмета HQ.</p>
-                           </div>
-                        </div>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/T/TXPavivqfPjhAvjpHL-ZIi4qIg.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text"><br><br>
-                              <p>Чтобы завершить процесс, продвигайте пополнение шкалы progress с помощью умений Synthesis.</p>
-                           </div>
-                        </div>
-                     </div>
-                  
-                     <div class="guide-about_inner" id="anchor_specialistaction">
-                        <h2 class="guide-about_title crafter">Специализация</h2>
-                        <h3 class="guide-about_subtitle crafter">Специалист</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/b/6FXRtrYgH7lW6_avWw0-BRjoCw.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p><br><br>
-                                 Достигнув 55 уровня в качестве Disciple of the Hand и выполнив задание <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dc1b5d359e7/" class="eorzeadb_link">"Beloved of the Builder"</a>, вы сможете приобрести специализированные кристаллы души ремесленника (specialized crafter soul crystals).<br />
-                                 <br />Обладателей этих кристаллов называют специалистами (specialists) и они получают различные бонусы за свое ремесло.
-                              </p>
-                           </div>
-                        </div>
-                        <h3 class="guide-about_subtitle crafter">Умения специалиста</h3>
-                        <div class="guide-about_box">
-                           <div class="guide-about_box_image">
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/Y/x2kqLqXFW9LWEC5yrKJIFQIoJ4.jpg" width="400" />
-                              <img src="https://lds-img.finalfantasyxiv.com/promo/h/2/WfsL2D7sEz1k4iCTnBIhrPu44E.jpg" width="400" />
-                           </div>
-                           <div class="guide-about_box_text">
-                              <p><br><br>
-                                 Ремесленники-специалисты получают специальное умение "Careful Observation" на 55 уровне.<br />
-                                 <br />Это умение очень мощное, но при каждом использовании оно расходует одно <a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/item/798c274403d/" class="eorzeadb_link">crafter's delineation</a>.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>                  
-               </div>
-            </div>
-         </div>
-      </div>
-      <footer>
-         <div class="footer_inner">
-            <div class="footer_info">
-               <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-                  <img src="../Assets/img/svg/github.svg">
-                  Source Code
-               </a>
-            </div>
-            <div class="SE"></div>
-         </div>
-      </footer>
-      <div class="nome_app_top">
-         <a class="app_top"><img src="../Assets/img/svg/arrow-up.svg"></a>
-      </div>
-      <!--- Script --->
-      <script type="text/javascript" src="../Assets/js/main.js"></script>
-      <script type="text/javascript" src="../Assets/js/CoreDB.js?v3"></script>
-      <script>
-         document.addEventListener("DOMContentLoaded", () => {
-            CORE_DB_LOAD(["../DB/Craft.json"], DB_VERSION);
-         });
-      </script>
-      <script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
-   </body>
+							<div class="guide-about_inner" id="anchor_can">
+								<h2 class="guide-about_title crafter">Discipline of the Hand: ключевые особенности</h2>
+								<p class="guide-about_text">Овладев умениями Disciple of the Hand, вы получите возможность синтезировать предметы, ремонтировать оружие и броню и многое другое.</p>
+								<h4 class="guide-about_lead crafter">1. Synthesis</h4>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/b/8qobnWOhVB6w6DAAOjBP7DZWlg.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Synthesis позволяет создавать новые предметы из имеющихся материалов.
+											<br />
+											<br />
+											Эти предметы варьируются в зависимости от класса, а более высокие уровни открывают доступ к еще более мощным предметам.
+										</p>
+									</div>
+								</div>
+								<h4 class="guide-about_lead crafter">2. Repair</h4>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/h/ATBZDIOPIeV0RDzKHwuhZq7UNE.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											<br />
+											<br />
+											Вы можете ремонтировать снаряжение в любом месте с помощью предмета, называемого
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/item/?q=dark+matter">dark matter</a>
+											.
+											<br />
+											<br />
+											Ремонт каждого предмета экипировки ограничен определенным классом и уровнем данного класса. Подробную информацию об этих ограничениях можно найти в описании предмета.
+										</p>
+									</div>
+								</div>
+								<h4 class="guide-about_lead crafter">3. Materia Melding</h4>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/y/KmQYkEPxuZi5r98Enzi5CiXrgE.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											<br />
+											<br />
+											Вы можете усилить снаряжение, вставив в него материю (affixing materia).
+											<br />
+											<br />
+											С помощью общего действия Advanced Materia Melding вы можете прикрепить материю даже к тому снаряжению, у которого уже заполнены все доступные слоты для материи.
+											<br />
+											<br />
+											Умение Materia melding становится доступным после достижения 19 уровня Disciple of the Hand и выполнения задания
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/494c4ff8e5a/" class="eorzeadb_link">"Waking the Spirit"</a>
+											. Advanced Materia Melding становится доступным после достижения 25 уровня Disciple of the Hand и выполнения задания
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b75b2f62483/" class="eorzeadb_link">"Melding Materia Muchly"</a>
+											.
+										</p>
+									</div>
+								</div>
+								<h4 class="guide-about_lead crafter">4. Desynthesis</h4>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/b/bCauaZlCiYF8xSMSz1lcQ1GKMQ.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											<br />
+											<br />
+											Вы также можете распылить предметы на материалы, применив на них умение Desynthesis.
+											<br />
+											<br />
+											Чтобы разблокировать Desynthesis, достигните 30 уровня в качестве Disciple of the Hand и выполните задание
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b507ad2d3bb/" class="eorzeadb_link">"Gone to Pieces"</a>
+											.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_play">
+								<h2 class="guide-about_title crafter">Synthesis</h2>
+								<h3 class="guide-about_subtitle crafter">Как начать?</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/M/RfE-I-nZNHIjF_YjFfkXaOmT2Y.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Все доступные рецепты можно просмотреть в crafting log. Чтобы попасть туда, выберите пункт Logs в main menu.
+											<br />
+											<br />
+											Новые рецепты становятся доступны при повышении уровня, а также при помощи специальных предметов.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/6/nHeCHw--63r9o2JWmTZnjrpZHI.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Чтобы начать процесс синтеза, выберите рецепт предмета, который вы хотите создать, и убедитесь, что у вас есть требуемые предметы.</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle crafter">Synthesis Tips</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/f/xxuj6ykrWZD-MLObkJORi-kwJY.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Чтобы изготовить предмет, необходимо использовать умения.
+											<br />
+											<br />
+											Использование умений категории Synthesis заполняет шкалу progress.
+											<br />
+											Как только progress достигнет 100%, вы получите предмет. Требования к progress для разных рецептов различны.
+										</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/I/Jjai1jtJt7fttZEP7_1HYFZzFo.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Умения, связанные с созданием предмета, уменьшают шкалу durability.
+											<br />
+											Если durability достигнет 0 до того, как progress достигнет 100%, создание предмета завершится неудачей.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_hq">
+								<h2 class="guide-about_title crafter">High-quality предметы</h2>
+								<h3 class="guide-about_subtitle crafter">High-quality предмет</h3>
+								<div class="guide-about_image">
+									<img src="https://lds-img.finalfantasyxiv.com/promo/h/H/TL9IyYaWspvgeW1L_z3Mt8I2BI.jpg" width="900" />
+									<p class="guide-about_text">
+										Когда вы синтезируете предмет, есть шанс, что в результате получится предмет более высокого качества (HQ).
+										<br />
+										<br />
+										High-quality предметы имеют лучшие характеристики и ценность, чем обычные. Попробуйте увеличить шанс получения high-quality предмета, чтобы получить более качественные предметы.
+									</p>
+								</div>
+								<h3 class="guide-about_subtitle crafter">Шанс high-quality предмета</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/q/i9ky0oOmBmxZqdPu8Uf2w6OYJE.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Значение шанса HQ при синтезе предмета показывает ваш шанс получить high-quality предмет по завершению синтеза.</p>
+									</div>
+								</div>
+								<div class="guide-about_image">
+									<img src="https://lds-img.finalfantasyxiv.com/promo/h/T/HHePfhgHXI9mh4xaWh6EMJC7C8.jpg" width="900" />
+									<p class="guide-about_text">Вы можете увеличить свои шансы на получение предмета HQ, вручную повышая quality предмета, например, используя умения Touch (изучается на 5 уровне).</p>
+								</div>
+								<h3 class="guide-about_subtitle crafter">Повышение качества предмета</h3>
+								<h4 class="guide-about_lead crafter">1. Material Condition (Состояние материалов)</h4>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/m/w8CNkSHVVTgURsW6ZOvA-hxR9E.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											Состояние материалов, используемых в синтезе, сильно влияет на то, насколько эффективно ваши умения повышают quality предмета.
+											<br />
+											<br />
+											Например, если ваши материалы находятся в состоянии "good" , любые умения повысят quality предмета в 1,5 раза от базового значения. Это даст значительный прирост quality, если вы используете мощное умение.
+											<br />
+											<br />
+											Состояние материала меняется случайным образом в процессе синтеза.
+										</p>
+									</div>
+								</div>
+								<h4 class="guide-about_lead crafter">2. Inner Quiet и Byregot's Blessing</h4>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/J/8kjj4Jv2I62LDgf36OFkG47jQ8.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Достигнув 11 уровня в качестве Disciple of the Hand, вы откроете пассивное умение Inner Quiet, которое дает стак Inner Quiet каждый раз, когда вы успешно используете умение умение категории Touch.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/r/wx6-Yv4T0ZyXwSjztI_1j2VAb4.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Одновременно вы можете иметь до 10 стаков Inner Quiet, и каждый стак дает бонус к эффективности умений, повышающих quality.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/w/oqenUcuTRb_5wiD2HUU1BOEKXM.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>На 50 уровне вы изучите умение Byregot's Blessing, которое расходует все стаки Inner Quiet, значительно повышая quality.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_collect">
+								<h2 class="guide-about_title crafter">Collectables</h2>
+								<h3 class="guide-about_subtitle crafter">Disciple of the Hand Collectable предметы</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/K/AoZH1qJOXMHge1c7rbNt1xqt6o.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>
+											Как Disciple of the Hand, вам может потребоваться обменивать предметы, называемые collectables.
+											<br />
+											<br />
+											Ценность данных предметов определяется с помощью collectability rating, чем он выше, тем более высокую награду вы получите при обмене.
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle crafter">Создание Collectables</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/L/ICUkM9whIQgUnUD5Bo2xumxN1E.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>В crafting log можно найти рецепты, при создании которых всегда создают collectables предметы. Эти рецепты отмечены специальной меткой.</p>
+										<p class="notes">(Эти рецепты не дают обычных или high-quality предметов).</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/h/pQdUIYqG1dDyAd_dGVdD88Obac.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>При синтезировании collectables предметов использование умений Touch, для повышения quality, увеличит ценность collectability предмета вместо ценности предмета HQ.</p>
+									</div>
+								</div>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/T/TXPavivqfPjhAvjpHL-ZIi4qIg.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<br />
+										<br />
+										<p>Чтобы завершить процесс, продвигайте пополнение шкалы progress с помощью умений Synthesis.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="guide-about_inner" id="anchor_specialistaction">
+								<h2 class="guide-about_title crafter">Специализация</h2>
+								<h3 class="guide-about_subtitle crafter">Специалист</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/b/6FXRtrYgH7lW6_avWw0-BRjoCw.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											<br />
+											<br />
+											Достигнув 55 уровня в качестве Disciple of the Hand и выполнив задание
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dc1b5d359e7/" class="eorzeadb_link">"Beloved of the Builder"</a>
+											, вы сможете приобрести специализированные кристаллы души ремесленника (specialized crafter soul crystals).
+											<br />
+											<br />
+											Обладателей этих кристаллов называют специалистами (specialists) и они получают различные бонусы за свое ремесло.
+										</p>
+									</div>
+								</div>
+								<h3 class="guide-about_subtitle crafter">Умения специалиста</h3>
+								<div class="guide-about_box">
+									<div class="guide-about_box_image">
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/Y/x2kqLqXFW9LWEC5yrKJIFQIoJ4.jpg" width="400" />
+										<img src="https://lds-img.finalfantasyxiv.com/promo/h/2/WfsL2D7sEz1k4iCTnBIhrPu44E.jpg" width="400" />
+									</div>
+									<div class="guide-about_box_text">
+										<p>
+											<br />
+											<br />
+											Ремесленники-специалисты получают специальное умение "Careful Observation" на 55 уровне.
+											<br />
+											<br />
+											Это умение очень мощное, но при каждом использовании оно расходует одно
+											<a href="https://eu.finalfantasyxiv.com/lodestone/playguide/db/item/798c274403d/" class="eorzeadb_link">crafter's delineation</a>
+											.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_info"></div>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/images/svg/arrow-up.svg" /></a>
+		</div>
+		<!--- Script --->
+		<script type="text/javascript" src="/Assets/js/main.js"></script>
+		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				CORE_DB_LOAD(["/DB/Craft.json"], DB_VERSION);
+			});
+		</script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</body>
 </html>

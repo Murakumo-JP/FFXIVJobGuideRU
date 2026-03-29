@@ -221,10 +221,10 @@ function renderSkill(skill) {
 		html += `<td class="jobclass">
             <div class="jobclass_wrapper">
                 <div class="jobclass_wrapper_icon">`;
-		if (skill.job_icon) html += `<img src="../Assets/img/DoWDoM/Job/${skill.job_icon}.png">`;
-		if (skill.job_class_01) html += `<img src="../Assets/img/main/${skill.job_class_01}.png">`;
-		if (skill.job_class_02) html += `<img src="../Assets/img/main/${skill.job_class_02}.png">`;
-		if (skill.job_class_03) html += `<img src="../Assets/img/main/${skill.job_class_03}.png">`;
+		if (skill.job_icon) html += `<img src="/Assets/images/DoWDoM/Job/${skill.job_icon}.png">`;
+		if (skill.job_class_01) html += `<img src="/Assets/images/main/${skill.job_class_01}.png">`;
+		if (skill.job_class_02) html += `<img src="/Assets/images/main/${skill.job_class_02}.png">`;
+		if (skill.job_class_03) html += `<img src="/Assets/images/main/${skill.job_class_03}.png">`;
 		html += `</div>`;
 		if (skill.level) html += `<p>Ур. ${skill.level}</p>`;
 		html += `</div></td>`;
@@ -238,11 +238,11 @@ function renderSkill(skill) {
 	if (skill.range || skill.radius || skill.radius_img) {
 		html += `<td class="distant_range">
             <div class="range">
-                <img src="../Assets/img/main/Range.png">
+                <img src="/Assets/images/main/Range.png">
                 <p>${skill.range ?? ""}</p>
             </div>
             <div class="radius">
-                <img src="../Assets/img/DoWDoM/Radius/${skill.radius_img ?? "None"}.png">
+                <img src="/Assets/images/DoWDoM/Radius/${skill.radius_img ?? "None"}.png">
                 <p>${skill.radius ?? ""}</p>
             </div>
         </td>`;
@@ -287,7 +287,7 @@ function renderSkillCraft(skill) {
         <td class="jobclass">
             <div class="jobclass_wrapper">
                 <div class="jobclass_wrapper_icon">
-                    <img src="../Assets/img/DoWDoM/Job/${jobName}.png"/>
+                    <img src="/Assets/images/DoWDoM/Job/${jobName}.png"/>
                 </div>
                 <p>Ур. ${skill.level}</p>
             </div>

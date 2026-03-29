@@ -1,0 +1,122 @@
+$accent: #fffae6;
+$bg: #1b1b1b;
+
+.preloader {
+	background-color: $bg;
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	&.done {
+		opacity: 0;
+		visibility: hidden;
+		transition:
+			opacity 0.8s,
+			visibility 0.8s;
+	}
+
+	.seal-container {
+		position: relative;
+		width: 300px;
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.loader-logo {
+			width: 100px;
+			height: auto;
+			z-index: 5;
+			filter: drop-shadow(0 0 5px rgba($accent, 0.3));
+			animation: aether-breathe 4s infinite ease-in-out;
+		}
+
+		.seal-ring {
+			position: absolute;
+			border-radius: 50%;
+			border: 1px dashed rgba($accent, 0.25);
+			&::after {
+				content: "";
+				position: absolute;
+				width: 8px;
+				height: 8px;
+				background: $accent;
+				border-radius: 50%;
+				box-shadow:
+					0 0 10px $accent,
+					0 0 20px rgba($accent, 0.5);
+				top: -4px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			&.ring-1 {
+				width: 200px;
+				height: 200px;
+				animation: rotate-cw 6s linear infinite;
+			}
+
+			&.ring-2 {
+				width: 240px;
+				height: 240px;
+				animation: rotate-ccw 9s linear infinite;
+				opacity: 0.6;
+			}
+		}
+	}
+
+	.loader-text {
+		margin-top: 50px;
+		color: $accent;
+		font-family: "Inter", sans-serif;
+		font-size: 11px;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		opacity: 0.5;
+		animation: text-pulse 3s infinite ease-in-out;
+	}
+}
+
+@keyframes rotate-cw {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate-ccw {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes aether-breathe {
+	0%,
+	100% {
+		transform: scale(1);
+		filter: drop-shadow(0 0 5px rgba($accent, 0.3)) brightness(1);
+	}
+	50% {
+		transform: scale(1.05);
+		filter: drop-shadow(0 0 5px rgba($accent, 0.3)) brightness(1.2);
+	}
+}
+
+@keyframes text-pulse {
+	0%,
+	100% {
+		opacity: 0.3;
+	}
+	50% {
+		opacity: 0.7;
+	}
+}

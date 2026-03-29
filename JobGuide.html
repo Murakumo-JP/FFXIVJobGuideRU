@@ -1,337 +1,354 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-   <head>
-      <meta charset="UTF-8">
-      <title>Job Guide | FFXIV RU</title>
-      <link rel="canonical" href="https://ff14jobguide.ru/JobGuide" />
-      <link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/img/icon/icon-16x16.png" />
-		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/img/icon/icon-32x32.png" />
-		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/img/icon/icon-48x48.png" />
-		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/img/icon/icon-64x64.png" />
-		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/img/icon/icon-128x128.png" />
+	<head>
+		<meta charset="UTF-8" />
+		<title>Job Guide | FFXIV RU</title>
+		<link rel="canonical" href="https://ff14jobguide.ru/JobGuide" />
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/images/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/images/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/images/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/images/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/images/icon/icon-128x128.png" />
 		<link rel="manifest" href="/manifest.json" />
-      <!-- Open Graph Meta -->
-      <meta property="og:title" content="Job Guide | FFXIV RU">
-      <meta property="og:site_name" content="FFXIV Job Guide RU">
-      <meta property="og:description" content="Описание классовых умений Final Fantasy XIV на русском языке">
-      <meta property="og:url" content="https://ff14jobguide.ru/JobGuide">
-      <meta property="og:image" content="https://ff14jobguide.ru/Assets/img/git-preview.png">
-      <meta name="theme-color" content="#732828">
-      <meta name="description" content="Описание классовых умений Final Fantasy XIV на русском языке">
-      <!-- Styles and Script -->
-      <link rel="stylesheet" href="Assets/css/style.min.css" />
-      <script type="text/javascript" src="Assets/js/jquery.min.js"></script>
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-Y6M41KEYQX');
-      </script>
-   </head>
-   <body>
-      <!--Preloader-->
-      <div id="page-preloader" class="preloader">
-         <div id="page-loader" class="loader"></div>
-      </div>
-      <div class="jobguide job_main">
-         <!-- header -->
-         <header class="jobguide_header job--DoWDoM">
-            <div class="jobguide_header_inner">
-               <div class="jobguide_name">
-                  <a href="/" class="job_header_guide_top"><span>На главную</span></a>
-               </div>
-               <div class="link_list">
-                  <a class="btn_link" target="_blank" href="https://discord.gg/5RmsfZGFMu">
-                     <img src="Assets/img/svg/discord.svg">                        
-                     <span>Наш Discord</span>
-                  </a>
-                  <a class="btn_link" target="_blank" href="https://boosty.to/murakumo">
-                     <img src="Assets/img/svg/boosty.svg">
-                     <span>Поддержи проект</span>
-                  </a>
-                  <span id="inner_update"><span>
-               </div>
-               <h1>
-                  <img src="Assets/img/DoWDoM/JobGuideRU.png">
-               </h1>
-            </div>
-         </header>
-         <div class="jobguide_catch">
-            <p>Овладейте разнообразными умениями и переломите ход битвы!</p>
-         </div>
-         <!-- Content -->
-         <div class="jobguide_content">
-            <p class="jobguide_text">
-               В FINAL FANTASY XIV мастерское владение классом открывает путь к одной или нескольким связанным профессиям.
-               <br>
-               Чтобы узнать больше об умениях, пассивных навыках и индикаторах профессий, ознакомьтесь с соответствующими разделами ниже.
-            </p>
-            <p class="jobguide_text">
-               При переводе на русский язык были использованы следующие термины:
-               <br/>- Weaponskill — Боевой навык
-               <br/>- Ability — Способность
-               <br/>- Spell — Заклинание
-               <br/>
-               <br/>Термином "умение" объединены все указанные выше термины.
-               <br/>Термин "potency" переведен как "сила атаки".
-               <br/>Когда имеется в виду именно атрибут силы, в скобках оставлено оригинальное наименование (Strength).
-               <br/>Если в описании какого-либо умения указан элемент стихии либо явно указано, что атака "нестихийная", то такая атака является магической.
-               <br/>В других случаях - физической.
-            </p>
-            <div class="warn_info"></div>
-            <p class="info_pop">
-               Перевод выполнен Seiffear и <a target="_blank" href="https://github.com/Morriganna">Morriganna Latrial</a>. 
-               <br/>Предложения, вопросы и замечания направляйте в Discord: morriganna 
-               <br/>Большая благодарность всем, кто помогал с данным проектом. 
-               <br/>Отдельное спасибо: Rei Eltrei, <a target="_blank" href="https://www.twitch.tv/budan_poly">Budanochka Poly</a>, <a target="_blank" href="https://www.twitch.tv/gella_zenhat">Gella Zenhat</a>, Kaka Demon, Ken Zattano и Schmelvin Dotan.
-               <br/>Перевод выполнен на основе информации с сайта <a href="https://eu.finalfantasyxiv.com/jobguide/battle/">Job Guide</a>
-            </p>
-            <div class="search-container">
-               <h2>
-                  <img src="Assets/img/main/Search.png">
-                  Поиск по умениям
-               </h2>
-               <div class="search_block">
-                  <input type="text" id="search" placeholder="Введите название умения..." class="search-input">
-                  <ul id="results" class="search-results"></ul>
-               </div>
-            </div> 
-            <div class="jobguide_flex">
-               <!-- Tank -->
-               <div class="jobguide_tank">
-                  <h2>
-                     <img src="Assets/img/main/Tank.png" width="32" height="32">
-                     Tank
-                  </h2>
-                  <div class="jobguide_tank_list">
-                     <p>
-                        Танки обладают большим запасом HP, обучены защитным техникам и служат щитом группы.
-                        <br>
-                        Они мастерски удерживают внимание врагов на себе, принимая основной удар и оберегая союзников.
-                     </p>
-                     <ul>
-                        <li>
-                           <a href="Page/PLD">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/PLD.png">
-                              Paladin (PLD)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/WAR">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/WAR.png">
-                              Warrior (WAR)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/DRK">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/DRK.png">
-                              Dark Knight (DRK)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/GNB">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/GNB.png">
-                              Gunbreaker (GNB)
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <!-- Healer -->
-               <div class="jobguide_healer">
-                  <h2>
-                     <img src="Assets/img/main/Healer.png" width="32" height="32">
-                     Healer
-                  </h2>
-                  <div class="jobguide_healer_list">
-                     <p>
-                        Целители используют искусство исцеления, чтобы залечивать раны союзников.
-                        <br>
-                        Они также способны снижать входящий урон, снимать отрицательные эффекты и даже возвращать павших соратников к жизни.
-                     </p>
-                     <ul>
-                        <li>
-                           <a href="Page/WHM">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/WHM.png">
-                              White Mage (WHM)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/SCH">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/SCH.png">
-                              Scholar (SCH)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/AST">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/AST.png">
-                              Astrologian (AST)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/SGE">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/SGE.png">
-                              Sage (SGE)
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class="jobguide__dps">
-               <h2>
-                  <img src="Assets/img/main/DPS.png" width="32" height="32">
-                  DPS
-               </h2>
-               <!-- Melee DPS -->
-               <div class="jobguide_dps">
-                  <h3>
-                     <img src="Assets/img/main/MeleeDPS.png" width="32" height="32">
-                     Melee DPS
-                  </h3>
-                  <div class="jobguide_dps_list">
-                     <p>
-                        Бойцы ближнего боя атакуют противника на короткой дистанции.
-                        <br>
-                        Их эффективность строится на выполнении комбинаций и правильном позиционировании для нанесения максимального урона.
-                     </p>
-                     <ul>
-                        <li>
-                           <a href="Page/MNK">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/MNK.png">
-                              Monk (MNK)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/DRG">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/DRG.png">
-                              Dragoon (DRG)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/NIN">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/NIN.png">
-                              Ninja (NIN)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/SAM">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/SAM.png">
-                              Samurai (SAM)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/RPR">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/RPR.png">
-                              Reaper (RPR)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/VPR">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/VPR.png">
-                              Viper (VPR)
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <!-- Magical DPS -->
-               <div class="jobguide_dps">
-                  <!-- Physical Ranged DPS -->
-                  <h3>
-                     <img src="Assets/img/main/PhysicalRangedDPS.png" width="32" height="32">
-                     Physical Ranged DPS
-                  </h3>
-                  <div class="jobguide_dps_list">
-                     <p>
-                        Бойцы дальнего боя атакуют противника с дистанции. 
-                        <br>
-                        Они специализируются на нанесении постоянного урона, а также поддерживают союзников различными усилениями.
-                     </p>
-                     <ul>
-                        <li>
-                           <a href="Page/BRD">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/BRD.png">
-                              Bard (BRD)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/MCH">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/MCH.png">
-                              Machinist (MCH)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/DNC">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/DNC.png">
-                              Dancer (DNC)
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <!-- Magical Ranged DPS -->
-                  <h3>
-                     <img src="Assets/img/main/MagicalRangedDPS.png" width="32" height="32">
-                     Magical Ranged DPS
-                  </h3>
-                  <div class="jobguide_dps_list">
-                     <p>
-                        Магические бойцы дальнего боя атакуют врагов, используя разнообразные тайные искусства.
-                        <br>
-                        Необходимость в чтении заклинаний ограничивает их подвижность, зато они способны наносить колоссальный взрывной урон.
-                     </p>
-                     <ul>
-                        <li>
-                           <a href="Page/BLM">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/BLM.png">
-                              Black Mage (BLM)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/SMN">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/SMN.png">
-                              Summoner (SMN)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/RDM">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/RDM.png">
-                              Red Mage (RDM)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/PCT">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/PCT.png">
-                              Pictomancer (PCT)
-                           </a>
-                        </li>
-                        <li>
-                           <a href="Page/BLU">
-                              <img class="job_img" src="Assets/img/DoWDoM/Job/BLU.png">
-                              Blue Mage (BLU, Limited Job)
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="footer_inner">
-            <div class="footer_info">
-               <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU" class="footer_git">
-                  <img src="Assets/img/svg/github.svg">
-                  Source Code
-               </a>
-            </div>
-            <div class="SE"></div>
-         </div>
-      </div>
-      <div class="nome_app_top">
-         <a class="app_top"><img src="Assets/img/svg/arrow-up.svg"></a>
-      </div>
-   </body>
-   <!--- Script --->
-   <script type="text/javascript" src="Assets/js/main.js"></script>
+		<!-- Open Graph Meta -->
+		<meta property="og:title" content="Job Guide | FFXIV RU" />
+		<meta property="og:site_name" content="FFXIV Job Guide RU" />
+		<meta property="og:description" content="Описание классовых умений Final Fantasy XIV на русском языке" />
+		<meta property="og:url" content="https://ff14jobguide.ru/JobGuide" />
+		<meta property="og:image" content="https://ff14jobguide.ru/Assets/images/git-preview.png" />
+		<meta name="theme-color" content="#732828" />
+		<meta name="description" content="Описание классовых умений Final Fantasy XIV на русском языке" />
+		<!-- Styles and Script -->
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-Y6M41KEYQX");
+		</script>
+	</head>
+	<body>
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/images/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<div class="jobguide job_main">
+			<!-- header -->
+			<header class="jobguide_header job--DoWDoM">
+				<div class="jobguide_header_inner">
+					<div class="jobguide_name">
+						<a href="/" class="job_header_guide_top"><span>На главную</span></a>
+					</div>
+					<div class="link_list">
+						<a class="btn_link" target="_blank" href="https://discord.gg/5RmsfZGFMu">
+							<img src="/Assets/images/svg/discord.svg" />
+							<span>Наш Discord</span>
+						</a>
+						<a class="btn_link" target="_blank" href="https://boosty.to/murakumo">
+							<img src="/Assets/images/svg/boosty.svg" />
+							<span>Поддержи проект</span>
+						</a>
+						<span id="inner_update"></span>
+					</div>
+					<h1>
+						<img src="/Assets/images/DoWDoM/JobGuideRU.png" />
+					</h1>
+				</div>
+			</header>
+			<div class="jobguide_catch">
+				<p>Овладейте разнообразными умениями и переломите ход битвы!</p>
+			</div>
+			<!-- Content -->
+			<div class="jobguide_content">
+				<p class="jobguide_text">
+					В FINAL FANTASY XIV при достижении классом определенного уровня открывается доступ к одной или нескольким профессиям.
+					<br />
+					Чтобы подробнее узнать о классах и профессиях, познакомиться с их активыми и пассивными умениями, изучите разделы ниже.
+				</p>
+				<p class="jobguide_text">
+					При переводе на русский язык были использованы следующие термины:
+					<br />
+					- Weaponskill — Боевой навык
+					<br />
+					- Ability — Способность
+					<br />
+					- Spell — Заклинание
+					<br />
+					<br />
+					Термином "умение" объединены все указанные выше термины.
+					<br />
+					Термин "potency" переведен как "сила атаки".
+					<br />
+					Когда имеется в виду именно атрибут силы, в скобках оставлено оригинальное наименование (Strength).
+					<br />
+					Если в описании какого-либо умения указан элемент стихии либо явно указано, что атака "нестихийная", то такая атака является магической.
+					<br />
+					В других случаях - физической.
+				</p>
+				<div class="warn_info"></div>
+				<p class="info_pop">
+					Перевод выполнен Seiffear и
+					<a target="_blank" href="https://github.com/Morriganna">Morriganna Latrial</a>
+					.
+					<br />
+					Предложения, вопросы и замечания направляйте в Discord: morriganna
+					<br />
+					Большая благодарность всем, кто помогал с данным проектом.
+					<br />
+					Отдельное спасибо: Rei Eltrei,
+					<a target="_blank" href="https://www.twitch.tv/budan_poly">Budanochka Poly</a>
+					,
+					<a target="_blank" href="https://www.twitch.tv/gella_zenhat">Gella Zenhat</a>
+					, Kaka Demon, Ken Zattano и Schmelvin Dotan.
+					<br />
+					Перевод выполнен на основе информации с сайта
+					<a href="https://eu.finalfantasyxiv.com/jobguide/battle/">Job Guide</a>
+				</p>
+				<div class="search-container">
+					<h2>
+						<img src="/Assets/images/main/Search.png" />
+						Поиск по умениям
+					</h2>
+					<div class="search_block">
+						<input type="text" id="search" placeholder="Введите название умения..." class="search-input" />
+						<ul id="results" class="search-results"></ul>
+					</div>
+				</div>
+				<div class="jobguide_flex">
+					<!-- Tank -->
+					<div class="jobguide_tank">
+						<h2>
+							<img src="/Assets/images/main/Tank.png" width="32" height="32" />
+							Tank
+						</h2>
+						<div class="jobguide_tank_list">
+							<p>
+								Танки, обладающие высоким показателем HP и умениями, основанными на защите, служат щитом группы.
+								<br />
+								Они умеют удержать внимание врага и принять на себя удары противников, защищая всю группу.
+							</p>
+							<ul>
+								<li>
+									<a href="Page/PLD">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/PLD.png" />
+										Paladin (PLD)
+									</a>
+								</li>
+								<li>
+									<a href="Page/WAR">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/WAR.png" />
+										Warrior (WAR)
+									</a>
+								</li>
+								<li>
+									<a href="Page/DRK">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/DRK.png" />
+										Dark Knight (DRK)
+									</a>
+								</li>
+								<li>
+									<a href="Page/GNB">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/GNB.png" />
+										Gunbreaker (GNB)
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Healer -->
+					<div class="jobguide_healer">
+						<h2>
+							<img src="/Assets/images/main/Healer.png" width="32" height="32" />
+							Healer
+						</h2>
+						<div class="jobguide_healer_list">
+							<p>
+								Целители (хилеры, хилы) используют умения, восстанавливающие HP группы.
+								<br />
+								Они могут помочь снизить входящий урон, снять отрицательные эффекты и даже вернуть к жизни павших союзников.
+							</p>
+							<ul>
+								<li>
+									<a href="Page/WHM">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/WHM.png" />
+										White Mage (WHM)
+									</a>
+								</li>
+								<li>
+									<a href="Page/SCH">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/SCH.png" />
+										Scholar (SCH)
+									</a>
+								</li>
+								<li>
+									<a href="Page/AST">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/AST.png" />
+										Astrologian (AST)
+									</a>
+								</li>
+								<li>
+									<a href="Page/SGE">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/SGE.png" />
+										Sage (SGE)
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="jobguide__dps">
+					<h2>
+						<img src="/Assets/images/main/DPS.png" width="32" height="32" />
+						DPS
+					</h2>
+					<!-- Melee DPS -->
+					<div class="jobguide_dps">
+						<h3>
+							<img src="/Assets/images/main/MeleeDPS.png" width="32" height="32" />
+							Melee DPS
+						</h3>
+						<div class="jobguide_dps_list">
+							<p>
+								Мили DPS атакуют врага на ближней дистанции.
+								<br />
+								Они ориентированы на использование комбо и позиции относительно врага для нанесения максимального урона.
+							</p>
+							<ul>
+								<li>
+									<a href="Page/MNK">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/MNK.png" />
+										Monk (MNK)
+									</a>
+								</li>
+								<li>
+									<a href="Page/DRG">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/DRG.png" />
+										Dragoon (DRG)
+									</a>
+								</li>
+								<li>
+									<a href="Page/NIN">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/NIN.png" />
+										Ninja (NIN)
+									</a>
+								</li>
+								<li>
+									<a href="Page/SAM">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/SAM.png" />
+										Samurai (SAM)
+									</a>
+								</li>
+								<li>
+									<a href="Page/RPR">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/RPR.png" />
+										Reaper (RPR)
+									</a>
+								</li>
+								<li>
+									<a href="Page/VPR">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/VPR.png" />
+										Viper (VPR)
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Magical DPS -->
+					<div class="jobguide_dps">
+						<!-- Physical Ranged DPS -->
+						<h3>
+							<img src="/Assets/images/main/PhysicalRangedDPS.png" width="32" height="32" />
+							Physical Ranged DPS
+						</h3>
+						<div class="jobguide_dps_list">
+							<p>
+								Physical Ranged DPS наносят непрерывный урон на расстоянии.
+								<br />
+								А также оказывают поддержку сопартийцам различными усилениями.
+							</p>
+							<ul>
+								<li>
+									<a href="Page/BRD">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/BRD.png" />
+										Bard (BRD)
+									</a>
+								</li>
+								<li>
+									<a href="Page/MCH">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/MCH.png" />
+										Machinist (MCH)
+									</a>
+								</li>
+								<li>
+									<a href="Page/DNC">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/DNC.png" />
+										Dancer (DNC)
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- Magical Ranged DPS -->
+						<h3>
+							<img src="/Assets/images/main/MagicalRangedDPS.png" width="32" height="32" />
+							Magical Ranged DPS
+						</h3>
+						<div class="jobguide_dps_list">
+							<p>
+								Magical Ranged DPS атакуют врагов, используя различные тайные искусства.
+								<br />
+								Их передвижения ограничены во время применения заклинаний, но они наносят очень высокий урон.
+							</p>
+							<ul>
+								<li>
+									<a href="Page/BLM">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/BLM.png" />
+										Black Mage (BLM)
+									</a>
+								</li>
+								<li>
+									<a href="Page/SMN">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/SMN.png" />
+										Summoner (SMN)
+									</a>
+								</li>
+								<li>
+									<a href="Page/RDM">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/RDM.png" />
+										Red Mage (RDM)
+									</a>
+								</li>
+								<li>
+									<a href="Page/PCT">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/PCT.png" />
+										Pictomancer (PCT)
+									</a>
+								</li>
+								<li>
+									<a href="Page/BLU">
+										<img class="job_img" src="/Assets/images/DoWDoM/Job/BLU.png" />
+										Blue Mage (BLU, Limited Job)
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_info"></div>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/images/svg/arrow-up.svg" /></a>
+		</div>
+	</body>
+	<!--- Script --->
+	<script type="text/javascript" src="/Assets/js/main.js"></script>
 </html>
