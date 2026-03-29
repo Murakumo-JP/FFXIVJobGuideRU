@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ff14jobguide.ru">
-    <img src="https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobGuideRU/main/Assets/img/logo.png">
+    <img src="https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobGuideRU/main/Assets/images/logo.png">
   </a>
 </p>
 
