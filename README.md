@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href=LICENSE><img src="https://img.shields.io/github/license/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
+  <a href=LICENSE><img src="https://img.shields.io/badge/LICENSE-MIT_and_CC_BY--NC--SA_4.0-blue?style=for-the-badge"></a>
   <a href=><img src="https://img.shields.io/github/repo-size/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
   <a href=https://github.com/Murakumo-JP/FFXIVJobGuideRU/pulls><img src="https://img.shields.io/github/issues-pr/Murakumo-JP/FFXIVJobGuideRU?style=for-the-badge"></a>
   <a href=https://ff14jobguide.ru><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fff14jobguide.ru%2F&up_message=Online&style=for-the-badge"></a>
