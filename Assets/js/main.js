@@ -436,3 +436,34 @@ $(function () {
 		$(window).on("load", hidePreloader);
 	}
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+	const categories = document.querySelectorAll(".gs_menu_nav_category");
+	const contentBlocks = document.querySelectorAll(".gs_wrapper_nav");
+	const anchorLinks = document.querySelectorAll(".gs_menu_nav_anchor a");
+
+	categories.forEach((category) => {
+		category.addEventListener("click", () => {
+			categories.forEach((c) => c.classList.remove("active"));
+			contentBlocks.forEach((b) => b.classList.remove("active"));
+
+			// Делаем нажатую категорию активной
+			category.classList.add("active");
+
+			const targetId = category.getAttribute("data-target");
+			if (targetId) {
+				const targetBlock = document.getElementById(targetId);
+				if (targetBlock) {
+					targetBlock.classList.add("active");
+				}
+			}
+		});
+	});
+
+	anchorLinks.forEach((link) => {
+		link.addEventListener("click", () => {
+			anchorLinks.forEach((l) => l.classList.remove("active"));
+			link.classList.add("active");
+		});
+	});
+});
