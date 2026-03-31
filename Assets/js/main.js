@@ -444,17 +444,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	categories.forEach((category) => {
 		category.addEventListener("click", () => {
-			categories.forEach((c) => c.classList.remove("active"));
-			contentBlocks.forEach((b) => b.classList.remove("active"));
+			const subMenu = category.nextElementSibling;
 
-			// Делаем нажатую категорию активной
-			category.classList.add("active");
+			if (category.classList.contains("active")) {
+				if (subMenu) subMenu.classList.toggle("open");
+			} else {
+				categories.forEach((c) => c.classList.remove("active"));
+				document.querySelectorAll(".gs_menu_nav_sub").forEach((sub) => sub.classList.remove("open"));
+				contentBlocks.forEach((b) => b.classList.remove("active"));
 
-			const targetId = category.getAttribute("data-target");
-			if (targetId) {
-				const targetBlock = document.getElementById(targetId);
-				if (targetBlock) {
-					targetBlock.classList.add("active");
+				category.classList.add("active");
+				if (subMenu) subMenu.classList.add("open");
+
+				const targetId = category.getAttribute("data-target");
+				if (targetId) {
+					const targetBlock = document.getElementById(targetId);
+					if (targetBlock) {
+						targetBlock.classList.add("active");
+					}
 				}
 			}
 		});
