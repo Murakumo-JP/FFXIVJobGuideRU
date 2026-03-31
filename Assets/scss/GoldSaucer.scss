@@ -932,6 +932,8 @@ table {
 		}
 	}
 	&_anchor {
+		overflow: hidden;
+		margin: 0;
 		li {
 			background-color: rgb(89 81 76 / 30%);
 			padding: 10px;
@@ -942,4 +944,20 @@ table {
 			}
 		}
 	}
+	&_sub {
+		display: grid;
+		grid-template-rows: 0fr;
+		transition: grid-template-rows 0.4s ease-in-out;
+	}
+}
+
+.gs_wrapper_nav {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+
+.gs_menu_nav_category.active + .gs_menu_nav_sub {
+	grid-template-rows: 1fr;
 }
