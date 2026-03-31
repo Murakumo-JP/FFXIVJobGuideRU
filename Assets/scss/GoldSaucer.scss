@@ -922,6 +922,7 @@ table {
 		padding-top: 5px;
 	}
 	&_category {
+		cursor: pointer;
 		color: #4c7ee8;
 		background-color: #59514c0d;
 		padding: 10px;
@@ -929,6 +930,9 @@ table {
 		font-weight: bold;
 		a {
 			color: #4c7ee8;
+		}
+		&.active span {
+			color: #e57e17;
 		}
 	}
 	&_anchor {
@@ -948,6 +952,9 @@ table {
 		display: grid;
 		grid-template-rows: 0fr;
 		transition: grid-template-rows 0.4s ease-in-out;
+		&.open {
+			grid-template-rows: 1fr;
+		}
 	}
 }
 
@@ -956,8 +963,4 @@ table {
 	&.active {
 		display: block;
 	}
-}
-
-.gs_menu_nav_category.active + .gs_menu_nav_sub {
-	grid-template-rows: 1fr;
 }

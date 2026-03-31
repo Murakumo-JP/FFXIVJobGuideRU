@@ -940,6 +940,7 @@ table {
   padding-top: 5px;
 }
 .gs_menu_nav_category {
+  cursor: pointer;
   color: #4c7ee8;
   background-color: rgba(89, 81, 76, 0.0509803922);
   padding: 10px;
@@ -949,6 +950,9 @@ table {
 }
 .gs_menu_nav_category a {
   color: #4c7ee8;
+}
+.gs_menu_nav_category.active span {
+  color: #e57e17;
 }
 .gs_menu_nav_anchor {
   overflow: hidden;
@@ -970,14 +974,13 @@ table {
   transition: grid-template-rows 0.4s ease-in-out;
   transition: grid-template-rows 0.4s ease-in-out, -ms-grid-rows 0.4s ease-in-out;
 }
+.gs_menu_nav_sub.open {
+  grid-template-rows: 1fr;
+}
 
 .gs_wrapper_nav {
   display: none;
 }
 .gs_wrapper_nav.active {
   display: block;
-}
-
-.gs_menu_nav_category.active + .gs_menu_nav_sub {
-  grid-template-rows: 1fr;
 }/*# sourceMappingURL=GoldSaucer.css.map */
