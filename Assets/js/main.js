@@ -368,52 +368,52 @@ $(function () {
 	initGlobalSearch("#search", "#results");
 
 	// --- Дебаг ---
-	// const ENABLE_HTML_FIX = true;
-	// const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+	const ENABLE_HTML_FIX = true;
+	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
-	// const fixSingleLink = (el) => {
-	// 	const $el = $(el);
-	// 	const href = $el.attr("href");
-	// 	if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
+	const fixSingleLink = (el) => {
+		const $el = $(el);
+		const href = $el.attr("href");
+		if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
 
-	// 	const [urlPart, hashPart] = href.split("#");
-	// 	const [path, query] = urlPart.split("?");
+		const [urlPart, hashPart] = href.split("#");
+		const [path, query] = urlPart.split("?");
 
-	// 	if (path && !path.endsWith(".html")) {
-	// 		$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
-	// 	}
-	// };
+		if (path && !path.endsWith(".html")) {
+			$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
+		}
+	};
 
-	// if (ENABLE_HTML_FIX && isLocal) {
-	// 	$("a").each(function () {
-	// 		fixSingleLink(this);
-	// 	});
+	if (ENABLE_HTML_FIX && isLocal) {
+		$("a").each(function () {
+			fixSingleLink(this);
+		});
 
-	// 	const observer = new MutationObserver((mutations) => {
-	// 		mutations.forEach((mutation) =>
-	// 			mutation.addedNodes.forEach((node) => {
-	// 				if (node.nodeType === 1) {
-	// 					if (node.nodeName === "A") fixSingleLink(node);
-	// 					$(node)
-	// 						.find("a")
-	// 						.each(function () {
-	// 							fixSingleLink(this);
-	// 						});
-	// 				}
-	// 			})
-	// 		);
-	// 	});
-	// 	observer.observe(document.body, {childList: true, subtree: true});
-	// }
+		const observer = new MutationObserver((mutations) => {
+			mutations.forEach((mutation) =>
+				mutation.addedNodes.forEach((node) => {
+					if (node.nodeType === 1) {
+						if (node.nodeName === "A") fixSingleLink(node);
+						$(node)
+							.find("a")
+							.each(function () {
+								fixSingleLink(this);
+							});
+					}
+				})
+			);
+		});
+		observer.observe(document.body, {childList: true, subtree: true});
+	}
 
-	// $("tr").each(function () {
-	// 	const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
-	// 	const titleText = attrs
-	// 		.map((attr) => $(this).attr(attr))
-	// 		.filter(Boolean)
-	// 		.join(", ");
-	// 	if (titleText) $(this).attr("title", titleText);
-	// });
+	$("tr").each(function () {
+		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
+		const titleText = attrs
+			.map((attr) => $(this).attr(attr))
+			.filter(Boolean)
+			.join(", ");
+		if (titleText) $(this).attr("title", titleText);
+	});
 	// Preloader
 	function hidePreloader() {
 		setTimeout(() => {
@@ -435,4 +435,42 @@ $(function () {
 	} else {
 		$(window).on("load", hidePreloader);
 	}
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+	const categories = document.querySelectorAll(".gs_menu_nav_category");
+	const contentBlocks = document.querySelectorAll(".gs_wrapper_nav");
+	const anchorLinks = document.querySelectorAll(".gs_menu_nav_anchor a");
+
+	categories.forEach((category) => {
+		category.addEventListener("click", () => {
+			const subMenu = category.nextElementSibling;
+
+			if (category.classList.contains("active")) {
+				if (subMenu) subMenu.classList.toggle("open");
+			} else {
+				categories.forEach((c) => c.classList.remove("active"));
+				document.querySelectorAll(".gs_menu_nav_sub").forEach((sub) => sub.classList.remove("open"));
+				contentBlocks.forEach((b) => b.classList.remove("active"));
+
+				category.classList.add("active");
+				if (subMenu) subMenu.classList.add("open");
+
+				const targetId = category.getAttribute("data-target");
+				if (targetId) {
+					const targetBlock = document.getElementById(targetId);
+					if (targetBlock) {
+						targetBlock.classList.add("active");
+					}
+				}
+			}
+		});
+	});
+
+	anchorLinks.forEach((link) => {
+		link.addEventListener("click", () => {
+			anchorLinks.forEach((l) => l.classList.remove("active"));
+			link.classList.add("active");
+		});
+	});
 });
