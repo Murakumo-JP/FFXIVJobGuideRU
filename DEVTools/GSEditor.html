@@ -89,8 +89,13 @@
             <div class="floating-toolbar">
                 <button class="ft-btn" onclick="move(event, this, -1)">↑</button>
                 <button class="ft-btn" onclick="move(event, this, 1)">↓</button>
+                
+                <label class="ft-btn" style="display:inline-flex; align-items:center; gap:5px; cursor:pointer; background:rgba(255,255,255,0.1);" onclick="event.stopPropagation()">
+                    <input type="checkbox" onchange="toggleMahjong(this)" style="cursor:pointer;"> mahjong
+                </label>
+
                 <button class="ft-btn primary" onmousedown="event.preventDefault(); formatRed()">🔴 Red</button>
-                <button class="ft-btn" onmousedown="event.preventDefault(); insertBrAtCursor()">↵ Br</button>
+                <button class="ft-btn" onmousedown="event.preventDefault(); insertBrAtCursor()">↵ Перенос</button>
                 ${type === "group" ? `<div style="position:relative;display:inline-block"><button class="ft-btn primary" onclick="toggleNest(event, this)">➕ Добавить</button><div class="nested-menu">${menuItems.map((m) => `<button onclick="addNested(event,'${m.id}')">${m.n}</button>`).join("")}</div></div>` : ""}
                 ${type === "table" ? `<button class="ft-btn primary" onclick="addTr(event)">+ Строка</button>` : ""}
                 <button class="ft-btn del" onclick="del(event, this)">✕</button>
@@ -112,6 +117,29 @@
 				makeEdit(wrapper);
 				target.appendChild(wrapper);
 				setActive(wrapper);
+			}
+
+			function toggleMahjong(checkbox) {
+				const targetElement = checkbox.closest(".block-wrapper").querySelector(".block-content").firstElementChild;
+
+				if (checkbox.checked) {
+					targetElement.classList.add("mahjong");
+
+					if (targetElement.tagName === "H2" && targetElement.classList.contains("gs_title")) {
+						const img = targetElement.querySelector("img");
+						if (img) img.remove();
+					}
+				} else {
+					targetElement.classList.remove("mahjong");
+
+					if (targetElement.tagName === "H2" && targetElement.classList.contains("gs_title")) {
+						if (!targetElement.querySelector("img")) {
+							const img = document.createElement("img");
+							img.src = "/Assets/images/GoldSaucer/star.png";
+							targetElement.prepend(img);
+						}
+					}
+				}
 			}
 
 			function setActive(el) {
@@ -223,7 +251,10 @@
 						const groupContainer = contentBox.querySelector(".gs_group");
 						if (groupContainer) {
 							const innerHTML = getCleanHTML(groupContainer);
-							html += `<div class="gs_group">\n${innerHTML}</div>\n`;
+							const extraClasses = Array.from(groupContainer.classList)
+								.filter((c) => c !== "gs_group")
+								.join(" ");
+							html += `<div class="gs_group ${extraClasses}">\n${innerHTML}</div>\n`;
 						}
 					} else {
 						const temp = document.createElement("div");
