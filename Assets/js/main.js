@@ -467,6 +467,48 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
+	document.addEventListener("click", (e) => {
+		const link = e.target.closest("a");
+		if (!link) return;
+
+		const href = link.getAttribute("href");
+
+		if (href && href.startsWith("#") && href.length > 1) {
+			const targetElement = document.querySelector(href);
+
+			if (targetElement) {
+				const parentTab = targetElement.closest(".gs_wrapper_nav");
+
+				if (parentTab && !parentTab.classList.contains("active")) {
+					e.preventDefault();
+
+					document.querySelectorAll(".gs_wrapper_nav").forEach((b) => b.classList.remove("active"));
+
+					parentTab.classList.add("active");
+
+					const tabId = parentTab.id;
+					const allCategories = document.querySelectorAll(".gs_menu_nav_category");
+
+					allCategories.forEach((category) => {
+						category.classList.remove("active");
+
+						if (category.getAttribute("data-target") === tabId) {
+							category.classList.add("active");
+
+							const subMenu = category.nextElementSibling;
+							if (subMenu && subMenu.classList.contains("gs_menu_nav_sub")) {
+								document.querySelectorAll(".gs_menu_nav_sub").forEach((sub) => sub.classList.remove("open"));
+								subMenu.classList.add("open");
+							}
+						}
+					});
+
+					targetElement.scrollIntoView({behavior: "smooth"});
+				}
+			}
+		}
+	});
+
 	anchorLinks.forEach((link) => {
 		link.addEventListener("click", () => {
 			anchorLinks.forEach((l) => l.classList.remove("active"));
