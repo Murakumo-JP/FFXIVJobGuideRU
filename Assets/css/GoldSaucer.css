@@ -73,6 +73,10 @@ body.gs_page {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+.gs_title.mahjong {
+  padding: 10px 0 15px 0;
+  margin: 0 auto;
+}
 .gs_title img {
   position: absolute;
   left: 0;
@@ -500,6 +504,10 @@ body.gs_page {
   margin-bottom: 16px;
   font-family: "Noto Sans";
   color: #585858;
+}
+.gs_text_default.mahjong {
+  padding: 0;
+  margin: 15px auto;
 }
 .gs_text_mahjong {
   position: relative;
