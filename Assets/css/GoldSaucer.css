@@ -25,12 +25,14 @@ body.gs_page {
   width: 960px;
   height: 360px;
   margin: 0 auto;
+  display: grid;
+  grid-template-rows: 50px 260px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.gs_header_img img {
-  position: absolute;
-}
-.gs_header_img .link_list {
-  font-size: 12px;
+.gs_header_img .link_info {
+  grid-row: 3;
 }
 .gs_header_text {
   padding: 10px;
@@ -45,7 +47,8 @@ body.gs_page {
 }
 
 .gs_logo {
-  bottom: 60px;
+  grid-row: 2;
+  align-self: end;
 }
 
 .gs_wrapper_images img,

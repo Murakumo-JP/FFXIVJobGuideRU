@@ -61,13 +61,11 @@ body.gs_page {
 		width: 960px;
 		height: 360px;
 		margin: 0 auto;
-
-		img {
-			position: absolute;
-		}
-
-		.link_list {
-			font-size: 12px;
+		display: grid;
+		grid-template-rows: 50px 260px 50px;
+		align-items: center;
+		.link_info {
+			grid-row: 3;
 		}
 	}
 
@@ -86,7 +84,8 @@ body.gs_page {
 }
 
 .gs_logo {
-	bottom: 60px;
+	grid-row: 2;
+	align-self: end;
 }
 
 .gs_wrapper_images,
