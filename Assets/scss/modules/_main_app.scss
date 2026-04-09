@@ -316,9 +316,9 @@
 			padding: 5px 10px 5px 5px;
 		}
 	}
-}
-#inner_update {
-	width: max-content;
-	padding: 10px;
-	pointer-events: none;
+	&_update {
+		width: max-content;
+		padding: 10px;
+		pointer-events: none;
+	}
 }

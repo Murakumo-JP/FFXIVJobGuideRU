@@ -131,7 +131,7 @@ $(function () {
 	fetch(`${JSON_URLS.UPDATES}?v=${Date.now()}`)
 		.then((response) => response.json())
 		.then((data) => {
-			$("#inner_update").prepend(`<p>Последнее обновление: ${data.lastUpdate} | Патч: ${data.patchVersion}</p>`);
+			$(".link_update").prepend(`Оновление: ${data.lastUpdate} | Патч: ${data.patchVersion}`);
 			$("#patch_info").prepend(
 				`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>
                  Более подробную информацию об изменениях в активных и пассивных умениях можно найти 
