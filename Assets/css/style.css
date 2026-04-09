@@ -545,8 +545,7 @@
   color: var(--link);
   padding: 5px 10px 5px 5px;
 }
-
-#inner_update {
+.link_update {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -3530,10 +3529,6 @@ table {
   }
   .main_header_img {
     top: 10px;
-  }
-  #inner_update {
-    width: 165px;
-    text-align: center;
   }
   .btn_link {
     margin: 0 10px 0 0;
