@@ -33,6 +33,9 @@ body.gs_page {
 }
 .gs_header_img .link_info {
   grid-row: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .gs_header_text {
   padding: 10px;
