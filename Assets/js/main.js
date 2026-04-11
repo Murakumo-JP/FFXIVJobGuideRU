@@ -368,7 +368,7 @@ $(function () {
 	initGlobalSearch("#search", "#results");
 
 	// --- Дебаг ---
-	const ENABLE_HTML_FIX = true;
+	const ENABLE_HTML_FIX = false;
 	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
 	const fixSingleLink = (el) => {
