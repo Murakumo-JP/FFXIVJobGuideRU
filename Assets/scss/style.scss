@@ -182,6 +182,32 @@ input {
 	}
 }
 
+.jobguide {
+	&_header_inner {
+		width: 960px;
+		height: 360px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		align-items: center;
+		.link_info {
+			grid-row: 3;
+			justify-content: center;
+		}
+		h1 {
+			width: 960px;
+			height: 244px;
+			grid-row: 2;
+		}
+	}
+	&_name {
+		line-height: 30px;
+		width: 200px;
+		height: 30px;
+		grid-row: 1;
+	}
+}
+
 // Job Guide
 .jobguide {
 	width: 100%;
@@ -189,31 +215,6 @@ input {
 	background: var(--color-set-3);
 	font-family: "Noto Sans", sans-serif;
 	font-size: 12px;
-
-	&_header_inner {
-		width: 960px;
-		height: 360px;
-		margin: 0 auto;
-		position: relative;
-
-		h1 {
-			position: absolute;
-			top: 50px;
-			left: 0;
-			width: 960px;
-			height: 244px;
-		}
-	}
-
-	&_name {
-		line-height: 30px;
-		width: 200px;
-		height: 30px;
-		position: absolute;
-		top: 10px;
-		left: 18px;
-		z-index: 50;
-	}
 
 	&_catch {
 		background: maroon;
@@ -504,14 +505,13 @@ input {
 	h1 {
 		width: 960px;
 		height: 144px;
-		position: absolute;
-		left: 0;
-		top: 390px;
+		align-self: end;
 	}
 
 	.jobguide_header_inner {
 		width: 960px;
 		height: 100%;
+		grid-template-rows: 50px 500px 50px;
 	}
 
 	~ .jobguide_catch {
@@ -2041,18 +2041,6 @@ table {
 		}
 	}
 
-	.link_list {
-		margin: 0 auto;
-		left: 0;
-		right: 0;
-		justify-content: center;
-	}
-
-	#inner_update {
-		width: 165px;
-		text-align: center;
-	}
-
 	.btn_link {
 		margin: 0 10px 0 0;
 
@@ -2085,13 +2073,6 @@ table {
 		&_alignment {
 			margin: 0 auto;
 		}
-	}
-
-	.link_list {
-		margin: 0 auto;
-		left: 0;
-		right: 0;
-		justify-content: center;
 	}
 
 	.btn_link {

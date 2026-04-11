@@ -55,6 +55,7 @@
 				p_red: `<p class="gs_text_red"></p>`,
 				img: `<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/9/FgM897Tv5TnhUN7HpKGHjYbXpg.jpg"/></div>`,
 				group: `<div class="gs_group"></div>`,
+				ground_mahjong: `<div class="gs_ground_mahjong"></div>`,
 				anno: `<div class="gs_annotation gs_space-32"><h5 class="gs_annotation_title">Совет</h5><p class="gs_annotation_text">Информация...</p></div>`,
 				table: `<table class="gs_guide_table"><thead><tr><th>Заголовок 1</th><th>Заголовок 2</th></tr></thead><tbody><tr><td>Ячейка 1</td><td>Ячейка 2</td></tr></tbody></table>`,
 			};
@@ -68,6 +69,7 @@
 				{id: "img", n: "🖼️ Картинка"},
 				{id: "table", n: "📊 Таблица"},
 				{id: "group", n: "📦 Группа"},
+				{id: "ground_mahjong", n: "🀄 Группа Mahjong"},
 				{id: "anno", n: "💡 Аннотация"},
 			];
 
@@ -89,9 +91,14 @@
             <div class="floating-toolbar">
                 <button class="ft-btn" onclick="move(event, this, -1)">↑</button>
                 <button class="ft-btn" onclick="move(event, this, 1)">↓</button>
+                
+                <label class="ft-btn" style="display:inline-flex; align-items:center; gap:5px; cursor:pointer; background:rgba(255,255,255,0.1);" onclick="event.stopPropagation()">
+                    <input type="checkbox" onchange="toggleMahjong(this)" style="cursor:pointer;"> mahjong
+                </label>
+
                 <button class="ft-btn primary" onmousedown="event.preventDefault(); formatRed()">🔴 Red</button>
-                <button class="ft-btn" onmousedown="event.preventDefault(); insertBrAtCursor()">↵ Br</button>
-                ${type === "group" ? `<div style="position:relative;display:inline-block"><button class="ft-btn primary" onclick="toggleNest(event, this)">➕ Добавить</button><div class="nested-menu">${menuItems.map((m) => `<button onclick="addNested(event,'${m.id}')">${m.n}</button>`).join("")}</div></div>` : ""}
+                <button class="ft-btn" onmousedown="event.preventDefault(); insertBrAtCursor()">↵ Перенос</button>
+                ${type === "group" || type === "ground_mahjong" ? `<div style="position:relative;display:inline-block"><button class="ft-btn primary" onclick="toggleNest(event, this)">➕ Добавить</button><div class="nested-menu">${menuItems.map((m) => `<button onclick="addNested(event,'${m.id}')">${m.n}</button>`).join("")}</div></div>` : ""}
                 ${type === "table" ? `<button class="ft-btn primary" onclick="addTr(event)">+ Строка</button>` : ""}
                 <button class="ft-btn del" onclick="del(event, this)">✕</button>
             </div>`;
@@ -112,6 +119,27 @@
 				makeEdit(wrapper);
 				target.appendChild(wrapper);
 				setActive(wrapper);
+			}
+
+			function toggleMahjong(checkbox) {
+				const targetElement = checkbox.closest(".block-wrapper").querySelector(".block-content").firstElementChild;
+
+				if (checkbox.checked) {
+					targetElement.classList.add("mahjong");
+					if (targetElement.tagName === "H2" && targetElement.classList.contains("gs_title")) {
+						const img = targetElement.querySelector("img");
+						if (img) img.remove();
+					}
+				} else {
+					targetElement.classList.remove("mahjong");
+					if (targetElement.tagName === "H2" && targetElement.classList.contains("gs_title")) {
+						if (!targetElement.querySelector("img")) {
+							const img = document.createElement("img");
+							img.src = "/Assets/images/GoldSaucer/star.png";
+							targetElement.prepend(img);
+						}
+					}
+				}
 			}
 
 			function setActive(el) {
@@ -182,10 +210,12 @@
 				m.style.display = m.style.display === "flex" ? "none" : "flex";
 			}
 
+			// 4. ИЩЕМ КУДА ДОБАВИТЬ: В GS_GROUP ИЛИ GS_GROUND_MAHJONG
 			function addNested(e, t) {
 				e.stopPropagation();
-				const group = activeBlock.querySelector(".gs_group");
-				if (group) addBlock(t, group);
+				// Ищем контейнер по обоим классам
+				const container = activeBlock.querySelector(".gs_group, .gs_ground_mahjong");
+				if (container) addBlock(t, container);
 			}
 
 			function move(e, b, d) {
@@ -206,6 +236,7 @@
 				if (img) img.src = i.value;
 			}
 
+			// 5. ДОБРАБАТЫВАЕМ ЛОГИКУ ЭКСПОРТА ДЛЯ НОВОГО ТИПА
 			function getCleanHTML(container) {
 				let html = "";
 				const children = container.children;
@@ -219,11 +250,20 @@
 
 					if (!contentBox) continue;
 
-					if (type === "group") {
-						const groupContainer = contentBox.querySelector(".gs_group");
+					// Если это любой из блоков-контейнеров
+					if (type === "group" || type === "ground_mahjong") {
+						const groupContainer = contentBox.querySelector(".gs_group, .gs_ground_mahjong");
+
 						if (groupContainer) {
 							const innerHTML = getCleanHTML(groupContainer);
-							html += `<div class="gs_group">\n${innerHTML}</div>\n`;
+							// Определяем базовый класс для обертки
+							const baseClass = type === "group" ? "gs_group" : "gs_ground_mahjong";
+							// Вытаскиваем все дополнительные классы (например, mahjong)
+							const extraClasses = Array.from(groupContainer.classList)
+								.filter((c) => c !== "gs_group" && c !== "gs_ground_mahjong")
+								.join(" ");
+
+							html += `<div class="${baseClass} ${extraClasses}">\n${innerHTML}</div>\n`;
 						}
 					} else {
 						const temp = document.createElement("div");

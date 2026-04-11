@@ -131,7 +131,7 @@ $(function () {
 	fetch(`${JSON_URLS.UPDATES}?v=${Date.now()}`)
 		.then((response) => response.json())
 		.then((data) => {
-			$("#inner_update").prepend(`<p>Последнее обновление: ${data.lastUpdate} | Патч: ${data.patchVersion}</p>`);
+			$(".link_update").prepend(`Оновление: ${data.lastUpdate} | Патч: ${data.patchVersion}`);
 			$("#patch_info").prepend(
 				`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>
                  Более подробную информацию об изменениях в активных и пассивных умениях можно найти 
@@ -143,7 +143,7 @@ $(function () {
 	const year = new Date().getFullYear();
 	$(".footer_info").html(`
 			<span>FINAL FANTASY XIV © 2010–${year} SQUARE ENIX CO., LTD. All Rights Reserved.</span>
-			<span>FFXIV JobGuide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE">MIT License and CC-BY-NC-SA-4.0</a></span>
+			<span>FFXIV JobGuide RU © 2024–${year} · <a href="https://github.com/Murakumo-JP/FFXIVJobGuideRU/blob/main/LICENSE">MIT License and CC BY-NC-SA 4.0</a></span>
 			<span>
 				All images on the site are the property of SQUARE ENIX© and are used under the
 				<a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">Materials Usage License.</a>
@@ -368,52 +368,52 @@ $(function () {
 	initGlobalSearch("#search", "#results");
 
 	// --- Дебаг ---
-	// const ENABLE_HTML_FIX = true;
-	// const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+	const ENABLE_HTML_FIX = false;
+	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
-	// const fixSingleLink = (el) => {
-	// 	const $el = $(el);
-	// 	const href = $el.attr("href");
-	// 	if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
+	const fixSingleLink = (el) => {
+		const $el = $(el);
+		const href = $el.attr("href");
+		if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
 
-	// 	const [urlPart, hashPart] = href.split("#");
-	// 	const [path, query] = urlPart.split("?");
+		const [urlPart, hashPart] = href.split("#");
+		const [path, query] = urlPart.split("?");
 
-	// 	if (path && !path.endsWith(".html")) {
-	// 		$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
-	// 	}
-	// };
+		if (path && !path.endsWith(".html")) {
+			$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
+		}
+	};
 
-	// if (ENABLE_HTML_FIX && isLocal) {
-	// 	$("a").each(function () {
-	// 		fixSingleLink(this);
-	// 	});
+	if (ENABLE_HTML_FIX && isLocal) {
+		$("a").each(function () {
+			fixSingleLink(this);
+		});
 
-	// 	const observer = new MutationObserver((mutations) => {
-	// 		mutations.forEach((mutation) =>
-	// 			mutation.addedNodes.forEach((node) => {
-	// 				if (node.nodeType === 1) {
-	// 					if (node.nodeName === "A") fixSingleLink(node);
-	// 					$(node)
-	// 						.find("a")
-	// 						.each(function () {
-	// 							fixSingleLink(this);
-	// 						});
-	// 				}
-	// 			})
-	// 		);
-	// 	});
-	// 	observer.observe(document.body, {childList: true, subtree: true});
-	// }
+		const observer = new MutationObserver((mutations) => {
+			mutations.forEach((mutation) =>
+				mutation.addedNodes.forEach((node) => {
+					if (node.nodeType === 1) {
+						if (node.nodeName === "A") fixSingleLink(node);
+						$(node)
+							.find("a")
+							.each(function () {
+								fixSingleLink(this);
+							});
+					}
+				})
+			);
+		});
+		observer.observe(document.body, {childList: true, subtree: true});
+	}
 
-	// $("tr").each(function () {
-	// 	const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
-	// 	const titleText = attrs
-	// 		.map((attr) => $(this).attr(attr))
-	// 		.filter(Boolean)
-	// 		.join(", ");
-	// 	if (titleText) $(this).attr("title", titleText);
-	// });
+	$("tr").each(function () {
+		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
+		const titleText = attrs
+			.map((attr) => $(this).attr(attr))
+			.filter(Boolean)
+			.join(", ");
+		if (titleText) $(this).attr("title", titleText);
+	});
 	// Preloader
 	function hidePreloader() {
 		setTimeout(() => {
@@ -435,4 +435,80 @@ $(function () {
 	} else {
 		$(window).on("load", hidePreloader);
 	}
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+	const mahjongMenu = document.querySelector(".gs_menu_nav");
+	if (!mahjongMenu) return;
+
+	const categories = document.querySelectorAll(".gs_menu_nav_category");
+	const contentBlocks = document.querySelectorAll(".gs_wrapper_nav");
+	const anchorLinks = document.querySelectorAll(".gs_menu_nav_anchor a");
+
+	function activateMenuAndTab(categoryElement, tabId) {
+		categories.forEach((c) => c.classList.remove("active"));
+		document.querySelectorAll(".gs_menu_nav_sub").forEach((sub) => sub.classList.remove("open"));
+
+		if (categoryElement) {
+			categoryElement.classList.add("active");
+			const subMenu = categoryElement.nextElementSibling;
+			if (subMenu && subMenu.classList.contains("gs_menu_nav_sub")) {
+				subMenu.classList.add("open");
+			}
+		}
+
+		if (tabId) {
+			const targetBlock = document.getElementById(tabId);
+			if (targetBlock) {
+				contentBlocks.forEach((b) => b.classList.remove("active"));
+				targetBlock.classList.add("active");
+			}
+		}
+	}
+
+	categories.forEach((category) => {
+		category.addEventListener("click", () => {
+			const targetId = category.getAttribute("data-target");
+			const subMenu = category.nextElementSibling;
+
+			if (category.classList.contains("active")) {
+				if (subMenu && subMenu.classList.contains("gs_menu_nav_sub")) {
+					subMenu.classList.toggle("open");
+				}
+			} else {
+				activateMenuAndTab(category, targetId);
+			}
+		});
+	});
+
+	document.addEventListener("click", (e) => {
+		const link = e.target.closest("a");
+		if (!link) return;
+
+		const href = link.getAttribute("href");
+
+		if (href && href.startsWith("#") && href.length > 1) {
+			const targetElement = document.querySelector(href);
+
+			if (targetElement) {
+				e.preventDefault();
+
+				const parentTab = targetElement.closest(".gs_wrapper_nav");
+
+				if (parentTab) {
+					if (!parentTab.classList.contains("active")) {
+						const category = document.querySelector(`.gs_menu_nav_category[data-target="${parentTab.id}"]`);
+						activateMenuAndTab(category, parentTab.id);
+					}
+
+					targetElement.scrollIntoView({behavior: "smooth"});
+
+					anchorLinks.forEach((l) => l.classList.remove("active"));
+					if (link.closest(".gs_menu_nav_anchor")) {
+						link.classList.add("active");
+					}
+				}
+			}
+		}
+	});
 });
