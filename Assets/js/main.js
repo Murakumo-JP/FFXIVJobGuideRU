@@ -369,7 +369,7 @@ $(function () {
 
 	// --- Дебаг ---
 	const ENABLE_HTML_FIX = true;
-	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+	const isLocal = location.hostname === "localhost";
 
 	const fixSingleLink = (el) => {
 		const $el = $(el);
@@ -436,7 +436,7 @@ $(function () {
 		$(window).on("load", hidePreloader);
 	}
 });
-
+// Menu Mahjong
 document.addEventListener("DOMContentLoaded", () => {
 	const mahjongMenu = document.querySelector(".gs_menu_nav");
 	if (!mahjongMenu) return;

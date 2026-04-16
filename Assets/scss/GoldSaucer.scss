@@ -586,6 +586,20 @@ body.gs_page {
 	&.icon_search_eyes::after {
 		@include gs-icon("https://lds-img.finalfantasyxiv.com/h/C/WseDv1sA93DAc36uxc01gWQsXM.png");
 	}
+	&.mahjong {
+		margin-left: 12px;
+		&:after {
+			content: "";
+			display: block;
+			width: 8px;
+			height: 8px;
+			border-radius: 4px;
+			background: #999999;
+			position: absolute;
+			left: -12px;
+			top: 6px;
+		}
+	}
 }
 
 .gs_icon {
@@ -903,12 +917,31 @@ table {
 }
 /* Маджонг */
 .ga_mahjong {
-	display: flex;
+	display: grid;
+	grid-auto-flow: column;
 }
 .gs_menu_wrapper {
 	width: 320px;
 }
 .gs_menu_nav {
+	position: fixed;
+	&_inner {
+		width: 305px;
+		max-height: 745px;
+		overflow-x: auto;
+		&::-webkit-scrollbar {
+			width: 12px;
+			height: 10px;
+			background-color: transparent;
+			border: 4px solid transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border: 4px solid transparent;
+			background-clip: padding-box;
+			background-color: #585858;
+			border-radius: 15px;
+		}
+	}
 	&_haider {
 		position: relative;
 		color: #59514c;
@@ -966,6 +999,9 @@ table {
 			a {
 				color: #585858;
 				font-weight: bold;
+				&.active {
+					color: #e57e17;
+				}
 			}
 		}
 	}
