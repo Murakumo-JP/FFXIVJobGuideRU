@@ -511,4 +511,38 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		}
 	});
+	const menuPageElement = document.querySelector(".gs_menu_page");
+	if (menuPageElement) {
+		const observerOptions = {
+			root: null,
+			rootMargin: `-48px 0px -100% 0px`,
+			threshold: 0,
+		};
+
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					const elementId = entry.target.id;
+					if (elementId) {
+						anchorLinks.forEach((link) => link.classList.remove("active"));
+						const activeLink = document.querySelector(`.gs_menu_nav_anchor a[href="#${elementId}"]`);
+						if (activeLink) {
+							activeLink.classList.add("active");
+						}
+					}
+				}
+			});
+		}, observerOptions);
+
+		document.querySelectorAll(".gs_menu_nav_anchor a").forEach((link) => {
+			const href = link.getAttribute("href");
+			if (href && href.startsWith("#")) {
+				const targetId = href.substring(1);
+				const targetElement = document.getElementById(targetId);
+				if (targetElement) {
+					observer.observe(targetElement);
+				}
+			}
+		});
+	}
 });
