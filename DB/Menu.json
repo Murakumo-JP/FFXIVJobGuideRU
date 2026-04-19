@@ -50,7 +50,7 @@
 			"name": "Limited Job",
 			"jobs": [
 				{"name": "Blue Mage", "link": "BLU"},
-				{"name": "Beastmaster", "link": "404"}
+				{"name": "Beastmaster", "link": "/", "hidden": "true"}
 			]
 		}
 	],
