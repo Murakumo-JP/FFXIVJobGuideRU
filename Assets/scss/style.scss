@@ -315,7 +315,6 @@ input {
 	}
 
 	&_dps {
-		background-color: #f3f3f3;
 		width: 390px;
 		box-sizing: border-box;
 		float: left;
@@ -373,7 +372,6 @@ input {
 		}
 
 		p {
-			height: 97px;
 			padding: 5px 16px 10px;
 			font-size: 14px;
 			color: #585858;
@@ -455,24 +453,20 @@ input {
 		&:hover > .jobguide_sub_menu {
 			opacity: 1;
 			visibility: visible;
-			top: 40px;
+			top: 48px;
 		}
 	}
 
 	&_sub_menu {
-		width: 156px;
+		width: 160px;
 		margin: 0 auto;
 		position: absolute;
 		background: #f4f5f2;
-		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
-		left: 2px;
 		z-index: 1;
 		padding: 8px 0 5px;
 		transition: all 0.4s;
-
+		border-radius: 0 0 10px 10px;
 		li {
-			width: 156px;
-
 			a p {
 				display: block;
 				padding: 5px 9px;
@@ -481,6 +475,7 @@ input {
 				text-align: left;
 				transition: all 0.3s;
 				position: relative;
+				text-align: center;
 			}
 		}
 	}

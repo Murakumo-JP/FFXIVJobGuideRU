@@ -1687,7 +1687,6 @@ input::placeholder {
   background: var(--dps-color);
 }
 .jobguide_dps {
-  background-color: #f3f3f3;
   width: 390px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1739,7 +1738,6 @@ input::placeholder {
   margin-right: 8px;
 }
 .jobguide_tank_list p, .jobguide_healer_list p, .jobguide_dps_list p {
-  height: 97px;
   padding: 5px 16px 10px;
   font-size: 14px;
   color: #585858;
@@ -1806,23 +1804,18 @@ input::placeholder {
 .jobguide_menu_list:hover > .jobguide_sub_menu {
   opacity: 1;
   visibility: visible;
-  top: 40px;
+  top: 48px;
 }
 .jobguide_sub_menu {
-  width: 156px;
+  width: 160px;
   margin: 0 auto;
   position: absolute;
   background: #f4f5f2;
-  -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
-  left: 2px;
   z-index: 1;
   padding: 8px 0 5px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-}
-.jobguide_sub_menu li {
-  width: 156px;
+  border-radius: 0 0 10px 10px;
 }
 .jobguide_sub_menu li a p {
   display: block;
@@ -1833,6 +1826,7 @@ input::placeholder {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+  text-align: center;
 }
 
 .job_name_menu:hover,

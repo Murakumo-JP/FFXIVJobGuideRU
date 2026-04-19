@@ -46,6 +46,13 @@
 				{"name": "Pictomancer", "link": "PCT"},
 				{"name": "Blue Mage", "link": "BLU"}
 			]
+		},
+		{
+			"name": "Limited Job",
+			"jobs": [
+				{"name": "Blue Mage", "link": "BLU"},
+				{"name": "Beastmaster", "link": "404"}
+			]
 		}
 	],
 	"MenuDoHDoL": [
