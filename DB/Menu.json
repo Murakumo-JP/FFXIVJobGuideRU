@@ -43,8 +43,7 @@
 				{"name": "Black Mage", "link": "BLM"},
 				{"name": "Summoner", "link": "SMN"},
 				{"name": "Red Mage", "link": "RDM"},
-				{"name": "Pictomancer", "link": "PCT"},
-				{"name": "Blue Mage", "link": "BLU"}
+				{"name": "Pictomancer", "link": "PCT"}
 			]
 		},
 		{
