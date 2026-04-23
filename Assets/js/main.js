@@ -275,7 +275,7 @@ $(function () {
 		const $li = $("<li>");
 		const $copy = $("<a>", {class: "copy-link", "data-url": fullUrl}).append($("<img>", {src: `/Assets/images/svg/link.svg`}));
 		const $link = $("<a>", {href: pageUrl, target: "_blank", "db-skill": skill["db-skill"]});
-		const $icon = $("<div>", {class: "icon_search"}).append($("<img>", {src: `/Assets/images/DoWDoM/search/${jobName}/${skill.icon}`, alt: skill.skill, class: "skill-icon"}));
+		const $icon = $("<div>", {class: "icon_search"}).append($("<img>", {src: `https://cdn.ff14jobguide.ru/data/icons/${skill.icon}`, alt: skill.skill, class: "skill-icon"}));
 
 		const $text = $("<div>")
 			.text(`${skill.skill} `)
