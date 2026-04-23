@@ -1,8 +1,8 @@
-const DB_VERSION = "22.12.2025";
-
+const DB_VERSION = "23.04.2026";
+const CDN_URL = "https://cdn.ff14jobguide.ru";
 async function loadUpdateFlags() {
 	try {
-		const url = "https://cdn.ff14jobguide.ru/data/UpdateFlags.json";
+		const url = `${CDN_URL}/data/UpdateFlags.json`;
 		const response = await fetch(`${url}?v=${Date.now()}`);
 		const data = await response.json();
 		return data.flags || {};
@@ -208,7 +208,7 @@ function renderSkill(skill) {
          <div class="skill_wrapper">
             <div class="skill_wrapper_icon">
               <div class="job_skill_icon">
-                 <img src="${skill.skill_icon ?? ""}">
+                 <img src="${CDN_URL}/data/icons/${skill.skill_icon ?? ""}">
               </div>
             </div>
             <p><strong>${skill.name ?? ""}</strong>
@@ -302,7 +302,7 @@ function renderSkillCraft(skill) {
 }
 
 function renderSkillMenu(skill) {
-	return `<p title="${skill.name ?? ""}"></p><img src="${skill.skill_icon ?? ""}">`;
+	return `<p title="${skill.name ?? ""}"></p><img src="${CDN_URL}/data/icons/${skill.skill_icon ?? ""}">`;
 }
 
 function renderValue(value) {

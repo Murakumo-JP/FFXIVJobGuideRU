@@ -115,6 +115,7 @@ const createSVGSnowfall = () => {
 // [3] ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
 // ============================================================================
 $(function () {
+	const ENABLE_HTML_FIX = true;
 	// ---  Активное меню (Фикс бага с includes) ---
 	const currentPath = window.location.pathname.split("/").pop().replace(".html", "") || "index";
 	$(".btn_gs_menu").each(function () {
@@ -368,7 +369,6 @@ $(function () {
 	initGlobalSearch("#search", "#results");
 
 	// --- Дебаг ---
-	const ENABLE_HTML_FIX = false;
 	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
 	const fixSingleLink = (el) => {

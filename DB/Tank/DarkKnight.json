@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Hard Slash",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5c0fef99ef9100285ede6dbc62a5c35cea188d7c.png",
+		"skill_icon": "5c0fef99ef9100285ede6dbc62a5c35cea188d7c.png",
 		"job_icon": "DRK",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -15,7 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Syphon Strike",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e2a305d72e05ef339e0692bd5f7ed9626b6eb9ea.png",
+		"skill_icon": "e2a305d72e05ef339e0692bd5f7ed9626b6eb9ea.png",
 		"job_icon": "DRK",
 		"level": "2",
 		"classification": "Боевой навык",
@@ -29,7 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Unleash",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/600c6a17bd8c4e08c783d1fb8891f12eea132a9a.png",
+		"skill_icon": "600c6a17bd8c4e08c783d1fb8891f12eea132a9a.png",
 		"job_icon": "DRK",
 		"level": "6",
 		"classification": "Заклинание",
@@ -43,7 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Grit",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6d1592d4fcbcafe1e3b0958d688c50346fe2bd4.png",
+		"skill_icon": "b6d1592d4fcbcafe1e3b0958d688c50346fe2bd4.png",
 		"job_icon": "DRK",
 		"level": "10",
 		"classification": "Способность",
@@ -57,7 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Release Grit",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/13a97691011df3c616e3181fd21b5f6805ce5799.png",
+		"skill_icon": "13a97691011df3c616e3181fd21b5f6805ce5799.png",
 		"job_icon": "DRK",
 		"level": "10",
 		"classification": "Способность",
@@ -71,7 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Unmend",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/6203d55695d1cdde37d875f7b4b4253606266ad0.png",
+		"skill_icon": "6203d55695d1cdde37d875f7b4b4253606266ad0.png",
 		"job_icon": "DRK",
 		"level": "15",
 		"classification": "Заклинание",
@@ -85,7 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Souleater",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8c6a197869a69116f52b41b3fef2ce03c29b5212.png",
+		"skill_icon": "8c6a197869a69116f52b41b3fef2ce03c29b5212.png",
 		"job_icon": "DRK",
 		"level": "26",
 		"classification": "Боевой навык",
@@ -100,7 +100,7 @@
 	"PVE Skill 08": {
 		"name": "Flood of Darkness",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f194ac09168/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png",
+		"skill_icon": "438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png",
 		"job_icon": "DRK",
 		"level": "30",
 		"classification": "Способность",
@@ -115,7 +115,7 @@
 	"PVE Skill 09": {
 		"name": "Blood Weapon",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/10d09894be4/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c0c4dd65cec09b11aa7ecfecf6526aff4c59b83f.png",
+		"skill_icon": "c0c4dd65cec09b11aa7ecfecf6526aff4c59b83f.png",
 		"job_icon": "DRK",
 		"level": "35",
 		"classification": "Способность",
@@ -129,7 +129,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Shadow Wall",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7ea7904a9e066bb33d542755b5984ad78c711a45.png",
+		"skill_icon": "7ea7904a9e066bb33d542755b5984ad78c711a45.png",
 		"job_icon": "DRK",
 		"level": "38",
 		"classification": "Способность",
@@ -143,7 +143,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Stalwart Soul",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png",
+		"skill_icon": "cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png",
 		"job_icon": "DRK",
 		"level": "40",
 		"classification": "Заклинание",
@@ -158,7 +158,7 @@
 	"PVE Skill 12": {
 		"name": "Edge of Darkness",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f2ee4d50232/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e62374eb5036fcaa1201fec390bc266620501abe.png",
+		"skill_icon": "e62374eb5036fcaa1201fec390bc266620501abe.png",
 		"job_icon": "DRK",
 		"level": "40",
 		"classification": "Способность",
@@ -172,7 +172,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Dark Mind",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/adb1f756a8cfa746f5ec2f97e487e41c06026a61.png",
+		"skill_icon": "adb1f756a8cfa746f5ec2f97e487e41c06026a61.png",
 		"job_icon": "DRK",
 		"level": "45",
 		"classification": "Способность",
@@ -187,7 +187,7 @@
 	"PVE Skill 14": {
 		"name": "Living Dead",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/90b0a8ee600/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/968fc4ccd880ca468fff7b34680e793a80ffdab1.png",
+		"skill_icon": "968fc4ccd880ca468fff7b34680e793a80ffdab1.png",
 		"job_icon": "DRK",
 		"level": "50",
 		"classification": "Способность",
@@ -202,7 +202,7 @@
 	"PVE Skill 15": {
 		"name": "Salted Earth",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8c3e2f641cea5b3c0693034e6feafeff359341c5.png",
+		"skill_icon": "8c3e2f641cea5b3c0693034e6feafeff359341c5.png",
 		"job_icon": "DRK",
 		"level": "52",
 		"classification": "Способность",
@@ -217,7 +217,7 @@
 	"PVE Skill 16": {
 		"name": "Shadowstride",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/faf66e65690/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/52870f24b14efd37172003e974b8c45ca3d38010.png",
+		"skill_icon": "52870f24b14efd37172003e974b8c45ca3d38010.png",
 		"job_icon": "DRK",
 		"level": "54",
 		"classification": "Способность",
@@ -232,7 +232,7 @@
 	"PVE Skill 17": {
 		"name": "Abyssal Drain",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a5811b59d5/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/17543c65847814b073fe6481402a347c7efc9225.png",
+		"skill_icon": "17543c65847814b073fe6481402a347c7efc9225.png",
 		"job_icon": "DRK",
 		"level": "56",
 		"classification": "Способность",
@@ -247,7 +247,7 @@
 	"PVE Skill 18": {
 		"name": "Carve and Spit",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/af56d79ad63/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/6bbe53b6e1f87598b98967ae9d29e4337a7afadd.png",
+		"skill_icon": "6bbe53b6e1f87598b98967ae9d29e4337a7afadd.png",
 		"job_icon": "DRK",
 		"level": "60",
 		"classification": "Способность",
@@ -261,7 +261,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Bloodspiller",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png",
+		"skill_icon": "4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png",
 		"job_icon": "DRK",
 		"level": "62",
 		"classification": "Боевой навык",
@@ -275,7 +275,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Quietus",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ea30bbaacc0da577820f8b027cec26738c1be840.png",
+		"skill_icon": "ea30bbaacc0da577820f8b027cec26738c1be840.png",
 		"job_icon": "DRK",
 		"level": "64",
 		"classification": "Боевой навык",
@@ -289,7 +289,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Dark Missionary",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png",
+		"skill_icon": "1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png",
 		"job_icon": "DRK",
 		"level": "66",
 		"classification": "Способность",
@@ -303,7 +303,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Delirium",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png",
+		"skill_icon": "fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png",
 		"job_icon": "DRK",
 		"level": "68",
 		"classification": "Способность",
@@ -318,7 +318,7 @@
 	"PVE Skill 23": {
 		"name": "The Blackest Night",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3ff39484d1/\"",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f82c8fbcd6549c8cd72108a937aade172f8b98a8.png",
+		"skill_icon": "f82c8fbcd6549c8cd72108a937aade172f8b98a8.png",
 		"job_icon": "DRK",
 		"level": "70",
 		"classification": "Способность",
@@ -332,7 +332,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Flood of Shadow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/de4960def285cc69e33455acae0f50808a6cd623.png",
+		"skill_icon": "de4960def285cc69e33455acae0f50808a6cd623.png",
 		"job_icon": "DRK",
 		"level": "74",
 		"classification": "Способность",
@@ -346,7 +346,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Edge of Shadow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e4536e75673663bf1b91d1a78a565dabc2f041f6.png",
+		"skill_icon": "e4536e75673663bf1b91d1a78a565dabc2f041f6.png",
 		"job_icon": "DRK",
 		"level": "74",
 		"classification": "Способность",
@@ -360,7 +360,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Living Shadow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5150a7bff7be43d689f896e7be140f4720a23f6e.png",
+		"skill_icon": "5150a7bff7be43d689f896e7be140f4720a23f6e.png",
 		"job_icon": "DRK",
 		"level": "80",
 		"classification": "Способность",
@@ -374,7 +374,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Oblation",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png",
+		"skill_icon": "5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png",
 		"job_icon": "DRK",
 		"level": "82",
 		"classification": "Способность",
@@ -389,7 +389,7 @@
 	"PVE Skill 28": {
 		"name": "Salt and Darkness",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/\"",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bb0216fb548f749ceb5bf25f071af462129be59b.png",
+		"skill_icon": "bb0216fb548f749ceb5bf25f071af462129be59b.png",
 		"job_icon": "DRK",
 		"level": "86",
 		"classification": "Способность",
@@ -403,7 +403,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Shadowbringer",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png",
+		"skill_icon": "bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png",
 		"job_icon": "DRK",
 		"level": "90",
 		"classification": "Способность",
@@ -417,7 +417,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Shadowed Vigil",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/093f2ddb0a06f04a76fe41fd5c31f7fceb46d2ea.png",
+		"skill_icon": "093f2ddb0a06f04a76fe41fd5c31f7fceb46d2ea.png",
 		"job_icon": "DRK",
 		"level": "92",
 		"classification": "Способность",
@@ -431,7 +431,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Scarlet Delirium",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/457d3fa4f25afb9c4494105c0afc15644bbaad7a.png",
+		"skill_icon": "457d3fa4f25afb9c4494105c0afc15644bbaad7a.png",
 		"job_icon": "DRK",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -445,7 +445,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Comeuppance",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cc157e7338d9b4c32f880aed1838519933bc6797.png",
+		"skill_icon": "cc157e7338d9b4c32f880aed1838519933bc6797.png",
 		"job_icon": "DRK",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -459,7 +459,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Torcleaver",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2510476b643976c09c1b42f6eb9f011b7de6902c.png",
+		"skill_icon": "2510476b643976c09c1b42f6eb9f011b7de6902c.png",
 		"job_icon": "DRK",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -473,7 +473,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Impalement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/77ef69ee0efdb439996373d7e47f2744a7604b10.png",
+		"skill_icon": "77ef69ee0efdb439996373d7e47f2744a7604b10.png",
 		"job_icon": "DRK",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -487,7 +487,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Disesteem",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/acf9474555312bfc65c8d4e8e93cf368f819f503.png",
+		"skill_icon": "acf9474555312bfc65c8d4e8e93cf368f819f503.png",
 		"job_icon": "DRK",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -501,98 +501,98 @@
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png",
+		"skill_icon": "b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "DRK",
 		"level": "1",
 		"content": "Снижает получаемый урон на 20%. Повышает максимальный запас HP в зависимости от показателя выносливости (Vitality) и наносимый урон в зависимости от показателя силы (Strength)."
 	},
 	"Trait 02": {
 		"name": "Blackblood",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bf25091f18b1804e88a4a5043ff35dab2cf498a7.png",
+		"skill_icon": "bf25091f18b1804e88a4a5043ff35dab2cf498a7.png",
 		"job_icon": "DRK",
 		"level": "62",
 		"content": "Позволяет заполнять шкалу Blood Gauge после использования определенным умений."
 	},
 	"Trait 03": {
 		"name": "Enhanced Blackblood",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3c5de58c2097300e2c9b56678196ee5a710ffe27.png",
+		"skill_icon": "3c5de58c2097300e2c9b56678196ee5a710ffe27.png",
 		"job_icon": "DRK",
 		"level": "66",
 		"content": "Позволяет заполнять шкалу Blood Gauge после атак с использованием оружия или заклинания под действием эффекта Blood Weapon."
 	},
 	"Trait 04": {
 		"name": "Blood Weapon Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2b189239725408e4ee7807ec361db47974443936.png",
+		"skill_icon": "2b189239725408e4ee7807ec361db47974443936.png",
 		"job_icon": "DRK",
 		"level": "68",
 		"content": "Улучшает умение Blood Weapon до Delirium."
 	},
 	"Trait 05": {
 		"name": "Darkside Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/68800dbdca2c85218b44e9add376f59aa5d41559.png",
+		"skill_icon": "68800dbdca2c85218b44e9add376f59aa5d41559.png",
 		"job_icon": "DRK",
 		"level": "74",
 		"content": "Улучшает умение Flood of Darkness и Edge of Darkness до Flood of Shadow и Edge of Shadow."
 	},
 	"Trait 06": {
 		"name": "Enhanced Unmend",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1254f70083b234ef84a6ad64c9e237231628896f.png",
+		"skill_icon": "1254f70083b234ef84a6ad64c9e237231628896f.png",
 		"job_icon": "DRK",
 		"level": "84",
 		"content": "Сокращает время восстановления Shadowstride на 5 сек. при попадании Unmend по большинству целей."
 	},
 	"Trait 07": {
 		"name": "Melee Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
+		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "DRK",
 		"level": "84",
 		"content": "Повышает силу умений Hard Slash до 180, Syphon Strike до 120 и Souleater до 140."
 	},
 	"Trait 08": {
 		"name": "Enhanced Living Shadow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/14eb5e09a27cad9aca0badada5555013ee2336d0.png",
+		"skill_icon": "14eb5e09a27cad9aca0badada5555013ee2336d0.png",
 		"job_icon": "DRK",
 		"level": "88",
 		"content": "Повышает силу ударов тени до 420."
 	},
 	"Trait 09": {
 		"name": "Enhanced Living Shadow II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5ae34095410649e88aa247fedf9f6478a0e15409.png",
+		"skill_icon": "5ae34095410649e88aa247fedf9f6478a0e15409.png",
 		"job_icon": "DRK",
 		"level": "90",
 		"content": "Улучшает Flood of Shadow, используемое тенью, до Shadowbringer. Это умение наносит удар всем противникам по линии перед собой силой 570 для первого противника и на 25% меньше для всех остальных."
 	},
 	"Trait 10": {
 		"name": "Shadow Wall Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1fb4da21e08c5ee9a06dead1aa6954f0b6a82126.png",
+		"skill_icon": "1fb4da21e08c5ee9a06dead1aa6954f0b6a82126.png",
 		"job_icon": "DRK",
 		"level": "92",
 		"content": "Улучшает умение Shadow Wall до Shadowed Vigil."
 	},
 	"Trait 11": {
 		"name": "Melee Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
+		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "DRK",
 		"level": "94",
 		"content": "Повышает силу умений Hard Slash до 300, Syphon Strike до 240, Souleater до 260, Stalwart Soul до 120, Carve and Spit до 540, Bloodspiller до 600 и Quietus до 240."
 	},
 	"Trait 12": {
 		"name": "Enhanced Delirium",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ebbf5df2554905cdaf3a26d5fe2f02b0ad53b6bb.png",
+		"skill_icon": "ebbf5df2554905cdaf3a26d5fe2f02b0ad53b6bb.png",
 		"job_icon": "DRK",
 		"level": "96",
 		"content": "Улучшает Bloodspiller и Quietus до Scarlet Delirium и Impalement соответственно."
 	},
 	"Trait 13": {
 		"name": "Enhanced Living Shadow III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1cff25d23e5fb4e97a96aee32c8b2e4082c2c516.png",
+		"skill_icon": "1cff25d23e5fb4e97a96aee32c8b2e4082c2c516.png",
 		"job_icon": "DRK",
 		"level": "100",
 		"content": "Накладывает эффект Scorn после использования Living Shadow.<br/>Продолжительность: 30 сек.<br/>Дополнительно улучшает Carve and Spit, используемое тенью, до Disesteem. Это умение наносит удар всем противникам по линии перед собой силой 620 для первого противника и на 25% меньше для остальных."
 	},
 	"PVP Skill 01": {
 		"name": "Hard Slash",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/67e397233e08c3886a8b4e8af9f97578c1df6de1.png",
+		"skill_icon": "67e397233e08c3886a8b4e8af9f97578c1df6de1.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -603,7 +603,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Syphon Strike",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2f14337e0878aed0662297235a0682243dc3b234.png",
+		"skill_icon": "2f14337e0878aed0662297235a0682243dc3b234.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -614,7 +614,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Souleater",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/13f3ceaeef0d6ec12fa91489b100915e78403bcb.png",
+		"skill_icon": "13f3ceaeef0d6ec12fa91489b100915e78403bcb.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -625,7 +625,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Impalement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/270e904cd1e39b3eba028a60820f033a3804eeb0.png",
+		"skill_icon": "270e904cd1e39b3eba028a60820f033a3804eeb0.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -636,7 +636,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Shadowbringer",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/775946c6b9e7bd369a0a68635662781175930c0c.png",
+		"skill_icon": "775946c6b9e7bd369a0a68635662781175930c0c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -647,7 +647,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Plunge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3e7f296d44600715e2bc8c0b5420d7b795afda3e.png",
+		"skill_icon": "3e7f296d44600715e2bc8c0b5420d7b795afda3e.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "12 сек.",
@@ -658,7 +658,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "The Blackest Night",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1ceca4c94f71633fea2d1d23b75384672dd6b82b.png",
+		"skill_icon": "1ceca4c94f71633fea2d1d23b75384672dd6b82b.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -669,7 +669,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Salted Earth",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4e8120ac0d17ab2daeefc27ca75e58a2d7d7da09.png",
+		"skill_icon": "4e8120ac0d17ab2daeefc27ca75e58a2d7d7da09.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "28 сек.",
@@ -680,7 +680,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Scarlet Delirium",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b2f372c47ae3a92ee1d28661065743661c5fa425.png",
+		"skill_icon": "b2f372c47ae3a92ee1d28661065743661c5fa425.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -691,7 +691,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Comeuppance",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/65a3f91205b57d261d3b34b83e419716a77b09b0.png",
+		"skill_icon": "65a3f91205b57d261d3b34b83e419716a77b09b0.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -702,7 +702,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Torcleaver",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/750267df5336356bee1fb6ed174265e6bc3c2496.png",
+		"skill_icon": "750267df5336356bee1fb6ed174265e6bc3c2496.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -713,7 +713,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Salt and Darkness",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5aa3108720c2431e655adb077eb533b60ce21312.png",
+		"skill_icon": "5aa3108720c2431e655adb077eb533b60ce21312.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -724,7 +724,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Disesteem",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5120d2e81e82757f9f84cd9bca7d3983bc7a63b7.png",
+		"skill_icon": "5120d2e81e82757f9f84cd9bca7d3983bc7a63b7.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -735,7 +735,7 @@
 	},
 	"PVP Skill LB": {
 		"name": "Eventide",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2f52efe634939c12aaf8d17525fd4a52a54002f9.png",
+		"skill_icon": "2f52efe634939c12aaf8d17525fd4a52a54002f9.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "0y",

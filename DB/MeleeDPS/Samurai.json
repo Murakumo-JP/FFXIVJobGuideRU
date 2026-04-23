@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Hakaze",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/55c0a798d2db426ad407ab0d506fae3afe14cd1d.png",
+		"skill_icon": "55c0a798d2db426ad407ab0d506fae3afe14cd1d.png",
 		"job_icon": "SAM",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -14,7 +14,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Jinpu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2cdd1c3fa2b166f8da269d9e3241399d3a37f959.png",
+		"skill_icon": "2cdd1c3fa2b166f8da269d9e3241399d3a37f959.png",
 		"job_icon": "SAM",
 		"level": "4",
 		"classification": "Боевой навык",
@@ -27,7 +27,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Third Eye",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3c97e963e92ae242000e51159d9eb749897d8a68.png",
+		"skill_icon": "3c97e963e92ae242000e51159d9eb749897d8a68.png",
 		"job_icon": "SAM",
 		"level": "6",
 		"classification": "Способность",
@@ -40,7 +40,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Enpi",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b2b75c383779cbd254a8bca3dbd30f2490c1d270.png",
+		"skill_icon": "b2b75c383779cbd254a8bca3dbd30f2490c1d270.png",
 		"job_icon": "SAM",
 		"level": "15",
 		"classification": "Боевой навык",
@@ -53,7 +53,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Shifu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/64dcd53611773e2f2c981bc01877937b5331df8c.png",
+		"skill_icon": "64dcd53611773e2f2c981bc01877937b5331df8c.png",
 		"job_icon": "SAM",
 		"level": "18",
 		"classification": "Боевой навык",
@@ -66,7 +66,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Fuga",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5f181040a9d1ef66c6310a307036639fd78ef6c8.png",
+		"skill_icon": "5f181040a9d1ef66c6310a307036639fd78ef6c8.png",
 		"job_icon": "SAM",
 		"level": "26",
 		"classification": "Боевой навык",
@@ -79,7 +79,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Gekko",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/69a82466c03f3531657ce703afb8a399fdd89812.png",
+		"skill_icon": "69a82466c03f3531657ce703afb8a399fdd89812.png",
 		"job_icon": "SAM",
 		"level": "30",
 		"classification": "Боевой навык",
@@ -92,7 +92,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Iaijutsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/64757011257ac3561af53f09ffb47bd76744803d.png",
+		"skill_icon": "64757011257ac3561af53f09ffb47bd76744803d.png",
 		"job_icon": "SAM",
 		"level": "30",
 		"classification": "Боевой навык",
@@ -105,7 +105,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Mangetsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/81e6e44a8a26f2355226894a36dea570ce1d6962.png",
+		"skill_icon": "81e6e44a8a26f2355226894a36dea570ce1d6962.png",
 		"job_icon": "SAM",
 		"level": "35",
 		"classification": "Боевой навык",
@@ -118,7 +118,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Kasha",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8330058e7e147dc2093e838239c2865aea6d6166.png",
+		"skill_icon": "8330058e7e147dc2093e838239c2865aea6d6166.png",
 		"job_icon": "SAM",
 		"level": "40",
 		"classification": "Боевой навык",
@@ -131,7 +131,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Oka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/83caa2b18aa8a589ccdd81b8367452ef73d1e2b2.png",
+		"skill_icon": "83caa2b18aa8a589ccdd81b8367452ef73d1e2b2.png",
 		"job_icon": "SAM",
 		"level": "45",
 		"classification": "Боевой навык",
@@ -144,7 +144,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Yukikaze",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/353a35cad8a1e089d162451dbe5de1fb78f4b0a9.png",
+		"skill_icon": "353a35cad8a1e089d162451dbe5de1fb78f4b0a9.png",
 		"job_icon": "SAM",
 		"level": "50",
 		"classification": "Боевой навык",
@@ -157,7 +157,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Meikyo Shisui",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/13e7fc6c10bb476259ec8d29d086bef49bea509c.png",
+		"skill_icon": "13e7fc6c10bb476259ec8d29d086bef49bea509c.png",
 		"job_icon": "SAM",
 		"level": "50",
 		"classification": "Способность",
@@ -170,7 +170,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Hissatsu: Shinten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c57812e667388d676fd1267d87583aa29c2da2ef.png",
+		"skill_icon": "c57812e667388d676fd1267d87583aa29c2da2ef.png",
 		"job_icon": "SAM",
 		"level": "52",
 		"classification": "Способность",
@@ -183,7 +183,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Hissatsu: Gyoten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/98f63e44032f5b66bbe9f77ad2882e38b42854b3.png",
+		"skill_icon": "98f63e44032f5b66bbe9f77ad2882e38b42854b3.png",
 		"job_icon": "SAM",
 		"level": "54",
 		"classification": "Способность",
@@ -196,7 +196,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Hissatsu: Yaten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f939f0b2b36012cbc5096f6b64a787a8d5f5ed6a.png",
+		"skill_icon": "f939f0b2b36012cbc5096f6b64a787a8d5f5ed6a.png",
 		"job_icon": "SAM",
 		"level": "56",
 		"classification": "Способность",
@@ -210,7 +210,7 @@
 	"PVE Skill 17": {
 		"name": "Meditate",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/5c8e5325725/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4b642f7d616d6ca25a2ac0dfb230cb5f953eebd1.png",
+		"skill_icon": "4b642f7d616d6ca25a2ac0dfb230cb5f953eebd1.png",
 		"job_icon": "SAM",
 		"level": "60",
 		"classification": "Способность",
@@ -223,7 +223,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Hissatsu: Kyuten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b0d5ff90bd65e254949741965c77d50b100b8241.png",
+		"skill_icon": "b0d5ff90bd65e254949741965c77d50b100b8241.png",
 		"job_icon": "SAM",
 		"level": "62",
 		"classification": "Способность",
@@ -236,7 +236,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Hagakure",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/afaf9f6273e5d6a275a84ad286c390d7337cd11d.png",
+		"skill_icon": "afaf9f6273e5d6a275a84ad286c390d7337cd11d.png",
 		"job_icon": "SAM",
 		"level": "68",
 		"classification": "Способность",
@@ -249,7 +249,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Ikishoten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9165fbf83411057b22d8d9c2a5e29dd6fd6fce5c.png",
+		"skill_icon": "9165fbf83411057b22d8d9c2a5e29dd6fd6fce5c.png",
 		"job_icon": "SAM",
 		"level": "68",
 		"classification": "Способность",
@@ -263,7 +263,7 @@
 	"PVE Skill 21": {
 		"name": "Hissatsu: Guren",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/efa0a96cc36/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a6e4fbc47fbb90b64d6a58495cf991f9aad2548b.png",
+		"skill_icon": "a6e4fbc47fbb90b64d6a58495cf991f9aad2548b.png",
 		"job_icon": "SAM",
 		"level": "70",
 		"classification": "Способность",
@@ -276,7 +276,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Hissatsu: Senei",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1812ee8f2135ed92057b767eacbf2469ef0b25ee.png",
+		"skill_icon": "1812ee8f2135ed92057b767eacbf2469ef0b25ee.png",
 		"job_icon": "SAM",
 		"level": "72",
 		"classification": "Способность",
@@ -289,7 +289,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Tsubame-gaeshi",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2aeabf974ab57ac123bc19cacfcd94c3ad86373a.png",
+		"skill_icon": "2aeabf974ab57ac123bc19cacfcd94c3ad86373a.png",
 		"job_icon": "SAM",
 		"level": "74",
 		"classification": "Способность",
@@ -302,7 +302,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Shoha",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1f8f320806d886a35983a5c411ba95ede40072ce.png",
+		"skill_icon": "1f8f320806d886a35983a5c411ba95ede40072ce.png",
 		"job_icon": "SAM",
 		"level": "80",
 		"classification": "Способность",
@@ -315,7 +315,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Tengetsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e19cabdcde1b0f098413243188fac82350642f89.png",
+		"skill_icon": "e19cabdcde1b0f098413243188fac82350642f89.png",
 		"job_icon": "SAM",
 		"level": "82",
 		"classification": "Способность",
@@ -328,7 +328,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Fuko",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/db60b934788a92fdfd9bf4b749c5c7ab80a56d03.png",
+		"skill_icon": "db60b934788a92fdfd9bf4b749c5c7ab80a56d03.png",
 		"job_icon": "SAM",
 		"level": "86",
 		"classification": "Боевой навык",
@@ -341,7 +341,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Ogi Namikiri",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/08d676ac5d79d9f433c8ebc11ff39fa40246ae2b.png",
+		"skill_icon": "08d676ac5d79d9f433c8ebc11ff39fa40246ae2b.png",
 		"job_icon": "SAM",
 		"level": "90",
 		"classification": "Боевой навык",
@@ -354,7 +354,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Kaeshi: Namikiri",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/63536deb9e8a888c17e4b367bff095cc0f3c2740.png",
+		"skill_icon": "63536deb9e8a888c17e4b367bff095cc0f3c2740.png",
 		"job_icon": "SAM",
 		"level": "90",
 		"classification": "Способность",
@@ -367,7 +367,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Gyofu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ddb014de5732830d67f200a551b9e53a5537c3b7.png",
+		"skill_icon": "ddb014de5732830d67f200a551b9e53a5537c3b7.png",
 		"job_icon": "SAM",
 		"level": "92",
 		"classification": "Боевой навык",
@@ -380,7 +380,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Zanshin",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4f7a3ffda80a03425ae8a4001c4f4c2412012047.png",
+		"skill_icon": "4f7a3ffda80a03425ae8a4001c4f4c2412012047.png",
 		"job_icon": "SAM",
 		"level": "96",
 		"classification": "Способность",
@@ -393,7 +393,7 @@
 	},
 	"Jyutsu 01": {
 		"name": "Higanbana",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3db719d146f5af6ef728a9d8d093aa26553ce690.png",
+		"skill_icon": "3db719d146f5af6ef728a9d8d093aa26553ce690.png",
 		"job_icon": "SAM",
 		"level": "30",
 		"classification": "Боевой навык",
@@ -406,7 +406,7 @@
 	},
 	"Jyutsu 02": {
 		"name": "Tenka Goken",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a1e9553412c34a1614a4f9a1ece32becc2463e15.png",
+		"skill_icon": "a1e9553412c34a1614a4f9a1ece32becc2463e15.png",
 		"job_icon": "SAM",
 		"level": "40",
 		"classification": "Боевой навык",
@@ -419,7 +419,7 @@
 	},
 	"Jyutsu 03": {
 		"name": "Midare Setsugekka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2df83ffd6e49570528cb44af4ad17d777722ab1f.png",
+		"skill_icon": "2df83ffd6e49570528cb44af4ad17d777722ab1f.png",
 		"job_icon": "SAM",
 		"level": "50",
 		"classification": "Боевой навык",
@@ -432,7 +432,7 @@
 	},
 	"Jyutsu 04": {
 		"name": "Kaeshi: Goken",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4609d44fb480c238ed73e42eed5cd0b722020341.png",
+		"skill_icon": "4609d44fb480c238ed73e42eed5cd0b722020341.png",
 		"job_icon": "SAM",
 		"level": "74",
 		"classification": "Способность",
@@ -445,7 +445,7 @@
 	},
 	"Jyutsu 05": {
 		"name": "Kaeshi: Setsugekka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3a733f5ba1130d94fdef4b1e58f7cab9188ded4b.png",
+		"skill_icon": "3a733f5ba1130d94fdef4b1e58f7cab9188ded4b.png",
 		"job_icon": "SAM",
 		"level": "74",
 		"classification": "Способность",
@@ -458,7 +458,7 @@
 	},
 	"Jyutsu 06": {
 		"name": "Tendo Goken",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e2af5b5515a9ffc966a94097a466bd7aaf2376e4.png",
+		"skill_icon": "e2af5b5515a9ffc966a94097a466bd7aaf2376e4.png",
 		"job_icon": "SAM",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -471,7 +471,7 @@
 	},
 	"Jyutsu 07": {
 		"name": "Tendo Setsugekka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e4a2a3e87d6208ffe851e7555665b840b1a76f10.png",
+		"skill_icon": "e4a2a3e87d6208ffe851e7555665b840b1a76f10.png",
 		"job_icon": "SAM",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -484,7 +484,7 @@
 	},
 	"Jyutsu 08": {
 		"name": "Tendo Kaeshi Goken",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/07fe16cdbe1915f02ba048c0f4ce6980f74efdee.png",
+		"skill_icon": "07fe16cdbe1915f02ba048c0f4ce6980f74efdee.png",
 		"job_icon": "SAM",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -497,7 +497,7 @@
 	},
 	"Jyutsu 09": {
 		"name": "Tendo Kaeshi Setsugekka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/210010f360b4b0d0e9f8362352abf579ea8baad5.png",
+		"skill_icon": "210010f360b4b0d0e9f8362352abf579ea8baad5.png",
 		"job_icon": "SAM",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -510,112 +510,112 @@
 	},
 	"Trait 01": {
 		"name": "Kenki Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/61100cfbd684bff162dc7c9c39eeaaa3f0d96c26.png",
+		"skill_icon": "61100cfbd684bff162dc7c9c39eeaaa3f0d96c26.png",
 		"job_icon": "SAM",
 		"level": "52",
 		"content": "Восполняет Kenki Gauge при использовании определенных боевых навыков или при получении урона под эффектом Third Eye."
 	},
 	"Trait 02": {
 		"name": "Kenki Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/845bef194008ec4a881c27dd5871ec567eb45d39.png",
+		"skill_icon": "845bef194008ec4a881c27dd5871ec567eb45d39.png",
 		"job_icon": "SAM",
 		"level": "62",
 		"content": "Восполняет Kenki Gauge после использования всех боевых навыков, исключая Iaijutsu."
 	},
 	"Trait 03": {
 		"name": "Way of the Samurai",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
+		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "SAM",
 		"level": "66",
 		"content": "Увеличивает силу атаки Hakaze до 200, Jinpu до 120 и Shifu до 120."
 	},
 	"Trait 04": {
 		"name": "Enhanced Iaijutsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c54d56abfcd872e0c91d3759851982328da139d2.png",
+		"skill_icon": "c54d56abfcd872e0c91d3759851982328da139d2.png",
 		"job_icon": "SAM",
 		"level": "74",
 		"content": "Уменьшает время использования Iaijutsu до 1.3 сек.<br/>Дополнительный эффект: накладывает эффект Tsubame-gaeshi Ready<br/>Продолжительность: 30 сек."
 	},
 	"Trait 05": {
 		"name": "Enhanced Meikyo Shisui",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1651419c5c39dd98ff974b56f6b0a9942a13b473.png",
+		"skill_icon": "1651419c5c39dd98ff974b56f6b0a9942a13b473.png",
 		"job_icon": "SAM",
 		"level": "76",
 		"content": "Позволяет накапливать заряды для последовательного использования Meikyo Shisui.<br/>Максимум зарядов: 2"
 	},
 	"Trait 06": {
 		"name": "Enhanced Fugetsu and Fuka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/976f373fc969a791206bc0fd6a8f7da24279052d.png",
+		"skill_icon": "976f373fc969a791206bc0fd6a8f7da24279052d.png",
 		"job_icon": "SAM",
 		"level": "78",
 		"content": "Увеличивает урон Fugetsu на 13%, а Fuka уменьшает время длительности применения и время восстановления боевых навыков и заклинаний, а также промежуток между авто атаками на 13%."
 	},
 	"Trait 07": {
 		"name": "Third Eye Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3b709028b6e355c5ae928635159c7201b101d401.png",
+		"skill_icon": "3b709028b6e355c5ae928635159c7201b101d401.png",
 		"job_icon": "SAM",
 		"level": "84",
 		"content": "Улучшает умение Third Eye до Tengetsu."
 	},
 	"Trait 08": {
 		"name": "Way of the Samurai II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/eb2173170fff9f761a656135293703a149717ede.png",
+		"skill_icon": "eb2173170fff9f761a656135293703a149717ede.png",
 		"job_icon": "SAM",
 		"level": "84",
 		"content": "Увеличивает силу атаки Gekko, Kasha и Yukikaze до 120."
 	},
 	"Trait 09": {
 		"name": "Fuga Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/424690aa05325ca6f9e0235cec0805bb500aec0a.png",
+		"skill_icon": "424690aa05325ca6f9e0235cec0805bb500aec0a.png",
 		"job_icon": "SAM",
 		"level": "86",
 		"content": "Улучшает умение Fuga до Fuko."
 	},
 	"Trait 10": {
 		"name": "Enhanced Ikishoten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0a505b3bd0761c6075c5e0d9564fe6c4a54d8f70.png",
+		"skill_icon": "0a505b3bd0761c6075c5e0d9564fe6c4a54d8f70.png",
 		"job_icon": "SAM",
 		"level": "90",
 		"content": "Накладывает Ogi Namikiri Ready после использования Ikishoten.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 11": {
 		"name": "Hakaze Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1035949594b931728b2aa142259f98c75f1e104f.png",
+		"skill_icon": "1035949594b931728b2aa142259f98c75f1e104f.png",
 		"job_icon": "SAM",
 		"level": "92",
 		"content": "Улучшает умение Hakaze до Gyofu."
 	},
 	"Trait 12": {
 		"name": "Enhanced Hissatsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ffe8bda1216028de5c987ce9d6721a1eb8e5dea8.png",
+		"skill_icon": "ffe8bda1216028de5c987ce9d6721a1eb8e5dea8.png",
 		"job_icon": "SAM",
 		"level": "94",
 		"content": "Уменьшает время восстановления Hissatsu: Guren and Hissatsu: Senei до 60 секунд."
 	},
 	"Trait 13": {
 		"name": "Way of the Samurai III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png",
+		"skill_icon": "76ee293b5a8fae7dd16716bc05d79216ef2689a9.png",
 		"job_icon": "SAM",
 		"level": "94",
 		"content": "Увеличивает силу атаки Jinpu до 140, Shifu до 140, Enhanced Enpi до 270, Gekko до 160, Higanbana урон с течением времени до 50, Kasha до 160, Yukikaze до 160, Midare Setsugekka до 640, Kaeshi: Setsugekka до 640, Shoha до 640, Ogi Namikiri до 1,000 и Kaeshi: Namikiri до 1,000."
 	},
 	"Trait 14": {
 		"name": "Enhanced Ikishoten II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6efd3bb5cbe5bad60fee0cb0e2dc1e44a352ec5.png",
+		"skill_icon": "b6efd3bb5cbe5bad60fee0cb0e2dc1e44a352ec5.png",
 		"job_icon": "SAM",
 		"level": "96",
 		"content": "Накладывает эффект Zanshin Ready после использования Ikishoten.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 15": {
 		"name": "Enhanced Meikyo Shisui II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/114c9dbe00b13a2221cad88744b8c10f5ee6a724.png",
+		"skill_icon": "114c9dbe00b13a2221cad88744b8c10f5ee6a724.png",
 		"job_icon": "SAM",
 		"level": "100",
 		"content": "Накладывает эффект Tendo после использования Meikyo Shisui.<br/>Продолжительность: 30 сек.<br/>Tenka Goken меняется на Tendo Goken, а Midare Setsugekka - на Tendo Setsugekka под действием Tendo."
 	},
 	"PVP Skill 01": {
 		"name": "Yukikaze",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4550282f1053e01184225a9ebebfbd33bbe5cc82.png",
+		"skill_icon": "4550282f1053e01184225a9ebebfbd33bbe5cc82.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -626,7 +626,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Gekko",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7e2fec945f14e98f42ab2722c491576d938e630d.png",
+		"skill_icon": "7e2fec945f14e98f42ab2722c491576d938e630d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -637,7 +637,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Kasha",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/01a57cd74642c830b68cd1cf56fe16a93e71ef74.png",
+		"skill_icon": "01a57cd74642c830b68cd1cf56fe16a93e71ef74.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -648,7 +648,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Ogi Namikiri",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2ae0363856a5ee2cf457d107dee97b25d53ae416.png",
+		"skill_icon": "2ae0363856a5ee2cf457d107dee97b25d53ae416.png",
 		"classification": "Боевой навык",
 		"cast": "1.3 сек.",
 		"recast": "16 сек.",
@@ -659,7 +659,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Hissatsu: Soten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4319cb6547b05b752ade2cd29a192146e77770fb.png",
+		"skill_icon": "4319cb6547b05b752ade2cd29a192146e77770fb.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -670,7 +670,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Hissatsu: Chiten",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2f482255082d1bbb81b74609b8d3f374073e2f30.png",
+		"skill_icon": "2f482255082d1bbb81b74609b8d3f374073e2f30.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "24 сек.",
@@ -681,7 +681,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Mineuchi",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c73a2812a60a1d4905999e4ed74619e7319449b7.png",
+		"skill_icon": "c73a2812a60a1d4905999e4ed74619e7319449b7.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -692,7 +692,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Meikyo Shisui",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0e7c1775565b0143c3a89d14f0d700db42893691.png",
+		"skill_icon": "0e7c1775565b0143c3a89d14f0d700db42893691.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -703,7 +703,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Hyosetsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/79456c6255deea729d1bc1637362c55d9e2ac996.png",
+		"skill_icon": "79456c6255deea729d1bc1637362c55d9e2ac996.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "1.76 сек.",
@@ -714,7 +714,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Mangetsu",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3a4302dbe77ba8ab0c294a18ae2ed7ae2122c4df.png",
+		"skill_icon": "3a4302dbe77ba8ab0c294a18ae2ed7ae2122c4df.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "1.76 сек.",
@@ -725,7 +725,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Oka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2177f5db1158be2e88d7bb12c44dee594c64ccbb.png",
+		"skill_icon": "2177f5db1158be2e88d7bb12c44dee594c64ccbb.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "1.76 сек.",
@@ -736,7 +736,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Kaeshi: Namikiri",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/511537fac5a52af6263ec710e0f44f3bacb27d12.png",
+		"skill_icon": "511537fac5a52af6263ec710e0f44f3bacb27d12.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -747,7 +747,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Zanshin",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ed4f935138c8c57110c9da759c0abc5705ce7897.png",
+		"skill_icon": "ed4f935138c8c57110c9da759c0abc5705ce7897.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -758,7 +758,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Tendo Setsugekka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c12ec9df624ff32ab0256e5b4071efceda155c59.png",
+		"skill_icon": "c12ec9df624ff32ab0256e5b4071efceda155c59.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -769,7 +769,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Tendo Kaeshi Setsugekka",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bea197afe726c45444939606070c194a668cc399.png",
+		"skill_icon": "bea197afe726c45444939606070c194a668cc399.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -780,7 +780,7 @@
 	},
 	"PVP Skill LB": {
 		"name": "Zantetsuken",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png",
+		"skill_icon": "ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "20y",

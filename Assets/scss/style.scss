@@ -1,11 +1,11 @@
 @charset "UTF-8";
+@use "modules/variables" as *;
 @use "modules/image" as *;
 @use "modules/mixins" as *;
 @use "modules/preloader" as *;
 @use "modules/main_app" as *;
 @use "modules/search" as *;
 @use "modules/combo" as *;
-@use "modules/variables" as *;
 @use "modules/menu" as *;
 
 #job_none {
@@ -2015,3 +2015,14 @@ table {
 		}
 	}
 }
+// Test
+// .jobguide_tank_list p {
+// 	background: linear-gradient(to bottom, var(--tank-color), transparent);
+// 	color: white;
+// 	text-shadow: 0px 0px 5px #000000;
+// }
+// .jobguide_healer_list p {
+// 	background: linear-gradient(to bottom, var(--healer-color), transparent);
+// 	color: white;
+// 	text-shadow: 0px 0px 5px #000000;
+// }
