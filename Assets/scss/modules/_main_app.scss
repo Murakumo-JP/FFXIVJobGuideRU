@@ -19,8 +19,8 @@
 	height: 500px;
 
 	&_inner {
-		width: 960px;
-		height: 500px;
+		max-width: 960px;
+		width: 100%;
 		margin: 0 auto;
 		position: relative;
 	}
