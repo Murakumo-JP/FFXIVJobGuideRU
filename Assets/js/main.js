@@ -1,17 +1,22 @@
 // ============================================================================
-// [1] ГЛОБАЛЬНЫЕ КОНСТАНТЫ И НАСТРОЙКИ
+// НАСТРОЙКИ
 // ============================================================================
+
+// Тест для дебага
+// const isLocal = location.hostname === "localhost";
+// const cdnBase = isLocal ? "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/Patch-7.5" : "https://cdn.ff14jobguide.ru";
+
+const cdnBase = "https://cdn.ff14jobguide.ru";
 const JSON_URLS = {
-	UPDATES: "https://cdn.ff14jobguide.ru/data/UpdatesPatch.json",
+	UPDATES: `${cdnBase}/data/UpdatesPatch.json`,
 	MENU: "/DB/Menu.json",
-	SEARCH: "https://cdn.ff14jobguide.ru/data/GlobalSearch.json",
+	SEARCH: `${cdnBase}/data/GlobalSearch.json`,
 };
 
-const PAGES_PATH = "/Page/";
 let jsonData = [];
 
 // ============================================================================
-// [2] ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
+// ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
 // ============================================================================
 const lockScroll = () => $("body").addClass("no-scroll");
 const unlockScroll = () => $("body").removeClass("no-scroll");
@@ -112,11 +117,11 @@ const createSVGSnowfall = () => {
 // createSVGSnowfall();
 
 // ============================================================================
-// [3] ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
+// ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
 // ============================================================================
 $(function () {
 	const ENABLE_HTML_FIX = true;
-	// ---  Активное меню (Фикс бага с includes) ---
+	// ---  Активное меню ---
 	const currentPath = window.location.pathname.split("/").pop().replace(".html", "") || "index";
 	$(".btn_gs_menu").each(function () {
 		const href = $(this).attr("href");
@@ -260,7 +265,7 @@ $(function () {
 		});
 	}
 
-	// --- Глобальный Поиск (Загрузка и логика) ---
+	// --- Глобальный Поиск ---
 	$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, (data) => {
 		jsonData = data;
 		jsonData.forEach((job) => job.skills.forEach((skill) => (skill._search = skill.skill.toLowerCase())));
@@ -269,7 +274,7 @@ $(function () {
 	const createItem = (job, skill) => {
 		const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
 		const encodedSkill = safeBtoa(skill["db-skill"]);
-		const pageUrl = `${PAGES_PATH}${job.page_job}?skill=${encodedSkill}`;
+		const pageUrl = `/Page/${job.page_job}?skill=${encodedSkill}`;
 		const fullUrl = location.origin + pageUrl;
 
 		const $li = $("<li>");
@@ -436,7 +441,9 @@ $(function () {
 		$(window).on("load", hidePreloader);
 	}
 });
-
+// ============================================================================
+// ГОЛД СОРСЕР МЕНЮ
+// ============================================================================
 document.addEventListener("DOMContentLoaded", () => {
 	const mahjongMenu = document.querySelector(".gs_menu_nav");
 	if (!mahjongMenu) return;
