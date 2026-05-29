@@ -202,13 +202,22 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	}
 }
 
+function getIconUrl(iconPath) {
+	if (!iconPath) return "";
+	if (iconPath.startsWith("/") || iconPath.startsWith("http")) {
+		return iconPath;
+	}
+	return `${CDN_URL}/data/icons/${iconPath}`;
+}
+
 function renderSkill(skill) {
+	const iconPath = getIconUrl(skill.skill_icon);
 	let html = `
       <td class="skill">
          <div class="skill_wrapper">
             <div class="skill_wrapper_icon">
               <div class="job_skill_icon">
-                 <img src="${CDN_URL}/data/icons/${skill.skill_icon ?? ""}">
+                 <img src="${iconPath}">
               </div>
             </div>
             <p><strong>${skill.name ?? ""}</strong>
@@ -302,7 +311,7 @@ function renderSkillCraft(skill) {
 }
 
 function renderSkillMenu(skill) {
-	return `<p title="${skill.name ?? ""}"></p><img src="${CDN_URL}/data/icons/${skill.skill_icon ?? ""}">`;
+	return `<p title="${skill.name ?? ""}"></p><img src="${getIconUrl(skill.skill_icon)}">`;
 }
 
 function renderValue(value) {
