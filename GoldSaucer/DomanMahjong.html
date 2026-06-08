@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Gold Saucer: Doman Mahjong | FFXIV RU</title>
+		<link rel="shortcut icon" type="image/png" sizes="16x16" href="/Assets/images/icon/icon-16x16.png" />
+		<link rel="shortcut icon" type="image/png" sizes="32x32" href="/Assets/images/icon/icon-32x32.png" />
+		<link rel="shortcut icon" type="image/png" sizes="48x48" href="/Assets/images/icon/icon-48x48.png" />
+		<link rel="shortcut icon" type="image/png" sizes="64x64" href="/Assets/images/icon/icon-64x64.png" />
+		<link rel="shortcut icon" type="image/png" sizes="128x128" href="/Assets/images/icon/icon-128x128.png" />
+		<link rel="manifest" href="/manifest.json" />
+		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<link rel="stylesheet" href="/Assets/css/GoldSaucer.min.css" />
+		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-Y6M41KEYQX');
+      </script> -->
+	</head>
+	<body class="gs_page">
+		<div id="page-preloader" class="preloader">
+			<div class="seal-container">
+				<img src="/Assets/images/ffxiv_logo.png" class="loader-logo" alt="Logo" />
+				<div class="seal-ring ring-1"></div>
+				<div class="seal-ring ring-2"></div>
+			</div>
+			<div class="loader-text">Загрузка...</div>
+		</div>
+		<!-- Menu -->
+		<div class="gs_menu_page">
+			<div class="gs_menu_page_pos">
+				<div class="gs_menu_page_inner">
+					<a class="btn_gs_menu btn_svg" href="/GoldSaucer">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path style="fill: #4769b3" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+						</svg>
+					</a>
+					<a class="btn_gs_menu" href="ChocoboRacing">Chocobo Racing</a>
+					<a class="btn_gs_menu" href="TripleTriad">Triple Triad</a>
+					<a class="btn_gs_menu" href="Lord-of-Verminion">Lord of Verminion</a>
+					<a class="btn_gs_menu" href="DomanMahjong">Doman Mahjong</a>
+					<a class="btn_gs_menu" href="FashionReport">Fashion Report</a>
+					<a class="btn_gs_menu" href="Cactpot">Cactpot</a>
+					<a class="btn_gs_menu" href="Gate">GATE</a>
+					<a class="btn_gs_menu" href="Mini-games">Mini-games</a>
+				</div>
+			</div>
+		</div>
+		<div class="gs_content_wrapper ga_mahjong">
+			<div class="gs_menu_wrapper">
+				<nav class="gs_menu_nav">
+					<div class="gs_menu_nav_inner">
+						<h2 class="gs_menu_nav_haider">Тест</h2>
+						<div class="gs_menu_nav_list">
+							<div class="gs_menu_nav_category active" data-target="content-rules"><span>Mahjong Rules</span></div>
+							<div class="gs_menu_nav_sub open">
+								<ul class="gs_menu_nav_anchor">
+									<li><a class="active" href="#MahjongRules_001">1. Introduction</a></li>
+									<li><a href="#MahjongRules_002">2. What is Doman Mahjong?</a></li>
+									<li><a href="#MahjongRules_003">3. The Tiles</a></li>
+									<li><a href="#MahjongRules_004">4. Forming Melds</a></li>
+									<li><a href="#MahjongRules_005">5. Order of Play</a></li>
+									<li><a href="#MahjongRules_006">6. Points for a Winning Hand</a></li>
+									<li><a href="#MahjongRules_007">7. Yaku, Required for a Winning Hand</a></li>
+									<li><a href="#MahjongRules_008">8. Basic Yaku</a></li>
+									<li><a href="#MahjongRules_009">9. Riichi Yaku</a></li>
+									<li><a href="#MahjongRules_010">10. Yaku Tiles</a></li>
+									<li><a href="#MahjongRules_011">11. Pon and Chi</a></li>
+									<li><a href="#MahjongRules_012">12. Dora Bonuses</a></li>
+									<li><a href="#MahjongRules_013">13. Kan</a></li>
+									<li><a href="#MahjongRules_014">14. Learn by Playing</a></li>
+								</ul>
+							</div>
+							<div class="gs_menu_nav_category" data-target="content-match"><span>Starting a Match</span></div>
+							<div class="gs_menu_nav_sub">
+								<ul class="gs_menu_nav_anchor">
+									<li><a href="#playguide">Requirements</a></li>
+									<li><a href="#anchor_003">NPC Matches</a></li>
+									<li><a href="#anchor_004">Player Matches</a></li>
+									<li><a href="#anchor_005">Support Features</a></li>
+									<li><a href="#anchor_006">Checking Ratings and Settings</a></li>
+								</ul>
+							</div>
+							<div class="gs_menu_nav_category" data-target="content-navigate"><span>Navigating the Screen</span></div>
+							<div class="gs_menu_nav_category"><span>Playing with Character Voices</span></div>
+						</div>
+						<h2 class="gs_menu_nav_haider">Тест</h2>
+						<div class="gs_menu_nav_list">
+							<div class="gs_menu_nav_category"><span>Doman Mahjong Terms</span></div>
+							<div class="gs_menu_nav_sub">
+								<ul class="gs_menu_nav_anchor">
+									<li><a href="#playguide">Tile Names</a></li>
+									<li><a href="#anchor_002">Player Actions</a></li>
+									<li><a href="#anchor_003">Melds</a></li>
+								</ul>
+							</div>
+							<div class="gs_menu_nav_category" data-target="content-yaku"><span>Yaku</span></div>
+							<div class="gs_menu_nav_sub">
+								<ul class="gs_menu_nav_anchor">
+									<li><a href="#playguide">Basic Yaku</a></li>
+									<li><a href="#anchor_002">Number Tile Yaku</a></li>
+									<li><a href="#anchor_003">Yaku Using Character Tiles</a></li>
+									<li><a href="#anchor_004">Yaku Using Matching Tiles</a></li>
+									<li><a href="#anchor_005">Special Yaku</a></li>
+									<li><a href="#anchor_006">Yakuman</a></li>
+								</ul>
+							</div>
+							<div class="gs_menu_nav_category no_icon"><span>Points to Remember</span></div>
+							<div class="gs_menu_nav_category no_icon"><span>Advanced Rules</span></div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="gs_wrapper">
+				<!-- Mahjong Rules -->
+				<div class="gs_wrapper_nav active" id="content-rules">
+					<div class="gs_wrapper_images">
+						<img src="/Assets/images/GoldSaucer/doman_mahjong_long.png" />
+					</div>
+					<p class="gs_text_mahjong">
+						The ancient Doman game of mahjong joins the entertainment on offer at the Gold Saucer. Face off against your fellow adventurers or practice against automata, and hone your strategies to triumph in this contest of wits!
+					</p>
+					<h2 class="gs_title mahjong" id="anchor_001">Mahjong Rules</h2>
+					<h3 class="gs_circle" id="MahjongRules_001">1. Introduction</h3>
+					<p class="gs_text_default mahjong">Doman mahjong is a game for four players. The following guide covers the basic rules.</p>
+					<h3 class="gs_circle" id="MahjongRules_002">2. What is Doman Mahjong?</h3>
+					<p class="gs_text_default mahjong">
+						In Doman mahjong, players race to complete a winning hand of 14 tiles, with points awarded for speed and difficulty of the hand.
+						<br />
+						Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard: either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the
+						end of the hand.
+						<br />
+						<br />
+						The first player to complete a winning hand is awarded points. A total of eight hands are played in a full match and four in a quick match, and the player who finishes with the most points is declared the winner.
+						<br />
+						Here is an example of a winning hand:
+					</p>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/P/rfR5e0BiBYLJRf0OKzlUZp5Q8M.png" /></div>
+					<p class="gs_text_default mahjong">
+						The 14 tiles form
+						<span class="gs_text_red">four groups of three tiles and one pair of matching tiles.</span>
+						A group of tiles is known as a "meld," and the various types are explained in this guide. The combination of melds determines the difficulty of the hand and the points awarded when winning.
+					</p>
+					<h3 class="gs_circle" id="MahjongRules_003">3. The Tiles</h3>
+					<p class="gs_text_default mahjong">Mahjong tiles are divided into "number tiles" and "honor tiles."</p>
+					<h4 class="gs_sm_head">Number Tiles</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/j/-n1S1LG5lADepdYN3uYLNE9TFU.png" /></div>
+					<p class="gs_text_default mahjong">There are three suits of number tiles, each ranging from 1 to 9.</p>
+					<h4 class="gs_sm_head">Honor Tiles</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/6/iINcr4ym8kLmTfqA1oOiRs_QvI.png" /></div>
+					<p class="gs_text_default mahjong">
+						There are two suits of honor tiles: the four wind tiles and the three dragon tiles. Unlike number tiles, they appear in no particular sequence, and therefore cannot be used to form straights. They can only form melds with identical tiles.
+					</p>
+					<div class="gs_ground_mahjong">
+						<p class="gs_text_red">
+							* You can choose from Doman or traditional tile sets.
+							<br />
+							See
+							<a class="gs_link" href="#anchor_006">Checking Ratings and Settings</a>
+							for details.
+						</p>
+					</div>
+					<p class="gs_text_default mahjong">There are 34 varieties of tile, with four of each for a total of 136.</p>
+					<p class="gs_text_default mahjong"><span class="gs_text_red">Players aim to form a winning hand of 14 tiles before the other players and earn as many points as possible.</span></p>
+					<h3 class="gs_circle" id="MahjongRules_004">4. Forming Melds</h3>
+					<h4 class="gs_sm_head">Straights</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/L/asNT8CVeuE2ePpZavp14mEMsTg.png" /></div>
+					<p class="gs_text_default mahjong">Number tiles may form straights such as 2, 3, 4 or 4, 5, 6, provided the tiles are all in the same suit. However, sequences such as 8, 9, 1 or 9, 1, 2 are not permitted.</p>
+					<h4 class="gs_sm_head">Triplets</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/X/aRs9PX5KT0I_YHN759t4jcqQjI.png" /></div>
+					<p class="gs_text_default mahjong">
+						Number tiles and honor tiles can also form matching triplets with identical tiles.
+						<br />
+						<br />
+						A winning hand consists of 14 tiles and requires four melds and one matching pair.
+					</p>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/l/0aoxoPU3FrX0-1-IC4Z7QhqsTg.png" /></div>
+					<p class="gs_text_default mahjong"><span class="gs_text_red">* There are special combinations that ignore this particular rule, but beginners should focus on learning the basic hands first.</span></p>
+					<h3 class="gs_circle" id="MahjongRules_005">5. Order of Play</h3>
+					<p class="gs_text_default mahjong">
+						Each of the four players begins with 13 tiles, and the dealer─who is chosen automatically─plays first. That player draws one new tile and chooses one tile to discard. This may either be the new tile or one from their hand.
+						<br />
+						Once that player has discarded a tile, the player to the right takes a turn. This process is repeated until the end of the hand.
+						<br />
+						The hand ends when a player calls a winning hand. The hand also ends if all of the tiles are drawn with no player calling a winning hand.
+					</p>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/g/eEiNU7NPgT7mysGf4mM4E89Wd8.png" /></div>
+					<p class="gs_text_default mahjong">
+						At the start of a new hand, the role of dealer passes to the player on the right. In a full match, a round consists of eight hands, during which time the role of dealer passes around the board twice. The player with the highest score at
+						the end of the round is declared the winner. In a quick match, only four hands are played.
+					</p>
+					<h3 class="gs_circle" id="MahjongRules_006">6. Points for a Winning Hand</h3>
+					<p class="gs_text_default mahjong">
+						Each player begins the game with 25,000 points, which increase when calling a winning hand. However, points may be deducted when another player calls a winning hand.
+						<br />
+						<br />
+						A winning hand can be formed in one of two ways:
+					</p>
+					<h4 class="gs_sm_head">1. Tsumo: When a tile is drawn</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/y/nQCOMnhW3DKx0tdP2wS6qsrmLk.png" /></div>
+					<p class="gs_text_default mahjong">
+						When a winning hand is formed with a tile drawn by the player, the point value is calculated. This is divided between the other three players, who each pay an even share.
+						<br />
+						If the dealer calls a winning hand, the point value is increased by 50%.
+						<br />
+						If the dealer has to pay another player, they must pay double.
+					</p>
+					<h4 class="gs_sm_head">2. Ron: When another player discards a tile</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/K/_anKX6M440vLNQmLIVyq1lesmA.png" /></div>
+					<p class="gs_text_default mahjong">
+						If a player discards a tile that allows another player to form a winning hand, only the player that discarded the tile must pay.
+						<br />
+						When the dealer forms a winning hand in this manner, the point value is increased by 50%. However, if the dealer is the player who discarded the tile, only the standard amount is paid.
+						<br />
+						<br />
+						The dealer has the advantage of earning 50% more points from a winning hand. In addition, when a dealer calls the winning hand, the role of dealer does not pass to the next player, thus giving the dealer an opportunity to score even more
+						points.
+					</p>
+					<h3 class="gs_circle" id="MahjongRules_007">7. Yaku, Required for a Winning Hand</h3>
+					<p class="gs_text_default">
+						As mahjong revolves around scoring as many points as possible, it is important to know the difference between low-scoring and high-scoring hands.
+						<br />
+						The value of a hand is determined by "yaku"─specific combinations of melds. The value of each yaku is measured in "han," with 6 han being the highest and 1 han the lowest. The harder the yaku is to form, the more han it is worth.
+						<br />
+						The han value of the hand is used to calculate the number of points awarded. Points are awarded as follows:
+					</p>
+					<table class="gs_guide_table">
+						<tbody>
+							<tr>
+								<td>1 Han</td>
+								<td>1,000 Points</td>
+							</tr>
+							<tr>
+								<td>2 Han</td>
+								<td>2,000 Points</td>
+							</tr>
+							<tr>
+								<td>3 Han</td>
+								<td>3,900 Points</td>
+							</tr>
+							<tr>
+								<td>
+									4 Han
+									<br />
+									5 Han
+								</td>
+								<td>8,000 Points</td>
+							</tr>
+							<tr>
+								<td>
+									6 Han
+									<br />
+									7 Han
+								</td>
+								<td>12,000 Points</td>
+							</tr>
+							<tr>
+								<td>
+									8 Han
+									<br />
+									9 Han
+									<br />
+									10 Han
+								</td>
+								<td>16,000 Points</td>
+							</tr>
+							<tr>
+								<td>
+									11 Han
+									<br />
+									12 Han
+								</td>
+								<td>24,000 Points</td>
+							</tr>
+							<tr>
+								<td>13 Han and higher</td>
+								<td>32,000 Points</td>
+							</tr>
+						</tbody>
+					</table>
+					<p class="gs_text_default mahjong">
+						In certain situations, further calculations are involved which may lead to point increases.
+						<br />
+						As yaku are used to calculate the points earned,
+						<span class="gs_text_red">a winning hand must contain at least one yaku.</span>
+						Although a winning hand normally requires four melds and a matching pair, this alone does not constitute a winning hand.
+					</p>
+					<h3 class="gs_circle" id="MahjongRules_008">8. Basic Yaku</h3>
+					<p class="gs_text_default mahjong">There are many types of yaku, but we recommend learning these basic yaku first:</p>
+					<h4 class="gs_sm_head mahjong">Tanyao</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/p/ouSd9ONLLVNoxPaXwtMNXrUMgc.png" /></div>
+					<p class="gs_text_default mahjong">
+						Only number tiles from 2 to 8 are used.
+						<br />
+						The hand cannot contain any honor tiles or tiles numbered 1 or 9.
+					</p>
+					<h4 class="gs_sm_head mahjong">All Pon</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/v/C8sxWupzqQphCpBGFmKZlQI_WE.png" /></div>
+					<p class="gs_text_default mahjong">Four matching triplets and a matching double.</p>
+					<h4 class="gs_sm_head mahjong">Pure Straight</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/i/gcClmbBzpS30bflsK4BMrZpA0w.png" /></div>
+					<p class="gs_text_default mahjong">
+						Contains numbers 1 to 9 of the same suit.
+						<br />
+						Presented as three triplets of 1, 2, 3, then 4, 5, 6, and 7, 8, 9.
+					</p>
+					<h4 class="gs_sm_head mahjong">Mixed Triple Chi</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/9/Wk3rp6v26aGw3GIlF88j76q8y8.png" /></div>
+					<p class="gs_text_default mahjong">The same straight, for example, 1, 2, 3, in each suit.</p>
+					<h4 class="gs_sm_head mahjong">Half Flush</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/1/pVuPERiQ0bjtLPHFmgpcMqytXg.png" /></div>
+					<p class="gs_text_default mahjong">Number tiles from a single suit plus honor tiles.</p>
+					<h4 class="gs_sm_head mahjong">Full Flush</h4>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/Y/HfhQ9BaAqieiwG3n82DU1d582c.png" /></div>
+					<p class="gs_text_default mahjong">
+						Only number tiles from one suit.
+						<br />
+						There are many other kinds of yaku. For a full list of those used in Doman mahjong, refer to the yaku list.
+					</p>
+					<h3 class="gs_circle" id="MahjongRules_009">9. Riichi Yaku</h3>
+					<p class="gs_text_default mahjong">A special condition known as "riichi" makes it easier to form a yaku.</p>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/p/M4qit_hvC_5zDmMRfeuf5MRnmk.png" /></div>
+					<p class="gs_text_default mahjong">
+						The hand in the diagram only requires a 3 or a 6 of Dots to form a winning hand.
+						<br />
+						When a player is one tile away from a winning hand, riichi may be declared.
+						<br />
+						When the hand is ready for declaring riichi, the player will have the option to do so before discarding a tile. In the case shown in the diagram, if the declaring player receives a 3 or a 6 of Dots, whether the tile is drawn by the player
+						or discarded by another player, a winning hand can be called.
+						<br />
+						After declaring riichi, that player can no longer put drawn tiles into their hand. Any tiles drawn will automatically be discarded until a tile that completes the winning hand is obtained. However, a winning hand achieved through riichi
+						is a yaku in itself. Therefore, the player does not need to have formed any other yaku to complete a winning hand.
+					</p>
+					<div class="gs_wrapper_images"><img src="https://lds-img.finalfantasyxiv.com/h/y/K1s56j8BiqX14urSEE_PQtjjS0.png" /></div>
+					<h4 class="gs_sm_head">Properties of Riichi</h4>
+					<div class="gs_ground_mahjong">
+						<p class="gs_text_default">
+							1. The player's hand automatically becomes a yaku, regardless of whether it contains any other yaku.
+							<br />
+							<br />
+							2. The other players know that the one declaring riichi is one tile away from a winning hand.
+							<br />
+							<br />
+							3. The declaring player cannot replace any of the tiles in their hand.
+							<br />
+							<br />
+							4. The declaring player must pay 1,000 points─indicated with a point stick placed in the center of the table─which go to the winner of the hand.
+						</p>
+					</div>
+				</div>
+				<!-- tarting a Match -->
+				<div class="gs_wrapper_nav" id="content-match">
+					<p class="gs_text_default" id="anchor_006">Тест 2</p>
+				</div>
+				<!-- tarting a Match -->
+				<div class="gs_wrapper_nav" id="content-yaku">
+					<p class="gs_text_default" id="anchor_001">Тест 3</p>
+				</div>
+				<!-- tarting a Match -->
+				<div class="gs_wrapper_nav" id="content-navigate">
+					<p class="gs_text_default" id="anchor_001">Тест 4</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer_info"></div>
+		<div class="nome_app_top">
+			<a class="app_top"><img src="/Assets/images/svg/arrow-up.svg" /></a>
+		</div>
+		<!--- Script --->
+		<script type="text/javascript" src="/Assets/js/main.js"></script>
+		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
+	</body>
+</html>
