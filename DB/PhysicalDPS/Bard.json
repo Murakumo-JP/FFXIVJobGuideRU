@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Heavy Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c2be827c9e88459a397d2d02851c435d27a7bfd8.png",
+		"skill_icon": "c2be827c9e88459a397d2d02851c435d27a7bfd8.png",
 		"job_icon": "ARC",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -14,7 +14,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Straight Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/58345465e1b0bb46bac9920464892ef4e51be34f.png",
+		"skill_icon": "58345465e1b0bb46bac9920464892ef4e51be34f.png",
 		"job_icon": "ARC",
 		"level": "2",
 		"classification": "Боевой навык",
@@ -27,7 +27,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Raging Strikes",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/444bd0d452881277e79be184fdb8ca6d21906014.png",
+		"skill_icon": "444bd0d452881277e79be184fdb8ca6d21906014.png",
 		"job_icon": "ARC",
 		"level": "4",
 		"classification": "Способность",
@@ -40,7 +40,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Venomous Bite",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5628b34f3942ef93659f9f03dd2c0556b66f83ea.png",
+		"skill_icon": "5628b34f3942ef93659f9f03dd2c0556b66f83ea.png",
 		"job_icon": "ARC",
 		"level": "6",
 		"classification": "Боевой навык",
@@ -53,7 +53,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Bloodletter",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fd9763578c2d9e6fca1cc0637d953ba405aa5b2b.png",
+		"skill_icon": "fd9763578c2d9e6fca1cc0637d953ba405aa5b2b.png",
 		"job_icon": "ARC",
 		"level": "12",
 		"classification": "Способность",
@@ -67,7 +67,7 @@
 	"PVE Skill 06": {
 		"name": "Repelling Shot",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a2c67b85c3e/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/33e4423b5606c916b4c92db7a6cfb7d22d8f89ac.png",
+		"skill_icon": "33e4423b5606c916b4c92db7a6cfb7d22d8f89ac.png",
 		"job_icon": "ARC",
 		"level": "15",
 		"classification": "Способность",
@@ -80,7 +80,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Quick Nock",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/674767e2dcc3f57156cd13273601bd4ed337657b.png",
+		"skill_icon": "674767e2dcc3f57156cd13273601bd4ed337657b.png",
 		"job_icon": "ARC",
 		"level": "18",
 		"classification": "Боевой навык",
@@ -93,7 +93,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Wide Volley",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f935382d44889e5e74a995ed49bb6db78532edd4.png",
+		"skill_icon": "f935382d44889e5e74a995ed49bb6db78532edd4.png",
 		"job_icon": "ARC",
 		"level": "25",
 		"classification": "Боевой навык",
@@ -107,7 +107,7 @@
 	"PVE Skill 09": {
 		"name": "Windbite",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a2e751e5315/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/798e2b8207ce793087365990d0996232238b9225.png",
+		"skill_icon": "798e2b8207ce793087365990d0996232238b9225.png",
 		"job_icon": "ARC",
 		"level": "30",
 		"classification": "Боевой навык",
@@ -121,7 +121,7 @@
 	"PVE Skill 10": {
 		"name": "Mage's Ballad",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e8c7133b92a/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/eda9a8394ad037b3dec2b0013883bfddb34f54c4.png",
+		"skill_icon": "eda9a8394ad037b3dec2b0013883bfddb34f54c4.png",
 		"job_icon": "BRD",
 		"level": "30",
 		"classification": "Способность",
@@ -135,7 +135,7 @@
 	"PVE Skill 11": {
 		"name": "The Warden's Paean",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c765d0b251b/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4df97f99863b3eade0fc5bba2937eff52a70fa6f.png",
+		"skill_icon": "4df97f99863b3eade0fc5bba2937eff52a70fa6f.png",
 		"job_icon": "BRD",
 		"level": "35",
 		"classification": "Способность",
@@ -148,7 +148,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Barrage",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/28e7d01b94a703869a9bfae6f06864154f1bd2f3.png",
+		"skill_icon": "28e7d01b94a703869a9bfae6f06864154f1bd2f3.png",
 		"job_icon": "ARC",
 		"level": "38",
 		"classification": "Способность",
@@ -162,7 +162,7 @@
 	"PVE Skill 13": {
 		"name": "Army's Paeon",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b85cd2f336f/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/008c12ecfaee3427ff9c25c7f8d2307aee93df31.png",
+		"skill_icon": "008c12ecfaee3427ff9c25c7f8d2307aee93df31.png",
 		"job_icon": "BRD",
 		"level": "40",
 		"classification": "Способность",
@@ -176,7 +176,7 @@
 	"PVE Skill 14": {
 		"name": "Rain of Death",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6284626cb5b/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f6aff04bfff3c98ae2e81e955c3c453f70a24e59.png",
+		"skill_icon": "f6aff04bfff3c98ae2e81e955c3c453f70a24e59.png",
 		"job_icon": "BRD",
 		"level": "45",
 		"classification": "Способность",
@@ -190,7 +190,7 @@
 	"PVE Skill 15": {
 		"name": "Battle Voice",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d8ad06c43fe/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3c4e15bf310cd0ac2d57e067057e4ef50d150705.png",
+		"skill_icon": "3c4e15bf310cd0ac2d57e067057e4ef50d150705.png",
 		"job_icon": "BRD",
 		"level": "50",
 		"classification": "Способность",
@@ -204,7 +204,7 @@
 	"PVE Skill 16": {
 		"name": "The Wanderer's Minuet",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/26142c1f509/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/53e0411604846053cbec196bed125f38a71b73c1.png",
+		"skill_icon": "53e0411604846053cbec196bed125f38a71b73c1.png",
 		"job_icon": "BRD",
 		"level": "52",
 		"classification": "Способность",
@@ -217,7 +217,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Pitch Perfect",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fa05309833a74ae0a743b41574347b02408148c5.png",
+		"skill_icon": "fa05309833a74ae0a743b41574347b02408148c5.png",
 		"job_icon": "BRD",
 		"level": "52",
 		"classification": "Способность",
@@ -231,7 +231,7 @@
 	"PVE Skill 18": {
 		"name": "Empyreal Arrow",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8c1cbe598fe/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/06f5720224fc5d70aaf47a8850f683e0d4e89b02.png",
+		"skill_icon": "06f5720224fc5d70aaf47a8850f683e0d4e89b02.png",
 		"job_icon": "BRD",
 		"level": "54",
 		"classification": "Способность",
@@ -245,7 +245,7 @@
 	"PVE Skill 19": {
 		"name": "Iron Jaws",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3affd7ac077/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/60a919b5c963e842d9c69066761319737f00253f.png",
+		"skill_icon": "60a919b5c963e842d9c69066761319737f00253f.png",
 		"job_icon": "BRD",
 		"level": "56",
 		"classification": "Боевой навык",
@@ -259,7 +259,7 @@
 	"PVE Skill 20": {
 		"name": "Sidewinder",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a6aacc93c8d/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ac6fcd72c5f1c20fe9106dbf9d1936b01a643ff4.png",
+		"skill_icon": "ac6fcd72c5f1c20fe9106dbf9d1936b01a643ff4.png",
 		"job_icon": "BRD",
 		"level": "60",
 		"classification": "Способность",
@@ -272,7 +272,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Troubadour",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8afc3a84c2ec0f215d378e8ed011fd260d3cdc6b.png",
+		"skill_icon": "8afc3a84c2ec0f215d378e8ed011fd260d3cdc6b.png",
 		"job_icon": "BRD",
 		"level": "62",
 		"classification": "Способность",
@@ -285,7 +285,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Caustic Bite",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/534f0bede51a66ae9c6b36f0d2727280c4fc72b1.png",
+		"skill_icon": "534f0bede51a66ae9c6b36f0d2727280c4fc72b1.png",
 		"job_icon": "BRD",
 		"level": "64",
 		"classification": "Боевой навык",
@@ -298,7 +298,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Stormbite",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/90e699e1bfbc23abf1ba96217b631ed04109be28.png",
+		"skill_icon": "90e699e1bfbc23abf1ba96217b631ed04109be28.png",
 		"job_icon": "BRD",
 		"level": "64",
 		"classification": "Боевой навык",
@@ -311,7 +311,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Nature's Minne",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/18695708d8d7ea8d7f9a7ffe0857dafcaea57694.png",
+		"skill_icon": "18695708d8d7ea8d7f9a7ffe0857dafcaea57694.png",
 		"job_icon": "BRD",
 		"level": "66",
 		"classification": "Способность",
@@ -325,7 +325,7 @@
 	"PVE Skill 25": {
 		"name": "Refulgent Arrow",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4c5e96e09d0/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/82ad905241d7a83faf26dd9d31227a6d79a6ae86.png",
+		"skill_icon": "82ad905241d7a83faf26dd9d31227a6d79a6ae86.png",
 		"job_icon": "BRD",
 		"level": "70",
 		"classification": "Боевой навык",
@@ -338,7 +338,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Shadowbite",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4606071e2563a6b58da4e53f374c1a3e2aad73b7.png",
+		"skill_icon": "4606071e2563a6b58da4e53f374c1a3e2aad73b7.png",
 		"job_icon": "BRD",
 		"level": "72",
 		"classification": "Боевой навык",
@@ -351,7 +351,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Burst Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d97a50687d4bb81c0d01155d889a89252e9365f3.png",
+		"skill_icon": "d97a50687d4bb81c0d01155d889a89252e9365f3.png",
 		"job_icon": "BRD",
 		"level": "76",
 		"classification": "Боевой навык",
@@ -364,7 +364,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Apex Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bb3db0cfb0a935f62b178ae16ce11e03d4cd16b5.png",
+		"skill_icon": "bb3db0cfb0a935f62b178ae16ce11e03d4cd16b5.png",
 		"job_icon": "BRD",
 		"level": "80",
 		"classification": "Боевой навык",
@@ -377,7 +377,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Ladonsbite",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f98902415153b56b16c933530c8a836ffd3f38a2.png",
+		"skill_icon": "f98902415153b56b16c933530c8a836ffd3f38a2.png",
 		"job_icon": "BRD",
 		"level": "82",
 		"classification": "Боевой навык",
@@ -390,7 +390,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Blast Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5822409165097e5bdc147d6dddd40e9296d5d6c1.png",
+		"skill_icon": "5822409165097e5bdc147d6dddd40e9296d5d6c1.png",
 		"job_icon": "BRD",
 		"level": "86",
 		"classification": "Боевой навык",
@@ -403,7 +403,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Radiant Finale",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c22031ccb99f6446f2921d6250d646005535c684.png",
+		"skill_icon": "c22031ccb99f6446f2921d6250d646005535c684.png",
 		"job_icon": "BRD",
 		"level": "90",
 		"classification": "Способность",
@@ -416,7 +416,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Heartbreak Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c0a5370256054855bc11136374ddbd388c3f8c98.png",
+		"skill_icon": "c0a5370256054855bc11136374ddbd388c3f8c98.png",
 		"job_icon": "BRD",
 		"level": "92",
 		"classification": "Способность",
@@ -429,7 +429,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Resonant Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5ecc6e2f2f492310758f85277b00eb134eec6c68.png",
+		"skill_icon": "5ecc6e2f2f492310758f85277b00eb134eec6c68.png",
 		"job_icon": "BRD",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -442,7 +442,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Radiant Encore",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f2f516fd00c23f16a32c6278b6d9ebd7481d41a3.png",
+		"skill_icon": "f2f516fd00c23f16a32c6278b6d9ebd7481d41a3.png",
 		"job_icon": "BRD",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -455,42 +455,42 @@
 	},
 	"Trait 01": {
 		"name": "Heavier Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/108765871bee04e1c77e2da519cb3fd2852c2fc4.png",
+		"skill_icon": "108765871bee04e1c77e2da519cb3fd2852c2fc4.png",
 		"job_icon": "ARC",
 		"level": "2",
 		"content": "Добавляет к умению Heavy Shot 20% шанс наложить на персонажа эффект Hawk's Eye.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 02": {
 		"name": "Increased Action Damage",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/97509779a066713ce40a44c177b4b83461227847.png",
+		"skill_icon": "97509779a066713ce40a44c177b4b83461227847.png",
 		"job_icon": "ARC",
 		"level": "20",
 		"content": "Увеличивает базовый урон умений на 10%."
 	},
 	"Trait 03": {
 		"name": "Enhanced Quick Nock",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/03721e9a337502bdf9a5b6b5e526e641662fbda3.png",
+		"skill_icon": "03721e9a337502bdf9a5b6b5e526e641662fbda3.png",
 		"job_icon": "BRD",
 		"level": "25",
 		"content": "Добавляет умению Quick Nock 35% шанс наложить на персонажа эффект Hawk's Eye.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 04": {
 		"name": "Increased Action Damage II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1363164bd814e4703e9ea5a4fad50b8d6b6b72ff.png",
+		"skill_icon": "1363164bd814e4703e9ea5a4fad50b8d6b6b72ff.png",
 		"job_icon": "ARC",
 		"level": "40",
 		"content": "Увеличивает базовый урон умений на 20%."
 	},
 	"Trait 05": {
 		"name": "Bite Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ac2acee101baf87dbddf94b525cb461da4e06873.png",
+		"skill_icon": "ac2acee101baf87dbddf94b525cb461da4e06873.png",
 		"job_icon": "BRD",
 		"level": "64",
 		"content": "Улучшает умения Venomous Bite и Windbite до Caustic Bite и Stormbite."
 	},
 	"Trait 06": {
 		"name": "Enhanced Empyreal Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/909165dd890040f704ec9f9cf8d053273099fd5e.png",
+		"skill_icon": "909165dd890040f704ec9f9cf8d053273099fd5e.png",
 		"job_icon": "BRD",
 		"level": "68",
 		"content": "Гарантирует срабатывание дополнительных эффектов для Mage's Ballad, Army's Paeon и Wanderer's Minuet при попадании умения Empyreal Arrow в цель."
@@ -498,119 +498,119 @@
 	"Trait 07": {
 		"name": "Straight Shot Mastery",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4c5e96e09d0/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c21841cc0bd0a458947bfdd3aba7ef995bf5e4fa.png",
+		"skill_icon": "c21841cc0bd0a458947bfdd3aba7ef995bf5e4fa.png",
 		"job_icon": "BRD",
 		"level": "70",
 		"content": "Улучшает умение Straight Shot до Refulgent Arrow."
 	},
 	"Trait 08": {
 		"name": "Wide Volley Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/18779c63b4e4e61466a651e89b34c081f2267ac1.png",
+		"skill_icon": "18779c63b4e4e61466a651e89b34c081f2267ac1.png",
 		"job_icon": "BRD",
 		"level": "72",
 		"content": "Улучшает умение Wide Volley до Shadowbite."
 	},
 	"Trait 09": {
 		"name": "Bite Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/198c545ac1e2135cbca16ac29ef9cd3cc7674b66.png",
+		"skill_icon": "198c545ac1e2135cbca16ac29ef9cd3cc7674b66.png",
 		"job_icon": "BRD",
 		"level": "76",
 		"content": "Добавляет умениям Stormbite, Caustic Bite и Iron Jaws 35% шанс наложить на персонажа эффект Hawk's Eye.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 10": {
 		"name": "Heavy Shot Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f229f1f3ae074b3858dd1e92c17b948c383eda86.png",
+		"skill_icon": "f229f1f3ae074b3858dd1e92c17b948c383eda86.png",
 		"job_icon": "BRD",
 		"level": "76",
 		"content": "Улучшает умение Heavy Shot до Burst Shot."
 	},
 	"Trait 11": {
 		"name": "Enhanced Army's Paeon",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/6b041a4691092484e66f8bb3b1feeaebd5ee8f2a.png",
+		"skill_icon": "6b041a4691092484e66f8bb3b1feeaebd5ee8f2a.png",
 		"job_icon": "BRD",
 		"level": "78",
 		"content": "Находясь под эффектом Army's Paeon и имея хотя бы один стак Repertoire, исполнение Mage's Ballad или the Wanderer's Minuet накладывая эффект Army's Muse, снижая время использования боевых навыков, заклинаний и снижая промежуток между авто атаками.<br/>Продолжительность: 10 сек.<br/>Если Army's Paeon, при наличии стаков Repertoire, завершается без использования Mage's Ballad или the Wanderer's Minuet, то будет наложен эффект Army's Ethos.<br/>Продолжительность: 30 сек.<br/>Находясь под эффектом Army's Ethos, исполнение Mage's Ballad или the Wanderer's Minuet накладывает эффект Army's Muse. И Army's Ethos и Army's Muse требуют стаки Repertoire от количества которых зависит сила данных умений:<br/>1 Repertoire: 1%<br/>2 Repertoire: 2%<br/>3 Repertoire: 4%<br/>4 Repertoire: 12%"
 	},
 	"Trait 12": {
 		"name": "Soul Voice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bb8b641bca15e97f11d09360832baf9109b1dc0a.png",
+		"skill_icon": "bb8b641bca15e97f11d09360832baf9109b1dc0a.png",
 		"job_icon": "BRD",
 		"level": "80",
 		"content": "Восполняет шкалу Soul Voice на 5 за каждое срабатывание эффекта Repertoire."
 	},
 	"Trait 13": {
 		"name": "Quick Nock Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3c05ffbbd143b8e9acc7236f62623d15eca24343.png",
+		"skill_icon": "3c05ffbbd143b8e9acc7236f62623d15eca24343.png",
 		"job_icon": "BRD",
 		"level": "82",
 		"content": "Улучшает умение Quick Nock до Ladonsbite."
 	},
 	"Trait 14": {
 		"name": "Enhanced Bloodletter",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b884f8ddaee8b302526bae34a30b0376ebfc224a.png",
+		"skill_icon": "b884f8ddaee8b302526bae34a30b0376ebfc224a.png",
 		"job_icon": "BRD",
 		"level": "84",
 		"content": "Позволяет накапливать 3 заряда Bloodletter и Rain of Death."
 	},
 	"Trait 15": {
 		"name": "Enhanced Apex Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bdb8a75286b408bc863d633af66ea97c9e15cf1c.png",
+		"skill_icon": "bdb8a75286b408bc863d633af66ea97c9e15cf1c.png",
 		"job_icon": "BRD",
 		"level": "86",
 		"content": "Накладывает эффект Blast Arrow Ready при использовании Apex Arrow после того, как шкала Soul Voice Gauge достигает 80 или выше.<br/>Продолжительность: 10 сек.<br/>Apex Arrow становится Blast Arrow под действием этого эффекта."
 	},
 	"Trait 16": {
 		"name": "Enhanced Troubadour",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/960bc4dbfb5bdee7e55119f6a35175563eac6969.png",
+		"skill_icon": "960bc4dbfb5bdee7e55119f6a35175563eac6969.png",
 		"job_icon": "BRD",
 		"level": "88",
 		"content": "Сокращает время восстановления Troubadour до 90 сек."
 	},
 	"Trait 17": {
 		"name": "Minstrel's Coda",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/626868bfd5b13a4e00372e4ac5106c655b12eb64.png",
+		"skill_icon": "626868bfd5b13a4e00372e4ac5106c655b12eb64.png",
 		"job_icon": "BRD",
 		"level": "90",
 		"content": "Накладывает эффект Mage's Coda, Army's Coda или Wanderer's Coda после исполнения Mage's Ballad, Army's Paeon или the Wanderer's Minuet."
 	},
 	"Trait 18": {
 		"name": "Bloodletter Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fbd9bd3aa726059da139262c130e97f2207b0518.png",
+		"skill_icon": "fbd9bd3aa726059da139262c130e97f2207b0518.png",
 		"job_icon": "BRD",
 		"level": "92",
 		"content": "Улучшает умение Bloodletter до Heartbreak Shot."
 	},
 	"Trait 19": {
 		"name": "Ranged Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png",
+		"skill_icon": "4c948f409f459cc6cc4983962f78d071f06ef5b8.png",
 		"job_icon": "BRD",
 		"level": "94",
 		"content": "Увеличивает силу атаки Empyreal Arrow до 260, Sidewinder до 400, Refulgent Arrow до 280, Burst Shot до 220 и Apex Arrow до 120, при максимальном значении 600."
 	},
 	"Trait 20": {
 		"name": "Enhanced Barrage",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d139ce87bcae2a797053062936c54f77e2f5d320.png",
+		"skill_icon": "d139ce87bcae2a797053062936c54f77e2f5d320.png",
 		"job_icon": "BRD",
 		"level": "96",
 		"content": "Накладывает эффект Resonant Arrow Ready после использования Barrage.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 21": {
 		"name": "Enhanced Troubadour II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2d7ccdc150d408b54d8635981fd098379485e3ec.png",
+		"skill_icon": "2d7ccdc150d408b54d8635981fd098379485e3ec.png",
 		"job_icon": "BRD",
 		"level": "98",
 		"content": "Увеличивает эффективность снижения урона Troubadour до 15%."
 	},
 	"Trait 22": {
 		"name": "Enhanced Radiant Finale",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3168efe251b2ebe7635e0b5da38e6e58858546e4.png",
+		"skill_icon": "3168efe251b2ebe7635e0b5da38e6e58858546e4.png",
 		"job_icon": "BRD",
 		"level": "100",
 		"content": "Накладывает эффект Radiant Encore Ready после использования Radiant Finale.<br/>Продолжительность: 30 сек."
 	},
 	"PVP Skill 01": {
 		"name": "Powerful Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1e34db9e1b7af20374cc605ba4a8ebf19284ad17.png",
+		"skill_icon": "1e34db9e1b7af20374cc605ba4a8ebf19284ad17.png",
 		"classification": "Боевой навык",
 		"cast": "1.44 сек.",
 		"recast": "2.4 сек.",
@@ -621,7 +621,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Apex Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b4a390950aaeb9822ce34a94dc28974ab9406292.png",
+		"skill_icon": "b4a390950aaeb9822ce34a94dc28974ab9406292.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -632,7 +632,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Harmonic Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ba6c2c8c66fa2c9a2ea245ee45863385dfc1bb6e.png",
+		"skill_icon": "ba6c2c8c66fa2c9a2ea245ee45863385dfc1bb6e.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "12 сек.",
@@ -643,7 +643,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Silent Nocturne",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2395550790bebce8b41c868606b68c5860ead521.png",
+		"skill_icon": "2395550790bebce8b41c868606b68c5860ead521.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -654,7 +654,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Repelling Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e37391df85073d56015199bf52adcac9205fe1f6.png",
+		"skill_icon": "e37391df85073d56015199bf52adcac9205fe1f6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "12 сек.",
@@ -665,7 +665,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "The Warden's Paean",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/76b51857adc9bb39158d03671673490adf986c23.png",
+		"skill_icon": "76b51857adc9bb39158d03671673490adf986c23.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "24 сек.",
@@ -676,7 +676,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Pitch Perfect",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e7cdd41960b0bf51426b9f204646c87a49c72581.png",
+		"skill_icon": "e7cdd41960b0bf51426b9f204646c87a49c72581.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -687,7 +687,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Blast Arrow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ca478e17699b41d0b3f91e808c9a49951eb5b9a1.png",
+		"skill_icon": "ca478e17699b41d0b3f91e808c9a49951eb5b9a1.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -698,7 +698,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Encore of Light",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b4a764dfa850a84439e920b436b7e0ff4f18d01f.png",
+		"skill_icon": "b4a764dfa850a84439e920b436b7e0ff4f18d01f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -709,7 +709,7 @@
 	},
 	"PVP Skill LB": {
 		"name": "Final Fantasia",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/671e19fca51076d955a751ca8cf0b8f0c024d13b.png",
+		"skill_icon": "671e19fca51076d955a751ca8cf0b8f0c024d13b.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "0y",

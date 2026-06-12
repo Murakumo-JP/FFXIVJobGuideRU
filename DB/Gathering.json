@@ -6,8 +6,8 @@
 			"BTN": "Field Mastery"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/7776104ec581999d5730940e0a07a592701f438e.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/0265d8e360e249da9c0c803380211a54eff755df.png"
+			"MIN": "7776104ec581999d5730940e0a07a592701f438e.png",
+			"BTN": "0265d8e360e249da9c0c803380211a54eff755df.png"
 		},
 		"level": "4",
 		"classification": "DoL способность",
@@ -21,8 +21,8 @@
 			"BTN": "Field Mastery II"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/b21c26edb473ba54365dbdfb8f885e488502a62c.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/a4d564eec48761cf0bdb306809dcffa2c9defba4.png"
+			"MIN": "b21c26edb473ba54365dbdfb8f885e488502a62c.png",
+			"BTN": "a4d564eec48761cf0bdb306809dcffa2c9defba4.png"
 		},
 		"level": "5",
 		"classification": "DoL способность",
@@ -32,7 +32,7 @@
 	},
 	"Action 03": {
 		"name": "Sneak",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/857ec6bb92c1ba7fbd2f9e4ed9488da157549645.png",
+		"skill_icon": "857ec6bb92c1ba7fbd2f9e4ed9488da157549645.png",
 		"level": "8",
 		"classification": "Способность",
 		"recast": "-",
@@ -45,8 +45,8 @@
 			"BTN": "Field Mastery III"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/0bbe373c893aec8c5749ca11e7ac5e9a8ae6385c.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/d5eee45cdfee5fe5ca6dbce39b5e5599cc533803.png"
+			"MIN": "0bbe373c893aec8c5749ca11e7ac5e9a8ae6385c.png",
+			"BTN": "d5eee45cdfee5fe5ca6dbce39b5e5599cc533803.png"
 		},
 		"level": "10",
 		"classification": "DoL способность",
@@ -56,7 +56,7 @@
 	},
 	"Action 05": {
 		"name": "Mountaineer's Gift I",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/17b81385fde3996f5dceec7f69eb6ed921724987.png",
+		"skill_icon": "17b81385fde3996f5dceec7f69eb6ed921724987.png",
 		"level": "15",
 		"classification": "DoL способность",
 		"recast": "-",
@@ -65,7 +65,7 @@
 	},
 	"Action 06": {
 		"name": "The Twelve's Bounty",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bb72a73a8e85e73c677498bc89a2067a12369ee0.png",
+		"skill_icon": "bb72a73a8e85e73c677498bc89a2067a12369ee0.png",
 		"level": "20",
 		"classification": "DoL способность",
 		"recast": "-",
@@ -78,8 +78,8 @@
 			"BTN": "Flora Mastery"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/b7b81c8844b39356dcbdc504a217e2d74292fa54.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/4e1e0d924f3d9e00c977704d0beba0b41048fa4e.png"
+			"MIN": "b7b81c8844b39356dcbdc504a217e2d74292fa54.png",
+			"BTN": "4e1e0d924f3d9e00c977704d0beba0b41048fa4e.png"
 		},
 		"level": "23",
 		"classification": "DoL способность",
@@ -93,8 +93,8 @@
 			"BTN": "Bountiful Harvest"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/a4a18e80eb9ea8dad19fdb1e43f4c13006b5e944.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/3f321357853ff740411e2f412254bf17b3cd17a2.png"
+			"MIN": "a4a18e80eb9ea8dad19fdb1e43f4c13006b5e944.png",
+			"BTN": "3f321357853ff740411e2f412254bf17b3cd17a2.png"
 		},
 		"level": "24",
 		"classification": "DoL способность",
@@ -108,8 +108,8 @@
 			"BTN": "Ageless Words"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/5e3f52fe624609f40fd81e9a1a20c659cb12d327.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/0d3e3f07c1db9344e96da54fefc6d66eb54f26fd.png"
+			"MIN": "5e3f52fe624609f40fd81e9a1a20c659cb12d327.png",
+			"BTN": "0d3e3f07c1db9344e96da54fefc6d66eb54f26fd.png"
 		},
 		"level": "25",
 		"classification": "DoL способность",
@@ -123,8 +123,8 @@
 			"BTN": "Blessed Harvest"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/1a5c0826e1c078faa733829e0b054697b5fc1410.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/816cd5383d58f2d2a6b8209e50c9d7e5bfc67484.png"
+			"MIN": "1a5c0826e1c078faa733829e0b054697b5fc1410.png",
+			"BTN": "816cd5383d58f2d2a6b8209e50c9d7e5bfc67484.png"
 		},
 		"level": "30",
 		"classification": "DoL способность",
@@ -138,8 +138,8 @@
 			"BTN": "Blessed Harvest II"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/6ec7a46292dacd2b0cc19fadbccfd94dd019f206.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/31ba3194b41a2575399c9882e6d28757353f66b9.png"
+			"MIN": "6ec7a46292dacd2b0cc19fadbccfd94dd019f206.png",
+			"BTN": "31ba3194b41a2575399c9882e6d28757353f66b9.png"
 		},
 		"level": "40",
 		"classification": "DoL способность",
@@ -150,8 +150,8 @@
 	"Action 12": {
 		"name": "Collect",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/8532ffbf30e00d3dd48a425b7a9dfca9e9b7071e.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/ea33c3737679e3186707e1d05d3a801f8ddbfaa9.png"
+			"MIN": "8532ffbf30e00d3dd48a425b7a9dfca9e9b7071e.png",
+			"BTN": "ea33c3737679e3186707e1d05d3a801f8ddbfaa9.png"
 		},
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "50",
@@ -162,7 +162,7 @@
 	},
 	"Action 13": {
 		"name": "Scour",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/18ff13b278138c7690b35e333b1cb24f60d43710.png",
+		"skill_icon": "18ff13b278138c7690b35e333b1cb24f60d43710.png",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "50",
 		"classification": "DoL способность",
@@ -172,7 +172,7 @@
 	},
 	"Action 14": {
 		"name": "Brazen Woodsman",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8d4871671a3cae1003e78d29ca68f91154298811.png",
+		"skill_icon": "8d4871671a3cae1003e78d29ca68f91154298811.png",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "50",
 		"classification": "DoL способность",
@@ -182,7 +182,7 @@
 	},
 	"Action 15": {
 		"name": "Meticulous Woodsman",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f5dd83f5f2fa5b10a3cfe821f6e626b8922c6505.png",
+		"skill_icon": "f5dd83f5f2fa5b10a3cfe821f6e626b8922c6505.png",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "50",
 		"classification": "DoL способность",
@@ -192,7 +192,7 @@
 	},
 	"Action 16": {
 		"name": "Scrutiny",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2173762adfe1521ca6aa0fbaf0735e578a1664b5.png",
+		"skill_icon": "2173762adfe1521ca6aa0fbaf0735e578a1664b5.png",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "50",
 		"classification": "DoL способность",
@@ -206,8 +206,8 @@
 			"BTN": "Pioneer's Gift II"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/14c45e87b9fa8abe6b16104a9aeddc9bfc19ef15.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/16ba049dbedae727a1b23092305e31b522b39011.png"
+			"MIN": "14c45e87b9fa8abe6b16104a9aeddc9bfc19ef15.png",
+			"BTN": "16ba049dbedae727a1b23092305e31b522b39011.png"
 		},
 		"level": "50",
 		"classification": "DoL способность",
@@ -221,8 +221,8 @@
 			"BTN": "Luck of the Pioneer"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/7c0957f7505a33a744e32691ecdddc4cb9829707.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/486674c8800105f65bb2f5952b297d4270ab39ad.png"
+			"MIN": "7c0957f7505a33a744e32691ecdddc4cb9829707.png",
+			"BTN": "486674c8800105f65bb2f5952b297d4270ab39ad.png"
 		},
 		"eorzeadb": {
 			"MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2ec172f3e49/",
@@ -240,8 +240,8 @@
 			"BTN": "Bountiful Harvest II"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/cd913af6a15b37894f412f47e1b35b1c2186b490.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/4c6a426da3a9efd03c300805a7caed3c669ccdbb.png"
+			"MIN": "cd913af6a15b37894f412f47e1b35b1c2186b490.png",
+			"BTN": "4c6a426da3a9efd03c300805a7caed3c669ccdbb.png"
 		},
 		"eorzeadb": {
 			"MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9e9f9b79ae4/",
@@ -256,8 +256,8 @@
 	"Action 20": {
 		"name": "The Giving Land",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/f53d7b0308353a7431a21f378514cb26f5d66a88.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/df152c10ca865203a7cc2cf92bb4ee370759a00c.png"
+			"MIN": "f53d7b0308353a7431a21f378514cb26f5d66a88.png",
+			"BTN": "df152c10ca865203a7cc2cf92bb4ee370759a00c.png"
 		},
 		"level": "74",
 		"classification": "DoL способность",
@@ -271,8 +271,8 @@
 			"BTN": "Nophica's Tidings"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/af6088be601b6f04dac012c2f0513e0dfaa5088f.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/3f95f73a80dd817a1292f631a1f49af5f2ba4011.png"
+			"MIN": "af6088be601b6f04dac012c2f0513e0dfaa5088f.png",
+			"BTN": "3f95f73a80dd817a1292f631a1f49af5f2ba4011.png"
 		},
 		"level": "81",
 		"classification": "DoL способность",
@@ -283,8 +283,8 @@
 	"Action 22": {
 		"name": "Collector's Focus",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/7a5ecb2f6a3913825d1626c2c058364e545af96d.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/ef19938212dd2651c4ccffff2c920dfe565aec27.png"
+			"MIN": "7a5ecb2f6a3913825d1626c2c058364e545af96d.png",
+			"BTN": "ef19938212dd2651c4ccffff2c920dfe565aec27.png"
 		},
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "85",
@@ -296,8 +296,8 @@
 	"Action 23": {
 		"name": "Wise to the World",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/0bdb0683c158d431e6274cf6ef2100532d1a40ea.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/e125df92eba06fc3a0e5b0d14e8f6c7f41033546.png"
+			"MIN": "0bdb0683c158d431e6274cf6ef2100532d1a40ea.png",
+			"BTN": "e125df92eba06fc3a0e5b0d14e8f6c7f41033546.png"
 		},
 		"level": "90",
 		"classification": "DoL способность",
@@ -307,7 +307,7 @@
 	},
 	"Action 24": {
 		"name": "Priming Touch",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1c0b33077e7d53177839a3e2571ca1f66892a0db.png",
+		"skill_icon": "1c0b33077e7d53177839a3e2571ca1f66892a0db.png",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "95",
 		"classification": "DoL способность",
@@ -321,8 +321,8 @@
 			"BTN": "Triangulate"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/99f88ea5d023e55c25eb9505c72060f24094a8d3.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/2934bfbab2e8cdb9d6539a22c867b3b9ccb57c5c.png"
+			"MIN": "99f88ea5d023e55c25eb9505c72060f24094a8d3.png",
+			"BTN": "2934bfbab2e8cdb9d6539a22c867b3b9ccb57c5c.png"
 		},
 		"level": "1",
 		"classification": "Способность",
@@ -338,8 +338,8 @@
 			"BTN": "Arbor Call"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/80f7ca5ee8fe5169804a5eaddce7066288848754.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/f535ce3b68e6952b486d979bb0f6602cc8838b47.png"
+			"MIN": "80f7ca5ee8fe5169804a5eaddce7066288848754.png",
+			"BTN": "f535ce3b68e6952b486d979bb0f6602cc8838b47.png"
 		},
 		"level": "3",
 		"classification": "Способность",
@@ -355,8 +355,8 @@
 			"BTN": "Arbor Call II"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/b2888c088441cb7d159650bdde285283787ce0ed.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/d7d127c4546e2ec471fc3ae73fe74771d886c962.png"
+			"MIN": "b2888c088441cb7d159650bdde285283787ce0ed.png",
+			"BTN": "d7d127c4546e2ec471fc3ae73fe74771d886c962.png"
 		},
 		"level": "5",
 		"classification": "Способность",
@@ -372,8 +372,8 @@
 			"BTN": "Truth of Forests"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/91c11ae6c308a90e29cca02b71a7df86ba227202.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/0c0f6fb9e3d7890de8ca9c7f1a9de1b285ff8266.png"
+			"MIN": "91c11ae6c308a90e29cca02b71a7df86ba227202.png",
+			"BTN": "0c0f6fb9e3d7890de8ca9c7f1a9de1b285ff8266.png"
 		},
 		"level": "45",
 		"classification": "Способность",
@@ -389,8 +389,8 @@
 			"BTN": "Auto Triangulate"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/1563a7b70873d8e0df8c5da1a2c93dfdc11633b0.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/67e11300048b8ec756d1787b1954bc579a08aa26.png"
+			"MIN": "1563a7b70873d8e0df8c5da1a2c93dfdc11633b0.png",
+			"BTN": "67e11300048b8ec756d1787b1954bc579a08aa26.png"
 		},
 		"level": "2",
 		"content": {
@@ -404,8 +404,8 @@
 			"BTN": "Tree Whisperer"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/ef344d4af74d52d1acaac14e701e8f93274090d8.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/63a50a41b5e1e8f7756154438923c3f2f6136857.png"
+			"MIN": "ef344d4af74d52d1acaac14e701e8f93274090d8.png",
+			"BTN": "63a50a41b5e1e8f7756154438923c3f2f6136857.png"
 		},
 		"level": "11",
 		"content": {
@@ -419,8 +419,8 @@
 			"BTN": "Tree Whisperer II"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/e2f453b3f30ae111fdee07e82bfbf52558f5ceea.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/b1aa60dee775b98b63cb90a5abe786b8d6c07287.png"
+			"MIN": "e2f453b3f30ae111fdee07e82bfbf52558f5ceea.png",
+			"BTN": "b1aa60dee775b98b63cb90a5abe786b8d6c07287.png"
 		},
 		"level": "16",
 		"content": {
@@ -434,8 +434,8 @@
 			"BTN": "Tree Whisperer III"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/843df14fcebfdad27b59677769b65070400370c3.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/9704bb137f07f8acd19c20dc66002378b006326e.png"
+			"MIN": "843df14fcebfdad27b59677769b65070400370c3.png",
+			"BTN": "9704bb137f07f8acd19c20dc66002378b006326e.png"
 		},
 		"level": "21",
 		"content": {
@@ -449,8 +449,8 @@
 			"BTN": "Tree Whisperer IV"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/fe226b4734bed3934007217697ae2ed73ca05bc3.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/edea1feee35b95906517594b5663c25fa6a62162.png"
+			"MIN": "fe226b4734bed3934007217697ae2ed73ca05bc3.png",
+			"BTN": "edea1feee35b95906517594b5663c25fa6a62162.png"
 		},
 		"level": "26",
 		"content": {
@@ -460,25 +460,25 @@
 	},
 	"Gatherer Traits 06": {
 		"name": "Auto Sneak",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3d22d20b1f68cd608fba4c7eacd960b11f1371b0.png",
+		"skill_icon": "3d22d20b1f68cd608fba4c7eacd960b11f1371b0.png",
 		"level": "27",
 		"content": "Автоматически активирует эффект Sneak при выборе класса. Эффект также автоматически активируется при смене области.<br/>Sneak не будет автоматически активирован в зонах, где это умение не может быть использовано."
 	},
 	"Gatherer Traits 07": {
 		"name": "Enhanced Twelve's Bounty",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ae6e96cee267d095fcc7f653bff10ab4dfe79034.png",
+		"skill_icon": "ae6e96cee267d095fcc7f653bff10ab4dfe79034.png",
 		"level": "41",
 		"content": "Умение Twelve's Bounty распространяется на crystals."
 	},
 	"Gatherer Traits 08": {
 		"name": "Nymeia's Ward",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/be1b467f4b07e4642f7e463639e320ba23af2b34.png",
+		"skill_icon": "be1b467f4b07e4642f7e463639e320ba23af2b34.png",
 		"level": "42",
 		"content": "С некоторой вероятностью увеличивает количество получаемых предметов во время сбора, включая crystals."
 	},
 	"Gatherer Traits 09": {
 		"name": "Enhanced Twelve's Bounty II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/911e8f8f7e98f94e9fd7e266cf0cebe8df7a36f1.png",
+		"skill_icon": "911e8f8f7e98f94e9fd7e266cf0cebe8df7a36f1.png",
 		"level": "50",
 		"content": "Умение Twelve's Bounty распространяется на clusters."
 	},
@@ -488,8 +488,8 @@
 			"BTN": "Tree Whisperer V"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/37d48024782d5839f2d59e7e3913c0c237b8a655.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/481e884cf2c4e249e3636ab07514d6a34555cb2f.png"
+			"MIN": "37d48024782d5839f2d59e7e3913c0c237b8a655.png",
+			"BTN": "481e884cf2c4e249e3636ab07514d6a34555cb2f.png"
 		},
 		"eorzeadb": {
 			"MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0a9f7c076e6/",
@@ -507,8 +507,8 @@
 			"BTN": "One with the Forest"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/bdf8284f66ed9fb16e69a92ed83092627ca99305.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/bf08d69a7b9a2fe9e23943b478a6f1211bd6b592.png"
+			"MIN": "bdf8284f66ed9fb16e69a92ed83092627ca99305.png",
+			"BTN": "bf08d69a7b9a2fe9e23943b478a6f1211bd6b592.png"
 		},
 		"level": "60",
 		"content": {
@@ -522,8 +522,8 @@
 			"BTN": "Bountiful Harvest Mastery"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/c045f323cf179b46f4a46754c2f547d52249970e.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/e7506b15fb74081ab4b6c610cd0f67d9fb99520c.png"
+			"MIN": "c045f323cf179b46f4a46754c2f547d52249970e.png",
+			"BTN": "e7506b15fb74081ab4b6c610cd0f67d9fb99520c.png"
 		},
 		"eorzeadb": {
 			"MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9e9f9b79ae4/",
@@ -538,8 +538,8 @@
 	"Gatherer Traits 13": {
 		"name": "Enhanced GP Regeneration",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/30e7baabae4846e25a686b52adfdbb53a1a2f492.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/4aeeba59b6d9a36514a28c9ef7243b6a64f91a66.png"
+			"MIN": "30e7baabae4846e25a686b52adfdbb53a1a2f492.png",
+			"BTN": "4aeeba59b6d9a36514a28c9ef7243b6a64f91a66.png"
 		},
 		"eorzeadb": {
 			"MIN": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/03c4eb77b3a/",
@@ -550,15 +550,15 @@
 	},
 	"Gatherer Traits 14": {
 		"name": "Enhanced Twelve's Bounty III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/6dfca7c56c9f211af4ea8fd6c2cf55aa0447aef6.png",
+		"skill_icon": "6dfca7c56c9f211af4ea8fd6c2cf55aa0447aef6.png",
 		"level": "71",
 		"content": "Увеличивает базовое количество получаемых во время сбора предметов от Twelve's Bounty на один."
 	},
 	"Gatherer Traits 15": {
 		"name": "Enhanced GP Regeneration II",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/705fba4f808fe8935f2855e7b53850f9e26d77c1.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/7847dbc45282148f89e53d07cb1d3400c344e8d3.png"
+			"MIN": "705fba4f808fe8935f2855e7b53850f9e26d77c1.png",
+			"BTN": "7847dbc45282148f89e53d07cb1d3400c344e8d3.png"
 		},
 		"level": "80",
 		"content": "Повышает базовую скорость регенерации GP на два. При сборе повышает базовый уровень регенерации на один."
@@ -566,8 +566,8 @@
 	"Gatherer Traits 16": {
 		"name": "Enhanced GP Regeneration III",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/82bb7f7edd92a4d6973d03fbff021fab414dd68d.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/f134c409fcf23011c8ad835c2adc3c9aac8ab4af.png"
+			"MIN": "82bb7f7edd92a4d6973d03fbff021fab414dd68d.png",
+			"BTN": "f134c409fcf23011c8ad835c2adc3c9aac8ab4af.png"
 		},
 		"level": "83",
 		"content": "Повышает базовую скорость регенерации GP на три. При сборе повышает базовый уровень регенерации на один."
@@ -578,8 +578,8 @@
 			"BTN": "Enhanced Ageless Words"
 		},
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/aeb928223c51a892ae43390e06c2b17b8fb05406.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/ebe8d217bd3132aa7fa055720afbcdebf40e16c2.png"
+			"MIN": "aeb928223c51a892ae43390e06c2b17b8fb05406.png",
+			"BTN": "ebe8d217bd3132aa7fa055720afbcdebf40e16c2.png"
 		},
 		"level": "90",
 		"content": {
@@ -590,8 +590,8 @@
 	"Gatherer Traits 18": {
 		"name": "Revisit",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/663d79ba01de16b8c6050604ac1b2ff2c60d8bbf.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/65d6a139e00d6e2743cf716d2f672d5d2e2da5bb.png"
+			"MIN": "663d79ba01de16b8c6050604ac1b2ff2c60d8bbf.png",
+			"BTN": "65d6a139e00d6e2743cf716d2f672d5d2e2da5bb.png"
 		},
 		"level": "91",
 		"content": "После истощения точки сбора с некоторым шансом полностью восстанавливается шкала integrity или gathering attempts.<br/>GP также полностью восстанавливается, но все эффекты собирателя прекращают свое действие.<br/>Эффект не срабатывает в точках сбора определенного типа, например, которые могут встречаться в levequests."
@@ -599,8 +599,8 @@
 	"Gatherer Traits 19": {
 		"name": "Collector's High Standard",
 		"skill_icon": {
-			"MIN": "https://lds-img.finalfantasyxiv.com/d/57f0c5155877e1323e79c4e3a7388e1b4f014b39.png",
-			"BTN": "https://lds-img.finalfantasyxiv.com/d/3b3a32464ee2b7ebb1d9d46bdf3c75b5512cb2a5.png"
+			"MIN": "57f0c5155877e1323e79c4e3a7388e1b4f014b39.png",
+			"BTN": "3b3a32464ee2b7ebb1d9d46bdf3c75b5512cb2a5.png"
 		},
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a94b1abd066/",
 		"level": "100",

@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "True Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a456526b20c613a31c9ff03a7cd8d69ab328a4c8.png",
+		"skill_icon": "a456526b20c613a31c9ff03a7cd8d69ab328a4c8.png",
 		"job_icon": "LNC",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -14,7 +14,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Vorpal Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/85a78cf7b49d80ab94aa206b385563ffa0222346.png",
+		"skill_icon": "85a78cf7b49d80ab94aa206b385563ffa0222346.png",
 		"job_icon": "LNC",
 		"level": "4",
 		"classification": "Боевой навык",
@@ -27,7 +27,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Life Surge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/eb7e59cbec93afbdf7a3cecd0e164c545ea8dec2.png",
+		"skill_icon": "eb7e59cbec93afbdf7a3cecd0e164c545ea8dec2.png",
 		"job_icon": "LNC",
 		"level": "6",
 		"classification": "Способность",
@@ -41,7 +41,7 @@
 	"PVE Skill 04": {
 		"name": "Piercing Talon",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/23a925ec7fe/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b34933ec0ea122c75fd1deeb69f3b9df942dbdc1.png",
+		"skill_icon": "b34933ec0ea122c75fd1deeb69f3b9df942dbdc1.png",
 		"job_icon": "LNC",
 		"level": "15",
 		"classification": "Боевой навык",
@@ -54,7 +54,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Disembowel",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d5052c9c0d1bf846c9a4fb70497dd1cea97ceca6.png",
+		"skill_icon": "d5052c9c0d1bf846c9a4fb70497dd1cea97ceca6.png",
 		"job_icon": "LNC",
 		"level": "18",
 		"classification": "Боевой навык",
@@ -67,7 +67,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Full Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/34a78b866a4906267ee8f0e93457cb22b5550b9d.png",
+		"skill_icon": "34a78b866a4906267ee8f0e93457cb22b5550b9d.png",
 		"job_icon": "LNC",
 		"level": "26",
 		"classification": "Боевой навык",
@@ -81,7 +81,7 @@
 	"PVE Skill 07": {
 		"name": "Lance Charge",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/256148b3e98/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cb90fa2f691cd58f5b068f6088550b3d56c2bd73.png",
+		"skill_icon": "cb90fa2f691cd58f5b068f6088550b3d56c2bd73.png",
 		"job_icon": "LNC",
 		"level": "30",
 		"classification": "Способность",
@@ -95,7 +95,7 @@
 	"PVE Skill 08": {
 		"name": "Jump",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0533230f632/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f33d8ab6bf2a7e902b9292016eefbbb0fe551548.png",
+		"skill_icon": "f33d8ab6bf2a7e902b9292016eefbbb0fe551548.png",
 		"job_icon": "DRG",
 		"level": "30",
 		"classification": "Способность",
@@ -109,7 +109,7 @@
 	"PVE Skill 09": {
 		"name": "Elusive Jump",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c223d7cb994/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/410e90de2429654f6a4912e15c1d07597f765f53.png",
+		"skill_icon": "410e90de2429654f6a4912e15c1d07597f765f53.png",
 		"job_icon": "DRG",
 		"level": "35",
 		"classification": "Способность",
@@ -123,7 +123,7 @@
 	"PVE Skill 10": {
 		"name": "Doom Spike",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/28e426096d9/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1e6e09c76f8847d3caf2ee330400848219460dfa.png",
+		"skill_icon": "1e6e09c76f8847d3caf2ee330400848219460dfa.png",
 		"job_icon": "DRG",
 		"level": "40",
 		"classification": "Боевой навык",
@@ -137,7 +137,7 @@
 	"PVE Skill 11": {
 		"name": "Winged Glide",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6191bc4391f/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/970713e35721fcecc8fce83a6064c984bdeb22c3.png",
+		"skill_icon": "970713e35721fcecc8fce83a6064c984bdeb22c3.png",
 		"job_icon": "DRG",
 		"level": "45",
 		"classification": "Способность",
@@ -150,7 +150,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Chaos Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b77850f0a67953c4b4a13228788bdc1ec41c20fc.png",
+		"skill_icon": "b77850f0a67953c4b4a13228788bdc1ec41c20fc.png",
 		"job_icon": "LNC",
 		"level": "50",
 		"classification": "Боевой навык",
@@ -164,7 +164,7 @@
 	"PVE Skill 13": {
 		"name": "Dragonfire Dive",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f8e7dbb803b/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1ccffd13759a4491f95494464c6d10dc33c006af.png",
+		"skill_icon": "1ccffd13759a4491f95494464c6d10dc33c006af.png",
 		"job_icon": "DRG",
 		"level": "50",
 		"classification": "Способность",
@@ -178,7 +178,7 @@
 	"PVE Skill 14": {
 		"name": "Battle Litany",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/29631d50fda/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/508f9edf2563db3319c3f623ce5d94517062263c.png",
+		"skill_icon": "508f9edf2563db3319c3f623ce5d94517062263c.png",
 		"job_icon": "DRG",
 		"level": "52",
 		"classification": "Способность",
@@ -192,7 +192,7 @@
 	"PVE Skill 15": {
 		"name": "Fang and Claw",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/aa012aec581/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4fe2230dcc26896793e2936288fd25252dcfc56c.png",
+		"skill_icon": "4fe2230dcc26896793e2936288fd25252dcfc56c.png",
 		"job_icon": "DRG",
 		"level": "56",
 		"classification": "Боевой навык",
@@ -206,7 +206,7 @@
 	"PVE Skill 16": {
 		"name": "Wheeling Thrust",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b176ac13bc3/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a8a45f08c2c5db904616f91470667fe4aaa6bcc5.png",
+		"skill_icon": "a8a45f08c2c5db904616f91470667fe4aaa6bcc5.png",
 		"job_icon": "DRG",
 		"level": "58",
 		"classification": "Боевой навык",
@@ -220,7 +220,7 @@
 	"PVE Skill 17": {
 		"name": "Geirskogul",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/373f3c4375b/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9997d1e9e3008de62095f170806afc46bf8c0512.png",
+		"skill_icon": "9997d1e9e3008de62095f170806afc46bf8c0512.png",
 		"job_icon": "DRG",
 		"level": "60",
 		"classification": "Способность",
@@ -233,7 +233,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Sonic Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9457aa084f7bf99d66ad2c32318a7377886fa5b1.png",
+		"skill_icon": "9457aa084f7bf99d66ad2c32318a7377886fa5b1.png",
 		"job_icon": "DRG",
 		"level": "62",
 		"classification": "Боевой навык",
@@ -246,7 +246,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Drakesbane",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1bc31e46fb90bda5697cf272e0df8b9ac8086b13.png",
+		"skill_icon": "1bc31e46fb90bda5697cf272e0df8b9ac8086b13.png",
 		"job_icon": "DRG",
 		"level": "64",
 		"classification": "Боевой навык",
@@ -259,7 +259,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Mirage Dive",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/83da9c48674e13d357d7ff8ba8fba6b49f287f79.png",
+		"skill_icon": "83da9c48674e13d357d7ff8ba8fba6b49f287f79.png",
 		"job_icon": "DRG",
 		"level": "68",
 		"classification": "Способность",
@@ -273,7 +273,7 @@
 	"PVE Skill 21": {
 		"name": "Nastrond",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d522a7e2ce9/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/97ac6d936a5ade6f37ed4395355893eb976a477a.png",
+		"skill_icon": "97ac6d936a5ade6f37ed4395355893eb976a477a.png",
 		"job_icon": "DRG",
 		"level": "70",
 		"classification": "Способность",
@@ -286,7 +286,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Coerthan Torment",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/673868536e6be70ed3ae3e1b4be66579b572e324.png",
+		"skill_icon": "673868536e6be70ed3ae3e1b4be66579b572e324.png",
 		"job_icon": "DRG",
 		"level": "72",
 		"classification": "Боевой навык",
@@ -299,7 +299,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "High Jump",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/864834c5502d69496057326478a42ef74a504af3.png",
+		"skill_icon": "864834c5502d69496057326478a42ef74a504af3.png",
 		"job_icon": "DRG",
 		"level": "74",
 		"classification": "Способность",
@@ -312,7 +312,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Raiden Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d63e1dd2c2cb09e371caf50f997b65f8148c578b.png",
+		"skill_icon": "d63e1dd2c2cb09e371caf50f997b65f8148c578b.png",
 		"job_icon": "DRG",
 		"level": "76",
 		"classification": "Боевой навык",
@@ -325,7 +325,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Stardiver",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/235f159d863cc53374d2029a1bfb141828fad5b5.png",
+		"skill_icon": "235f159d863cc53374d2029a1bfb141828fad5b5.png",
 		"job_icon": "DRG",
 		"level": "80",
 		"classification": "Способность",
@@ -338,7 +338,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Draconian Fury",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/51e0251a0915bf36c3c804a760c8b3eaa3fe869e.png",
+		"skill_icon": "51e0251a0915bf36c3c804a760c8b3eaa3fe869e.png",
 		"job_icon": "DRG",
 		"level": "82",
 		"classification": "Боевой навык",
@@ -351,7 +351,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Heavens' Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e8ab8aa66c28e6c6fd4acf489417d7e7e2d5acc6.png",
+		"skill_icon": "e8ab8aa66c28e6c6fd4acf489417d7e7e2d5acc6.png",
 		"job_icon": "DRG",
 		"level": "86",
 		"classification": "Боевой навык",
@@ -364,7 +364,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Chaotic Spring",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e34337371ce368cb087a6c9cf3cad150271b7077.png",
+		"skill_icon": "e34337371ce368cb087a6c9cf3cad150271b7077.png",
 		"job_icon": "DRG",
 		"level": "86",
 		"classification": "Боевой навык",
@@ -377,7 +377,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Wyrmwind Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e61f89ed9db5020d7733920451f4d1809fe52c6b.png",
+		"skill_icon": "e61f89ed9db5020d7733920451f4d1809fe52c6b.png",
 		"job_icon": "DRG",
 		"level": "90",
 		"classification": "Способность",
@@ -391,7 +391,7 @@
 	"PVE Skill 30": {
 		"name": "Rise of the Dragon",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f8e7dbb803b/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4d7cca717dd43f7598d848d99886ccaec3835bad.png",
+		"skill_icon": "4d7cca717dd43f7598d848d99886ccaec3835bad.png",
 		"job_icon": "DRG",
 		"level": "92",
 		"classification": "Способность",
@@ -404,7 +404,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Lance Barrage",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a5743cd6a29dd664a044690a6e98f3ddeb05eb5a.png",
+		"skill_icon": "a5743cd6a29dd664a044690a6e98f3ddeb05eb5a.png",
 		"job_icon": "DRG",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -417,7 +417,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Spiral Blow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b87f6aa2ebc0b8c4a858b76c6be82094738a6247.png",
+		"skill_icon": "b87f6aa2ebc0b8c4a858b76c6be82094738a6247.png",
 		"job_icon": "DRG",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -430,7 +430,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Starcross",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fa02faafe16ebea100212e1ae3b89298bc249a7f.png",
+		"skill_icon": "fa02faafe16ebea100212e1ae3b89298bc249a7f.png",
 		"job_icon": "DRG",
 		"level": "100",
 		"classification": "Способность",
@@ -444,7 +444,7 @@
 	"Trait 01": {
 		"name": "Enhanced Jump",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3c1cf888f4c/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4c5dedb70ceeba4055bd3ae73297953f986e4019.png",
+		"skill_icon": "4c5dedb70ceeba4055bd3ae73297953f986e4019.png",
 		"job_icon": "DRG",
 		"level": "54",
 		"content": "Увеличивает силу атаки Jump до 320."
@@ -452,91 +452,91 @@
 	"Trait 02": {
 		"name": "Life of the Dragon",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d522a7e2ce9/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c9d5b7f74c9107188eec0bb2cad21e3081113382.png",
+		"skill_icon": "c9d5b7f74c9107188eec0bb2cad21e3081113382.png",
 		"job_icon": "DRG",
 		"level": "70",
 		"content": "Улучшает Blood of the Dragon до Life of the Dragon.<br/>Эффект Life of the Dragon: увеличивает наносимый урон на 15%.<br/>При успешном использовании Geirskogul, дает Nastrond Ready.<br/>Продолжительность: 20 сек."
 	},
 	"Trait 03": {
 		"name": "Jump Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/487203b1d939fa5da7aaec335a10c30bae150ca5.png",
+		"skill_icon": "487203b1d939fa5da7aaec335a10c30bae150ca5.png",
 		"job_icon": "DRG",
 		"level": "74",
 		"content": "Улучшает умение Jump до High Jump."
 	},
 	"Trait 04": {
 		"name": "Lance Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4da1e6e139afd6c3c1d6db696410641aab50b31d.png",
+		"skill_icon": "4da1e6e139afd6c3c1d6db696410641aab50b31d.png",
 		"job_icon": "DRG",
 		"level": "76",
 		"content": "Увеличивает силу атаки True Thrust до 230, Vorpal Thrust до 130, Piercing Talon до 200, Enhanced Piercing Talon до 350 и Disembowel до 140.<br/>Накладывает эффект Draconian Fire, если Drakesbane выполнено после Fang and Claw или Wheeling Thrust.<br/>Продолжительность: 30 сек.<br/>Эффект Draconian Fire заканчивается при выполнении любого боевого навыка ближнего боя.<br/>Улучшает True Thrust до Raiden Thrust, пока персонаж находится под эффектом Draconian Fire."
 	},
 	"Trait 05": {
 		"name": "Enhanced Coerthan Torment",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a5cb24b338a7fda93626df156a3a6ef0352103a0.png",
+		"skill_icon": "a5cb24b338a7fda93626df156a3a6ef0352103a0.png",
 		"job_icon": "DRG",
 		"level": "82",
 		"content": "Накладывает эффект Draconian Fire после успешного завершения комбо с Coerthan Torment.<br/>Продолжительность: 30 сек.<br/>Эффект Draconian Fire заканчивается при выполнении любого боевого навыка ближнего боя.<br/>Улучшает Doom Spike до Draconian Fire, пока персонаж находится под эффектом Draconian Fire."
 	},
 	"Trait 06": {
 		"name": "Enhanced Winged Glide",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ccdadc18ab7137d11372e01419e8589ef06a94e8.png",
+		"skill_icon": "ccdadc18ab7137d11372e01419e8589ef06a94e8.png",
 		"job_icon": "DRG",
 		"level": "84",
 		"content": "Позволяет накапливать заряды для последовательного использования Winged Glide.<br/>Максимум зарядов: 2"
 	},
 	"Trait 07": {
 		"name": "Lance Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1d331630aba68af2ef45a7c0b7270529c9b7b9ea.png",
+		"skill_icon": "1d331630aba68af2ef45a7c0b7270529c9b7b9ea.png",
 		"job_icon": "DRG",
 		"level": "86",
 		"content": "Улучшает умение Full Thrust до Heavens' Thrust и Chaos Thrust до Chaotic Spring. Также увеличивает силу атаки Drakesbane до 400."
 	},
 	"Trait 08": {
 		"name": "Enhanced Life Surge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/518467072242157cd4a519d8f99ee64cc2a51769.png",
+		"skill_icon": "518467072242157cd4a519d8f99ee64cc2a51769.png",
 		"job_icon": "DRG",
 		"level": "88",
 		"content": "Позволяет накапливать заряды для последовательного использования Life Surge.<br/>Максимум зарядов: 2"
 	},
 	"Trait 09": {
 		"name": "Lance Mastery III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2f3e1a3378cc09d6e54c6be2a920c432b47845cc.png",
+		"skill_icon": "2f3e1a3378cc09d6e54c6be2a920c432b47845cc.png",
 		"job_icon": "DRG",
 		"level": "90",
 		"content": "Увеличивает силу атаки Geirskogul до 280 и Nastrond до 720.<br/>Позволяет усилить Firstminds Focus при успешном использовании Raiden Thrust или Draconian Fury, вплоть до 2 зарядов."
 	},
 	"Trait 10": {
 		"name": "Enhanced Dragonfire Dive",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9620c52ce9377062039809fc58e3b38a00872b97.png",
+		"skill_icon": "9620c52ce9377062039809fc58e3b38a00872b97.png",
 		"job_icon": "DRG",
 		"level": "92",
 		"content": "Накладывает эффект Dragon's Flight после использования Dragonfire Dive.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 11": {
 		"name": "Melee Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4c948f409f459cc6cc4983962f78d071f06ef5b8.png",
+		"skill_icon": "4c948f409f459cc6cc4983962f78d071f06ef5b8.png",
 		"job_icon": "DRG",
 		"level": "94",
 		"content": "Увеличивает силу атаки Fang and Claw до 140, Wheeling Thrust до 140, Drakesbane до 460, Raiden Thrust до 320, Stardiver до 840, Heavens' Thrust до 160, Chaotic Spring до 140 и Wyrmwind Thrust до 440."
 	},
 	"Trait 12": {
 		"name": "Lance Mastery IV",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/846403f0c92dee00d9b075f5133f9eb5096afdc1.png",
+		"skill_icon": "846403f0c92dee00d9b075f5133f9eb5096afdc1.png",
 		"job_icon": "DRG",
 		"level": "96",
 		"content": "Улучшает умение Vorpal Thrust до Lance Barrage и Disembowel до Spiral Blow."
 	},
 	"Trait 13": {
 		"name": "Enhanced Stardiver",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/73946f68f294a53d5bcdbeca5e43b9016e07d91f.png",
+		"skill_icon": "73946f68f294a53d5bcdbeca5e43b9016e07d91f.png",
 		"job_icon": "DRG",
 		"level": "100",
 		"content": "Накладывает эффект Starcross Ready после использования Stardiver.<br/>Продолжительность: 20 сек."
 	},
 	"PVP Skill 01": {
 		"name": "Raiden Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/69697b76c80e8029d46328c3572547055f18e601.png",
+		"skill_icon": "69697b76c80e8029d46328c3572547055f18e601.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -547,7 +547,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Fang and Claw",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7f0a2f77c976f12ddcb056cbfa85e58f298cc85b.png",
+		"skill_icon": "7f0a2f77c976f12ddcb056cbfa85e58f298cc85b.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -558,7 +558,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Wheeling Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4fa45b91f8400b979b436964d31b6c98ce0a40b6.png",
+		"skill_icon": "4fa45b91f8400b979b436964d31b6c98ce0a40b6.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -569,7 +569,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Drakesbane",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8c1c583a49110fe9ee0c120bb8ef84470d72e1fd.png",
+		"skill_icon": "8c1c583a49110fe9ee0c120bb8ef84470d72e1fd.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -580,7 +580,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Chaotic Spring",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/beed1dd5940d6a1c73a65d2df23e0bba94553e70.png",
+		"skill_icon": "beed1dd5940d6a1c73a65d2df23e0bba94553e70.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -591,7 +591,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Geirskogul",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/40d9f18cff0687b38369f777aa53289e7b9fbdec.png",
+		"skill_icon": "40d9f18cff0687b38369f777aa53289e7b9fbdec.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -602,7 +602,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "High Jump",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bbb6cc31f11ffe457f6e893d48924739c1ded02a.png",
+		"skill_icon": "bbb6cc31f11ffe457f6e893d48924739c1ded02a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -613,7 +613,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Elusive Jump",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c8b07f7484cef5f2ea4a7a3b11fd71d2526a7eb6.png",
+		"skill_icon": "c8b07f7484cef5f2ea4a7a3b11fd71d2526a7eb6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -624,7 +624,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Horrid Roar",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b1f27df2db64f7037b01bd9bd45118f4f6a68411.png",
+		"skill_icon": "b1f27df2db64f7037b01bd9bd45118f4f6a68411.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "24 сек.",
@@ -635,7 +635,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Heavens' Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fae7c03f0a715ea2494d384a5a4b38fd3a7a558b.png",
+		"skill_icon": "fae7c03f0a715ea2494d384a5a4b38fd3a7a558b.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -646,7 +646,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Starcross",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3fe6e2871437862b13263261354d1e9b0432a96f.png",
+		"skill_icon": "3fe6e2871437862b13263261354d1e9b0432a96f.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -657,7 +657,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Nastrond",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/077f033d215fc2852c0a24294344701a413d7fc6.png",
+		"skill_icon": "077f033d215fc2852c0a24294344701a413d7fc6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -668,7 +668,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Wyrmwind Thrust",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/82a09097dac30def5de8b72764c3858736210818.png",
+		"skill_icon": "82a09097dac30def5de8b72764c3858736210818.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -679,7 +679,7 @@
 	},
 	"PVP Skill LB1": {
 		"name": "Sky High",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png",
+		"skill_icon": "7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "0y",
@@ -689,7 +689,7 @@
 	},
 	"PVP Skill LB2": {
 		"name": "Sky Shatter",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/82f321a762fc70566c427f2e2dfda71ce4e0718b.png",
+		"skill_icon": "82f321a762fc70566c427f2e2dfda71ce4e0718b.png",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
 		"range": "0y",

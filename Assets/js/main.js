@@ -1,17 +1,22 @@
 // ============================================================================
-// [1] ГЛОБАЛЬНЫЕ КОНСТАНТЫ И НАСТРОЙКИ
+// НАСТРОЙКИ
 // ============================================================================
+
+// Тест для дебага
+// const isLocal = location.hostname === "localhost";
+// const cdnBase = isLocal ? "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/Patch-7.5" : "https://cdn.ff14jobguide.ru";
+
+const cdnBase = "https://cdn.ff14jobguide.ru";
 const JSON_URLS = {
-	UPDATES: "https://cdn.ff14jobguide.ru/data/UpdatesPatch.json",
+	UPDATES: `${cdnBase}/data/UpdatesPatch.json`,
 	MENU: "/DB/Menu.json",
-	SEARCH: "https://cdn.ff14jobguide.ru/data/GlobalSearch.json",
+	SEARCH: `${cdnBase}/data/GlobalSearch.json`,
 };
 
-const PAGES_PATH = "/Page/";
 let jsonData = [];
 
 // ============================================================================
-// [2] ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
+// ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ
 // ============================================================================
 const lockScroll = () => $("body").addClass("no-scroll");
 const unlockScroll = () => $("body").removeClass("no-scroll");
@@ -112,10 +117,11 @@ const createSVGSnowfall = () => {
 // createSVGSnowfall();
 
 // ============================================================================
-// [3] ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
+// ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
 // ============================================================================
 $(function () {
-	// ---  Активное меню (Фикс бага с includes) ---
+	const ENABLE_HTML_FIX = true;
+	// ---  Активное меню ---
 	const currentPath = window.location.pathname.split("/").pop().replace(".html", "") || "index";
 	$(".btn_gs_menu").each(function () {
 		const href = $(this).attr("href");
@@ -177,7 +183,7 @@ $(function () {
 		});
 
 		const url = new URL(window.location);
-		url.searchParams.delete("skill");
+		//url.searchParams.delete("skill");
 		url.hash = id;
 		history.replaceState(null, null, url.toString());
 	};
@@ -259,26 +265,31 @@ $(function () {
 		});
 	}
 
-	// --- Глобальный Поиск (Загрузка и логика) ---
+	// --- Глобальный Поиск ---
+	let flatSkillsData = [];
+
 	$.getJSON(`${JSON_URLS.SEARCH}?v=${Date.now()}`, (data) => {
-		jsonData = data;
-		jsonData.forEach((job) => job.skills.forEach((skill) => (skill._search = skill.skill.toLowerCase())));
+		flatSkillsData = data.flatMap((job) =>
+			job.skills.map((skill) => ({
+				...skill,
+				_search: skill.skill.toLowerCase(),
+				jobName: job.job,
+				jobPage: job.page_job,
+			}))
+		);
 	});
 
-	const createItem = (job, skill) => {
-		const jobName = job.job.replace(/\s+/g, "_").toLowerCase();
+	const createItem = (skill) => {
 		const encodedSkill = safeBtoa(skill["db-skill"]);
-		const pageUrl = `${PAGES_PATH}${job.page_job}?skill=${encodedSkill}`;
+		const pageUrl = `/Page/${skill.jobPage}?skill=${encodedSkill}`;
 		const fullUrl = location.origin + pageUrl;
-
 		const $li = $("<li>");
 		const $copy = $("<a>", {class: "copy-link", "data-url": fullUrl}).append($("<img>", {src: `/Assets/images/svg/link.svg`}));
-		const $link = $("<a>", {href: pageUrl, target: "_blank", "db-skill": skill["db-skill"]});
-		const $icon = $("<div>", {class: "icon_search"}).append($("<img>", {src: `/Assets/images/DoWDoM/search/${jobName}/${skill.icon}`, alt: skill.skill, class: "skill-icon"}));
-
+		const $link = $("<a>", {href: pageUrl, "db-skill": skill["db-skill"]});
+		const $icon = $("<div>", {class: "icon_search"}).append($("<img>", {src: `https://cdn.ff14jobguide.ru/data/icons/${skill.icon}`, alt: skill.skill, class: "skill-icon"}));
 		const $text = $("<div>")
 			.text(`${skill.skill} `)
-			.append($("<span>").text(`[${job.job}: ${skill.level}]`));
+			.append($("<span>").text(`[${skill.jobName}: ${skill.level}]`));
 
 		return $li.append($copy, $link.append($icon, $text));
 	};
@@ -286,19 +297,17 @@ $(function () {
 	const doSearch = ($input, $list) => {
 		const value = $input.val().trim().toLowerCase();
 		$list.empty();
-		if (!value || !jsonData.length) return $list.hide();
+		if (!value || !flatSkillsData.length) return $list.hide();
 
-		let hasResult = false;
-		jsonData.forEach((job) =>
-			job.skills.forEach((skill) => {
-				if (skill._search.includes(value)) {
-					$list.append(createItem(job, skill));
-					hasResult = true;
-				}
-			})
-		);
-		if (!hasResult) $list.append($("<li>").text("Ничего не найдено"));
-		$list.show();
+		const results = flatSkillsData.filter((skill) => skill._search.includes(value));
+
+		if (results.length === 0) {
+			$list.append($("<li>").text("Ничего не найдено")).show();
+			return;
+		}
+
+		const $items = results.map((skill) => createItem(skill));
+		$list.append($items).show();
 	};
 
 	const initGlobalSearch = (inputSelector, resultSelector) => {
@@ -312,18 +321,18 @@ $(function () {
 
 	if ($("#floatingSearchBtn").length) {
 		const popupHTML = `
-            <div id="searchPopup" class="search-popup-overlay" style="display: none;">
-                <div class="search-popup-container">
-                    <button class="search-popup-close" id="closeSearchPopup">&times;</button>
-                    <div class="search-container">
-                        <h2><img src="/Assets/images/main/Search.png">Поиск по умениям</h2>
-                        <div class="search_block">
-                            <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
-                            <ul id="searchPopupResults" class="search-results"></ul>
-                        </div>
-                    </div>
-                </div>
-            </div>`;
+         <div id="searchPopup" class="search-popup-overlay" style="display: none;">
+             <div class="search-popup-container">
+                 <button class="search-popup-close" id="closeSearchPopup">&times;</button>
+                 <div class="search-container">
+                     <h2><img src="/Assets/images/main/Search.png">Поиск по умениям</h2>
+                     <div class="search_block">
+                         <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
+                         <ul id="searchPopupResults" class="search-results"></ul>
+                     </div>
+                 </div>
+             </div>
+         </div>`;
 		$("#floatingSearchBtn").after(popupHTML);
 
 		const $popup = $("#searchPopup"),
@@ -368,7 +377,6 @@ $(function () {
 	initGlobalSearch("#search", "#results");
 
 	// --- Дебаг ---
-	const ENABLE_HTML_FIX = false;
 	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
 	const fixSingleLink = (el) => {
@@ -436,7 +444,9 @@ $(function () {
 		$(window).on("load", hidePreloader);
 	}
 });
-
+// ============================================================================
+// ГОЛД СОРСЕР МЕНЮ
+// ============================================================================
 document.addEventListener("DOMContentLoaded", () => {
 	const mahjongMenu = document.querySelector(".gs_menu_nav");
 	if (!mahjongMenu) return;

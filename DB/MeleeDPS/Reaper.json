@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/26fda59956454f1dbca5f260b2763321a2bb761a.png",
+		"skill_icon": "26fda59956454f1dbca5f260b2763321a2bb761a.png",
 		"job_icon": "RPR",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -14,7 +14,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Waxing Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4bab01eb43df9752e98deef097e9251647ad96df.png",
+		"skill_icon": "4bab01eb43df9752e98deef097e9251647ad96df.png",
 		"job_icon": "RPR",
 		"level": "5",
 		"classification": "Боевой навык",
@@ -27,7 +27,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Shadow of Death",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e3e48cee91c7abf77a15f6c4c9c9630349849205.png",
+		"skill_icon": "e3e48cee91c7abf77a15f6c4c9c9630349849205.png",
 		"job_icon": "RPR",
 		"level": "10",
 		"classification": "Боевой навык",
@@ -40,7 +40,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Harpe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d3ae9c9673da37ea10aa4103b747163250c4a385.png",
+		"skill_icon": "d3ae9c9673da37ea10aa4103b747163250c4a385.png",
 		"job_icon": "RPR",
 		"level": "15",
 		"classification": "Заклинание",
@@ -53,7 +53,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Hell's Ingress",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2e1c97fd007f90808b2fd40ad86354b9e97447a8.png",
+		"skill_icon": "2e1c97fd007f90808b2fd40ad86354b9e97447a8.png",
 		"job_icon": "RPR",
 		"level": "20",
 		"classification": "Способность",
@@ -66,7 +66,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Hell's Egress",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/113b87916c7ffdb9a8007615f697f2c189c6646a.png",
+		"skill_icon": "113b87916c7ffdb9a8007615f697f2c189c6646a.png",
 		"job_icon": "RPR",
 		"level": "20",
 		"classification": "Способность",
@@ -79,7 +79,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Spinning Scythe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/dac9dba46aa8ff673cd2e365c9468525db0ba1a2.png",
+		"skill_icon": "dac9dba46aa8ff673cd2e365c9468525db0ba1a2.png",
 		"job_icon": "RPR",
 		"level": "25",
 		"classification": "Боевой навык",
@@ -92,7 +92,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Infernal Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/aa7a7dd464459f24aa2209cddcbf8a3ebb167f0b.png",
+		"skill_icon": "aa7a7dd464459f24aa2209cddcbf8a3ebb167f0b.png",
 		"job_icon": "RPR",
 		"level": "30",
 		"classification": "Боевой навык",
@@ -105,7 +105,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Whorl of Death",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/31d409f8aaeae041b8150e68764e032fccd7c4c6.png",
+		"skill_icon": "31d409f8aaeae041b8150e68764e032fccd7c4c6.png",
 		"job_icon": "RPR",
 		"level": "35",
 		"classification": "Боевой навык",
@@ -118,7 +118,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Arcane Crest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9977fdbbf70443f9f31f4868cba97138fbec5460.png",
+		"skill_icon": "9977fdbbf70443f9f31f4868cba97138fbec5460.png",
 		"job_icon": "RPR",
 		"level": "40",
 		"classification": "Способность",
@@ -131,7 +131,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Nightmare Scythe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/710256a9319251859b53dd3804078cc8e35c2333.png",
+		"skill_icon": "710256a9319251859b53dd3804078cc8e35c2333.png",
 		"job_icon": "RPR",
 		"level": "45",
 		"classification": "Боевой навык",
@@ -144,7 +144,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Blood Stalk",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f0f3d4c722f5f9b36b25ba72d3774b4b811b699d.png",
+		"skill_icon": "f0f3d4c722f5f9b36b25ba72d3774b4b811b699d.png",
 		"job_icon": "RPR",
 		"level": "50",
 		"classification": "Способность",
@@ -157,7 +157,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Grim Swathe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ac34fd282b758c407014a47e3c30e188050307d8.png",
+		"skill_icon": "ac34fd282b758c407014a47e3c30e188050307d8.png",
 		"job_icon": "RPR",
 		"level": "55",
 		"classification": "Способность",
@@ -170,7 +170,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Soul Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/089e7135cc2e4e64590c18db17fbab56e0040843.png",
+		"skill_icon": "089e7135cc2e4e64590c18db17fbab56e0040843.png",
 		"job_icon": "RPR",
 		"level": "60",
 		"classification": "Боевой навык",
@@ -183,7 +183,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Soul Scythe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/22ae994a06569700d3f9d51b1b999c951ca171e3.png",
+		"skill_icon": "22ae994a06569700d3f9d51b1b999c951ca171e3.png",
 		"job_icon": "RPR",
 		"level": "65",
 		"classification": "Боевой навык",
@@ -196,7 +196,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Gibbet",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f8259f07fef48d2d418535404fdc672bdc852285.png",
+		"skill_icon": "f8259f07fef48d2d418535404fdc672bdc852285.png",
 		"job_icon": "RPR",
 		"level": "70",
 		"classification": "Боевой навык",
@@ -209,7 +209,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Gallows",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ae681cd40113523630db64f0e3823235db61a364.png",
+		"skill_icon": "ae681cd40113523630db64f0e3823235db61a364.png",
 		"job_icon": "RPR",
 		"level": "70",
 		"classification": "Боевой навык",
@@ -222,7 +222,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Guillotine",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b4d685f506367e2bd3228603e7b2c4172567f933.png",
+		"skill_icon": "b4d685f506367e2bd3228603e7b2c4172567f933.png",
 		"job_icon": "RPR",
 		"level": "70",
 		"classification": "Боевой навык",
@@ -235,7 +235,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Unveiled Gibbet",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/02ab830b9551480d0b5d62a24012c401a422b0bd.png",
+		"skill_icon": "02ab830b9551480d0b5d62a24012c401a422b0bd.png",
 		"job_icon": "RPR",
 		"level": "70",
 		"classification": "Способность",
@@ -248,7 +248,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Unveiled Gallows",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/017af138fc2458f9cae561ec96f027791d1da803.png",
+		"skill_icon": "017af138fc2458f9cae561ec96f027791d1da803.png",
 		"job_icon": "RPR",
 		"level": "70",
 		"classification": "Способность",
@@ -261,7 +261,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Arcane Circle",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b561271272c45fb8436bfe4dfb590b76c631687b.png",
+		"skill_icon": "b561271272c45fb8436bfe4dfb590b76c631687b.png",
 		"job_icon": "RPR",
 		"level": "72",
 		"classification": "Способность",
@@ -274,7 +274,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Regress",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/eaeec5829efd0623650ee09d1b3867ef3804c643.png",
+		"skill_icon": "eaeec5829efd0623650ee09d1b3867ef3804c643.png",
 		"job_icon": "RPR",
 		"level": "74",
 		"classification": "Способность",
@@ -287,7 +287,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Gluttony",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/933867484213377dc45cafd796ff5d934cee8906.png",
+		"skill_icon": "933867484213377dc45cafd796ff5d934cee8906.png",
 		"job_icon": "RPR",
 		"level": "76",
 		"classification": "Способность",
@@ -301,7 +301,7 @@
 	"PVE Skill 24": {
 		"name": "Enshroud",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3c7fb68def/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4e389efd3504b3ed9dcd4f7633ebc9a5bb528971.png",
+		"skill_icon": "4e389efd3504b3ed9dcd4f7633ebc9a5bb528971.png",
 		"job_icon": "RPR",
 		"level": "80",
 		"classification": "Способность",
@@ -314,7 +314,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Void Reaping",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d2632208267baca74f7d9c19ee7a9c794034f2f0.png",
+		"skill_icon": "d2632208267baca74f7d9c19ee7a9c794034f2f0.png",
 		"job_icon": "RPR",
 		"level": "80",
 		"classification": "Боевой навык",
@@ -327,7 +327,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Cross Reaping",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a080e4189263d80adcd79deaaac266c93798d202.png",
+		"skill_icon": "a080e4189263d80adcd79deaaac266c93798d202.png",
 		"job_icon": "RPR",
 		"level": "80",
 		"classification": "Боевой навык",
@@ -340,7 +340,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Grim Reaping",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3b57c45ec39fc75788c9603653a77c5b95f04e67.png",
+		"skill_icon": "3b57c45ec39fc75788c9603653a77c5b95f04e67.png",
 		"job_icon": "RPR",
 		"level": "80",
 		"classification": "Боевой навык",
@@ -353,7 +353,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Soulsow",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a59a5def406758cbd282cffdea8bea00a98f5e58.png",
+		"skill_icon": "a59a5def406758cbd282cffdea8bea00a98f5e58.png",
 		"job_icon": "RPR",
 		"level": "82",
 		"classification": "Заклинание",
@@ -366,7 +366,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Harvest Moon",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e5f0a7dabd5ef44d08e8d5920d834f3e734169d9.png",
+		"skill_icon": "e5f0a7dabd5ef44d08e8d5920d834f3e734169d9.png",
 		"job_icon": "RPR",
 		"level": "82",
 		"classification": "Заклинание",
@@ -379,7 +379,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Lemure's Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c9ae486399356401f032b455ea5b13f986236c82.png",
+		"skill_icon": "c9ae486399356401f032b455ea5b13f986236c82.png",
 		"job_icon": "RPR",
 		"level": "86",
 		"classification": "Способность",
@@ -392,7 +392,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Lemure's Scythe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/479155b751c2764273ae35c1aab71ed298ad9d18.png",
+		"skill_icon": "479155b751c2764273ae35c1aab71ed298ad9d18.png",
 		"job_icon": "RPR",
 		"level": "86",
 		"classification": "Способность",
@@ -405,7 +405,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Plentiful Harvest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/08babf4d2bf7ce046d03f459af8fa4c9921f96cc.png",
+		"skill_icon": "08babf4d2bf7ce046d03f459af8fa4c9921f96cc.png",
 		"job_icon": "RPR",
 		"level": "88",
 		"classification": "Боевой навык",
@@ -418,7 +418,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Communio",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3b0daa7e454abbd2b6ce037b5c77157462fadbf7.png",
+		"skill_icon": "3b0daa7e454abbd2b6ce037b5c77157462fadbf7.png",
 		"job_icon": "RPR",
 		"level": "90",
 		"classification": "Заклинание",
@@ -431,7 +431,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Sacrificium",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c30eb0a31733645a16fe4afedf837597addded77.png",
+		"skill_icon": "c30eb0a31733645a16fe4afedf837597addded77.png",
 		"job_icon": "RPR",
 		"level": "92",
 		"classification": "Способность",
@@ -444,7 +444,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Executioner's Gibbet",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7df5921d09e8a524ef8b7c187a9f0cb1ee181aff.png",
+		"skill_icon": "7df5921d09e8a524ef8b7c187a9f0cb1ee181aff.png",
 		"job_icon": "RPR",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -457,7 +457,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Executioner's Gallows",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0dfc7d7951330304c328135c306fa3d54b1a9cdc.png",
+		"skill_icon": "0dfc7d7951330304c328135c306fa3d54b1a9cdc.png",
 		"job_icon": "RPR",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -470,7 +470,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Executioner's Guillotine",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d732a04e72dd2c5e3c0702749e6310329b611ca8.png",
+		"skill_icon": "d732a04e72dd2c5e3c0702749e6310329b611ca8.png",
 		"job_icon": "RPR",
 		"level": "96",
 		"classification": "Боевой навык",
@@ -483,7 +483,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Perfectio",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ab9537a1e24665b2b794656e28f58981b95b3c52.png",
+		"skill_icon": "ab9537a1e24665b2b794656e28f58981b95b3c52.png",
 		"job_icon": "RPR",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -496,35 +496,35 @@
 	},
 	"Trait 01": {
 		"name": "Soul Gauge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cdd4dbdaa89dfc284e0be14a8ef05287679e7210.png",
+		"skill_icon": "cdd4dbdaa89dfc284e0be14a8ef05287679e7210.png",
 		"job_icon": "RPR",
 		"level": "50",
 		"content": "Позволяет восполнять шкалу Soul Gauge при использовании определенных боевых навыков или магических умений или при победе над врагами, находящимися под действием эффекта Death's Design."
 	},
 	"Trait 02": {
 		"name": "Melee Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
+		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "RPR",
 		"level": "60",
 		"content": "Увеличивает силу атаки Slice до 300, Waxing Slice до 140, Shadow of Death до 300, Harpe до 300, Spinning Scythe до 140, Infernal Slice до 140, Whorl of Death до 100 и Nightmare Scythe до 120."
 	},
 	"Trait 03": {
 		"name": "Enhanced Avatar",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/884cf03809d4b64336961dedfcb87d7fa5c065f3.png",
+		"skill_icon": "884cf03809d4b64336961dedfcb87d7fa5c065f3.png",
 		"job_icon": "RPR",
 		"level": "70",
 		"content": "Накладывает эффект Soul Reaver при успешном использовании Blood Stalk или Grim Swathe.<br/>Продолжительность: 30 сек.<br/>Эффект прекращается при использовании любого боевого навыка или магической атаки."
 	},
 	"Trait 04": {
 		"name": "Hellsgate",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/197108fc180510d46e15ba85434a517352da9ea3.png",
+		"skill_icon": "197108fc180510d46e15ba85434a517352da9ea3.png",
 		"job_icon": "RPR",
 		"level": "74",
 		"content": "Использовав умение Hell's Ingress или Hell's Egress, персонаж оставляет за собой Hellsgate и накладывает эффект Threshold на персонажа.<br/>Продолжительность: 10 сек.<br/>Hell's Ingress меняется на Regress после использования Hell's Egress и наоборот."
 	},
 	"Trait 05": {
 		"name": "Tempered Soul",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c1fcd7a37a619bdd241fafe156ffe6e1c306553d.png",
+		"skill_icon": "c1fcd7a37a619bdd241fafe156ffe6e1c306553d.png",
 		"job_icon": "RPR",
 		"level": "78",
 		"content": "Позволяет накапливать заряды для последовательного использования Soul Slice и Soul Scythe.<br/>Максимум зарядов: 2 "
@@ -532,70 +532,70 @@
 	"Trait 06": {
 		"name": "Shroud Gauge",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3c7fb68def/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/aec909a3e2c44d5c726b997c0d1af8da7175218d.png",
+		"skill_icon": "aec909a3e2c44d5c726b997c0d1af8da7175218d.png",
 		"job_icon": "RPR",
 		"level": "80",
 		"content": "Позволяет восполнять Shroud Gauge при использовании Gibbet, Gallows или Guillotine."
 	},
 	"Trait 07": {
 		"name": "Enhanced Arcane Crest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b2f58d09091b830b74082188a84bb17efd365dc2.png",
+		"skill_icon": "b2f58d09091b830b74082188a84bb17efd365dc2.png",
 		"job_icon": "RPR",
 		"level": "84",
 		"content": "Накладывает эффект Crest of Time Returned на персонажа и ближайших сопартийцев, постепенно восстанавливая HP. Этот эффект появляется только тогда, когда барьер Crest of Time Borrowed полностью поглощен.<br/>Сила лечения: 50<br/>Продолжительность: 15 сек."
 	},
 	"Trait 08": {
 		"name": "Melee Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
+		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "RPR",
 		"level": "84",
 		"content": "Увеличивает силу атаки Slice до 320, Waxing Slice до 160 и  Infernal Slice до 180."
 	},
 	"Trait 09": {
 		"name": "Enhanced Shroud",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ada3c73d86be1fc25e17386dd10e76e170fef077.png",
+		"skill_icon": "ada3c73d86be1fc25e17386dd10e76e170fef077.png",
 		"job_icon": "RPR",
 		"level": "86",
 		"content": "Добавляет стак Void Shroud после использования Void Reaping, Cross Reaping или Grim Reaping."
 	},
 	"Trait 10": {
 		"name": "Enhanced Arcane Circle",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6f540f8120532425d4aa28831c6f8cdcbfa5db7.png",
+		"skill_icon": "b6f540f8120532425d4aa28831c6f8cdcbfa5db7.png",
 		"job_icon": "RPR",
 		"level": "88",
 		"content": "Накладывает эффект Circle of Sacrifice на персонажа и ближайших сопартийцев при использовании умения Arcane Circle.<br/>Продолжительность: 5 сек.<br/>Когда персонаж или сопартийцы под этим эффектом успешно используют боевые навыки или произносят заклинание, персонаж получает стак Immortal Sacrifice, вплоть до 8.<br/>Продолжительность: 30 сек.<br/>Накладывает на персонажа Bloodsown Circle, позволяя получать стаки Immortal Sacrifice от сопартийцев, находящихся под действием эффекта Circle of Sacrifice.<br/>Продолжительность: 6 сек."
 	},
 	"Trait 11": {
 		"name": "Enhanced Enshroud",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5091bfb444d4a9ee64f5b364fc58f0c5fb5b0b38.png",
+		"skill_icon": "5091bfb444d4a9ee64f5b364fc58f0c5fb5b0b38.png",
 		"job_icon": "RPR",
 		"level": "92",
 		"content": "Накладывает эффект Oblatio после использования Enshroud.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 12": {
 		"name": "Melee Mastery III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/76ee293b5a8fae7dd16716bc05d79216ef2689a9.png",
+		"skill_icon": "76ee293b5a8fae7dd16716bc05d79216ef2689a9.png",
 		"job_icon": "RPR",
 		"level": "94",
 		"content": "Увеличивает силу атаки Slice до 420, Waxing Slice до 260, Infernal Slice до 280, Soul Slice до 520, Gibbet до 500, Gallows до 500, Unveiled Gibbet до 440, Unveiled Gallows до 440, Void Reaping до 540, Cross Reaping до 540, Harvest Moon до 800 и Lemure's Slice до 280."
 	},
 	"Trait 13": {
 		"name": "Enhanced Gluttony",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a31d9112196a1558d38290cc5502d584ce5f05f0.png",
+		"skill_icon": "a31d9112196a1558d38290cc5502d584ce5f05f0.png",
 		"job_icon": "RPR",
 		"level": "96",
 		"content": "Накладывает эффект Executioner после использования Gluttony.<br/>Продолжительность: 30 сек.<br/>Эффект не стакается с Soul Reaver.<br/>Эффект прекращается при выполнении любого боевого навыка или магической атаки.<br/>Gibbet меняется на Executioner's Gibbet, Gallows меняется на Executioner's Gallows и Guillotine меняется на Executioner's Guillotine под действием эффекта Executioner."
 	},
 	"Trait 14": {
 		"name": "Enhanced Plentiful Harvest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/71ef6d72decb0ba869aa07010008e538299ba064.png",
+		"skill_icon": "71ef6d72decb0ba869aa07010008e538299ba064.png",
 		"job_icon": "RPR",
 		"level": "100",
 		"content": "Накладывает эффект Perfectio Occulta после использования Plentiful Harvest.<br/>Продолжительность: 30 сек.<br/>Perfectio Occulta меняется на Perfectio Parata после использования Communio.<br/>Эффект Perfectio Parata заканчивается при получении эффекта Lemure Shroud."
 	},
 	"PVP Skill 01": {
 		"name": "Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b3aba81b36f1d7f627a0f83e38f1b9a6b92434cd.png",
+		"skill_icon": "b3aba81b36f1d7f627a0f83e38f1b9a6b92434cd.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -606,7 +606,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Waxing Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5d626f5a33df738e1e06dfdd8d7094bda770ad64.png",
+		"skill_icon": "5d626f5a33df738e1e06dfdd8d7094bda770ad64.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -617,7 +617,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Infernal Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/dd4a740c4bbf1f6fa18b92187e7039379fbfed30.png",
+		"skill_icon": "dd4a740c4bbf1f6fa18b92187e7039379fbfed30.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -628,7 +628,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Harvest Moon",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7c70f9fe69e5c51199086c4345095722bf7a9b5a.png",
+		"skill_icon": "7c70f9fe69e5c51199086c4345095722bf7a9b5a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -639,7 +639,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Plentiful Harvest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ab0eae0be0bf452487bd9f9c33ac06ab5ae53efc.png",
+		"skill_icon": "ab0eae0be0bf452487bd9f9c33ac06ab5ae53efc.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "60 сек.",
@@ -650,7 +650,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Grim Swathe",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4b0d41599ef62b2057cf1e0ac5a007eb235baa5f.png",
+		"skill_icon": "4b0d41599ef62b2057cf1e0ac5a007eb235baa5f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "12 сек.",
@@ -661,7 +661,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Death Warrant",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4717cd6aa17ee7ea4fb28d37658b738c83d67f34.png",
+		"skill_icon": "4717cd6aa17ee7ea4fb28d37658b738c83d67f34.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "24 сек.",
@@ -672,7 +672,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Hell's Ingress",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/2424ad75e462d533b623f1371216bc130c82b109.png",
+		"skill_icon": "2424ad75e462d533b623f1371216bc130c82b109.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -683,7 +683,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Arcane Crest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/076c61a60da76d1c1060275a87218c9ea298974b.png",
+		"skill_icon": "076c61a60da76d1c1060275a87218c9ea298974b.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -694,7 +694,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Executioner's Guillotine",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c79c9c91a5420c2f67a70bfd085727cfa63cfa95.png",
+		"skill_icon": "c79c9c91a5420c2f67a70bfd085727cfa63cfa95.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенна",
 		"recast": "2.2 сек.",
@@ -705,7 +705,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Void Reaping",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a9236a05eda40fadfa57db522498cf8da0c1338f.png",
+		"skill_icon": "a9236a05eda40fadfa57db522498cf8da0c1338f.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "1.5 сек.",
@@ -716,7 +716,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Cross Reaping",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3e622ba1498759d256ccbb7ae712fb848142b8b4.png",
+		"skill_icon": "3e622ba1498759d256ccbb7ae712fb848142b8b4.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "1.5 сек.",
@@ -727,7 +727,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Lemure's Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9506431de0afcffcbfa5d260d2d488afbceb84a7.png",
+		"skill_icon": "9506431de0afcffcbfa5d260d2d488afbceb84a7.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -738,7 +738,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Fate Sealed",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/66956c56a1b12c94704d38d36cf65e00440666ad.png",
+		"skill_icon": "66956c56a1b12c94704d38d36cf65e00440666ad.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "2 сек.",
@@ -749,7 +749,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Regress",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f9dde969872d209ff9752660a9fe5083df829856.png",
+		"skill_icon": "f9dde969872d209ff9752660a9fe5083df829856.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -760,7 +760,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Communio",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fad15db3f8853ecf4d7789fb9d5429e64edb02ba.png",
+		"skill_icon": "fad15db3f8853ecf4d7789fb9d5429e64edb02ba.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
 		"recast": "2.2 сек.",
@@ -771,7 +771,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Perfectio",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fa7c30344d62ac831c58842a0f24e668eb3b867d.png",
+		"skill_icon": "fa7c30344d62ac831c58842a0f24e668eb3b867d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -782,7 +782,7 @@
 	},
 	"PVP Skill LB": {
 		"name": "Tenebrae Lemurum",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a2c6adec36c8eeace712802c88eb896c788a8c94.png",
+		"skill_icon": "a2c6adec36c8eeace712802c88eb896c788a8c94.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "0y",
