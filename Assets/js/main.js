@@ -120,7 +120,7 @@ const createSVGSnowfall = () => {
 // ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
 // ============================================================================
 $(function () {
-	const ENABLE_HTML_FIX = true;
+	const ENABLE_DEBUG = false;
 	// ---  Активное меню ---
 	const currentPath = window.location.pathname.split("/").pop().replace(".html", "") || "index";
 	$(".btn_gs_menu").each(function () {
@@ -376,7 +376,7 @@ $(function () {
 
 	initGlobalSearch("#search", "#results");
 
-	// --- Дебаг ---
+	// --- Debug ---
 	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
 	const fixSingleLink = (el) => {
@@ -392,7 +392,7 @@ $(function () {
 		}
 	};
 
-	if (ENABLE_HTML_FIX && isLocal) {
+	if (ENABLE_DEBUG && isLocal) {
 		$("a").each(function () {
 			fixSingleLink(this);
 		});
@@ -412,16 +412,16 @@ $(function () {
 			);
 		});
 		observer.observe(document.body, {childList: true, subtree: true});
-	}
 
-	$("tr").each(function () {
-		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
-		const titleText = attrs
-			.map((attr) => $(this).attr(attr))
-			.filter(Boolean)
-			.join(", ");
-		if (titleText) $(this).attr("title", titleText);
-	});
+		$("tr").each(function () {
+			const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
+			const titleText = attrs
+				.map((attr) => $(this).attr(attr))
+				.filter(Boolean)
+				.join(", ");
+			if (titleText) $(this).attr("title", titleText);
+		});
+	}
 	// Preloader
 	function hidePreloader() {
 		setTimeout(() => {
