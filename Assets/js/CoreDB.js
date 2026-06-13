@@ -1,4 +1,4 @@
-const DB_VERSION = "23.04.2026";
+const DB_VERSION = "12.06.2026";
 const CDN_URL = "https://cdn.ff14jobguide.ru";
 async function loadUpdateFlags() {
 	try {
