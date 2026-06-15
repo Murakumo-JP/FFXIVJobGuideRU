@@ -5,7 +5,7 @@
 // Тест для дебага
 // const isLocal = location.hostname === "localhost";
 // const cdnBase = isLocal ? "https://raw.githubusercontent.com/Murakumo-JP/FFXIVJobUpdatesRU/Patch-7.5" : "https://cdn.ff14jobguide.ru";
-
+const ENABLE_DEBUG = false;
 const cdnBase = "https://cdn.ff14jobguide.ru";
 const JSON_URLS = {
 	UPDATES: `${cdnBase}/data/UpdatesPatch.json`,
@@ -120,7 +120,6 @@ const createSVGSnowfall = () => {
 // ГЛАВНЫЙ ИНИЦИАЛИЗАТОР
 // ============================================================================
 $(function () {
-	const ENABLE_HTML_FIX = true;
 	// ---  Активное меню ---
 	const currentPath = window.location.pathname.split("/").pop().replace(".html", "") || "index";
 	$(".btn_gs_menu").each(function () {
@@ -376,52 +375,6 @@ $(function () {
 
 	initGlobalSearch("#search", "#results");
 
-	// --- Дебаг ---
-	const isLocal = location.hostname === "localhost" || location.hostname === "127.0.0.1";
-
-	const fixSingleLink = (el) => {
-		const $el = $(el);
-		const href = $el.attr("href");
-		if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
-
-		const [urlPart, hashPart] = href.split("#");
-		const [path, query] = urlPart.split("?");
-
-		if (path && !path.endsWith(".html")) {
-			$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
-		}
-	};
-
-	if (ENABLE_HTML_FIX && isLocal) {
-		$("a").each(function () {
-			fixSingleLink(this);
-		});
-
-		const observer = new MutationObserver((mutations) => {
-			mutations.forEach((mutation) =>
-				mutation.addedNodes.forEach((node) => {
-					if (node.nodeType === 1) {
-						if (node.nodeName === "A") fixSingleLink(node);
-						$(node)
-							.find("a")
-							.each(function () {
-								fixSingleLink(this);
-							});
-					}
-				})
-			);
-		});
-		observer.observe(document.body, {childList: true, subtree: true});
-	}
-
-	$("tr").each(function () {
-		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
-		const titleText = attrs
-			.map((attr) => $(this).attr(attr))
-			.filter(Boolean)
-			.join(", ");
-		if (titleText) $(this).attr("title", titleText);
-	});
 	// Preloader
 	function hidePreloader() {
 		setTimeout(() => {
@@ -520,5 +473,52 @@ document.addEventListener("DOMContentLoaded", () => {
 				}
 			}
 		}
+	});
+});
+// ============================================================================
+// DEBUG
+// ============================================================================
+$(function () {
+	if (!ENABLE_DEBUG) return;
+	const fixSingleLink = (el) => {
+		const $el = $(el);
+		const href = $el.attr("href");
+		if (!href || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("#") || href.includes(".html") || href.endsWith("/")) return;
+
+		const [urlPart, hashPart] = href.split("#");
+		const [path, query] = urlPart.split("?");
+
+		if (path && !path.endsWith(".html")) {
+			$el.attr("href", `${path}.html${query ? "?" + query : ""}${hashPart ? "#" + hashPart : ""}`);
+		}
+	};
+
+	$("a").each(function () {
+		fixSingleLink(this);
+	});
+
+	const observer = new MutationObserver((mutations) => {
+		mutations.forEach((mutation) =>
+			mutation.addedNodes.forEach((node) => {
+				if (node.nodeType === 1) {
+					if (node.nodeName === "A") fixSingleLink(node);
+					$(node)
+						.find("a")
+						.each(function () {
+							fixSingleLink(this);
+						});
+				}
+			})
+		);
+	});
+	observer.observe(document.body, {childList: true, subtree: true});
+
+	$("tr").each(function () {
+		const attrs = ["db-skill", "db-role-action", "db-skill-passive", "db-role-traits", "db-skill-pvp"];
+		const titleText = attrs
+			.map((attr) => $(this).attr(attr))
+			.filter(Boolean)
+			.join(", ");
+		if (titleText) $(this).attr("title", titleText);
 	});
 });
