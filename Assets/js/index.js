@@ -1,9 +1,10 @@
 $(document).ready(function () {
-	fetch("https://api.github.com/repos/Murakumo-JP/FFXIVJobGuideRU/issues/3/comments")
+	fetch("/DB/changelog.json")
 		.then((response) => response.json())
 		.then((news) => {
 			const newsMaxCount = 4;
 			const newsCount = Math.min(news.length, newsMaxCount);
+
 			const newsContainer = $(
 				`<div class="news">
                  <span>Новости обновления</span>
@@ -18,7 +19,7 @@ $(document).ready(function () {
              </div>`
 			);
 
-			$(".news_popup").append(newsContainer);
+			$(".main_content").prepend(newsContainer);
 
 			if ($("#overlay").length === 0) {
 				$(".main_content").append('<div id="overlay"></div>');
@@ -26,11 +27,11 @@ $(document).ready(function () {
 
 			let html = "";
 			for (let i = news.length - 1; i >= news.length - newsCount; i--) {
-				const match = news[i].body.match(/## (.*?)(?:\r\n|\n\n)(.*)/);
-				const body = match ? match[1] : news[i].body.replace(/\r\n/g, "");
-				const date = new Date(news[i].created_at).toLocaleDateString();
+				const patch = news[i];
+				const date = patch.patch_update;
+				const title = `Обновление до патча ${patch.patch_version}`;
 
-				html += `<div><span>${date} - </span><a href="#" class="news-link" data-index="${i}">${body}</a></div>`;
+				html += `<div><span>${date} - </span><a href="#" class="news-link" data-index="${i}">${title}</a></div>`;
 			}
 			$("#main_news").html(html);
 
@@ -38,16 +39,9 @@ $(document).ready(function () {
 				event.preventDefault();
 
 				const index = $(this).data("index");
-				const currentNews = news[index];
-				const url = currentNews.html_url;
-				const match = currentNews.body.match(/## (.*?)(?:\r\n|\n\n)(.*)/);
-				const title = match ? match[1] : "Новость";
-
-				let content = currentNews.body
-					.replace(/!\[.*?\]\(\s*https?:\/\/github\.com\/user-attachments\/assets\/[0-9a-f-]+\s*\)\r?\n?/g, "")
-					.replace(/\(\s*(?:https?:\/\/github\.com\/[\w-]+\/[\w-]+\/commit\/)?[0-9a-f]{40}\s*\)/g, "")
-					.replace(/## Обновление до патча \d+\.\d+\r?\n?\s?/g, "")
-					.replace(/## Обновление сайта \d+\.\d+\r?\n?\s?/g, "");
+				const currentPatch = news[index];
+				const title = `Обновление до патча ${currentPatch.patch_version}`;
+				const content = currentPatch.patch_changelog.join("\n");
 
 				$("#newsTitle").text(title);
 				$("#newsContent").text(content);
@@ -56,7 +50,7 @@ $(document).ready(function () {
 			});
 		})
 		.catch((error) => {
-			console.debug(error);
+			console.debug("Не удалось загрузить changelog.json:", error);
 			$("#main_news").empty();
 		});
 });

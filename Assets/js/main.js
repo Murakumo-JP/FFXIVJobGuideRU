@@ -8,7 +8,7 @@
 const ENABLE_DEBUG = false;
 const cdnBase = "https://cdn.ff14jobguide.ru";
 const JSON_URLS = {
-	UPDATES: `${cdnBase}/data/UpdatesPatch.json`,
+	UPDATES: `/DB/changelog.json`,
 	MENU: "/DB/Menu.json",
 	SEARCH: `${cdnBase}/data/GlobalSearch.json`,
 };
@@ -136,14 +136,15 @@ $(function () {
 	fetch(`${JSON_URLS.UPDATES}?v=${Date.now()}`)
 		.then((response) => response.json())
 		.then((data) => {
-			$(".link_update").prepend(`Обновление: ${data.lastUpdate} | Патч: ${data.patchVersion}`);
+			const latestPatch = data.at(-1);
+			$(".link_update").prepend(`Обновление: ${latestPatch.patch_update} | Патч: ${latestPatch.patch_version}`);
 			$("#patch_info").prepend(
 				`Все описания основаны на активных умениях и бонусах, полученных на 100 уровне.<br/>
                  Более подробную информацию об изменениях в активных и пассивных умениях можно найти 
-                 в примечаниях к <a target="_blank" href="${data.patchLink}">патчноутам</a>.`
+                 в примечаниях к <a target="_blank" href="${latestPatch.patch_link}">патчноутам</a>.`
 			);
 		})
-		.catch((err) => console.error("Ошибка загрузки UpdatesPatch.json", err));
+		.catch((err) => console.error("Ошибка загрузки changelog.json", err));
 
 	const year = new Date().getFullYear();
 	$(".footer_info").html(`
