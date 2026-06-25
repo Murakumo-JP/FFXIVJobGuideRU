@@ -3554,4 +3554,15 @@ table {
 .cost,
 .recast {
   text-align: center !important;
+}
+
+.fade-element {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.fade-element.visible {
+  opacity: 1;
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */
