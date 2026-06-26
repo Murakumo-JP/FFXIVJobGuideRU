@@ -443,7 +443,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		window.addEventListener("load", hidePreloader);
 	}
 });
-
 // ГОЛД СОРСЕР МЕНЮ
 document.addEventListener("DOMContentLoaded", () => {
 	const mahjongMenu = document.querySelector(".gs_menu_nav");
@@ -520,7 +519,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	});
 });
-
 // DEBUG
 document.addEventListener("DOMContentLoaded", () => {
 	if (!ENABLE_DEBUG) return;
