@@ -29,6 +29,38 @@ const debounce = (fn, delay) => {
 	};
 };
 
+// Фигня ради фигни
+const topButton = document.querySelector(".nome_app_top");
+const footer = document.querySelector(".footer_info");
+
+function preventFooterOverlap() {
+	if (!footer) return;
+
+	const footerRect = footer.getBoundingClientRect();
+	const windowHeight = window.innerHeight;
+	const moveUpButton = document.querySelector(".move-up");
+	const topBtnBase = 20;
+	const moveUpBase = 80;
+
+	if (footerRect.top < windowHeight) {
+		const overlap = windowHeight - footerRect.top;
+		if (topButton) {
+			topButton.style.bottom = `${overlap + topBtnBase}px`;
+		}
+
+		if (moveUpButton) {
+			moveUpButton.style.bottom = `${overlap + moveUpBase}px`;
+		}
+	} else {
+		if (topButton) topButton.style.bottom = "";
+		if (moveUpButton) moveUpButton.style.bottom = "";
+	}
+}
+
+window.addEventListener("scroll", preventFooterOverlap);
+window.addEventListener("resize", preventFooterOverlap);
+
+// Снег на новый год
 const createSVGSnowfall = () => {
 	const canvas = document.createElement("canvas");
 	canvas.id = "snowCanvas";
@@ -148,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			const linkUpdate = document.querySelector(".link_update");
 			const patchInfo = document.getElementById("patch_info");
 
-			if (linkUpdate) linkUpdate.insertAdjacentHTML("afterbegin", `Обновление: ${latestPatch.patch_update} | Патч: ${latestPatch.patch_version} `);
+			if (linkUpdate) linkUpdate.insertAdjacentHTML("afterbegin", `Обновление: ${latestPatch.patch_date} | Патч: ${latestPatch.patch_version} `);
 			if (patchInfo)
 				patchInfo.insertAdjacentHTML(
 					"afterbegin",

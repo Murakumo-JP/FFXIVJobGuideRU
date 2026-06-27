@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
 			let linksHTML = "";
 			for (let i = news.length - 1; i >= news.length - newsCount; i--) {
 				const patch = news[i];
-				const date = patch.patch_update;
-				const title = `Обновление до патча ${patch.patch_version}`;
+				const date = patch.patch_date;
+				const title = `${patch.patch_name || "Обновление до патча"} ${patch.patch_version}`;
 
 				linksHTML += `<div><span>${date} - </span><a class="news-link" data-index="${i}">${title}</a></div>`;
 			}

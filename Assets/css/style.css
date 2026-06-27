@@ -788,6 +788,8 @@
 
 #floatingSearchBtn.move-up {
   bottom: 80px;
+  -webkit-transition: bottom 0.1s ease-out;
+  transition: bottom 0.1s ease-out;
 }
 
 .search-popup-overlay {
@@ -1631,6 +1633,8 @@ input::placeholder {
   right: 20px;
   position: fixed;
   z-index: 99;
+  -webkit-transition: bottom 0.1s ease-out;
+  transition: bottom 0.1s ease-out;
 }
 
 .app_top {
