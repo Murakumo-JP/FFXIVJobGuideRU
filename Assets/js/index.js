@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			const newsHTML = `
                 <div class="news">
-                    <span>Новости обновления</span>
+                    <span>ЖУРНАЛ ИЗМЕНЕНИЙ</span>
                     <div id="main_news"></div>
                     <div class="warn_info"></div>
                 </div>

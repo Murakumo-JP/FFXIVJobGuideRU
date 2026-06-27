@@ -1,5 +1,20 @@
 [
 	{
+		"patch_update": "15.11.2025",
+		"patch_version": "7.35",
+		"patch_changelog": ["- Обновлены описания PVP умений."]
+	},
+	{
+		"patch_update": "21.12.2025",
+		"patch_version": "7.4",
+		"patch_changelog": ["- Обновлены описания PVE умений.", "- Обновлены описания PVP умений."]
+	},
+	{
+		"patch_update": "10.02.2026",
+		"patch_version": "7.41",
+		"patch_changelog": ["- Обновлены описания PVE умений."]
+	},
+	{
 		"patch_update": "05.03.2026",
 		"patch_version": "7.45",
 		"patch_changelog": ["- Обновлены описания PVE умений.", "- Обновлены описания PVP умений."]
@@ -9,5 +24,11 @@
 		"patch_version": "7.5",
 		"patch_link": "https://eu.finalfantasyxiv.com/lodestone/topics/detail/9beb8a7b5c46944cd80ed92b2b8e972395fbea80",
 		"patch_changelog": ["- Обновлены описания PVE умений.", "- Обновлены описания PVP умений."]
+	},
+	{
+		"patch_update": "02.06.2026",
+		"patch_version": "7.51",
+		"patch_link": "https://eu.finalfantasyxiv.com/lodestone/topics/detail/f2e3faea7dd6fecf3f1b66a2a4c30892684d2938",
+		"patch_changelog": ["- Небольшие исправления багов."]
 	}
 ]
