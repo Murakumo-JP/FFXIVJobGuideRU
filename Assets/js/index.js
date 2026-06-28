@@ -1,66 +1,83 @@
-$(document).ready(function () {
-	fetch("https://api.github.com/repos/Murakumo-JP/FFXIVJobGuideRU/issues/3/comments")
+document.addEventListener("DOMContentLoaded", () => {
+	const mainContent = document.querySelector(".main_content");
+	if (!mainContent) return;
+
+	fetch("/DB/changelog.json")
 		.then((response) => response.json())
 		.then((news) => {
 			const newsMaxCount = 4;
 			const newsCount = Math.min(news.length, newsMaxCount);
-			const newsContainer = $(
-				`<div class="news">
-                 <span>Новости обновления</span>
-                 <div id="main_news"></div>
-                 <div class="warn_info"></div>
-             </div>
-             <div class="news_popup">
-                 <div id="newsPopup">
-                     <h2 id="newsTitle"></h2>
-                     <pre id="newsContent"></pre>
-                 </div>
-             </div>`
-			);
 
-			$(".news_popup").append(newsContainer);
+			const newsHTML = `
+                <div class="news">
+                    <span>ЖУРНАЛ ИЗМЕНЕНИЙ</span>
+                    <div id="main_news"></div>
+                    <div class="warn_info"></div>
+                </div>
+                <div class="news_popup">
+                    <div id="newsPopup" style="display: none;">
+                        <h2 id="newsTitle"></h2>
+                        <pre id="newsContent"></pre>
+                    </div>
+                </div>
+            `;
 
-			if ($("#overlay").length === 0) {
-				$(".main_content").append('<div id="overlay"></div>');
+			mainContent.insertAdjacentHTML("afterbegin", newsHTML);
+
+			if (!document.getElementById("overlay")) {
+				mainContent.insertAdjacentHTML("beforeend", '<div id="overlay" style="display: none;"></div>');
 			}
 
-			let html = "";
+			let linksHTML = "";
 			for (let i = news.length - 1; i >= news.length - newsCount; i--) {
-				const match = news[i].body.match(/## (.*?)(?:\r\n|\n\n)(.*)/);
-				const body = match ? match[1] : news[i].body.replace(/\r\n/g, "");
-				const date = new Date(news[i].created_at).toLocaleDateString();
+				const patch = news[i];
+				const date = patch.patch_date;
+				const title = `${patch.patch_name || "Обновление до патча"} ${patch.patch_version}`;
 
-				html += `<div><span>${date} - </span><a href="#" class="news-link" data-index="${i}">${body}</a></div>`;
+				linksHTML += `<div><span>${date} - </span><a class="news-link" data-index="${i}">${title}</a></div>`;
 			}
-			$("#main_news").html(html);
 
-			$(".news-link").click(function (event) {
-				event.preventDefault();
+			const mainNewsContainer = document.getElementById("main_news");
+			if (mainNewsContainer) {
+				mainNewsContainer.innerHTML = linksHTML;
+			}
 
-				const index = $(this).data("index");
-				const currentNews = news[index];
-				const url = currentNews.html_url;
-				const match = currentNews.body.match(/## (.*?)(?:\r\n|\n\n)(.*)/);
-				const title = match ? match[1] : "Новость";
+			const newsLinks = document.querySelectorAll(".news-link");
+			const newsPopup = document.getElementById("newsPopup");
+			const overlay = document.getElementById("overlay");
+			const newsTitle = document.getElementById("newsTitle");
+			const newsContent = document.getElementById("newsContent");
 
-				let content = currentNews.body
-					.replace(/!\[.*?\]\(\s*https?:\/\/github\.com\/user-attachments\/assets\/[0-9a-f-]+\s*\)\r?\n?/g, "")
-					.replace(/\(\s*(?:https?:\/\/github\.com\/[\w-]+\/[\w-]+\/commit\/)?[0-9a-f]{40}\s*\)/g, "")
-					.replace(/## Обновление до патча \d+\.\d+\r?\n?\s?/g, "")
-					.replace(/## Обновление сайта \d+\.\d+\r?\n?\s?/g, "");
+			newsLinks.forEach((link) => {
+				link.addEventListener("click", (event) => {
+					event.preventDefault();
 
-				$("#newsTitle").text(title);
-				$("#newsContent").text(content);
+					const index = link.getAttribute("data-index");
+					const currentPatch = news[index];
 
-				$("#newsPopup, #overlay").fadeIn();
+					newsTitle.textContent = `Обновление до патча ${currentPatch.patch_version}`;
+					newsContent.textContent = currentPatch.patch_changelog.join("\n");
+
+					if (newsPopup) newsPopup.style.display = "block";
+					if (overlay) overlay.style.display = "block";
+				});
 			});
 		})
 		.catch((error) => {
-			console.debug(error);
-			$("#main_news").empty();
+			console.debug("Не удалось загрузить changelog.json:", error);
+			const mainNewsContainer = document.getElementById("main_news");
+			if (mainNewsContainer) {
+				mainNewsContainer.innerHTML = "";
+			}
 		});
-});
 
-$(document).on("click", "#overlay", function () {
-	$("#newsPopup, #overlay").fadeOut();
+	document.addEventListener("click", (event) => {
+		if (event.target.id === "overlay") {
+			const newsPopup = document.getElementById("newsPopup");
+			const overlay = document.getElementById("overlay");
+
+			if (newsPopup) newsPopup.style.display = "none";
+			if (overlay) overlay.style.display = "none";
+		}
+	});
 });

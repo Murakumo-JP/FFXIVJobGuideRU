@@ -311,6 +311,7 @@
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+  cursor: pointer;
 }
 #main_news div:hover {
   -webkit-transform: translateX(5px);
@@ -787,6 +788,8 @@
 
 #floatingSearchBtn.move-up {
   bottom: 80px;
+  -webkit-transition: bottom 0.1s ease-out;
+  transition: bottom 0.1s ease-out;
 }
 
 .search-popup-overlay {
@@ -1630,6 +1633,8 @@ input::placeholder {
   right: 20px;
   position: fixed;
   z-index: 99;
+  -webkit-transition: bottom 0.1s ease-out;
+  transition: bottom 0.1s ease-out;
 }
 
 .app_top {
@@ -3553,4 +3558,15 @@ table {
 .cost,
 .recast {
   text-align: center !important;
+}
+
+.fade-element {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.fade-element.visible {
+  opacity: 1;
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */
