@@ -256,17 +256,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
-	document.querySelectorAll("a[href*='#']:not([href='#'])").forEach((link) => {
-		link.addEventListener("click", function (e) {
-			const targetElement = document.querySelector(this.getAttribute("href"));
-			if (targetElement) {
-				e.preventDefault();
-				const targetPos = targetElement.getBoundingClientRect().top + window.scrollY - 48;
-				window.scrollTo({top: targetPos, behavior: "smooth"});
-			}
-		});
-	});
-
 	// Динамическое Job Меню
 	const menuContainer = document.querySelector("[data-menu-type]");
 
@@ -475,7 +464,21 @@ document.addEventListener("DOMContentLoaded", () => {
 		window.addEventListener("load", hidePreloader);
 	}
 });
-// ГОЛД СОРСЕР МЕНЮ
+// Сlick Link
+document.addEventListener("click", function (e) {
+	const link = e.target.closest("a[href*='#']:not([href='#'])");
+	if (!link) return;
+
+	const href = link.getAttribute("href");
+	const targetElement = document.querySelector(href);
+
+	if (targetElement) {
+		e.preventDefault();
+		const targetPos = targetElement.getBoundingClientRect().top + window.scrollY - 48;
+		window.scrollTo({top: targetPos, behavior: "smooth"});
+	}
+});
+// Gold Saucer Menu
 document.addEventListener("DOMContentLoaded", () => {
 	const mahjongMenu = document.querySelector(".gs_menu_nav");
 	if (!mahjongMenu) return;

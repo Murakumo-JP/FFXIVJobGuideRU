@@ -58,6 +58,8 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		}
 	});
 
+	dynamicMenus();
+
 	Object.keys(renderers).forEach((attr) => {
 		document.querySelectorAll(`[${attr}]`).forEach((el) => {
 			const key = el.getAttribute(attr);
@@ -254,4 +256,22 @@ function handleUrlScroll() {
 	} catch (error) {
 		console.error("Ошибка декодирования skill:", error);
 	}
+}
+
+function dynamicMenus() {
+	document.querySelectorAll(".clearfix_dynamic").forEach((ul) => {
+		const prefix = ul.dataset.prefix;
+		const name = ul.dataset.name;
+		const count = parseInt(ul.dataset.count, 10);
+
+		if (!prefix || !name || !count) return;
+
+		let listHtml = "";
+		for (let i = 1; i <= count; i++) {
+			const num = i.toString().padStart(2, "0");
+			listHtml += `<li><a href="#${prefix}_${num}" class="job_skill_icon" db-skill-menu="${name} ${num}"></a></li>\n`;
+		}
+
+		ul.innerHTML = listHtml;
+	});
 }
