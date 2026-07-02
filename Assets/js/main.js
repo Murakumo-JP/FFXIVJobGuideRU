@@ -272,9 +272,9 @@ document.addEventListener("DOMContentLoaded", () => {
 					let menuHTML = `<ul class="jobguide_menu_list">`;
 					menuArray.forEach((category) => {
 						menuHTML += `
-                            <li class="jobguide_menu_list">
-                                <span class="job_name_menu">${category.name}</span>
-                                <ul class="jobguide_sub_menu">
+											<li class="jobguide_menu_list">
+											<span class="job_name_menu">${category.name}</span>
+											<ul class="jobguide_sub_menu">
                         `;
 						category.jobs.forEach((job) => {
 							menuHTML += `<li${job.hidden ? " hidden" : ""}><a href="${job.link}"><p>${job.name}</p></a></li>`;
@@ -329,13 +329,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		return `
             <li>
-                <a class="copy-link" data-url="${fullUrl}"><img src="/Assets/images/svg/link.svg"></a>
-                <a href="${pageUrl}" db-skill="${skill["db-skill"]}">
-                    <div class="icon_search"><img src="${cdnBase}/data/icons/${skill.icon}" alt="${skill.skill}" class="skill-icon"></div>
-                    <div>${skill.skill} <span>[${skill.jobName}: ${skill.level}]</span></div>
-                </a>
+					<a class="copy-link" data-url="${fullUrl}"><img src="/Assets/images/svg/link.svg"></a>
+							<a href="${pageUrl}" db-skill="${skill["db-skill"]}">
+							<div class="icon_search"><img src="${cdnBase}/data/icons/${skill.icon}" alt="${skill.skill}" class="skill-icon"></div>
+							<div>${skill.skill} <span>[${skill.jobName}: ${skill.level}]</span></div>
+					</a>
             </li>
-        `;
+			`;
 	};
 
 	const doSearch = (inputEl, listEl) => {
@@ -374,16 +374,16 @@ document.addEventListener("DOMContentLoaded", () => {
 	if (floatingSearchBtn) {
 		const popupHTML = `
          <div id="searchPopup" class="search-popup-overlay" style="display: none;">
-             <div class="search-popup-container">
-                 <button class="search-popup-close" id="closeSearchPopup">&times;</button>
-                 <div class="search-container">
+				<div class="search-popup-container">
+						<button class="search-popup-close" id="closeSearchPopup">&times;</button>
+						<div class="search-container">
                      <h2><img src="/Assets/images/main/Search.png">Поиск по умениям</h2>
                      <div class="search_block">
-                         <input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
-                         <ul id="searchPopupResults" class="search-results"></ul>
+								<input type="text" id="searchPopupInput" placeholder="Введите название умения..." class="search-input">
+								<ul id="searchPopupResults" class="search-results"></ul>
                      </div>
-                 </div>
-             </div>
+						</div>
+				</div>
          </div>`;
 		floatingSearchBtn.insertAdjacentHTML("afterend", popupHTML);
 
