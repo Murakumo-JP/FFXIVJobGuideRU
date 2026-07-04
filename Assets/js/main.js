@@ -1,10 +1,10 @@
 const ENABLE_DEBUG = true;
 const ENABLE_WARNING = false;
-const cdnBase = "https://cdn.ff14jobguide.ru";
+const CDN_BASE = "https://cdn.ff14jobguide.ru";
 const JSON_URLS = {
 	UPDATES: `/DB/changelog.json`,
 	MENU: "/DB/Menu.json",
-	SEARCH: `${cdnBase}/data/GlobalSearch.json`,
+	SEARCH: `${CDN_BASE}/data/GlobalSearch.json`,
 };
 
 let jsonData = [];
@@ -29,117 +29,31 @@ const debounce = (fn, delay) => {
 	};
 };
 
-// Фигня ради фигни
-const topButton = document.querySelector(".nome_app_top");
-const footer = document.querySelector(".footer_info");
-
-function preventFooterOverlap() {
-	if (!footer) return;
-
-	const footerRect = footer.getBoundingClientRect();
-	const windowHeight = window.innerHeight;
-	const moveUpButton = document.querySelector(".move-up");
-	const topBtnBase = 20;
-	const moveUpBase = 80;
-
-	if (footerRect.top < windowHeight) {
-		const overlap = windowHeight - footerRect.top;
-		if (topButton) {
-			topButton.style.bottom = `${overlap + topBtnBase}px`;
-		}
-
-		if (moveUpButton) {
-			moveUpButton.style.bottom = `${overlap + moveUpBase}px`;
-		}
-	} else {
-		if (topButton) topButton.style.bottom = "";
-		if (moveUpButton) moveUpButton.style.bottom = "";
-	}
+function activateTab(id) {
+	document.querySelectorAll(".js-tab-trigger").forEach((el) => {
+		el.classList.toggle("active", el.dataset.tab === id);
+	});
+	document.querySelectorAll(".js-tab-content").forEach((el) => {
+		el.classList.toggle("active", el.dataset.tab === id);
+	});
+	const url = new URL(window.location);
+	url.hash = id;
+	history.replaceState(null, null, url.toString());
 }
 
-window.addEventListener("scroll", preventFooterOverlap);
-window.addEventListener("resize", preventFooterOverlap);
-
-// Снег на новый год
-const createSVGSnowfall = () => {
-	const canvas = document.createElement("canvas");
-	canvas.id = "snowCanvas";
-	Object.assign(canvas.style, {
-		position: "fixed",
-		top: 0,
-		left: 0,
-		width: "100%",
-		height: "100%",
-		pointerEvents: "none",
-		zIndex: 1000,
-	});
-	document.body.prepend(canvas);
-
-	const ctx = canvas.getContext("2d");
-	let width = window.innerWidth;
-	let height = window.innerHeight;
-	canvas.width = width;
-	canvas.height = height;
-
-	window.addEventListener(
-		"resize",
-		() => {
-			width = canvas.width = window.innerWidth;
-			height = canvas.height = window.innerHeight;
-		},
-		{passive: true}
-	);
-
-	const flakeCount = 69;
-	const flakes = Array.from({length: flakeCount}, () => createFlake());
-
-	function createFlake() {
-		return {
-			x: Math.random() * width,
-			y: Math.random() * height,
-			size: 8 + Math.random() * 12,
-			speed: 0.3 + Math.random() * 0.9,
-			wind: -0.2 + Math.random() * 0.4,
-			opacity: 0.3 + Math.random() * 0.4,
-			rotation: Math.random() * Math.PI * 2,
-			rotationSpeed: (Math.random() - 0.5) * 0.02,
-		};
-	}
-
-	const svgString = `
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-            <path d="M50,10 L50,90 M10,50 L90,50 M20,20 L80,80 M80,20 L20,80 M25,50 L75,50 M50,25 L50,75" stroke="white" stroke-width="8" stroke-linecap="round"/>
-            <circle cx="50" cy="50" r="12" fill="white"/>
-        </svg>
-    `;
-	const snowflakeImg = new Image();
-	snowflakeImg.src = URL.createObjectURL(new Blob([svgString], {type: "image/svg+xml;charset=utf-8"}));
-
-	function animate() {
-		ctx.clearRect(0, 0, width, height);
-		flakes.forEach((flake) => {
-			flake.y += flake.speed;
-			flake.x += flake.wind;
-			flake.rotation += flake.rotationSpeed;
-			if (flake.y > height + 30) Object.assign(flake, createFlake(), {y: -30});
-			if (flake.x > width + 30) flake.x = -30;
-			if (flake.x < -30) flake.x = width + 30;
-
-			ctx.save();
-			ctx.translate(flake.x, flake.y);
-			ctx.rotate(flake.rotation);
-			ctx.globalAlpha = flake.opacity;
-			ctx.drawImage(snowflakeImg, -flake.size / 2, -flake.size / 2, flake.size, flake.size);
-			ctx.restore();
-		});
-		requestAnimationFrame(animate);
-	}
-	snowflakeImg.onload = animate;
-};
-// createSVGSnowfall();
-
-// Global
+// Loader
 document.addEventListener("DOMContentLoaded", () => {
+	initPreloader();
+	initGlobal();
+	initMenuSearch();
+	initFooterOverlap();
+	initDEBUG();
+	initWARNING();
+	initGSMenu();
+	// Snowfall();
+});
+// Global
+function initGlobal() {
 	const jsFadeToggle = (el, duration = 300) => {
 		if (window.getComputedStyle(el).display === "none") {
 			el.style.display = "block";
@@ -235,20 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 
-	// Табы
-	const activateTab = (id) => {
-		document.querySelectorAll(".js-tab-trigger").forEach((el) => {
-			el.classList.toggle("active", el.dataset.tab === id);
-		});
-		document.querySelectorAll(".js-tab-content").forEach((el) => {
-			el.classList.toggle("active", el.dataset.tab === id);
-		});
-
-		const url = new URL(window.location);
-		url.hash = id;
-		history.replaceState(null, null, url.toString());
-	};
-
+	// Tabs
 	document.querySelectorAll(".js-tab-trigger").forEach((trigger) => {
 		trigger.addEventListener("click", function (e) {
 			e.preventDefault();
@@ -256,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
-	// Динамическое Job Меню
+	// Dynamic Job Menu
 	const menuContainer = document.querySelector("[data-menu-type]");
 
 	if (menuContainer) {
@@ -288,7 +189,31 @@ document.addEventListener("DOMContentLoaded", () => {
 				.catch(() => console.error("Ошибка: Menu.json не был загружен."));
 		}
 	}
-	// Локальный Поиск
+}
+// Preloader
+function initPreloader() {
+	function hidePreloader() {
+		setTimeout(() => {
+			const preloader = document.getElementById("page-preloader");
+			if (preloader && !preloader.classList.contains("done")) {
+				preloader.classList.add("done");
+				document.body.style.overflowY = "visible";
+				document.body.style.paddingRight = "0px";
+			}
+			const hash = location.hash.substring(1);
+			if (hash) activateTab(hash);
+		}, 1200);
+	}
+
+	if (document.readyState === "complete") {
+		hidePreloader();
+	} else {
+		window.addEventListener("load", hidePreloader);
+	}
+}
+// Global Search + Local Search
+function initMenuSearch() {
+	// Local Search
 	const searchInput = document.getElementById("searchInput");
 	if (searchInput) {
 		searchInput.addEventListener("input", (e) => {
@@ -304,8 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 		});
 	}
-
-	// Глобальный Поиск
+	// Global Search
 	let flatSkillsData = [];
 
 	fetch(`${JSON_URLS.SEARCH}?v=${Date.now()}`)
@@ -331,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <li>
 					<a class="copy-link" data-url="${fullUrl}"><img src="/Assets/images/svg/link.svg"></a>
 							<a href="${pageUrl}" db-skill="${skill["db-skill"]}">
-							<div class="icon_search"><img src="${cdnBase}/data/icons/${skill.icon}" alt="${skill.skill}" class="skill-icon"></div>
+							<div class="icon_search"><img src="${CDN_BASE}/data/icons/${skill.icon}" alt="${skill.skill}" class="skill-icon"></div>
 							<div>${skill.skill} <span>[${skill.jobName}: ${skill.level}]</span></div>
 					</a>
             </li>
@@ -443,43 +367,36 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	initGlobalSearch("#search", "#results");
+}
+// Footer Overlap
+function initFooterOverlap() {
+	const topButton = document.querySelector(".nome_app_top");
+	const footer = document.querySelector(".footer_info");
 
-	// Preloader
-	function hidePreloader() {
-		setTimeout(() => {
-			const preloader = document.getElementById("page-preloader");
-			if (preloader && !preloader.classList.contains("done")) {
-				preloader.classList.add("done");
-				document.body.style.overflowY = "visible";
-				document.body.style.paddingRight = "0px";
-			}
-			const hash = location.hash.substring(1);
-			if (hash) activateTab(hash);
-		}, 1200);
+	function preventFooterOverlap() {
+		if (!footer) return;
+
+		const footerRect = footer.getBoundingClientRect();
+		const windowHeight = window.innerHeight;
+		const moveUpButton = document.querySelector(".move-up");
+		const topBtnBase = 20;
+		const moveUpBase = 80;
+
+		if (footerRect.top < windowHeight) {
+			const overlap = windowHeight - footerRect.top;
+			if (topButton) topButton.style.bottom = `${overlap + topBtnBase}px`;
+			if (moveUpButton) moveUpButton.style.bottom = `${overlap + moveUpBase}px`;
+		} else {
+			if (topButton) topButton.style.bottom = "";
+			if (moveUpButton) moveUpButton.style.bottom = "";
+		}
 	}
 
-	if (document.readyState === "complete") {
-		hidePreloader();
-	} else {
-		window.addEventListener("load", hidePreloader);
-	}
-});
-// Сlick Link
-document.addEventListener("click", function (e) {
-	const link = e.target.closest("a[href*='#']:not([href='#'])");
-	if (!link) return;
-
-	const href = link.getAttribute("href");
-	const targetElement = document.querySelector(href);
-
-	if (targetElement) {
-		e.preventDefault();
-		const targetPos = targetElement.getBoundingClientRect().top + window.scrollY - 48;
-		window.scrollTo({top: targetPos, behavior: "smooth"});
-	}
-});
+	window.addEventListener("scroll", preventFooterOverlap);
+	window.addEventListener("resize", preventFooterOverlap);
+}
 // Gold Saucer Menu
-document.addEventListener("DOMContentLoaded", () => {
+function initGSMenu() {
 	const mahjongMenu = document.querySelector(".gs_menu_nav");
 	if (!mahjongMenu) return;
 
@@ -553,9 +470,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 		}
 	});
-});
+}
 // DEBUG
-document.addEventListener("DOMContentLoaded", () => {
+function initDEBUG() {
 	if (!ENABLE_DEBUG) return;
 
 	const fixSingleLink = (el) => {
@@ -592,9 +509,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			.join(", ");
 		if (titleText) row.setAttribute("title", titleText);
 	});
-});
+}
 // WARNING
-document.addEventListener("DOMContentLoaded", () => {
+function initWARNING() {
 	if (!ENABLE_WARNING) return;
 	const setCookie = (name, value, days) => {
 		const date = new Date();
@@ -624,4 +541,94 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	};
 	showErrorInfo("Error");
+}
+// For the new year
+function Snowfall() {
+	const canvas = document.createElement("canvas");
+	canvas.id = "snowCanvas";
+	Object.assign(canvas.style, {
+		position: "fixed",
+		top: 0,
+		left: 0,
+		width: "100%",
+		height: "100%",
+		pointerEvents: "none",
+		zIndex: 1000,
+	});
+	document.body.prepend(canvas);
+
+	const ctx = canvas.getContext("2d");
+	let width = window.innerWidth;
+	let height = window.innerHeight;
+	canvas.width = width;
+	canvas.height = height;
+
+	window.addEventListener(
+		"resize",
+		() => {
+			width = canvas.width = window.innerWidth;
+			height = canvas.height = window.innerHeight;
+		},
+		{passive: true}
+	);
+
+	const flakeCount = 69;
+	const flakes = Array.from({length: flakeCount}, () => createFlake());
+
+	function createFlake() {
+		return {
+			x: Math.random() * width,
+			y: Math.random() * height,
+			size: 8 + Math.random() * 12,
+			speed: 0.3 + Math.random() * 0.9,
+			wind: -0.2 + Math.random() * 0.4,
+			opacity: 0.3 + Math.random() * 0.4,
+			rotation: Math.random() * Math.PI * 2,
+			rotationSpeed: (Math.random() - 0.5) * 0.02,
+		};
+	}
+
+	const svgString = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+            <path d="M50,10 L50,90 M10,50 L90,50 M20,20 L80,80 M80,20 L20,80 M25,50 L75,50 M50,25 L50,75" stroke="white" stroke-width="8" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="12" fill="white"/>
+        </svg>
+    `;
+	const snowflakeImg = new Image();
+	snowflakeImg.src = URL.createObjectURL(new Blob([svgString], {type: "image/svg+xml;charset=utf-8"}));
+
+	function animate() {
+		ctx.clearRect(0, 0, width, height);
+		flakes.forEach((flake) => {
+			flake.y += flake.speed;
+			flake.x += flake.wind;
+			flake.rotation += flake.rotationSpeed;
+			if (flake.y > height + 30) Object.assign(flake, createFlake(), {y: -30});
+			if (flake.x > width + 30) flake.x = -30;
+			if (flake.x < -30) flake.x = width + 30;
+
+			ctx.save();
+			ctx.translate(flake.x, flake.y);
+			ctx.rotate(flake.rotation);
+			ctx.globalAlpha = flake.opacity;
+			ctx.drawImage(snowflakeImg, -flake.size / 2, -flake.size / 2, flake.size, flake.size);
+			ctx.restore();
+		});
+		requestAnimationFrame(animate);
+	}
+	snowflakeImg.onload = animate;
+}
+// Сlick Link
+document.addEventListener("click", function (e) {
+	const link = e.target.closest("a[href*='#']:not([href='#'])");
+	if (!link) return;
+
+	const href = link.getAttribute("href");
+	const targetElement = document.querySelector(href);
+
+	if (targetElement) {
+		e.preventDefault();
+		const targetPos = targetElement.getBoundingClientRect().top + window.scrollY - 48;
+		window.scrollTo({top: targetPos, behavior: "smooth"});
+	}
 });
