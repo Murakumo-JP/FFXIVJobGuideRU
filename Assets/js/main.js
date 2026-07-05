@@ -7,7 +7,7 @@ const JSON_URLS = {
 	SEARCH: `${CDN_BASE}/data/GlobalSearch.json`,
 };
 
-let jsonData = [];
+//let jsonData = [];
 
 const lockScroll = () => document.body.classList.add("no-scroll");
 const unlockScroll = () => document.body.classList.remove("no-scroll");
