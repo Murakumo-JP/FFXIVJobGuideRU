@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const mainContent = document.querySelector(".main_content");
 	if (!mainContent) return;
 
-	fetch("/DB/changelog.json")
+	fetch("/DB/Changelog.json")
 		.then((response) => response.json())
 		.then((news) => {
 			const newsMaxCount = 4;

@@ -2,7 +2,7 @@ const ENABLE_DEBUG = true;
 const ENABLE_WARNING = false;
 const CDN_BASE = "https://cdn.ff14jobguide.ru";
 const JSON_URLS = {
-	UPDATES: `/DB/changelog.json`,
+	UPDATES: `/DB/Changelog.json`,
 	MENU: "/DB/Menu.json",
 	SEARCH: `${CDN_BASE}/data/GlobalSearch.json`,
 };

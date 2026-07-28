@@ -30,5 +30,11 @@
 		"patch_version": "7.51",
 		"patch_link": "https://eu.finalfantasyxiv.com/lodestone/topics/detail/f2e3faea7dd6fecf3f1b66a2a4c30892684d2938",
 		"patch_changelog": ["- Небольшие исправления багов."]
+	},
+	{
+		"patch_date": "28.07.2026",
+		"patch_version": "7.55",
+		"patch_link": "https://eu.finalfantasyxiv.com/lodestone/topics/detail/f892390a6ec7a958222c739d2a79822899786240",
+		"patch_changelog": ["- Обновления за Патч 7.51", "- Обновлены описания умений за Патч 7.55"]
 	}
 ]
