@@ -1,0 +1,71 @@
+.jobguide {
+	&_menu_wrapper {
+		background: #eaebe6;
+		top: 0;
+		width: 100%;
+		position: fixed;
+		z-index: 50;
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
+	}
+	&_menu_list {
+		width: max-content;
+		height: 48px;
+		margin: 0 auto;
+
+		> li {
+			float: left;
+			width: auto;
+			height: 48px;
+			position: relative;
+			z-index: 5;
+
+			> span {
+				background: #eaebe6;
+				display: block;
+				width: 160px;
+				line-height: 48px;
+				overflow: hidden;
+				cursor: pointer;
+				position: relative;
+				z-index: 10;
+				font-size: 13px;
+				font-weight: 700;
+				text-align: center;
+			}
+		}
+
+		> .jobguide_sub_menu {
+			opacity: 0;
+			visibility: hidden;
+			top: -150px;
+		}
+
+		&:hover > .jobguide_sub_menu {
+			opacity: 1;
+			visibility: visible;
+			top: 48px;
+		}
+	}
+	&_sub_menu {
+		width: 160px;
+		margin: 0 auto;
+		position: absolute;
+		background: #f4f5f2;
+		z-index: 1;
+		padding: 8px 0 5px;
+		transition: all 0.4s;
+		border-radius: 0 0 10px 10px;
+		li {
+			a p {
+				display: block;
+				padding: 5px 9px;
+				font-size: 12px;
+				font-weight: 700;
+				text-align: left;
+				transition: all 0.3s;
+				position: relative;
+				text-align: center;
+			}
+		}
+	}
+}

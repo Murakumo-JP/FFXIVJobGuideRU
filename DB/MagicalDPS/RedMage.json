@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Riposte",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8c24d1459dbae096bb8927efb52db5feb9b0d316.png",
+		"skill_icon": "8c24d1459dbae096bb8927efb52db5feb9b0d316.png",
 		"job_icon": "RDM",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -15,7 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Jolt",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9fc8c455d50ec08c721f4674e7e9015f4700debe.png",
+		"skill_icon": "9fc8c455d50ec08c721f4674e7e9015f4700debe.png",
 		"job_icon": "RDM",
 		"level": "2",
 		"classification": "Заклинание",
@@ -29,7 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Verthunder",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f5a91b090922e24a43d172f2cdfb85fc4ff9423a.png",
+		"skill_icon": "f5a91b090922e24a43d172f2cdfb85fc4ff9423a.png",
 		"job_icon": "RDM",
 		"level": "4",
 		"classification": "Заклинание",
@@ -43,7 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Corps-a-corps",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ca149fa59c97f3ce000ba2cdd143dd181a25def6.png",
+		"skill_icon": "ca149fa59c97f3ce000ba2cdd143dd181a25def6.png",
 		"job_icon": "RDM",
 		"level": "6",
 		"classification": "Способность",
@@ -57,7 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Veraero",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a774e32d6c268433b5e2c56dc152cae973605e2e.png",
+		"skill_icon": "a774e32d6c268433b5e2c56dc152cae973605e2e.png",
 		"job_icon": "RDM",
 		"level": "10",
 		"classification": "Заклинание",
@@ -71,7 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Scatter",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/adbad46ea7684b2e5914b23c4ec7de0ecb19432d.png",
+		"skill_icon": "adbad46ea7684b2e5914b23c4ec7de0ecb19432d.png",
 		"job_icon": "RDM",
 		"level": "15",
 		"classification": "Заклинание",
@@ -85,7 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Verthunder II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e81a0ede20ee59190bd71e6e1e0398449a3d9b54.png",
+		"skill_icon": "e81a0ede20ee59190bd71e6e1e0398449a3d9b54.png",
 		"job_icon": "RDM",
 		"level": "18",
 		"classification": "Заклинание",
@@ -99,7 +99,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Veraero II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bd4b649f82039bd9b028dc8bafacef3eb671da79.png",
+		"skill_icon": "bd4b649f82039bd9b028dc8bafacef3eb671da79.png",
 		"job_icon": "RDM",
 		"level": "22",
 		"classification": "Заклинание",
@@ -113,7 +113,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Verfire",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ce7efb90e13d0fef394abb8d2e57a09402452890.png",
+		"skill_icon": "ce7efb90e13d0fef394abb8d2e57a09402452890.png",
 		"job_icon": "RDM",
 		"level": "26",
 		"classification": "Заклинание",
@@ -127,7 +127,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Verstone",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c5ddf887a06b23a2ae9426a5a6288b863b92eced.png",
+		"skill_icon": "c5ddf887a06b23a2ae9426a5a6288b863b92eced.png",
 		"job_icon": "RDM",
 		"level": "30",
 		"classification": "Заклинание",
@@ -141,7 +141,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Zwerchhau",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/adef75e55602967f0c722896b45d5be518cd9dd4.png",
+		"skill_icon": "adef75e55602967f0c722896b45d5be518cd9dd4.png",
 		"job_icon": "RDM",
 		"level": "35",
 		"classification": "Боевой навык",
@@ -155,7 +155,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Displacement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3a7bcdd99a2d4f40c95c39ce19d97be8ee0a151b.png",
+		"skill_icon": "3a7bcdd99a2d4f40c95c39ce19d97be8ee0a151b.png",
 		"job_icon": "RDM",
 		"level": "40",
 		"classification": "Способность",
@@ -169,7 +169,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Engagement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/341778a835813d9d96dd39d0a4f67e13b6c09527.png",
+		"skill_icon": "341778a835813d9d96dd39d0a4f67e13b6c09527.png",
 		"job_icon": "RDM",
 		"level": "40",
 		"classification": "Способность",
@@ -183,7 +183,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Fleche",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f950d18911258503ab8a8ec2fa28ca3fdb6a8a6d.png",
+		"skill_icon": "f950d18911258503ab8a8ec2fa28ca3fdb6a8a6d.png",
 		"job_icon": "RDM",
 		"level": "45",
 		"classification": "Способность",
@@ -197,7 +197,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Redoublement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/292f17a2bcaebf7db4560ff8c977f64908db9917.png",
+		"skill_icon": "292f17a2bcaebf7db4560ff8c977f64908db9917.png",
 		"job_icon": "RDM",
 		"level": "50",
 		"classification": "Боевой навык",
@@ -211,7 +211,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Acceleration",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/831a96d8378a68659074d13e8a1e90e0de2da5a4.png",
+		"skill_icon": "831a96d8378a68659074d13e8a1e90e0de2da5a4.png",
 		"job_icon": "RDM",
 		"level": "50",
 		"classification": "Способность",
@@ -225,7 +225,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Moulinet",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fe9877c05ef3a4622f0488b580b6ea36b7446bca.png",
+		"skill_icon": "fe9877c05ef3a4622f0488b580b6ea36b7446bca.png",
 		"job_icon": "RDM",
 		"level": "52",
 		"classification": "Боевой навык",
@@ -239,7 +239,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Vercure",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d23f5785bdb0f0c398a14087753ddcedab6d4e78.png",
+		"skill_icon": "d23f5785bdb0f0c398a14087753ddcedab6d4e78.png",
 		"job_icon": "RDM",
 		"level": "54",
 		"classification": "Заклинание",
@@ -253,7 +253,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Contre Sixte",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e9183e5932215335efe798ce4d6422d37befaf27.png",
+		"skill_icon": "e9183e5932215335efe798ce4d6422d37befaf27.png",
 		"job_icon": "RDM",
 		"level": "56",
 		"classification": "Способность",
@@ -267,7 +267,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Embolden",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/85d6955ad939bb051fe8b893c194497b9499d89e.png",
+		"skill_icon": "85d6955ad939bb051fe8b893c194497b9499d89e.png",
 		"job_icon": "RDM",
 		"level": "58",
 		"classification": "Способность",
@@ -282,7 +282,7 @@
 	"PVE Skill 21": {
 		"name": "Manafication",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fcad96771c4/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5f145a66018e2f197e16b966e30c53bba09e13bd.png",
+		"skill_icon": "5f145a66018e2f197e16b966e30c53bba09e13bd.png",
 		"job_icon": "RDM",
 		"level": "60",
 		"classification": "Способность",
@@ -296,7 +296,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Jolt II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e2b3cc05547ba6a37ba5e883f190570d32eabb10.png",
+		"skill_icon": "e2b3cc05547ba6a37ba5e883f190570d32eabb10.png",
 		"job_icon": "RDM",
 		"level": "62",
 		"classification": "Заклинание",
@@ -310,7 +310,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Verraise",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/6be6c45a105e3890f5390c26a2d5532a7e2eea43.png",
+		"skill_icon": "6be6c45a105e3890f5390c26a2d5532a7e2eea43.png",
 		"job_icon": "RDM",
 		"level": "64",
 		"classification": "Заклинание",
@@ -324,7 +324,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Impact",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/1c5d66100b8539f4dd5779a760ccbc29f5878e6a.png",
+		"skill_icon": "1c5d66100b8539f4dd5779a760ccbc29f5878e6a.png",
 		"job_icon": "RDM",
 		"level": "66",
 		"classification": "Заклинание",
@@ -338,7 +338,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Verflare",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d20080ca189b4843d89ac2faab14d42099bd2e4c.png",
+		"skill_icon": "d20080ca189b4843d89ac2faab14d42099bd2e4c.png",
 		"job_icon": "RDM",
 		"level": "68",
 		"classification": "Заклинание",
@@ -353,7 +353,7 @@
 	"PVE Skill 26": {
 		"name": "Verholy",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/b0bc78e2f74/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/34f4be861c3f40879653fef7fe7039f8df1108c1.png",
+		"skill_icon": "34f4be861c3f40879653fef7fe7039f8df1108c1.png",
 		"job_icon": "RDM",
 		"level": "70",
 		"classification": "Заклинание",
@@ -367,7 +367,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Reprise",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5a263708112bc6c8cbada8c40c34e97811874caf.png",
+		"skill_icon": "5a263708112bc6c8cbada8c40c34e97811874caf.png",
 		"job_icon": "RDM",
 		"level": "76",
 		"classification": "Боевой навык",
@@ -381,7 +381,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Scorch",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ebe66b332de0465570b50147ee257968cfd77d0e.png",
+		"skill_icon": "ebe66b332de0465570b50147ee257968cfd77d0e.png",
 		"job_icon": "RDM",
 		"level": "80",
 		"classification": "Заклинание",
@@ -395,7 +395,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Verthunder III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8753ec70302b5e3613d8f95980f6d80d30c8ee9d.png",
+		"skill_icon": "8753ec70302b5e3613d8f95980f6d80d30c8ee9d.png",
 		"job_icon": "RDM",
 		"level": "82",
 		"classification": "Заклинание",
@@ -409,7 +409,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Veraero III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d9d556c8c08c0704176d7239be8de27e2c1f4aba.png",
+		"skill_icon": "d9d556c8c08c0704176d7239be8de27e2c1f4aba.png",
 		"job_icon": "RDM",
 		"level": "82",
 		"classification": "Заклинание",
@@ -423,7 +423,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Jolt III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f3be0e80366bd72a864a87e41eadd964f07a5f57.png",
+		"skill_icon": "f3be0e80366bd72a864a87e41eadd964f07a5f57.png",
 		"job_icon": "RDM",
 		"level": "84",
 		"classification": "Заклинание",
@@ -437,7 +437,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Magick Barrier",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/76814235b2963003889ec3f3fc8c4857d82d3177.png",
+		"skill_icon": "76814235b2963003889ec3f3fc8c4857d82d3177.png",
 		"job_icon": "RDM",
 		"level": "86",
 		"classification": "Способность",
@@ -451,7 +451,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Resolution",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/3683481bcc4bf11a5c0d8d2b979d3109eb2664f7.png",
+		"skill_icon": "3683481bcc4bf11a5c0d8d2b979d3109eb2664f7.png",
 		"job_icon": "RDM",
 		"level": "90",
 		"classification": "Заклинание",
@@ -465,7 +465,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Vice of Thorns",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/23de2734d998406aa25f526147ebbea7f1012d67.png",
+		"skill_icon": "23de2734d998406aa25f526147ebbea7f1012d67.png",
 		"job_icon": "RDM",
 		"level": "92",
 		"classification": "Способность",
@@ -479,7 +479,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Grand Impact",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5be2009c3bc4bd918ee899e0c6edc953571e93a3.png",
+		"skill_icon": "5be2009c3bc4bd918ee899e0c6edc953571e93a3.png",
 		"job_icon": "RDM",
 		"level": "96",
 		"classification": "Заклинание",
@@ -493,7 +493,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Prefulgence",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f3988ae5cc17fcf0b655c5820f0c25ef2ac72b43.png",
+		"skill_icon": "f3988ae5cc17fcf0b655c5820f0c25ef2ac72b43.png",
 		"job_icon": "RDM",
 		"level": "100",
 		"classification": "Способность",
@@ -507,7 +507,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Enchanted Riposte",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f3b5d72daa982d01b469e4d45a73b184b7056154.png",
+		"skill_icon": "f3b5d72daa982d01b469e4d45a73b184b7056154.png",
 		"job_icon": "RDM",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -521,7 +521,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Enchanted Zwerchhau",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4740dd6eac66424c4d1b236f9002b979f7f993e7.png",
+		"skill_icon": "4740dd6eac66424c4d1b236f9002b979f7f993e7.png",
 		"job_icon": "RDM",
 		"level": "35",
 		"classification": "Боевой навык",
@@ -535,7 +535,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Enchanted Redoublement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/12329935fdf53d176f290194929c91b4f96c5212.png",
+		"skill_icon": "12329935fdf53d176f290194929c91b4f96c5212.png",
 		"job_icon": "RDM",
 		"level": "50",
 		"classification": "Боевой навык",
@@ -549,7 +549,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Enchanted Moulinet",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/078ff2ecf682fbabebea07caf8631619a223a774.png",
+		"skill_icon": "078ff2ecf682fbabebea07caf8631619a223a774.png",
 		"job_icon": "RDM",
 		"level": "52",
 		"classification": "Боевой навык",
@@ -563,7 +563,7 @@
 	},
 	"PVE Skill 41": {
 		"name": "Enchanted Moulinet Deux",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e5dfc01b5048f6bef58d504d6e6f633004ad8fc7.png",
+		"skill_icon": "e5dfc01b5048f6bef58d504d6e6f633004ad8fc7.png",
 		"job_icon": "RDM",
 		"level": "52",
 		"classification": "Боевой навык",
@@ -577,7 +577,7 @@
 	},
 	"PVE Skill 42": {
 		"name": "Enchanted Moulinet Trois",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0f1ad21893a66c8f4b9253821fee9044ba1b4464.png",
+		"skill_icon": "0f1ad21893a66c8f4b9253821fee9044ba1b4464.png",
 		"job_icon": "RDM",
 		"level": "52",
 		"classification": "Боевой навык",
@@ -591,7 +591,7 @@
 	},
 	"PVE Skill 43": {
 		"name": "Enchanted Reprise",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a6e98885e3a5709ef22ba5ea9ad2991f3015752e.png",
+		"skill_icon": "a6e98885e3a5709ef22ba5ea9ad2991f3015752e.png",
 		"job_icon": "RDM",
 		"level": "76",
 		"classification": "Боевой навык",
@@ -605,126 +605,126 @@
 	},
 	"Trait 01": {
 		"name": "Dualcast",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ba8e7c2fa1542aff1a448951340a771cea935b14.png",
+		"skill_icon": "ba8e7c2fa1542aff1a448951340a771cea935b14.png",
 		"job_icon": "RDM",
 		"level": "1",
 		"content": "Накладывает эффект Dualcast при использовании любого заклинания, имеющего время применения. Когда персонаж находится под эффектом Dualcast, следующее заклинание не будет требовать времени применения. Эффект прекращается при выполнении любого действия, кроме способности. Авто атаки не отменяют эффект.<br/>Продолжительность: 15 сек."
 	},
 	"Trait 02": {
 		"name": "Maim and Mend",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/688b9e979396925fa8a996968547e39f057ff539.png",
+		"skill_icon": "688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "RDM",
 		"level": "20",
 		"content": "Увеличивает базовый урон умений и восстановления HP на 10%."
 	},
 	"Trait 03": {
 		"name": "Maim and Mend II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f0493aff0cf655167be05890774732eebed2b598.png",
+		"skill_icon": "f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "RDM",
 		"level": "40",
 		"content": "Увеличивает базовый урон умений и восстановления HP на 30%."
 	},
 	"Trait 04": {
 		"name": "Enhanced Jolt",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b1a374ca735f065a1e74d73de21f2ff0ae9e37d4.png",
+		"skill_icon": "b1a374ca735f065a1e74d73de21f2ff0ae9e37d4.png",
 		"job_icon": "RDM",
 		"level": "62",
 		"content": "Улучшает умение Jolt до Jolt II. Также повышает силу атаки умений Verthunder и Veraero до 360, и силу атаки умений Verfire и Verstone до 300."
 	},
 	"Trait 05": {
 		"name": "Scatter Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/25dd9bda53f9b07bde960cd4a2cd17a32e20fce2.png",
+		"skill_icon": "25dd9bda53f9b07bde960cd4a2cd17a32e20fce2.png",
 		"job_icon": "RDM",
 		"level": "66",
 		"content": "Улучшает умение Scatter до Impact."
 	},
 	"Trait 06": {
 		"name": "Mana Stack",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5d6d2042423f8017649fa46279afe981ad911ba7.png",
+		"skill_icon": "5d6d2042423f8017649fa46279afe981ad911ba7.png",
 		"job_icon": "RDM",
 		"level": "68",
 		"content": "Добавляет Mana Stack к шкале Balance Gauge при использования  Enchanted Riposte, Enchanted Zwerchhau, Enchanted Redoublement, Enchanted Moulinet, Enchanted Moulinet Deux или Enchanted Moulinet Trois, вплоть до максимума 3.<br/>После получения 3 Mana Stacks Verthunder и Verthunder II улучшаются до Verflare.<br/>После изучения Verholy получение 3 Mana Stacks также улучшает Veraero и Veraero II до Verholy."
 	},
 	"Trait 07": {
 		"name": "Enhanced Displacement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d5ae42ee8a96d14ccb2aca8fb77a3dc07870ac98.png",
+		"skill_icon": "d5ae42ee8a96d14ccb2aca8fb77a3dc07870ac98.png",
 		"job_icon": "RDM",
 		"level": "72",
 		"content": "Увеличивает силу атаки Displacement и Engagement до 180."
 	},
 	"Trait 08": {
 		"name": "Red Magic Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/66e611103eb0f8e13a49f0ca1149c7d1cd5059aa.png",
+		"skill_icon": "66e611103eb0f8e13a49f0ca1149c7d1cd5059aa.png",
 		"job_icon": "RDM",
 		"level": "74",
 		"content": "Снижает время восстановления Contre Sixte до 35 секунд и увеличивает силу Verthunder II и Veraero II до 120."
 	},
 	"Trait 09": {
 		"name": "Enhanced Manafication",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8ebee2fe5cc848fb74933058a952ae40ccf70e6c.png",
+		"skill_icon": "8ebee2fe5cc848fb74933058a952ae40ccf70e6c.png",
 		"job_icon": "RDM",
 		"level": "78",
 		"content": "Снижает время восстановления Manafication до 110 секунд и добавляет эффект увеличения магического урона на 5%."
 	},
 	"Trait 10": {
 		"name": "Red Magic Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/79d78648190b44e68aba9e81a5663b5b1c53823f.png",
+		"skill_icon": "79d78648190b44e68aba9e81a5663b5b1c53823f.png",
 		"job_icon": "RDM",
 		"level": "82",
 		"content": "Улучшает умение Verthunder до Verthunder III и Veraero до Veraero III.<br/>После получения 3 Mana Stacks Verthunder III улучшается до Verflare и Veraero III улучшается до Verholy."
 	},
 	"Trait 11": {
 		"name": "Red Magic Mastery III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ad98a9599086d8643f4d5808e2cabbc50cad1e44.png",
+		"skill_icon": "ad98a9599086d8643f4d5808e2cabbc50cad1e44.png",
 		"job_icon": "RDM",
 		"level": "84",
 		"content": "Улучшает умение Jolt II до Jolt III. Увеличивает силу атаки Enchanted Riposte до 280, Verthunder II до 140, Veraero II до 140, Verfire до 340, Verstone до 340, Enchanted Zwerchhau до 150, Enchanted Redoublement до 130, Impact до 210 и Enchanted Reprise до 340."
 	},
 	"Trait 12": {
 		"name": "Enhanced Acceleration",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f20258e6dd074997a3856ce6b8744ee3049c6a86.png",
+		"skill_icon": "f20258e6dd074997a3856ce6b8744ee3049c6a86.png",
 		"job_icon": "RDM",
 		"level": "88",
 		"content": "Позволяет накапливать заряды для последовательного использования Acceleration.<br/>Максимум зарядов: 2"
 	},
 	"Trait 13": {
 		"name": "Enhanced Manafication II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/082650d5e7a3b38c4db5f32824e527281fb91ba1.png",
+		"skill_icon": "082650d5e7a3b38c4db5f32824e527281fb91ba1.png",
 		"job_icon": "RDM",
 		"level": "90",
 		"content": "Увеличивает максимальное количество стаков Manafication до 6."
 	},
 	"Trait 14": {
 		"name": "Enhanced Embolden",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9fc6fde931036592d442e3d56e3c0d033f463e11.png",
+		"skill_icon": "9fc6fde931036592d442e3d56e3c0d033f463e11.png",
 		"job_icon": "RDM",
 		"level": "92",
 		"content": "Накладывает эффект Thorned Flourish при использовании Embolden.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 15": {
 		"name": "Enchanted Blade Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/faebcc03aa187f6f45319b41b7336431d1722fc4.png",
+		"skill_icon": "faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "RDM",
 		"level": "94",
 		"content": "Увеличивает силу атаки Enchanted Riposte до 340, Verfire до 380, Verstone до380, Enchanted Zwerchhau до 190, Fleche до 480, Enchanted Redoublement до 190, Contre Sixte до 420, Verflare до 650, Verholy до 650, Enchanted Reprise до 420, Scorch до 750, Veraero III до 440, Verthunder III до 440 и Resolution до 850."
 	},
 	"Trait 16": {
 		"name": "Enhanced Acceleration II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f88ff137a14d846648c1a350b6927826b0e0c316.png",
+		"skill_icon": "f88ff137a14d846648c1a350b6927826b0e0c316.png",
 		"job_icon": "RDM",
 		"level": "96",
 		"content": "Накладывает эффект Grand Impact Ready при использовании Acceleration.<br/>Продолжительность: 30 сек.<br/>Jolt III и Impact меняются на Grand Impact под действием эффекта Grand Impact Ready."
 	},
 	"Trait 17": {
 		"name": "Enhanced Manafication III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/562ae4c055cc5991095f721e986f8ae703ac75f9.png",
+		"skill_icon": "562ae4c055cc5991095f721e986f8ae703ac75f9.png",
 		"job_icon": "RDM",
 		"level": "100",
 		"content": "Накладывает эффект Prefulgence Ready при использовании Manafication.<br/>Продолжительность: 30 сек.<br/>Manafication меняется на Prefulgence под действием эффекта Prefulgence Ready."
 	},
 	"PVP Skill 01": {
 		"name": "Jolt III",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/33860679da3fbc2e8cf8864ce640f369c13163d4.png",
+		"skill_icon": "33860679da3fbc2e8cf8864ce640f369c13163d4.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
 		"recast": "2.4 сек.",
@@ -735,7 +735,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Enchanted Riposte",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/67f481da4b0a277ad6b06432a130adfe4b986d32.png",
+		"skill_icon": "67f481da4b0a277ad6b06432a130adfe4b986d32.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -746,7 +746,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Resolution",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/5aae4c251545f2fc478c40be35966398c7ab9b99.png",
+		"skill_icon": "5aae4c251545f2fc478c40be35966398c7ab9b99.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -757,7 +757,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Embolden",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/54a392e5b56bf4a5030af1f6bc369afd37f91b3a.png",
+		"skill_icon": "54a392e5b56bf4a5030af1f6bc369afd37f91b3a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "24 сек.",
@@ -768,7 +768,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Corps-a-corps",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b524bce7a6b14bd3f524b8c29f5df87cdfc0d955.png",
+		"skill_icon": "b524bce7a6b14bd3f524b8c29f5df87cdfc0d955.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -779,7 +779,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Displacement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/447cbba6771ca9884e9fdb197d8bf20dd2b2fa15.png",
+		"skill_icon": "447cbba6771ca9884e9fdb197d8bf20dd2b2fa15.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -790,7 +790,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Forte",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ea0142f5424d599e39076a6c9bac6ab9aac876ce.png",
+		"skill_icon": "ea0142f5424d599e39076a6c9bac6ab9aac876ce.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -801,7 +801,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Grand Impact",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/69e3cddfaf05c365aa386853c33eb5864aaf4735.png",
+		"skill_icon": "69e3cddfaf05c365aa386853c33eb5864aaf4735.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -812,7 +812,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Enchanted Zwerchhau",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e908bf25ba9fac88edf30da9b4edf9b8bcbf1758.png",
+		"skill_icon": "e908bf25ba9fac88edf30da9b4edf9b8bcbf1758.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "1.5 сек.",
@@ -823,7 +823,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Enchanted Redoublement",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b2f8944b29325a91ae300010c1fb774e9d53316e.png",
+		"skill_icon": "b2f8944b29325a91ae300010c1fb774e9d53316e.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -834,7 +834,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Scorch",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/110f1fc97444637fd2fdc4f35f82cc4da3f4b2de.png",
+		"skill_icon": "110f1fc97444637fd2fdc4f35f82cc4da3f4b2de.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -845,7 +845,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Prefulgence",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9cc3b352b38d3b755927fd84d40a923373cd58b2.png",
+		"skill_icon": "9cc3b352b38d3b755927fd84d40a923373cd58b2.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
 		"recast": "2.4 сек.",
@@ -856,7 +856,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Vice of Thorns",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e2b4a9ae89b7d2b17ec99c36fae1772ad0377d9b.png",
+		"skill_icon": "e2b4a9ae89b7d2b17ec99c36fae1772ad0377d9b.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -867,7 +867,7 @@
 	},
 	"PVP Skill LB": {
 		"name": "Southern Cross",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png",
+		"skill_icon": "7c93e62e034c1a0d6cfd0dfc01ed9fa386528e9e.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "30y",

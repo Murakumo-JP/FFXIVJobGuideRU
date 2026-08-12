@@ -1,7 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Keen Edge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7cd4d1186b81029de28854eec532029ef245779c.png",
+		"skill_icon": "7cd4d1186b81029de28854eec532029ef245779c.png",
 		"job_icon": "GNB",
 		"level": "1",
 		"classification": "Боевой навык",
@@ -14,7 +14,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "No Mercy",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ab1c97d8f6007446d9f7c324adc29299e6be8e10.png",
+		"skill_icon": "ab1c97d8f6007446d9f7c324adc29299e6be8e10.png",
 		"job_icon": "GNB",
 		"level": "2",
 		"classification": "Способность",
@@ -27,7 +27,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Brutal Shell",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/729d76d5161a59cbed8b5f369e8476acf5ea24b2.png",
+		"skill_icon": "729d76d5161a59cbed8b5f369e8476acf5ea24b2.png",
 		"job_icon": "GNB",
 		"level": "4",
 		"classification": "Боевой навык",
@@ -40,7 +40,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Camouflage",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/62855107ef85d3d74b0eb9d14f030368ddb6ff5a.png",
+		"skill_icon": "62855107ef85d3d74b0eb9d14f030368ddb6ff5a.png",
 		"job_icon": "GNB",
 		"level": "6",
 		"classification": "Способность",
@@ -53,7 +53,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Demon Slice",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/a38cbdd5b185413becb8c56388d1043259dd25b1.png",
+		"skill_icon": "a38cbdd5b185413becb8c56388d1043259dd25b1.png",
 		"job_icon": "GNB",
 		"level": "10",
 		"classification": "Боевой навык",
@@ -66,7 +66,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Royal Guard",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b44946a0b3966b9638d4bc04d4b8c5858bfc3ad0.png",
+		"skill_icon": "b44946a0b3966b9638d4bc04d4b8c5858bfc3ad0.png",
 		"job_icon": "GNB",
 		"level": "10",
 		"classification": "Способность",
@@ -79,7 +79,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Release Royal Guard",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bf2a6455e06637fe409340c4dba7530e55d8bfee.png",
+		"skill_icon": "bf2a6455e06637fe409340c4dba7530e55d8bfee.png",
 		"job_icon": "GNB",
 		"level": "10",
 		"classification": "Способность",
@@ -92,7 +92,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Lightning Shot",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/da2f213272cf4d4c2c5df5ccf597dd8e01ddb58b.png",
+		"skill_icon": "da2f213272cf4d4c2c5df5ccf597dd8e01ddb58b.png",
 		"job_icon": "GNB",
 		"level": "15",
 		"classification": "Боевой навык",
@@ -105,7 +105,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Danger Zone",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fdc5cd0d9017c98bc96d4e0f20122e2f83667128.png",
+		"skill_icon": "fdc5cd0d9017c98bc96d4e0f20122e2f83667128.png",
 		"job_icon": "GNB",
 		"level": "18",
 		"classification": "Способность",
@@ -118,7 +118,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Solid Barrel",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/57a492f3dd90592bb2b3255f3e2f342dd6b800f9.png",
+		"skill_icon": "57a492f3dd90592bb2b3255f3e2f342dd6b800f9.png",
 		"job_icon": "GNB",
 		"level": "26",
 		"classification": "Боевой навык",
@@ -131,7 +131,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Burst Strike",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/43828414469ebc6fd88ef500ab2e941177b833ec.png",
+		"skill_icon": "43828414469ebc6fd88ef500ab2e941177b833ec.png",
 		"job_icon": "GNB",
 		"level": "30",
 		"classification": "Боевой навык",
@@ -144,7 +144,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Nebula",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d16438334b399cb5524acb6d77485b6c56a2be4a.png",
+		"skill_icon": "d16438334b399cb5524acb6d77485b6c56a2be4a.png",
 		"job_icon": "GNB",
 		"level": "38",
 		"classification": "Способность",
@@ -157,7 +157,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Demon Slaughter",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/46bce3e1c9f5ca00fbc00c7f52fc765c47aba80a.png",
+		"skill_icon": "46bce3e1c9f5ca00fbc00c7f52fc765c47aba80a.png",
 		"job_icon": "GNB",
 		"level": "40",
 		"classification": "Боевой навык",
@@ -170,7 +170,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Aurora",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e220754db76f98256dd7258171a61a9de8dd898c.png",
+		"skill_icon": "e220754db76f98256dd7258171a61a9de8dd898c.png",
 		"job_icon": "GNB",
 		"level": "45",
 		"classification": "Способность",
@@ -183,7 +183,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Superbolide",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/58257f726f8a2f793622a654e5b0b2df36b372ad.png",
+		"skill_icon": "58257f726f8a2f793622a654e5b0b2df36b372ad.png",
 		"job_icon": "GNB",
 		"level": "50",
 		"classification": "Способность",
@@ -196,7 +196,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Sonic Break",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7edeee63ceea914fd74fc091aa99a84b290a57b1.png",
+		"skill_icon": "7edeee63ceea914fd74fc091aa99a84b290a57b1.png",
 		"job_icon": "GNB",
 		"level": "54",
 		"classification": "Боевой навык<",
@@ -209,7 +209,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Trajectory",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/905366f09c4875cbe0ba664aa043c8bd22aefc1c.png",
+		"skill_icon": "905366f09c4875cbe0ba664aa043c8bd22aefc1c.png",
 		"job_icon": "GNB",
 		"level": "54",
 		"classification": "Боевой навык",
@@ -222,7 +222,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Gnashing Fang",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/31a707fb47363e30af254750784a60ff55f60ec9.png",
+		"skill_icon": "31a707fb47363e30af254750784a60ff55f60ec9.png",
 		"job_icon": "GNB",
 		"level": "60",
 		"classification": "Боевой навык",
@@ -235,7 +235,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Savage Claw",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/fe183577affbcd066b131c997ca32283dba5c768.png",
+		"skill_icon": "fe183577affbcd066b131c997ca32283dba5c768.png",
 		"job_icon": "GNB",
 		"level": "60",
 		"classification": "Боевой навык",
@@ -248,7 +248,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Wicked Talon",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/137262f0ad98e13fd0ace2dc4f7f786d0bcec9a5.png",
+		"skill_icon": "137262f0ad98e13fd0ace2dc4f7f786d0bcec9a5.png",
 		"job_icon": "GNB",
 		"level": "60",
 		"classification": "Боевой навык",
@@ -261,7 +261,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Bow Shock",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b3fa2bb1c9e838fc01439b7d39a495b444c73c6a.png",
+		"skill_icon": "b3fa2bb1c9e838fc01439b7d39a495b444c73c6a.png",
 		"job_icon": "GNB",
 		"level": "62",
 		"classification": "Способность",
@@ -274,7 +274,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Heart of Light",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/04bbce4afc048a15cdccdd0495e679f90b115963.png",
+		"skill_icon": "04bbce4afc048a15cdccdd0495e679f90b115963.png",
 		"job_icon": "GNB",
 		"level": "64",
 		"classification": "Способность",
@@ -287,7 +287,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Heart of Stone",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/059baae88deccf4ffdc31f8afd0074ec4589f81f.png",
+		"skill_icon": "059baae88deccf4ffdc31f8afd0074ec4589f81f.png",
 		"job_icon": "GNB",
 		"level": "68",
 		"classification": "Способность",
@@ -301,7 +301,7 @@
 	"PVE Skill 24": {
 		"name": "Continuation",
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0906d556cb0/",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/8e38ca32b4021206901a4761dbef4d0c783b8620.png",
+		"skill_icon": "8e38ca32b4021206901a4761dbef4d0c783b8620.png",
 		"job_icon": "GNB",
 		"level": "70",
 		"classification": "Способность",
@@ -314,7 +314,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Jugular Rip",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/75e8b1b0530a1eb26a7d87aa7a3a50cfb8d3bff7.png",
+		"skill_icon": "75e8b1b0530a1eb26a7d87aa7a3a50cfb8d3bff7.png",
 		"job_icon": "GNB",
 		"level": "70",
 		"classification": "Способность",
@@ -327,7 +327,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Abdomen Tear",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e8472939441b3136fb9b2bfa52851e500e001279.png",
+		"skill_icon": "e8472939441b3136fb9b2bfa52851e500e001279.png",
 		"job_icon": "GNB",
 		"level": "70",
 		"classification": "Способность",
@@ -340,7 +340,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Eye Gouge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0c7e1462abaa7984e64644f3cb9e4a066ec16c59.png",
+		"skill_icon": "0c7e1462abaa7984e64644f3cb9e4a066ec16c59.png",
 		"job_icon": "GNB",
 		"level": "70",
 		"classification": "Способность",
@@ -353,7 +353,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Fated Circle",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/72b126aa8a17d9d94ee177b98af27d512aa6e01f.png",
+		"skill_icon": "72b126aa8a17d9d94ee177b98af27d512aa6e01f.png",
 		"job_icon": "GNB",
 		"level": "72",
 		"classification": "Боевой навык",
@@ -366,7 +366,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Bloodfest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/90de52fbbbc0de9309a2b2aceb1b0146e3b7283a.png",
+		"skill_icon": "90de52fbbbc0de9309a2b2aceb1b0146e3b7283a.png",
 		"job_icon": "GNB",
 		"level": "76",
 		"classification": "Способность",
@@ -379,7 +379,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Blasting Zone",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d35fea54a4ec47a5d8227e13b5dba247a5c8a5a6.png",
+		"skill_icon": "d35fea54a4ec47a5d8227e13b5dba247a5c8a5a6.png",
 		"job_icon": "GNB",
 		"level": "80",
 		"classification": "Способность",
@@ -392,7 +392,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Heart of Corundum",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/493de7202ca9b1e4bed75fdd4e5b1e7a8c61d58a.png",
+		"skill_icon": "493de7202ca9b1e4bed75fdd4e5b1e7a8c61d58a.png",
 		"job_icon": "GNB",
 		"level": "82",
 		"classification": "Способность",
@@ -405,7 +405,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Hypervelocity",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/7d7143520a9ec0306e977c10b4594ad0b5eee50f.png",
+		"skill_icon": "7d7143520a9ec0306e977c10b4594ad0b5eee50f.png",
 		"job_icon": "GNB",
 		"level": "86",
 		"classification": "Способность",
@@ -418,7 +418,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Double Down",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9431f382886a5bac654058624ed21082deaae9d9.png",
+		"skill_icon": "9431f382886a5bac654058624ed21082deaae9d9.png",
 		"job_icon": "GNB",
 		"level": "90",
 		"classification": "Боевой навык",
@@ -431,7 +431,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Great Nebula",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c6aa9ac9d9d3b144c6c5d955616edbecbb40d19a.png",
+		"skill_icon": "c6aa9ac9d9d3b144c6c5d955616edbecbb40d19a.png",
 		"job_icon": "GNB",
 		"level": "92",
 		"classification": "Способность",
@@ -444,7 +444,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Fated Brand",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/212d089b8f857465c135f0aed8a6a201e8cfdc90.png",
+		"skill_icon": "212d089b8f857465c135f0aed8a6a201e8cfdc90.png",
 		"job_icon": "GNB",
 		"level": "96",
 		"classification": "Способность",
@@ -457,7 +457,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Reign of Beasts",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/df78916692df98ce5e4990edbb531dba1d535e8e.png",
+		"skill_icon": "df78916692df98ce5e4990edbb531dba1d535e8e.png",
 		"job_icon": "GNB",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -470,7 +470,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Noble Blood",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/10aad4140dd5bacfad70315a6a6da6bd3c4e59a0.png",
+		"skill_icon": "10aad4140dd5bacfad70315a6a6da6bd3c4e59a0.png",
 		"job_icon": "GNB",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -483,7 +483,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Lion Heart",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/105394eb5da461f87c00f49826e7ba06e4c93577.png",
+		"skill_icon": "105394eb5da461f87c00f49826e7ba06e4c93577.png",
 		"job_icon": "GNB",
 		"level": "100",
 		"classification": "Боевой навык",
@@ -496,105 +496,105 @@
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b6414caac03c831ec90c34e501e444031d44003c.png",
+		"skill_icon": "b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "GNB",
 		"level": "1",
 		"content": "Снижает получаемый урон на 20%. Также персонаж получает бонус к максимальному количеству HP в зависимости от значения выносливости (vitality) и бонус к урону в зависимости от значения силы (strength)."
 	},
 	"Trait 02": {
 		"name": "Cartridge Charge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e4e638d735e97d969ad1bbb6558ac8a8abe7fe15.png",
+		"skill_icon": "e4e638d735e97d969ad1bbb6558ac8a8abe7fe15.png",
 		"job_icon": "GNB",
 		"level": "30",
 		"content": "Добавляет Cartridge в шкалу Powder Gauge после успешного использования комбо с Solid Barrel.<br/>Максимум: 2 Cartridge"
 	},
 	"Trait 03": {
 		"name": "Enhanced No Mercy",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/720c9e99130d321869f43956ed85abd1b11f512b.png",
+		"skill_icon": "720c9e99130d321869f43956ed85abd1b11f512b.png",
 		"job_icon": "GNB",
 		"level": "54",
 		"content": "Позволяет наложить эффект Ready to Break после использования No Mercy."
 	},
 	"Trait 04": {
 		"name": "Enhanced Brutal Shell",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f222fb36167954d21f86b99d1e24a5c11eebd0d4.png",
+		"skill_icon": "f222fb36167954d21f86b99d1e24a5c11eebd0d4.png",
 		"job_icon": "GNB",
 		"level": "52",
 		"content": "Позволяет наложить эффект Brutal Shell после успешного использования комбо с Brutal Shell.<br/>Продолжительность: 30 сек."
 	},
 	"Trait 05": {
 		"name": "Danger Zone Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/14b8867b1e317ddf820ff1ce4ef6a5590643a108.png",
+		"skill_icon": "14b8867b1e317ddf820ff1ce4ef6a5590643a108.png",
 		"job_icon": "GNB",
 		"level": "80",
 		"content": "Улучшает умение Danger Zone до Blasting Zone."
 	},
 	"Trait 06": {
 		"name": "Heart of Stone Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/ef3d170a508f2962c68fd2c95bdb606244b7f7b5.png",
+		"skill_icon": "ef3d170a508f2962c68fd2c95bdb606244b7f7b5.png",
 		"job_icon": "GNB",
 		"level": "82",
 		"content": "Улучшает Heart of Stone до Heart of Corundum."
 	},
 	"Trait 07": {
 		"name": "Enhanced Aurora",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cdab08fb238d0ea0fb5fdafb684504d9f9b39d41.png",
+		"skill_icon": "cdab08fb238d0ea0fb5fdafb684504d9f9b39d41.png",
 		"job_icon": "GNB",
 		"level": "84",
 		"content": "Позволяет накапливать заряды для последовательного использования Aurora.<br/>Максимум зарядов: 2"
 	},
 	"Trait 08": {
 		"name": "Melee Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/bc58b07072e258883e9e584c4e45355d092da661.png",
+		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "GNB",
 		"level": "84",
 		"content": "Увеличивает силу атаки умениям Keen Edge до 200, Brutal Shell до 160 и Solid Barrel до 140."
 	},
 	"Trait 09": {
 		"name": "Enhanced Continuation",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/9d916d7b45b51d289bef5373704ca2e4751ded29.png",
+		"skill_icon": "9d916d7b45b51d289bef5373704ca2e4751ded29.png",
 		"job_icon": "GNB",
 		"level": "86",
 		"content": "Позволяет наложить эффект Ready to Blast после использования Burst Strike.<br/>Продолжительность: 10 сек."
 	},
 	"Trait 10": {
 		"name": "Cartridge Charge II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d4133f5308e1fc0c138ce0659e65ba3797dc31bd.png",
+		"skill_icon": "d4133f5308e1fc0c138ce0659e65ba3797dc31bd.png",
 		"job_icon": "GNB",
 		"level": "88",
 		"content": "Увеличивает вместимость шкалы Powder Gauge до 3 Cartridges.<br/>Позволяет заряжать 3 Cartridges при использовании умения Bloodfest, увеличивая максимальную вместимость до 6 патронов.<br/>При применении Bloodfest в магазине остается 3 Cartridges."
 	},
 	"Trait 11": {
 		"name": "Nebula Mastery",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b15792e2c2ccc44dd445fe90e3ee303635b6c3be.png",
+		"skill_icon": "b15792e2c2ccc44dd445fe90e3ee303635b6c3be.png",
 		"job_icon": "GNB",
 		"level": "92",
 		"content": "Улучшает умение Nebula до Great Nebula."
 	},
 	"Trait 12": {
 		"name": "Melee Mastery II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
+		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "GNB",
 		"level": "94",
 		"content": "Увеличивает силу атаки умениям Keen Edge до 300, Brutal Shell до 240, Solid Barrel до 240, Burst Strike до 420, Gnashing Fang до 440, Savage Claw до 500, Wicked Talon до 560, Jugular Rip до 220, Abdomen Tear до 260, Eye Gouge до 300, Blasting Zone до 800 и Hypervelocity до 180."
 	},
 	"Trait 13": {
 		"name": "Enhanced Continuation II",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/0388c677531ad523e8c897686069e587b5eaca68.png",
+		"skill_icon": "0388c677531ad523e8c897686069e587b5eaca68.png",
 		"job_icon": "GNB",
 		"level": "96",
 		"content": "Позволяет наложить эффект Ready to Raze после использования Fated Circle.<br/>Продолжительность: 10 сек.<br/>Continuation меняется на Fated Brand под действием эффекта Ready to Raze."
 	},
 	"Trait 14": {
 		"name": "Enhanced Bloodfest",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4a4fa44bc77a8bc9d1a942936b533ed4cbecb896.png",
+		"skill_icon": "4a4fa44bc77a8bc9d1a942936b533ed4cbecb896.png",
 		"job_icon": "GNB",
 		"level": "100",
 		"content": "Накладывает эффект Ready Reign после использования Bloodfest.<br/>Продолжительность: 30 сек."
 	},
 	"PVP Skill 01": {
 		"name": "Keen Edge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/82c470efaaee03cbc16ebb1d8231caff1c04cb78.png",
+		"skill_icon": "82c470efaaee03cbc16ebb1d8231caff1c04cb78.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -605,7 +605,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Brutal Shell",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/61c930f39a60d0b1b6245e3e9ff951b74be89d6b.png",
+		"skill_icon": "61c930f39a60d0b1b6245e3e9ff951b74be89d6b.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -616,7 +616,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Solid Barrel",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/4833420da28d41108b691562fd6c431c437b0306.png",
+		"skill_icon": "4833420da28d41108b691562fd6c431c437b0306.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -627,7 +627,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Burst Strike",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/07b019971a6a2f2c8a2133dff60543aec88c46f1.png",
+		"skill_icon": "07b019971a6a2f2c8a2133dff60543aec88c46f1.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -638,7 +638,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Gnashing Fang",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e212245a0fb649855339dfa11b548cddcbf7511e.png",
+		"skill_icon": "e212245a0fb649855339dfa11b548cddcbf7511e.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -649,7 +649,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Fated Circle",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/b3e2c224457502ae6abb83fc37870cd1ca429087.png",
+		"skill_icon": "b3e2c224457502ae6abb83fc37870cd1ca429087.png",
 		"classification": "Weaponskill",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -660,7 +660,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Continuation",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/40f2a295b25532536720b6986405436c239aa9e8.png",
+		"skill_icon": "40f2a295b25532536720b6986405436c239aa9e8.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -671,7 +671,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Rough Divide",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/d8dcaa43ef97b6ffd9cdacfbef4f3917f24c366e.png",
+		"skill_icon": "d8dcaa43ef97b6ffd9cdacfbef4f3917f24c366e.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "14 сек.",
@@ -682,7 +682,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Blasting Zone",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e55f3900a127f20fca1f99ba799713ced000b9f5.png",
+		"skill_icon": "e55f3900a127f20fca1f99ba799713ced000b9f5.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "16 сек.",
@@ -693,7 +693,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Heart of Corundum",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/609a7eca2e615be394641f09621f4470c3551fcf.png",
+		"skill_icon": "609a7eca2e615be394641f09621f4470c3551fcf.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "20 сек.",
@@ -704,7 +704,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Savage Claw",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/cc8843f2a57e615b3572842b26dad8be3f5a34b7.png",
+		"skill_icon": "cc8843f2a57e615b3572842b26dad8be3f5a34b7.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -715,7 +715,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Wicked Talon",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/96bb25bd7c335de1977d2e3006f29286eff5f01e.png",
+		"skill_icon": "96bb25bd7c335de1977d2e3006f29286eff5f01e.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
 		"recast": "2.2 сек.",
@@ -726,7 +726,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Hypervelocity",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/46260fe1573522f050da18e1e5d636daed048083.png",
+		"skill_icon": "46260fe1573522f050da18e1e5d636daed048083.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -737,7 +737,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Fated Brand",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/79391d67428c617c80af0f07cb894d5cabd9b197.png",
+		"skill_icon": "79391d67428c617c80af0f07cb894d5cabd9b197.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -748,7 +748,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Jugular Rip",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/e1f39d3fecb447aaac966213ab89479591bbc996.png",
+		"skill_icon": "e1f39d3fecb447aaac966213ab89479591bbc996.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -759,7 +759,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Abdomen Tear",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/391803a2a95f908e6ce564a68204ec073facce20.png",
+		"skill_icon": "391803a2a95f908e6ce564a68204ec073facce20.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -770,7 +770,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Eye Gouge",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/f2a4f9c7ffb67a95f31b89995f865f5ceb8b06e7.png",
+		"skill_icon": "f2a4f9c7ffb67a95f31b89995f865f5ceb8b06e7.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
@@ -781,7 +781,7 @@
 	},
 	"PVP Skill LB1": {
 		"name": "Relentless Rush",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/c883909d21cab4cc8054d19c6cbb8156a3e6ac96.png",
+		"skill_icon": "c883909d21cab4cc8054d19c6cbb8156a3e6ac96.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
 		"range": "0y",
@@ -791,7 +791,7 @@
 	},
 	"PVP Skill LB2": {
 		"name": "Terminal Trigger",
-		"skill_icon": "https://lds-img.finalfantasyxiv.com/d/378ade68a55ed6f6c34600bd4ade1db2aea5511a.png",
+		"skill_icon": "378ade68a55ed6f6c34600bd4ade1db2aea5511a.png",
 		"cast": "Мгновенная",
 		"recast": "1 сек.",
 		"range": "0y",
