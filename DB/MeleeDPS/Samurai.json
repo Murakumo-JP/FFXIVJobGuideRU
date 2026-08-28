@@ -778,7 +778,7 @@
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 10,000.<br/>Комбо умение: Tendo Setsugekka<br/>Дополнительный эффект: восстанавливает HP<br/>Сила лечения: 10,000<br/><br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Zantetsuken",
 		"skill_icon": "ff8b2867c7cbf972efb8da7deaf7a5c4f48d60cb.png",
 		"cast": "Мгновенная",
