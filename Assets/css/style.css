@@ -19,6 +19,97 @@
   --link: #fffed1;
   --text-color: white;
   --block-width: 472px;
+  --page-bg: #ecede7;
+  --panel-pve: #e5e3d3;
+  --panel-pvp: #d9d9d9;
+  --card-bg: #f3f3f3;
+  --text-primary: #585858;
+  --border-soft: #999999;
+  --notes-bg: #fffceb;
+  --notes-text: #b36b24;
+  --menu-bg: #eaebe6;
+  --submenu-bg: #f4f5f2;
+  --search-bg: #ffffff;
+  --search-hover: #f5f5f5;
+  --search-text: #333333;
+  --warning-text: #b2122d;
+  --highlight-update-bg: #f0e4c5;
+  --highlight-update-text: var(--text-primary);
+  --highlight-new-bg: #f0dddd;
+  --highlight-new-text: var(--text-primary);
+  --tank-text: var(--tank-color);
+  --healer-text: var(--healer-color);
+  --dps-text: var(--dps-color);
+  --craft-text: var(--craft-color);
+  --gathering-text: var(--gathering-color);
+  --tank-alt-text: var(--tank-AltColor);
+  --healer-alt-text: var(--healer-AltColor);
+  --dps-alt-text: var(--dps-AltColor);
+  --craft-alt-text: var(--craft-AltColor);
+  --gathering-alt-text: var(--gathering-AltColor);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme=light]) {
+    --page-bg: #16171c;
+    --panel-pve: #24252b;
+    --panel-pvp: #202127;
+    --card-bg: #1e1f25;
+    --text-primary: #c4c4c8;
+    --border-soft: #3f4048;
+    --notes-bg: #2a2410;
+    --notes-text: #e0a750;
+    --menu-bg: #1c1d22;
+    --submenu-bg: #202127;
+    --search-bg: #1c1d22;
+    --search-hover: #26272e;
+    --search-text: #e4e4e6;
+    --warning-text: #ff6b78;
+    --highlight-update-bg: #332a12;
+    --highlight-update-text: #e8cf8a;
+    --highlight-new-bg: #33191d;
+    --highlight-new-text: #e8a8ac;
+    --tank-text: #8fa3f5;
+    --healer-text: #7ed17a;
+    --dps-text: #ef7272;
+    --craft-text: #b494f0;
+    --gathering-text: #e0c069;
+    --tank-alt-text: #8fa3f5;
+    --healer-alt-text: #7ed17a;
+    --dps-alt-text: #ef7272;
+    --craft-alt-text: #b494f0;
+    --gathering-alt-text: #e0c069;
+  }
+}
+:root[data-theme=dark] {
+  --page-bg: #16171c;
+  --panel-pve: #24252b;
+  --panel-pvp: #202127;
+  --card-bg: #1e1f25;
+  --text-primary: #c4c4c8;
+  --border-soft: #3f4048;
+  --notes-bg: #2a2410;
+  --notes-text: #e0a750;
+  --menu-bg: #1c1d22;
+  --submenu-bg: #202127;
+  --search-bg: #1c1d22;
+  --search-hover: #26272e;
+  --search-text: #e4e4e6;
+  --warning-text: #ff6b78;
+  --highlight-update-bg: #332a12;
+  --highlight-update-text: #e8cf8a;
+  --highlight-new-bg: #33191d;
+  --highlight-new-text: #e8a8ac;
+  --tank-text: #8fa3f5;
+  --healer-text: #7ed17a;
+  --dps-text: #ef7272;
+  --craft-text: #b494f0;
+  --gathering-text: #e0c069;
+  --tank-alt-text: #8fa3f5;
+  --healer-alt-text: #7ed17a;
+  --dps-alt-text: #ef7272;
+  --craft-alt-text: #b494f0;
+  --gathering-alt-text: #e0c069;
 }
 
 .preloader {
@@ -623,7 +714,7 @@
   width: 100%;
   max-height: 300px;
   overflow-y: auto;
-  background: #fff;
+  background: var(--search-bg);
   border-radius: 8px;
   -webkit-box-shadow: 0 0 5px 0 var(--dps-color);
           box-shadow: 0 0 5px 0 var(--dps-color);
@@ -643,7 +734,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--border-soft);
   cursor: pointer;
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
@@ -652,7 +743,7 @@
   border-bottom: none;
 }
 .search-container .search-results li:hover {
-  background: #f5f5f5;
+  background: var(--search-hover);
 }
 .search-container .search-results li a {
   display: -webkit-box;
@@ -663,7 +754,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  color: #333;
+  color: var(--search-text);
   font-size: 16px;
 }
 .search-container .search-results li a div {
@@ -706,7 +797,7 @@
 }
 .icon_search:after {
   content: "";
-  background: url(/Assets/images/main/skill_icon_on.png) no-repeat;
+  background: url("/Assets/images/main/skill_icon_on.png") no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -739,31 +830,6 @@
   z-index: 9999;
 }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(-120%);
-            transform: translateY(-120%);
-  }
-  to {
-    opacity: 0.9;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(-120%);
-            transform: translateY(-120%);
-  }
-  to {
-    opacity: 0.9;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-}
 #floatingSearchBtn {
   display: block;
   width: 30px;
@@ -847,6 +913,15 @@
   background-color: rgba(0, 180, 216, 0.1);
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -880,7 +955,7 @@
   }
 }
 .job_combo_text {
-  color: #585858;
+  color: var(--text-primary);
   margin: 0 10px 32px;
   font-size: 14px;
 }
@@ -922,7 +997,7 @@
 .job_combo_root_skill p, .job_combo_root_skill_first p, .job_combo_root_skill_last p {
   font-size: 12px;
   font-weight: 700;
-  color: #585858;
+  color: var(--text-primary);
   width: 200px;
 }
 .job_combo_root_skill_last {
@@ -937,7 +1012,7 @@
   display: block;
   padding: 16px 12px;
   font-size: 12px;
-  color: #585858;
+  color: var(--text-primary);
 }
 .job_combo_skill_icon {
   position: relative;
@@ -978,20 +1053,20 @@
 .job_combo_reaper_02,
 .job_combo_warrior_03 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .job_combo_darkknight_01,
 .job_combo_gunbreaker_01,
 .job_combo_reaper_01 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0, url("/Assets/images/combo/arrow-long.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .job_combo_root_dancer,
 .job_combo_root_gunbreaker,
 .job_combo_viper {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .job_combo_dragoon_04 .job_combo_root_skill,
@@ -1005,16 +1080,16 @@
 
 .job_combo_paladin_01 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0, url("/Assets/images/combo/arrow-long.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 .job_combo_paladin_02 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 .job_combo_paladin_03 {
   background: url("/Assets/images/combo/arrow-short.png") no-repeat 150px 0, url("/Assets/images/combo/arrow-short.png") no-repeat 295px 0, url("/Assets/images/combo/arrow-short.png") no-repeat 442px 0;
   margin-bottom: 8px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 .job_combo_paladin_03 .job_combo_root_skill_first {
   width: 120px;
@@ -1046,7 +1121,7 @@
 }
 .job_combo_warrior_02 {
   background: url("/Assets/images/combo/branch-low-right.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .job_combo_gunbreaker {
@@ -1143,27 +1218,11 @@
   vertical-align: middle;
 }
 
-.job_combo_root_skill p,
-.job_combo_root_skill_first p,
-.job_combo_root_skill_last p {
-  font-size: 12px;
-  font-weight: bold;
-  color: #585858;
-  width: 200px;
-}
-
-.job_combo_root {
-  display: table;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  min-height: 124px;
-}
-
 .job_combo_dragoon_04 {
   display: grid;
   grid-template: "start combo01 end combo01_effect" "start . end combo01_effect" 62px "start . end combo02_effect" 62px "start combo02 end combo02_effect";
   height: 372px;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
 }
 .job_combo_dragoon_04 .job_combo_root_skill,
 .job_combo_dragoon_04 .job_combo_root_skill_last {
@@ -1178,13 +1237,13 @@
   width: 120px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon {
-  background: url(/Assets/images/main/skil_icon.png) no-repeat 4px 2px;
+  background: url("/Assets/images/main/skil_icon.png") no-repeat 4px 2px;
   background-size: 40px 40px;
   width: 48px;
   height: 48px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon::after {
-  background: url(/Assets/images/main/skill_icon_on2x.png) no-repeat;
+  background: url("/Assets/images/main/skill_icon_on2x.png") no-repeat;
   background-size: 48px 48px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon img {
@@ -1295,7 +1354,7 @@
 
 .job_combo_dragoon_03 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0, url("/Assets/images/combo/arrow-long.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
   margin-bottom: 8px;
 }
 
@@ -1304,7 +1363,7 @@
 }
 .job_combo_ninja_02 {
   background: url("/Assets/images/combo/branch-low-right.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .job_combo_samurai_01 {
@@ -1315,20 +1374,20 @@
 }
 .job_combo_samurai_03 {
   background: url("/Assets/images/combo/branch-low-right.png") no-repeat 150px 0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
 }
 .job_combo_samurai_04 {
   background: url("/Assets/images/combo/branch-right.png") no-repeat 150px 0;
 }
 .job_combo_samurai_05 {
   background: url("/Assets/images/combo/branch-low-right.png") no-repeat 150px 0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
   margin-bottom: 8px;
 }
 
 .job_combo_machinist_01 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0, url("/Assets/images/combo/arrow-long.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
   margin-bottom: 8px;
 }
 
@@ -1380,11 +1439,11 @@
 
 .job_combo_redmage_01 {
   background: url("/Assets/images/combo/arrow-long.png") no-repeat 150px 0, url("/Assets/images/combo/arrow-long.png") no-repeat 370px 0;
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .jobguide_menu_wrapper {
-  background: #eaebe6;
+  background: var(--menu-bg);
   top: 0;
   width: 100%;
   position: fixed;
@@ -1407,7 +1466,8 @@
   z-index: 5;
 }
 .jobguide_menu_list > li > span {
-  background: #eaebe6;
+  background: var(--menu-bg);
+  color: var(--text-primary);
   display: block;
   width: 160px;
   line-height: 48px;
@@ -1433,7 +1493,7 @@
   width: 160px;
   margin: 0 auto;
   position: absolute;
-  background: #f4f5f2;
+  background: var(--submenu-bg);
   z-index: 1;
   padding: 8px 0 5px;
   -webkit-transition: all 0.4s;
@@ -1445,6 +1505,7 @@
   padding: 5px 9px;
   font-size: 12px;
   font-weight: 700;
+  color: var(--text-primary);
   text-align: left;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -1537,6 +1598,7 @@ li {
 }
 
 body {
+  background: var(--page-bg);
   overflow-y: hidden;
   overflow-x: hidden;
   display: -webkit-box;
@@ -1570,12 +1632,14 @@ img {
   vertical-align: bottom;
 }
 
-.skill_update td {
-  background: #f0e4c5;
+.job_tbody tr.skill_update td {
+  background: var(--highlight-update-bg);
+  color: var(--highlight-update-text);
 }
 
-.skill_new td {
-  background: #f0dddd;
+.job_tbody tr.skill_new td {
+  background: var(--highlight-new-bg);
+  color: var(--highlight-new-text);
 }
 
 .menu_update:after {
@@ -1635,6 +1699,30 @@ input::placeholder {
   z-index: 99;
   -webkit-transition: bottom 0.1s ease-out;
   transition: bottom 0.1s ease-out;
+}
+
+.theme-toggle-btn {
+  display: block;
+  width: 30px;
+  cursor: pointer;
+  background-color: #333333;
+  -webkit-box-shadow: 1px 1px 5px #333333;
+          box-shadow: 1px 1px 5px #333333;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  bottom: 20px;
+  left: 20px;
+  position: fixed;
+  z-index: 99;
+}
+.theme-toggle-btn .icon {
+  width: 30px;
+  display: block;
+}
+.theme-toggle-btn:hover {
+  background-color: #575757;
 }
 
 .app_top {
@@ -1743,7 +1831,7 @@ input::placeholder {
 .jobguide {
   width: 100%;
   display: table;
-  background: var(--color-set-3);
+  background: var(--page-bg);
   font-family: "Noto Sans", sans-serif;
   font-size: 12px;
 }
@@ -1771,7 +1859,7 @@ input::placeholder {
 .jobguide_text {
   margin-bottom: 32px;
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
 }
 .jobguide_flex {
   margin-bottom: 30px;
@@ -1788,7 +1876,7 @@ input::placeholder {
   width: 390px;
   overflow: hidden;
   border-radius: 10px;
-  background: #f3f3f3;
+  background: var(--card-bg);
 }
 .jobguide_tank h2, .jobguide_healer h2, .jobguide__dps h2 {
   border-top-left-radius: 6px;
@@ -1808,7 +1896,7 @@ input::placeholder {
   margin-right: 2px;
 }
 .jobguide_tank {
-  background: url("/Assets/images/DoWDoM/Tank.jpg") bottom right no-repeat #f3f3f3;
+  background: url("/Assets/images/DoWDoM/Tank.jpg") bottom right no-repeat var(--card-bg);
   -webkit-box-shadow: 0 0 5px 0 var(--tank-color);
           box-shadow: 0 0 5px 0 var(--tank-color);
 }
@@ -1816,7 +1904,7 @@ input::placeholder {
   background: var(--tank-color);
 }
 .jobguide_healer {
-  background: url("/Assets/images/DoWDoM/Healer.jpg") bottom right no-repeat #f3f3f3;
+  background: url("/Assets/images/DoWDoM/Healer.jpg") bottom right no-repeat var(--card-bg);
   -webkit-box-shadow: 0 0 5px 0 var(--healer-color);
           box-shadow: 0 0 5px 0 var(--healer-color);
 }
@@ -1825,7 +1913,7 @@ input::placeholder {
 }
 .jobguide__dps {
   width: 800px;
-  background: url("/Assets/images/DoWDoM/DPS.jpg") 72px bottom no-repeat #f3f3f3;
+  background: url("/Assets/images/DoWDoM/DPS.jpg") 72px bottom no-repeat var(--card-bg);
   -webkit-box-shadow: 0 0 5px 0 var(--dps-color);
           box-shadow: 0 0 5px 0 var(--dps-color);
   border-radius: 10px;
@@ -1848,10 +1936,10 @@ input::placeholder {
 }
 .jobguide_dps h3 {
   margin-left: 16px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border-soft);
   font-size: 16px;
   font-weight: 900;
-  color: #585858;
+  color: var(--text-primary);
   padding-bottom: 4px;
   line-height: 32px;
   padding-top: 16px;
@@ -1890,22 +1978,22 @@ input::placeholder {
 .jobguide_tank_list p, .jobguide_healer_list p, .jobguide_dps_list p {
   padding: 5px 16px 10px;
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
 }
 .jobguide_tank_list ul li a {
-  color: var(--tank-color);
+  color: var(--tank-text);
 }
 .jobguide_tank_list ul li a:hover {
   background: rgba(153, 170, 255, 0.2);
 }
 .jobguide_healer_list ul li a {
-  color: var(--healer-color);
+  color: var(--healer-text);
 }
 .jobguide_healer_list ul li a:hover {
   background: rgba(134, 191, 115, 0.2);
 }
 .jobguide_dps_list ul li a {
-  color: var(--dps-color);
+  color: var(--dps-text);
 }
 .jobguide_dps_list ul li a:hover {
   background: rgba(229, 161, 161, 0.2);
@@ -1913,7 +2001,7 @@ input::placeholder {
 
 .job_name_menu:hover,
 .jobguide_sub_menu li:hover {
-  background: #e5e3d3;
+  background: var(--panel-pve);
 }
 
 .job--DoWDoM {
@@ -2045,6 +2133,7 @@ input::placeholder {
 }
 .job_nav_title a {
   font-size: 14px;
+  color: var(--text-primary);
   position: relative;
 }
 
@@ -2133,31 +2222,31 @@ input::placeholder {
   cursor: pointer;
 }
 .job_tab--pve {
-  background: #e5e3d3;
+  background: var(--panel-pve);
   -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
           box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
 }
 .job_tab--pve.active {
-  background: #e5e3d3;
+  background: var(--panel-pve);
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
           box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
 }
 .job_tab--pvp {
-  background: #d9d9d9;
+  background: var(--panel-pvp);
   -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
           box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.75) inset, 1px 0 0 0 rgba(255, 255, 255, 0.25) inset, -1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
 }
 .job_tab--pvp.active {
-  background: #d9d9d9;
+  background: var(--panel-pvp);
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
           box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
 }
 
 .job_skill_db-pve {
-  background: #e5e3d3;
+  background: var(--panel-pve);
 }
 .job_skill_db-pvp {
-  background: #d9d9d9;
+  background: var(--panel-pvp);
 }
 .job_skill_db-pve, .job_skill_db-pvp {
   position: static;
@@ -2173,18 +2262,18 @@ input::placeholder {
   text-align: right;
   font-size: 14px;
   font-weight: 700;
-  color: #585858;
+  color: var(--text-primary);
   font-family: "Noto Sans", sans-serif;
 }
 
 .job_notes_lvl {
-  background: #fffceb;
+  background: var(--notes-bg);
   border-radius: 6px;
   margin: 10px 0;
   padding: 6px;
   font-size: 14px;
   font-weight: 700;
-  color: #b36b24;
+  color: var(--notes-text);
   text-align: center;
 }
 
@@ -2206,6 +2295,7 @@ input::placeholder {
 .job_sub_title {
   font-size: 16px;
   font-weight: 700;
+  color: var(--text-primary);
   margin: 0 10px 16px;
 }
 
@@ -2259,11 +2349,11 @@ input::placeholder {
 
 .job_tbody td {
   padding: 3px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
   vertical-align: middle;
   text-align: left;
   font-size: 12px;
-  color: #585858;
+  color: var(--text-primary);
   line-height: 1.4;
 }
 .job_tbody td p {
@@ -2316,20 +2406,14 @@ input::placeholder {
   padding-right: 8px;
 }
 .job_tbody td .class_quest {
-  color: #b36b24;
+  color: var(--notes-text);
   display: inline-block;
   font-weight: 700;
   font-size: 10px;
 }
-.job_tbody td .distant_range img {
-  width: 16px;
-  height: 16px;
-  vertical-align: top;
-  margin: 0 2px 0 10px;
-}
 
 .job_text {
-  color: #585858;
+  color: var(--text-primary);
   margin: 0 10px 16px;
   font-size: 14px;
 }
@@ -2337,7 +2421,7 @@ input::placeholder {
 .job_notes {
   margin: 0 10px;
   font-size: 12px;
-  color: #b2122d;
+  color: var(--warning-text);
 }
 
 .job_list {
@@ -2433,7 +2517,7 @@ input::placeholder {
 }
 .content_text {
   font-size: 16px;
-  color: #585858;
+  color: var(--text-primary);
   line-height: 1.5;
   margin-bottom: 64px;
 }
@@ -2507,7 +2591,7 @@ input::placeholder {
   cursor: pointer;
   font-size: 20px;
   font-weight: 900;
-  background: #f0eddd;
+  background: var(--panel-pve);
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.1) inset, 0 1px 0 0 rgba(255, 255, 255, 0.25) inset;
   -webkit-transition: background-color 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-box-shadow 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -2525,11 +2609,11 @@ input::placeholder {
 }
 
 .tab_craft li {
-  color: var(--craft-color);
+  color: var(--craft-text);
 }
 
 .tab_gatherer li {
-  color: var(--gathering-color);
+  color: var(--gathering-text);
 }
 
 .guide-title {
@@ -2590,11 +2674,11 @@ input::placeholder {
 }
 .guide-tbody td {
   padding: 6px 4px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid var(--border-soft);
   vertical-align: middle;
   text-align: left;
   font-size: 12px;
-  color: #585858;
+  color: var(--text-primary);
   line-height: 1.4;
 }
 .guide-tbody td.jobclass .jobclass_wrapper,
@@ -2628,7 +2712,7 @@ input::placeholder {
   height: 40px;
 }
 .guide-tbody td .class_quest {
-  color: #b36b24;
+  color: var(--notes-text);
   font-weight: 700;
   font-size: 10px;
 }
@@ -2704,17 +2788,17 @@ input::placeholder {
 }
 .guide-about_map p {
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   line-height: 1.5;
   margin-bottom: 1em;
 }
 .guide-about_map p.notes {
-  color: #b2122d;
+  color: var(--warning-text);
 }
 .guide-about_text {
   width: 900px;
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   line-height: 1.5;
   margin: 0 auto 32px;
 }
@@ -2750,7 +2834,7 @@ input::placeholder {
 }
 .guide-about_box p {
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   line-height: 1.5;
   margin-bottom: 1em;
 }
@@ -2807,19 +2891,19 @@ input::placeholder {
   margin-bottom: 32px;
   font-size: 14px;
   font-weight: bold;
-  color: #585858;
+  color: var(--text-primary);
   text-align: center;
 }
 .guide-about_column li p.notes {
   margin-bottom: 16px;
   font-weight: normal;
-  color: #b2122d;
+  color: var(--warning-text);
   text-align: left;
 }
 .guide-notes {
   margin: 0 10px;
   font-size: 12px;
-  color: #b2122d;
+  color: var(--warning-text);
 }
 
 .jobclass_wrapper .jobclass_wrapper_icon img {
@@ -2828,13 +2912,13 @@ input::placeholder {
 }
 
 .info_pop {
-  background: #fffceb;
+  background: var(--notes-bg);
   border-radius: 6px;
   margin: 10px 0;
   padding: 6px;
   font-size: 13px;
   font-weight: bold;
-  color: #b36b24;
+  color: var(--notes-text);
   text-align: center;
 }
 
@@ -2858,7 +2942,7 @@ input::placeholder {
   right: 25px;
 }
 .nav_floating_list {
-  background: #e5e3d3;
+  background: var(--panel-pve);
   width: auto;
   max-width: 560px;
   border-radius: 4px;
@@ -3107,10 +3191,10 @@ table {
 .job_tank .job_nav_title a,
 .job_tank .job_sub_title,
 .job_tank .job_hud_title {
-  color: var(--tank-color);
+  color: var(--tank-text);
 }
 .job_tank .jobguide_sub_menu li a {
-  color: var(--tank-AltColor);
+  color: var(--tank-alt-text);
 }
 .job_tank .job_title {
   background: var(--tank-color);
@@ -3148,10 +3232,10 @@ table {
 .job_healer .job_nav_title a,
 .job_healer .job_sub_title,
 .job_healer .job_hud_title {
-  color: var(--healer-color);
+  color: var(--healer-text);
 }
 .job_healer .jobguide_sub_menu li a {
-  color: var(--healer-AltColor);
+  color: var(--healer-alt-text);
 }
 .job_healer .job_title {
   background: var(--healer-color);
@@ -3189,10 +3273,10 @@ table {
 .job_dps .job_nav_title a,
 .job_dps .job_sub_title,
 .job_dps .job_hud_title {
-  color: var(--dps-color);
+  color: var(--dps-text);
 }
 .job_dps .jobguide_sub_menu li a {
-  color: var(--dps-AltColor);
+  color: var(--dps-alt-text);
 }
 .job_dps .job_title {
   background: var(--dps-color);
@@ -3238,7 +3322,7 @@ table {
 .job_craft .guide-about_lead,
 .job_craft .jobguide_menu_list > li > span,
 .job_craft .jobguide_sub_menu li a {
-  color: var(--craft-color);
+  color: var(--craft-text);
 }
 .job_craft .nav_floating_icon:hover {
   background-color: var(--craft-AltColor);
@@ -3268,7 +3352,7 @@ table {
 .job_gathering .guide-about_lead,
 .job_gathering .jobguide_menu_list > li > span,
 .job_gathering .jobguide_sub_menu li a {
-  color: var(--gathering-color);
+  color: var(--gathering-text);
 }
 .job_gathering .nav_floating_icon:hover {
   background-color: var(--gathering-AltColor);
@@ -3289,17 +3373,18 @@ table {
 .job_hud_title {
   font-size: 16px;
   font-weight: 700;
+  color: var(--text-primary);
   margin: 0 10px 16px;
 }
 .job_hud_text {
   margin: 0 10px 16px 10px;
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
 }
 .job_hud_text .txt_red {
   font-size: 14px;
   font-weight: 400;
-  color: #b2122d !important;
+  color: var(--warning-text) !important;
 }
 .job_hud_layout--pve, .job_hud_layout--pvp {
   text-align: center;
@@ -3312,7 +3397,7 @@ table {
 .job_hud_layout--pve td, .job_hud_layout--pvp td {
   padding: 6px 20px 16px;
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   vertical-align: top;
 }
 .job_hud_layout--pve.column03 th, .job_hud_layout--pvp.column03 th {
@@ -3323,17 +3408,17 @@ table {
 }
 .job_hud_layout--pve_simple, .job_hud_layout--pvp_simple {
   padding-top: 32px;
-  border-top: 1px solid #999;
+  border-top: 1px solid var(--border-soft);
 }
 .job_hud_layout--pve_simple_caption, .job_hud_layout--pvp_simple_caption {
   font-size: 12px;
-  color: #585858;
+  color: var(--text-primary);
   text-align: center;
   padding-top: 0;
 }
 .job_hud_layout--pve_simple_title, .job_hud_layout--pvp_simple_title {
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   font-weight: 700;
   text-align: left;
   margin-bottom: 5px;
@@ -3341,7 +3426,7 @@ table {
 .job_hud_layout--pve_simple_text, .job_hud_layout--pvp_simple_text {
   margin-bottom: 16px;
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   text-align: left;
 }
 .job_hud_layout--pve_simple img, .job_hud_layout--pvp_simple img {
@@ -3386,7 +3471,7 @@ table {
 }
 .bluemage-text {
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   margin: 0 10px;
   padding-bottom: 32px;
 }
@@ -3445,7 +3530,7 @@ table {
 }
 .bluemage-quest li {
   font-size: 14px;
-  color: #585858;
+  color: var(--text-primary);
   padding: 0 0 8px 24px;
 }
 .bluemage-quest li.level {
@@ -3487,7 +3572,7 @@ table {
 }
 .bluemage-notes {
   font-size: inherit;
-  color: #b2122d;
+  color: var(--warning-text);
 }
 .bluemage-image {
   display: block;
@@ -3517,7 +3602,7 @@ table {
 .error_info {
   display: block;
   position: relative;
-  background-color: #ecede7;
+  background-color: var(--page-bg);
   padding: 16px;
   margin: 10px 0 10px 0;
   border-radius: 10px;

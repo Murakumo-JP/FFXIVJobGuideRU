@@ -50,8 +50,39 @@ document.addEventListener("DOMContentLoaded", () => {
 	initDEBUG();
 	initWARNING();
 	initGSMenu();
+	initTheme();
 	// Snowfall();
 });
+// Theme Toggle
+function initTheme() {
+	const STORAGE_KEY = "theme";
+	const toggleBtn = document.getElementById("themeToggle");
+	const icon = toggleBtn?.querySelector(".icon");
+
+	const applyIcon = (theme) => {
+		if (!icon) return;
+		icon.src = theme === "dark" ? "/Assets/images/svg/sun.svg" : "/Assets/images/svg/moon.svg";
+	};
+
+	const stored = localStorage.getItem(STORAGE_KEY);
+	if (stored === "dark" || stored === "light") {
+		document.documentElement.setAttribute("data-theme", stored);
+		applyIcon(stored);
+	} else {
+		const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+		applyIcon(prefersDark ? "dark" : "light");
+	}
+
+	if (!toggleBtn) return;
+
+	toggleBtn.addEventListener("click", () => {
+		const current = document.documentElement.getAttribute("data-theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+		const next = current === "dark" ? "light" : "dark";
+		document.documentElement.setAttribute("data-theme", next);
+		localStorage.setItem(STORAGE_KEY, next);
+		applyIcon(next);
+	});
+}
 // Global
 function initGlobal() {
 	const jsFadeToggle = (el, duration = 300) => {

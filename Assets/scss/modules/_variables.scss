@@ -25,6 +25,23 @@ $block-width: 472px;
 $accent: #fffae6;
 $bg: #1b1b1b;
 
+$page-bg: #ecede7;
+$panel-pve: #e5e3d3;
+$panel-pvp: #d9d9d9;
+$card-bg: #f3f3f3;
+$text-primary: #585858;
+$border-soft: #999999;
+$notes-bg: #fffceb;
+$notes-text: #b36b24;
+$menu-bg: #eaebe6;
+$submenu-bg: #f4f5f2;
+$search-bg: #ffffff;
+$search-hover: #f5f5f5;
+$search-text: #333333;
+$warning-text: #b2122d;
+$highlight-update-bg: #f0e4c5;
+$highlight-new-bg: #f0dddd;
+
 :root {
 	--tank-color: #{$tank-color};
 	--healer-color: #{$healer-color};
@@ -44,4 +61,76 @@ $bg: #1b1b1b;
 	--link: #{$link};
 	--text-color: #{$text-color};
 	--block-width: #{$block-width};
+
+	--page-bg: #{$page-bg};
+	--panel-pve: #{$panel-pve};
+	--panel-pvp: #{$panel-pvp};
+	--card-bg: #{$card-bg};
+	--text-primary: #{$text-primary};
+	--border-soft: #{$border-soft};
+	--notes-bg: #{$notes-bg};
+	--notes-text: #{$notes-text};
+	--menu-bg: #{$menu-bg};
+	--submenu-bg: #{$submenu-bg};
+	--search-bg: #{$search-bg};
+	--search-hover: #{$search-hover};
+	--search-text: #{$search-text};
+	--warning-text: #{$warning-text};
+	--highlight-update-bg: #{$highlight-update-bg};
+	--highlight-update-text: var(--text-primary);
+	--highlight-new-bg: #{$highlight-new-bg};
+	--highlight-new-text: var(--text-primary);
+
+	--tank-text: var(--tank-color);
+	--healer-text: var(--healer-color);
+	--dps-text: var(--dps-color);
+	--craft-text: var(--craft-color);
+	--gathering-text: var(--gathering-color);
+	--tank-alt-text: var(--tank-AltColor);
+	--healer-alt-text: var(--healer-AltColor);
+	--dps-alt-text: var(--dps-AltColor);
+	--craft-alt-text: var(--craft-AltColor);
+	--gathering-alt-text: var(--gathering-AltColor);
+}
+
+@mixin dark-tokens {
+	--page-bg: #16171c;
+	--panel-pve: #24252b;
+	--panel-pvp: #202127;
+	--card-bg: #1e1f25;
+	--text-primary: #c4c4c8;
+	--border-soft: #3f4048;
+	--notes-bg: #2a2410;
+	--notes-text: #e0a750;
+	--menu-bg: #1c1d22;
+	--submenu-bg: #202127;
+	--search-bg: #1c1d22;
+	--search-hover: #26272e;
+	--search-text: #e4e4e6;
+	--warning-text: #ff6b78;
+	--highlight-update-bg: #332a12;
+	--highlight-update-text: #e8cf8a;
+	--highlight-new-bg: #33191d;
+	--highlight-new-text: #e8a8ac;
+
+	--tank-text: #8fa3f5;
+	--healer-text: #7ed17a;
+	--dps-text: #ef7272;
+	--craft-text: #b494f0;
+	--gathering-text: #e0c069;
+	--tank-alt-text: #8fa3f5;
+	--healer-alt-text: #7ed17a;
+	--dps-alt-text: #ef7272;
+	--craft-alt-text: #b494f0;
+	--gathering-alt-text: #e0c069;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		@include dark-tokens;
+	}
+}
+
+:root[data-theme="dark"] {
+	@include dark-tokens;
 }

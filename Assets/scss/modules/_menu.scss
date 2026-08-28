@@ -1,6 +1,6 @@
 .jobguide {
 	&_menu_wrapper {
-		background: #eaebe6;
+		background: var(--menu-bg);
 		top: 0;
 		width: 100%;
 		position: fixed;
@@ -20,7 +20,8 @@
 			z-index: 5;
 
 			> span {
-				background: #eaebe6;
+				background: var(--menu-bg);
+				color: var(--text-primary);
 				display: block;
 				width: 160px;
 				line-height: 48px;
@@ -50,7 +51,7 @@
 		width: 160px;
 		margin: 0 auto;
 		position: absolute;
-		background: #f4f5f2;
+		background: var(--submenu-bg);
 		z-index: 1;
 		padding: 8px 0 5px;
 		transition: all 0.4s;
@@ -61,6 +62,7 @@
 				padding: 5px 9px;
 				font-size: 12px;
 				font-weight: 700;
+				color: var(--text-primary);
 				text-align: left;
 				transition: all 0.3s;
 				position: relative;

@@ -6,11 +6,11 @@ $images-path: "/Assets/images/";
 		.job_nav_title a,
 		.job_sub_title,
 		.job_hud_title {
-			color: var(--#{$type}-color);
+			color: var(--#{$type}-text);
 		}
 
 		.jobguide_sub_menu li a {
-			color: var(--#{$type}-AltColor);
+			color: var(--#{$type}-alt-text);
 		}
 
 		.job_title {

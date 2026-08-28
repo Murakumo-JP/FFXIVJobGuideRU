@@ -16,6 +16,13 @@
 		<meta property="og:image" content="https://ff14jobguide.ru/Assets/images/DoWDoM/Job/PLD.png" />
 		<meta name="theme-color" content="#2d3a80" />
 		<link rel="stylesheet" href="/Assets/css/style.min.css" />
+		<script>
+			(function () {
+				var stored = localStorage.getItem("theme");
+				var theme = stored || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+				document.documentElement.setAttribute("data-theme", theme);
+			})();
+		</script>
 		<!-- <script type="text/javascript" src="/Assets/js/jquery.min.js"></script> -->
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
@@ -693,9 +700,9 @@
 		<div class="nome_app_top">
 			<a class="app_top"><img src="/Assets/images/svg/arrow-up.svg" /></a>
 		</div>
-		<!-- <div id="themeToggle" class="theme-toggle-btn" title="Сменить тему">
-         <img class="icon" src="/Assets/images/svg/moon.svg" alt="Theme icon">
-      </div>     -->
+		<div id="themeToggle" class="theme-toggle-btn" title="Сменить тему">
+			<img class="icon" src="/Assets/images/svg/moon.svg" alt="Theme icon" />
+		</div>
 		<div id="floatingSearchBtn">
 			<img class="icon" src="/Assets/images/svg/search.svg" />
 		</div>

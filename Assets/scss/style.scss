@@ -28,6 +28,7 @@ li {
 }
 
 body {
+	background: var(--page-bg);
 	overflow-y: hidden;
 	overflow-x: hidden;
 	display: flex;
@@ -57,12 +58,14 @@ img {
 	vertical-align: bottom;
 }
 
-.skill_update td {
-	background: #f0e4c5;
+.job_tbody tr.skill_update td {
+	background: var(--highlight-update-bg);
+	color: var(--highlight-update-text);
 }
 
-.skill_new td {
-	background: #f0dddd;
+.job_tbody tr.skill_new td {
+	background: var(--highlight-new-bg);
+	color: var(--highlight-new-text);
 }
 
 .menu_update {
@@ -123,6 +126,30 @@ input {
 	position: fixed;
 	z-index: 99;
 	transition: bottom 0.1s ease-out;
+}
+
+.theme-toggle-btn {
+	display: block;
+	width: 30px;
+	cursor: pointer;
+	background-color: #333333;
+	box-shadow: 1px 1px 5px #333333;
+	padding: 10px;
+	border-radius: 50%;
+	transition: all 0.4s;
+	bottom: 20px;
+	left: 20px;
+	position: fixed;
+	z-index: 99;
+
+	.icon {
+		width: 30px;
+		display: block;
+	}
+
+	&:hover {
+		background-color: #575757;
+	}
 }
 
 .app_top {
@@ -224,7 +251,7 @@ input {
 .jobguide {
 	width: 100%;
 	display: table;
-	background: var(--color-set-3);
+	background: var(--page-bg);
 	font-family: "Noto Sans", sans-serif;
 	font-size: 12px;
 
@@ -256,7 +283,7 @@ input {
 	&_text {
 		margin-bottom: 32px;
 		font-size: 14px;
-		color: #585858;
+		color: var(--text-primary);
 	}
 
 	&_flex {
@@ -272,7 +299,7 @@ input {
 		width: 390px;
 		overflow: hidden;
 		border-radius: 10px;
-		background: #f3f3f3;
+		background: var(--card-bg);
 
 		h2 {
 			border-top-left-radius: 6px;
@@ -295,7 +322,7 @@ input {
 	}
 
 	&_tank {
-		background: url($jobguide-tank) bottom right no-repeat #f3f3f3;
+		background: url($jobguide-tank) bottom right no-repeat var(--card-bg);
 		box-shadow: 0 0 5px 0 var(--tank-color);
 
 		h2 {
@@ -304,7 +331,7 @@ input {
 	}
 
 	&_healer {
-		background: url($jobguide-healer) bottom right no-repeat #f3f3f3;
+		background: url($jobguide-healer) bottom right no-repeat var(--card-bg);
 		box-shadow: 0 0 5px 0 var(--healer-color);
 
 		h2 {
@@ -314,7 +341,7 @@ input {
 
 	&__dps {
 		width: 800px;
-		background: url($jobguide-dps) 72px bottom no-repeat #f3f3f3;
+		background: url($jobguide-dps) 72px bottom no-repeat var(--card-bg);
 		box-shadow: 0 0 5px 0 var(--dps-color);
 		border-radius: 10px;
 		float: none;
@@ -338,10 +365,10 @@ input {
 
 		h3 {
 			margin-left: 16px;
-			border-bottom: 1px solid #ccc;
+			border-bottom: 1px solid var(--border-soft);
 			font-size: 16px;
 			font-weight: 900;
-			color: #585858;
+			color: var(--text-primary);
 			padding-bottom: 4px;
 			line-height: 32px;
 			padding-top: 16px;
@@ -386,13 +413,13 @@ input {
 		p {
 			padding: 5px 16px 10px;
 			font-size: 14px;
-			color: #585858;
+			color: var(--text-primary);
 		}
 	}
 
 	&_tank_list {
 		ul li a {
-			color: var(--tank-color);
+			color: var(--tank-text);
 
 			&:hover {
 				background: rgba(153, 170, 255, 0.2);
@@ -402,7 +429,7 @@ input {
 
 	&_healer_list {
 		ul li a {
-			color: var(--healer-color);
+			color: var(--healer-text);
 
 			&:hover {
 				background: rgba(134, 191, 115, 0.2);
@@ -412,7 +439,7 @@ input {
 
 	&_dps_list {
 		ul li a {
-			color: var(--dps-color);
+			color: var(--dps-text);
 
 			&:hover {
 				background: rgba(229, 161, 161, 0.2);
@@ -423,7 +450,7 @@ input {
 
 .job_name_menu:hover,
 .jobguide_sub_menu li:hover {
-	background: #e5e3d3;
+	background: var(--panel-pve);
 }
 
 // Job Specific Backgrounds
@@ -564,6 +591,7 @@ input {
 
 	a {
 		font-size: 14px;
+		color: var(--text-primary);
 		position: relative;
 	}
 }
@@ -662,27 +690,27 @@ input {
 	}
 
 	&--pve {
-		background: #e5e3d3;
+		background: var(--panel-pve);
 		box-shadow:
 			0 1px 0 0 rgba(255, 255, 255, 0.75) inset,
 			1px 0 0 0 rgba(255, 255, 255, 0.25) inset,
 			-1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
 
 		&.active {
-			background: #e5e3d3;
+			background: var(--panel-pve);
 			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
 		}
 	}
 
 	&--pvp {
-		background: #d9d9d9;
+		background: var(--panel-pvp);
 		box-shadow:
 			0 1px 0 0 rgba(255, 255, 255, 0.75) inset,
 			1px 0 0 0 rgba(255, 255, 255, 0.25) inset,
 			-1px 0 0 0 rgba(0, 0, 0, 0.1) inset;
 
 		&.active {
-			background: #d9d9d9;
+			background: var(--panel-pvp);
 			box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) inset;
 		}
 	}
@@ -690,11 +718,11 @@ input {
 
 .job_skill_db {
 	&-pve {
-		background: #e5e3d3;
+		background: var(--panel-pve);
 	}
 
 	&-pvp {
-		background: #d9d9d9;
+		background: var(--panel-pvp);
 	}
 
 	&-pve,
@@ -715,18 +743,18 @@ input {
 	text-align: right;
 	font-size: 14px;
 	font-weight: 700;
-	color: #585858;
+	color: var(--text-primary);
 	font-family: "Noto Sans", sans-serif;
 }
 
 .job_notes_lvl {
-	background: #fffceb;
+	background: var(--notes-bg);
 	border-radius: 6px;
 	margin: 10px 0;
 	padding: 6px;
 	font-size: 14px;
 	font-weight: 700;
-	color: #b36b24;
+	color: var(--notes-text);
 	text-align: center;
 }
 
@@ -748,6 +776,7 @@ input {
 .job_sub_title {
 	font-size: 16px;
 	font-weight: 700;
+	color: var(--text-primary);
 	margin: 0 10px 16px;
 }
 
@@ -810,11 +839,11 @@ input {
 .job_tbody {
 	td {
 		padding: 3px;
-		border-bottom: 1px solid #999;
+		border-bottom: 1px solid var(--border-soft);
 		vertical-align: middle;
 		text-align: left;
 		font-size: 12px;
-		color: #585858;
+		color: var(--text-primary);
 		line-height: 1.4;
 
 		p {
@@ -884,7 +913,7 @@ input {
 		}
 
 		.class_quest {
-			color: #b36b24;
+			color: var(--notes-text);
 			display: inline-block;
 			font-weight: 700;
 			font-size: 10px;
@@ -893,7 +922,7 @@ input {
 }
 
 .job_text {
-	color: #585858;
+	color: var(--text-primary);
 	margin: 0 10px 16px;
 	font-size: 14px;
 }
@@ -901,7 +930,7 @@ input {
 .job_notes {
 	margin: 0 10px;
 	font-size: 12px;
-	color: #b2122d;
+	color: var(--warning-text);
 }
 
 // Job Lists
@@ -1005,7 +1034,7 @@ input {
 
 	&_text {
 		font-size: 16px;
-		color: #585858;
+		color: var(--text-primary);
 		line-height: 1.5;
 		margin-bottom: 64px;
 
@@ -1068,7 +1097,7 @@ input {
 		cursor: pointer;
 		font-size: 20px;
 		font-weight: 900;
-		background: #f0eddd;
+		background: var(--panel-pve);
 		box-shadow:
 			0 2px 4px 0 rgba(0, 0, 0, 0.25),
 			0 -1px 0 0 rgba(0, 0, 0, 0.1) inset,
@@ -1087,11 +1116,11 @@ input {
 }
 
 .tab_craft li {
-	color: var(--craft-color);
+	color: var(--craft-text);
 }
 
 .tab_gatherer li {
-	color: var(--gathering-color);
+	color: var(--gathering-text);
 }
 
 // Guide
@@ -1151,11 +1180,11 @@ input {
 	&-tbody {
 		td {
 			padding: 6px 4px;
-			border-bottom: 1px solid #999;
+			border-bottom: 1px solid var(--border-soft);
 			vertical-align: middle;
 			text-align: left;
 			font-size: 12px;
-			color: #585858;
+			color: var(--text-primary);
 			line-height: 1.4;
 
 			&.jobclass,
@@ -1194,7 +1223,7 @@ input {
 			}
 
 			.class_quest {
-				color: #b36b24;
+				color: var(--notes-text);
 				font-weight: 700;
 				font-size: 10px;
 			}
@@ -1274,12 +1303,12 @@ input {
 
 			p {
 				font-size: 14px;
-				color: #585858;
+				color: var(--text-primary);
 				line-height: 1.5;
 				margin-bottom: 1em;
 
 				&.notes {
-					color: #b2122d;
+					color: var(--warning-text);
 				}
 			}
 		}
@@ -1287,7 +1316,7 @@ input {
 		&_text {
 			width: 900px;
 			font-size: 14px;
-			color: #585858;
+			color: var(--text-primary);
 			line-height: 1.5;
 			margin: 0 auto 32px;
 		}
@@ -1322,7 +1351,7 @@ input {
 
 			p {
 				font-size: 14px;
-				color: #585858;
+				color: var(--text-primary);
 				line-height: 1.5;
 				margin-bottom: 1em;
 
@@ -1372,13 +1401,13 @@ input {
 					margin-bottom: 32px;
 					font-size: 14px;
 					font-weight: bold;
-					color: #585858;
+					color: var(--text-primary);
 					text-align: center;
 
 					&.notes {
 						margin-bottom: 16px;
 						font-weight: normal;
-						color: #b2122d;
+						color: var(--warning-text);
 						text-align: left;
 					}
 				}
@@ -1389,7 +1418,7 @@ input {
 	&-notes {
 		margin: 0 10px;
 		font-size: 12px;
-		color: #b2122d;
+		color: var(--warning-text);
 	}
 }
 
@@ -1400,13 +1429,13 @@ input {
 }
 
 .info_pop {
-	background: #fffceb;
+	background: var(--notes-bg);
 	border-radius: 6px;
 	margin: 10px 0;
 	padding: 6px;
 	font-size: 13px;
 	font-weight: bold;
-	color: #b36b24;
+	color: var(--notes-text);
 	text-align: center;
 }
 
@@ -1433,7 +1462,7 @@ input {
 	}
 
 	&_list {
-		background: #e5e3d3;
+		background: var(--panel-pve);
 		width: auto;
 		max-width: 560px;
 		border-radius: 4px;
@@ -1544,7 +1573,7 @@ table {
 	.guide-about_lead,
 	.jobguide_menu_list > li > span,
 	.jobguide_sub_menu li a {
-		color: var(--craft-color);
+		color: var(--craft-text);
 	}
 
 	.nav_floating_icon:hover {
@@ -1580,7 +1609,7 @@ table {
 	.guide-about_lead,
 	.jobguide_menu_list > li > span,
 	.jobguide_sub_menu li a {
-		color: var(--gathering-color);
+		color: var(--gathering-text);
 	}
 
 	.nav_floating_icon:hover {
@@ -1606,18 +1635,19 @@ table {
 	&_title {
 		font-size: 16px;
 		font-weight: 700;
+		color: var(--text-primary);
 		margin: 0 10px 16px;
 	}
 
 	&_text {
 		margin: 0 10px 16px 10px;
 		font-size: 14px;
-		color: #585858;
+		color: var(--text-primary);
 
 		.txt_red {
 			font-size: 14px;
 			font-weight: 400;
-			color: #b2122d !important;
+			color: var(--warning-text) !important;
 		}
 	}
 
@@ -1635,7 +1665,7 @@ table {
 			td {
 				padding: 6px 20px 16px;
 				font-size: 14px;
-				color: #585858;
+				color: var(--text-primary);
 				vertical-align: top;
 			}
 
@@ -1653,18 +1683,18 @@ table {
 		&--pve_simple,
 		&--pvp_simple {
 			padding-top: 32px;
-			border-top: 1px solid #999;
+			border-top: 1px solid var(--border-soft);
 
 			&_caption {
 				font-size: 12px;
-				color: #585858;
+				color: var(--text-primary);
 				text-align: center;
 				padding-top: 0;
 			}
 
 			&_title {
 				font-size: 14px;
-				color: #585858;
+				color: var(--text-primary);
 				font-weight: 700;
 				text-align: left;
 				margin-bottom: 5px;
@@ -1673,7 +1703,7 @@ table {
 			&_text {
 				margin-bottom: 16px;
 				font-size: 14px;
-				color: #585858;
+				color: var(--text-primary);
 				text-align: left;
 			}
 
@@ -1728,7 +1758,7 @@ table {
 
 	&-text {
 		font-size: 14px;
-		color: #585858;
+		color: var(--text-primary);
 		margin: 0 10px;
 		padding-bottom: 32px;
 		.eorzeadb_link {
@@ -1787,7 +1817,7 @@ table {
 
 		li {
 			font-size: 14px;
-			color: #585858;
+			color: var(--text-primary);
 			padding: 0 0 8px 24px;
 
 			&.level {
@@ -1839,7 +1869,7 @@ table {
 
 	&-notes {
 		font-size: inherit;
-		color: #b2122d;
+		color: var(--warning-text);
 	}
 
 	&-image {
@@ -1875,7 +1905,7 @@ table {
 .error_info {
 	display: block;
 	position: relative;
-	background-color: #ecede7;
+	background-color: var(--page-bg);
 	padding: 16px;
 	margin: 10px 0 10px 0;
 	border-radius: 10px;
