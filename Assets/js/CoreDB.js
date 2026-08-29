@@ -83,6 +83,8 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 	};
 
 	const DB = {};
+	const updateFlagsPromise = loadUpdateFlags();
+
 	await Promise.all(
 		fileNames.map(async (file) => {
 			const path = `${file}?v=${version}`;
@@ -96,7 +98,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		})
 	);
 
-	const updateFlags = await loadUpdateFlags();
+	const updateFlags = await updateFlagsPromise;
 	const currentJobCode = document.body.id;
 	const jobData = updateFlags[currentJobCode] || {};
 
