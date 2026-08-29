@@ -677,7 +677,7 @@
 		"radius": "20y",
 		"content": "Удар, наносящий урон по всем противникам по прямой линии перед персонажем с силой атаки 8,000.<br/>Сила атаки увеличивается пропорционально расстоянию до цели, вплоть до 16,000, когда цель находится на расстоянии 15 ялмов.<br/>Может быть использовано только под действием эффекта Firstminds Focus.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB1": {
+	"PVP Skill LB 01": {
 		"name": "Sky High",
 		"skill_icon": "7024a69ca8e1a03ac68e8680380d47e443f6e6a3.png",
 		"cast": "Мгновенная",
@@ -687,7 +687,7 @@
 		"radius": "0y",
 		"content": "Персонаж совершает высокий прыжок, становясь недоступным для противников. Перемещение все еще возможно до момента приземления, а скорость увеличивается на 50%.<br/>Продолжительность: 5 сек.<br/>Дополнительный эффект: снимает негативные эффекты - тяжесть (heavy), связывание (bind) и полу сон (Half-asleep)<br/>По истечении эффекта автоматически использует Sky Shatter.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※При использовании умение меняется на Sky Shatter."
 	},
-	"PVP Skill LB2": {
+	"PVP Skill LB 02": {
 		"name": "Sky Shatter",
 		"skill_icon": "82f321a762fc70566c427f2e2dfda71ce4e0718b.png",
 		"cast": "Мгновенная",
@@ -696,5 +696,21 @@
 		"radius_img": "R2",
 		"radius": "10y",
 		"content": "Удар, наносящий урон по всем окружающим противникам с силой атаки 16,000.<br/>Сила атаки удваивается, если цель находится в пределах 5 ялмов.<br/>Дополнительный эффект: создает вокруг себя барьер, поглощающий урон, равный силе лечения 24,000<br/>Продолжительность: 10 сек.<br/>Может быть использовано только под действием эффекта Sky High.<br/><br/>※Это умение нельзя поместить на хотбар."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "melee_action", "name": "Role Action", "role": "MeleeDPS"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 7, "count": 3}}
+	]
 	}
 }

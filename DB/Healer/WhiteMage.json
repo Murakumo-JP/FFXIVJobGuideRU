@@ -752,7 +752,7 @@
 		"radius": "5y",
 		"content": "Восстанавливает HP персонажа или цели с силой лечения 16,000 и всех ближайших сопартийцев с силой лечения 12,000.<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Afflatus Purgation",
 		"skill_icon": "885443eeb029d7cbca537be10edca5eb6c920401.png",
 		"cast": "Мгновенная",
@@ -761,5 +761,20 @@
 		"radius_img": "R6",
 		"radius": "40y",
 		"content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 18,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Temperance<br/>Эффект Temperance: накладывает эффект периодического лечения (Regen) на персонажа и всех ближайших сопартийцев в радиусе 30 ялмов<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек."
+	},
+	"_menu": {
+		"pve": [
+			{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+			{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "healer_action", "name": "Role Action", "role": "Healer"}},
+			{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+			{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+			{"anchor": "anchor_hud", "label": "Шкала профессии"}
+		],
+		"pvp": [
+			{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+			{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+			{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+			{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 4, "count": 3}}
+		]
 	}
 }
