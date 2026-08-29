@@ -897,5 +897,22 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Рывок к цели, наносящий удар с силой атаки 12,000, уничтожая противника, чье HP ниже 50%.<br/>При нанесении урона игнорирует эффекты Guard.<br/>Дополнительный эффект: накладывает на цель эффект Death Link<br/>Продолжительность: 2 сек.<br/>Убийство противника этим умением или под эффектом Death Link накладывает Unsealed Seiton Tenchu, позволяя повторно выполнить умение.<br/>Продолжительность: 8 сек.<br/>Длительность эффекта уменьшается на 1 сек. каждый раз, когда он применяется к цели с минимальной продолжительностью 4 сек.<br/>Не действует на неигровых персонажей или игроков, находящихся в роботах.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена или под действием Unsealed Seiton Tenchu.<br/>Время зарядки шкалы: 90 сек.<br/>Невозможно использовать, если персонаж находится под эффектами ограничивающими перемещение."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_ninja_onlyaction", "label": "Ninjutsu", "list": {"prefix": "pve_jyutsu_action", "name": "Ninjutsu"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "melee_action", "name": "Role Action", "role": "MeleeDPS"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 7, "count": 3}}
+	]
 	}
 }

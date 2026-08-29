@@ -742,5 +742,21 @@
 		"radius_img": "R6",
 		"radius": "30y",
 		"content": "Удар, наносящий урон с силой атаки 8,000 всем противников по прямой линии впереди и позади персонажа.<br/>Сила атаки увеличивается пропорционально HP до 24,000, когда HP близко к максимальному.<br/>При использовании умения HP персонажа опускается до 1.<br/>Дополнительный эффект: накладывает эффект Undead Redemption<br/>Эффект Undead Redemption: не позволяет большинству атак опустить HP персонажа ниже 1 и восстанавливает HP в размере 100% от наносимого урона боевыми навыками<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Blackblood<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Scorn<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 105 сек.<br/><br/>※Умение меняется на Disesteem под действием эффекта Scorn.<br/>※Souleater Combo меняется на Scarlet Delerium под действием эффекта Blackblood.<br/>※Souleater Combo меняется на Comeuppance под действием эффекта Comeuppance Ready.<br/>※Souleater Combo меняется на Torcleaver под действием эффекта Torcleaver Ready."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "tank_action", "name": "Role Action", "role": "Tank"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 1, "count": 3}}
+	]
 	}
 }

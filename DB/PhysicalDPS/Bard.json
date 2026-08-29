@@ -716,5 +716,20 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Накладывает эффект Final Fantasia.<br/>Эффект Final Fantasia: уменьшает время применения и время восстановления боевых навыков на 15%, увеличивает урон персонажа и сопартийцев в радиусе 30 ялмов на 10%, а также увеличивает скорость передвижения на 25%.<br/>Постепенно заполняет шкалу лимит брейка (limit gauge), когда цели находятся в бою.<br/>Продолжительность: 30 сек.<br/>Дополнительный эффект: накладывает эффект Encore of Light Ready<br/>Продолжительность: 30 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 120 сек.<br/><br/>※Умение меняется на Heroes' Encore после использования."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "prange_action", "name": "Role Action", "role": "PhysicalRangedDPS"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 10, "count": 3}}
+	]
 	}
 }

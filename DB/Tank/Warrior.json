@@ -728,5 +728,21 @@
 		"radius_img": "R4",
 		"radius": "12y",
 		"content": "Издает леденящий кровь крик в конусе перед собой, лишая противников возможности использовать Guard.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффекты Inner Release и Thrill of Battle<br/>Эффект Inner Release: увеличивает силу атаки Primal Rend, Primal Ruination, Inner Chaos и Chaotic Cyclone, повышает скорость передвижения на 25% и дает иммунитет к эффектам оглушения (stun), сна (sleep), связывания (bind), тяжести (heavy), полу сна (half-sleep), сна (sleep) и глубокой заморозки (deep freeze), а также к отбрасывающим и притягивающим эффектам<br/>Продолжительность: 15 сек.<br/>Использование Guard невозможно под действием эффекта Inner Release<br/>Эффект Thrill of Battle: увеличивает максимальное HP на 25% и восстанавливает здоровье в размере этого увеличения<br/>Продолжительность: 30 сек.<br/>Дает стак Burgeoning Fury при использовании боевых навыков (максимум: 3).<br/>Продолжительность: 15 сек.<br/>При максимуме стаков становится Wrathful, заменяя Primal Scream на Primal Wrath.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время накопления: 90 сек.<br/><br/>※Комбо Storm's Path заменяется на Fell Cleave под действием Inner Release."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "tank_action", "name": "Role Action", "role": "Tank"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 1, "count": 3}}
+	]
 	}
 }

@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const files = JOB_DB_FILES[document.body.id];
 	if (files) CORE_DB_LOAD(files, DB_VERSION);
 });
+
 async function loadUpdateFlags() {
 	try {
 		const url = `${CDN_URL}/data/UpdateFlags.json`;
@@ -78,7 +79,6 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		"db-craft-passive": renderSkillCraft,
 		"db-skill-gathering": renderSkillCraft,
 		"db-gathering-passive": renderSkillCraft,
-		"db-skill-menu": renderSkillMenu,
 		"db-value": renderValue,
 	};
 
@@ -111,7 +111,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		}
 	});
 
-	dynamicMenus();
+	renderJobMenu(DB, jobSkills);
 
 	Object.keys(renderers).forEach((attr) => {
 		document.querySelectorAll(`[${attr}]`).forEach((el) => {
@@ -311,7 +311,39 @@ function handleUrlScroll() {
 	}
 }
 
-function dynamicMenus() {
+function buildMenuItem(prefix, num, key, DB, jobSkills) {
+	const skill = getValueRecursive(key, DB);
+	const inner = skill ? renderSkillMenu(skill) : "";
+	const updateClass = jobSkills[key] ? " menu_update" : "";
+	return `<li><a href="#${prefix}_${num}" class="job_skill_icon${updateClass}" db-skill-menu="${key}">${inner}</a></li>`;
+}
+
+function countMatchingKeys(DB, name) {
+	const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+	const re = new RegExp(`^${escaped} (\\d+)$`);
+	let max = 0;
+	Object.keys(DB).forEach((key) => {
+		const match = key.match(re);
+		if (match) max = Math.max(max, parseInt(match[1], 10));
+	});
+	return max;
+}
+
+function keysForRole(DB, name, role) {
+	const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+	const re = new RegExp(`^${escaped} (\\d+)$`);
+
+	return Object.keys(DB)
+		.filter((key) => {
+			const match = key.match(re);
+			if (!match) return false;
+			const entry = DB[key];
+			return entry.job_class_01 === role || entry.job_class_02 === role || entry.job_class_03 === role;
+		})
+		.sort((a, b) => parseInt(a.match(re)[1], 10) - parseInt(b.match(re)[1], 10));
+}
+
+function renderJobMenu(DB, jobSkills) {
 	document.querySelectorAll(".clearfix_dynamic").forEach((ul) => {
 		const prefix = ul.dataset.prefix;
 		const name = ul.dataset.name;
@@ -322,9 +354,46 @@ function dynamicMenus() {
 		let listHtml = "";
 		for (let i = 1; i <= count; i++) {
 			const num = i.toString().padStart(2, "0");
-			listHtml += `<li><a href="#${prefix}_${num}" class="job_skill_icon" db-skill-menu="${name} ${num}"></a></li>\n`;
+			listHtml += buildMenuItem(prefix, num, `${name} ${num}`, DB, jobSkills);
 		}
 
 		ul.innerHTML = listHtml;
 	});
+
+	const menuConfig = DB._menu;
+	if (!menuConfig) return;
+
+	const buildList = (list) => {
+		if (!list) return "";
+
+		if (list.role) {
+			const keys = keysForRole(DB, list.name, list.role);
+			let html = `<ul class="clearfix">`;
+			keys.forEach((key, i) => {
+				const num = (i + 1).toString().padStart(2, "0");
+				html += buildMenuItem(list.prefix, num, key, DB, jobSkills);
+			});
+			html += `</ul>`;
+			return html;
+		}
+
+		const start = list.start ?? 1;
+		const count = list.count ?? countMatchingKeys(DB, list.name);
+
+		let html = `<ul class="clearfix">`;
+		for (let i = 0; i < count; i++) {
+			const num = (start + i).toString().padStart(2, "0");
+			html += buildMenuItem(list.prefix, num, `${list.name} ${num}`, DB, jobSkills);
+		}
+		html += `</ul>`;
+		return html;
+	};
+
+	const buildSection = (items) => items.map((item) => `<h2 class="job_nav_title"><a href="#${item.anchor}">${item.label}</a></h2>${buildList(item.list)}`).join("");
+
+	const pveEl = document.querySelector('.nav_floating_list_wrapper [data-tab="pve"]');
+	const pvpEl = document.querySelector('.nav_floating_list_wrapper [data-tab="pvp"]');
+
+	if (pveEl && menuConfig.pve) pveEl.innerHTML = buildSection(menuConfig.pve);
+	if (pvpEl && menuConfig.pvp) pvpEl.innerHTML = buildSection(menuConfig.pvp);
 }
