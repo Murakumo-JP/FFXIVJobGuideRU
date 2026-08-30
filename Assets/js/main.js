@@ -231,20 +231,26 @@ function initMenuSearch() {
 	}
 	// Global Search
 	let flatSkillsData = [];
+	let searchDataPromise = null;
 
-	fetch(`${JSON_URLS.SEARCH}?v=${Date.now()}`)
-		.then((res) => res.json())
-		.then((data) => {
-			flatSkillsData = data.flatMap((job) =>
-				job.skills.map((skill) => ({
-					...skill,
-					_search: skill.skill.toLowerCase(),
-					jobName: job.job,
-					jobPage: job.page_job,
-				}))
-			);
-		})
-		.catch((err) => console.error("Ошибка загрузки поиска", err));
+	const loadSearchData = () => {
+		if (!searchDataPromise) {
+			searchDataPromise = fetch(`${JSON_URLS.SEARCH}?v=${Date.now()}`)
+				.then((res) => res.json())
+				.then((data) => {
+					flatSkillsData = data.flatMap((job) =>
+						job.skills.map((skill) => ({
+							...skill,
+							_search: skill.skill.toLowerCase(),
+							jobName: job.job,
+							jobPage: job.page_job,
+						}))
+					);
+				})
+				.catch((err) => console.error("Ошибка загрузки поиска", err));
+		}
+		return searchDataPromise;
+	};
 
 	const createItemHTML = (skill) => {
 		const encodedSkill = safeBtoa(skill["db-skill"]);
@@ -287,6 +293,7 @@ function initMenuSearch() {
 		const inputEl = document.querySelector(inputSelector);
 		const listEl = document.querySelector(resultSelector);
 		if (inputEl && listEl) {
+			inputEl.addEventListener("focus", loadSearchData, {once: true});
 			inputEl.addEventListener(
 				"input",
 				debounce(() => doSearch(inputEl, listEl), 300)

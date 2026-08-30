@@ -16,7 +16,6 @@
 		<meta property="og:image" content="https://ff14jobguide.ru/Assets/images/DoWDoM/Job/PLD.png" />
 		<meta name="theme-color" content="#2d3a80" />
 		<link rel="stylesheet" href="/Assets/css/style.min.css" />
-		<!-- <script type="text/javascript" src="/Assets/js/jquery.min.js"></script> -->
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
 		<script>
@@ -48,29 +47,9 @@
 					<div class="nav_floating_list fixed">
 						<div class="nav_floating_list_wrapper">
 							<!-- PVE -->
-							<div class="job_menu_tank js-tab-content active" data-tab="pve">
-								<h2 class="job_nav_title"><a href="#anchor_onlyaction">Активные умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pve_action" data-name="PVE Skill" data-count="39"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Ролевые умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="tank_action" data-name="Role Action" data-count="7"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_onlytrait">Пассивные умения</a></h2>
-								<h2 class="job_nav_title"><a href="#anchor_rollcommontrait">Ролевые пассивные умения</a></h2>
-								<h2 class="job_nav_title"><a href="#anchor_pve_combo">Комбо</a></h2>
-								<h2 class="job_nav_title"><a href="#anchor_hud">Шкала профессии</a></h2>
-							</div>
+							<div class="job_menu_tank js-tab-content active" data-tab="pve"></div>
 							<!-- PVP -->
-							<div class="job_menu_tank js-tab-content" data-tab="pvp">
-								<h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pvp_action" data-name="PVP Skill" data-count="16"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_pvp_limitbreak">Limit Break</a></h2>
-								<ul class="clearfix">
-									<li><a href="#pvplimitbreakaction_01" class="job_skill_icon" db-skill-menu="PVP Skill LB"></a></li>
-								</ul>
-								<h2 class="job_nav_title"><a href="#anchor_pvp_commononlyaction">Общие умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pvpcommmononlyaction" data-name="PVP Actions" data-count="5"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_pvp_roleaction">PvP Ролевые умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pvproleaction" data-name="PVP Role Action" data-count="3"></ul>
-							</div>
+							<div class="job_menu_tank js-tab-content" data-tab="pvp"></div>
 						</div>
 					</div>
 				</div>
@@ -580,7 +559,7 @@
 								</tr>
 							</thead>
 							<tbody class="job_tbody">
-								<tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Skill LB"></tr>
+								<tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Skill LB 01"></tr>
 							</tbody>
 						</table>
 					</div>
@@ -702,11 +681,6 @@
 		<!--- Script --->
 		<script type="text/javascript" src="/Assets/js/main.js"></script>
 		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", () => {
-				CORE_DB_LOAD(["/DB/Tank/Paladin.json", "/DB/RoleActions.json"], DB_VERSION);
-			});
-		</script>
 		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
 	</body>
 </html>

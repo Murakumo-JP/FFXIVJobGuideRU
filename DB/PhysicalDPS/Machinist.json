@@ -808,7 +808,7 @@
 		"radius": "5y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 6000 по всем ближайшим противникам.<br/>Дополнительный эффект: создает барьер, поглощающий урон, равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Marksman's Spite",
 		"skill_icon": "b641fb27f646df1959aa4754f6389d54fd20b9d5.png",
 		"cast": "Мгновенная",
@@ -817,5 +817,21 @@
 		"radius_img": "R1",
 		"radius": "0y",
 		"content": "Дальний удар, наносящий урон с силой атаки 40,000.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "prange_action", "name": "Role Action", "role": "PhysicalRangedDPS"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 10, "count": 3}}
+	]
 	}
 }

@@ -47,42 +47,9 @@
 					<div class="nav_floating_list fixed">
 						<div class="nav_floating_list_wrapper">
 							<!-- PVE -->
-							<div class="job_menu_dps js-tab-content active" data-tab="pve">
-								<h2 class="job_nav_title"><a href="#anchor_onlyaction">Активные умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pve_action" data-name="PVE Skill" data-count="33"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_ninja_onlyaction">Ninjutsu</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pve_jyutsu_action" data-name="Ninjutsu" data-count="9"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_rollcommonaction">Ролевые умения</a></h2>
-								<ul class="clearfix">
-									<li><a href="#melee_action_01" class="job_skill_icon" db-skill-menu="Role Action 14"></a></li>
-									<li><a href="#melee_action_02" class="job_skill_icon" db-skill-menu="Role Action 15"></a></li>
-									<li><a href="#melee_action_03" class="job_skill_icon" db-skill-menu="Role Action 16"></a></li>
-									<li><a href="#melee_action_04" class="job_skill_icon" db-skill-menu="Role Action 17"></a></li>
-									<li><a href="#melee_action_05" class="job_skill_icon" db-skill-menu="Role Action 06"></a></li>
-									<li><a href="#melee_action_06" class="job_skill_icon" db-skill-menu="Role Action 18"></a></li>
-								</ul>
-								<h2 class="job_nav_title"><a href="#anchor_onlytrait">Пассивные умения</a></h2>
-								<h2 class="job_nav_title"><a href="#anchor_rollcommontrait">Ролевые пассивные умения</a></h2>
-								<h2 class="job_nav_title"><a href="#anchor_pve_combo">Комбо</a></h2>
-								<h2 class="job_nav_title"><a href="#anchor_hud">Шкала профессии</a></h2>
-							</div>
+							<div class="job_menu_dps js-tab-content active" data-tab="pve"></div>
 							<!-- PVP -->
-							<div class="job_menu_dps js-tab-content" data-tab="pvp">
-								<h2 class="job_nav_title"><a href="#anchor_pvp_onlyaction">Активные умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pvp_action" data-name="PVP Skill" data-count="18"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_pvp_limitbreak">Limit Break</a></h2>
-								<ul class="clearfix">
-									<li><a href="#pvplimitbreakaction_01" class="job_skill_icon" db-skill-menu="PVP Skill LB"></a></li>
-								</ul>
-								<h2 class="job_nav_title"><a href="#anchor_pvp_commononlyaction">Общие умения</a></h2>
-								<ul class="clearfix clearfix_dynamic" data-prefix="pvpcommmononlyaction" data-name="PVP Actions" data-count="5"></ul>
-								<h2 class="job_nav_title"><a href="#anchor_pvp_roleaction">PvP Ролевые умения</a></h2>
-								<ul class="clearfix">
-									<li><a href="#pvproleaction_01" class="job_skill_icon" db-skill-menu="PVP Role Action 07"></a></li>
-									<li><a href="#pvproleaction_02" class="job_skill_icon" db-skill-menu="PVP Role Action 08"></a></li>
-									<li><a href="#pvproleaction_03" class="job_skill_icon" db-skill-menu="PVP Role Action 09"></a></li>
-								</ul>
-							</div>
+							<div class="job_menu_dps js-tab-content" data-tab="pvp"></div>
 						</div>
 					</div>
 				</div>
@@ -625,7 +592,7 @@
 								</tr>
 							</thead>
 							<tbody class="job_tbody">
-								<tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Skill LB"></tr>
+								<tr id="pvplimitbreakaction_01" db-skill-pvp="PVP Skill LB 01"></tr>
 							</tbody>
 						</table>
 					</div>
@@ -744,11 +711,6 @@
 		<!--- Script --->
 		<script type="text/javascript" src="/Assets/js/main.js"></script>
 		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", () => {
-				CORE_DB_LOAD(["/DB/MeleeDPS/Ninja.json", "/DB/RoleActions.json"], DB_VERSION);
-			});
-		</script>
 		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
 	</body>
 </html>

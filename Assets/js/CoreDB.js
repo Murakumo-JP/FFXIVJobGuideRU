@@ -1,5 +1,59 @@
-const DB_VERSION = "12.06.2026";
+const DB_VERSION = "28.08.2026";
 const CDN_URL = "https://cdn.ff14jobguide.ru";
+
+const ROLE_ACTIONS = "/DB/RoleActions.json";
+const CRAFT_FILES = ["/DB/Craft.json"];
+const GATHERING_FILES = ["/DB/Gathering.json"];
+
+const JOB_DB_FILES = {
+	PLD: ["/DB/Tank/Paladin.json", ROLE_ACTIONS],
+	WAR: ["/DB/Tank/Warrior.json", ROLE_ACTIONS],
+	DRK: ["/DB/Tank/DarkKnight.json", ROLE_ACTIONS],
+	GNB: ["/DB/Tank/Gunbreaker.json", ROLE_ACTIONS],
+
+	WHM: ["/DB/Healer/WhiteMage.json", ROLE_ACTIONS],
+	SCH: ["/DB/Healer/Scholar.json", ROLE_ACTIONS],
+	AST: ["/DB/Healer/Astrologian.json", ROLE_ACTIONS],
+	SGE: ["/DB/Healer/Sage.json", ROLE_ACTIONS],
+
+	MNK: ["/DB/MeleeDPS/Monk.json", ROLE_ACTIONS],
+	DRG: ["/DB/MeleeDPS/Dragoon.json", ROLE_ACTIONS],
+	NIN: ["/DB/MeleeDPS/Ninja.json", ROLE_ACTIONS],
+	SAM: ["/DB/MeleeDPS/Samurai.json", ROLE_ACTIONS],
+	RPR: ["/DB/MeleeDPS/Reaper.json", ROLE_ACTIONS],
+	VPR: ["/DB/MeleeDPS/Viper.json", ROLE_ACTIONS],
+
+	BRD: ["/DB/PhysicalDPS/Bard.json", ROLE_ACTIONS],
+	MCH: ["/DB/PhysicalDPS/Machinist.json", ROLE_ACTIONS],
+	DNC: ["/DB/PhysicalDPS/Dancer.json", ROLE_ACTIONS],
+
+	BLM: ["/DB/MagicalDPS/BlackMage.json", ROLE_ACTIONS],
+	SMN: ["/DB/MagicalDPS/Summoner.json", ROLE_ACTIONS],
+	RDM: ["/DB/MagicalDPS/RedMage.json", ROLE_ACTIONS],
+	PCT: ["/DB/MagicalDPS/Pictomancer.json", ROLE_ACTIONS],
+
+	BLU: ["/DB/BlueMage.json", ROLE_ACTIONS],
+
+	ALC: CRAFT_FILES,
+	ARM: CRAFT_FILES,
+	BSM: CRAFT_FILES,
+	CRP: CRAFT_FILES,
+	CUL: CRAFT_FILES,
+	GSM: CRAFT_FILES,
+	LTW: CRAFT_FILES,
+	WVR: CRAFT_FILES,
+
+	BTN: GATHERING_FILES,
+	MIN: GATHERING_FILES,
+
+	FSH: ["/DB/Fisher.json"],
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+	const files = JOB_DB_FILES[document.body.id];
+	if (files) CORE_DB_LOAD(files, DB_VERSION);
+});
+
 async function loadUpdateFlags() {
 	try {
 		const url = `${CDN_URL}/data/UpdateFlags.json`;
@@ -25,11 +79,12 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		"db-craft-passive": renderSkillCraft,
 		"db-skill-gathering": renderSkillCraft,
 		"db-gathering-passive": renderSkillCraft,
-		"db-skill-menu": renderSkillMenu,
 		"db-value": renderValue,
 	};
 
 	const DB = {};
+	const updateFlagsPromise = loadUpdateFlags();
+
 	await Promise.all(
 		fileNames.map(async (file) => {
 			const path = `${file}?v=${version}`;
@@ -43,7 +98,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		})
 	);
 
-	const updateFlags = await loadUpdateFlags();
+	const updateFlags = await updateFlagsPromise;
 	const currentJobCode = document.body.id;
 	const jobData = updateFlags[currentJobCode] || {};
 
@@ -58,7 +113,7 @@ async function CORE_DB_LOAD(fileNames, version = Date.now()) {
 		}
 	});
 
-	dynamicMenus();
+	renderJobMenu(DB, jobSkills);
 
 	Object.keys(renderers).forEach((attr) => {
 		document.querySelectorAll(`[${attr}]`).forEach((el) => {
@@ -160,7 +215,7 @@ function renderSkill(skill) {
 }
 
 function renderSkillCraft(skill) {
-	const jobName = document.body.getAttribute("job-name");
+	const jobName = document.body.id;
 	let skillIcon = skill.skill_icon;
 	let skillName = skill.name;
 	let eorzeadb = skill.eorzeadb;
@@ -258,7 +313,39 @@ function handleUrlScroll() {
 	}
 }
 
-function dynamicMenus() {
+function buildMenuItem(prefix, num, key, DB, jobSkills) {
+	const skill = getValueRecursive(key, DB);
+	const inner = skill ? renderSkillMenu(skill) : "";
+	const updateClass = jobSkills[key] ? " menu_update" : "";
+	return `<li><a href="#${prefix}_${num}" class="job_skill_icon${updateClass}" db-skill-menu="${key}">${inner}</a></li>`;
+}
+
+function countMatchingKeys(DB, name) {
+	const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+	const re = new RegExp(`^${escaped} (\\d+)$`);
+	let max = 0;
+	Object.keys(DB).forEach((key) => {
+		const match = key.match(re);
+		if (match) max = Math.max(max, parseInt(match[1], 10));
+	});
+	return max;
+}
+
+function keysForRole(DB, name, role) {
+	const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+	const re = new RegExp(`^${escaped} (\\d+)$`);
+
+	return Object.keys(DB)
+		.filter((key) => {
+			const match = key.match(re);
+			if (!match) return false;
+			const entry = DB[key];
+			return entry.job_class_01 === role || entry.job_class_02 === role || entry.job_class_03 === role;
+		})
+		.sort((a, b) => parseInt(a.match(re)[1], 10) - parseInt(b.match(re)[1], 10));
+}
+
+function renderJobMenu(DB, jobSkills) {
 	document.querySelectorAll(".clearfix_dynamic").forEach((ul) => {
 		const prefix = ul.dataset.prefix;
 		const name = ul.dataset.name;
@@ -269,9 +356,46 @@ function dynamicMenus() {
 		let listHtml = "";
 		for (let i = 1; i <= count; i++) {
 			const num = i.toString().padStart(2, "0");
-			listHtml += `<li><a href="#${prefix}_${num}" class="job_skill_icon" db-skill-menu="${name} ${num}"></a></li>\n`;
+			listHtml += buildMenuItem(prefix, num, `${name} ${num}`, DB, jobSkills);
 		}
 
 		ul.innerHTML = listHtml;
 	});
+
+	const menuConfig = DB._menu;
+	if (!menuConfig) return;
+
+	const buildList = (list) => {
+		if (!list) return "";
+
+		if (list.role) {
+			const keys = keysForRole(DB, list.name, list.role);
+			let html = `<ul class="clearfix">`;
+			keys.forEach((key, i) => {
+				const num = (i + 1).toString().padStart(2, "0");
+				html += buildMenuItem(list.prefix, num, key, DB, jobSkills);
+			});
+			html += `</ul>`;
+			return html;
+		}
+
+		const start = list.start ?? 1;
+		const count = list.count ?? countMatchingKeys(DB, list.name);
+
+		let html = `<ul class="clearfix">`;
+		for (let i = 0; i < count; i++) {
+			const num = (start + i).toString().padStart(2, "0");
+			html += buildMenuItem(list.prefix, num, `${list.name} ${num}`, DB, jobSkills);
+		}
+		html += `</ul>`;
+		return html;
+	};
+
+	const buildSection = (items) => items.map((item) => `<h2 class="job_nav_title"><a href="#${item.anchor}">${item.label}</a></h2>${buildList(item.list)}`).join("");
+
+	const pveEl = document.querySelector('.nav_floating_list_wrapper [data-tab="pve"]');
+	const pvpEl = document.querySelector('.nav_floating_list_wrapper [data-tab="pvp"]');
+
+	if (pveEl && menuConfig.pve) pveEl.innerHTML = buildSection(menuConfig.pve);
+	if (pvpEl && menuConfig.pvp) pvpEl.innerHTML = buildSection(menuConfig.pvp);
 }
