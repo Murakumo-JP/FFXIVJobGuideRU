@@ -17,7 +17,6 @@
 		<meta name="theme-color" content="#4e328f" />
 
 		<link rel="stylesheet" href="/Assets/css/style.min.css" />
-		<script type="text/javascript" src="/Assets/js/jquery.min.js"></script>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6M41KEYQX"></script>
 		<script>
@@ -29,7 +28,7 @@
 			gtag("config", "G-Y6M41KEYQX");
 		</script>
 	</head>
-	<body job-name="GSM">
+	<body id="GSM">
 		<div id="page-preloader" class="preloader">
 			<div class="seal-container">
 				<img src="/Assets/images/ffxiv_logo.png" class="loader-logo" alt="Logo" />
@@ -537,11 +536,6 @@
 		<!--- Script --->
 		<script type="text/javascript" src="/Assets/js/main.js"></script>
 		<script type="text/javascript" src="/Assets/js/CoreDB.js?v3"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", () => {
-				CORE_DB_LOAD(["/DB/Craft.json"], DB_VERSION);
-			});
-		</script>
 		<script src="https://lds-img.finalfantasyxiv.com/pc/global/js/eorzeadb/loader.js?v3"></script>
 	</body>
 </html>

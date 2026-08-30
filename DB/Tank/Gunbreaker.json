@@ -779,7 +779,7 @@
 		"radius": "0y",
 		"content": "Удар, наносящий урон с силой атаки 4,000.<br/>Дополнительный эффект: создает вокруг персонажа барьер, поглощающий урон равный силе лечения 6,000<br/>Продолжительность: 6 сек.<br/>Возможно использовать только находясь под эффектом Ready to Gouge.<br/><br/>※Это умение нельзя поместить на хотбар"
 	},
-	"PVP Skill LB1": {
+	"PVP Skill LB 01": {
 		"name": "Relentless Rush",
 		"skill_icon": "c883909d21cab4cc8054d19c6cbb8156a3e6ac96.png",
 		"cast": "Мгновенная",
@@ -789,7 +789,7 @@
 		"radius": "5y",
 		"content": "Проводит серию ударов клинком, нанося периодический урон по всем окружающим противникам с силой атаки 4,500 и снижая получаемый урон на 25% до окончания действия эффекта.<br/>Продолжительность: 4 сек.<br/>Активирует Terminal Trigger после конца действия эффекта.<br/>Дополнительный эффект: накладывает на цель Relentless Shrapnel, увеличивает получаемый целью урон на 5%<br/>Продолжительность: 6 сек.<br/>Максимум стаков: 5<br/>Может быть выполнено во время движения.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек.<br/><br/>※При выполнении действие меняется на Terminal Trigger."
 	},
-	"PVP Skill LB2": {
+	"PVP Skill LB 02": {
 		"name": "Terminal Trigger",
 		"skill_icon": "378ade68a55ed6f6c34600bd4ade1db2aea5511a.png",
 		"cast": "Мгновенная",
@@ -798,5 +798,21 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Удар, наносящий урон с силой атаки 12,000 по всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 3 сек.<br/>Можно использовать только под действием эффекта Relentless Rush.<br/>Эффект Relentless Rush пропадает после использования.<br/><br/>※Это умение нельзя поместить на хотбар."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "tank_action", "name": "Role Action", "role": "Tank"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 1, "count": 3}}
+	]
 	}
 }
