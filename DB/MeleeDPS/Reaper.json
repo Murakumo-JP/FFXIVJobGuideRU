@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Slice",
+		"id": 24373,
 		"skill_icon": "26fda59956454f1dbca5f260b2763321a2bb761a.png",
 		"job_icon": "RPR",
 		"level": "1",
@@ -14,6 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Waxing Slice",
+		"id": 24374,
 		"skill_icon": "4bab01eb43df9752e98deef097e9251647ad96df.png",
 		"job_icon": "RPR",
 		"level": "5",
@@ -27,6 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Shadow of Death",
+		"id": 24378,
 		"skill_icon": "e3e48cee91c7abf77a15f6c4c9c9630349849205.png",
 		"job_icon": "RPR",
 		"level": "10",
@@ -40,6 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Harpe",
+		"id": 24386,
 		"skill_icon": "d3ae9c9673da37ea10aa4103b747163250c4a385.png",
 		"job_icon": "RPR",
 		"level": "15",
@@ -53,6 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Hell's Ingress",
+		"id": 24401,
 		"skill_icon": "2e1c97fd007f90808b2fd40ad86354b9e97447a8.png",
 		"job_icon": "RPR",
 		"level": "20",
@@ -66,6 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Hell's Egress",
+		"id": 24402,
 		"skill_icon": "113b87916c7ffdb9a8007615f697f2c189c6646a.png",
 		"job_icon": "RPR",
 		"level": "20",
@@ -79,6 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Spinning Scythe",
+		"id": 24376,
 		"skill_icon": "dac9dba46aa8ff673cd2e365c9468525db0ba1a2.png",
 		"job_icon": "RPR",
 		"level": "25",
@@ -92,6 +99,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Infernal Slice",
+		"id": 24375,
 		"skill_icon": "aa7a7dd464459f24aa2209cddcbf8a3ebb167f0b.png",
 		"job_icon": "RPR",
 		"level": "30",
@@ -105,6 +113,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Whorl of Death",
+		"id": 24379,
 		"skill_icon": "31d409f8aaeae041b8150e68764e032fccd7c4c6.png",
 		"job_icon": "RPR",
 		"level": "35",
@@ -118,6 +127,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Arcane Crest",
+		"id": 24404,
 		"skill_icon": "9977fdbbf70443f9f31f4868cba97138fbec5460.png",
 		"job_icon": "RPR",
 		"level": "40",
@@ -131,6 +141,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Nightmare Scythe",
+		"id": 24377,
 		"skill_icon": "710256a9319251859b53dd3804078cc8e35c2333.png",
 		"job_icon": "RPR",
 		"level": "45",
@@ -144,6 +155,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Blood Stalk",
+		"id": 24389,
 		"skill_icon": "f0f3d4c722f5f9b36b25ba72d3774b4b811b699d.png",
 		"job_icon": "RPR",
 		"level": "50",
@@ -157,6 +169,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Grim Swathe",
+		"id": 24392,
 		"skill_icon": "ac34fd282b758c407014a47e3c30e188050307d8.png",
 		"job_icon": "RPR",
 		"level": "55",
@@ -170,6 +183,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Soul Slice",
+		"id": 24380,
 		"skill_icon": "089e7135cc2e4e64590c18db17fbab56e0040843.png",
 		"job_icon": "RPR",
 		"level": "60",
@@ -183,6 +197,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Soul Scythe",
+		"id": 24381,
 		"skill_icon": "22ae994a06569700d3f9d51b1b999c951ca171e3.png",
 		"job_icon": "RPR",
 		"level": "65",
@@ -196,6 +211,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Gibbet",
+		"id": 24382,
 		"skill_icon": "f8259f07fef48d2d418535404fdc672bdc852285.png",
 		"job_icon": "RPR",
 		"level": "70",
@@ -209,6 +225,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Gallows",
+		"id": 24383,
 		"skill_icon": "ae681cd40113523630db64f0e3823235db61a364.png",
 		"job_icon": "RPR",
 		"level": "70",
@@ -222,6 +239,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Guillotine",
+		"id": 24384,
 		"skill_icon": "b4d685f506367e2bd3228603e7b2c4172567f933.png",
 		"job_icon": "RPR",
 		"level": "70",
@@ -235,6 +253,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Unveiled Gibbet",
+		"id": 24390,
 		"skill_icon": "02ab830b9551480d0b5d62a24012c401a422b0bd.png",
 		"job_icon": "RPR",
 		"level": "70",
@@ -248,6 +267,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Unveiled Gallows",
+		"id": 24391,
 		"skill_icon": "017af138fc2458f9cae561ec96f027791d1da803.png",
 		"job_icon": "RPR",
 		"level": "70",
@@ -261,6 +281,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Arcane Circle",
+		"id": 24405,
 		"skill_icon": "b561271272c45fb8436bfe4dfb590b76c631687b.png",
 		"job_icon": "RPR",
 		"level": "72",
@@ -274,6 +295,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Regress",
+		"id": 24403,
 		"skill_icon": "eaeec5829efd0623650ee09d1b3867ef3804c643.png",
 		"job_icon": "RPR",
 		"level": "74",
@@ -287,6 +309,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Gluttony",
+		"id": 24393,
 		"skill_icon": "933867484213377dc45cafd796ff5d934cee8906.png",
 		"job_icon": "RPR",
 		"level": "76",
@@ -300,6 +323,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Enshroud",
+		"id": 24394,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3c7fb68def/",
 		"skill_icon": "4e389efd3504b3ed9dcd4f7633ebc9a5bb528971.png",
 		"job_icon": "RPR",
@@ -314,6 +338,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Void Reaping",
+		"id": 24395,
 		"skill_icon": "d2632208267baca74f7d9c19ee7a9c794034f2f0.png",
 		"job_icon": "RPR",
 		"level": "80",
@@ -327,6 +352,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Cross Reaping",
+		"id": 24396,
 		"skill_icon": "a080e4189263d80adcd79deaaac266c93798d202.png",
 		"job_icon": "RPR",
 		"level": "80",
@@ -340,6 +366,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Grim Reaping",
+		"id": 24397,
 		"skill_icon": "3b57c45ec39fc75788c9603653a77c5b95f04e67.png",
 		"job_icon": "RPR",
 		"level": "80",
@@ -353,6 +380,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Soulsow",
+		"id": 24387,
 		"skill_icon": "a59a5def406758cbd282cffdea8bea00a98f5e58.png",
 		"job_icon": "RPR",
 		"level": "82",
@@ -366,6 +394,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Harvest Moon",
+		"id": 24388,
 		"skill_icon": "e5f0a7dabd5ef44d08e8d5920d834f3e734169d9.png",
 		"job_icon": "RPR",
 		"level": "82",
@@ -379,6 +408,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Lemure's Slice",
+		"id": 24399,
 		"skill_icon": "c9ae486399356401f032b455ea5b13f986236c82.png",
 		"job_icon": "RPR",
 		"level": "86",
@@ -392,6 +422,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Lemure's Scythe",
+		"id": 24400,
 		"skill_icon": "479155b751c2764273ae35c1aab71ed298ad9d18.png",
 		"job_icon": "RPR",
 		"level": "86",
@@ -405,6 +436,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Plentiful Harvest",
+		"id": 24385,
 		"skill_icon": "08babf4d2bf7ce046d03f459af8fa4c9921f96cc.png",
 		"job_icon": "RPR",
 		"level": "88",
@@ -418,6 +450,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Communio",
+		"id": 24398,
 		"skill_icon": "3b0daa7e454abbd2b6ce037b5c77157462fadbf7.png",
 		"job_icon": "RPR",
 		"level": "90",
@@ -431,6 +464,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Sacrificium",
+		"id": 36969,
 		"skill_icon": "c30eb0a31733645a16fe4afedf837597addded77.png",
 		"job_icon": "RPR",
 		"level": "92",
@@ -444,6 +478,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Executioner's Gibbet",
+		"id": 36970,
 		"skill_icon": "7df5921d09e8a524ef8b7c187a9f0cb1ee181aff.png",
 		"job_icon": "RPR",
 		"level": "96",
@@ -457,6 +492,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Executioner's Gallows",
+		"id": 36971,
 		"skill_icon": "0dfc7d7951330304c328135c306fa3d54b1a9cdc.png",
 		"job_icon": "RPR",
 		"level": "96",
@@ -470,6 +506,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Executioner's Guillotine",
+		"id": 36972,
 		"skill_icon": "d732a04e72dd2c5e3c0702749e6310329b611ca8.png",
 		"job_icon": "RPR",
 		"level": "96",
@@ -483,6 +520,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Perfectio",
+		"id": 36973,
 		"skill_icon": "ab9537a1e24665b2b794656e28f58981b95b3c52.png",
 		"job_icon": "RPR",
 		"level": "100",
@@ -595,6 +633,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Slice",
+		"id": 29538,
 		"skill_icon": "b3aba81b36f1d7f627a0f83e38f1b9a6b92434cd.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -606,6 +645,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Waxing Slice",
+		"id": 29539,
 		"skill_icon": "5d626f5a33df738e1e06dfdd8d7094bda770ad64.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -617,6 +657,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Infernal Slice",
+		"id": 29540,
 		"skill_icon": "dd4a740c4bbf1f6fa18b92187e7039379fbfed30.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -628,6 +669,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Harvest Moon",
+		"id": 29545,
 		"skill_icon": "7c70f9fe69e5c51199086c4345095722bf7a9b5a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -639,6 +681,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Plentiful Harvest",
+		"id": 29546,
 		"skill_icon": "ab0eae0be0bf452487bd9f9c33ac06ab5ae53efc.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -650,6 +693,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Grim Swathe",
+		"id": 29547,
 		"skill_icon": "4b0d41599ef62b2057cf1e0ac5a007eb235baa5f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -661,6 +705,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Death Warrant",
+		"id": 29549,
 		"skill_icon": "4717cd6aa17ee7ea4fb28d37658b738c83d67f34.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -672,6 +717,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Hell's Ingress",
+		"id": 29550,
 		"skill_icon": "2424ad75e462d533b623f1371216bc130c82b109.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -683,6 +729,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Arcane Crest",
+		"id": 29552,
 		"skill_icon": "076c61a60da76d1c1060275a87218c9ea298974b.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -694,6 +741,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Executioner's Guillotine",
+		"id": 41456,
 		"skill_icon": "c79c9c91a5420c2f67a70bfd085727cfa63cfa95.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенна",
@@ -705,6 +753,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Void Reaping",
+		"id": 29543,
 		"skill_icon": "a9236a05eda40fadfa57db522498cf8da0c1338f.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -716,6 +765,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Cross Reaping",
+		"id": 29544,
 		"skill_icon": "3e622ba1498759d256ccbb7ae712fb848142b8b4.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -727,6 +777,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Lemure's Slice",
+		"id": 29548,
 		"skill_icon": "9506431de0afcffcbfa5d260d2d488afbceb84a7.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -738,6 +789,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Fate Sealed",
+		"id": 41457,
 		"skill_icon": "66956c56a1b12c94704d38d36cf65e00440666ad.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -749,6 +801,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Regress",
+		"id": 29551,
 		"skill_icon": "f9dde969872d209ff9752660a9fe5083df829856.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -760,6 +813,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Communio",
+		"id": 29554,
 		"skill_icon": "fad15db3f8853ecf4d7789fb9d5429e64edb02ba.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -771,6 +825,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Perfectio",
+		"id": 41458,
 		"skill_icon": "fa7c30344d62ac831c58842a0f24e668eb3b867d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -782,6 +837,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Tenebrae Lemurum",
+		"id": 29553,
 		"skill_icon": "a2c6adec36c8eeace712802c88eb896c788a8c94.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -792,18 +848,18 @@
 	},
 	"_menu": {
 		"pve": [
-		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
-		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "melee_action", "name": "Role Action", "role": "MeleeDPS"}},
-		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
-		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
-		{"anchor": "anchor_pve_combo", "label": "Комбо"},
-		{"anchor": "anchor_hud", "label": "Шкала профессии"}
-	],
+			{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+			{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "melee_action", "name": "Role Action", "role": "MeleeDPS"}},
+			{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+			{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+			{"anchor": "anchor_pve_combo", "label": "Комбо"},
+			{"anchor": "anchor_hud", "label": "Шкала профессии"}
+		],
 		"pvp": [
-		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
-		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
-		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
-		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 7, "count": 3}}
-	]
+			{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+			{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+			{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+			{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 7, "count": 3}}
+		]
 	}
 }
