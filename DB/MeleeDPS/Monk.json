@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Bootshine",
+		"id": 53,
 		"skill_icon": "042e3be3ea0a054e9fa9cb7db61dd0a14a3622f7.png",
 		"job_icon": "PGL",
 		"level": "1",
@@ -14,6 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "True Strike",
+		"id": 54,
 		"skill_icon": "af7b18aed7033e61d761f6103f46160923ce4dba.png",
 		"job_icon": "PGL",
 		"level": "4",
@@ -27,6 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Snap Punch",
+		"id": 56,
 		"skill_icon": "a0723660e32d9a35961de3002386736a3f97f9aa.png",
 		"job_icon": "PGL",
 		"level": "6",
@@ -40,6 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Steeled Meditation",
+		"id": 36940,
 		"skill_icon": "3f5525f96d26fa3bb52df3cd390fbabd126be062.png",
 		"job_icon": "PGL",
 		"level": "15",
@@ -53,6 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Steel Peak",
+		"id": 25761,
 		"skill_icon": "bf14821955a0b22662b2ad2f939f5d25e28ddfbe.png",
 		"job_icon": "PGL",
 		"level": "15",
@@ -66,6 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Twin Snakes",
+		"id": 61,
 		"skill_icon": "30f4acde19a2b7da96a18abfb609bf41f1d140dd.png",
 		"job_icon": "PGL",
 		"level": "18",
@@ -79,6 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Arm of the Destroyer",
+		"id": 62,
 		"skill_icon": "44aeab1317ba946482cfcb3db020495c82b2adaf.png",
 		"job_icon": "PGL",
 		"level": "26",
@@ -92,6 +99,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Demolish",
+		"id": 66,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a9f57cdec57/",
 		"skill_icon": "478fe9db14cb870f97bd5c97e94d6c330a52e625.png",
 		"job_icon": "PGL",
@@ -106,6 +114,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Rockbreaker",
+		"id": 70,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4480af45c8c/",
 		"skill_icon": "6f757660279f936fff7f7b46f415c50ffa8ab08a.png",
 		"job_icon": "MNK",
@@ -120,6 +129,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Thunderclap",
+		"id": 25762,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fc024563e92/",
 		"skill_icon": "3cd306065005282605a77162e9158092ba2a75b1.png",
 		"job_icon": "MNK",
@@ -134,6 +144,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Inspirited Meditation",
+		"id": 36941,
 		"skill_icon": "e496f61cb81a7d95c751a64c3c416faa851216f0.png",
 		"job_icon": "MNK",
 		"level": "40",
@@ -147,6 +158,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Howling Fist",
+		"id": 25763,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2c6c07794c6/",
 		"skill_icon": "b5e5c9978cca1e84dd3dfd44bf37acb9aa875c13.png",
 		"job_icon": "MNK",
@@ -161,6 +173,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Mantra",
+		"id": 65,
 		"skill_icon": "87f8bb6f1bcc8aa169c04e15c7d526d9d6e3dc55.png",
 		"job_icon": "PGL",
 		"level": "42",
@@ -174,6 +187,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Four-point Fury",
+		"id": 16473,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/ef40194d56f/",
 		"skill_icon": "2e982c5bcdf7073f54f478d072d76eb8fc7ebd73.png",
 		"job_icon": "MNK",
@@ -188,6 +202,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Dragon Kick",
+		"id": 74,
 		"skill_icon": "b28fd0b73c9131439b9d376ea443532892876681.png",
 		"job_icon": "PGL",
 		"level": "50",
@@ -201,6 +216,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Perfect Balance",
+		"id": 69,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c297c0c3578/",
 		"skill_icon": "08bf418da9242f2ad395422bd474f9f4b8819b29.png",
 		"job_icon": "MNK",
@@ -215,6 +231,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Form Shift",
+		"id": 4262,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c3856b6bc3/",
 		"skill_icon": "f48ad79820696829faea1b43c94a9e70a1b84ce9.png",
 		"job_icon": "MNK",
@@ -229,6 +246,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Forbidden Meditation",
+		"id": 36942,
 		"skill_icon": "3f5525f96d26fa3bb52df3cd390fbabd126be062.png",
 		"job_icon": "MNK",
 		"level": "54",
@@ -242,6 +260,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "The Forbidden Chakra",
+		"id": 3547,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/401f59c6a53/",
 		"skill_icon": "cbe79f033c767f053b625ec72de22bee654722b8.png",
 		"job_icon": "MNK",
@@ -256,6 +275,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Masterful Blitz",
+		"id": 25764,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/718bc0561cb/",
 		"skill_icon": "00cd52fc4dd2849210bea04ee05cd62a921f1cfb.png",
 		"job_icon": "MNK",
@@ -270,6 +290,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Tornado Kick",
+		"id": 3543,
 		"skill_icon": "e5c7d0867c9b53f33bd8b319379946e7b9c27ba1.png",
 		"job_icon": "MNK",
 		"level": "60",
@@ -283,6 +304,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Elixir Field",
+		"id": 3545,
 		"skill_icon": "c3b8c8cd51562f2117d6ee72ee44c6cb7a9ed497.png",
 		"job_icon": "MNK",
 		"level": "60",
@@ -296,6 +318,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Celestial Revolution",
+		"id": 25765,
 		"skill_icon": "c9d2b58e28943b3309db19b112d998246d1b79b2.png",
 		"job_icon": "MNK",
 		"level": "60",
@@ -309,6 +332,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Flint Strike",
+		"id": 25882,
 		"skill_icon": "4a4c381e589645018bad71d48508a65e340035ca.png",
 		"job_icon": "MNK",
 		"level": "60",
@@ -322,6 +346,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Riddle of Earth",
+		"id": 7394,
 		"skill_icon": "84e3e679f5393f9a83e3b8204aad5192ecc483d1.png",
 		"job_icon": "MNK",
 		"level": "64",
@@ -335,6 +360,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Earth's Reply",
+		"id": 36944,
 		"skill_icon": "f43b6c836fff7fa639c967aac3d6ef768fc1d16c.png",
 		"job_icon": "MNK",
 		"level": "64",
@@ -348,6 +374,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Riddle of Fire",
+		"id": 7395,
 		"skill_icon": "1bc71b7e13b0634a6242026cd6ae29e018add98a.png",
 		"job_icon": "MNK",
 		"level": "68",
@@ -361,6 +388,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Brotherhood",
+		"id": 7396,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c85116d60e5/",
 		"skill_icon": "a744e79fae56358a44e1d1f253a8be12d0ebaf8f.png",
 		"job_icon": "MNK",
@@ -375,6 +403,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Riddle of Wind",
+		"id": 25766,
 		"skill_icon": "793d43f2460d5b36044a6926484d73bf8670190f.png",
 		"job_icon": "MNK",
 		"level": "72",
@@ -388,6 +417,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Enlightened Meditation",
+		"id": 36943,
 		"skill_icon": "e496f61cb81a7d95c751a64c3c416faa851216f0.png",
 		"job_icon": "MNK",
 		"level": "74",
@@ -401,6 +431,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Enlightenment",
+		"id": 16474,
 		"skill_icon": "f258ec9d84566ca80f061e58a8ba3993a7b735a3.png",
 		"job_icon": "MNK",
 		"level": "74",
@@ -414,6 +445,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Six-sided Star",
+		"id": 16476,
 		"skill_icon": "eaa1b242a96d4dd9511d690e7d7aa1e1ea985e5a.png",
 		"job_icon": "MNK",
 		"level": "80",
@@ -427,6 +459,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Shadow of the Destroyer",
+		"id": 25767,
 		"skill_icon": "5166f89f6382d21ffd65cb45b3537c507f7d55de.png",
 		"job_icon": "MNK",
 		"level": "82",
@@ -440,6 +473,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Rising Phoenix",
+		"id": 25768,
 		"skill_icon": "2ab98b9212f6d5a8d56cf74d904b3f15eda79d52.png",
 		"job_icon": "MNK",
 		"level": "86",
@@ -453,6 +487,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Phantom Rush",
+		"id": 25769,
 		"skill_icon": "47555f213252da857e3c68acb669cdb7f2c3d78d.png",
 		"job_icon": "MNK",
 		"level": "90",
@@ -466,6 +501,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Leaping Opo",
+		"id": 36945,
 		"skill_icon": "000c5561b5d49694d019252cf5bbd8db16d948aa.png",
 		"job_icon": "MNK",
 		"level": "92",
@@ -479,6 +515,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Rising Raptor",
+		"id": 36946,
 		"skill_icon": "8b71871e5f6a0c0fbdefea14931fc459e6f6ca58.png",
 		"job_icon": "MNK",
 		"level": "92",
@@ -492,6 +529,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Pouncing Coeurl",
+		"id": 36947,
 		"skill_icon": "9314f58e4df7e3392781a926bbd0480d3a9b5c71.png",
 		"job_icon": "MNK",
 		"level": "92",
@@ -505,6 +543,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Elixir Burst",
+		"id": 36948,
 		"skill_icon": "334dae96eb1b67c861a22e07a9c0f3c918130f5f.png",
 		"job_icon": "MNK",
 		"level": "92",
@@ -518,6 +557,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Wind's Reply",
+		"id": 36949,
 		"skill_icon": "d57a98ac83fa1f066de448639688b34ba4342a98.png",
 		"job_icon": "MNK",
 		"level": "96",
@@ -531,6 +571,7 @@
 	},
 	"PVE Skill 41": {
 		"name": "Fire's Reply",
+		"id": 36950,
 		"skill_icon": "6de38cd8ff4cddd607b2bb2afde0dd8a22774489.png",
 		"job_icon": "MNK",
 		"level": "100",
@@ -544,6 +585,7 @@
 	},
 	"Trait 01": {
 		"name": "Greased Lightning",
+		"id": 364,
 		"skill_icon": "1c068309f8a71e83a87f15b96f6c2d6abc543a83.png",
 		"job_icon": "PGL",
 		"level": "1",
@@ -551,6 +593,7 @@
 	},
 	"Trait 02": {
 		"name": "Enhanced Greased Lightning",
+		"id": 365,
 		"skill_icon": "0ec2b9d599b31df85a165ae15d9d28c7ffed0d7b.png",
 		"job_icon": "PGL",
 		"level": "20",
@@ -558,6 +601,7 @@
 	},
 	"Trait 03": {
 		"name": "Deep Meditation",
+		"id": 160,
 		"skill_icon": "e4c442dfc2030eb7e7bc365b251acd77b79d058a.png",
 		"job_icon": "MNK",
 		"level": "38",
@@ -565,6 +609,7 @@
 	},
 	"Trait 04": {
 		"name": "Enhanced Greased Lightning II",
+		"id": 366,
 		"skill_icon": "e25c3c9c590fc63a386fb3492cb998aff23c19b8.png",
 		"job_icon": "MNK",
 		"level": "40",
@@ -572,6 +617,7 @@
 	},
 	"Trait 05": {
 		"name": "Steel Peak Mastery",
+		"id": 428,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/401f59c6a53/",
 		"skill_icon": "e0030e047f082e09274b12e49adaf06ff088a3fd.png",
 		"job_icon": "MNK",
@@ -580,6 +626,7 @@
 	},
 	"Trait 06": {
 		"name": "Enhanced Perfect Balance",
+		"id": 433,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/718bc0561cb/",
 		"skill_icon": "3c4b7d740d86fbb56c459884cd3c52fe30a55d6d.png",
 		"job_icon": "MNK",
@@ -588,6 +635,7 @@
 	},
 	"Trait 07": {
 		"name": "Deep Meditation II",
+		"id": 245,
 		"skill_icon": "8a5b1c57a2e11d0e8f30df9848db1dafbeecf906.png",
 		"job_icon": "MNK",
 		"level": "74",
@@ -595,6 +643,7 @@
 	},
 	"Trait 08": {
 		"name": "Howling Fist Mastery",
+		"id": 429,
 		"skill_icon": "b1e3b7ae734c31fced05be1a0b2fd15f03c1a245.png",
 		"job_icon": "MNK",
 		"level": "74",
@@ -602,6 +651,7 @@
 	},
 	"Trait 09": {
 		"name": "Enhanced Greased Lightning III",
+		"id": 367,
 		"skill_icon": "85b59350c1cf08e9396d8f7f69156998efeee7ae.png",
 		"job_icon": "MNK",
 		"level": "76",
@@ -609,6 +659,7 @@
 	},
 	"Trait 10": {
 		"name": "Arm of the Destroyer Mastery",
+		"id": 430,
 		"skill_icon": "60a9a7542216180a206ebba580f89899b2978ec0.png",
 		"job_icon": "MNK",
 		"level": "82",
@@ -616,6 +667,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Thunderclap",
+		"id": 431,
 		"skill_icon": "a4e3cef1786273e7635c04b66cd8b2fb7459f983.png",
 		"job_icon": "MNK",
 		"level": "84",
@@ -623,6 +675,7 @@
 	},
 	"Trait 12": {
 		"name": "Melee Mastery",
+		"id": 518,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "MNK",
 		"level": "84",
@@ -630,6 +683,7 @@
 	},
 	"Trait 13": {
 		"name": "Flint Strike Mastery",
+		"id": 512,
 		"skill_icon": "e00c6d101ec7bf712cb9c46a499ff69266044b9f.png",
 		"job_icon": "MNK",
 		"level": "86",
@@ -637,6 +691,7 @@
 	},
 	"Trait 14": {
 		"name": "Enhanced Brotherhood",
+		"id": 432,
 		"skill_icon": "25a9150b179ba0d9d53fefa92df4032e4d82e02b.png",
 		"job_icon": "MNK",
 		"level": "88",
@@ -644,6 +699,7 @@
 	},
 	"Trait 15": {
 		"name": "Tornado Kick Mastery",
+		"id": 513,
 		"skill_icon": "0ea4fdc3ccaf0005e85c113865dbcfb0cf51a354.png",
 		"job_icon": "MNK",
 		"level": "90",
@@ -651,6 +707,7 @@
 	},
 	"Trait 16": {
 		"name": "Beast Chakra Mastery",
+		"id": 577,
 		"skill_icon": "3385580f3c7997901e536e937ec95ebac2108e38.png",
 		"job_icon": "MNK",
 		"level": "92",
@@ -658,6 +715,7 @@
 	},
 	"Trait 17": {
 		"name": "Melee Mastery II",
+		"id": 660,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "MNK",
 		"level": "94",
@@ -665,6 +723,7 @@
 	},
 	"Trait 18": {
 		"name": "Enhanced Riddle of Wind",
+		"id": 578,
 		"skill_icon": "b4bb68b7f3879342409b0b2fe05802ee090f6284.png",
 		"job_icon": "MNK",
 		"level": "96",
@@ -672,6 +731,7 @@
 	},
 	"Trait 19": {
 		"name": "Enhanced Riddle of Fire",
+		"id": 579,
 		"skill_icon": "86250eda8f18aa1992fb138ecbcbdbb29d3329ea.png",
 		"job_icon": "MNK",
 		"level": "100",
@@ -679,6 +739,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Dragon Kick",
+		"id": 29475,
 		"skill_icon": "5ec9494d0971929187228a39aaff90a2b3d6a634.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -690,6 +751,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Twin Snakes",
+		"id": 29476,
 		"skill_icon": "527f4b68d64733c38d667f81c5e1f9d4875127ac.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -701,6 +763,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Demolish",
+		"id": 29477,
 		"skill_icon": "67078f08b4af6bacf409e67e4afca97ade589d1d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -712,6 +775,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Leaping Opo",
+		"id": 41444,
 		"skill_icon": "566b6d31e2d4c1ac44da81f083861c60c96728ac.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -723,6 +787,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Rising Raptor",
+		"id": 41445,
 		"skill_icon": "5c2b28f59b51e7c50f02730a081416d7c5523af2.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -734,6 +799,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Pouncing Coeurl",
+		"id": 41446,
 		"skill_icon": "b677856385083b5b693f6f6ff5dd1a444fa7f30d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -745,6 +811,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Phantom Rush",
+		"id": 29478,
 		"skill_icon": "fc732ca2151a2ae7012961e98e696865ad1e1d04.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -756,6 +823,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Wind's Reply",
+		"id": 41509,
 		"skill_icon": "d3e8881fa1db7986d1f229f79aec9ceaa9e9205d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -767,6 +835,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Rising Phoenix",
+		"id": 29481,
 		"skill_icon": "f1d0fb89b8edd7248064be9fd13aa927b40aadd2.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -778,6 +847,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Riddle of Earth",
+		"id": 29482,
 		"skill_icon": "64a9bd6d68ae80af1ea8daa2410bd032d39b97be.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -789,6 +859,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Thunderclap",
+		"id": 29484,
 		"skill_icon": "a54ed85ea1e9f400712c049ca5f8f6d503bd2ab6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -800,6 +871,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Fire's Reply",
+		"id": 41448,
 		"skill_icon": "1ae1ba21d1370ccd4b265997c90fe227ed8d0766.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -811,6 +883,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Earth's Reply",
+		"id": 29483,
 		"skill_icon": "c5310e97e21000736821f990996a09f2d0bba1e6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -822,6 +895,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Meteodrive",
+		"id": 29485,
 		"skill_icon": "db4da14c2bf5aabe9de5c2cc782225c7fb13b9a8.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",

@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Blizzard",
+		"id": 142,
 		"skill_icon": "dab74d4a196c546228d67c91db4bde70c32c45df.png",
 		"job_icon": "THM",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Fire",
+		"id": 141,
 		"skill_icon": "0f0b18de207de52d394b2ca8cb990a38e96587e0.png",
 		"job_icon": "THM",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Transpose",
+		"id": 149,
 		"skill_icon": "11343c230e7ebd41588ca8f684cb99ee13809398.png",
 		"job_icon": "THM",
 		"level": "4",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Thunder",
+		"id": 144,
 		"skill_icon": "db30f0fa05ce4f541f839c5b2c57cfe0e9fb77f8.png",
 		"job_icon": "THM",
 		"level": "6",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Blizzard II",
+		"id": 25793,
 		"skill_icon": "af68a6b262379df65a5b4bd0408fafbfd3feb450.png",
 		"job_icon": "THM",
 		"level": "12",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Scathe",
+		"id": 156,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/82cdaaebcce/",
 		"skill_icon": "9b763aecc46c5559bbbccadfe866fe42d56a9597.png",
 		"job_icon": "THM",
@@ -86,6 +92,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Fire II",
+		"id": 147,
 		"skill_icon": "8876f1b3cf116acf7138253e0193396c75698651.png",
 		"job_icon": "THM",
 		"level": "18",
@@ -100,6 +107,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Thunder II",
+		"id": 7447,
 		"skill_icon": "67205b06f51ddd0e07f16441e38e90d59840f1b6.png",
 		"job_icon": "THM",
 		"level": "26",
@@ -114,6 +122,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Manaward",
+		"id": 157,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/efb4d31dbd3/",
 		"skill_icon": "75ed92265dc2dcc6fa1e0b8f22a01258799f222d.png",
 		"job_icon": "THM",
@@ -129,6 +138,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Manafont",
+		"id": 158,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/eec832efc26/",
 		"skill_icon": "46be5d9b06e228473154bc91d303ba989308a1cb.png",
 		"job_icon": "BLM",
@@ -144,6 +154,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Fire III",
+		"id": 152,
 		"skill_icon": "3ff8dcabba57f6a697d5a86fc7490884b74eddff.png",
 		"job_icon": "THM",
 		"level": "35",
@@ -158,6 +169,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Blizzard III",
+		"id": 154,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cc550942448/",
 		"skill_icon": "6dbb819d3f64b93d6f6ffa23a73101c79592ae2f.png",
 		"job_icon": "BLM",
@@ -173,6 +185,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Umbral Soul",
+		"id": 16506,
 		"skill_icon": "5c3311c8d38df2d4617c0a325772cdd229f3c181.png",
 		"job_icon": "BLM",
 		"level": "35",
@@ -187,6 +200,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Freeze",
+		"id": 159,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/bf524c2622f/",
 		"skill_icon": "2190c4a6ebb204b010020af62a99b1829185aa21.png",
 		"job_icon": "BLM",
@@ -202,6 +216,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Thunder III",
+		"id": 153,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e023bb97879/",
 		"skill_icon": "2efb022c0715f802a88e1edef4924c075e92a53d.png",
 		"job_icon": "BLM",
@@ -217,6 +232,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Aetherial Manipulation",
+		"id": 155,
 		"skill_icon": "a8c94264a1522d4e1f80e9dcac7864eb6170d722.png",
 		"job_icon": "THM",
 		"level": "50",
@@ -231,6 +247,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Flare",
+		"id": 162,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cecfdb58804/",
 		"skill_icon": "a2d60b093374b2c896487aba2e32eb8bd32eee7c.png",
 		"job_icon": "BLM",
@@ -246,6 +263,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Ley Lines",
+		"id": 3573,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cede0d25c63/",
 		"skill_icon": "2c84ee7f590f1563a8eda87c8ac5d89081365a92.png",
 		"job_icon": "BLM",
@@ -261,6 +279,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Blizzard IV",
+		"id": 3576,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c4360e9d473/",
 		"skill_icon": "43e1468c5bc711966fdbb2790cd60aa6527461bf.png",
 		"job_icon": "BLM",
@@ -276,6 +295,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Fire IV",
+		"id": 3577,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2e548618321/",
 		"skill_icon": "1a353ade6d0e1ff5828cca6b4bbc11c9f52618bb.png",
 		"job_icon": "BLM",
@@ -291,6 +311,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Between the Lines",
+		"id": 7419,
 		"skill_icon": "7c05d4b844c5a3f1e85e6f4b19214715f7d609e2.png",
 		"job_icon": "BLM",
 		"level": "62",
@@ -305,6 +326,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Thunder IV",
+		"id": 7420,
 		"skill_icon": "de62d077a3306797d48ee62f183e82c474b2b768.png",
 		"job_icon": "BLM",
 		"level": "64",
@@ -319,6 +341,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Triplecast",
+		"id": 7421,
 		"skill_icon": "d5bb89a25bf7ce54c03b6fb2898927bd06653219.png",
 		"job_icon": "BLM",
 		"level": "66",
@@ -333,6 +356,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Foul",
+		"id": 7422,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c1f2ce42b9d/",
 		"skill_icon": "4a87efd9bcba0589fb9e9a86b1f9dcd38157c1ee.png",
 		"job_icon": "BLM",
@@ -348,6 +372,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Despair",
+		"id": 16505,
 		"skill_icon": "73a81c740f02599d7ec5d451d659b1fe4409123a.png",
 		"job_icon": "BLM",
 		"level": "72",
@@ -362,6 +387,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Xenoglossy",
+		"id": 16507,
 		"skill_icon": "428eac2232a6d9531a9a02e344dc48bb06310c6c.png",
 		"job_icon": "BLM",
 		"level": "80",
@@ -376,6 +402,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "High Fire II",
+		"id": 25794,
 		"skill_icon": "46a0285209f71ee209c27b8211e9aa798417813c.png",
 		"job_icon": "BLM",
 		"level": "82",
@@ -390,6 +417,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "High Blizzard II",
+		"id": 25795,
 		"skill_icon": "f775fdd2f3ef5115cad5ed5a85c81ca2a2cfd735.png",
 		"job_icon": "BLM",
 		"level": "82",
@@ -404,6 +432,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Amplifier",
+		"id": 25796,
 		"skill_icon": "6f48a9f1b585cf23a21cf9ed3f7a012745928295.png",
 		"job_icon": "BLM",
 		"level": "86",
@@ -418,6 +447,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Paradox",
+		"id": 25797,
 		"skill_icon": "7a6d48e67b25969c1ad12f0f42d03b484f8f9f9b.png",
 		"job_icon": "BLM",
 		"level": "90",
@@ -432,6 +462,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "High Thunder",
+		"id": 36986,
 		"skill_icon": "1babd2b0f9ad34451ac3ac29230b2239db95065b.png",
 		"job_icon": "BLM",
 		"level": "92",
@@ -446,6 +477,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "High Thunder II",
+		"id": 36987,
 		"skill_icon": "51a70145dcf0d8136ff82ce50713529f1cebaf84.png",
 		"job_icon": "BLM",
 		"level": "92",
@@ -460,6 +492,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Retrace",
+		"id": 36988,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cede0d25c63/",
 		"skill_icon": "44666e4299c0eded8c4af12edb67c7c9f718bda5.png",
 		"job_icon": "BLM",
@@ -475,6 +508,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Flare Star",
+		"id": 36989,
 		"skill_icon": "1bf799ec68187691dceb2adb9dc0ea1259f03dd1.png",
 		"job_icon": "BLM",
 		"level": "100",
@@ -489,6 +523,7 @@
 	},
 	"Trait 01": {
 		"name": "Aspect Mastery",
+		"id": 296,
 		"skill_icon": "1f6dc1fc194d45867020cb6f5d28829bc1320a35.png",
 		"job_icon": "THM",
 		"level": "1",
@@ -496,6 +531,7 @@
 	},
 	"Trait 02": {
 		"name": "Maim and Mend",
+		"id": 29,
 		"skill_icon": "688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "THM",
 		"level": "20",
@@ -503,6 +539,7 @@
 	},
 	"Trait 03": {
 		"name": "Aspect Mastery II",
+		"id": 458,
 		"skill_icon": "a82ec92018c475ea79c983d7cd8aee36403769c5.png",
 		"job_icon": "THM",
 		"level": "20",
@@ -510,6 +547,7 @@
 	},
 	"Trait 04": {
 		"name": "Aspect Mastery III",
+		"id": 459,
 		"skill_icon": "76a7c6ce2f03e8daa6d5639923955353d7ad7cb8.png",
 		"job_icon": "THM",
 		"level": "35",
@@ -517,6 +555,7 @@
 	},
 	"Trait 05": {
 		"name": "Maim and Mend II",
+		"id": 31,
 		"skill_icon": "f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "THM",
 		"level": "40",
@@ -524,6 +563,7 @@
 	},
 	"Trait 06": {
 		"name": "Firestarter",
+		"id": 32,
 		"skill_icon": "eba9b84751761d8b1a31d917f098c8b1843f8572.png",
 		"job_icon": "THM",
 		"level": "42",
@@ -531,6 +571,7 @@
 	},
 	"Trait 07": {
 		"name": "Thunder Mastery",
+		"id": 171,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e023bb97879/",
 		"skill_icon": "d246d935235a66fd245a11325a9e49fb8c41525d.png",
 		"job_icon": "BLM",
@@ -539,6 +580,7 @@
 	},
 	"Trait 08": {
 		"name": "Enochian",
+		"id": 460,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/27332e04866/",
 		"skill_icon": "455d53e43676e9604b93ba67180e9050cfd7077f.png",
 		"job_icon": "BLM",
@@ -547,6 +589,7 @@
 	},
 	"Trait 09": {
 		"name": "Umbral Heart",
+		"id": 295,
 		"skill_icon": "e6f9a67222832fe27c7a6f3998ed0ab39aaddf1c.png",
 		"job_icon": "BLM",
 		"level": "58",
@@ -554,6 +597,7 @@
 	},
 	"Trait 10": {
 		"name": "Thunder Mastery II",
+		"id": 172,
 		"skill_icon": "c9bc1640c47083f7df3ba856be93dfa1e59d600f.png",
 		"job_icon": "BLM",
 		"level": "64",
@@ -561,6 +605,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Enochian",
+		"id": 174,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c1f2ce42b9d/",
 		"skill_icon": "53a893a774b158e25e4803a4b9ec92b50e6492da.png",
 		"job_icon": "BLM",
@@ -569,6 +614,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Enochian II",
+		"id": 322,
 		"skill_icon": "442db8a1a39e876e2abbc2727fcb816255f701b7.png",
 		"job_icon": "BLM",
 		"level": "78",
@@ -576,6 +622,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Polyglot",
+		"id": 297,
 		"skill_icon": "ecd14c75e33f69d4006d1c80fd44952d60c2c0a2.png",
 		"job_icon": "BLM",
 		"level": "80",
@@ -583,6 +630,7 @@
 	},
 	"Trait 14": {
 		"name": "Enhanced Foul",
+		"id": 461,
 		"skill_icon": "4e8b85566fa51e858b0dfdf86e0f9457e8606880.png",
 		"job_icon": "BLM",
 		"level": "80",
@@ -590,6 +638,7 @@
 	},
 	"Trait 15": {
 		"name": "Aspect Mastery IV",
+		"id": 462,
 		"skill_icon": "3ae30d9437eea508883a60853048894f3c8af421.png",
 		"job_icon": "BLM",
 		"level": "82",
@@ -597,6 +646,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Manafont",
+		"id": 463,
 		"skill_icon": "791a538cb15c66db13742a098bfd38f2f8f8ec53.png",
 		"job_icon": "BLM",
 		"level": "84",
@@ -604,6 +654,7 @@
 	},
 	"Trait 17": {
 		"name": "Enhanced Enochian III",
+		"id": 509,
 		"skill_icon": "72578b4df3af511dffc110405fba9737cff7d922.png",
 		"job_icon": "BLM",
 		"level": "86",
@@ -611,6 +662,7 @@
 	},
 	"Trait 18": {
 		"name": "Aspect Mastery V",
+		"id": 465,
 		"skill_icon": "c81e19d6212f972df31805fc204e150740067760.png",
 		"job_icon": "BLM",
 		"level": "90",
@@ -618,6 +670,7 @@
 	},
 	"Trait 19": {
 		"name": "Thunder Mastery III",
+		"id": 613,
 		"skill_icon": "eebc32855d2ca394cf748076ef0b9cacbec2e32f.png",
 		"job_icon": "BLM",
 		"level": "92",
@@ -625,6 +678,7 @@
 	},
 	"Trait 20": {
 		"name": "Enhanced Ley Lines",
+		"id": 614,
 		"skill_icon": "972846e749d8f5230fd758f2fd861e2120063279.png",
 		"job_icon": "BLM",
 		"level": "96",
@@ -632,6 +686,7 @@
 	},
 	"Trait 21": {
 		"name": "Enhanced Enochian IV",
+		"id": 659,
 		"skill_icon": "56e64c6a8875472651cd1280bcdb3d879c7aabdf.png",
 		"job_icon": "BLM",
 		"level": "96",
@@ -639,6 +694,7 @@
 	},
 	"Trait 22": {
 		"name": "Enhanced Polyglot II",
+		"id": 615,
 		"skill_icon": "cd30af36c468ebc29ca7b8eba0a922a05dc6adf8.png",
 		"job_icon": "BLM",
 		"level": "98",
@@ -646,6 +702,7 @@
 	},
 	"Trait 23": {
 		"name": "Enhanced Astral Fire",
+		"id": 616,
 		"skill_icon": "72fc6ff01df8c8581add7a77a3c64f969f854083.png",
 		"job_icon": "BLM",
 		"level": "100",
@@ -653,6 +710,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Fire",
+		"id": 29649,
 		"skill_icon": "bd8aefe983c379ed726996e5030785d492cef722.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -664,6 +722,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Blizzard",
+		"id": 29653,
 		"skill_icon": "dc24fffcea464a6f5f4ae83c893e89f31ca6a274.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -675,6 +734,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Burst",
+		"id": 29657,
 		"skill_icon": "f2047323e6e33591811d0303209137f0f841cd81.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -686,6 +746,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Paradox",
+		"id": 29663,
 		"skill_icon": "1fd314a320e0ffcf7b928a1e8edb882a7803a7a9.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -697,6 +758,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Xenoglossy",
+		"id": 29658,
 		"skill_icon": "8d1d9703cb27200f8d56f29cdcf335d1dc7f1101.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -708,6 +770,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Lethargy",
+		"id": 41510,
 		"skill_icon": "d892d6cb9e7656c7331d7a7336127ca55292e3c5.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -719,6 +782,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Aetherial Manipulation",
+		"id": 29660,
 		"skill_icon": "b7bfe048da3d02b5572be0dfa123d46be0ca3784.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -730,6 +794,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Elemental Weave",
+		"id": 41475,
 		"skill_icon": "149acbbde977039fb3ec6373b8b17b9a87e3079e.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -741,6 +806,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Fire III",
+		"id": 30896,
 		"skill_icon": "a4377a1577e112a8ad4bc7edb0d6bdcadda363ba.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -752,6 +818,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Fire IV",
+		"id": 29650,
 		"skill_icon": "c19670b228b7a32f1555a892ad6c6f6cf5a299eb.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -763,6 +830,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "High Fire II",
+		"id": 41473,
 		"skill_icon": "2ca4ab1694ca1efcaa13a0fa7e56272629ba9d17.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -774,6 +842,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Flare",
+		"id": 29651,
 		"skill_icon": "e741977a1edf3dd9346fda665513f44e2f3657f4.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -785,6 +854,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Blizzard III",
+		"id": 30897,
 		"skill_icon": "3f8508e9dd5fbda8b464b1184456225d8a3fba63.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -796,6 +866,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Blizzard IV",
+		"id": 29654,
 		"skill_icon": "07ed8d0a26c2565eb1b299106a1cf65e947f1c6f.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -807,6 +878,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "High Blizzard II",
+		"id": 41474,
 		"skill_icon": "17b71de195886959237e059da290f18a15b7ce82.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -818,6 +890,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Freeze",
+		"id": 29655,
 		"skill_icon": "aafe3a863f3f3f97139afda8225384ef31a5dd96.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -829,6 +902,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Wreath of Fire",
+		"id": 41476,
 		"skill_icon": "b04bdeff71509c8b458f0f014b2b45d1916f213c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -840,6 +914,7 @@
 	},
 	"PVP Skill 18": {
 		"name": "Wreath of Ice",
+		"id": 41478,
 		"skill_icon": "c569d01f8dc94cc00224bde48a1b361c0f230008.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -851,6 +926,7 @@
 	},
 	"PVP Skill 19": {
 		"name": "Flare Star",
+		"id": 41480,
 		"skill_icon": "461c3195ccdfe578730607501433fe1f2866b2fc.png",
 		"classification": "Заклинание",
 		"cast": "1.32 сек.",
@@ -862,6 +938,7 @@
 	},
 	"PVP Skill 20": {
 		"name": "Frost Star",
+		"id": 41481,
 		"skill_icon": "070c3efb2ebffae5c55c3c3ba76d03dcb0bc16ef.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -873,6 +950,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Soul Resonance",
+		"id": 29662,
 		"skill_icon": "b834e18e2f5e1eb8dcdde2e1360761650e6296a3.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",

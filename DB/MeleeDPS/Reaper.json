@@ -534,6 +534,7 @@
 	},
 	"Trait 01": {
 		"name": "Soul Gauge",
+		"id": 379,
 		"skill_icon": "cdd4dbdaa89dfc284e0be14a8ef05287679e7210.png",
 		"job_icon": "RPR",
 		"level": "50",
@@ -541,6 +542,7 @@
 	},
 	"Trait 02": {
 		"name": "Melee Mastery",
+		"id": 380,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "RPR",
 		"level": "60",
@@ -548,6 +550,7 @@
 	},
 	"Trait 03": {
 		"name": "Enhanced Avatar",
+		"id": 381,
 		"skill_icon": "884cf03809d4b64336961dedfcb87d7fa5c065f3.png",
 		"job_icon": "RPR",
 		"level": "70",
@@ -555,6 +558,7 @@
 	},
 	"Trait 04": {
 		"name": "Hellsgate",
+		"id": 382,
 		"skill_icon": "197108fc180510d46e15ba85434a517352da9ea3.png",
 		"job_icon": "RPR",
 		"level": "74",
@@ -562,6 +566,7 @@
 	},
 	"Trait 05": {
 		"name": "Tempered Soul",
+		"id": 383,
 		"skill_icon": "c1fcd7a37a619bdd241fafe156ffe6e1c306553d.png",
 		"job_icon": "RPR",
 		"level": "78",
@@ -569,6 +574,7 @@
 	},
 	"Trait 06": {
 		"name": "Shroud Gauge",
+		"id": 384,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3c7fb68def/",
 		"skill_icon": "aec909a3e2c44d5c726b997c0d1af8da7175218d.png",
 		"job_icon": "RPR",
@@ -577,6 +583,7 @@
 	},
 	"Trait 07": {
 		"name": "Enhanced Arcane Crest",
+		"id": 385,
 		"skill_icon": "b2f58d09091b830b74082188a84bb17efd365dc2.png",
 		"job_icon": "RPR",
 		"level": "84",
@@ -584,6 +591,7 @@
 	},
 	"Trait 08": {
 		"name": "Melee Mastery II",
+		"id": 523,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "RPR",
 		"level": "84",
@@ -598,6 +606,7 @@
 	},
 	"Trait 10": {
 		"name": "Enhanced Arcane Circle",
+		"id": 387,
 		"skill_icon": "b6f540f8120532425d4aa28831c6f8cdcbfa5db7.png",
 		"job_icon": "RPR",
 		"level": "88",
@@ -605,6 +614,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Enshroud",
+		"id": 594,
 		"skill_icon": "5091bfb444d4a9ee64f5b364fc58f0c5fb5b0b38.png",
 		"job_icon": "RPR",
 		"level": "92",
@@ -612,6 +622,7 @@
 	},
 	"Trait 12": {
 		"name": "Melee Mastery III",
+		"id": 657,
 		"skill_icon": "76ee293b5a8fae7dd16716bc05d79216ef2689a9.png",
 		"job_icon": "RPR",
 		"level": "94",
@@ -619,6 +630,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Gluttony",
+		"id": 596,
 		"skill_icon": "a31d9112196a1558d38290cc5502d584ce5f05f0.png",
 		"job_icon": "RPR",
 		"level": "96",
@@ -626,6 +638,7 @@
 	},
 	"Trait 14": {
 		"name": "Enhanced Plentiful Harvest",
+		"id": 597,
 		"skill_icon": "71ef6d72decb0ba869aa07010008e538299ba064.png",
 		"job_icon": "RPR",
 		"level": "100",

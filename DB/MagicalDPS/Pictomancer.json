@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Fire in Red",
+		"id": 34650,
 		"skill_icon": "e25904d9d00a0c1067e479ea752557aaec6fc30d.png",
 		"job_icon": "PCT",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Aero in Green",
+		"id": 34651,
 		"skill_icon": "07406a981daf5e92fa645d070a97d8dc87e68a78.png",
 		"job_icon": "PCT",
 		"level": "5",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Tempera Coat",
+		"id": 34685,
 		"skill_icon": "615ab65c73e8727db1cd8de2bb161626170506c8.png",
 		"job_icon": "PCT",
 		"level": "10",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Water in Blue",
+		"id": 34652,
 		"skill_icon": "2cf03c27a9e09631ea594dea8b064cf4f9aa48be.png",
 		"job_icon": "PCT",
 		"level": "15",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Smudge",
+		"id": 34684,
 		"skill_icon": "2933360212b43c10972912ef1907e45937f50292.png",
 		"job_icon": "PCT",
 		"level": "20",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Fire II in Red",
+		"id": 34656,
 		"skill_icon": "a7bc8c6fb62a9d9666ef56e064ac6624474520c4.png",
 		"job_icon": "PCT",
 		"level": "25",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Creature Motif",
+		"id": 34689,
 		"skill_icon": "89e15b3832fe4cd3edbe62d6149f48053694306f.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -99,6 +106,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Living Muse",
+		"id": 35347,
 		"skill_icon": "f9128e8be207d2af1ea466a8a16e0c84028bd237.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -113,6 +121,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Mog of the Ages",
+		"id": 34676,
 		"skill_icon": "67d1a8e6464d65e94696ab65d1b0ba85e7501a91.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -127,6 +136,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Pom Motif",
+		"id": 34664,
 		"skill_icon": "39158442095659217fb08bed59c45b2caf4ae7c2.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -141,6 +151,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Wing Motif",
+		"id": 34665,
 		"skill_icon": "9ccb0df55e15663f80866bd12936553cef27e1f8.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -155,6 +166,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Pom Muse",
+		"id": 34670,
 		"skill_icon": "839afb2d992cdfd4588764299d02f5acd46d8765.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -169,6 +181,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Winged Muse",
+		"id": 34671,
 		"skill_icon": "78640b1974c2e3ac862c3e94b6cf0715c2a53705.png",
 		"job_icon": "PCT",
 		"level": "30",
@@ -183,6 +196,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Aero II in Green",
+		"id": 34657,
 		"skill_icon": "bc20c2aa10ac1db0fae2452b5c3cd41e2b9c2eda.png",
 		"job_icon": "PCT",
 		"level": "35",
@@ -197,6 +211,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Water II in Blue",
+		"id": 34658,
 		"skill_icon": "5d8842fd05fef2d1c4f940bd5a7b35137bdba502.png",
 		"job_icon": "PCT",
 		"level": "45",
@@ -211,6 +226,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Weapon Motif",
+		"id": 34690,
 		"skill_icon": "385f005903208963e20e251176a2e9b7efc0590f.png",
 		"job_icon": "PCT",
 		"level": "50",
@@ -225,6 +241,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Steel Muse",
+		"id": 35348,
 		"skill_icon": "b17ceff782edd7fed2934d1bb6a918fb8e97ef7f.png",
 		"job_icon": "PCT",
 		"level": "50",
@@ -239,6 +256,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Hammer Stamp",
+		"id": 34678,
 		"skill_icon": "bd61923ae5b677d8d93e57b962b23511d0f4396c.png",
 		"job_icon": "PCT",
 		"level": "50",
@@ -253,6 +271,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Hammer Motif",
+		"id": 34668,
 		"skill_icon": "3c48a4050ea4386ef17063dbc841e75327a8d29e.png",
 		"job_icon": "PCT",
 		"level": "50",
@@ -267,6 +286,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Striking Muse",
+		"id": 34674,
 		"skill_icon": "83dc200badfab99ff0f550da3b13737e82dfa118.png",
 		"job_icon": "PCT",
 		"level": "50",
@@ -281,6 +301,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Blizzard in Cyan",
+		"id": 34653,
 		"skill_icon": "4a31c08d79867d5b332f98f8616bb06b9088daf0.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -295,6 +316,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Blizzard II in Cyan",
+		"id": 34659,
 		"skill_icon": "5f09a63e115cb331f60826a258ba7d2cf51adf3f.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -309,6 +331,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Subtractive Palette",
+		"id": 34683,
 		"skill_icon": "346a632a64591ed1e61406c1a85357112ae98a80.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -323,6 +346,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Stone in Yellow",
+		"id": 34654,
 		"skill_icon": "8f7552113b38a8e6b3debb5ca900fbcd2bc3d0fb.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -337,6 +361,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Thunder in Magenta",
+		"id": 34655,
 		"skill_icon": "f6f648fbed76b3d0b99e4127e8e9024234b6fb97.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -351,6 +376,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Stone II in Yellow",
+		"id": 34660,
 		"skill_icon": "900e2d32cfb03084ddf48bc8120763ad623f5540.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -365,6 +391,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Thunder II in Magenta",
+		"id": 34661,
 		"skill_icon": "6463351c3b4bef69baddc35e1c6d93a247daa923.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -379,6 +406,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Landscape Motif",
+		"id": 34691,
 		"skill_icon": "f05b478236d27157b878276c280c3b49bd13cca6.png",
 		"job_icon": "PCT",
 		"level": "70",
@@ -393,6 +421,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Scenic Muse",
+		"id": 35349,
 		"skill_icon": "d711d26c3f29241311b78bca1d92cc18de18e35f.png",
 		"job_icon": "PCT",
 		"level": "70",
@@ -407,6 +436,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Starry Sky Motif",
+		"id": 34669,
 		"skill_icon": "39ff3bff7a4857c386313552edd236755358526a.png",
 		"job_icon": "PCT",
 		"level": "70",
@@ -421,6 +451,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Starry Muse",
+		"id": 34675,
 		"skill_icon": "cafa13f63003b860d9edc8e67aa095fed5501a79.png",
 		"job_icon": "PCT",
 		"level": "70",
@@ -435,6 +466,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Holy in White",
+		"id": 34662,
 		"skill_icon": "5d8eefda835c959562af7d1fe12b229cedcca409.png",
 		"job_icon": "PCT",
 		"level": "80",
@@ -449,6 +481,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Hammer Brush",
+		"id": 34679,
 		"skill_icon": "10803efae25f689fa66fe9ddedce3a95390e80c5.png",
 		"job_icon": "PCT",
 		"level": "86",
@@ -463,6 +496,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Polishing Hammer",
+		"id": 34680,
 		"skill_icon": "2405c837c6e42b5e05b84f9e10b30ef2eb6224e0.png",
 		"job_icon": "PCT",
 		"level": "86",
@@ -477,6 +511,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Tempera Grassa",
+		"id": 34686,
 		"skill_icon": "ed684b430814130c6917a00018cd5e400430e210.png",
 		"job_icon": "PCT",
 		"level": "88",
@@ -491,6 +526,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Comet in Black",
+		"id": 34663,
 		"skill_icon": "b6e90d61c6e71d968943043d62ddb5e1a9e6d7f3.png",
 		"job_icon": "PCT",
 		"level": "90",
@@ -505,6 +541,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Rainbow Drip",
+		"id": 34688,
 		"skill_icon": "5611f2fd77f2a770574f207216a66a12629a7526.png",
 		"job_icon": "PCT",
 		"level": "92",
@@ -519,6 +556,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Claw Motif",
+		"id": 34666,
 		"skill_icon": "34cd074b3bd5cc9036d2598ae899aed5e77e6db3.png",
 		"job_icon": "PCT",
 		"level": "96",
@@ -533,6 +571,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Maw Motif",
+		"id": 34667,
 		"skill_icon": "96814a40791c36cc4eff5e82300e1fb851a4515e.png",
 		"job_icon": "PCT",
 		"level": "96",
@@ -547,6 +586,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Clawed Muse",
+		"id": 34672,
 		"skill_icon": "e7eb51e71ca43854e55e520c860658d166e4b266.png",
 		"job_icon": "PCT",
 		"level": "96",
@@ -561,6 +601,7 @@
 	},
 	"PVE Skill 41": {
 		"name": "Fanged Muse",
+		"id": 34673,
 		"skill_icon": "a7397b9f417ac2daf98e9f72b38e30768ec3b1cf.png",
 		"job_icon": "PCT",
 		"level": "96",
@@ -575,6 +616,7 @@
 	},
 	"PVE Skill 42": {
 		"name": "Retribution of the Madeen",
+		"id": 34677,
 		"skill_icon": "cfe33f3c8faa98ade9f3f2fa13e4fbb1aa0cb3e3.png",
 		"job_icon": "PCT",
 		"level": "96",
@@ -589,6 +631,7 @@
 	},
 	"PVE Skill 43": {
 		"name": "Star Prism",
+		"id": 34681,
 		"skill_icon": "5627109a7394cce83a4085e16b4448a7d0262525.png",
 		"job_icon": "PCT",
 		"level": "100",
@@ -603,6 +646,7 @@
 	},
 	"Trait 01": {
 		"name": "Maim and Mend",
+		"id": 670,
 		"skill_icon": "688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "PCT",
 		"level": "20",
@@ -610,6 +654,7 @@
 	},
 	"Trait 02": {
 		"name": "Maim and Mend II",
+		"id": 671,
 		"skill_icon": "f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "PCT",
 		"level": "40",
@@ -617,6 +662,7 @@
 	},
 	"Trait 03": {
 		"name": "Pictomancy Mastery",
+		"id": 672,
 		"skill_icon": "ad0c61780693af7ce5d7331856d865fadc941cc9.png",
 		"job_icon": "PCT",
 		"level": "54",
@@ -624,6 +670,7 @@
 	},
 	"Trait 04": {
 		"name": "Palette Gauge",
+		"id": 537,
 		"skill_icon": "ed350b3a4f38f31ce5e9153909cd05d3f2740980.png",
 		"job_icon": "PCT",
 		"level": "60",
@@ -631,6 +678,7 @@
 	},
 	"Trait 05": {
 		"name": "Pictomancy Mastery II",
+		"id": 676,
 		"skill_icon": "fa01c39aad1f63bab6834385d2857e782f73bef3.png",
 		"job_icon": "PCT",
 		"level": "74",
@@ -638,6 +686,7 @@
 	},
 	"Trait 06": {
 		"name": "Enhanced Artistry",
+		"id": 538,
 		"skill_icon": "9c098373a6a2923202dad6f792e26de1f24b7118.png",
 		"job_icon": "PCT",
 		"level": "80",
@@ -645,6 +694,7 @@
 	},
 	"Trait 07": {
 		"name": "Enhanced Pictomancy",
+		"id": 546,
 		"skill_icon": "1ff3ab29b234ca2041912c220d80cd3a67defb77.png",
 		"job_icon": "PCT",
 		"level": "82",
@@ -652,6 +702,7 @@
 	},
 	"Trait 08": {
 		"name": "Enhanced Smudge",
+		"id": 539,
 		"skill_icon": "b522ef5f10dd45407c96b6f7661b4d7a24863a0f.png",
 		"job_icon": "PCT",
 		"level": "84",
@@ -659,6 +710,7 @@
 	},
 	"Trait 09": {
 		"name": "Pictomancy Mastery III",
+		"id": 677,
 		"skill_icon": "d89bc4bb459ec42ad2c6ff8170ccbfffe7962a50.png",
 		"job_icon": "PCT",
 		"level": "84",
@@ -666,6 +718,7 @@
 	},
 	"Trait 10": {
 		"name": "Enhanced Pictomancy II",
+		"id": 540,
 		"skill_icon": "0cfb3f30dad8142dc038fa326f1a0fe5c856a59c.png",
 		"job_icon": "PCT",
 		"level": "86",
@@ -673,6 +726,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Tempera",
+		"id": 541,
 		"skill_icon": "b238c0e118e493e49f7b4508b23a77e18cb0ba33.png",
 		"job_icon": "PCT",
 		"level": "88",
@@ -680,6 +734,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Palette",
+		"id": 542,
 		"skill_icon": "1a308480d67b3af7711d2b97ba1b5c5c87a86163.png",
 		"job_icon": "PCT",
 		"level": "90",
@@ -687,6 +742,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Pictomancy III",
+		"id": 543,
 		"skill_icon": "b63973ed575fe9f1b35a307c4f7f14dbf528c873.png",
 		"job_icon": "PCT",
 		"level": "92",
@@ -694,6 +750,7 @@
 	},
 	"Trait 14": {
 		"name": "Pictomancy Mastery IV",
+		"id": 678,
 		"skill_icon": "a3e17894ca98f3065d9b76d83657385abf02e1cc.png",
 		"job_icon": "PCT",
 		"level": "94",
@@ -701,6 +758,7 @@
 	},
 	"Trait 15": {
 		"name": "Enhanced Pictomancy IV",
+		"id": 545,
 		"skill_icon": "8bb7f53a94ef9f297e05eb1ee60f28d1424fa065.png",
 		"job_icon": "PCT",
 		"level": "96",
@@ -708,6 +766,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Pictomancy V",
+		"id": 544,
 		"skill_icon": "5a5b49af6e2cfc92bb9bd85310893fae68239348.png",
 		"job_icon": "PCT",
 		"level": "100",
@@ -715,6 +774,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Fire in Red",
+		"id": 39191,
 		"skill_icon": "c0e56a0d4cf1578b83b7b074ca91f245bda5b8ed.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -726,6 +786,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Holy in White",
+		"id": 39198,
 		"skill_icon": "00385107dfd36a27756e8bdd935c565677386459.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -737,6 +798,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Creature Motif",
+		"id": 39204,
 		"skill_icon": "79eb1db429f1e4c975a7a44b35c974cc192dc7d7.png",
 		"classification": "Заклинание",
 		"cast": "1.8 сек.",
@@ -748,6 +810,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Living Muse",
+		"id": 39209,
 		"skill_icon": "b15e0a9f0d71e6c28356bad098818cd7e4c79766.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -759,6 +822,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Mog of the Ages",
+		"id": 39782,
 		"skill_icon": "aa47b13470953c72f7f1319eb85345971374e0f9.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -770,6 +834,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Smudge",
+		"id": 39210,
 		"skill_icon": "4a8241cfd5161fa63aadae588a7bccb8948aabeb.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -781,6 +846,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Tempera Coat",
+		"id": 39211,
 		"skill_icon": "b374e26828c617c35ed61d4a8a1535101c38399f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -792,6 +858,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Subtractive Palette",
+		"id": 39213,
 		"skill_icon": "e4e9d75773e873155e5f175971e4c3bb82b7b3c6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -803,6 +870,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Aero in Green",
+		"id": 39192,
 		"skill_icon": "8a3991ea36e4afc117921e791810cbd6bd79f688.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -814,6 +882,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Water in Blue",
+		"id": 39193,
 		"skill_icon": "32f6385276fcf8c8265169219051910acd58ca18.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -825,6 +894,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Blizzard in Cyan",
+		"id": 39194,
 		"skill_icon": "19a18cabc7c500cf37a2a225fbce543b4a46b094.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -836,6 +906,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Stone in Yellow",
+		"id": 39195,
 		"skill_icon": "f7ca8f42d105124efd328db0455e5941aba9acad.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -847,6 +918,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Thunder in Magenta",
+		"id": 39196,
 		"skill_icon": "2c9a38e15538f766d1a2f1cef421104335458698.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -858,6 +930,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Comet in Black",
+		"id": 39199,
 		"skill_icon": "1d830f52710c0d2d198699098f5b7ad7c6a70496.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -869,6 +942,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Pom Motif",
+		"id": 39200,
 		"skill_icon": "72b068c52a228df2cc72f6906d9595af240f5cd3.png",
 		"classification": "Заклинание",
 		"cast": "1.8 сек.",
@@ -880,6 +954,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Wing Motif",
+		"id": 39201,
 		"skill_icon": "303c02febb046418b4579c33dd60bf7d4881762e.png",
 		"classification": "Заклинание",
 		"cast": "1.8 сек.",
@@ -891,6 +966,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Claw Motif",
+		"id": 39202,
 		"skill_icon": "d27fd4cdfbfab888ea7a2dc563780523da531fec.png",
 		"classification": "Заклинание",
 		"cast": "1.8 сек.",
@@ -902,6 +978,7 @@
 	},
 	"PVP Skill 18": {
 		"name": "Maw Motif",
+		"id": 39203,
 		"skill_icon": "cf83b2d14e25b5cc4a2908500c0d192f95fad2fb.png",
 		"classification": "Заклинание",
 		"cast": "1.8 сек.",
@@ -913,6 +990,7 @@
 	},
 	"PVP Skill 19": {
 		"name": "Pom Muse",
+		"id": 39205,
 		"skill_icon": "c68a47cb4ad350d16d41f2835c8f2c83e63acc00.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -924,6 +1002,7 @@
 	},
 	"PVP Skill 20": {
 		"name": "Winged Muse",
+		"id": 39206,
 		"skill_icon": "80caa4495f49a84e017745a21e6bc0c997c8c420.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -935,6 +1014,7 @@
 	},
 	"PVP Skill 21": {
 		"name": "Clawed Muse",
+		"id": 39207,
 		"skill_icon": "8a084fdc2deb34a20608e057871e3d237017b42c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -946,6 +1026,7 @@
 	},
 	"PVP Skill 22": {
 		"name": "Fanged Muse",
+		"id": 39208,
 		"skill_icon": "07f72a1e8df3e068a0111c25871a8b6b61117636.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -957,6 +1038,7 @@
 	},
 	"PVP Skill 23": {
 		"name": "Retribution of the Madeen",
+		"id": 39783,
 		"skill_icon": "d7522955f9d7c3aa0ff024d9762644de023f0347.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -968,6 +1050,7 @@
 	},
 	"PVP Skill 24": {
 		"name": "Tempera Grassa",
+		"id": 39212,
 		"skill_icon": "cfe265bf9bf3b385248588694df294aa3f0c2d65.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -979,6 +1062,7 @@
 	},
 	"PVP Skill 25": {
 		"name": "Star Prism",
+		"id": 39216,
 		"skill_icon": "292cd782b225aeb87e590190f12b8963f759b4ba.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -990,6 +1074,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Advent of Chocobastion",
+		"id": 39215,
 		"skill_icon": "e015114ded2f4f0c44b02c840de79c23e98dedf6.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",

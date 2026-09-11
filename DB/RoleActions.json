@@ -1,6 +1,7 @@
 {
 	"Role Action 01": {
 		"name": "Rampart",
+		"id": 7531,
 		"skill_icon": "37546679ae5e431c0903b20fa2c91a88c5a8e001.png",
 		"job_class_01": "Tank",
 		"level": "8",
@@ -15,6 +16,7 @@
 	},
 	"Role Action 02": {
 		"name": "Low Blow",
+		"id": 7540,
 		"skill_icon": "af837b3dd467ee9cdf865a06eb2b1633dd2b492a.png",
 		"job_class_01": "Tank",
 		"level": "12",
@@ -29,6 +31,7 @@
 	},
 	"Role Action 03": {
 		"name": "Provoke",
+		"id": 7533,
 		"skill_icon": "2b45fea903bcf1edd9e08110cf95e8bba9a73c0d.png",
 		"job_class_01": "Tank",
 		"level": "15",
@@ -43,6 +46,7 @@
 	},
 	"Role Action 04": {
 		"name": "Interject",
+		"id": 7538,
 		"skill_icon": "8442bcce1ec21a449546af9afb79ae9ea8c226cb.png",
 		"job_class_01": "Tank",
 		"level": "18",
@@ -57,6 +61,7 @@
 	},
 	"Role Action 05": {
 		"name": "Reprisal",
+		"id": 7535,
 		"skill_icon": "6b83d9368623d5cd20a426d26916021b59a14963.png",
 		"job_class_01": "Tank",
 		"level": "22",
@@ -71,6 +76,7 @@
 	},
 	"Role Action 06": {
 		"name": "Arm`s Length",
+		"id": 7548,
 		"skill_icon": "00ff21ad3e1fb26d7b292a9d912931e7ea64daa4.png",
 		"job_class_01": "Tank",
 		"job_class_02": "MeleeDPS",
@@ -87,6 +93,7 @@
 	},
 	"Role Action 07": {
 		"name": "Shirk",
+		"id": 7537,
 		"skill_icon": "4abd24800cb0999fff8ea79ed1085a7b5f8b14cb.png",
 		"job_class_01": "Tank",
 		"level": "48",
@@ -101,6 +108,7 @@
 	},
 	"Role Action 08": {
 		"name": "Repose",
+		"id": 16560,
 		"skill_icon": "9bd731d47094c2c11b5cd9fb0d1d277bf9c6c89d.png",
 		"job_class_01": "Healer",
 		"level": "8",
@@ -115,6 +123,7 @@
 	},
 	"Role Action 09": {
 		"name": "Esuna",
+		"id": 7568,
 		"skill_icon": "2a6603bc786d73eb3829141482b3d5be5d484199.png",
 		"job_class_01": "Healer",
 		"level": "10",
@@ -129,6 +138,7 @@
 	},
 	"Role Action 10": {
 		"name": "Lucid Dreaming",
+		"id": 7562,
 		"skill_icon": "3629c6854aa559656623925e2489b60c2fa91e18.png",
 		"job_class_01": "Healer",
 		"job_class_02": "MagicalRangedDPS",
@@ -144,6 +154,7 @@
 	},
 	"Role Action 11": {
 		"name": "Swiftcast",
+		"id": 7561,
 		"skill_icon": "27d401b3cfbf90c846ffeaa9f661afb4bd77ce98.png",
 		"job_class_01": "Healer",
 		"job_class_02": "MagicalRangedDPS",
@@ -159,6 +170,7 @@
 	},
 	"Role Action 12": {
 		"name": "Surecast",
+		"id": 7559,
 		"skill_icon": "477d1e7f7115db19c344c0f5cadfcfa2ac0cdcc0.png",
 		"job_class_01": "Healer",
 		"job_class_02": "MagicalRangedDPS",
@@ -174,6 +186,7 @@
 	},
 	"Role Action 13": {
 		"name": "Rescue",
+		"id": 7571,
 		"skill_icon": "23f8a26b9a0107b6076f5f2e715e14d9be0edc25.png",
 		"job_class_01": "Healer",
 		"level": "48",
@@ -188,6 +201,7 @@
 	},
 	"Role Action 14": {
 		"name": "Second Wind",
+		"id": 7541,
 		"skill_icon": "2b79d78f1ed471ace5708898e3388062fbd555fb.png",
 		"job_class_01": "MeleeDPS",
 		"job_class_02": "PhysicalRangedDPS",
@@ -203,6 +217,7 @@
 	},
 	"Role Action 15": {
 		"name": "Leg Sweep",
+		"id": 7863,
 		"skill_icon": "8c9674aba5fe48e73cc80ceb4a49782c1539b942.png",
 		"job_class_01": "MeleeDPS",
 		"level": "10",
@@ -217,6 +232,7 @@
 	},
 	"Role Action 16": {
 		"name": "Bloodbath",
+		"id": 7542,
 		"skill_icon": "f76d6999b80178e51cfedf68f3af69ce6ed5016f.png",
 		"job_class_01": "MeleeDPS",
 		"level": "12",
@@ -231,6 +247,7 @@
 	},
 	"Role Action 17": {
 		"name": "Feint",
+		"id": 7549,
 		"skill_icon": "84c26a86cbbb8a599e5a2441cebcd33b0064bf07.png",
 		"job_class_01": "MeleeDPS",
 		"level": "22",
@@ -245,6 +262,7 @@
 	},
 	"Role Action 18": {
 		"name": "True North",
+		"id": 7546,
 		"skill_icon": "2d62e72f5da6d52e189c1ed10dfbd602625fc536.png",
 		"job_class_01": "MeleeDPS",
 		"level": "50",
@@ -259,6 +277,7 @@
 	},
 	"Role Action 19": {
 		"name": "Leg Graze",
+		"id": 7554,
 		"skill_icon": "2a6b7be8517f51d8cbcc60be2ae5970668f515eb.png",
 		"job_class_01": "PhysicalRangedDPS",
 		"level": "6",
@@ -273,6 +292,7 @@
 	},
 	"Role Action 20": {
 		"name": "Foot Graze",
+		"id": 7553,
 		"skill_icon": "8b1f979d2b1428f9791f54ad0e429ea94a8d95d6.png",
 		"job_class_01": "PhysicalRangedDPS",
 		"level": "10",
@@ -287,6 +307,7 @@
 	},
 	"Role Action 21": {
 		"name": "Peloton",
+		"id": 7557,
 		"skill_icon": "fb8b0f0ca18af4362d27f6699579bd5a18b40137.png",
 		"job_class_01": "PhysicalRangedDPS",
 		"level": "20",
@@ -301,6 +322,7 @@
 	},
 	"Role Action 22": {
 		"name": "Head Graze",
+		"id": 7551,
 		"skill_icon": "748fe5fc8262b58e9a35aa9e4d40e67a0dd006a5.png",
 		"job_class_01": "PhysicalRangedDPS",
 		"level": "20",
@@ -315,6 +337,7 @@
 	},
 	"Role Action 23": {
 		"name": "Addle",
+		"id": 7560,
 		"skill_icon": "b45e688d81b5607246600f904aac008364db0d1e.png",
 		"job_class_01": "MagicalRangedDPS",
 		"level": "8",
@@ -329,6 +352,7 @@
 	},
 	"Role Action 24": {
 		"name": "Sleep",
+		"id": 25880,
 		"skill_icon": "10e9fb5302668c923b8237ffbd4841ccc6c2edb4.png",
 		"job_class_01": "MagicalRangedDPS",
 		"level": "10",
@@ -343,6 +367,7 @@
 	},
 	"RT Tank 01": {
 		"name": "Enhanced Rampart",
+		"id": 639,
 		"skill_icon": "ad8de6373f0bc939fd654a579d6d06ad123c958b.png",
 		"job_class_01": "Tank",
 		"level": "94",
@@ -350,6 +375,7 @@
 	},
 	"RT Tank 02": {
 		"name": "Enhanced Reprisal",
+		"id": 640,
 		"skill_icon": "1a390002a4eabb796458e1a93716060e1ec4d185.png",
 		"job_class_01": "Tank",
 		"level": "98",
@@ -357,6 +383,7 @@
 	},
 	"RT Healer": {
 		"name": "Enhanced Swiftcast",
+		"id": 644,
 		"skill_icon": "0948538a89b748ec2d1f2c6c8ad2afe383a740d3.png",
 		"job_class_01": "Healer",
 		"job_class_02": "MagicalRangedDPS",
@@ -365,6 +392,7 @@
 	},
 	"RT MeleeDPS 01": {
 		"name": "Enhanced Second Wind",
+		"id": 642,
 		"skill_icon": "dccd320d548ebfe264816b020f67211d2a310bb9.png",
 		"job_class_01": "MeleeDPS",
 		"job_class_02": "PhysicalRangedDPS",
@@ -373,6 +401,7 @@
 	},
 	"RT MeleeDPS 02": {
 		"name": "Enhanced Feint",
+		"id": 641,
 		"skill_icon": "dda2a9e930cb141e91f00c4f2eda5fd5e1678e07.png",
 		"job_class_01": "MeleeDPS",
 		"level": "98",
@@ -380,6 +409,7 @@
 	},
 	"RT MagicalDPS 01": {
 		"name": "Enhanced Swiftcast",
+		"id": 644,
 		"skill_icon": "0948538a89b748ec2d1f2c6c8ad2afe383a740d3.png",
 		"job_class_01": "Healer",
 		"job_class_02": "MagicalRangedDPS",
@@ -388,6 +418,7 @@
 	},
 	"RT MagicalDPS 02": {
 		"name": "Enhanced Addle",
+		"id": 643,
 		"skill_icon": "590a381c0421f33d428c1dd51293c715a1a53ee7.png",
 		"job_class_01": "MagicalRangedDPS",
 		"level": "98",
@@ -395,6 +426,7 @@
 	},
 	"PVP Actions 01": {
 		"name": "Standard-issue Elixir",
+		"id": 29055,
 		"skill_icon": "a57f3dd330cf3f55962ccddc7df6858f45718607.png",
 		"classification": "Способность",
 		"cast": "4.5 сек.",
@@ -407,6 +439,7 @@
 	},
 	"PVP Actions 02": {
 		"name": "Recuperate",
+		"id": 29711,
 		"skill_icon": "2085fa5a3247d8f7648b9eea2874ffb62eaf21c6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -419,6 +452,7 @@
 	},
 	"PVP Actions 03": {
 		"name": "Purify",
+		"id": 29056,
 		"skill_icon": "2fdba29de282257b52e21e33abe5f4fef43519cd.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -431,6 +465,7 @@
 	},
 	"PVP Actions 04": {
 		"name": "Guard",
+		"id": 29054,
 		"skill_icon": "21e24c5bf00677220efb8c1a1e6001537ee26d23.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -443,6 +478,7 @@
 	},
 	"PVP Actions 05": {
 		"name": "Sprint",
+		"id": 29057,
 		"skill_icon": "1b49a585ab241c7b5b8bb4d6f47ccec6b96fdaee.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -455,6 +491,7 @@
 	},
 	"PVP Role Action 01": {
 		"name": "Rampage",
+		"id": 43243,
 		"skill_icon": "0025644eea0d29c167038c0fa0c4b7784d88c6dc.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -466,6 +503,7 @@
 	},
 	"PVP Role Action 02": {
 		"name": "Rampart",
+		"id": 43244,
 		"skill_icon": "d947368973397ac9682cbb74a423247410963fc6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -477,6 +515,7 @@
 	},
 	"PVP Role Action 03": {
 		"name": "Full Swing",
+		"id": 43245,
 		"skill_icon": "47746513d4aeed38aaa5badcc22cd7d6569869d2.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -488,6 +527,7 @@
 	},
 	"PVP Role Action 04": {
 		"name": "Haelan",
+		"id": 43255,
 		"skill_icon": "723d97c52696b74e2493aa2c20ad3161f99a5823.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -500,6 +540,7 @@
 	},
 	"PVP Role Action 05": {
 		"name": "Stoneskin II",
+		"id": 43256,
 		"skill_icon": "246e8261f9049a61874125090da6803554fa02ce.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -512,6 +553,7 @@
 	},
 	"PVP Role Action 06": {
 		"name": "Diabrosis",
+		"id": 43257,
 		"skill_icon": "808a5e2b506ca895c3d5c4187f18ce4ac813a566.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -524,6 +566,7 @@
 	},
 	"PVP Role Action 07": {
 		"name": "Bloodbath",
+		"id": 43246,
 		"skill_icon": "3f4e049b56fe58f93ddf61cec1e4157675ad7f02.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -535,6 +578,7 @@
 	},
 	"PVP Role Action 08": {
 		"name": "Swift",
+		"id": 43247,
 		"skill_icon": "4c0e196518ec2d5f7f584cc2c9824930f303a531.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -546,6 +590,7 @@
 	},
 	"PVP Role Action 09": {
 		"name": "Smite",
+		"id": 43248,
 		"skill_icon": "83978e6c6cfafeb1e30bf085e884b9c2030435db.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -557,6 +602,7 @@
 	},
 	"PVP Role Action 10": {
 		"name": "Dervish",
+		"id": 43249,
 		"skill_icon": "7d8fbe1550c91afbd4d4349a0aab9dab9a1e04ab.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -568,6 +614,7 @@
 	},
 	"PVP Role Action 11": {
 		"name": "Bravery",
+		"id": 43250,
 		"skill_icon": "5224aafe6eaf21b1b9a559865b37b023524ae0c7.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -579,6 +626,7 @@
 	},
 	"PVP Role Action 12": {
 		"name": "Eagle Eye Shot",
+		"id": 43251,
 		"skill_icon": "67522181f502fda37e11dd98b9bf8e8f337f36fa.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -590,6 +638,7 @@
 	},
 	"PVP Role Action 13": {
 		"name": "Comet",
+		"id": 43252,
 		"skill_icon": "e4fc5a2a1a14cc8831e9b5d0cf2e3188af51e3c0.png",
 		"classification": "Заклинание",
 		"cast": "2.4 сек.",
@@ -601,6 +650,7 @@
 	},
 	"PVP Role Action 14": {
 		"name": "Phantom Dart",
+		"id": 43291,
 		"skill_icon": "73d32dda03743186181568f145a260d41487e51c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -612,6 +662,7 @@
 	},
 	"PVP Role Action 15": {
 		"name": "Rust",
+		"id": 43254,
 		"skill_icon": "9c24680d2c87ff15f7815d8b2dfba4c17e2ccf20.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",

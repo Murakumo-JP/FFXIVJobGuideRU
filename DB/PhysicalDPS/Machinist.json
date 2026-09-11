@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Split Shot",
+		"id": 2866,
 		"skill_icon": "8060c2f198141fb9c4d4202e298c212c15a82e88.png",
 		"job_icon": "MCH",
 		"level": "1",
@@ -14,6 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Slug Shot",
+		"id": 2868,
 		"skill_icon": "63bb059658f193d08de8cd45e4a95e7bed0418b8.png",
 		"job_icon": "MCH",
 		"level": "2",
@@ -27,6 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Hot Shot",
+		"id": 2872,
 		"skill_icon": "b297b6034baa7347d3a53a12910b102914ce3c3e.png",
 		"job_icon": "MCH",
 		"level": "4",
@@ -40,6 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Reassemble",
+		"id": 2876,
 		"skill_icon": "55906cd43fffdf7bcc09790b1b02b19edc6b2e8e.png",
 		"job_icon": "MCH",
 		"level": "10",
@@ -53,6 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Gauss Round",
+		"id": 2874,
 		"skill_icon": "e6959a3306b601fc9e5987712f6d9ea247a7a566.png",
 		"job_icon": "MCH",
 		"level": "15",
@@ -66,6 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Spread Shot",
+		"id": 2870,
 		"skill_icon": "7c4e991ed4e6b585ceb2dda1c03dec0278ff28f0.png",
 		"job_icon": "MCH",
 		"level": "18",
@@ -79,6 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Clean Shot",
+		"id": 2873,
 		"skill_icon": "d6d762f987ab51e9840cbf5229251838b16078b5.png",
 		"job_icon": "MCH",
 		"level": "26",
@@ -92,6 +99,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Hypercharge",
+		"id": 17209,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e67ae514847/",
 		"skill_icon": "273150b6ebb3357688de07d86ec37a02da8e9348.png",
 		"job_icon": "MCH",
@@ -106,6 +114,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Heat Blast",
+		"id": 7410,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/618ec7eb4bb/",
 		"skill_icon": "009d06297b1776f1404cdf4de9c5bd8b17a447e6.png",
 		"job_icon": "MCH",
@@ -120,6 +129,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Rook Autoturret",
+		"id": 2864,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6ef1ac08680/",
 		"skill_icon": "5b7c9667f3dca5facbc020d4ab7743c7f9d4e6d9.png",
 		"job_icon": "MCH",
@@ -134,6 +144,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Rook Overdrive",
+		"id": 7415,
 		"skill_icon": "d02c5a123e15d77891887c24dce2f6f21d92852d.png",
 		"job_icon": "MCH",
 		"level": "40",
@@ -147,6 +158,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Rook Overload",
+		"id": 7416,
 		"skill_icon": "0458a11999934b3eb6d4088c941329698c898722.png",
 		"job_icon": "MCH",
 		"level": "40",
@@ -160,6 +172,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Wildfire",
+		"id": 2878,
 		"skill_icon": "6d73e45fbbfb35ad0a4f8b4a73753e6a06a37651.png",
 		"job_icon": "MCH",
 		"level": "45",
@@ -173,6 +186,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Detonator",
+		"id": 16766,
 		"skill_icon": "d342968f8a04290200386a016f586a0b175e3d3b.png",
 		"job_icon": "MCH",
 		"level": "45",
@@ -186,6 +200,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Ricochet",
+		"id": 2890,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8009173f2c1/",
 		"skill_icon": "5556960a2e8ce389c2117d13c6d182f41943c3c9.png",
 		"job_icon": "MCH",
@@ -200,6 +215,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Auto Crossbow",
+		"id": 16497,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/dec97d20aae/",
 		"skill_icon": "8c8ae8bf5d1dbcae1bf932cfed578e4fda8d80f3.png",
 		"job_icon": "MCH",
@@ -214,6 +230,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Heated Split Shot",
+		"id": 7411,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/708447cc2e7/",
 		"skill_icon": "c7fb786ed29dd5618309e36b58105dd329f255fa.png",
 		"job_icon": "MCH",
@@ -228,6 +245,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Tactician",
+		"id": 16889,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fac8668168e/",
 		"skill_icon": "eb334bf6f4cfd728e234e09c1cc1521c37d9d73e.png",
 		"job_icon": "MCH",
@@ -242,6 +260,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Drill",
+		"id": 16498,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1f28f88b934/",
 		"skill_icon": "c8bd9fe712521ac377c3359846437a640c0516b7.png",
 		"job_icon": "MCH",
@@ -256,6 +275,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Heated Slug Shot",
+		"id": 7412,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/74fe228d7b6/",
 		"skill_icon": "7f91784177366a8b4dd069a15915b41601231f83.png",
 		"job_icon": "MCH",
@@ -270,6 +290,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Dismantle",
+		"id": 2887,
 		"skill_icon": "94eaa7aadfa4d857c00551af690f42bb5d7a4a94.png",
 		"job_icon": "MCH",
 		"level": "62",
@@ -283,6 +304,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Heated Clean Shot",
+		"id": 7413,
 		"skill_icon": "3c8cababe00b6d512baada3b68a32cb866758a17.png",
 		"job_icon": "MCH",
 		"level": "64",
@@ -296,6 +318,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Barrel Stabilizer",
+		"id": 7414,
 		"skill_icon": "1688057a6b4150542d3c41e9e5202cf5aa14b5b7.png",
 		"job_icon": "MCH",
 		"level": "66",
@@ -309,6 +332,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Blazing Shot",
+		"id": 36978,
 		"skill_icon": "c70341dbb174a9c43c76249ae4b7c40aefbbf40a.png",
 		"job_icon": "MCH",
 		"level": "68",
@@ -322,6 +346,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Flamethrower",
+		"id": 7418,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/07e9b7dbdb8/",
 		"skill_icon": "37f5418d1629e6ebc93161622a271d14aa82464e.png",
 		"job_icon": "MCH",
@@ -336,6 +361,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Bioblaster",
+		"id": 16499,
 		"skill_icon": "193879ae7c68f4e144e385a018c69e3626dfa569.png",
 		"job_icon": "MCH",
 		"level": "72",
@@ -349,6 +375,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Air Anchor",
+		"id": 16500,
 		"skill_icon": "85abf6ce8fa5c7b7bda98e11f37df0e8c024015e.png",
 		"job_icon": "MCH",
 		"level": "76",
@@ -362,6 +389,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Automaton Queen",
+		"id": 16501,
 		"skill_icon": "e27f4ccdaad09197dbb5c06734c52bd2e4b4af06.png",
 		"job_icon": "MCH",
 		"level": "80",
@@ -375,6 +403,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Queen Overdrive",
+		"id": 16502,
 		"skill_icon": "1424989e6ca3765da1c9c323ebcf72d0c9ba1536.png",
 		"job_icon": "MCH",
 		"level": "80",
@@ -388,6 +417,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Arm Punch",
+		"id": 16504,
 		"skill_icon": "813737b1502285e729d93645fe816e75350bb1c9.png",
 		"job_icon": "MCH",
 		"level": "80",
@@ -401,6 +431,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Roller Dash",
+		"id": 17206,
 		"skill_icon": "2f01267b74b97a5447bd88cf5a953e532313255a.png",
 		"job_icon": "MCH",
 		"level": "80",
@@ -414,6 +445,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Pile Bunker",
+		"id": 16503,
 		"skill_icon": "5e8ab4cb384f66e2f6a041ab70923ac104fdab80.png",
 		"job_icon": "MCH",
 		"level": "80",
@@ -427,6 +459,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Scattergun",
+		"id": 25786,
 		"skill_icon": "8cde8fc67f1387b83328aa85cbe044d21a5bc9b0.png",
 		"job_icon": "MCH",
 		"level": "82",
@@ -440,6 +473,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Crowned Collider",
+		"id": 25787,
 		"skill_icon": "e7dfcf4eb7f3e2cea526372e8edd8732348bc035.png",
 		"job_icon": "MCH",
 		"level": "86",
@@ -453,6 +487,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Chain Saw",
+		"id": 25788,
 		"skill_icon": "2f788128862828a0a36c66d4dcd6f521f8391d04.png",
 		"job_icon": "MCH",
 		"level": "90",
@@ -466,6 +501,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Double Check",
+		"id": 36979,
 		"skill_icon": "5de8d4517d7e5179cc341ecb2d0bb63e0d716492.png",
 		"job_icon": "MCH",
 		"level": "92",
@@ -479,6 +515,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Checkmate",
+		"id": 36980,
 		"skill_icon": "f44e0b84bfe54b08662b521becbb338225ea90c9.png",
 		"job_icon": "MCH",
 		"level": "92",
@@ -492,6 +529,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Excavator",
+		"id": 36981,
 		"skill_icon": "6e221fc321a6d40ecac7a908c5b8c144c8c693a3.png",
 		"job_icon": "MCH",
 		"level": "96",
@@ -505,6 +543,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Full Metal Field",
+		"id": 36982,
 		"skill_icon": "9c5bb54095373de5764bcfee0205f998f57b986b.png",
 		"job_icon": "MCH",
 		"level": "100",
@@ -518,6 +557,7 @@
 	},
 	"Trait 01": {
 		"name": "Increased Action Damage",
+		"id": 117,
 		"skill_icon": "7a4446670bbb1ae60b4026125c28469c0c32802f.png",
 		"job_icon": "MCH",
 		"level": "20",
@@ -525,6 +565,7 @@
 	},
 	"Trait 02": {
 		"name": "Increased Action Damage II",
+		"id": 119,
 		"skill_icon": "e58ddf4e9b28be5305924b0a016be89f3e6f5c09.png",
 		"job_icon": "MCH",
 		"level": "40",
@@ -532,6 +573,7 @@
 	},
 	"Trait 03": {
 		"name": "Split Shot Mastery",
+		"id": 288,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/708447cc2e7/",
 		"skill_icon": "17e2bfa91c00357867f74f213d54acbdb3eccf9c.png",
 		"job_icon": "MCH",
@@ -540,6 +582,7 @@
 	},
 	"Trait 04": {
 		"name": "Slug Shot Mastery",
+		"id": 289,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/74fe228d7b6/",
 		"skill_icon": "fcfac995467f1b40637328ca1fb2e0f96d3d93fa.png",
 		"job_icon": "MCH",
@@ -548,6 +591,7 @@
 	},
 	"Trait 05": {
 		"name": "Clean Shot Mastery",
+		"id": 290,
 		"skill_icon": "22ad0318de7c24159dee74596a7bfe78c1947d3a.png",
 		"job_icon": "MCH",
 		"level": "64",
@@ -555,6 +599,7 @@
 	},
 	"Trait 06": {
 		"name": "Heat Blast Mastery",
+		"id": 603,
 		"skill_icon": "9cccaf0b8870d8d58435d49c1d4af6b97747cb05.png",
 		"job_icon": "MCH",
 		"level": "68",
@@ -562,6 +607,7 @@
 	},
 	"Trait 07": {
 		"name": "Charged Action Mastery",
+		"id": 292,
 		"skill_icon": "7c9a0badfb53894c632d694c869e031bceebef88.png",
 		"job_icon": "MCH",
 		"level": "74",
@@ -569,6 +615,7 @@
 	},
 	"Trait 08": {
 		"name": "Hot Shot Mastery",
+		"id": 291,
 		"skill_icon": "7973381f2d9c49f26b5b72f9cc370b402359d2a8.png",
 		"job_icon": "MCH",
 		"level": "76",
@@ -576,6 +623,7 @@
 	},
 	"Trait 09": {
 		"name": "Enhanced Wildfire",
+		"id": 293,
 		"skill_icon": "ee45320e4da5dfac149b4d204d8b6d300cdc9623.png",
 		"job_icon": "MCH",
 		"level": "78",
@@ -583,6 +631,7 @@
 	},
 	"Trait 10": {
 		"name": "Promotion",
+		"id": 294,
 		"skill_icon": "7f48e481afe9adde72358481f334754d9bd65016.png",
 		"job_icon": "MCH",
 		"level": "80",
@@ -590,6 +639,7 @@
 	},
 	"Trait 11": {
 		"name": "Spread Shot Mastery",
+		"id": 449,
 		"skill_icon": "733c87787a7829705ddb6e45ecc77afa3a69706f.png",
 		"job_icon": "MCH",
 		"level": "82",
@@ -597,6 +647,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Reassemble",
+		"id": 450,
 		"skill_icon": "7ea5f5c63a2624cd7f20dc650d5714969117d531.png",
 		"job_icon": "MCH",
 		"level": "84",
@@ -604,6 +655,7 @@
 	},
 	"Trait 13": {
 		"name": "Marksman's Mastery",
+		"id": 517,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "MCH",
 		"level": "84",
@@ -611,6 +663,7 @@
 	},
 	"Trait 14": {
 		"name": "Queen's Gambit",
+		"id": 451,
 		"skill_icon": "bfe38af9b9aebf5a2febaafa0ed4c0867da59a2e.png",
 		"job_icon": "MCH",
 		"level": "86",
@@ -618,6 +671,7 @@
 	},
 	"Trait 15": {
 		"name": "Enhanced Tactician",
+		"id": 452,
 		"skill_icon": "83abb5edaa137fdb0a1665598fbba3d0de804520.png",
 		"job_icon": "MCH",
 		"level": "88",
@@ -625,6 +679,7 @@
 	},
 	"Trait 16": {
 		"name": "Double-barrel Mastery",
+		"id": 604,
 		"skill_icon": "d27efc5e828ecabff4d0b45ee10c6e731cc71847.png",
 		"job_icon": "MCH",
 		"level": "92",
@@ -632,6 +687,7 @@
 	},
 	"Trait 17": {
 		"name": "Enhanced Multiweapon",
+		"id": 605,
 		"skill_icon": "ae9cf4acdbd365202307fbaedd38340a7d0fa94f.png",
 		"job_icon": "MCH",
 		"level": "94",
@@ -639,6 +695,7 @@
 	},
 	"Trait 18": {
 		"name": "Marksman's Mastery II",
+		"id": 658,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "MCH",
 		"level": "94",
@@ -646,6 +703,7 @@
 	},
 	"Trait 19": {
 		"name": "Enhanced Multiweapon II",
+		"id": 606,
 		"skill_icon": "28f091ab4b400b52cb77f45488cd87386ba45998.png",
 		"job_icon": "MCH",
 		"level": "96",
@@ -653,6 +711,7 @@
 	},
 	"Trait 20": {
 		"name": "Enhanced Tactician II",
+		"id": 607,
 		"skill_icon": "a3ae0598316b6300ddb35a842fd49f138d837b8e.png",
 		"job_icon": "MCH",
 		"level": "98",
@@ -660,6 +719,7 @@
 	},
 	"Trait 21": {
 		"name": "Enhanced Barrel Stabilizer",
+		"id": 608,
 		"skill_icon": "1afa87e85f90db56234d7365432dfd5bde9a4b31.png",
 		"job_icon": "MCH",
 		"level": "100",
@@ -667,6 +727,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Blast Charge",
+		"id": 29402,
 		"skill_icon": "e15fdee2a9a849495d10440d6d5f007a66f636e0.png",
 		"classification": "Боевой навык",
 		"cast": "1.44 сек.",
@@ -678,6 +739,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Scattergun",
+		"id": 29404,
 		"skill_icon": "a97a3334f7e3c5afaa91eb2ab84c953f9e1402a7.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -689,6 +751,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Drill",
+		"id": 29405,
 		"skill_icon": "1843c5eb1876f021be1a9cf6359c316781916627.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -700,6 +763,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Full Metal Field",
+		"id": 41469,
 		"skill_icon": "a280d91d346e69536185448d513b18b2977d985a.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -711,6 +775,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Wildfire",
+		"id": 29409,
 		"skill_icon": "95728389d41fbd0e5d09f80b2c0d10df41441cd9.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -722,6 +787,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Bishop Autoturret",
+		"id": 29412,
 		"skill_icon": "5b81ea0d7793a71e83ebe7472ce3f860a51a842a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -733,6 +799,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Analysis",
+		"id": 29414,
 		"skill_icon": "38dc9d35007c7cdc38d10d63379748401fed9939.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -744,6 +811,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Blazing Shot",
+		"id": 41468,
 		"skill_icon": "3d3fd3374284bfe2495f1658b107a7437ff01bad.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -755,6 +823,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Bioblaster",
+		"id": 29406,
 		"skill_icon": "70783248b63c783d9df10fbe8f420ec6954d9eab.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -766,6 +835,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Air Anchor",
+		"id": 29407,
 		"skill_icon": "120150f155ff0887d5b979ef25e82df2232e2afe.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -777,6 +847,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Chain Saw",
+		"id": 29408,
 		"skill_icon": "acbc270d0d2e6192541800dcc280c80a7eae3bba.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -788,6 +859,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Detonator",
+		"id": 41470,
 		"skill_icon": "54d3f10b024f47996e6cdaeb9f59b47448543872.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -799,6 +871,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Aether Mortar",
+		"id": 29413,
 		"skill_icon": "e630bb066bbc76a8e961d011612bbdcdaf9509d2.png",
 		"classification": "Способность",
 		"cast": "1 сек.",
@@ -810,6 +883,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Marksman's Spite",
+		"id": 29415,
 		"skill_icon": "b641fb27f646df1959aa4754f6389d54fd20b9d5.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",

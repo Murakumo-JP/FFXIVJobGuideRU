@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Spinning Edge",
+		"id": 2240,
 		"skill_icon": "657b568d32fd379339d365704c75ee7ca7e0cbd9.png",
 		"job_icon": "ROG",
 		"level": "1",
@@ -14,6 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Shade Shift",
+		"id": 2241,
 		"skill_icon": "533a4a3e924aaf268ee89a9c58845941bb73bad1.png",
 		"job_icon": "ROG",
 		"level": "2",
@@ -27,6 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Gust Slash",
+		"id": 2242,
 		"skill_icon": "3b3414364511f0fa913d25a989b88668c6152a90.png",
 		"job_icon": "ROG",
 		"level": "4",
@@ -40,6 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Hide",
+		"id": 2245,
 		"skill_icon": "2dc011be7f8180f6559af70db7dc93c4b0229d95.png",
 		"job_icon": "ROG",
 		"level": "10",
@@ -53,6 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Throwing Dagger",
+		"id": 2247,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9bb819456d7/",
 		"skill_icon": "e874766b966c4e6a786b58a35d76d3c0bd25b973.png",
 		"job_icon": "ROG",
@@ -67,6 +72,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Mug",
+		"id": 2248,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3551bcd013b/",
 		"skill_icon": "61a5e5150f8d24fa8d9d5dfbefceb5ec53fe4045.png",
 		"job_icon": "ROG",
@@ -81,6 +87,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Trick Attack",
+		"id": 2258,
 		"skill_icon": "fb4232c3fd76ce4d889759ec7ef7bffb15b78ede.png",
 		"job_icon": "ROG",
 		"level": "18",
@@ -94,6 +101,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Aeolian Edge",
+		"id": 2255,
 		"skill_icon": "e68ade763da71adb1e8401db79a08e1df6f4d9e1.png",
 		"job_icon": "ROG",
 		"level": "26",
@@ -107,6 +115,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Ten",
+		"id": 2259,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fb587e6e821/",
 		"skill_icon": "55c66e798d7404567ec69a023335542cef7cd916.png",
 		"job_icon": "NIN",
@@ -121,6 +130,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Ninjutsu",
+		"id": 2260,
 		"skill_icon": "b1362c998dbfc19dfd13223d2ae275be7f4db7cc.png",
 		"job_icon": "NIN",
 		"level": "30",
@@ -134,6 +144,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Chi",
+		"id": 2261,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d1c274636ba/",
 		"skill_icon": "1836df5cdf1d1f78ae7b2f65462661f2fa6a79d8.png",
 		"job_icon": "NIN",
@@ -148,6 +159,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Death Blossom",
+		"id": 2254,
 		"skill_icon": "d40b78dd5c99076b25086882f27de295f8a609af.png",
 		"job_icon": "ROG",
 		"level": "38",
@@ -161,6 +173,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Assassinate",
+		"id": 2246,
 		"skill_icon": "99d0c3688cb4d3fafd0df210199783bcadc74cc2.png",
 		"job_icon": "NIN",
 		"level": "40",
@@ -174,6 +187,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Shukuchi",
+		"id": 2262,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1f28eecd53c/",
 		"skill_icon": "ea2717bad5b805b35bb32731d78113692104a30d.png",
 		"job_icon": "NIN",
@@ -188,6 +202,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Jin",
+		"id": 2263,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2c937a7e1f7/",
 		"skill_icon": "2183f2672edde169e6276764503ec11ae06b4c1e.png",
 		"job_icon": "NIN",
@@ -202,6 +217,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Kassatsu",
+		"id": 2264,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2d589d83483/",
 		"skill_icon": "a12553440d7385aaafc940cac8f14682e3012392.png",
 		"job_icon": "NIN",
@@ -216,6 +232,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Hakke Mujinsatsu",
+		"id": 16488,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/74499f0e20d/",
 		"skill_icon": "86e59c1bd3dedee2a6b68d3321da04c68a3acb52.png",
 		"job_icon": "NIN",
@@ -230,6 +247,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Armor Crush",
+		"id": 3563,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7f99763377d/",
 		"skill_icon": "f8e49f627d8f6e16b91b2192b322812f09c40475.png",
 		"job_icon": "NIN",
@@ -244,6 +262,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Dream Within a Dream",
+		"id": 3566,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51342498a4d/",
 		"skill_icon": "f2e750bda00af60c3a06480f512753c8b6d5951b.png",
 		"job_icon": "NIN",
@@ -258,6 +277,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Hellfrog Medium",
+		"id": 7401,
 		"skill_icon": "c802df3d7abd5e50889d1cc5e97cf64eb1610afa.png",
 		"job_icon": "NIN",
 		"level": "62",
@@ -271,6 +291,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Dokumori",
+		"id": 36957,
 		"skill_icon": "751e11fc60c05f5ac427b522211ae510ef845f6c.png",
 		"job_icon": "NIN",
 		"level": "66",
@@ -284,6 +305,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Bhavacakra",
+		"id": 7402,
 		"skill_icon": "7fa8283b30b9ac35aada60984cbfaf01d3268c95.png",
 		"job_icon": "NIN",
 		"level": "68",
@@ -297,6 +319,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Ten Chi Jin",
+		"id": 7403,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a5518b30cd3/",
 		"skill_icon": "9c0c72efe9ba9c13d3765b1b7dd863c68eeaf4ba.png",
 		"job_icon": "NIN",
@@ -311,6 +334,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Meisui",
+		"id": 16489,
 		"skill_icon": "9c7d1c58eb10c5d105f1ee98a21f84a031d26518.png",
 		"job_icon": "NIN",
 		"level": "72",
@@ -324,6 +348,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Bunshin",
+		"id": 16493,
 		"skill_icon": "0469d406babef3b172ba2a567f748b6ff8e11860.png",
 		"job_icon": "NIN",
 		"level": "80",
@@ -337,6 +362,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Phantom Kamaitachi",
+		"id": 25774,
 		"skill_icon": "45a5ef76e62a78c0c0fcf1feeefb4b992ab82346.png",
 		"job_icon": "NIN",
 		"level": "82",
@@ -350,6 +376,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Hollow Nozuchi",
+		"id": 25776,
 		"skill_icon": "54d329bd6de61295054388e35afdd610561884ca.png",
 		"job_icon": "NIN",
 		"level": "86",
@@ -363,6 +390,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Forked Raiju",
+		"id": 25777,
 		"skill_icon": "9ab20d782e03641292336da9b2453f426435a3b0.png",
 		"job_icon": "NIN",
 		"level": "90",
@@ -376,6 +404,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Fleeting Raiju",
+		"id": 25778,
 		"skill_icon": "aaf631010c04fc9685247fe855060f640dff89f7.png",
 		"job_icon": "NIN",
 		"level": "90",
@@ -389,6 +418,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Kunai's Bane",
+		"id": 36958,
 		"skill_icon": "70139d7c1c6e323518d56f1bd503a9e8bc94d21b.png",
 		"job_icon": "NIN",
 		"level": "92",
@@ -402,6 +432,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Deathfrog Medium",
+		"id": 36959,
 		"skill_icon": "cb1fc6f802ae442daa8ead243f4f9f49bf9525f4.png",
 		"job_icon": "NIN",
 		"level": "96",
@@ -415,6 +446,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Zesho Meppo",
+		"id": 36960,
 		"skill_icon": "55604bbe9cf720982be6e0ef74e9bf002d939935.png",
 		"job_icon": "NIN",
 		"level": "96",
@@ -428,6 +460,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Tenri Jindo",
+		"id": 36961,
 		"skill_icon": "7604dd447d3b450e4816e62d5bf4e2f83fafabc4.png",
 		"job_icon": "NIN",
 		"level": "100",
@@ -558,6 +591,7 @@
 	},
 	"Trait 01": {
 		"name": "All Fours",
+		"id": 90,
 		"skill_icon": "7c99182c1513f1a387f6a0b8d25ec630f3109fb9.png",
 		"job_icon": "ROG",
 		"level": "14",
@@ -565,6 +599,7 @@
 	},
 	"Trait 02": {
 		"name": "Fleet of Foot",
+		"id": 93,
 		"skill_icon": "a6cdfeaa6ad9084494fd2ad0eaea1e9701386e3c.png",
 		"job_icon": "ROG",
 		"level": "20",
@@ -572,6 +607,7 @@
 	},
 	"Trait 03": {
 		"name": "Increase Attack Speed",
+		"id": 584,
 		"skill_icon": "6d96e09b096b18633938943d197373212d767009.png",
 		"job_icon": "ROG",
 		"level": "45",
@@ -579,6 +615,7 @@
 	},
 	"Trait 04": {
 		"name": "Adept Assassination",
+		"id": 515,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51342498a4d/",
 		"skill_icon": "b87e949a34c52ddeba48178f74445dd578b6d8c9.png",
 		"job_icon": "NIN",
@@ -587,6 +624,7 @@
 	},
 	"Trait 05": {
 		"name": "Shukiho",
+		"id": 165,
 		"skill_icon": "ed4979c9bfae8fed8e478ff2ce14e88961c7d014.png",
 		"job_icon": "NIN",
 		"level": "62",
@@ -594,6 +632,7 @@
 	},
 	"Trait 06": {
 		"name": "Enhanced Shukuchi",
+		"id": 166,
 		"skill_icon": "947645f8d561b8bc9d8102189d9c36d7bbf5a5b1.png",
 		"job_icon": "NIN",
 		"level": "64",
@@ -601,6 +640,7 @@
 	},
 	"Trait 07": {
 		"name": "Mug Mastery",
+		"id": 585,
 		"skill_icon": "f8789bead06bbb86cf1961b04271a275413ca68e.png",
 		"job_icon": "NIN",
 		"level": "66",
@@ -608,6 +648,7 @@
 	},
 	"Trait 08": {
 		"name": "Enhanced Shukuchi II",
+		"id": 279,
 		"skill_icon": "0360c16afed0561315ba7bc311e7f4e29e061ddc.png",
 		"job_icon": "NIN",
 		"level": "74",
@@ -615,6 +656,7 @@
 	},
 	"Trait 09": {
 		"name": "Melee Mastery",
+		"id": 516,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "NIN",
 		"level": "74",
@@ -622,6 +664,7 @@
 	},
 	"Trait 10": {
 		"name": "Enhanced Kassatsu",
+		"id": 250,
 		"skill_icon": "d579d27b0f2e059f63390cb5bcc22bac26365149.png",
 		"job_icon": "NIN",
 		"level": "76",
@@ -629,6 +672,7 @@
 	},
 	"Trait 11": {
 		"name": "Shukiho II",
+		"id": 280,
 		"skill_icon": "f907e0c1b9b1d0a739cf2438986fcd4a3b51175a.png",
 		"job_icon": "NIN",
 		"level": "78",
@@ -636,6 +680,7 @@
 	},
 	"Trait 12": {
 		"name": "Shukiho III",
+		"id": 439,
 		"skill_icon": "d4af7caeb6ccefc6db10dcc03953e90b24824950.png",
 		"job_icon": "NIN",
 		"level": "84",
@@ -643,6 +688,7 @@
 	},
 	"Trait 13": {
 		"name": "Melee Mastery II",
+		"id": 522,
 		"skill_icon": "eb2173170fff9f761a656135293703a149717ede.png",
 		"job_icon": "NIN",
 		"level": "84",
@@ -650,6 +696,7 @@
 	},
 	"Trait 14": {
 		"name": "Enhanced Meisui",
+		"id": 440,
 		"skill_icon": "c47e82ddc2a4148f8b8dbdcbad6277e8ff1c73e4.png",
 		"job_icon": "NIN",
 		"level": "88",
@@ -657,6 +704,7 @@
 	},
 	"Trait 15": {
 		"name": "Enhanced Raiton",
+		"id": 441,
 		"skill_icon": "347d3667b142103093c59bc61db363a7f089ca69.png",
 		"job_icon": "NIN",
 		"level": "90",
@@ -664,6 +712,7 @@
 	},
 	"Trait 16": {
 		"name": "Trick Attack Mastery",
+		"id": 586,
 		"skill_icon": "4ab2eab74e5f92060d2d1866451d9ebfe86204a7.png",
 		"job_icon": "NIN",
 		"level": "92",
@@ -671,6 +720,7 @@
 	},
 	"Trait 17": {
 		"name": "Melee Mastery III",
+		"id": 661,
 		"skill_icon": "76ee293b5a8fae7dd16716bc05d79216ef2689a9.png",
 		"job_icon": "NIN",
 		"level": "94",
@@ -678,6 +728,7 @@
 	},
 	"Trait 18": {
 		"name": "Enhanced Dokumori",
+		"id": 587,
 		"skill_icon": "f5e5d42f5d1ac030ce64650db8a0496edca66cd9.png",
 		"job_icon": "NIN",
 		"level": "96",
@@ -685,6 +736,7 @@
 	},
 	"Trait 19": {
 		"name": "Enhanced Ten Chi Jin",
+		"id": 588,
 		"skill_icon": "5c06ede286225c8c52a672be5d631803f4fc4821.png",
 		"job_icon": "NIN",
 		"level": "100",
@@ -692,6 +744,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Spinning Edge",
+		"id": 29500,
 		"skill_icon": "2c7a551985023f8a7d2e338a014ab29454318b81.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -703,6 +756,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Gust Slash",
+		"id": 29501,
 		"skill_icon": "443f61d91e3c8a64e725b7366c33c267f606c8b1.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -714,6 +768,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Aeolian Edge",
+		"id": 29502,
 		"skill_icon": "baa12f591901930702230bc6e3e5119c194de1db.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -725,6 +780,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Fuma Shuriken",
+		"id": 29505,
 		"skill_icon": "a4295da0185e15eaf0481b14d04e59133c8fc699.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -736,6 +792,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Dokumori",
+		"id": 41451,
 		"skill_icon": "889736b87dc2b4851a9d0e38f9c1f00f40414e73.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -747,6 +804,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Three Mudra",
+		"id": 29507,
 		"skill_icon": "df52e05ddb6ca5801114faf60e5ba05442c5cb6f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -758,6 +816,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Bunshin",
+		"id": 29511,
 		"skill_icon": "dd5359193e18dec8796cb164c2a31cd7de730e31.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -769,6 +828,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Shukuchi",
+		"id": 29513,
 		"skill_icon": "cf1bb42ed0500b95e768ec8fff4aa0f7b3d1c20a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -780,6 +840,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Zesho Meppo",
+		"id": 41452,
 		"skill_icon": "f2d3b22f23ff584579dc27d5526176fe0f99cb2a.png",
 		"classification": "Weaponskill",
 		"cast": "Instant",
@@ -791,6 +852,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Assassinate",
+		"id": 29503,
 		"skill_icon": "bd62134b59f61995abdfea2f7fee502c5795f9f9.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -802,6 +864,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Forked Raiju",
+		"id": 29510,
 		"skill_icon": "4808fd0960ff552e382c3bc3242c43c4634b3a16.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -813,6 +876,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Fleeting Raiju",
+		"id": 29707,
 		"skill_icon": "834c61d21d0517e99776d435f3125c0d856bff96.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -824,6 +888,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Hyosho Ranryu",
+		"id": 29506,
 		"skill_icon": "7b5b3ecb51c13a72c65bbb7dd48b6d702d546da9.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -835,6 +900,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Goka Mekkyaku",
+		"id": 29504,
 		"skill_icon": "8ecdf7edc6dd4e686813cdd58a5edcdf49e0404d.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -846,6 +912,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Meisui",
+		"id": 29508,
 		"skill_icon": "359bc1829d69bdbe859863cd2a782fbacc61de16.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -857,6 +924,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Huton",
+		"id": 29512,
 		"skill_icon": "839919eb2756e950cdae46be906b564ce77bd4b6.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -868,6 +936,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Doton",
+		"id": 29514,
 		"skill_icon": "8c6735eac69b6180ad6b23c92fc467a81701cf4a.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -879,6 +948,7 @@
 	},
 	"PVP Skill 18": {
 		"name": "Hollow Nozuchi",
+		"id": 29559,
 		"skill_icon": "d2a67da760022e80b85ba1ccbeeecdf8bddda757.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -890,6 +960,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Seiton Tenchu",
+		"id": 29515,
 		"skill_icon": "b3cc3f2b23553fa8ce5a4a46fe159c12a2f82aaa.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",

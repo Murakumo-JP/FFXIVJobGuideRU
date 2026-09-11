@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Heavy Swing",
+		"id": 31,
 		"skill_icon": "7a622f61949998a4bca402f5be90c0417bb02ac1.png",
 		"job_icon": "MRD",
 		"level": "1",
@@ -14,6 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Maim",
+		"id": 37,
 		"skill_icon": "39dae45d3a3309357462861dac9bb9b159030ea8.png",
 		"job_icon": "MRD",
 		"level": "4",
@@ -27,6 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Berserk",
+		"id": 38,
 		"skill_icon": "c5a2c3896b62318a88ea9e48159ff7efd0962be1.png",
 		"job_icon": "MRD",
 		"level": "6",
@@ -40,6 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Overpower",
+		"id": 41,
 		"skill_icon": "335c367406c5d952f11b8fd2dadaabb89e1cecbc.png",
 		"job_icon": "MRD",
 		"level": "10",
@@ -53,6 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Defiance",
+		"id": 48,
 		"skill_icon": "e6cc16e225417ce3c68cde5eb28df034f349d25d.png",
 		"job_icon": "MRD",
 		"level": "10",
@@ -66,6 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Release Defiance",
+		"id": 48,
 		"skill_icon": "1965311bb3fb720ba65258cb8f427bb986fa36c4.png",
 		"job_icon": "MRD",
 		"level": "10",
@@ -79,6 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Tomahawk",
+		"id": 46,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/1b82df7a839/",
 		"skill_icon": "de42e4febcf54cf4af3189f9d2adfa4ca5975c25.png",
 		"job_icon": "MRD",
@@ -93,6 +100,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Storm's Path",
+		"id": 42,
 		"skill_icon": "14d9c5aa40a8f86aa13890aa9bedc9f6579ed289.png",
 		"job_icon": "MRD",
 		"level": "26",
@@ -106,6 +114,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Thrill of Battle",
+		"id": 40,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c082bce15bb/",
 		"skill_icon": "9412945d8b5a61fbb118907bd33046110ff83434.png",
 		"job_icon": "MRD",
@@ -120,6 +129,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Inner Beast",
+		"id": 49,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0a4aa18f8ce/",
 		"skill_icon": "c72ea7de2c06ad8a03bc55598297aba5bf00b0b6.png",
 		"job_icon": "WAR",
@@ -134,6 +144,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Vengeance",
+		"id": 44,
 		"skill_icon": "72a939d0010304553c5b88fae576f5a25f453e10.png",
 		"job_icon": "MRD",
 		"level": "38",
@@ -147,6 +158,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Mythril Tempest",
+		"id": 16462,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9d79c446b7f/",
 		"skill_icon": "b9efeaf988763dc594fc2497b603cfda4253064f.png",
 		"job_icon": "WAR",
@@ -161,6 +173,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Holmgang",
+		"id": 43,
 		"skill_icon": "91b5673b1dfb08c80d7b8fc2bdc936f46906317f.png",
 		"job_icon": "MRD",
 		"level": "42",
@@ -174,6 +187,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Steel Cyclone",
+		"id": 51,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f9ca807f2c9/",
 		"skill_icon": "caee561eee94d7ecc27ac396982ebe39df5c6893.png",
 		"job_icon": "WAR",
@@ -188,6 +202,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Storm's Eye",
+		"id": 45,
 		"skill_icon": "05faebea82787675c2331bb4ddb7778b70ab53f0.png",
 		"job_icon": "MRD",
 		"level": "50",
@@ -201,6 +216,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Infuriate",
+		"id": 52,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3bf7d4d27ba/",
 		"skill_icon": "ecd32b95358ef9b2756b005daef73afdde9fab80.png",
 		"job_icon": "WAR",
@@ -215,6 +231,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Fell Cleave",
+		"id": 3549,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a541cff74e/",
 		"skill_icon": "5d146522a8fc94788d96043b93034176eab59a10.png",
 		"job_icon": "WAR",
@@ -229,6 +246,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Raw Intuition",
+		"id": 3551,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/4e064a2888d/",
 		"skill_icon": "1d9a63cc19bbec0e2f99d192040c26e306e2e675.png",
 		"job_icon": "WAR",
@@ -243,6 +261,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Equilibrium",
+		"id": 3552,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/447e54738f5/",
 		"skill_icon": "b549a16dfa8cbde55ec19b81bad325c5480d98e2.png",
 		"job_icon": "WAR",
@@ -257,6 +276,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Decimate",
+		"id": 3550,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6079bd110a1/",
 		"skill_icon": "f4fdd09a56a0b83a0cbe11a83f706dc0fb6781f5.png",
 		"job_icon": "WAR",
@@ -271,6 +291,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Onslaught",
+		"id": 7386,
 		"skill_icon": "d0a1dad0fa6c8294ceb31b6879c765a02498e3fb.png",
 		"job_icon": "WAR",
 		"level": "62",
@@ -284,6 +305,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Upheaval",
+		"id": 7387,
 		"skill_icon": "ba0b3b08d9b2ef02636e06148bc739680390fdd3.png",
 		"job_icon": "WAR",
 		"level": "64",
@@ -297,6 +319,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Shake It Off",
+		"id": 7388,
 		"skill_icon": "f71e2c46512c1e937c0ff316be668d853869c637.png",
 		"job_icon": "WAR",
 		"level": "68",
@@ -310,6 +333,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Inner Release",
+		"id": 7389,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/02aed005346/",
 		"skill_icon": "809168ffb23f67e3d4b720b3caa4a0a1773fea4c.png",
 		"job_icon": "WAR",
@@ -324,6 +348,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Chaotic Cyclone",
+		"id": 16463,
 		"skill_icon": "a5ea711252d08de0f9fd2e65313690c19b9f8773.png",
 		"job_icon": "WAR",
 		"level": "72",
@@ -337,6 +362,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Nascent Flash",
+		"id": 16464,
 		"skill_icon": "0a4356e3696cea8f2c8cea9be200e773da6c7caa.png",
 		"job_icon": "WAR",
 		"level": "76",
@@ -350,6 +376,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Inner Chaos",
+		"id": 16465,
 		"skill_icon": "70a629706b7fa0dc566d988dbf32da064d0c3458.png",
 		"job_icon": "WAR",
 		"level": "80",
@@ -363,6 +390,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Bloodwhetting",
+		"id": 25751,
 		"skill_icon": "439c677f7cd4da8e9be9b92245865d2eb1ebceca.png",
 		"job_icon": "WAR",
 		"level": "82",
@@ -376,6 +404,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Orogeny",
+		"id": 25752,
 		"skill_icon": "a746763655d8eb64a4f2577f4a19d445866aa8e5.png",
 		"job_icon": "WAR",
 		"level": "86",
@@ -389,6 +418,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Primal Rend",
+		"id": 25753,
 		"skill_icon": "e6ccdb7bd1a86153af07f02f06583113ac86c8eb.png",
 		"job_icon": "WAR",
 		"level": "90",
@@ -402,6 +432,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Damnation",
+		"id": 36923,
 		"skill_icon": "a4f5302a169e6ee5667e03976e7455aacc394604.png",
 		"job_icon": "WAR",
 		"level": "92",
@@ -415,6 +446,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Primal Wrath",
+		"id": 36924,
 		"skill_icon": "e9e68562064da9f0787632d983da080105fc2389.png",
 		"job_icon": "WAR",
 		"level": "96",
@@ -428,6 +460,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Primal Ruination",
+		"id": 36925,
 		"skill_icon": "5eb4d961217f31467ecf479d45f89767f5f9c0d7.png",
 		"job_icon": "WAR",
 		"level": "100",
@@ -441,6 +474,7 @@
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
+		"id": 318,
 		"skill_icon": "b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "MRD",
 		"level": "1",
@@ -448,6 +482,7 @@
 	},
 	"Trait 02": {
 		"name": "The Beast Within",
+		"id": 249,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0a4aa18f8ce/",
 		"skill_icon": "1d10b3734c0ac46bf83e4b6dadeb2776fcbab0be.png",
 		"job_icon": "WAR",
@@ -456,6 +491,7 @@
 	},
 	"Trait 03": {
 		"name": "Inner Beast Mastery",
+		"id": 265,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a541cff74e/",
 		"skill_icon": "0348d86d64f3ad4c3903ee9eff727f49929d05c8.png",
 		"job_icon": "WAR",
@@ -464,6 +500,7 @@
 	},
 	"Trait 04": {
 		"name": "Steel Cyclone Mastery",
+		"id": 266,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6079bd110a1/",
 		"skill_icon": "2ac33bbd12953a4d539f46bf5118f8e4529ca698.png",
 		"job_icon": "WAR",
@@ -472,6 +509,7 @@
 	},
 	"Trait 05": {
 		"name": "Enhanced Infuriate",
+		"id": 157,
 		"skill_icon": "1a5dae6cb0b5d7b7158bfa730936a4bac168de52.png",
 		"job_icon": "WAR",
 		"level": "66",
@@ -479,6 +517,7 @@
 	},
 	"Trait 06": {
 		"name": "Berserk Mastery",
+		"id": 218,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/02aed005346/",
 		"skill_icon": "c31fbc72ed1bf1ab02e77a17a42cd6f2327df8e2.png",
 		"job_icon": "WAR",
@@ -487,6 +526,7 @@
 	},
 	"Trait 07": {
 		"name": "Nascent Chaos",
+		"id": 267,
 		"skill_icon": "825adb90166b2a7a0b9ccc5f399392d895337565.png",
 		"job_icon": "WAR",
 		"level": "72",
@@ -494,6 +534,7 @@
 	},
 	"Trait 08": {
 		"name": "Mastering the Beast",
+		"id": 268,
 		"skill_icon": "840b30e9758509963bad58c3f9bee151efab466d.png",
 		"job_icon": "WAR",
 		"level": "74",
@@ -501,6 +542,7 @@
 	},
 	"Trait 09": {
 		"name": "Enhanced Shake It Off",
+		"id": 417,
 		"skill_icon": "57bdf03782fbb632a57f9eeae29c7b7a995f2392.png",
 		"job_icon": "WAR",
 		"level": "76",
@@ -508,6 +550,7 @@
 	},
 	"Trait 10": {
 		"name": "Enhanced Thrill of Battle",
+		"id": 269,
 		"skill_icon": "52be11902b062536721be4257c7d5bcb35f8bc57.png",
 		"job_icon": "WAR",
 		"level": "78",
@@ -515,6 +558,7 @@
 	},
 	"Trait 11": {
 		"name": "Raw Intuition Mastery",
+		"id": 418,
 		"skill_icon": "1244d605cbfb73e04b30ff6d51e918a069a4da83.png",
 		"job_icon": "WAR",
 		"level": "82",
@@ -522,6 +566,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Nascent Flash",
+		"id": 419,
 		"skill_icon": "dad6571de24248dac73a723d1a9359f95dca8a99.png",
 		"job_icon": "WAR",
 		"level": "82",
@@ -529,6 +574,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Equilibrium",
+		"id": 420,
 		"skill_icon": "492bd21d22da975f17ad7a993a71f36bc201a32f.png",
 		"job_icon": "WAR",
 		"level": "84",
@@ -536,6 +582,7 @@
 	},
 	"Trait 14": {
 		"name": "Melee Mastery",
+		"id": 505,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "WAR",
 		"level": "84",
@@ -543,6 +590,7 @@
 	},
 	"Trait 15": {
 		"name": "Enhanced Onslaught",
+		"id": 421,
 		"skill_icon": "9e25aa37d3494d7045013593b3af7793616dc6d7.png",
 		"job_icon": "WAR",
 		"level": "88",
@@ -550,6 +598,7 @@
 	},
 	"Trait 16": {
 		"name": "Vengeance Mastery",
+		"id": 567,
 		"skill_icon": "560fe59ae6180b6e09d564c3ed9b04247280a82f.png",
 		"job_icon": "WAR",
 		"level": "92",
@@ -557,6 +606,7 @@
 	},
 	"Trait 17": {
 		"name": "Melee Mastery II",
+		"id": 654,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "WAR",
 		"level": "94",
@@ -564,6 +614,7 @@
 	},
 	"Trait 18": {
 		"name": "Enhanced Inner Release",
+		"id": 568,
 		"skill_icon": "58c4546dabdcda9d3e09834f0660b863d77842ec.png",
 		"job_icon": "WAR",
 		"level": "96",
@@ -571,6 +622,7 @@
 	},
 	"Trait 19": {
 		"name": "Enhanced Primal Rend",
+		"id": 569,
 		"skill_icon": "f6f313152cbf847258f0d7a0a1a5d0d2d40914ca.png",
 		"job_icon": "WAR",
 		"level": "100",
@@ -578,6 +630,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Heavy Swing",
+		"id": 29074,
 		"skill_icon": "620b56980ee1b82942bf0b05b356663531ab13b0.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -589,6 +642,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Maim",
+		"id": 29075,
 		"skill_icon": "da21ae7d5c8b75f6b24205cd2f263d53c0fc3c17.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -600,6 +654,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Storm's Path",
+		"id": 29076,
 		"skill_icon": "9ade61d55ebe1ced213ac5f2e18217d1a8cf3efc.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -611,6 +666,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Primal Rend",
+		"id": 29084,
 		"skill_icon": "7dcf0639ab9919a5e4a6e94597813727101b5711.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -622,6 +678,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Onslaught",
+		"id": 29079,
 		"skill_icon": "90e5bf247f1527c6f9b417b79014131b75657aa8.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -633,6 +690,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Orogeny",
+		"id": 29080,
 		"skill_icon": "0c1021aeac66c93d12f000d6c469ebde0fad356d.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -644,6 +702,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Blota",
+		"id": 29081,
 		"skill_icon": "c0a4d063fb602de6211f217192680b05d2d64698.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -655,6 +714,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Bloodwhetting",
+		"id": 29082,
 		"skill_icon": "791304fb065ed36949c9ae74ae1a6a8b8e649948.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -666,6 +726,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Fell Cleave",
+		"id": 29078,
 		"skill_icon": "2d0f3dd8777837d2ca5c617eac4cac2950ebec44.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -677,6 +738,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Primal Ruination",
+		"id": 41432,
 		"skill_icon": "a4d4abb06f2715fa93c22a98d758d0200855453d.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -688,6 +750,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Inner Chaos",
+		"id": 29077,
 		"skill_icon": "a772bf3f04c0254fc16bf731c6a4fd8565d5930e.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -699,6 +762,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Chaotic Cyclone",
+		"id": 29736,
 		"skill_icon": "9eece9bd72707dba5fc6c4deae34d27f47b3312a.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -710,6 +774,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Primal Wrath",
+		"id": 41433,
 		"skill_icon": "577d5e3f01d779e07ede598103613549606a64ef.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -721,6 +786,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "Primal Scream",
+		"id": 29083,
 		"skill_icon": "6bcfcb1fa456db189719af5c6e06d82f24c40191.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",

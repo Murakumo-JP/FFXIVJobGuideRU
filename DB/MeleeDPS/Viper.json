@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Steel Fangs",
+		"id": 34606,
 		"skill_icon": "4c17f1a64284635f1483f205f9aea15be9bd1a16.png",
 		"job_icon": "VPR",
 		"level": "1",
@@ -14,6 +15,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Hunter's Sting",
+		"id": 34608,
 		"skill_icon": "3b2aea9fa0be73f01aeb45b7eff15fd344776af0.png",
 		"job_icon": "VPR",
 		"level": "5",
@@ -27,6 +29,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Reaving Fangs",
+		"id": 34607,
 		"skill_icon": "0763edc3238365b4076dba5d28b8f5c68be1d3de.png",
 		"job_icon": "VPR",
 		"level": "10",
@@ -40,6 +43,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Writhing Snap",
+		"id": 34632,
 		"skill_icon": "251a98740164ae526be0e23bf9477abb8e28fe94.png",
 		"job_icon": "VPR",
 		"level": "15",
@@ -53,6 +57,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Swiftskin's Sting",
+		"id": 34609,
 		"skill_icon": "75a4621d0d002a4b18c59acfdfb097424ff88a5b.png",
 		"job_icon": "VPR",
 		"level": "20",
@@ -66,6 +71,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Steel Maw",
+		"id": 34614,
 		"skill_icon": "8b9f63b988cfb7be43914b31ff5551ee41c99ffa.png",
 		"job_icon": "VPR",
 		"level": "25",
@@ -79,6 +85,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Flanksting Strike",
+		"id": 34610,
 		"skill_icon": "05bf152b3b5ac3ed319b5cdcbbdca1db4006cd96.png",
 		"job_icon": "VPR",
 		"level": "30",
@@ -92,6 +99,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Flanksbane Fang",
+		"id": 34611,
 		"skill_icon": "24777f7ac5f5169f3ebf6b656d7cedf54d57e9a6.png",
 		"job_icon": "VPR",
 		"level": "30",
@@ -105,6 +113,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Hindsting Strike",
+		"id": 34612,
 		"skill_icon": "c0524362f22ecb3fe78015685d2385c1cfbbe811.png",
 		"job_icon": "VPR",
 		"level": "30",
@@ -118,6 +127,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Hindsbane Fang",
+		"id": 34613,
 		"skill_icon": "2ca132552615abcd4f962ec2b32eb8b0ef6ccd50.png",
 		"job_icon": "VPR",
 		"level": "30",
@@ -131,6 +141,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Reaving Maw",
+		"id": 34615,
 		"skill_icon": "d5b0fd312dbb29775aba54246dc487805eb045e7.png",
 		"job_icon": "VPR",
 		"level": "35",
@@ -144,6 +155,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Slither",
+		"id": 34646,
 		"skill_icon": "7ebdd1c17d9bfe7e52641396ee2c0ff944aea319.png",
 		"job_icon": "VPR",
 		"level": "40",
@@ -157,6 +169,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Hunter's Bite",
+		"id": 34616,
 		"skill_icon": "2117aa184918197d460d34352b715a239d27af1d.png",
 		"job_icon": "VPR",
 		"level": "40",
@@ -170,6 +183,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Swiftskin's Bite",
+		"id": 34617,
 		"skill_icon": "c45c309beb82894d97fdb3a01afe3673cc1ec5b0.png",
 		"job_icon": "VPR",
 		"level": "45",
@@ -183,6 +197,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Jagged Maw",
+		"id": 34618,
 		"skill_icon": "a7c0917ef2eebad0e74ffceccb472348016fcb79.png",
 		"job_icon": "VPR",
 		"level": "50",
@@ -196,6 +211,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Bloodied Maw",
+		"id": 34619,
 		"skill_icon": "6715225127c0d7b81affb5d8cbdbb81dbaac8744.png",
 		"job_icon": "VPR",
 		"level": "50",
@@ -209,6 +225,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Serpent's Tail",
+		"id": 35920,
 		"skill_icon": "462326b75ba66828eb96e0f2d64ef7542daccf38.png",
 		"job_icon": "VPR",
 		"level": "55",
@@ -222,6 +239,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Death Rattle",
+		"id": 34634,
 		"skill_icon": "42670e7db3e339182d5d65c29f7acee4319d5360.png",
 		"job_icon": "VPR",
 		"level": "55",
@@ -235,6 +253,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Last Lash",
+		"id": 34635,
 		"skill_icon": "6931cd1152c69f96360689e0e61a8c6cabfafe46.png",
 		"job_icon": "VPR",
 		"level": "60",
@@ -248,6 +267,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Vicewinder",
+		"id": 34620,
 		"skill_icon": "7958ea7095b37de74593fd6d1426d74177e46536.png",
 		"job_icon": "VPR",
 		"level": "65",
@@ -261,6 +281,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Hunter's Coil",
+		"id": 34621,
 		"skill_icon": "a9a91ec0b652e92408c4211e510ffca14d7498cd.png",
 		"job_icon": "VPR",
 		"level": "65",
@@ -274,6 +295,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Swiftskin's Coil",
+		"id": 34622,
 		"skill_icon": "2ff8a8c9e5710f229b6d3dc3e19ea40c7908cb50.png",
 		"job_icon": "VPR",
 		"level": "65",
@@ -287,6 +309,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Vicepit",
+		"id": 34623,
 		"skill_icon": "13c9698f33d48e95d53bb67e7eef68bfff122e14.png",
 		"job_icon": "VPR",
 		"level": "70",
@@ -300,6 +323,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Hunter's Den",
+		"id": 34624,
 		"skill_icon": "d807e8e444e8cb313a14e04f5c4d9f3af91b9706.png",
 		"job_icon": "VPR",
 		"level": "70",
@@ -313,6 +337,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Swiftskin's Den",
+		"id": 34625,
 		"skill_icon": "2425fc375286fe6776b09f0db2f020faec679bfd.png",
 		"job_icon": "VPR",
 		"level": "70",
@@ -326,6 +351,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Twinfang",
+		"id": 35921,
 		"skill_icon": "c0a3ce4ca4284759ef6ac5592b351f6985fe4edd.png",
 		"job_icon": "VPR",
 		"level": "75",
@@ -339,6 +365,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Twinblood",
+		"id": 35922,
 		"skill_icon": "0093aca28c0a2877e6fb631b24af1d0b77c46f92.png",
 		"job_icon": "VPR",
 		"level": "75",
@@ -352,6 +379,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Twinfang Bite",
+		"id": 34636,
 		"skill_icon": "7f157bebbaa01d92600ee604fbce64f969730966.png",
 		"job_icon": "VPR",
 		"level": "75",
@@ -365,6 +393,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Twinblood Bite",
+		"id": 34637,
 		"skill_icon": "d2e6fe2cd7f5e0ac0170f7aeb78639533e4f7cc7.png",
 		"job_icon": "VPR",
 		"level": "75",
@@ -378,6 +407,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Twinfang Thresh",
+		"id": 34638,
 		"skill_icon": "94a94c69ef3f58b4b0601e1f04fdef144ad2830f.png",
 		"job_icon": "VPR",
 		"level": "80",
@@ -391,6 +421,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Twinblood Thresh",
+		"id": 34639,
 		"skill_icon": "29c3f69d1f38de7049262c99da58d8ff8ba8607d.png",
 		"job_icon": "VPR",
 		"level": "80",
@@ -404,6 +435,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Uncoiled Fury",
+		"id": 34633,
 		"skill_icon": "9b1b65c7abae88ab3c5ba775a7eda8e6afccf3b2.png",
 		"job_icon": "VPR",
 		"level": "82",
@@ -417,6 +449,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Serpent's Ire",
+		"id": 34647,
 		"skill_icon": "07ad6a7df65952f604f164eb4ac1cb99238dd871.png",
 		"job_icon": "VPR",
 		"level": "86",
@@ -430,6 +463,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Reawaken",
+		"id": 34626,
 		"skill_icon": "747eae977c8adbe87254c934e1e890fc54a85b50.png",
 		"job_icon": "VPR",
 		"level": "90",
@@ -443,6 +477,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "First Generation",
+		"id": 34627,
 		"skill_icon": "0669ed905da6f1885333d21619a678cf6b382a72.png",
 		"job_icon": "VPR",
 		"level": "90",
@@ -456,6 +491,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Second Generation",
+		"id": 34628,
 		"skill_icon": "0c534882c858afef2cee59ccf78664dac5f5d28e.png",
 		"job_icon": "VPR",
 		"level": "90",
@@ -469,6 +505,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Third Generation",
+		"id": 34629,
 		"skill_icon": "bac0b9c0fc9068b083e47d645b2db52d8888ae7e.png",
 		"job_icon": "VPR",
 		"level": "90",
@@ -482,6 +519,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Fourth Generation",
+		"id": 34630,
 		"skill_icon": "718f70f8e5f985309a09171ba83bcf34fba0cbf9.png",
 		"job_icon": "VPR",
 		"level": "90",
@@ -495,6 +533,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Uncoiled Twinfang",
+		"id": 34644,
 		"skill_icon": "fb4eb443e7d759b2e6e01ead35aa6b6dd73abf4c.png",
 		"job_icon": "VPR",
 		"level": "92",
@@ -508,6 +547,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Uncoiled Twinblood",
+		"id": 34645,
 		"skill_icon": "eb4f394f15241c1820a674ba2f671d005ab431cf.png",
 		"job_icon": "VPR",
 		"level": "92",
@@ -521,6 +561,7 @@
 	},
 	"PVE Skill 41": {
 		"name": "Ouroboros",
+		"id": 34631,
 		"skill_icon": "9c66e4147b2a5467f541734d3aedc5e0f1522b07.png",
 		"job_icon": "VPR",
 		"level": "96",
@@ -534,6 +575,7 @@
 	},
 	"PVE Skill 42": {
 		"name": "First Legacy",
+		"id": 34640,
 		"skill_icon": "a7750d692ef417ce934373dab4f71214ca5d6676.png",
 		"job_icon": "VPR",
 		"level": "100",
@@ -547,6 +589,7 @@
 	},
 	"PVE Skill 43": {
 		"name": "Second Legacy",
+		"id": 34641,
 		"skill_icon": "845aa0a62b6afed88ac65e36b63ec0e171526aa4.png",
 		"job_icon": "VPR",
 		"level": "100",
@@ -560,6 +603,7 @@
 	},
 	"PVE Skill 44": {
 		"name": "Third Legacy",
+		"id": 34642,
 		"skill_icon": "6fbd15532cd7c980e0f5c55b40d641d64c849b17.png",
 		"job_icon": "VPR",
 		"level": "100",
@@ -573,6 +617,7 @@
 	},
 	"PVE Skill 45": {
 		"name": "Fourth Legacy",
+		"id": 34643,
 		"skill_icon": "479c9e0777b6a210f15ef8215c2bac81c1c5ffb0.png",
 		"job_icon": "VPR",
 		"level": "100",
@@ -586,6 +631,7 @@
 	},
 	"Trait 01": {
 		"name": "Viper's Fangs",
+		"id": 524,
 		"skill_icon": "9e14a796df9b3cae3544d8cb2d1854bc672ad210.png",
 		"job_icon": "VPR",
 		"level": "55",
@@ -593,6 +639,7 @@
 	},
 	"Trait 02": {
 		"name": "Viper's Maw",
+		"id": 525,
 		"skill_icon": "09630c297ad9fe64beeca174d41e2cf8c8ed559d.png",
 		"job_icon": "VPR",
 		"level": "60",
@@ -600,6 +647,7 @@
 	},
 	"Trait 03": {
 		"name": "Melee Mastery",
+		"id": 674,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "VPR",
 		"level": "74",
@@ -607,6 +655,7 @@
 	},
 	"Trait 04": {
 		"name": "Viper's Bite",
+		"id": 526,
 		"skill_icon": "4b105f04e744d6a65f6ed28c75a79ec5f0151a49.png",
 		"job_icon": "VPR",
 		"level": "75",
@@ -614,6 +663,7 @@
 	},
 	"Trait 05": {
 		"name": "Viper's Thresh",
+		"id": 527,
 		"skill_icon": "2122a2b003b6dd72cc260a13a93f22097ebe07af.png",
 		"job_icon": "VPR",
 		"level": "80",
@@ -621,6 +671,7 @@
 	},
 	"Trait 06": {
 		"name": "Viper's Rattle",
+		"id": 528,
 		"skill_icon": "5e6639d21fbec398ad534ae0c2fe19b5f3001b4b.png",
 		"job_icon": "VPR",
 		"level": "82",
@@ -628,6 +679,7 @@
 	},
 	"Trait 07": {
 		"name": "Enhanced Slither",
+		"id": 529,
 		"skill_icon": "1e60ee225ffece4266216964ac996c1466a8b858.png",
 		"job_icon": "VPR",
 		"level": "84",
@@ -635,6 +687,7 @@
 	},
 	"Trait 08": {
 		"name": "Melee Mastery II",
+		"id": 675,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "VPR",
 		"level": "84",
@@ -642,6 +695,7 @@
 	},
 	"Trait 09": {
 		"name": "Enhanced Viper's Rattle",
+		"id": 530,
 		"skill_icon": "5a6e704cdb935de113fa46e137907d9a816e5194.png",
 		"job_icon": "VPR",
 		"level": "88",
@@ -649,6 +703,7 @@
 	},
 	"Trait 10": {
 		"name": "Serpent's Lineage",
+		"id": 531,
 		"skill_icon": "026131d5e2c5bb1aab3bb492c7329cc791cc8c39.png",
 		"job_icon": "VPR",
 		"level": "90",
@@ -656,6 +711,7 @@
 	},
 	"Trait 11": {
 		"name": "Uncoiled Fangs",
+		"id": 532,
 		"skill_icon": "1fd453ec378516f7b77ff959e7c0714be8f82c1e.png",
 		"job_icon": "VPR",
 		"level": "92",
@@ -663,6 +719,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Serpent's Lineage",
+		"id": 533,
 		"skill_icon": "940beb1eff18a213456848f7d19318112040ea6e.png",
 		"job_icon": "VPR",
 		"level": "96",
@@ -670,6 +727,7 @@
 	},
 	"Trait 13": {
 		"name": "Serpent's Legacy",
+		"id": 534,
 		"skill_icon": "f06c1aae31dc1d1324391254870d3b0b0a1402ea.png",
 		"job_icon": "VPR",
 		"level": "100",
@@ -677,6 +735,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Steel Fangs",
+		"id": 39157,
 		"skill_icon": "15337c3d71d35597218e0409e01081633652d23f.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -688,6 +747,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Hunter's Sting",
+		"id": 39159,
 		"skill_icon": "dfeba44b89c0d27641837c677bb18ff423b34d40.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -699,6 +759,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Barbarous Bite",
+		"id": 39161,
 		"skill_icon": "a0c368a4f7ebb14a8cea1d1a344e0fc916081a3f.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -710,6 +771,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Piercing Fangs",
+		"id": 39158,
 		"skill_icon": "e59eb58734d7a36986f811450ec692e626655bec.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -721,6 +783,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Swiftskin's Sting",
+		"id": 39160,
 		"skill_icon": "ad647f94d46f0cb3284648c436fa967aadf989a1.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -732,6 +795,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Ravenous Bite",
+		"id": 39163,
 		"skill_icon": "9df032ccdca8feaf3e7288acfd2dd3fdb68def20.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -743,6 +807,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Bloodcoil",
+		"id": 39166,
 		"skill_icon": "1a805b094cbbf2d8cba34910f919e4ed395a2786.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -754,6 +819,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Uncoiled Fury",
+		"id": 39168,
 		"skill_icon": "c9bf1d09821271fbe0d0fa58a70b9460eb72680c.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -765,6 +831,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Serpent's Tail",
+		"id": 39183,
 		"skill_icon": "c6b4fc449bc125b8df51956cd02b4721cd94e742.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -776,6 +843,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Slither",
+		"id": 39184,
 		"skill_icon": "1558fe95bce595ce0219cc4d24631d922c72bb81.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -787,6 +855,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Snake Scales",
+		"id": 39185,
 		"skill_icon": "e07af133f3aa974349eba0f4a938631964728177.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -798,6 +867,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Rattling Coil",
+		"id": 39189,
 		"skill_icon": "147f8d74ae9ae599fa971b0ab6080a4690220c4f.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -809,6 +879,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "First Generation",
+		"id": 39169,
 		"skill_icon": "8f5e873cc3e905162527647b1156f0ae740b442e.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -820,6 +891,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Second Generation",
+		"id": 39170,
 		"skill_icon": "af774179732ea48f9ce9c21b0e2a7f35d58330df.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -831,6 +903,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Third Generation",
+		"id": 39171,
 		"skill_icon": "6b755b35b9d30313dbae0a1bc153fe714668b790.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -842,6 +915,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Fourth Generation",
+		"id": 39172,
 		"skill_icon": "e71fea55bada906d1f752bdcb7f1cda184978532.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -853,6 +927,7 @@
 	},
 	"PVP Skill 17": {
 		"name": "Sanguine Feast",
+		"id": 39167,
 		"skill_icon": "1842fa2852ed84e6b56cf7385caabd23312e47de.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -864,6 +939,7 @@
 	},
 	"PVP Skill 18": {
 		"name": "Ouroboros",
+		"id": 39173,
 		"skill_icon": "e7971a6b1359d5fb936f931f07f362247061077c.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -875,6 +951,7 @@
 	},
 	"PVP Skill 19": {
 		"name": "Death Rattle",
+		"id": 39174,
 		"skill_icon": "071377e0e1e3711012d7e0db2dc7b84b74ca9714.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -886,6 +963,7 @@
 	},
 	"PVP Skill 20": {
 		"name": "Twinfang Bite",
+		"id": 39175,
 		"skill_icon": "e87afcce9e10bc1bf6fabb5db22d3e5644af2688.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -897,6 +975,7 @@
 	},
 	"PVP Skill 21": {
 		"name": "Twinblood Bite",
+		"id": 39176,
 		"skill_icon": "6bbb676b91db09777535491b7c2bbd236b693dcb.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -908,6 +987,7 @@
 	},
 	"PVP Skill 22": {
 		"name": "Uncoiled Twinfang",
+		"id": 39177,
 		"skill_icon": "da71d25a9c4ec075ee870a2ad5434f54d5ec141d.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -919,6 +999,7 @@
 	},
 	"PVP Skill 23": {
 		"name": "Uncoiled Twinblood",
+		"id": 39178,
 		"skill_icon": "7988ba0a7efd3045918bd5237541ec5ddef6d57a.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -930,6 +1011,7 @@
 	},
 	"PVP Skill 24": {
 		"name": "First Legacy",
+		"id": 39179,
 		"skill_icon": "3eded561d986ef0d88cbddc58a1203bd13392e12.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -941,6 +1023,7 @@
 	},
 	"PVP Skill 25": {
 		"name": "Second Legacy",
+		"id": 39180,
 		"skill_icon": "754ccf3d14880402121e03e9d6406fb938558a7b.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -952,6 +1035,7 @@
 	},
 	"PVP Skill 26": {
 		"name": "Third Legacy",
+		"id": 39181,
 		"skill_icon": "9ab5ad729ec0e3b515a72f1f15dcdc64b159decd.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -963,6 +1047,7 @@
 	},
 	"PVP Skill 27": {
 		"name": "Fourth Legacy",
+		"id": 39182,
 		"skill_icon": "609221c5f7e2ab86304dcc9db03fef237f414985.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -974,6 +1059,7 @@
 	},
 	"PVP Skill 28": {
 		"name": "Backlash",
+		"id": 39186,
 		"skill_icon": "6c01119dc0bdb81236252001d0c655ad929feed1.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -985,6 +1071,7 @@
 	},
 	"PVP Skill LB 01": {
 		"name": "World-swallower",
+		"id": 39190,
 		"skill_icon": "ed95dc742df4e9795e7c0a72e18eb72d0d00293a.png",
 		"cast": "Мгновенная",
 		"recast": "12 сек.",
