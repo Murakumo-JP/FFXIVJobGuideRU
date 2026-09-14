@@ -32,8 +32,8 @@ const JOB_DB_FILES = {
 	RDM: ["/DB/MagicalDPS/RedMage.json", ROLE_ACTIONS],
 	PCT: ["/DB/MagicalDPS/Pictomancer.json", ROLE_ACTIONS],
 
-	BLU: ["/DB/BlueMage.json", ROLE_ACTIONS],
-	BST: ["/DB/Beastmaster.json", ROLE_ACTIONS],
+	BLU: ["/DB/LimitedJob/BlueMage.json", ROLE_ACTIONS],
+	BST: ["/DB/LimitedJob/Beastmaster.json"],
 
 	ALC: CRAFT_FILES,
 	ARM: CRAFT_FILES,

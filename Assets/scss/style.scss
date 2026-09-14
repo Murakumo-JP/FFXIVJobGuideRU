@@ -106,6 +106,15 @@ img {
 	}
 }
 
+.job_bst_color {
+	.search {
+		background: var(--bst_color-color);
+		#searchInput {
+			background: var(--bst_color-AltColor);
+		}
+	}
+}
+
 input {
 	&::-moz-placeholder {
 		color: white;

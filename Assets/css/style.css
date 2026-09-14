@@ -1795,6 +1795,13 @@ img {
   padding: 0 15px;
 }
 
+.job_bst_color .search {
+  background: var(--bst_color-color);
+}
+.job_bst_color .search #searchInput {
+  background: var(--bst_color-AltColor);
+}
+
 input::-moz-placeholder {
   color: white;
 }
