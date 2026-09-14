@@ -230,6 +230,18 @@ body.editor {
 	color: var(--text-light);
 	transform: translateX(4px);
 }
+.sidebar-group-title {
+	padding: 14px 12px 6px;
+	font-size: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--text-main);
+	opacity: 0.5;
+}
+.sidebar-group-title:first-child {
+	padding-top: 4px;
+}
 
 /* Main Workspace */
 .main-workspace {
@@ -261,6 +273,11 @@ body.editor {
 .btn-export:hover {
 	background: var(--accent-hover);
 }
+.toolbar-title {
+	font-weight: 600;
+	font-size: 14px;
+	color: var(--text-light);
+}
 
 .canvas-area {
 	flex: 1;
@@ -274,6 +291,10 @@ body.editor {
 	margin: 0 auto;
 	min-height: 400px;
 	position: relative;
+	background: #eceee7;
+	padding: 40px 60px;
+	border-radius: 12px;
+	box-shadow: var(--shadow);
 }
 
 /* Blocks */
@@ -283,10 +304,13 @@ body.editor {
 	border: 1px solid transparent;
 	transition: 0.2s;
 }
+.block-wrapper:hover {
+	background: rgba(99, 102, 241, 0.05);
+}
 .block-wrapper.active {
-	background: rgba(255, 255, 255, 0.03);
-	border-color: var(--border);
-	box-shadow: var(--shadow);
+	background: rgba(99, 102, 241, 0.08);
+	border-color: var(--accent);
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
 }
 .block-wrapper.active::before {
 	content: "";
@@ -301,7 +325,7 @@ body.editor {
 
 /* Toolbar */
 .floating-toolbar {
-	width: max-content;
+	max-width: 320px;
 	position: absolute;
 	top: -50px;
 	left: 50%;
@@ -311,6 +335,7 @@ body.editor {
 	border-radius: 10px;
 	display: none;
 	align-items: center;
+	flex-wrap: wrap;
 	padding: 5px 8px;
 	z-index: 1000;
 	gap: 4px;
@@ -330,6 +355,7 @@ body.editor {
 	cursor: pointer;
 	font-size: 12px;
 	font-weight: 500;
+	white-space: nowrap;
 }
 .ft-btn:hover {
 	background: var(--border);
@@ -344,6 +370,16 @@ body.editor {
 	margin-left: 4px;
 	border-left: 1px solid var(--border);
 	border-radius: 0;
+}
+.ft-check {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+	background: rgba(255, 255, 255, 0.06);
+}
+.ft-check input {
+	cursor: pointer;
 }
 
 .nested-menu {
@@ -387,8 +423,8 @@ body.editor {
 }
 
 [contenteditable]:focus {
-	outline: none;
-	background: rgba(255, 255, 255, 0.02);
+	outline: 1px dashed var(--accent);
+	background: rgba(99, 102, 241, 0.06);
 }
 
 /* Modal */
@@ -410,6 +446,22 @@ body.editor {
 	border: 1px solid var(--border);
 	display: flex;
 	flex-direction: column;
+}
+.modal-header {
+	padding: 20px;
+	border-bottom: 1px solid var(--border);
+	display: flex;
+	justify-content: space-between;
+}
+.modal-title {
+	color: #fff;
+}
+.modal-close {
+	background: none;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
 }
 #export-code {
 	flex: 1;

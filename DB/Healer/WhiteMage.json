@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Stone",
+		"id": 119,
 		"skill_icon": "002aa233f5d570b0e27d55ce38b57a6b06b7cc69.png",
 		"job_icon": "CNJ",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Cure",
+		"id": 120,
 		"skill_icon": "a2d0e0ed56915f523e8a7326bbdd09eff0534eda.png",
 		"job_icon": "CNJ",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Aero",
+		"id": 121,
 		"skill_icon": "78107cd063a81b78b99eb7cb5da15f2bec403c70.png",
 		"job_icon": "CNJ",
 		"level": "4",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Medica",
+		"id": 124,
 		"skill_icon": "6c5fd075bab7c063aef743a1de5e36958354b42b.png",
 		"job_icon": "CNJ",
 		"level": "10",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Raise",
+		"id": 125,
 		"skill_icon": "34bdc3ad370b701a106f32daa68e73055ab72331.png",
 		"job_icon": "CNJ",
 		"level": "12",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Stone II",
+		"id": 127,
 		"skill_icon": "ce8e52e199a7d9e548537bc77197f4d7965dea58.png",
 		"job_icon": "CNJ",
 		"level": "18",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Cure II",
+		"id": 135,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a02c1c29571/",
 		"skill_icon": "a70a8e3dcb347c11047f00945f9435687f21f06d.png",
 		"job_icon": "CNJ",
@@ -100,6 +107,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Presence of Mind",
+		"id": 136,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e3eba90aefc/",
 		"skill_icon": "7be14bf07b21fa5c78cd7f7891279704da6cadb9.png",
 		"job_icon": "WHM",
@@ -115,6 +123,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Regen",
+		"id": 137,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/309e3e7e609/",
 		"skill_icon": "53bb0b4fc881c4c06d64c915864968cced6c6201.png",
 		"job_icon": "WHM",
@@ -130,6 +139,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Cure III",
+		"id": 131,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8891efb6fde/",
 		"skill_icon": "33c3597ee1004e364a6331f732f077666e798acd.png",
 		"job_icon": "WHM",
@@ -145,6 +155,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Aetherial Shift",
+		"id": 37008,
 		"skill_icon": "d69b1e0884f3f4edac543210cd9b42d74c2b3f25.png",
 		"job_icon": "WHM",
 		"level": "40",
@@ -159,6 +170,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Holy",
+		"id": 139,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/20e64bc5c59/",
 		"skill_icon": "bb161bfc68766590d81cb1f7d6049711c949039b.png",
 		"job_icon": "WHM",
@@ -174,6 +186,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Aero II",
+		"id": 132,
 		"skill_icon": "7e4202353c63451702e9944dc93551a18951efcf.png",
 		"job_icon": "CNJ",
 		"level": "46",
@@ -188,6 +201,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Medica II",
+		"id": 133,
 		"skill_icon": "530234ed64e2b5b5aaacf978a90d87932734272f.png",
 		"job_icon": "CNJ",
 		"level": "50",
@@ -202,6 +216,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Benediction",
+		"id": 140,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6ea2ad6309a/",
 		"skill_icon": "44e09756739b6b8924b82471572e7103ac5ca1fb.png",
 		"job_icon": "WHM",
@@ -217,6 +232,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Afflatus Solace",
+		"id": 16531,
 		"skill_icon": "a9c7b172b8c82aaa311a578fe3b42f5f30266e93.png",
 		"job_icon": "WHM",
 		"level": "52",
@@ -231,6 +247,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Asylum",
+		"id": 3569,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/",
 		"skill_icon": "cf3242dc922e88211cb5b2c4aa67f9ae79fb88fb.png",
 		"job_icon": "WHM",
@@ -246,6 +263,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Stone III",
+		"id": 3568,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/",
 		"skill_icon": "f38006e73efc8e122777b9c23097a4c40bc9c9c4.png",
 		"job_icon": "WHM",
@@ -261,6 +279,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Assize",
+		"id": 3571,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/cbcd1cda8ca/",
 		"skill_icon": "4c9f83b599b37adfa6597ea7e884331cac170a12.png",
 		"job_icon": "WHM",
@@ -276,6 +295,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Thin Air",
+		"id": 7430,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/96be5e383ec/",
 		"skill_icon": "539a73220a23fd185c17bed962b140bf7b4673d2.png",
 		"job_icon": "WHM",
@@ -291,6 +311,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Tetragrammaton",
+		"id": 3570,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3aeddb8e685/",
 		"skill_icon": "6e00b907b75a6906045955d68cf68af66ba6aa9e.png",
 		"job_icon": "WHM",
@@ -306,6 +327,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Stone IV",
+		"id": 7431,
 		"skill_icon": "33eacc1401b5fe03a2dd54e317cd60ccbb912c44.png",
 		"job_icon": "WHM",
 		"level": "64",
@@ -320,6 +342,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Divine Benison",
+		"id": 7432,
 		"skill_icon": "065d9df35159a3bc53d59984a18b35581b442a73.png",
 		"job_icon": "WHM",
 		"level": "66",
@@ -334,6 +357,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Plenary Indulgence",
+		"id": 7433,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/83f6c053e16/",
 		"skill_icon": "2144617daa9bac9ea7bc1f063a9e0cd033fcd363.png",
 		"job_icon": "WHM",
@@ -349,6 +373,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Dia",
+		"id": 16532,
 		"skill_icon": "de737874f0025d808d0bddac1d4156fec9464d00.png",
 		"job_icon": "WHM",
 		"level": "72",
@@ -363,6 +388,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Glare",
+		"id": 16533,
 		"skill_icon": "c1f9bdbca11c2c7944e3e95cf7599a6a3849e5a2.png",
 		"job_icon": "WHM",
 		"level": "72",
@@ -377,6 +403,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Afflatus Misery",
+		"id": 16535,
 		"skill_icon": "e01507664cb997891de06ec522b71619279969bc.png",
 		"job_icon": "WHM",
 		"level": "74",
@@ -391,6 +418,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Afflatus Rapture",
+		"id": 16534,
 		"skill_icon": "9582c5aa6ffa9abf82db6140916020235a003a20.png",
 		"job_icon": "WHM",
 		"level": "76",
@@ -405,6 +433,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Temperance",
+		"id": 16536,
 		"skill_icon": "78e099cba536b64fe978d05487c51b28a66f29df.png",
 		"job_icon": "WHM",
 		"level": "80",
@@ -419,6 +448,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Glare III",
+		"id": 25859,
 		"skill_icon": "dfafd20ceefae82548deba9511d3d765c4535b3a.png",
 		"job_icon": "WHM",
 		"level": "82",
@@ -433,6 +463,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Holy III",
+		"id": 25860,
 		"skill_icon": "eceb9103dbf8066a8b6c8bce2e84df7552f1a074.png",
 		"job_icon": "WHM",
 		"level": "82",
@@ -447,6 +478,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Aquaveil",
+		"id": 25861,
 		"skill_icon": "f87f8e18282665458cc9c358ff1a2b8a78833491.png",
 		"job_icon": "WHM",
 		"level": "86",
@@ -461,6 +493,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Liturgy of the Bell",
+		"id": 25862,
 		"skill_icon": "4d31a93f520e700ac70ab1604bdb6811f124ebb4.png",
 		"job_icon": "WHM",
 		"level": "90",
@@ -475,6 +508,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Glare IV",
+		"id": 37009,
 		"skill_icon": "8114a12aa7d10fbe87b9edfe0fc6257adec7a06f.png",
 		"job_icon": "WHM",
 		"level": "92",
@@ -489,6 +523,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Medica III",
+		"id": 37010,
 		"skill_icon": "afd378388b20cba91d3988c04efeff1256eae7b3.png",
 		"job_icon": "WHM",
 		"level": "96",
@@ -503,6 +538,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Divine Caress",
+		"id": 37011,
 		"skill_icon": "94e9cc4b561ab6fca2c4a92cdbb2c86cd7825df9.png",
 		"job_icon": "WHM",
 		"level": "100",
@@ -517,6 +553,7 @@
 	},
 	"Trait 01": {
 		"name": "Stone Mastery",
+		"id": 179,
 		"skill_icon": "ec59af21d4783ec07af93ded5382036016d67ade.png",
 		"job_icon": "CNJ",
 		"level": "18",
@@ -524,6 +561,7 @@
 	},
 	"Trait 02": {
 		"name": "Maim and Mend",
+		"id": 23,
 		"skill_icon": "688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "CNJ",
 		"level": "20",
@@ -531,6 +569,7 @@
 	},
 	"Trait 03": {
 		"name": "Freecure",
+		"id": 25,
 		"skill_icon": "a3a57f7b7aa0de5e6da5e5696661ad29a4888e7f.png",
 		"job_icon": "CNJ",
 		"level": "32",
@@ -538,6 +577,7 @@
 	},
 	"Trait 04": {
 		"name": "Maim and Mend II",
+		"id": 26,
 		"skill_icon": "f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "CNJ",
 		"level": "40",
@@ -545,6 +585,7 @@
 	},
 	"Trait 05": {
 		"name": "Aero Mastery",
+		"id": 180,
 		"skill_icon": "bfb73b26584ff1beea3c051df995efb2057f9746.png",
 		"job_icon": "CNJ",
 		"level": "46",
@@ -552,6 +593,7 @@
 	},
 	"Trait 06": {
 		"name": "Secret of the Lily",
+		"id": 196,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a8b01c03e71/",
 		"skill_icon": "9d84d98cec3b373c4d288036197345815b0079a5.png",
 		"job_icon": "WHM",
@@ -560,6 +602,7 @@
 	},
 	"Trait 07": {
 		"name": "Stone Mastery II",
+		"id": 181,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0c34c7f08e8/",
 		"skill_icon": "7700f3365453c8581b17b771446e0ceb253d2482.png",
 		"job_icon": "WHM",
@@ -568,6 +611,7 @@
 	},
 	"Trait 08": {
 		"name": "Stone Mastery III",
+		"id": 182,
 		"skill_icon": "0dece0a812fe1229b768f235340926de1be3a4d9.png",
 		"job_icon": "WHM",
 		"level": "64",
@@ -575,6 +619,7 @@
 	},
 	"Trait 09": {
 		"name": "Aero Mastery II",
+		"id": 307,
 		"skill_icon": "7f5083e44cab6be3c440d2db89c35be3242d340d.png",
 		"job_icon": "WHM",
 		"level": "72",
@@ -582,6 +627,7 @@
 	},
 	"Trait 10": {
 		"name": "Stone Mastery IV",
+		"id": 308,
 		"skill_icon": "092e5ba991784873f9b5f9a92db364956029657a.png",
 		"job_icon": "WHM",
 		"level": "72",
@@ -589,6 +635,7 @@
 	},
 	"Trait 11": {
 		"name": "Transcendent Afflatus",
+		"id": 309,
 		"skill_icon": "df2fd48f77f5355c6ddc3580504abf58b9aa69ea.png",
 		"job_icon": "WHM",
 		"level": "74",
@@ -596,6 +643,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Asylum",
+		"id": 310,
 		"skill_icon": "b340f8eedf09a0058e1a6d74bf129a6c0cfff5d1.png",
 		"job_icon": "WHM",
 		"level": "78",
@@ -603,6 +651,7 @@
 	},
 	"Trait 13": {
 		"name": "Glare Mastery",
+		"id": 487,
 		"skill_icon": "4a78ef89a46bfc230651382c1326ea848696bf4f.png",
 		"job_icon": "WHM",
 		"level": "82",
@@ -610,6 +659,7 @@
 	},
 	"Trait 14": {
 		"name": "Holy Mastery",
+		"id": 488,
 		"skill_icon": "8754d08e1d361478839e1a220369134a71a28d0a.png",
 		"job_icon": "WHM",
 		"level": "82",
@@ -617,6 +667,7 @@
 	},
 	"Trait 15": {
 		"name": "Enhanced Healing Magic",
+		"id": 489,
 		"skill_icon": "a24e5cd23307348ea0119062908b5153b2b84ca2.png",
 		"job_icon": "WHM",
 		"level": "85",
@@ -624,6 +675,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Divine Benison",
+		"id": 490,
 		"skill_icon": "70956bb631d282deba1787b5497f70b9540eeaa5.png",
 		"job_icon": "WHM",
 		"level": "88",
@@ -631,6 +683,7 @@
 	},
 	"Trait 17": {
 		"name": "Enhanced Presence of Mind",
+		"id": 623,
 		"skill_icon": "522d1367f418f9d9ab9497cb7aac3fd75d75ef16.png",
 		"job_icon": "WHM",
 		"level": "92",
@@ -638,6 +691,7 @@
 	},
 	"Trait 18": {
 		"name": "White Magic Mastery",
+		"id": 651,
 		"skill_icon": "faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "WHM",
 		"level": "94",
@@ -645,6 +699,7 @@
 	},
 	"Trait 19": {
 		"name": "Medica Mastery",
+		"id": 624,
 		"skill_icon": "6e19d26c224d8df136427dc9d65b2b8adcda20d7.png",
 		"job_icon": "WHM",
 		"level": "96",
@@ -652,6 +707,7 @@
 	},
 	"Trait 20": {
 		"name": "Enhanced Tetragrammaton",
+		"id": 625,
 		"skill_icon": "2c8d74105960fc4db1162f4bfc05b258cc43adb0.png",
 		"job_icon": "WHM",
 		"level": "98",
@@ -659,6 +715,7 @@
 	},
 	"Trait 21": {
 		"name": "Enhanced Temperance",
+		"id": 626,
 		"skill_icon": "1617b594d0846dfcbc4a7c258e89bdc2fb10c168.png",
 		"job_icon": "WHM",
 		"level": "100",
@@ -666,6 +723,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Glare III",
+		"id": 29223,
 		"skill_icon": "889b00ef7b55083b462b1dc589add79e07e87379.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -677,6 +735,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Cure II",
+		"id": 29224,
 		"skill_icon": "7e7fd985e01134a3f7a76bda607c5cb1a36b3f7c.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -688,6 +747,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Afflatus Misery",
+		"id": 29226,
 		"skill_icon": "67c045d9c3c41f736c36022272cefd8c0980f19f.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -699,6 +759,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Aquaveil",
+		"id": 29227,
 		"skill_icon": "db63ef3d2573abbcb89237b70189beb66d9f08c1.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -710,6 +771,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Miracle of Nature",
+		"id": 29228,
 		"skill_icon": "1245aecd31eaf0821a81907c6664946404770339.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -721,6 +783,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Seraph Strike",
+		"id": 29229,
 		"skill_icon": "8f0999ae68bff865ab683d7f1059024d126b013e.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -732,6 +795,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Glare IV",
+		"id": 41499,
 		"skill_icon": "928a4cb28079785539b6b24b6c890db6a5691703.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -743,6 +807,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Cure III",
+		"id": 29225,
 		"skill_icon": "3c4b6cbc3b8ae09ebf0dc3c69c16594e211cdfe6.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -752,8 +817,9 @@
 		"radius": "5y",
 		"content": "Восстанавливает HP персонажа или цели с силой лечения 16,000 и всех ближайших сопартийцев с силой лечения 12,000.<br/>Может быть использовано только под действием эффекта Cure III Ready.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Afflatus Purgation",
+		"id": 29230,
 		"skill_icon": "885443eeb029d7cbca537be10edca5eb6c920401.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -761,5 +827,20 @@
 		"radius_img": "R6",
 		"radius": "40y",
 		"content": "Удар, наносящий нестихийный урон по всем противникам по прямой линии перед персонажем с силой атаки 18,000.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Дополнительный эффект: накладывает эффект Temperance<br/>Эффект Temperance: накладывает эффект периодического лечения (Regen) на персонажа и всех ближайших сопартийцев в радиусе 30 ялмов<br/>Сила лечения: 4,000<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 60 сек."
+	},
+	"_menu": {
+		"pve": [
+			{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+			{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "healer_action", "name": "Role Action", "role": "Healer"}},
+			{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+			{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+			{"anchor": "anchor_hud", "label": "Шкала профессии"}
+		],
+		"pvp": [
+			{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+			{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+			{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+			{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 4, "count": 3}}
+		]
 	}
 }

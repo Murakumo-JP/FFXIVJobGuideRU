@@ -1,5 +1,4 @@
-$accent: #fffae6;
-$bg: #1b1b1b;
+@use "variables" as *;
 
 .preloader {
 	background-color: $bg;

@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Hard Slash",
+		"id": 3617,
 		"skill_icon": "5c0fef99ef9100285ede6dbc62a5c35cea188d7c.png",
 		"job_icon": "DRK",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Syphon Strike",
+		"id": 3623,
 		"skill_icon": "e2a305d72e05ef339e0692bd5f7ed9626b6eb9ea.png",
 		"job_icon": "DRK",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Unleash",
+		"id": 3621,
 		"skill_icon": "600c6a17bd8c4e08c783d1fb8891f12eea132a9a.png",
 		"job_icon": "DRK",
 		"level": "6",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Grit",
+		"id": 3629,
 		"skill_icon": "b6d1592d4fcbcafe1e3b0958d688c50346fe2bd4.png",
 		"job_icon": "DRK",
 		"level": "10",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Release Grit",
+		"id": 32067,
 		"skill_icon": "13a97691011df3c616e3181fd21b5f6805ce5799.png",
 		"job_icon": "DRK",
 		"level": "10",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Unmend",
+		"id": 3624,
 		"skill_icon": "6203d55695d1cdde37d875f7b4b4253606266ad0.png",
 		"job_icon": "DRK",
 		"level": "15",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Souleater",
+		"id": 3632,
 		"skill_icon": "8c6a197869a69116f52b41b3fef2ce03c29b5212.png",
 		"job_icon": "DRK",
 		"level": "26",
@@ -99,6 +106,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Flood of Darkness",
+		"id": 16466,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f194ac09168/",
 		"skill_icon": "438927fdaa593ec9d1bd020e1c60fad9ca495f3f.png",
 		"job_icon": "DRK",
@@ -114,6 +122,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Blood Weapon",
+		"id": 3625,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/10d09894be4/",
 		"skill_icon": "c0c4dd65cec09b11aa7ecfecf6526aff4c59b83f.png",
 		"job_icon": "DRK",
@@ -129,6 +138,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Shadow Wall",
+		"id": 3636,
 		"skill_icon": "7ea7904a9e066bb33d542755b5984ad78c711a45.png",
 		"job_icon": "DRK",
 		"level": "38",
@@ -143,6 +153,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Stalwart Soul",
+		"id": 16468,
 		"skill_icon": "cc2fff4dcbf82d405c36a0d153fb28af5fcb9068.png",
 		"job_icon": "DRK",
 		"level": "40",
@@ -157,6 +168,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Edge of Darkness",
+		"id": 16467,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f2ee4d50232/",
 		"skill_icon": "e62374eb5036fcaa1201fec390bc266620501abe.png",
 		"job_icon": "DRK",
@@ -172,6 +184,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Dark Mind",
+		"id": 3634,
 		"skill_icon": "adb1f756a8cfa746f5ec2f97e487e41c06026a61.png",
 		"job_icon": "DRK",
 		"level": "45",
@@ -186,6 +199,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Living Dead",
+		"id": 3638,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/90b0a8ee600/",
 		"skill_icon": "968fc4ccd880ca468fff7b34680e793a80ffdab1.png",
 		"job_icon": "DRK",
@@ -201,6 +215,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Salted Earth",
+		"id": 3639,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/",
 		"skill_icon": "8c3e2f641cea5b3c0693034e6feafeff359341c5.png",
 		"job_icon": "DRK",
@@ -216,6 +231,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Shadowstride",
+		"id": 36926,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/faf66e65690/",
 		"skill_icon": "52870f24b14efd37172003e974b8c45ca3d38010.png",
 		"job_icon": "DRK",
@@ -231,6 +247,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Abyssal Drain",
+		"id": 3641,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3a5811b59d5/",
 		"skill_icon": "17543c65847814b073fe6481402a347c7efc9225.png",
 		"job_icon": "DRK",
@@ -246,6 +263,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Carve and Spit",
+		"id": 3643,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/af56d79ad63/",
 		"skill_icon": "6bbe53b6e1f87598b98967ae9d29e4337a7afadd.png",
 		"job_icon": "DRK",
@@ -261,6 +279,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Bloodspiller",
+		"id": 7392,
 		"skill_icon": "4e5cbcae7dcf48cf8e3522d308f0c86df9114f0d.png",
 		"job_icon": "DRK",
 		"level": "62",
@@ -275,6 +294,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Quietus",
+		"id": 7391,
 		"skill_icon": "ea30bbaacc0da577820f8b027cec26738c1be840.png",
 		"job_icon": "DRK",
 		"level": "64",
@@ -289,6 +309,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Dark Missionary",
+		"id": 16471,
 		"skill_icon": "1dc1a1d830e5355e2cd251531e85932c24ba1b8d.png",
 		"job_icon": "DRK",
 		"level": "66",
@@ -303,6 +324,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Delirium",
+		"id": 7390,
 		"skill_icon": "fbf4ae3878ecc04c6201114ce6b0aadf26bef857.png",
 		"job_icon": "DRK",
 		"level": "68",
@@ -317,6 +339,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "The Blackest Night",
+		"id": 7393,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a3ff39484d1/\"",
 		"skill_icon": "f82c8fbcd6549c8cd72108a937aade172f8b98a8.png",
 		"job_icon": "DRK",
@@ -332,6 +355,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Flood of Shadow",
+		"id": 16469,
 		"skill_icon": "de4960def285cc69e33455acae0f50808a6cd623.png",
 		"job_icon": "DRK",
 		"level": "74",
@@ -346,6 +370,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Edge of Shadow",
+		"id": 16470,
 		"skill_icon": "e4536e75673663bf1b91d1a78a565dabc2f041f6.png",
 		"job_icon": "DRK",
 		"level": "74",
@@ -360,6 +385,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Living Shadow",
+		"id": 16472,
 		"skill_icon": "5150a7bff7be43d689f896e7be140f4720a23f6e.png",
 		"job_icon": "DRK",
 		"level": "80",
@@ -374,6 +400,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Oblation",
+		"id": 25754,
 		"skill_icon": "5a42ca000eb7ab0c80e3952539ed260af3d4c5e8.png",
 		"job_icon": "DRK",
 		"level": "82",
@@ -388,6 +415,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Salt and Darkness",
+		"id": 25755,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/fe102830cbc/\"",
 		"skill_icon": "bb0216fb548f749ceb5bf25f071af462129be59b.png",
 		"job_icon": "DRK",
@@ -403,6 +431,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Shadowbringer",
+		"id": 25757,
 		"skill_icon": "bb5281f6fd7eb6900cbda1c39722b4d3c7e51b6e.png",
 		"job_icon": "DRK",
 		"level": "90",
@@ -417,6 +446,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Shadowed Vigil",
+		"id": 36927,
 		"skill_icon": "093f2ddb0a06f04a76fe41fd5c31f7fceb46d2ea.png",
 		"job_icon": "DRK",
 		"level": "92",
@@ -431,6 +461,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Scarlet Delirium",
+		"id": 36928,
 		"skill_icon": "457d3fa4f25afb9c4494105c0afc15644bbaad7a.png",
 		"job_icon": "DRK",
 		"level": "96",
@@ -445,6 +476,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Comeuppance",
+		"id": 36929,
 		"skill_icon": "cc157e7338d9b4c32f880aed1838519933bc6797.png",
 		"job_icon": "DRK",
 		"level": "96",
@@ -459,6 +491,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Torcleaver",
+		"id": 36930,
 		"skill_icon": "2510476b643976c09c1b42f6eb9f011b7de6902c.png",
 		"job_icon": "DRK",
 		"level": "96",
@@ -473,6 +506,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Impalement",
+		"id": 36931,
 		"skill_icon": "77ef69ee0efdb439996373d7e47f2744a7604b10.png",
 		"job_icon": "DRK",
 		"level": "96",
@@ -487,6 +521,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Disesteem",
+		"id": 36932,
 		"skill_icon": "acf9474555312bfc65c8d4e8e93cf368f819f503.png",
 		"job_icon": "DRK",
 		"level": "100",
@@ -501,6 +536,7 @@
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
+		"id": 319,
 		"skill_icon": "b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "DRK",
 		"level": "1",
@@ -508,6 +544,7 @@
 	},
 	"Trait 02": {
 		"name": "Blackblood",
+		"id": 158,
 		"skill_icon": "bf25091f18b1804e88a4a5043ff35dab2cf498a7.png",
 		"job_icon": "DRK",
 		"level": "62",
@@ -515,6 +552,7 @@
 	},
 	"Trait 03": {
 		"name": "Enhanced Blackblood",
+		"id": 159,
 		"skill_icon": "3c5de58c2097300e2c9b56678196ee5a710ffe27.png",
 		"job_icon": "DRK",
 		"level": "66",
@@ -522,6 +560,7 @@
 	},
 	"Trait 04": {
 		"name": "Blood Weapon Mastery",
+		"id": 570,
 		"skill_icon": "2b189239725408e4ee7807ec361db47974443936.png",
 		"job_icon": "DRK",
 		"level": "68",
@@ -529,6 +568,7 @@
 	},
 	"Trait 05": {
 		"name": "Darkside Mastery",
+		"id": 271,
 		"skill_icon": "68800dbdca2c85218b44e9add376f59aa5d41559.png",
 		"job_icon": "DRK",
 		"level": "74",
@@ -536,6 +576,7 @@
 	},
 	"Trait 06": {
 		"name": "Enhanced Unmend",
+		"id": 422,
 		"skill_icon": "1254f70083b234ef84a6ad64c9e237231628896f.png",
 		"job_icon": "DRK",
 		"level": "84",
@@ -543,6 +584,7 @@
 	},
 	"Trait 07": {
 		"name": "Melee Mastery",
+		"id": 506,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "DRK",
 		"level": "84",
@@ -550,6 +592,7 @@
 	},
 	"Trait 08": {
 		"name": "Enhanced Living Shadow",
+		"id": 511,
 		"skill_icon": "14eb5e09a27cad9aca0badada5555013ee2336d0.png",
 		"job_icon": "DRK",
 		"level": "88",
@@ -557,6 +600,7 @@
 	},
 	"Trait 09": {
 		"name": "Enhanced Living Shadow II",
+		"id": 423,
 		"skill_icon": "5ae34095410649e88aa247fedf9f6478a0e15409.png",
 		"job_icon": "DRK",
 		"level": "90",
@@ -564,6 +608,7 @@
 	},
 	"Trait 10": {
 		"name": "Shadow Wall Mastery",
+		"id": 571,
 		"skill_icon": "1fb4da21e08c5ee9a06dead1aa6954f0b6a82126.png",
 		"job_icon": "DRK",
 		"level": "92",
@@ -571,6 +616,7 @@
 	},
 	"Trait 11": {
 		"name": "Melee Mastery II",
+		"id": 663,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "DRK",
 		"level": "94",
@@ -578,6 +624,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Delirium",
+		"id": 572,
 		"skill_icon": "ebbf5df2554905cdaf3a26d5fe2f02b0ad53b6bb.png",
 		"job_icon": "DRK",
 		"level": "96",
@@ -585,6 +632,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Living Shadow III",
+		"id": 573,
 		"skill_icon": "1cff25d23e5fb4e97a96aee32c8b2e4082c2c516.png",
 		"job_icon": "DRK",
 		"level": "100",
@@ -592,6 +640,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Hard Slash",
+		"id": 29085,
 		"skill_icon": "67e397233e08c3886a8b4e8af9f97578c1df6de1.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -603,6 +652,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Syphon Strike",
+		"id": 29086,
 		"skill_icon": "2f14337e0878aed0662297235a0682243dc3b234.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -614,6 +664,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Souleater",
+		"id": 29087,
 		"skill_icon": "13f3ceaeef0d6ec12fa91489b100915e78403bcb.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -625,6 +676,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Impalement",
+		"id": 41438,
 		"skill_icon": "270e904cd1e39b3eba028a60820f033a3804eeb0.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -636,6 +688,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Shadowbringer",
+		"id": 29091,
 		"skill_icon": "775946c6b9e7bd369a0a68635662781175930c0c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -647,6 +700,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Plunge",
+		"id": 29092,
 		"skill_icon": "3e7f296d44600715e2bc8c0b5420d7b795afda3e.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -658,6 +712,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "The Blackest Night",
+		"id": 29093,
 		"skill_icon": "1ceca4c94f71633fea2d1d23b75384672dd6b82b.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -669,6 +724,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Salted Earth",
+		"id": 29094,
 		"skill_icon": "4e8120ac0d17ab2daeefc27ca75e58a2d7d7da09.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -680,6 +736,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Scarlet Delirium",
+		"id": 41434,
 		"skill_icon": "b2f372c47ae3a92ee1d28661065743661c5fa425.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -691,6 +748,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Comeuppance",
+		"id": 41435,
 		"skill_icon": "65a3f91205b57d261d3b34b83e419716a77b09b0.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -702,6 +760,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Torcleaver",
+		"id": 41436,
 		"skill_icon": "750267df5336356bee1fb6ed174265e6bc3c2496.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -713,6 +772,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Salt and Darkness",
+		"id": 29095,
 		"skill_icon": "5aa3108720c2431e655adb077eb533b60ce21312.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -724,6 +784,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Disesteem",
+		"id": 41437,
 		"skill_icon": "5120d2e81e82757f9f84cd9bca7d3983bc7a63b7.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -733,8 +794,9 @@
 		"radius": "10y",
 		"content": "Удар, наносящий нестихийный урон по прямой линии с силой атаки 16,000.<br/>Может быть выполнено только под действием эффекта Scorn.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Eventide",
+		"id": 29097,
 		"skill_icon": "2f52efe634939c12aaf8d17525fd4a52a54002f9.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -742,5 +804,21 @@
 		"radius_img": "R6",
 		"radius": "30y",
 		"content": "Удар, наносящий урон с силой атаки 8,000 всем противников по прямой линии впереди и позади персонажа.<br/>Сила атаки увеличивается пропорционально HP до 24,000, когда HP близко к максимальному.<br/>При использовании умения HP персонажа опускается до 1.<br/>Дополнительный эффект: накладывает эффект Undead Redemption<br/>Эффект Undead Redemption: не позволяет большинству атак опустить HP персонажа ниже 1 и восстанавливает HP в размере 100% от наносимого урона боевыми навыками<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Blackblood<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Scorn<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 105 сек.<br/><br/>※Умение меняется на Disesteem под действием эффекта Scorn.<br/>※Souleater Combo меняется на Scarlet Delerium под действием эффекта Blackblood.<br/>※Souleater Combo меняется на Comeuppance под действием эффекта Comeuppance Ready.<br/>※Souleater Combo меняется на Torcleaver под действием эффекта Torcleaver Ready."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "tank_action", "name": "Role Action", "role": "Tank"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_pve_combo", "label": "Комбо"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 1, "count": 3}}
+	]
 	}
 }
