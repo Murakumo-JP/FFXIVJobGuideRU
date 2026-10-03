@@ -1,15 +1,42 @@
 FFXIV JOB GUIDE RU - PROJECT LICENSE
+https://github.com/Murakumo-JP/FFXIVJobGuideRU
+
 Copyright (c) 2024 Murakumo-JP, Morriganna Latrial
 
-This project is distributed under a multi-part licensing agreement. By using, 
-copying, or distributing any part of this project, you agree to the terms 
-stipulated below.
+===============================================================================
+SCOPE OF THIS LICENSE
+===============================================================================
+This repository contains three categories of material, each governed
+separately:
+
+  A. Original software source code written by the Authors      -> Part 1 (MIT)
+  B. Original translations and documentation by the Authors    -> Part 2
+                                                               (CC BY-NC-SA 4.0)
+  C. Materials owned by Square Enix and other third parties    -> Part 3
+                                                               (NOT licensed
+                                                               by the Authors)
+
+"Authors" means the copyright holders named above and, for contributions
+accepted into this repository, the respective contributors (see Part 5).
+
+The Authors can only license what they own. Nothing in this file grants any
+right in material owned by someone else.
 
 -------------------------------------------------------------------------------
 PART 1: SOFTWARE SOURCE CODE (MIT LICENSE)
 -------------------------------------------------------------------------------
-The software source code (including but not limited to the website structure, 
-logic, CSS, and JavaScript frameworks) is licensed under the MIT License:
+This Part applies only to original source code written by the Authors
+(for example: original JavaScript logic, build and development tools, and
+original CSS and HTML written by the Authors).
+
+It does NOT apply to any code, markup, styling, layout, or design that is
+copied or derived from the official Square Enix websites listed in Part 3, or
+to third-party libraries (see Part 6). Rights in those remain with their
+respective owners.
+
+MIT License
+
+Copyright (c) 2024-2026 Murakumo-JP, Morriganna Latrial
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,41 +57,119 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 -------------------------------------------------------------------------------
-PART 2: TRANSLATIONS AND CONTENT (CC BY-NC-SA 4.0)
+PART 2: TRANSLATIONS AND DOCUMENTATION (CC BY-NC-SA 4.0)
 -------------------------------------------------------------------------------
-All fan-made translations, localized text, and original documentation contained 
-within this project—regardless of their storage format (including but not 
-limited to JSON, XML, or text embedded directly within HTML and JavaScript 
-files)—are licensed under the Creative Commons Attribution-NonCommercial-
-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+Scope. The Authors' original contribution to the Russian-language text of this
+project (the Russian wording of translations, localized interface text, and
+original documentation such as the README) is licensed under the Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0), regardless of the file format in which it is stored
+(including JSON, XML, or text embedded in HTML and JavaScript files).
 
-Full License Text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
 
-TERMS SUMMARY:
-- Attribution: You must give appropriate credit to Murakumo-JP, Morriganna Latrial.
-- Non-Commercial: You may not use this material for commercial purposes.
-- ShareAlike: You must distribute your contributions under the same license.
+What this Part does NOT cover. The underlying source text, names, terminology,
+descriptions, and lore of FINAL FANTASY XIV are owned by Square Enix (Part 3).
+Our translations are derived from that text. The Authors license only their own
+contribution, to the extent they hold rights in it, and this license does not
+and cannot grant any right in the original Square Enix text.
+
+Attribution. If you reuse our translations or documentation as permitted by
+the license, you must:
+  - credit "Murakumo-JP, Morriganna Latrial" and the project
+    "FFXIV Job Guide RU";
+  - provide a link to https://github.com/Murakumo-JP/FFXIVJobGuideRU;
+  - provide a link to the CC BY-NC-SA 4.0 license;
+  - indicate if you made changes.
+
+NonCommercial. You may not use this material for commercial purposes,
+including selling it, placing it behind a paywall, or using it on pages
+that show advertising or earn revenue.
+
+ShareAlike. If you remix, transform, or build upon this material, you must
+distribute your adaptation under CC BY-NC-SA 4.0 or a compatible license.
+
+The summary above is for convenience only; the full license text prevails.
 
 -------------------------------------------------------------------------------
-PART 3: THIRD-PARTY INTELLECTUAL PROPERTY (SQUARE ENIX)
+PART 3: SQUARE ENIX AND OTHER THIRD-PARTY MATERIALS (NOT LICENSED BY US)
 -------------------------------------------------------------------------------
-FINAL FANTASY XIV © 2010 - 2026 SQUARE ENIX CO., LTD. All Rights Reserved.
+FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
+FINAL FANTASY XIV (c) SQUARE ENIX CO., LTD. All Rights Reserved.
+(c) SQUARE ENIX
 
-This project is an unofficial fan-made initiative. All game-related assets, 
-including titles, logos, icons, descriptions, and lore, are the sole 
-intellectual property of SQUARE ENIX CO., LTD. 
-
-All images and game materials are used strictly under the "Materials Usage 
-License" provided by Square Enix. This project is not affiliated with, 
+This project is an unofficial, fan-made initiative. It is not affiliated with,
 endorsed by, or sponsored by Square Enix.
 
-Reference: https://support.na.square-enix.com/rule.php?id=5382&tag=authc
+The following are the property of Square Enix and are EXCLUDED from Parts 1
+and 2, even where they appear inside files that also contain the Authors'
+work:
+
+  - game text: names and descriptions of jobs, actions, traits, items,
+    and other terms, and lore;
+  - images, icons, screenshots, logos, and other graphic assets;
+  - the design, layout, and content of the official websites on which
+    this project is based:
+      https://eu.finalfantasyxiv.com/jobguide/battle
+      https://eu.finalfantasyxiv.com/crafting_gathering_guide
+
+Square Enix materials are used in this project under the permission granted
+by Square Enix in its FINAL FANTASY XIV Materials Usage Policy:
+https://support.na.square-enix.com/rule.php?id=5382&tag=authc
+(see also the policies for other regions published by Square Enix).
+That permission is limited, non-commercial, and revocable by Square Enix at
+any time. Square Enix policy terms, including the requirement to keep the
+copyright notice and not to make excessive edits to the materials, apply to
+those materials independently of this license.
+
+If you copy, fork, or redistribute this project or any part of it, you are
+responsible for complying with the Square Enix policy applicable to you for
+the Square Enix materials. This license gives you no rights in them.
+
+Removal requests. The Authors will promptly remove any Square Enix material
+at the request of Square Enix or its authorized representatives, and ask
+everyone who redistributes this project to do the same.
 
 -------------------------------------------------------------------------------
-PART 4: NON-COMMERCIAL STATUS AND VOLUNTARY SUPPORT
+PART 4: NON-COMMERCIAL PROJECT
 -------------------------------------------------------------------------------
-This project is strictly non-commercial. All content is provided free of charge. 
-Any "Support" or "Donation" links associated with this project represent 
-entirely voluntary contributions intended solely to offset hosting and 
-maintenance costs. These contributions do not constitute a sale of any goods, 
-services, or third-party intellectual property.
+This project is non-commercial. All content is provided free of charge.
+The Authors do not sell the project, the translations, or any Square Enix
+material, do not run advertising on it, and do not offer paid access to it.
+
+-------------------------------------------------------------------------------
+PART 5: CONTRIBUTIONS
+-------------------------------------------------------------------------------
+Unless stated otherwise at the time of submission, by submitting a
+contribution (pull request, patch, translation, or text) to this repository,
+you confirm that you have the right to submit it and agree that:
+  - source code you contribute is licensed under Part 1 (MIT);
+  - translations and documentation you contribute are licensed under
+    Part 2 (CC BY-NC-SA 4.0);
+  - you do not contribute material owned by others (including Square Enix
+    material, other than game text and assets already used in this project)
+    without the right to do so.
+
+Contributors are credited in the README and the repository history.
+
+-------------------------------------------------------------------------------
+PART 6: THIRD-PARTY COMPONENTS
+-------------------------------------------------------------------------------
+Libraries, fonts, scripts, data sources, and other components made by third
+parties remain under their own licenses and are not relicensed by this file.
+Where required, their notices are kept in the corresponding files or listed in
+the repository documentation.
+
+-------------------------------------------------------------------------------
+PART 7: GENERAL
+-------------------------------------------------------------------------------
+- No warranty. Except for the MIT disclaimer above, all other material is
+  provided "as is", without warranty of any kind, and the Authors are not
+  liable for damages arising from its use.
+- Conflicts. If any term here conflicts with the rights of Square Enix or
+  another rights holder in their own material, their rights prevail for that
+  material.
+- Severability. If a provision is held unenforceable, the remaining provisions
+  stay in effect.
+- Contact. Questions, rights notices, and removal requests: please open an
+  issue at https://github.com/Murakumo-JP/FFXIVJobGuideRU/issues
