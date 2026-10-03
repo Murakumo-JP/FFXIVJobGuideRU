@@ -263,5 +263,101 @@
 		"radius_img": "R1",
 		"radius": "10y",
 		"content": "Deals unaspected damage with a potency of 1,200 to all enemies in a straight line.<br/>All TP will be expended upon execution.<br/>TP Gauge Cost: 250<br/>Instinctual Affinity: Moonstalker<br/>Additional Effect: Grants Moonstalker<br/>Duration: 7s<br/>Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.<br/>Executing a Moonstalker skill while under the effect of Sunstrider will complete the infinitive combo Universality, dealing greater additional damage.<br/>※This action cannot be assigned to a hotbar.<br/>※Gale Axe changes to Calamity when requirements for execution are met."
+	},
+	"TemperedRelease 01": {
+		"name": "Beastskin",
+		"skill_icon": "/Assets/images/DoWDoM/BST/beastskin.png",
+		"requires": "Beastkin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "90s",
+		"range": "0y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Reduces physical damage taken by 25% and increases critical hit rate by 5%.<br/>Duration: 30s<br/>Can only be executed while under the effect of Beast Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Beastskin when requirements for execution are met."
+	},
+	"TemperedRelease 02": {
+		"name": "Vileskin",
+		"skill_icon": "/Assets/images/DoWDoM/BST/vileskin.png",
+		"requires": "Vilekin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "90s",
+		"range": "0y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Nullifies most knockback and draw-in effects and increases block rate to 100%.<br/>Increases TP Gauge by 12 for each block.<br/>Duration: 15s<br/>Can only be executed while under the effect of Vile Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Vileskin when requirements for execution are met."
+	},
+	"TemperedRelease 03": {
+		"name": "Cloud Skim",
+		"skill_icon": "/Assets/images/DoWDoM/BST/cloud_skim.png",
+		"requires": "Cloudkin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "3s",
+		"range": "10y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Move quickly in the selected direction.<br/>Increases evasion by 5%.<br/>Duration: 60s<br/>Can only be executed while under the effect of Cloud Kinship.<br/>Cannot be executed while bound.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Cloud Skim when requirements for execution are met."
+	},
+	"TemperedRelease 04": {
+		"name": "Seedsower",
+		"skill_icon": "/Assets/images/DoWDoM/BST/seedsower.png",
+		"requires": "Seedkin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "90s",
+		"range": "0y",
+		"radius_img": "R1",
+		"radius": "6y",
+		"content": "Afflicts nearby enemies with Seeds Sown.<br/>Seeds Sown Effect: Reduces damage dealt by 10% and inflicts toxins that cause damage over time<br/>Potency: 25<br/>Duration: 60s<br/>Can only be executed while under the effect of Seed Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Seedsower when requirements for execution are met."
+	},
+	"TemperedRelease 05": {
+		"name": "Quelling Wave",
+		"skill_icon": "/Assets/images/DoWDoM/BST/quelling_wave.png",
+		"requires": "Wavekin",
+		"classification": "Spell",
+		"cast": "Instant",
+		"recast": "2,5s",
+		"range": "30y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Deals water damage with a potency of 350.<br/>Additional Effect: Increases TP Gauge by 10<br/>Additional Effect: Removes one beneficial status from target, thereby increasing TP Gauge by 50<br/>Can only be executed while under the effect of Wave Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Quelling Wave when requirements for execution are met."
+	},
+	"TemperedRelease 06": {
+		"name": "Scaleskin",
+		"skill_icon": "/Assets/images/DoWDoM/BST/scaleskin.png",
+		"requires": "Scalekin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "90s",
+		"range": "0y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Creates a barrier around self that absorbs magic damage totaling 8% of maximum HP.<br/>Duration: 15s<br/>Increases TP Gauge by 85 when barrier is completely absorbed.<br/>Can only be executed while under the effect of Scale Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Scaleskin when requirements for execution are met."
+	},
+	"TemperedRelease 07": {
+		"name": "Soul Crush",
+		"skill_icon": "/Assets/images/DoWDoM/BST/soul_crush.png",
+		"requires": "Soulkin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "30s",
+		"range": "3y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Delivers a close-quarter attack with a potency of 300.<br/>Additional Effect: Interrupts the use of a target's action<br/>Potency increases to 1,000 and TP Gauge increases by 100 upon interruption.<br/>Can only be executed while under the effect of Soul Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Soul Crush when requirements for execution are met."
+	},
+	"TemperedRelease 08": {
+		"name": "Scouring Ash",
+		"skill_icon": "/Assets/images/DoWDoM/BST/scouring_ash.png",
+		"requires": "Ashkin",
+		"classification": "Ability",
+		"cast": "Instant",
+		"recast": "60s",
+		"range": "30y",
+		"radius_img": "R1",
+		"radius": "0y",
+		"content": "Removes a single detrimental effect from self or targeted party member.<br/>Recovers 10% of maximum HP and increases TP Gauge by 100 upon removal.<br/>Can only be executed while under the effect of Ash Kinship.<br/>※This action cannot be assigned to a hotbar.<br/>※Beast Mode changes to Scouring Ash when requirements for execution are met."
 	}
 }

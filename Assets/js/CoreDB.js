@@ -192,6 +192,7 @@ function renderSkill(skill) {
 		html += `</div></td>`;
 	}
 
+	if (skill.requires) html += `<td class="requires">${skill.requires}</td>`;
 	if (skill.classification) html += `<td class="classification">${skill.classification}</td>`;
 	if (skill.cast) html += `<td class="cast">${skill.cast}</td>`;
 	if (skill.recast) html += `<td class="recast">${skill.recast}</td>`;
