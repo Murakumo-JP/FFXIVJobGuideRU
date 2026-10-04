@@ -266,7 +266,7 @@
 	},
 	"TemperedRelease 01": {
 		"name": "Beastskin",
-		"skill_icon": "/Assets/images/DoWDoM/BST/beastskin.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3927.png",
 		"requires": "Beastkin",
 		"classification": "Ability",
 		"cast": "Instant",
@@ -278,7 +278,7 @@
 	},
 	"TemperedRelease 02": {
 		"name": "Vileskin",
-		"skill_icon": "/Assets/images/DoWDoM/BST/vileskin.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3926.png",
 		"requires": "Vilekin",
 		"classification": "Ability",
 		"cast": "Instant",
@@ -290,7 +290,7 @@
 	},
 	"TemperedRelease 03": {
 		"name": "Cloud Skim",
-		"skill_icon": "/Assets/images/DoWDoM/BST/cloud_skim.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3928.png",
 		"requires": "Cloudkin",
 		"classification": "Ability",
 		"cast": "Instant",
@@ -302,7 +302,7 @@
 	},
 	"TemperedRelease 04": {
 		"name": "Seedsower",
-		"skill_icon": "/Assets/images/DoWDoM/BST/seedsower.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3929.png",
 		"requires": "Seedkin",
 		"classification": "Ability",
 		"cast": "Instant",
@@ -314,7 +314,7 @@
 	},
 	"TemperedRelease 05": {
 		"name": "Quelling Wave",
-		"skill_icon": "/Assets/images/DoWDoM/BST/quelling_wave.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3930.png",
 		"requires": "Wavekin",
 		"classification": "Spell",
 		"cast": "Instant",
@@ -326,7 +326,7 @@
 	},
 	"TemperedRelease 06": {
 		"name": "Scaleskin",
-		"skill_icon": "/Assets/images/DoWDoM/BST/scaleskin.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3931.png",
 		"requires": "Scalekin",
 		"classification": "Ability",
 		"cast": "Instant",
@@ -338,7 +338,7 @@
 	},
 	"TemperedRelease 07": {
 		"name": "Soul Crush",
-		"skill_icon": "/Assets/images/DoWDoM/BST/soul_crush.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3932.png",
 		"requires": "Soulkin",
 		"classification": "Ability",
 		"cast": "Instant",
@@ -350,7 +350,7 @@
 	},
 	"TemperedRelease 08": {
 		"name": "Scouring Ash",
-		"skill_icon": "/Assets/images/DoWDoM/BST/scouring_ash.png",
+		"skill_icon": "/Assets/images/DoWDoM/BST/3933.png",
 		"requires": "Ashkin",
 		"classification": "Ability",
 		"cast": "Instant",
