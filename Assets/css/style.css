@@ -6,11 +6,13 @@
   --dps-color: #732828;
   --craft-color: #4e328f;
   --gathering-color: #8f7832;
+  --bst_color-color: #0098a6;
   --tank-AltColor: #545e99;
   --healer-AltColor: #548046;
   --dps-AltColor: #8c4d4d;
   --craft-AltColor: #695499;
   --gathering-AltColor: #998854;
+  --bst_color-AltColor: #33b8c4;
   --font: sans-serif;
   --color-set-1: #191919;
   --color-set-2: #000;
@@ -311,6 +313,7 @@
   transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
   transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+  cursor: pointer;
 }
 #main_news div:hover {
   -webkit-transform: translateX(5px);
@@ -705,7 +708,7 @@
 }
 .icon_search:after {
   content: "";
-  background: url(/Assets/images/main/skill_icon_on.png) no-repeat;
+  background: url("/Assets/images/main/skill_icon_on.png") no-repeat;
   width: 48px;
   height: 48px;
   display: block;
@@ -738,31 +741,6 @@
   z-index: 9999;
 }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(-120%);
-            transform: translateY(-120%);
-  }
-  to {
-    opacity: 0.9;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translateY(-120%);
-            transform: translateY(-120%);
-  }
-  to {
-    opacity: 0.9;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-}
 #floatingSearchBtn {
   display: block;
   width: 30px;
@@ -787,6 +765,8 @@
 
 #floatingSearchBtn.move-up {
   bottom: 80px;
+  -webkit-transition: bottom 0.1s ease-out;
+  transition: bottom 0.1s ease-out;
 }
 
 .search-popup-overlay {
@@ -842,6 +822,15 @@
 .search-popup-close:hover {
   color: red;
   background-color: rgba(0, 180, 216, 0.1);
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
@@ -1140,22 +1129,6 @@
   vertical-align: middle;
 }
 
-.job_combo_root_skill p,
-.job_combo_root_skill_first p,
-.job_combo_root_skill_last p {
-  font-size: 12px;
-  font-weight: bold;
-  color: #585858;
-  width: 200px;
-}
-
-.job_combo_root {
-  display: table;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  min-height: 124px;
-}
-
 .job_combo_dragoon_04 {
   display: grid;
   grid-template: "start combo01 end combo01_effect" "start . end combo01_effect" 62px "start . end combo02_effect" 62px "start combo02 end combo02_effect";
@@ -1175,13 +1148,13 @@
   width: 120px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon {
-  background: url(/Assets/images/main/skil_icon.png) no-repeat 4px 2px;
+  background: url("/Assets/images/main/skil_icon.png") no-repeat 4px 2px;
   background-size: 40px 40px;
   width: 48px;
   height: 48px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon::after {
-  background: url(/Assets/images/main/skill_icon_on2x.png) no-repeat;
+  background: url("/Assets/images/main/skill_icon_on2x.png") no-repeat;
   background-size: 48px 48px;
 }
 .job_combo_dragoon_04 .job_combo_skill_icon img {
@@ -1515,6 +1488,220 @@
     display: none;
   }
 }
+.bluemage_content,
+.beastmaster_content {
+  padding: 16px 5px 5px !important;
+}
+.bluemage_content .job_title,
+.bluemage_content .job_notes_lv80,
+.bluemage_content .job_update,
+.beastmaster_content .job_title,
+.beastmaster_content .job_notes_lv80,
+.beastmaster_content .job_update {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.bluemage_content .job_content_wrapper .job_table,
+.beastmaster_content .job_content_wrapper .job_table {
+  width: 950px;
+}
+.bluemage-content,
+.beastmaster-content {
+  padding-bottom: 32px;
+}
+.bluemage-text,
+.beastmaster-text {
+  font-size: 14px;
+  color: #585858;
+  margin: 0 10px;
+  padding-bottom: 32px;
+}
+.bluemage-text .eorzeadb_link,
+.beastmaster-text .eorzeadb_link {
+  color: #2556b8;
+}
+.bluemage-quest,
+.beastmaster-quest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px;
+  padding-bottom: 32px;
+}
+.bluemage-quest_title,
+.beastmaster-quest_title {
+  background: rgba(128, 102, 51, 0.1);
+  height: 28px;
+  margin: 0 10px;
+  padding-left: 44px;
+  border-radius: 14px;
+  position: relative;
+}
+.bluemage-quest_title::before,
+.beastmaster-quest_title::before {
+  content: "";
+  background: url("/Assets/images/main/quest.png");
+  background-size: 40px 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.bluemage-quest_title a,
+.beastmaster-quest_title a {
+  position: relative;
+  top: 3px;
+  color: #2556b8;
+  font-size: 16px;
+  font-weight: 700;
+}
+.bluemage-quest_map,
+.beastmaster-quest_map {
+  width: 360px;
+  margin-right: 16px;
+}
+.bluemage-quest_detail,
+.beastmaster-quest_detail {
+  width: 544px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  padding: 8px 16px 0 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.bluemage-quest li,
+.beastmaster-quest li {
+  font-size: 14px;
+  color: #585858;
+  padding: 0 0 8px 24px;
+}
+.bluemage-quest li.level,
+.beastmaster-quest li.level {
+  background: url("/Assets/images/main/attributes/level.png") no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li.pos,
+.beastmaster-quest li.pos {
+  background: url("/Assets/images/main/attributes/location.png") no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li.npc,
+.beastmaster-quest li.npc {
+  background: url("/Assets/images/main/attributes/npc.png") no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li.condition,
+.beastmaster-quest li.condition {
+  background: url("/Assets/images/main/attributes/complite.png") no-repeat 0 0;
+  background-size: 20px 20px;
+}
+.bluemage-quest li a,
+.beastmaster-quest li a {
+  color: #2556b8;
+  font-weight: 700;
+}
+.bluemage-list,
+.beastmaster-list {
+  margin: 0 10px;
+}
+.bluemage-list li,
+.beastmaster-list li {
+  background: url("/Assets/images/main/bluli.png") no-repeat 0 2px;
+  background-size: 16px 16px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.bluemage-list li li,
+.beastmaster-list li li {
+  background: url("/Assets/images/main/bluli2.png") no-repeat 0 2px;
+  background-size: 16px 16px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  margin-top: 16px;
+}
+.bluemage-notes,
+.beastmaster-notes {
+  font-size: inherit;
+  color: #b2122d;
+}
+.bluemage-image,
+.beastmaster-image {
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+}
+.bluemage-image_mb,
+.beastmaster-image_mb {
+  display: block;
+  margin: 0 auto 32px;
+  border-radius: 8px;
+}
+.bluemage-image_nb,
+.beastmaster-image_nb {
+  display: block;
+  margin: 0 auto 16px;
+  border-radius: 0;
+}
+.bluemage-indent,
+.beastmaster-indent {
+  padding: 0 16px;
+}
+.bluemage-sub_title,
+.beastmaster-sub_title {
+  font-size: 14px;
+  margin: 0 10px;
+}
+.bluemage-table,
+.beastmaster-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 10px 32px;
+  border-top: 1px solid #b5b5b3;
+}
+.bluemage-table dt,
+.bluemage-table dd,
+.beastmaster-table dt,
+.beastmaster-table dd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  min-height: 50px;
+  padding: 6px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid #b5b5b3;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  line-break: strict;
+}
+
+.blu_number,
+.bst_number {
+  background-color: #e58600;
+  color: white;
+  padding: 0 5px 0 5px;
+  border-radius: 10px;
+}
+
 #job_none {
   pointer-events: none;
   opacity: 0.5;
@@ -1608,6 +1795,13 @@ img {
   padding: 0 15px;
 }
 
+.job_bst_color .search {
+  background: var(--bst_color-color);
+}
+.job_bst_color .search #searchInput {
+  background: var(--bst_color-AltColor);
+}
+
 input::-moz-placeholder {
   color: white;
 }
@@ -1630,6 +1824,8 @@ input::placeholder {
   right: 20px;
   position: fixed;
   z-index: 99;
+  -webkit-transition: bottom 0.1s ease-out;
+  transition: bottom 0.1s ease-out;
 }
 
 .app_top {
@@ -2315,12 +2511,6 @@ input::placeholder {
   display: inline-block;
   font-weight: 700;
   font-size: 10px;
-}
-.job_tbody td .distant_range img {
-  width: 16px;
-  height: 16px;
-  vertical-align: top;
-  margin: 0 2px 0 10px;
 }
 
 .job_text {
@@ -3029,6 +3219,11 @@ input::placeholder {
   background-attachment: fixed;
 }
 
+.job_bst {
+  background: url("/Assets/images/JobHaider/haider_bst.jpg") no-repeat center top #1f1812;
+  background-attachment: fixed;
+}
+
 .job_crp {
   background: url("/Assets/images/JobHaider/haider_crp.jpg") no-repeat center top #27174c;
   background-attachment: fixed;
@@ -3221,6 +3416,47 @@ table {
   height: 32px;
 }
 
+.job_bst_color .jobguide_menu_list > li > span,
+.job_bst_color .job_nav_title a,
+.job_bst_color .job_sub_title,
+.job_bst_color .job_hud_title {
+  color: var(--bst_color-color);
+}
+.job_bst_color .jobguide_sub_menu li a {
+  color: var(--bst_color-AltColor);
+}
+.job_bst_color .job_title {
+  background: var(--bst_color-color);
+}
+.job_bst_color .job_thead p,
+.job_bst_color .job_combo_title_sequence,
+.job_bst_color .job_combo_title_effect {
+  background: var(--bst_color-AltColor);
+}
+.job_bst_color .nav_floating_icon,
+.job_bst_color ~ .nome_app_top .app_top,
+.job_bst_color ~ #floatingSearchBtn {
+  background-color: var(--bst_color-color);
+  -webkit-box-shadow: 1px 1px 5px var(--bst_color-color);
+          box-shadow: 1px 1px 5px var(--bst_color-color);
+}
+.job_bst_color .nav_floating_icon:hover,
+.job_bst_color ~ .nome_app_top .app_top:hover,
+.job_bst_color ~ #floatingSearchBtn:hover {
+  background-color: var(--bst_color-AltColor);
+}
+.job_bst_color .job_header_role {
+  background: var(--bst_color-color);
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5019607843);
+}
+.job_bst_color .job_header_role img {
+  display: inline-block;
+  margin-right: 4px;
+  width: 32px;
+  height: 32px;
+}
+
 .job_craft .guide-title,
 .job_craft .guide-about_title:after {
   background: var(--craft-color);
@@ -3364,151 +3600,6 @@ table {
   display: block;
 }
 
-.bluemage_content {
-  padding: 16px 5px 5px !important;
-}
-.bluemage_content .job_title,
-.bluemage_content .job_notes_lv80,
-.bluemage_content .job_update {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.bluemage_content .job_content_wrapper .job_table {
-  width: 950px;
-}
-.bluemage-content {
-  padding-bottom: 32px;
-}
-.bluemage-text {
-  font-size: 14px;
-  color: #585858;
-  margin: 0 10px;
-  padding-bottom: 32px;
-}
-.bluemage-text .eorzeadb_link {
-  color: #2556b8;
-}
-.bluemage-quest {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 10px;
-  padding-bottom: 32px;
-}
-.bluemage-quest_title {
-  background: rgba(128, 102, 51, 0.1);
-  height: 28px;
-  margin: 0 10px;
-  padding-left: 44px;
-  border-radius: 14px;
-  position: relative;
-}
-.bluemage-quest_title::before {
-  content: "";
-  background: url("/Assets/images/main/quest.png");
-  background-size: 40px 40px;
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.bluemage-quest_title a {
-  position: relative;
-  top: 3px;
-  color: #2556b8;
-  font-size: 16px;
-  font-weight: 700;
-}
-.bluemage-quest_map {
-  width: 360px;
-  margin-right: 16px;
-}
-.bluemage-quest_detail {
-  width: 544px;
-  background: rgba(255, 255, 255, 0.35);
-  border-radius: 8px;
-  padding: 8px 16px 0 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-.bluemage-quest li {
-  font-size: 14px;
-  color: #585858;
-  padding: 0 0 8px 24px;
-}
-.bluemage-quest li.level {
-  background: url("/Assets/images/main/attributes/level.png") no-repeat 0 0;
-  background-size: 20px 20px;
-}
-.bluemage-quest li.pos {
-  background: url("/Assets/images/main/attributes/location.png") no-repeat 0 0;
-  background-size: 20px 20px;
-}
-.bluemage-quest li.npc {
-  background: url("/Assets/images/main/attributes/npc.png") no-repeat 0 0;
-  background-size: 20px 20px;
-}
-.bluemage-quest li.condition {
-  background: url("/Assets/images/main/attributes/complite.png") no-repeat 0 0;
-  background-size: 20px 20px;
-}
-.bluemage-quest li a {
-  color: #2556b8;
-  font-weight: 700;
-}
-.bluemage-list {
-  margin: 0 10px;
-}
-.bluemage-list li {
-  background: url("/Assets/images/main/bluli.png") no-repeat 0 2px;
-  background-size: 16px 16px;
-  padding-bottom: 32px;
-  padding-left: 20px;
-  font-size: 14px;
-}
-.bluemage-list li li {
-  background: url("/Assets/images/main/bluli2.png") no-repeat 0 2px;
-  background-size: 16px 16px;
-  padding-bottom: 0;
-  padding-left: 20px;
-  margin-top: 16px;
-}
-.bluemage-notes {
-  font-size: inherit;
-  color: #b2122d;
-}
-.bluemage-image {
-  display: block;
-  margin: 0 auto 16px;
-  border-radius: 8px;
-}
-.bluemage-image_mb {
-  display: block;
-  margin: 0 auto 32px;
-  border-radius: 8px;
-}
-.bluemage-indent {
-  padding: 0 16px;
-}
-.bluemage-sub_title {
-  font-size: 14px;
-  margin: 0 10px;
-}
-
-.blu_number {
-  background-color: #e58600;
-  color: white;
-  padding: 0 5px 0 5px;
-  border-radius: 10px;
-}
-
 .error_info {
   display: block;
   position: relative;
@@ -3553,4 +3644,15 @@ table {
 .cost,
 .recast {
   text-align: center !important;
+}
+
+.fade-element {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.fade-element.visible {
+  opacity: 1;
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */

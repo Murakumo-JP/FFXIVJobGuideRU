@@ -1,0 +1,198 @@
+@use "image" as *;
+
+// Limited Jobs (Blue Mage, Beastmaster)
+.bluemage,
+.beastmaster {
+	&_content {
+		padding: 16px 5px 5px !important;
+
+		.job_title,
+		.job_notes_lv80,
+		.job_update {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+
+		.job_content_wrapper .job_table {
+			width: 950px;
+		}
+	}
+
+	&-content {
+		padding-bottom: 32px;
+	}
+
+	&-text {
+		font-size: 14px;
+		color: #585858;
+		margin: 0 10px;
+		padding-bottom: 32px;
+		.eorzeadb_link {
+			color: #2556b8;
+		}
+	}
+
+	&-quest {
+		display: flex;
+		align-items: center;
+		margin: 0 10px;
+		padding-bottom: 32px;
+
+		&_title {
+			background: rgba(128, 102, 51, 0.1);
+			height: 28px;
+			margin: 0 10px;
+			padding-left: 44px;
+			border-radius: 14px;
+			position: relative;
+
+			&::before {
+				content: "";
+				background: url($ico-quest);
+				background-size: 40px 40px;
+				display: block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+			}
+
+			a {
+				position: relative;
+				top: 3px;
+				color: #2556b8;
+				font-size: 16px;
+				font-weight: 700;
+			}
+		}
+
+		&_map {
+			width: 360px;
+			margin-right: 16px;
+		}
+
+		&_detail {
+			width: 544px;
+			background: rgba(255, 255, 255, 0.35);
+			border-radius: 8px;
+			padding: 8px 16px 0 8px;
+			box-sizing: border-box;
+		}
+
+		li {
+			font-size: 14px;
+			color: #585858;
+			padding: 0 0 8px 24px;
+
+			&.level {
+				background: url($ico-level) no-repeat 0 0;
+				background-size: 20px 20px;
+			}
+
+			&.pos {
+				background: url($ico-location) no-repeat 0 0;
+				background-size: 20px 20px;
+			}
+
+			&.npc {
+				background: url($ico-npc) no-repeat 0 0;
+				background-size: 20px 20px;
+			}
+
+			&.condition {
+				background: url($ico-complite) no-repeat 0 0;
+				background-size: 20px 20px;
+			}
+
+			a {
+				color: #2556b8;
+				font-weight: 700;
+			}
+		}
+	}
+
+	&-list {
+		margin: 0 10px;
+
+		li {
+			background: url($blu-atb1) no-repeat 0 2px;
+			background-size: 16px 16px;
+			padding-bottom: 32px;
+			padding-left: 20px;
+			font-size: 14px;
+
+			li {
+				background: url($blu-atb2) no-repeat 0 2px;
+				background-size: 16px 16px;
+				padding-bottom: 0;
+				padding-left: 20px;
+				margin-top: 16px;
+			}
+		}
+	}
+
+	&-notes {
+		font-size: inherit;
+		color: #b2122d;
+	}
+
+	&-image {
+		display: block;
+		margin: 0 auto 16px;
+		border-radius: 8px;
+
+		&_mb {
+			display: block;
+			margin: 0 auto 32px;
+			border-radius: 8px;
+		}
+
+		&_nb {
+			display: block;
+			margin: 0 auto 16px;
+			border-radius: 0;
+		}
+	}
+
+	&-indent {
+		padding: 0 16px;
+	}
+
+	&-sub_title {
+		font-size: 14px;
+		margin: 0 10px;
+	}
+
+	&-table {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: 0 10px 32px;
+		border-top: 1px solid #b5b5b3;
+
+		dt,
+		dd {
+			display: flex;
+			align-items: center;
+			width: 50%;
+			min-height: 50px;
+			padding: 6px 12px;
+			box-sizing: border-box;
+			border-bottom: 1px solid #b5b5b3;
+			font-size: 14px;
+			overflow-wrap: anywhere;
+			word-break: normal;
+			line-break: strict;
+		}
+	}
+}
+
+.blu_number,
+.bst_number {
+	background-color: #e58600;
+	color: white;
+	padding: 0 5px 0 5px;
+	border-radius: 10px;
+}

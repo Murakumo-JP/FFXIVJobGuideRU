@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Dosis",
+		"id": 24283,
 		"skill_icon": "817398ae8dfe613839528291eebfe76e05bd3584.png",
 		"job_icon": "SGE",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Diagnosis",
+		"id": 24284,
 		"skill_icon": "c750ddbd308f469bfe54e263e98f2b1dc42ecfd3.png",
 		"job_icon": "SGE",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Kardia",
+		"id": 24285,
 		"skill_icon": "bd80c68721d02a37275edfa07de82a39adbceb1c.png",
 		"job_icon": "SGE",
 		"level": "4",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Prognosis",
+		"id": 24286,
 		"skill_icon": "7f8253801283aa010e5a6ff40dafda493f1d58a4.png",
 		"job_icon": "SGE",
 		"level": "10",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Egeiro",
+		"id": 24287,
 		"skill_icon": "3b5dbe0188fba544474a1c3304af88544838e5cc.png",
 		"job_icon": "SGE",
 		"level": "12",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Physis",
+		"id": 24288,
 		"skill_icon": "b2acbee8acf84344ed1cbf15e97a5f88fe0f2e22.png",
 		"job_icon": "SGE",
 		"level": "20",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Phlegma",
+		"id": 24289,
 		"skill_icon": "9f221a8b7c540f90f808d332e802b3626fef4431.png",
 		"job_icon": "SGE",
 		"level": "26",
@@ -99,6 +106,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Eukrasia",
+		"id": 24290,
 		"skill_icon": "3d9da11ae40aa687171f1bf2a5655b6f0e442d79.png",
 		"job_icon": "SGE",
 		"level": "30",
@@ -113,6 +121,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Eukrasian Diagnosis",
+		"id": 24291,
 		"skill_icon": "0a0085828964c504f045a98b67feaf6c26c2307d.png",
 		"job_icon": "SGE",
 		"level": "30",
@@ -127,6 +136,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Eukrasian Prognosis",
+		"id": 24292,
 		"skill_icon": "723cccd2fe9542159daffcd22f44ff52d8a2f6a1.png",
 		"job_icon": "SGE",
 		"level": "30",
@@ -141,6 +151,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Eukrasian Dosis",
+		"id": 24293,
 		"skill_icon": "3cffb9cb106612236b80ce85e1881e0d7760512f.png",
 		"job_icon": "SGE",
 		"level": "30",
@@ -155,6 +166,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Soteria",
+		"id": 24294,
 		"skill_icon": "4f39d0024ea7741facfb247d0056064e831c3765.png",
 		"job_icon": "SGE",
 		"level": "35",
@@ -169,6 +181,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Icarus",
+		"id": 24295,
 		"skill_icon": "347d5069652ea0716aa462ba3dd96fc148156b0f.png",
 		"job_icon": "SGE",
 		"level": "40",
@@ -183,6 +196,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Druochole",
+		"id": 24296,
 		"skill_icon": "00cd1d056243c5e06b9bbb52a6112ddb35dbcbe9.png",
 		"job_icon": "SGE",
 		"level": "45",
@@ -197,6 +211,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Dyskrasia",
+		"id": 24297,
 		"skill_icon": "849a554b53462ae2c240dc06558bf710c0f98e5e.png",
 		"job_icon": "SGE",
 		"level": "46",
@@ -211,6 +226,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Kerachole",
+		"id": 24298,
 		"skill_icon": "b49859cbf63de26b230527650742576590166760.png",
 		"job_icon": "SGE",
 		"level": "50",
@@ -225,6 +241,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Ixochole",
+		"id": 24299,
 		"skill_icon": "4ee83614031659334dda42affd3314aebcaf98f4.png",
 		"job_icon": "SGE",
 		"level": "52",
@@ -239,6 +256,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Zoe",
+		"id": 24300,
 		"skill_icon": "958000045b75c90c1ce059d11d2f2ed488d72a65.png",
 		"job_icon": "SGE",
 		"level": "56",
@@ -253,6 +271,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Pepsis",
+		"id": 24301,
 		"skill_icon": "863096a46c76144097ba25d6d9d5fe1f997cda9e.png",
 		"job_icon": "SGE",
 		"level": "58",
@@ -267,6 +286,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Physis II",
+		"id": 24302,
 		"skill_icon": "ece8fe6d911ad6497e35a13d82572d2373d2a2a4.png",
 		"job_icon": "SGE",
 		"level": "60",
@@ -281,6 +301,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Taurochole",
+		"id": 24303,
 		"skill_icon": "fe3b0d2ce97deba2e6b4cfbc39e65e2abd32b31b.png",
 		"job_icon": "SGE",
 		"level": "62",
@@ -295,6 +316,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Toxikon",
+		"id": 24304,
 		"skill_icon": "bedfcd09b95bf0fa2290753478364965c82a739b.png",
 		"job_icon": "SGE",
 		"level": "66",
@@ -309,6 +331,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Haima",
+		"id": 24305,
 		"skill_icon": "31657e2f5ec2ec375960c927a6ed532883d8d271.png",
 		"job_icon": "SGE",
 		"level": "70",
@@ -323,6 +346,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Dosis II",
+		"id": 24306,
 		"skill_icon": "0323f174ced3df37c1c6699f4c4dc980e58b9b7b.png",
 		"job_icon": "SGE",
 		"level": "72",
@@ -337,6 +361,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Phlegma II",
+		"id": 24307,
 		"skill_icon": "abcef32ec5c7c111d5a2a3569ce427d7fc0a6ede.png",
 		"job_icon": "SGE",
 		"level": "72",
@@ -351,6 +376,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Eukrasian Dosis II",
+		"id": 24308,
 		"skill_icon": "075562984879d8d32898462a95da91d65e3df88c.png",
 		"job_icon": "SGE",
 		"level": "72",
@@ -365,6 +391,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Rhizomata",
+		"id": 24309,
 		"skill_icon": "d4628890501806f6ebbc3371b1e21ba63e69940c.png",
 		"job_icon": "SGE",
 		"level": "74",
@@ -379,6 +406,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Holos",
+		"id": 24310,
 		"skill_icon": "810d7969914bee1bbf088a70d62d6578a0949f9e.png",
 		"job_icon": "SGE",
 		"level": "76",
@@ -393,6 +421,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Panhaima",
+		"id": 24311,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/a59d4620bb6/",
 		"skill_icon": "f7bdefbdd3410f2dd4b5c0f36e74ee72b115ccda.png",
 		"job_icon": "SGE",
@@ -408,6 +437,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Dosis III",
+		"id": 24312,
 		"skill_icon": "99b9cce6a42b638d04a03e6e3de38555d333b53b.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -422,6 +452,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Phlegma III",
+		"id": 24313,
 		"skill_icon": "93dc61daa2db9449d34a5198669e59de306451e1.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -436,6 +467,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Eukrasian Dosis III",
+		"id": 24314,
 		"skill_icon": "7e340f46db9e27a9fd1fcd729d8eaceacf4cfa9f.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -450,6 +482,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Dyskrasia II",
+		"id": 24315,
 		"skill_icon": "0f71b2b711281a46eb641cb99bbe0f3b9c2e4a0a.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -464,6 +497,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Eukrasian Dyskrasia",
+		"id": 37032,
 		"skill_icon": "c8c74517022e0d8f5fd8f379225a64f12eff5e0a.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -478,6 +512,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Toxikon II",
+		"id": 24316,
 		"skill_icon": "a5a4b7ed8fbb4d9ac9fbf32fde1784f37367645a.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -492,6 +527,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Krasis",
+		"id": 24317,
 		"skill_icon": "2ef8237422768324b57e9d244731351fb0eca548.png",
 		"job_icon": "SGE",
 		"level": "86",
@@ -506,6 +542,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Pneuma",
+		"id": 24318,
 		"skill_icon": "5ec3407305900508ed6eaea6dba984851b883fe3.png",
 		"job_icon": "SGE",
 		"level": "90",
@@ -520,6 +557,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Psyche",
+		"id": 37033,
 		"skill_icon": "9d4fec42b917590f53bfa7ccc1691c083afd7a3c.png",
 		"job_icon": "SGE",
 		"level": "92",
@@ -534,6 +572,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Eukrasian Prognosis II",
+		"id": 37034,
 		"skill_icon": "dc49cdcdfa8ec3a8d32f6e8b405ddda6971e23f0.png",
 		"job_icon": "SGE",
 		"level": "96",
@@ -548,6 +587,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Philosophia",
+		"id": 37035,
 		"skill_icon": "a3dd5ff88eb7a7cce95536d48fe81665e3feb3ca.png",
 		"job_icon": "SGE",
 		"level": "100",
@@ -562,6 +602,7 @@
 	},
 	"Trait 01": {
 		"name": "Maim and Mend",
+		"id": 368,
 		"skill_icon": "688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "SGE",
 		"level": "20",
@@ -569,6 +610,7 @@
 	},
 	"Trait 02": {
 		"name": "Maim and Mend II",
+		"id": 369,
 		"skill_icon": "f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "SGE",
 		"level": "40",
@@ -576,6 +618,7 @@
 	},
 	"Trait 03": {
 		"name": "Addersgall",
+		"id": 370,
 		"skill_icon": "b86570a9f72fc265e443871ea6a405826d42060c.png",
 		"job_icon": "SGE",
 		"level": "45",
@@ -583,6 +626,7 @@
 	},
 	"Trait 04": {
 		"name": "Somanoutic Oath",
+		"id": 371,
 		"skill_icon": "3ce64c88b1b8e70aee12747d90c599b922447938.png",
 		"job_icon": "SGE",
 		"level": "54",
@@ -590,6 +634,7 @@
 	},
 	"Trait 05": {
 		"name": "Physis Mastery",
+		"id": 510,
 		"skill_icon": "6cf73d5fbe9a086a0860149db46f88f454bb3f13.png",
 		"job_icon": "SGE",
 		"level": "60",
@@ -597,6 +642,7 @@
 	},
 	"Trait 06": {
 		"name": "Somanoutic Oath II",
+		"id": 372,
 		"skill_icon": "e7e779832d0197ed60a0214abbab1ca702de2875.png",
 		"job_icon": "SGE",
 		"level": "64",
@@ -604,6 +650,7 @@
 	},
 	"Trait 07": {
 		"name": "Addersting",
+		"id": 373,
 		"skill_icon": "cfb87ef1a74d592d9dcfe7cb33621fb314a1ed01.png",
 		"job_icon": "SGE",
 		"level": "66",
@@ -611,6 +658,7 @@
 	},
 	"Trait 08": {
 		"name": "Offensive Magic Mastery",
+		"id": 374,
 		"skill_icon": "9c6143925ffafcc5c89f778468efc6007e462af3.png",
 		"job_icon": "SGE",
 		"level": "72",
@@ -618,6 +666,7 @@
 	},
 	"Trait 09": {
 		"name": "Enhanced Kerachole",
+		"id": 375,
 		"skill_icon": "e6fa10aa0dbee5933fac656f6ef6dafc1e1e690c.png",
 		"job_icon": "SGE",
 		"level": "78",
@@ -625,6 +674,7 @@
 	},
 	"Trait 10": {
 		"name": "Offensive Magic Mastery II",
+		"id": 376,
 		"skill_icon": "564a3b60ed5448982dad4d6ccc9cabd37c75c67e.png",
 		"job_icon": "SGE",
 		"level": "82",
@@ -632,6 +682,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Healing Magic",
+		"id": 377,
 		"skill_icon": "a24e5cd23307348ea0119062908b5153b2b84ca2.png",
 		"job_icon": "SGE",
 		"level": "85",
@@ -639,6 +690,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Zoe",
+		"id": 378,
 		"skill_icon": "ff0ef626ed580de0d061fda117ba39273ae14e55.png",
 		"job_icon": "SGE",
 		"level": "88",
@@ -646,6 +698,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Soteria",
+		"id": 636,
 		"skill_icon": "b675e0b4d7c78365b31a0743e6ec49caef50c5e1.png",
 		"job_icon": "SGE",
 		"level": "94",
@@ -653,6 +706,7 @@
 	},
 	"Trait 14": {
 		"name": "Magick Mastery",
+		"id": 669,
 		"skill_icon": "faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "SGE",
 		"level": "94",
@@ -660,6 +714,7 @@
 	},
 	"Trait 15": {
 		"name": "Eukrasian Prognosis Mastery",
+		"id": 637,
 		"skill_icon": "d94311ab094fe93f3afe0bacc9aca872e10b9bee.png",
 		"job_icon": "SGE",
 		"level": "96",
@@ -667,6 +722,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Physis II",
+		"id": 638,
 		"skill_icon": "c339975b009ee133dd2c288662a6306145a24201.png",
 		"job_icon": "SGE",
 		"level": "98",
@@ -674,6 +730,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Dosis III",
+		"id": 29256,
 		"skill_icon": "b60a74e21fb3694a5183dd1779235abb4f74f206.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -685,6 +742,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Phlegma III",
+		"id": 29259,
 		"skill_icon": "9de1f71a8289f106201a31e0c7263f6cf8c29982.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -696,6 +754,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Pneuma",
+		"id": 29260,
 		"skill_icon": "a6b4ab382bd785eb618a79011b77f1bd41bbb229.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -707,6 +766,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Eukrasia",
+		"id": 29258,
 		"skill_icon": "b179c19bd11aba27f8619c2ab77a59aa2fa99403.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -718,6 +778,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Icarus",
+		"id": 29261,
 		"skill_icon": "418c952d0a14cb4ecfb8f8bb4a7133594102e907.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -729,6 +790,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Toxikon",
+		"id": 29262,
 		"skill_icon": "57e8d9af7caf585ee813c10fa0bac46abea90b7c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -740,6 +802,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Kardia",
+		"id": 29264,
 		"skill_icon": "41d57c299b7ac96212d214fc5c351d26d395538c.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -751,6 +814,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Eukrasian Dosis III",
+		"id": 29257,
 		"skill_icon": "23a3889f4d44ead99c7744ddb4482020a03dde73.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -762,6 +826,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Psyche",
+		"id": 41658,
 		"skill_icon": "d3d0e0f4ded786f0846ea80145721622faef4bee.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -773,6 +838,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Toxikon II",
+		"id": 29263,
 		"skill_icon": "8cfa4b9e7012759fd371b373d52cca95f8591bf6.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -782,8 +848,9 @@
 		"radius": "5y",
 		"content": "Удар, наносящий нестихийный урон по цели и всем окружающим противникам с силой атаки 8,000 для первого и 4,000 для остальных.<br/>Дополнительный эффект: увеличивает получаемый целью урон на 10%<br/>Продолжительность: 6 сек.<br/>Может быть выполнено только под эффектом Addersting.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Mesotes",
+		"id": 29266,
 		"skill_icon": "b7c802ff27b9c70dfeee638a7c41db4e7ffd642a.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -791,5 +858,20 @@
 		"radius_img": "R2",
 		"radius": "5y",
 		"content": "Создает магический барьер в выбранном месте, накладывая на сопартийцев эффект Mesotes и поражая противников эффектом Lype, если они находятся внутри.<br/>Продолжительность: 15 сек.<br/>Эффект Mesotes: предотвращает весь урон от противников, не находящихся под эффектом Lype<br/>Продолжительность: 5 сек.<br/>Эффект Lype: периодический урон<br/>Сила атаки: 8,000<br/>Продолжительность: 5 сек.<br/>Барьер можно переместить один раз до окончания действия эффекта, но продолжительность эффекта не будет сброшена.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 120 сек."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "healer_action", "name": "Role Action", "role": "Healer"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 4, "count": 3}}
+	]
 	}
 }

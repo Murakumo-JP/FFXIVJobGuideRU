@@ -1,3 +1,5 @@
+@use "image" as *;
+
 .search-container {
 	position: relative;
 	width: 100%;
@@ -131,7 +133,7 @@
 
 	&:after {
 		content: "";
-		background: url(/Assets/images/main/skill_icon_on.png) no-repeat;
+		background: url($skill-icon-top) no-repeat;
 		width: 48px;
 		height: 48px;
 		display: block;
@@ -163,17 +165,6 @@
 	z-index: 9999;
 }
 
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-		transform: translateY(-120%);
-	}
-	to {
-		opacity: 0.9;
-		transform: translateY(-100%);
-	}
-}
-
 // Page
 
 #floatingSearchBtn {
@@ -198,6 +189,7 @@
 
 #floatingSearchBtn.move-up {
 	bottom: 80px;
+	transition: bottom 0.1s ease-out;
 }
 
 .search-popup-overlay {

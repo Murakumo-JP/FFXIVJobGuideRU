@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Malefic",
+		"id": 3596,
 		"skill_icon": "1c53f900e5226e09621196190c506da91d3703bb.png",
 		"job_icon": "AST",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Benefic",
+		"id": 3594,
 		"skill_icon": "ec1096796458eca5c96eea7720465aa642bd73e1.png",
 		"job_icon": "AST",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Combust",
+		"id": 3599,
 		"skill_icon": "7e161244d4e8b8909f2b0804f096fdec8228ef4d.png",
 		"job_icon": "AST",
 		"level": "4",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Lightspeed",
+		"id": 3606,
 		"skill_icon": "8e5b0f4ba2437c7ed0dba22471388c128372c767.png",
 		"job_icon": "AST",
 		"level": "6",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Helios",
+		"id": 3600,
 		"skill_icon": "78affa4069a26e38833b6dc5826c2e3abf05917d.png",
 		"job_icon": "AST",
 		"level": "10",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Ascend",
+		"id": 3603,
 		"skill_icon": "89ac1eda0deb042fbdb3618d88511262a4d0f5c5.png",
 		"job_icon": "AST",
 		"level": "12",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Essential Dignity",
+		"id": 3614,
 		"skill_icon": "6e6f7c02d300a61d010d596d0e2fe80a12f8e03b.png",
 		"job_icon": "AST",
 		"level": "15",
@@ -99,6 +106,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Benefic II",
+		"id": 3610,
 		"skill_icon": "eeb9a90c14711ee0450ce0c96d4b6b00f73f733e.png",
 		"job_icon": "AST",
 		"level": "26",
@@ -113,6 +121,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Astral Draw",
+		"id": 37017,
 		"skill_icon": "ca9495b5dd2708d088f8180b433b812580622dcb.png",
 		"job_icon": "AST",
 		"level": "30",
@@ -127,6 +136,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Umbral Draw",
+		"id": 37018,
 		"skill_icon": "3a5badd54650309c03a120ea6906ad51276e8c6e.png",
 		"job_icon": "AST",
 		"level": "30",
@@ -141,6 +151,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Play I",
+		"id": 37019,
 		"skill_icon": "aa32f90984104b56be403963081f119244df50a8.png",
 		"job_icon": "AST",
 		"level": "30",
@@ -155,6 +166,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Play II",
+		"id": 37020,
 		"skill_icon": "1d7b124a1b665b5be6db3759a2f5060eef40b89d.png",
 		"job_icon": "AST",
 		"level": "30",
@@ -169,6 +181,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Play III",
+		"id": 37021,
 		"skill_icon": "59c09c6f090fb75d16bb4f906793b951fd58b4cf.png",
 		"job_icon": "AST",
 		"level": "30",
@@ -183,6 +196,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Aspected Benefic",
+		"id": 3595,
 		"skill_icon": "9abd9dc20f6f0864806e050841e5ae74172d3d93.png",
 		"job_icon": "AST",
 		"level": "34",
@@ -197,6 +211,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Aspected Helios",
+		"id": 3601,
 		"skill_icon": "ee92429fd70cd18d445735da357c023336da994d.png",
 		"job_icon": "AST",
 		"level": "42",
@@ -211,6 +226,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Gravity",
+		"id": 3615,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/f625f3a645c/",
 		"skill_icon": "42e3c5d1cccb388c35ee3d6907a6e6109ba4b852.png",
 		"job_icon": "AST",
@@ -226,6 +242,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Combust II",
+		"id": 3608,
 		"skill_icon": "447dd0b8ed8d759beeaa8b8aa7f8f1ec2cbec7b4.png",
 		"job_icon": "AST",
 		"level": "46",
@@ -240,6 +257,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Synastry",
+		"id": 3612,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/67a7f1c0d57/",
 		"skill_icon": "883284b0f5ce828b73992bdaf990124383c77efd.png",
 		"job_icon": "AST",
@@ -255,6 +273,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Divination",
+		"id": 16552,
 		"skill_icon": "24e1ea2b4dce9d16ae60f33ab860190a67a3a506.png",
 		"job_icon": "AST",
 		"level": "50",
@@ -269,6 +288,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Malefic II",
+		"id": 3598,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/220108abf60/",
 		"skill_icon": "e9cbc9998cc2491689d203da71716e9cee15c615.png",
 		"job_icon": "AST",
@@ -284,6 +304,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Collective Unconscious",
+		"id": 3613,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/293a143ad09/",
 		"skill_icon": "6ffe2bab0c77721314aee02e2f3f14f61351e2a4.png",
 		"job_icon": "AST",
@@ -299,6 +320,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Celestial Opposition",
+		"id": 16553,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/88888ade6e4/",
 		"skill_icon": "f2ca2bba463ed6f55295fb64f6a497e130b05cf4.png",
 		"job_icon": "AST",
@@ -314,6 +336,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Earthly Star",
+		"id": 7439,
 		"skill_icon": "522e3417c4930cf5834e64c75e763e999dc284c8.png",
 		"job_icon": "AST",
 		"level": "62",
@@ -328,6 +351,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Stellar Detonation",
+		"id": 8324,
 		"skill_icon": "f69c65b6871458427cf794c2467d50e1ae6b7949.png",
 		"job_icon": "AST",
 		"level": "62",
@@ -342,6 +366,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Malefic III",
+		"id": 7442,
 		"skill_icon": "4383eddfb0a234ec105f3bdfcc162aa2ff8b37d8.png",
 		"job_icon": "AST",
 		"level": "64",
@@ -356,6 +381,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Minor Arcana",
+		"id": 37022,
 		"skill_icon": "5f9cec813674a23520286ff23759e752db5499bd.png",
 		"job_icon": "AST",
 		"level": "70",
@@ -370,6 +396,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Combust III",
+		"id": 16554,
 		"skill_icon": "0f73da17cc2ccea0a36787347d34738d6a97673a.png",
 		"job_icon": "AST",
 		"level": "72",
@@ -384,6 +411,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Malefic IV",
+		"id": 16555,
 		"skill_icon": "0a063c1dba4b21b9f27440a05d707da109b00d15.png",
 		"job_icon": "AST",
 		"level": "72",
@@ -398,6 +426,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Celestial Intersection",
+		"id": 16556,
 		"skill_icon": "2a71645e6880d0bb4b46332fd64cd0756dd3b08f.png",
 		"job_icon": "AST",
 		"level": "74",
@@ -412,6 +441,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Horoscope",
+		"id": 16557,
 		"skill_icon": "c806bf7d70b7343de2de42f47a2bbaa59e8b324e.png",
 		"job_icon": "AST",
 		"level": "76",
@@ -426,6 +456,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Horoscope",
+		"id": 16557,
 		"skill_icon": "224ca9088106c40e33179fa3fdfcd742104d1891.png",
 		"job_icon": "AST",
 		"level": "76",
@@ -440,6 +471,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Neutral Sect",
+		"id": 16559,
 		"skill_icon": "8ccf71b513276dce09f58889b5bb8878371b8519.png",
 		"job_icon": "AST",
 		"level": "80",
@@ -454,6 +486,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Fall Malefic",
+		"id": 25871,
 		"skill_icon": "6f0ba481b923ff8cea8bc37b5c25f9192e494beb.png",
 		"job_icon": "AST",
 		"level": "82",
@@ -468,6 +501,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Gravity II",
+		"id": 25872,
 		"skill_icon": "56748917749affb1f286aba23c3a54cc0e5d0156.png",
 		"job_icon": "AST",
 		"level": "82",
@@ -482,6 +516,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Exaltation",
+		"id": 25873,
 		"skill_icon": "c4bf5c769353b2ee48cba7af8c64a86f1bb11e7d.png",
 		"job_icon": "AST",
 		"level": "86",
@@ -496,6 +531,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Macrocosmos",
+		"id": 25874,
 		"skill_icon": "1d39637c8a2ed0b39fc54cac5eb718eabc29bc53.png",
 		"job_icon": "AST",
 		"level": "90",
@@ -510,6 +546,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Microcosmos",
+		"id": 25875,
 		"skill_icon": "03b8b3a806a33ef16f67e6c5c09e8deb6c59d526.png",
 		"job_icon": "AST",
 		"level": "90",
@@ -524,6 +561,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Oracle",
+		"id": 37029,
 		"skill_icon": "7c826ef697cd5d5934661e9238dd5ba0ad607e9d.png",
 		"job_icon": "AST",
 		"level": "92",
@@ -538,6 +576,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Helios Conjunction",
+		"id": 37030,
 		"skill_icon": "20768aed61f83aeae04632231cba41ae889e187f.png",
 		"job_icon": "AST",
 		"level": "96",
@@ -552,6 +591,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Sun Sign",
+		"id": 37031,
 		"skill_icon": "9b0527d5ad6cdb263a912b463d4ff12bd13e9fea.png",
 		"job_icon": "AST",
 		"level": "100",
@@ -654,6 +694,7 @@
 	},
 	"Trait 01": {
 		"name": "Maim and Mend",
+		"id": 122,
 		"skill_icon": "099b8ce7dff9d154a1ae5ac6ba70e7b77530491b.png",
 		"job_icon": "AST",
 		"level": "20",
@@ -661,6 +702,7 @@
 	},
 	"Trait 02": {
 		"name": "Enhanced Benefic",
+		"id": 124,
 		"skill_icon": "7753c5b2adf795e504d26c97452f03dbd9ad4ae6.png",
 		"job_icon": "AST",
 		"level": "36",
@@ -668,6 +710,7 @@
 	},
 	"Trait 03": {
 		"name": "Maim and Mend II",
+		"id": 125,
 		"skill_icon": "ea011d893abd8a39efff14c7da1e9cac613b33da.png",
 		"job_icon": "AST",
 		"level": "40",
@@ -675,6 +718,7 @@
 	},
 	"Trait 04": {
 		"name": "Combust Mastery",
+		"id": 186,
 		"skill_icon": "f89557c8a060b5202436b06ce55c414930a87824.png",
 		"job_icon": "AST",
 		"level": "46",
@@ -682,6 +726,7 @@
 	},
 	"Trait 05": {
 		"name": "Malefic Mastery",
+		"id": 187,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/220108abf60/",
 		"skill_icon": "096c90be485edbee28599286d9aa506904bfedc1.png",
 		"job_icon": "AST",
@@ -690,6 +735,7 @@
 	},
 	"Trait 06": {
 		"name": "Malefic Mastery II",
+		"id": 188,
 		"skill_icon": "f519d617a33b436f8bfae128cafb433fa5b4de01.png",
 		"job_icon": "AST",
 		"level": "64",
@@ -697,6 +743,7 @@
 	},
 	"Trait 07": {
 		"name": "Hyper Lightspeed",
+		"id": 189,
 		"skill_icon": "97aa38c611b5b28a96f41040e8369f9d662c0398.png",
 		"job_icon": "AST",
 		"level": "68",
@@ -704,6 +751,7 @@
 	},
 	"Trait 08": {
 		"name": "Minor Arcana Mastery",
+		"id": 631,
 		"skill_icon": "b6a9c01931066dd4d28235ea22c332cb20b7a4a1.png",
 		"job_icon": "AST",
 		"level": "70",
@@ -711,6 +759,7 @@
 	},
 	"Trait 09": {
 		"name": "Combust Mastery II",
+		"id": 314,
 		"skill_icon": "fa5c279e7998444bf41ef52dd540e514040310ba.png",
 		"job_icon": "AST",
 		"level": "72",
@@ -718,6 +767,7 @@
 	},
 	"Trait 10": {
 		"name": "Malefic Mastery III",
+		"id": 315,
 		"skill_icon": "79a6019f3f36d87224dcb1621917ede36f53a0eb.png",
 		"job_icon": "AST",
 		"level": "72",
@@ -725,6 +775,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Essential Dignity",
+		"id": 316,
 		"skill_icon": "5e5dc4bdd1316f0b6e37f3e7aef349e7504a0713.png",
 		"job_icon": "AST",
 		"level": "78",
@@ -732,6 +783,7 @@
 	},
 	"Trait 12": {
 		"name": "Malefic Mastery IV",
+		"id": 497,
 		"skill_icon": "263e46f4c7940ee1681d0f15582ac7a32af7fc6a.png",
 		"job_icon": "AST",
 		"level": "82",
@@ -739,6 +791,7 @@
 	},
 	"Trait 13": {
 		"name": "Gravity Mastery",
+		"id": 498,
 		"skill_icon": "e458835a8f922a7e95c1ca5e325e3498007798b6.png",
 		"job_icon": "AST",
 		"level": "82",
@@ -746,6 +799,7 @@
 	},
 	"Trait 14": {
 		"name": "Enhanced Healing Magic",
+		"id": 499,
 		"skill_icon": "a24e5cd23307348ea0119062908b5153b2b84ca2.png",
 		"job_icon": "AST",
 		"level": "85",
@@ -753,6 +807,7 @@
 	},
 	"Trait 15": {
 		"name": "Enhanced Celestial Intersection",
+		"id": 500,
 		"skill_icon": "f43bd4d97118a07e9521573ace0ca9f5cebfb4a5.png",
 		"job_icon": "AST",
 		"level": "88",
@@ -760,6 +815,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Divination",
+		"id": 632,
 		"skill_icon": "7c830c636c71c4ad906fb4cf3f5a5d2ce684f34f.png",
 		"job_icon": "AST",
 		"level": "92",
@@ -767,6 +823,7 @@
 	},
 	"Trait 17": {
 		"name": "Magick Mastery",
+		"id": 673,
 		"skill_icon": "faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "AST",
 		"level": "94",
@@ -774,6 +831,7 @@
 	},
 	"Trait 18": {
 		"name": "Aspected Helios Mastery",
+		"id": 633,
 		"skill_icon": "2cba14df39809f3229349749785e64eb391bed15.png",
 		"job_icon": "AST",
 		"level": "96",
@@ -781,6 +839,7 @@
 	},
 	"Trait 19": {
 		"name": "Enhanced Essential Dignity II",
+		"id": 634,
 		"skill_icon": "2836e6ebf3b7d82144fbc5a8ea04c58aa7dff5da.png",
 		"job_icon": "AST",
 		"level": "98",
@@ -788,6 +847,7 @@
 	},
 	"Trait 20": {
 		"name": "Enhanced Neutral Sect",
+		"id": 635,
 		"skill_icon": "874220e311422fcc32177900e58af6b005976cb2.png",
 		"job_icon": "AST",
 		"level": "100",
@@ -795,6 +855,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Fall Malefic",
+		"id": 29242,
 		"skill_icon": "7e78194d327e6a89ecb90f3eae608c085346e1f4.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -806,6 +867,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Aspected Benefic",
+		"id": 29243,
 		"skill_icon": "4d933fcf783650927195ec4b1814e9609eeddc58.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -817,6 +879,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Gravity II",
+		"id": 29244,
 		"skill_icon": "65bf868f9e1117ac27da24bca3b88022fca4eb89.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -828,6 +891,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Double Cast",
+		"id": 29245,
 		"skill_icon": "9ba6e1a43826a71c5520b5f322440ca88b85b809.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -839,6 +903,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Minor Arcana",
+		"id": 41503,
 		"skill_icon": "7817118e58d798cb0801a5847e512401ba5db3cd.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -850,6 +915,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Macrocosmos",
+		"id": 29253,
 		"skill_icon": "bbddf9b46af564ac6f2c1ca17e11f44782b8ce21.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -861,6 +927,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Epicycle",
+		"id": 41506,
 		"skill_icon": "1562a3a0b694560ec44c95e63db10db4f164b0e5.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -872,6 +939,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Lady of Crowns",
+		"id": 41504,
 		"skill_icon": "55c0d5fd227200d651cee3672b6bda3fb7382681.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -883,6 +951,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Lord of Crowns",
+		"id": 41505,
 		"skill_icon": "48ee68a54dd44c50b1219e48ce274297345b5810.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -894,6 +963,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Retrograde",
+		"id": 41507,
 		"skill_icon": "0fe6f9752dfe8ff3a411794e31bac9bceec3c618.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -905,6 +975,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Microcosmos",
+		"id": 29254,
 		"skill_icon": "727601c35b12c8cf610a619bffea557c4eae6140.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -916,6 +987,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Oracle",
+		"id": 41508,
 		"skill_icon": "64d75230bf3fc7b9e8c52b4a8e8b9a7458ebdf4e.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -925,8 +997,9 @@
 		"radius": "5y",
 		"content": "Удар, наносящий нестихийный урон с силой атаки 6,000 по цели и всем окружающим противникам.<br/>Дополнительный эффект: оглушение (stun)<br/>Продолжительность: 2 сек.<br/>Может быть использовано только во время действия эффекта Divining.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Celestial River",
+		"id": 29255,
 		"skill_icon": "184ffb6c90cb6ab81b25f68ba19510ee469ce306.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -934,5 +1007,21 @@
 		"radius_img": "R2",
 		"radius": "15y",
 		"content": "Увеличивает наносимый урон и силу лечения персонажа и ближайших сопартийцев на 30%, а также снижает наносимый урон ближайших противников на 30%.<br/>Эффект снижается на 10% каждые 5 сек.<br/>Продолжительность: 15 сек.<br/>Дополнительный эффект: накладывает эффект Divining на персонажа<br/>Продолжительность: 15 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 105 сек.<br/><br/>※ Умением меняется на Oracle после использования."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_card_action", "label": "Арканы", "list": {"prefix": "pve_card_action", "name": "Arcana"}},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "healer_action", "name": "Role Action", "role": "Healer"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 4, "count": 3}}
+	]
 	}
 }

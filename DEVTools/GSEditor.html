@@ -24,7 +24,7 @@
 
 			<main class="main-workspace">
 				<div class="top-toolbar">
-					<span style="font-weight: 600; font-size: 14px; color: var(--text-light)">GS Editor</span>
+					<span class="toolbar-title">GS Editor</span>
 					<button class="btn-export" onclick="showExport()">ЭКСПОРТ HTML</button>
 				</div>
 				<div class="canvas-area">
@@ -35,9 +35,9 @@
 
 		<div class="code-modal" id="code-modal">
 			<div class="code-modal-content">
-				<div style="padding: 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between">
-					<strong style="color: #fff">HTML</strong>
-					<button onclick="closeExport()" style="background: none; border: none; color: #fff; cursor: pointer; font-size: 20px">✕</button>
+				<div class="modal-header">
+					<strong class="modal-title">HTML</strong>
+					<button class="modal-close" onclick="closeExport()">✕</button>
 				</div>
 				<textarea id="export-code" readonly spellcheck="false"></textarea>
 			</div>
@@ -58,28 +58,66 @@
 				ground_mahjong: `<div class="gs_ground_mahjong"></div>`,
 				anno: `<div class="gs_annotation gs_space-32"><h5 class="gs_annotation_title">Совет</h5><p class="gs_annotation_text">Информация...</p></div>`,
 				table: `<table class="gs_guide_table"><thead><tr><th>Заголовок 1</th><th>Заголовок 2</th></tr></thead><tbody><tr><td>Ячейка 1</td><td>Ячейка 2</td></tr></tbody></table>`,
+				guide_list: `<ul class="gs_guide_list"><li>Пункт списка</li></ul>`,
+				rule_list: `<ul class="gs_rule"><li><h3 class="gs_rule_title">Название</h3><img src="https://lds-img.finalfantasyxiv.com/h/9/FgM897Tv5TnhUN7HpKGHjYbXpg.jpg"/><p>Описание правила</p></li></ul>`,
+				icon_table: `<table class="gs_table"><thead><tr><th colspan="2">Item</th><th>Effect</th></tr></thead><tbody><tr><td class="gs_table_item"><div class="gs_ico_table_box"><img src="https://lds-img.finalfantasyxiv.com/h/9/FgM897Tv5TnhUN7HpKGHjYbXpg.jpg" class="gs_ico_table"/><i class="gs_ico_table_frame"></i></div></td><td>Название</td><td>Описание</td></tr></tbody></table>`,
+				quest: `<h3 class="gs_quest"><a href="#" class="eorzeadb_link">Название квеста</a></h3><div class="gs_quest_info"><img src="https://lds-img.finalfantasyxiv.com/h/9/FgM897Tv5TnhUN7HpKGHjYbXpg.jpg"/><ul class="gs_quest__info"><li class="level">Level</li><li class="place">Место</li><li class="npc">NPC</li><li class="terms">Условия</li></ul></div>`,
 			};
 
-			const menuItems = [
-				{id: "h2", n: "⭐ Заголовок H2"},
-				{id: "h3", n: "🔵 Заголовок H3"},
-				{id: "h4", n: "◽ Заголовок H4"},
-				{id: "p", n: "📄 Текст (p)"},
-				{id: "p_red", n: "🔴 Красный текст"},
-				{id: "img", n: "🖼️ Картинка"},
-				{id: "table", n: "📊 Таблица"},
-				{id: "group", n: "📦 Группа"},
-				{id: "ground_mahjong", n: "🀄 Группа Mahjong"},
-				{id: "anno", n: "💡 Аннотация"},
+			const menuGroups = [
+				{
+					label: "Заголовки",
+					items: [
+						{id: "h2", n: "⭐ Заголовок H2"},
+						{id: "h3", n: "🔵 Заголовок H3"},
+						{id: "h4", n: "◽ Заголовок H4"},
+					],
+				},
+				{
+					label: "Текст",
+					items: [
+						{id: "p", n: "📄 Текст (p)"},
+						{id: "p_red", n: "🔴 Красный текст"},
+					],
+				},
+				{
+					label: "Медиа",
+					items: [{id: "img", n: "🖼️ Картинка"}],
+				},
+				{
+					label: "Таблицы и списки",
+					items: [
+						{id: "table", n: "📊 Таблица"},
+						{id: "icon_table", n: "🎒 Таблица с иконками"},
+						{id: "guide_list", n: "• Список"},
+						{id: "rule_list", n: "🃏 Список правил"},
+						{id: "quest", n: "📜 Блок квеста"},
+					],
+				},
+				{
+					label: "Контейнеры",
+					items: [
+						{id: "group", n: "📦 Группа"},
+						{id: "ground_mahjong", n: "🀄 Группа Mahjong"},
+						{id: "anno", n: "💡 Аннотация"},
+					],
+				},
 			];
+			const menuItems = menuGroups.flatMap((g) => g.items);
 
 			const sidebar = document.getElementById("sidebar-btns");
-			menuItems.forEach((i) => {
-				const b = document.createElement("button");
-				b.className = "comp-btn";
-				b.innerText = i.n;
-				b.onclick = () => addBlock(i.id);
-				sidebar.appendChild(b);
+			menuGroups.forEach((group) => {
+				const h = document.createElement("div");
+				h.className = "sidebar-group-title";
+				h.textContent = group.label;
+				sidebar.appendChild(h);
+				group.items.forEach((i) => {
+					const b = document.createElement("button");
+					b.className = "comp-btn";
+					b.innerText = i.n;
+					b.onclick = () => addBlock(i.id);
+					sidebar.appendChild(b);
+				});
 			});
 
 			function addBlock(type, target = canvas) {
@@ -92,14 +130,16 @@
                 <button class="ft-btn" onclick="move(event, this, -1)">↑</button>
                 <button class="ft-btn" onclick="move(event, this, 1)">↓</button>
                 
-                <label class="ft-btn" style="display:inline-flex; align-items:center; gap:5px; cursor:pointer; background:rgba(255,255,255,0.1);" onclick="event.stopPropagation()">
-                    <input type="checkbox" onchange="toggleMahjong(this)" style="cursor:pointer;"> mahjong
+                <label class="ft-btn ft-check" onclick="event.stopPropagation()">
+                    <input type="checkbox" onchange="toggleMahjong(this)" /> mahjong
                 </label>
 
                 <button class="ft-btn primary" onmousedown="event.preventDefault(); formatRed()">🔴 Red</button>
+                <button class="ft-btn primary" onmousedown="event.preventDefault(); formatLink()">🔗 Ссылка</button>
                 <button class="ft-btn" onmousedown="event.preventDefault(); insertBrAtCursor()">↵ Перенос</button>
                 ${type === "group" || type === "ground_mahjong" ? `<div style="position:relative;display:inline-block"><button class="ft-btn primary" onclick="toggleNest(event, this)">➕ Добавить</button><div class="nested-menu">${menuItems.map((m) => `<button onclick="addNested(event,'${m.id}')">${m.n}</button>`).join("")}</div></div>` : ""}
-                ${type === "table" ? `<button class="ft-btn primary" onclick="addTr(event)">+ Строка</button>` : ""}
+                ${type === "table" || type === "icon_table" ? `<button class="ft-btn primary" onclick="addTr(event)">+ Строка</button>` : ""}
+                ${type === "guide_list" || type === "rule_list" ? `<button class="ft-btn primary" onclick="addLi(event)">+ Пункт</button>` : ""}
                 <button class="ft-btn del" onclick="del(event, this)">✕</button>
             </div>`;
 
@@ -150,7 +190,7 @@
 			}
 
 			function makeEdit(cont) {
-				cont.querySelectorAll("h2, h3, h4, h5, p, td, th").forEach((el) => {
+				cont.querySelectorAll("h2, h3, h4, h5, p, td, th, li, a").forEach((el) => {
 					el.contentEditable = true;
 					el.onkeydown = (e) => {
 						if (e.key === "Enter") {
@@ -165,6 +205,13 @@
 						text = text.replace(/\r?\n/g, " ").replace(/\s\s+/g, " ");
 						text = text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 						document.execCommand("insertHTML", false, text);
+					};
+				});
+
+				cont.querySelectorAll("img").forEach((img) => {
+					img.onclick = () => {
+						const url = prompt("URL картинки:", img.getAttribute("src") || "");
+						if (url) img.src = url;
 					};
 				});
 			}
@@ -193,15 +240,46 @@
 				s.removeAllRanges();
 			}
 
+			function formatLink() {
+				const s = window.getSelection();
+				if (s.isCollapsed) return;
+				const url = prompt("URL ссылки:", "https://");
+				if (!url) return;
+				const r = s.getRangeAt(0);
+				const a = document.createElement("a");
+				a.className = "gs_link";
+				a.href = url;
+				a.appendChild(r.extractContents());
+				r.insertNode(a);
+				s.removeAllRanges();
+			}
+
 			function addTr(e) {
 				e.stopPropagation();
 				const table = activeBlock.querySelector("table");
 				const tbody = table.querySelector("tbody") || table;
-				const row = document.createElement("tr");
-				const cols = table.querySelector("tr").children.length;
-				for (let i = 0; i < cols; i++) row.innerHTML += "<td>...</td>";
+				const rows = tbody.querySelectorAll(":scope > tr");
+				const row = rows[rows.length - 1].cloneNode(true);
+				row.querySelectorAll("td, th").forEach((cell) => {
+					if (!cell.querySelector("img")) cell.textContent = "...";
+				});
 				tbody.appendChild(row);
 				makeEdit(row);
+			}
+
+			function addLi(e) {
+				e.stopPropagation();
+				const list = activeBlock.querySelector("ul");
+				const items = list.querySelectorAll(":scope > li");
+				const li = items[items.length - 1].cloneNode(true);
+				const textEls = li.querySelectorAll("h2, h3, h4, h5, p");
+				if (textEls.length) {
+					textEls.forEach((el) => (el.textContent = ""));
+				} else {
+					li.textContent = "";
+				}
+				list.appendChild(li);
+				makeEdit(li);
 			}
 
 			function toggleNest(e, b) {
@@ -210,10 +288,8 @@
 				m.style.display = m.style.display === "flex" ? "none" : "flex";
 			}
 
-			// 4. ИЩЕМ КУДА ДОБАВИТЬ: В GS_GROUP ИЛИ GS_GROUND_MAHJONG
 			function addNested(e, t) {
 				e.stopPropagation();
-				// Ищем контейнер по обоим классам
 				const container = activeBlock.querySelector(".gs_group, .gs_ground_mahjong");
 				if (container) addBlock(t, container);
 			}
@@ -236,7 +312,6 @@
 				if (img) img.src = i.value;
 			}
 
-			// 5. ДОБРАБАТЫВАЕМ ЛОГИКУ ЭКСПОРТА ДЛЯ НОВОГО ТИПА
 			function getCleanHTML(container) {
 				let html = "";
 				const children = container.children;
@@ -250,15 +325,12 @@
 
 					if (!contentBox) continue;
 
-					// Если это любой из блоков-контейнеров
 					if (type === "group" || type === "ground_mahjong") {
 						const groupContainer = contentBox.querySelector(".gs_group, .gs_ground_mahjong");
 
 						if (groupContainer) {
 							const innerHTML = getCleanHTML(groupContainer);
-							// Определяем базовый класс для обертки
 							const baseClass = type === "group" ? "gs_group" : "gs_ground_mahjong";
-							// Вытаскиваем все дополнительные классы (например, mahjong)
 							const extraClasses = Array.from(groupContainer.classList)
 								.filter((c) => c !== "gs_group" && c !== "gs_ground_mahjong")
 								.join(" ");

@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Fast Blade",
+		"id": 9,
 		"skill_icon": "8325a7bb54f039c5bd3cd2af4430dccfd525e0b9.png",
 		"job_icon": "GLA",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Fight or Flight",
+		"id": 20,
 		"skill_icon": "87405b9b9f00d9957df252ea0116e4137bc4dbd1.png",
 		"job_icon": "GLA",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Riot Blade",
+		"id": 15,
 		"skill_icon": "bdda04f3b284e3cbf7d07e50d9bffb21b74ce869.png",
 		"job_icon": "GLA",
 		"level": "4",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Total Eclipse",
+		"id": 7381,
 		"skill_icon": "07c42572697cdcf5381955b09ed7c3028be8a0bb.png",
 		"job_icon": "GLA",
 		"level": "6",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Shield Bash",
+		"id": 16,
 		"skill_icon": "49cbc217420d69d69bb1bfcf6fba10358dcd2521.png",
 		"job_icon": "GLA",
 		"level": "10",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Iron Will",
+		"id": 28,
 		"skill_icon": "1e60c8b0c72bbc52497a163755dc855f5cdf7091.png",
 		"job_icon": "GLA",
 		"level": "10",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Release Iron Will",
+		"id": 28,
 		"skill_icon": "0b880866e9d45ac7b9b664dcf536acc46ecb4679.png",
 		"job_icon": "GLA",
 		"level": "10",
@@ -99,6 +106,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Shield Lob",
+		"id": 24,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/eaf9428dd8f/",
 		"skill_icon": "d95d796eae4df45f2419a8c6df1cdf4afc7b0523.png",
 		"job_icon": "GLA",
@@ -114,6 +122,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Rage of Halone",
+		"id": 21,
 		"skill_icon": "b35b9fa5ce7169d660177032734661f18a79ee5b.png",
 		"job_icon": "GLA",
 		"level": "26",
@@ -128,6 +137,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Spirits Within",
+		"id": 29,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/90a79bf83dc/",
 		"skill_icon": "d7e7cf097286ae99e6637242596a14832a9edf8f.png",
 		"job_icon": "PLD",
@@ -143,6 +153,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Sheltron",
+		"id": 3542,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8e6b7dd4c72/",
 		"skill_icon": "e622516a93fd2298b9fd40e0d2d60c3fc8485c5a.png",
 		"job_icon": "PLD",
@@ -158,6 +169,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Sentinel",
+		"id": 17,
 		"skill_icon": "913eb4344bb6c8710f250115fa22484b026f08bd.png",
 		"job_icon": "GLA",
 		"level": "38",
@@ -172,6 +184,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Prominence",
+		"id": 16457,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/16d122e30f6/",
 		"skill_icon": "c0f8a1aa0ba0a20c0d8580e63932678c5c4a8b9b.png",
 		"job_icon": "PLD",
@@ -187,6 +200,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Cover",
+		"id": 27,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/de79d3a7ff9/",
 		"skill_icon": "81b581992c0df5ad867ed18ad229f6d6f7fd3eea.png",
 		"job_icon": "PLD",
@@ -202,6 +216,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Circle of Scorn",
+		"id": 23,
 		"skill_icon": "af5ddb89ddd5ade6706afe571f45aa6028e1925b.png",
 		"job_icon": "GLA",
 		"level": "50",
@@ -216,6 +231,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Hallowed Ground",
+		"id": 30,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/406b25707e6/",
 		"skill_icon": "249bf48c39ec44b9b32f0681ea256850ed6aa8f8.png",
 		"job_icon": "PLD",
@@ -231,6 +247,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Bulwark",
+		"id": 22,
 		"skill_icon": "b0a3dcb47763055bc61ee9f90ba0ee3b46050197.png",
 		"job_icon": "PLD",
 		"level": "52",
@@ -245,6 +262,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Goring Blade",
+		"id": 3538,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/afaf0c9a7c5/",
 		"skill_icon": "eb067afbfb5a4198760b2e28e9c3cf669d9866b8.png",
 		"job_icon": "PLD",
@@ -260,6 +278,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Divine Veil",
+		"id": 3540,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/6948068d18e/",
 		"skill_icon": "495faab61344751872ca0867e2d5e59b04c6940c.png",
 		"job_icon": "PLD",
@@ -275,6 +294,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Clemency",
+		"id": 3541,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7f095beca39/",
 		"skill_icon": "3c20e8bf8f5f130db398ac4ba5df14e403b7666a.png",
 		"job_icon": "PLD",
@@ -290,6 +310,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Royal Authority",
+		"id": 3539,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d29b8150228/",
 		"skill_icon": "3fe523f08ebd0b93125ae42d5bcf8e18dce08a02.png",
 		"job_icon": "PLD",
@@ -305,6 +326,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Intervention",
+		"id": 7382,
 		"skill_icon": "fdb9b8347b33dae63e25debeab15aa75c270f39a.png",
 		"job_icon": "PLD",
 		"level": "62",
@@ -319,6 +341,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Holy Spirit",
+		"id": 7384,
 		"skill_icon": "b8ad098c5afaad79a847f3fb79298456c1e9d689.png",
 		"job_icon": "PLD",
 		"level": "64",
@@ -333,6 +356,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Intervene",
+		"id": 16461,
 		"skill_icon": "c841f5c954aa4e31bd1d82ffd00f863eb944a386.png",
 		"job_icon": "PLD",
 		"level": "66",
@@ -347,6 +371,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Requiescat",
+		"id": 7383,
 		"skill_icon": "acbcd4de5a1839e4fd8c96ae05eb4109caed9ca1.png",
 		"job_icon": "PLD",
 		"level": "68",
@@ -361,6 +386,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Passage of Arms",
+		"id": 7385,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/9193a6f1c9c/",
 		"skill_icon": "b570dfda793945b3bb8fddef02b1a865b8a04b32.png",
 		"job_icon": "PLD",
@@ -376,6 +402,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Holy Circle",
+		"id": 16458,
 		"skill_icon": "afd455f208e2720a10a1b26e9a231fefac4d5be7.png",
 		"job_icon": "PLD",
 		"level": "72",
@@ -390,6 +417,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Atonement",
+		"id": 16460,
 		"skill_icon": "f59cb1517f2f26c490a87d58366b5bccff372f19.png",
 		"job_icon": "PLD",
 		"level": "76",
@@ -404,6 +432,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Supplication",
+		"id": 36918,
 		"skill_icon": "a13b67a351de7eaf60e51a8662e722785ec3826f.png",
 		"job_icon": "PLD",
 		"level": "76",
@@ -418,6 +447,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Sepulchre",
+		"id": 36919,
 		"skill_icon": "445847900654988d4b1a2950d57f69793a425d00.png",
 		"job_icon": "PLD",
 		"level": "76",
@@ -432,6 +462,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Confiteor",
+		"id": 16459,
 		"skill_icon": "362579dcb6dc2b7c9ea6eac6917c7b9c61f7ce1b.png",
 		"job_icon": "PLD",
 		"level": "80",
@@ -446,6 +477,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Holy Sheltron",
+		"id": 25746,
 		"skill_icon": "c856abb6dac68e4bfd6cbb98b309360cb6162ced.png",
 		"job_icon": "PLD",
 		"level": "82",
@@ -460,6 +492,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Expiacion",
+		"id": 25747,
 		"skill_icon": "5e4beef5d32f45954a62524cdebb8d535de32921.png",
 		"job_icon": "PLD",
 		"level": "86",
@@ -474,6 +507,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Blade of Faith",
+		"id": 25748,
 		"skill_icon": "004ab8b8fc5c3fe5b362bf7f0e35f9ab9a91918a.png",
 		"job_icon": "PLD",
 		"level": "90",
@@ -488,6 +522,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Blade of Truth",
+		"id": 25749,
 		"skill_icon": "31fd8e8a1827a2f830335a67cf52abb191d62485.png",
 		"job_icon": "PLD",
 		"level": "90",
@@ -502,6 +537,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Blade of Valor",
+		"id": 25750,
 		"skill_icon": "289629a47afee95a9d05e38bcc68a2b7fdd1cacd.png",
 		"job_icon": "PLD",
 		"level": "90",
@@ -516,6 +552,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Guardian",
+		"id": 36920,
 		"skill_icon": "4c5945e5decd30562898378c54cc3308aa210ff1.png",
 		"job_icon": "PLD",
 		"level": "92",
@@ -530,6 +567,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Imperator",
+		"id": 36921,
 		"skill_icon": "a888fa731d0d80fd277caa00abbca126be5b0b3c.png",
 		"job_icon": "PLD",
 		"level": "96",
@@ -544,6 +582,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Blade of Honor",
+		"id": 36922,
 		"skill_icon": "18481cd008426e41c0773107a91b20e2b9d59f7e.png",
 		"job_icon": "PLD",
 		"level": "100",
@@ -558,6 +597,7 @@
 	},
 	"Trait 01": {
 		"name": "Tank Mastery",
+		"id": 317,
 		"skill_icon": "b6414caac03c831ec90c34e501e444031d44003c.png",
 		"job_icon": "GLA",
 		"level": "1",
@@ -565,6 +605,7 @@
 	},
 	"Trait 02": {
 		"name": "Oath Mastery",
+		"id": 209,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8e6b7dd4c72/",
 		"skill_icon": "3ea4bdf5de4ff4d7d14041fd6caa625d68c131cd.png",
 		"job_icon": "PLD",
@@ -573,6 +614,7 @@
 	},
 	"Trait 03": {
 		"name": "Enhanced Fight or Flight",
+		"id": 665,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/afaf0c9a7c5/",
 		"skill_icon": "bd891a4170937927986328cf502585a6a20d3f65.png",
 		"job_icon": "PLD",
@@ -581,6 +623,7 @@
 	},
 	"Trait 04": {
 		"name": "Chivalry",
+		"id": 246,
 		"skill_icon": "303132af0562c1741746d382e2e7060032436afa.png",
 		"job_icon": "PLD",
 		"level": "58",
@@ -588,6 +631,7 @@
 	},
 	"Trait 05": {
 		"name": "Rage of Halone Mastery",
+		"id": 260,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d29b8150228/",
 		"skill_icon": "8f37467dd4cd7e208aa4d5d2dba1481e5b330438.png",
 		"job_icon": "PLD",
@@ -596,6 +640,7 @@
 	},
 	"Trait 06": {
 		"name": "Divine Magic Mastery",
+		"id": 207,
 		"skill_icon": "12b652e6942ca7d5fcf19e7b2473c1ce8654b0d9.png",
 		"job_icon": "PLD",
 		"level": "64",
@@ -603,6 +648,7 @@
 	},
 	"Trait 07": {
 		"name": "Enhanced Prominence",
+		"id": 261,
 		"skill_icon": "413518284f7ac59252bf26c3da7493fcae6c5b35.png",
 		"job_icon": "PLD",
 		"level": "72",
@@ -610,6 +656,7 @@
 	},
 	"Trait 08": {
 		"name": "Enhanced Sheltron",
+		"id": 262,
 		"skill_icon": "3d00586a157017225c57713dde5d1d17f8745086.png",
 		"job_icon": "PLD",
 		"level": "74",
@@ -617,6 +664,7 @@
 	},
 	"Trait 09": {
 		"name": "Sword Oath",
+		"id": 264,
 		"skill_icon": "7abcc7ab50300a442c5f0aa68261b9730a2070c0.png",
 		"job_icon": "PLD",
 		"level": "76",
@@ -624,6 +672,7 @@
 	},
 	"Trait 10": {
 		"name": "Enhanced Requiescat",
+		"id": 263,
 		"skill_icon": "894b41ba20cd94ed36fd681d9729d21ba7e22052.png",
 		"job_icon": "PLD",
 		"level": "80",
@@ -631,6 +680,7 @@
 	},
 	"Trait 11": {
 		"name": "Sheltron Mastery",
+		"id": 412,
 		"skill_icon": "5727377cab202a9ba787318ec8694067e837a8a2.png",
 		"job_icon": "PLD",
 		"level": "82",
@@ -638,6 +688,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Intervention",
+		"id": 413,
 		"skill_icon": "7d8cd4ab4588bc9d68b8436b378563d590dae1e8.png",
 		"job_icon": "PLD",
 		"level": "82",
@@ -645,6 +696,7 @@
 	},
 	"Trait 13": {
 		"name": "Divine Magic Mastery II",
+		"id": 414,
 		"skill_icon": "3d7131e2d50c6b43898deadb212e3c58fedc2a87.png",
 		"job_icon": "PLD",
 		"level": "84",
@@ -652,6 +704,7 @@
 	},
 	"Trait 14": {
 		"name": "Melee Mastery",
+		"id": 504,
 		"skill_icon": "bc58b07072e258883e9e584c4e45355d092da661.png",
 		"job_icon": "PLD",
 		"level": "84",
@@ -659,6 +712,7 @@
 	},
 	"Trait 15": {
 		"name": "Spirits Within Mastery",
+		"id": 415,
 		"skill_icon": "8f8d91cf706370a9295a3a9495713a18e9a84e37.png",
 		"job_icon": "PLD",
 		"level": "86",
@@ -666,6 +720,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Divine Veil",
+		"id": 416,
 		"skill_icon": "7cdd930171cd46b5dae53f059704d0db413a7e82.png",
 		"job_icon": "PLD",
 		"level": "88",
@@ -673,6 +728,7 @@
 	},
 	"Trait 17": {
 		"name": "Sentinel Mastery",
+		"id": 564,
 		"skill_icon": "b04967e1f3a9990b5c01ac4b3bb950cbc1bd0392.png",
 		"job_icon": "PLD",
 		"level": "92",
@@ -680,6 +736,7 @@
 	},
 	"Trait 18": {
 		"name": "Melee Mastery II",
+		"id": 650,
 		"skill_icon": "b60557edca3b093463f0f0c0c04dc3895855e9f8.png",
 		"job_icon": "PLD",
 		"level": "94",
@@ -687,6 +744,7 @@
 	},
 	"Trait 19": {
 		"name": "Requiescat Mastery",
+		"id": 565,
 		"skill_icon": "416e440b4f9346f24141890f736f6f2838363de4.png",
 		"job_icon": "PLD",
 		"level": "96",
@@ -694,6 +752,7 @@
 	},
 	"Trait 20": {
 		"name": "Enhanced Blade of Valor",
+		"id": 566,
 		"skill_icon": "92d476e84bdd9b49ab34c50058430c0dd4c25930.png",
 		"job_icon": "PLD",
 		"level": "100",
@@ -701,6 +760,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Fast Blade",
+		"id": 29058,
 		"skill_icon": "b6e3e8407297c7ddfdb89ded7805c1bf3f686763.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -712,6 +772,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Riot Blade",
+		"id": 29059,
 		"skill_icon": "16fb67b5a63cab9b4b6ac910d446c8ef975add39.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -723,6 +784,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Royal Authority",
+		"id": 29060,
 		"skill_icon": "fa5810b4d52f18313e35508984d1c36008b6a214.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -734,6 +796,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Shield Smite",
+		"id": 41430,
 		"skill_icon": "e09ab38fcf5dc0de0f799d6b4a2e48ed03c8e06a.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -745,6 +808,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Holy Spirit",
+		"id": 29062,
 		"skill_icon": "031d5af9d608c48450c5ddf3cd500b56866f2ab8.png",
 		"classification": "Spell",
 		"cast": "Мгновенная",
@@ -756,6 +820,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Imperator",
+		"id": 41431,
 		"skill_icon": "96686a4a337625121fb463b4cf65f93f01955546.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -767,6 +832,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Intervene",
+		"id": 29065,
 		"skill_icon": "dc0a7f454aeb6fa8cf680d223f5b97ba6c768955.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -778,6 +844,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Holy Sheltron",
+		"id": 29067,
 		"skill_icon": "473ed65d458df3b6e6eaf3404009bac010a592d0.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -789,6 +856,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Guardian",
+		"id": 29066,
 		"skill_icon": "058522fdb7c58e87b3ba52f85c1cb70f5c0501e8.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -800,6 +868,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Atonement",
+		"id": 29061,
 		"skill_icon": "35a45eefc453b71019fda6740cfc01c51f3d3a03.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -811,6 +880,7 @@
 	},
 	"PVP Skill 11": {
 		"name": "Supplication",
+		"id": 41428,
 		"skill_icon": "0c9ad99255dfafe8b61add77dd8989fbac4cf228.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -822,6 +892,7 @@
 	},
 	"PVP Skill 12": {
 		"name": "Sepulchre",
+		"id": 41429,
 		"skill_icon": "3e574dfaed064f63b4dc7eebe9bb90f2449d09e6.png",
 		"classification": "Боевой навык",
 		"cast": "Мгновенная",
@@ -833,6 +904,7 @@
 	},
 	"PVP Skill 13": {
 		"name": "Confiteor",
+		"id": 42194,
 		"skill_icon": "89abaf2266f70e33e486e6cf5ff338ade9719786.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -844,6 +916,7 @@
 	},
 	"PVP Skill 14": {
 		"name": "Blade of Faith",
+		"id": 29071,
 		"skill_icon": "2f944d27fc3705822d461cd9e46ae2c288c80ee8.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -855,6 +928,7 @@
 	},
 	"PVP Skill 15": {
 		"name": "Blade of Truth",
+		"id": 29072,
 		"skill_icon": "0f4597a0f6f40a77de83b1ce656d81345a5613ef.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -866,6 +940,7 @@
 	},
 	"PVP Skill 16": {
 		"name": "Blade of Valor",
+		"id": 29073,
 		"skill_icon": "115a30be11fa866d366d36b07d8542a0efd667bb.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -875,8 +950,9 @@
 		"radius": "5y",
 		"content": "Наносит не стихийный урон силой 13,000 цели и всем противникам вокруг.<br/>Дополнительный эффект: восстановление собственного HP<br/>Сила исцеления: 8,000<br/>Комбо-действие: Blade of Truth<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB": {
+	"PVP Skill LB 01": {
 		"name": "Phalanx",
+		"id": 29069,
 		"skill_icon": "a94e3555b79c68a9eb7f5ca496bcac7ef7fdcbcf.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -884,5 +960,21 @@
 		"radius_img": "R2",
 		"radius": "15y",
 		"content": "Накладывает эффект Hallowed Ground на вас и эффект Phalanx на ближайших участников группы.<br/>Эффект Hallowed Ground: неуязвимость к большинству атак<br/>Продолжительность: 10 сек.<br/>Эффект Phalanx: снижает получаемый урон на 33%<br/>Продолжительность: 10 сек.<br/>Дополнительный эффект: накладывает эффект Blade of Faith Ready<br/>Продолжительность: 15 сек.<br/>Может быть использовано только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время накопления: 120 сек.<br/><br/>※Умение заменяется на Blade of Faith после использования."
+	},
+	"_menu": {
+		"pve": [
+			{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+			{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "tank_action", "name": "Role Action", "role": "Tank"}},
+			{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+			{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+			{"anchor": "anchor_pve_combo", "label": "Комбо"},
+			{"anchor": "anchor_hud", "label": "Шкала профессии"}
+		],
+		"pvp": [
+			{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+			{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+			{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+			{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 1, "count": 3}}
+		]
 	}
 }

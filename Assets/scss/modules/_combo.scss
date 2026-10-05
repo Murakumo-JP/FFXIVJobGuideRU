@@ -328,21 +328,6 @@
 		vertical-align: middle;
 	}
 }
-.job_combo_root_skill,
-.job_combo_root_skill_first,
-.job_combo_root_skill_last {
-	p {
-		font-size: 12px;
-		font-weight: bold;
-		color: #585858;
-		width: 200px;
-	}
-}
-.job_combo_root {
-	display: table;
-	box-sizing: border-box;
-	min-height: 124px;
-}
 .job_combo_dragoon_04 {
 	display: grid;
 	grid-template:
@@ -365,13 +350,13 @@
 	}
 
 	.job_combo_skill_icon {
-		background: url(/Assets/images/main/skil_icon.png) no-repeat 4px 2px;
+		background: url($skill-icon) no-repeat 4px 2px;
 		background-size: 40px 40px;
 		width: 48px;
 		height: 48px;
 
 		&::after {
-			background: url(/Assets/images/main/skill_icon_on2x.png) no-repeat;
+			background: url($skill-icon-top2x) no-repeat;
 			background-size: 48px 48px;
 		}
 

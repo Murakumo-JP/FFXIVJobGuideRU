@@ -1,6 +1,7 @@
 {
 	"PVE Skill 01": {
 		"name": "Ruin",
+		"id": 17869,
 		"skill_icon": "1c74fa1688f3d89d6f5b972ce384df15f62e35d1.png",
 		"job_icon": "SCH",
 		"level": "1",
@@ -15,6 +16,7 @@
 	},
 	"PVE Skill 02": {
 		"name": "Bio",
+		"id": 17864,
 		"skill_icon": "93f61adcffc6644730a017347d91805359b52bdb.png",
 		"job_icon": "SCH",
 		"level": "2",
@@ -29,6 +31,7 @@
 	},
 	"PVE Skill 03": {
 		"name": "Physick",
+		"id": 190,
 		"skill_icon": "e51f309947cde0c36f3a0cd815ca01e268928eb6.png",
 		"job_icon": "SCH",
 		"level": "4",
@@ -43,6 +46,7 @@
 	},
 	"PVE Skill 04": {
 		"name": "Summon Eos",
+		"id": 17215,
 		"skill_icon": "7e5c03b72c4e181034da8121d6f2bdf2f1aa2a60.png",
 		"job_icon": "SCH",
 		"level": "4",
@@ -57,6 +61,7 @@
 	},
 	"PVE Skill 05": {
 		"name": "Resurrection",
+		"id": 173,
 		"skill_icon": "9e61ea15caf1f7c0e4b44943dcbee0178e61a9fd.png",
 		"job_icon": "ACN",
 		"level": "12",
@@ -71,6 +76,7 @@
 	},
 	"PVE Skill 06": {
 		"name": "Whispering Dawn",
+		"id": 16537,
 		"skill_icon": "161dc95f27e69fb5bd4caecfdeab022e3560193d.png",
 		"job_icon": "SCH",
 		"level": "20",
@@ -85,6 +91,7 @@
 	},
 	"PVE Skill 07": {
 		"name": "Bio II",
+		"id": 17865,
 		"skill_icon": "ea0a5e685172203ac73332f7e1690a5a89b25590.png",
 		"job_icon": "SCH",
 		"level": "26",
@@ -99,6 +106,7 @@
 	},
 	"PVE Skill 08": {
 		"name": "Adloquium",
+		"id": 185,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/2f077612950/",
 		"skill_icon": "07beea4eb1cc3f24533d045db5b694c939f3a3ac.png",
 		"job_icon": "SCH",
@@ -114,6 +122,7 @@
 	},
 	"PVE Skill 09": {
 		"name": "Succor",
+		"id": 186,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/3982b226cea/",
 		"skill_icon": "59ca7d9f2002ba3176f070a023bcfd8fa2129fb9.png",
 		"job_icon": "SCH",
@@ -129,6 +138,7 @@
 	},
 	"PVE Skill 10": {
 		"name": "Ruin II",
+		"id": 17870,
 		"skill_icon": "d6875ae1008a9e4b2d04562cff42646752e919c5.png",
 		"job_icon": "SCH",
 		"level": "38",
@@ -143,6 +153,7 @@
 	},
 	"PVE Skill 11": {
 		"name": "Fey Illumination",
+		"id": 16538,
 		"skill_icon": "6ed1ace8e31760fa3b042e6d27dac669668196b0.png",
 		"job_icon": "SCH",
 		"level": "40",
@@ -157,6 +168,7 @@
 	},
 	"PVE Skill 12": {
 		"name": "Aetherflow",
+		"id": 166,
 		"skill_icon": "175631d8db5550a7b74a9bc811c3781e083e393e.png",
 		"job_icon": "SCH",
 		"level": "45",
@@ -171,6 +183,7 @@
 	},
 	"PVE Skill 13": {
 		"name": "Energy Drain",
+		"id": 167,
 		"skill_icon": "92ea9227a8a09c62eb53852e2c26c0d6763a35c2.png",
 		"job_icon": "SCH",
 		"level": "45",
@@ -185,6 +198,7 @@
 	},
 	"PVE Skill 14": {
 		"name": "Lustrate",
+		"id": 189,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/c27e36893ce/",
 		"skill_icon": "a9adc8943d1d8402366c869416b7a9d5ef7fcf07.png",
 		"job_icon": "SCH",
@@ -200,6 +214,7 @@
 	},
 	"PVE Skill 15": {
 		"name": "Art of War",
+		"id": 16539,
 		"skill_icon": "a414b67652d67ff6707276156d1ce275f188ef07.png",
 		"job_icon": "SCH",
 		"level": "46",
@@ -214,6 +229,7 @@
 	},
 	"PVE Skill 16": {
 		"name": "Sacred Soil",
+		"id": 188,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/0479212014e/",
 		"skill_icon": "4c47bdf94dc6c3dcd9b303cfa42a08a5cfd13629.png",
 		"job_icon": "SCH",
@@ -229,6 +245,7 @@
 	},
 	"PVE Skill 17": {
 		"name": "Indomitability",
+		"id": 3583,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/983121f3ab5/",
 		"skill_icon": "7f80a5bd016eab7200c55dd8d1d6afb07361a0ca.png",
 		"job_icon": "SCH",
@@ -244,6 +261,7 @@
 	},
 	"PVE Skill 18": {
 		"name": "Broil",
+		"id": 3584,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e7491bf50a9/",
 		"skill_icon": "7203f797d2c3dd4148a8cb5fe510c1cfd1ac46a8.png",
 		"job_icon": "SCH",
@@ -259,6 +277,7 @@
 	},
 	"PVE Skill 19": {
 		"name": "Deployment Tactics",
+		"id": 3585,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/d97b37c19da/",
 		"skill_icon": "307e3a65fff1e38b28235509dd392323642d6965.png",
 		"job_icon": "SCH",
@@ -274,6 +293,7 @@
 	},
 	"PVE Skill 20": {
 		"name": "Emergency Tactics",
+		"id": 3586,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/8d033a705ce/",
 		"skill_icon": "fbfaa6c46fac537aec9d2903ec64d4f64fc54557.png",
 		"job_icon": "SCH",
@@ -289,6 +309,7 @@
 	},
 	"PVE Skill 21": {
 		"name": "Dissipation",
+		"id": 3587,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/51612260b5d/",
 		"skill_icon": "fffbdbce557a09ee3a50f541fac07d432bfc7c89.png",
 		"job_icon": "SCH",
@@ -304,6 +325,7 @@
 	},
 	"PVE Skill 22": {
 		"name": "Excogitation",
+		"id": 7434,
 		"skill_icon": "b46ada85c48a81940953f46eaaba05f1c2f5cfdd.png",
 		"job_icon": "SCH",
 		"level": "64",
@@ -318,6 +340,7 @@
 	},
 	"PVE Skill 23": {
 		"name": "Broil II",
+		"id": 7435,
 		"skill_icon": "d8d8172feffed42f80d335bb7bedb14cc90fbd56.png",
 		"job_icon": "SCH",
 		"level": "64",
@@ -332,6 +355,7 @@
 	},
 	"PVE Skill 24": {
 		"name": "Chain Stratagem",
+		"id": 7436,
 		"skill_icon": "2f5f538d79932e3bfb3bd5c72af6f13987aa3e6d.png",
 		"job_icon": "SCH",
 		"level": "66",
@@ -346,6 +370,7 @@
 	},
 	"PVE Skill 25": {
 		"name": "Aetherpact",
+		"id": 7437,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/7dfe6b513d8/",
 		"skill_icon": "eb866b142bd93d46ffa7809e1092aefc48f48f3c.png",
 		"job_icon": "SCH",
@@ -361,6 +386,7 @@
 	},
 	"PVE Skill 26": {
 		"name": "Dissolve Union",
+		"id": 7869,
 		"skill_icon": "10602136009d5a92a005f0bd127a1a9ec8c1691a.png",
 		"job_icon": "SCH",
 		"level": "70",
@@ -375,6 +401,7 @@
 	},
 	"PVE Skill 27": {
 		"name": "Biolysis",
+		"id": 16540,
 		"skill_icon": "e77ebe8644e35de5bc2d67a4c8365d6d726c9ca4.png",
 		"job_icon": "SCH",
 		"level": "72",
@@ -389,6 +416,7 @@
 	},
 	"PVE Skill 28": {
 		"name": "Broil III",
+		"id": 16541,
 		"skill_icon": "1f85b58d71471a33c2d35db849b20a681bfd5b56.png",
 		"job_icon": "SCH",
 		"level": "72",
@@ -403,6 +431,7 @@
 	},
 	"PVE Skill 29": {
 		"name": "Recitation",
+		"id": 16542,
 		"skill_icon": "b1be794db381c20399faf7dec80b7f64eaba2e61.png",
 		"job_icon": "SCH",
 		"level": "74",
@@ -417,6 +446,7 @@
 	},
 	"PVE Skill 30": {
 		"name": "Fey Blessing",
+		"id": 16543,
 		"skill_icon": "e37b65935298898f61fd4b12a293998ba1258be5.png",
 		"job_icon": "SCH",
 		"level": "76",
@@ -431,6 +461,7 @@
 	},
 	"PVE Skill 31": {
 		"name": "Summon Seraph",
+		"id": 16545,
 		"skill_icon": "ff070d67e4c75ed8bb06de1f577979e8c69c8ad1.png",
 		"job_icon": "SCH",
 		"level": "80",
@@ -445,6 +476,7 @@
 	},
 	"PVE Skill 32": {
 		"name": "Consolation",
+		"id": 16546,
 		"skill_icon": "86ce58393104f45f36ef15d9d358a684c4013df4.png",
 		"job_icon": "SCH",
 		"level": "80",
@@ -459,6 +491,7 @@
 	},
 	"PVE Skill 33": {
 		"name": "Broil IV",
+		"id": 25865,
 		"skill_icon": "ec2463dfb6a287aaf59d57acf7620690fb92606e.png",
 		"job_icon": "SCH",
 		"level": "82",
@@ -473,6 +506,7 @@
 	},
 	"PVE Skill 34": {
 		"name": "Art of War II",
+		"id": 25866,
 		"skill_icon": "ec9b2021f0cbe6165173334f9081ce3be52c92d2.png",
 		"job_icon": "SCH",
 		"level": "82",
@@ -487,6 +521,7 @@
 	},
 	"PVE Skill 35": {
 		"name": "Protraction",
+		"id": 25867,
 		"skill_icon": "4960cc6d3b31acfe657bfbdca97021bc546aada0.png",
 		"job_icon": "SCH",
 		"level": "86",
@@ -501,6 +536,7 @@
 	},
 	"PVE Skill 36": {
 		"name": "Expedient",
+		"id": 25868,
 		"skill_icon": "b9eb7f8aed74850abe24b753549fc676af9db2c8.png",
 		"job_icon": "SCH",
 		"level": "90",
@@ -515,6 +551,7 @@
 	},
 	"PVE Skill 37": {
 		"name": "Baneful Impaction",
+		"id": 37012,
 		"skill_icon": "16ca1e2b66efb797ca63394b5f856ab89a709acf.png",
 		"job_icon": "SCH",
 		"level": "92",
@@ -529,6 +566,7 @@
 	},
 	"PVE Skill 38": {
 		"name": "Concitation",
+		"id": 37013,
 		"skill_icon": "f124b01882a45f5befe10fa82964fc7fb7895e8c.png",
 		"job_icon": "SCH",
 		"level": "96",
@@ -543,6 +581,7 @@
 	},
 	"PVE Skill 39": {
 		"name": "Seraphism",
+		"id": 37014,
 		"skill_icon": "3660e0317ed2aba78b7cfdc526dd174efa94d88d.png",
 		"job_icon": "SCH",
 		"level": "100",
@@ -557,6 +596,7 @@
 	},
 	"PVE Skill 40": {
 		"name": "Manifestation",
+		"id": 37015,
 		"skill_icon": "7244131eba68b8042f1461bf4100deaebe2a7c0d.png",
 		"job_icon": "SCH",
 		"level": "100",
@@ -571,6 +611,7 @@
 	},
 	"PVE Skill 41": {
 		"name": "Accession",
+		"id": 37016,
 		"skill_icon": "c859b1042c024b57c646316f1e0e93ff5e5f90fb.png",
 		"job_icon": "SCH",
 		"level": "100",
@@ -708,6 +749,7 @@
 	"Steady": "Приказ питомцу не атаковать до тех пор, пока ему напрямую не приказано.",
 	"Trait 01": {
 		"name": "Maim and Mend",
+		"id": 66,
 		"skill_icon": "688b9e979396925fa8a996968547e39f057ff539.png",
 		"job_icon": "ACN",
 		"level": "20",
@@ -715,6 +757,7 @@
 	},
 	"Trait 02": {
 		"name": "Corruption Mastery",
+		"id": 324,
 		"skill_icon": "fd4ddaac3d4898d0689365d5038649a6e0beb2f5.png",
 		"job_icon": "SCH",
 		"level": "26",
@@ -722,6 +765,7 @@
 	},
 	"Trait 03": {
 		"name": "Maim and Mend II",
+		"id": 69,
 		"skill_icon": "f0493aff0cf655167be05890774732eebed2b598.png",
 		"job_icon": "ACN",
 		"level": "40",
@@ -729,6 +773,7 @@
 	},
 	"Trait 04": {
 		"name": "Broil Mastery",
+		"id": 214,
 		"eorzeadb": "https://eu.finalfantasyxiv.com/lodestone/playguide/db/quest/e7491bf50a9/",
 		"skill_icon": "1ef0bbff5fb269b52268453973e2b7fa93f67781.png",
 		"job_icon": "SCH",
@@ -737,6 +782,7 @@
 	},
 	"Trait 05": {
 		"name": "Broil Mastery II",
+		"id": 184,
 		"skill_icon": "36b142f4c46cc7055a73a4a440e4dc84f36d2292.png",
 		"job_icon": "SCH",
 		"level": "64",
@@ -744,6 +790,7 @@
 	},
 	"Trait 06": {
 		"name": "Corruption Mastery II",
+		"id": 311,
 		"skill_icon": "ff3a29ed186d5e46a9a2abbb5a84d771b75de7d0.png",
 		"job_icon": "SCH",
 		"level": "72",
@@ -751,6 +798,7 @@
 	},
 	"Trait 07": {
 		"name": "Broil Mastery III",
+		"id": 312,
 		"skill_icon": "c9a4609b0f6fee0a67c7a77da9c65dc0131c0e71.png",
 		"job_icon": "SCH",
 		"level": "72",
@@ -758,6 +806,7 @@
 	},
 	"Trait 08": {
 		"name": "Enhanced Sacred Soil",
+		"id": 313,
 		"skill_icon": "d4ca0ba1f12bb4295af4b02e6cf5c14b1662478c.png",
 		"job_icon": "SCH",
 		"level": "78",
@@ -765,6 +814,7 @@
 	},
 	"Trait 09": {
 		"name": "Broil Mastery IV",
+		"id": 491,
 		"skill_icon": "eb3e1565b48bbfe93ed55ba61fec2a20634eb6c4.png",
 		"job_icon": "SCH",
 		"level": "82",
@@ -772,6 +822,7 @@
 	},
 	"Trait 10": {
 		"name": "Art of War Mastery",
+		"id": 492,
 		"skill_icon": "2f128fa215622f4f48891b6f590a043b84916c85.png",
 		"job_icon": "SCH",
 		"level": "82",
@@ -779,6 +830,7 @@
 	},
 	"Trait 11": {
 		"name": "Enhanced Healing Magic",
+		"id": 493,
 		"skill_icon": "a24e5cd23307348ea0119062908b5153b2b84ca2.png",
 		"job_icon": "SCH",
 		"level": "85",
@@ -786,6 +838,7 @@
 	},
 	"Trait 12": {
 		"name": "Enhanced Deployment Tactics",
+		"id": 494,
 		"skill_icon": "588edc8bc960ee211bf98b7c7a7d4c475b8aa12e.png",
 		"job_icon": "SCH",
 		"level": "88",
@@ -793,6 +846,7 @@
 	},
 	"Trait 13": {
 		"name": "Enhanced Chain Stratagem",
+		"id": 627,
 		"skill_icon": "d7db48ae39f61343dfe40dca1213dfc7cafc7cac.png",
 		"job_icon": "SCH",
 		"level": "92",
@@ -800,6 +854,7 @@
 	},
 	"Trait 14": {
 		"name": "Tactician's Mastery",
+		"id": 656,
 		"skill_icon": "faebcc03aa187f6f45319b41b7336431d1722fc4.png",
 		"job_icon": "SCH",
 		"level": "94",
@@ -807,6 +862,7 @@
 	},
 	"Trait 15": {
 		"name": "Succor Mastery",
+		"id": 628,
 		"skill_icon": "4da1e7f4705cf4f9818dfa7d28dc35814f7b6291.png",
 		"job_icon": "SCH",
 		"level": "96",
@@ -814,6 +870,7 @@
 	},
 	"Trait 16": {
 		"name": "Enhanced Recitation",
+		"id": 629,
 		"skill_icon": "3dab3b88f599e0456c01548bf94c8bd9895ee004.png",
 		"job_icon": "SCH",
 		"level": "98",
@@ -821,6 +878,7 @@
 	},
 	"PVP Skill 01": {
 		"name": "Broil IV",
+		"id": 29231,
 		"skill_icon": "f6608e86b2f0526d4f9fd593eac7cb7e8a674668.png",
 		"classification": "Заклинание",
 		"cast": "1.44 сек.",
@@ -832,6 +890,7 @@
 	},
 	"PVP Skill 02": {
 		"name": "Adloquium",
+		"id": 29232,
 		"skill_icon": "22a3932c3e8625b941a6d65c7bb1985e2244abe7.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -843,6 +902,7 @@
 	},
 	"PVP Skill 03": {
 		"name": "Biolysis",
+		"id": 29233,
 		"skill_icon": "f1a089378baca67848f466998eaf675ca65b241f.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -854,6 +914,7 @@
 	},
 	"PVP Skill 04": {
 		"name": "Deployment Tactics",
+		"id": 29234,
 		"skill_icon": "ba157dccbbb4761461ca40b5e03c2a882498cdf3.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -865,6 +926,7 @@
 	},
 	"PVP Skill 05": {
 		"name": "Chain Stratagem",
+		"id": 29716,
 		"skill_icon": "23a8a3db9390a92f29e6df238044537361682fab.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -876,6 +938,7 @@
 	},
 	"PVP Skill 06": {
 		"name": "Expedient",
+		"id": 29236,
 		"skill_icon": "5f98fdab5e9b3c01f61588afd6f60ceeb8fc7966.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -887,6 +950,7 @@
 	},
 	"PVP Skill 07": {
 		"name": "Summon Seraph",
+		"id": 29237,
 		"skill_icon": "44de61f43a848bff2f6c8ee8dd37df66746e12d2.png",
 		"classification": "Способность",
 		"cast": "Мгновенная",
@@ -898,6 +962,7 @@
 	},
 	"PVP Skill 08": {
 		"name": "Seraphic Halo",
+		"id": 41500,
 		"skill_icon": "7f4ce8d90ce96634d7c028ef2990dfc9f61b8417.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -909,6 +974,7 @@
 	},
 	"PVP Skill 09": {
 		"name": "Accession",
+		"id": 41501,
 		"skill_icon": "d8137bd2178a9071507f4d74e4ce4d1282cacc4c.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -920,6 +986,7 @@
 	},
 	"PVP Skill 10": {
 		"name": "Seraphic Veil",
+		"id": 29240,
 		"skill_icon": "fe17c3c2cb39842c9bfe50d5839d2b6a93075ef9.png",
 		"classification": "Заклинание",
 		"cast": "Мгновенная",
@@ -929,8 +996,9 @@
 		"radius": "0y",
 		"content": "Восстанавливает HP цели.<br/>Сила лечения: 6,000<br/>Дополнительный эффект: создаёт магический барьер, который поглощает получаемый урон, равный равный силе лечения 6,000<br/>Продолжительность: 10 сек.<br/><br/>※Это умение нельзя поместить на хотбар."
 	},
-	"PVP Skill LB1": {
+	"PVP Skill LB 01": {
 		"name": "Seraphism",
+		"id": 41502,
 		"skill_icon": "4718502b9fd4f9ed2848fb3cbcb42015f7d70440.png",
 		"cast": "Мгновенная",
 		"recast": "10 сек.",
@@ -938,5 +1006,22 @@
 		"radius_img": "R2",
 		"radius": "30y",
 		"content": "Накладывает эффект Seraphism и Recitation.<br/>Эффект Seraphism: Broil IV улучшается до Seraphic Halo и Seraphism улучшается до Accession<br/>Продолжительность: 20 сек.<br/>Эффект Recitation: увеличивает силу умения Adloquium и эффекты Biolysis<br/>Продолжительность: 20 сек.<br/>Дополнительный эффект: снимает с персонажа или с ближайшего сопартийца один статусный эффект, который может быть снят Purify. Если статусный эффект не был снят, создает барьер, который обнуляет следующий статусный эффект, который может быть снят Purify<br/>Продолжительность: 20 сек.<br/>Может быть выполнено только тогда, когда шкала лимит брейка (limit gauge) заполнена.<br/>Время зарядки шкалы: 90 сек.<br/><br/>※ Умением меняется на Accession после использования."
+	},
+	"_menu": {
+		"pve": [
+		{"anchor": "anchor_onlyaction", "label": "Активные умения", "list": {"prefix": "pve_action", "name": "PVE Skill"}},
+		{"anchor": "anchor_pet_eos", "label": "Умения феи"},
+		{"anchor": "anchor_pet_instruction", "label": "Умения питомца"},
+		{"anchor": "anchor_rollcommonaction", "label": "Ролевые умения", "list": {"prefix": "healer_action", "name": "Role Action", "role": "Healer"}},
+		{"anchor": "anchor_onlytrait", "label": "Пассивные умения"},
+		{"anchor": "anchor_rollcommontrait", "label": "Ролевые пассивные умения"},
+		{"anchor": "anchor_hud", "label": "Шкала профессии"}
+	],
+		"pvp": [
+		{"anchor": "anchor_pvp_onlyaction", "label": "Активные умения", "list": {"prefix": "pvp_action", "name": "PVP Skill"}},
+		{"anchor": "anchor_pvp_limitbreak", "label": "Limit Break", "list": {"prefix": "pvplimitbreakaction", "name": "PVP Skill LB"}},
+		{"anchor": "anchor_pvp_commononlyaction", "label": "Общие умения", "list": {"prefix": "pvpcommmononlyaction", "name": "PVP Actions"}},
+		{"anchor": "anchor_pvp_roleaction", "label": "PvP Ролевые умения", "list": {"prefix": "pvproleaction", "name": "PVP Role Action", "start": 4, "count": 3}}
+	]
 	}
 }

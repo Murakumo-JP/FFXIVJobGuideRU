@@ -6,12 +6,14 @@ $healer-color: #346624;
 $dps-color: #732828;
 $craft-color: #4e328f;
 $gathering-color: #8f7832;
+$bst-color: #0098a6;
 
 $tank-AltColor: #545e99;
 $healer-AltColor: #548046;
 $dps-AltColor: #8c4d4d;
 $craft-AltColor: #695499;
 $gathering-AltColor: #998854;
+$bst-AltColor: #33b8c4;
 
 $font: sans-serif;
 $color-set-1: #191919;
@@ -31,11 +33,13 @@ $bg: #1b1b1b;
 	--dps-color: #{$dps-color};
 	--craft-color: #{$craft-color};
 	--gathering-color: #{$gathering-color};
+	--bst_color-color: #{$bst-color};
 	--tank-AltColor: #{$tank-AltColor};
 	--healer-AltColor: #{$healer-AltColor};
 	--dps-AltColor: #{$dps-AltColor};
 	--craft-AltColor: #{$craft-AltColor};
 	--gathering-AltColor: #{$gathering-AltColor};
+	--bst_color-AltColor: #{$bst-AltColor};
 	--font: #{$font};
 	--color-set-1: #{$color-set-1};
 	--color-set-2: #{$color-set-2};
